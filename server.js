@@ -122,6 +122,22 @@ app.get('/api/filter-options', (req, res) => {
   }
 });
 
+app.get('/api/card/:cardID', (req, res) => {
+    const requestedID = req.params.cardID;
+    console.log(`Request received for card ID: ${requestedID}`);
+
+    const foundCard = allCards.find(card => card.cardIDs.includes(requestedID));
+    console.log(foundCard)
+
+    if (foundCard) {
+        console.log(`Found card: ${foundCard.name}`);
+        res.json(foundCard);
+    } else {
+        console.log(`Card ID ${requestedID} not found.`);
+        res.status(404).json({ message: `Card with ID ${requestedID} not found.` });
+    }
+});
+
 app.listen(PORT, () => {
     console.log(`Backend server is running on http://localhost:${PORT}`);
 });
