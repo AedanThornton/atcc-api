@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 // Load Card Data from JSON files
 let allCards = [];
-const dataDirectory = path.join(__dirname, 'data');
+const dataDirectory = path.join(__dirname, 'data/JSON');
 
 try {
     console.log(`Reading card data from directory: ${dataDirectory}`);
