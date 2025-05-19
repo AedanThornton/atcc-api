@@ -22,7 +22,7 @@ def parseRecipes(recipes_string):
             ingredient_list = []
             for ingredient in ingredients.split(','):
                 new_ingredient = {}
-                ingredient_match = re.compile(r'(\d)x\s?(.*)').match(ingredient)
+                ingredient_match = re.compile(r'(\d+)x\s?(.*)').match(ingredient)
 
                 if ingredient_match:
                     count, name = ingredient_match.groups()

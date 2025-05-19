@@ -174,6 +174,11 @@
             "type": "resource"
           },
           {
+            "count": 12,
+            "name": "Armament",
+            "type": "resource"
+          },
+          {
             "count": 5,
             "name": "Muscle Cluster",
             "type": "resource"
@@ -187,7 +192,18 @@
       },
       {
         "name": "Smelted Aspis",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 17,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Smelted Xiphos",
@@ -195,6 +211,16 @@
           {
             "count": 4,
             "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 18,
+            "name": "Raw Ambrosia",
             "type": "resource"
           }
         ]
@@ -318,6 +344,11 @@
         "name": "Morpheus Module",
         "ingredients": [
           {
+            "count": 14,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Muscle Cluster",
             "type": "resource"
@@ -331,11 +362,33 @@
       },
       {
         "name": "Sail Camo",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 21,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 27,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Tackle Sheath",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 19,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 21,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -538,6 +591,11 @@
         "name": "Naval Ram",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
             "count": 5,
             "name": "Infused Mechanism",
             "type": "resource"
@@ -669,6 +727,11 @@
             "type": "resource"
           },
           {
+            "count": 10,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Calcified Knuckle Bone",
             "type": "resource"
@@ -678,6 +741,11 @@
       {
         "name": "Whalebone Bident",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "Trireme",
+            "type": "resource"
+          },
           {
             "count": 3,
             "name": "Calcified Knuckle Bone",
@@ -719,6 +787,11 @@
         "name": "MWE-6D \"Sharkscourge\"",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
             "count": 3,
             "name": "Calcified Knuckle Bone",
             "type": "resource"
@@ -731,6 +804,11 @@
           {
             "count": 8,
             "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Raw Ambrosia",
             "type": "resource"
           },
           {
@@ -822,6 +900,11 @@
         "name": "Safety Rope",
         "ingredients": [
           {
+            "count": 10,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Raw Ambrosia",
             "type": "resource"
@@ -878,6 +961,11 @@
           {
             "count": 8,
             "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Monument",
             "type": "resource"
           },
           {
@@ -938,19 +1026,77 @@
     "recipes": [
       {
         "name": "Pillarmace",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 24,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Muscle Cluster",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Hekatomb",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 28,
+            "name": "Armament",
+            "type": "resource"
+          },
+          {
+            "count": 38,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Rebound Hammer",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 26,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 28,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Calcified Knuckle Bone",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Gigan",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 29,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 33,
+            "name": "Muscle Cluster",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Hekaton Core",
@@ -1012,6 +1158,11 @@
           {
             "count": 5,
             "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Raw Ambrosia",
             "type": "resource"
           }
         ]
@@ -1093,6 +1244,11 @@
         "name": "Instinct Linothorax",
         "ingredients": [
           {
+            "count": 10,
+            "name": "Armament",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Fleshy Mantle",
             "type": "resource"
@@ -1105,6 +1261,11 @@
           {
             "count": 5,
             "name": "Armament",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Infused Mechanism",
             "type": "resource"
           }
         ]
@@ -1142,6 +1303,21 @@
         "name": "Maze Rake",
         "ingredients": [
           {
+            "count": 20,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Armament",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Fear Essence",
             "type": "resource"
@@ -1152,19 +1328,55 @@
         "name": "Whaler Javelin",
         "ingredients": [
           {
+            "count": 15,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Armament",
+            "type": "resource"
+          },
+          {
+            "count": 27,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Infused Mechanism",
             "type": "resource"
           }
         ]
       },
       {
         "name": "Hull Bow",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 38,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Fleshy Mantle",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Ariadne's Hello",
         "ingredients": [
+          {
+            "count": 19,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Infused Mechanism",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Labyrinthauros Core",
@@ -1222,6 +1434,21 @@
         "name": "Mazemmer",
         "ingredients": [
           {
+            "count": 13,
+            "name": "Armament",
+            "type": "resource"
+          },
+          {
+            "count": 65,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 24,
+            "name": "Infused Mechanism",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Labyrinthauros Core",
             "type": "resource"
@@ -1237,6 +1464,21 @@
         "name": "Gigas",
         "ingredients": [
           {
+            "count": 28,
+            "name": "Monument",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Muscle Cluster",
+            "type": "resource"
+          },
+          {
+            "count": 25,
+            "name": "Calcified Knuckle Bone",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Hekaton Core",
             "type": "resource"
@@ -1251,6 +1493,21 @@
       {
         "name": "Ariadne's Goodbye",
         "ingredients": [
+          {
+            "count": 25,
+            "name": "Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Raw Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 23,
+            "name": "Fleshy Mantle",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Fear Essence",
@@ -1791,6 +2048,11 @@
         "name": "Stone Relief Armor",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Supersolid Relief Mass",
             "type": "resource"
@@ -1803,6 +2065,11 @@
           {
             "count": 7,
             "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Violent Ambrosia",
             "type": "resource"
           }
         ]
@@ -1838,6 +2105,11 @@
         "name": "Chain Whip",
         "ingredients": [
           {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Black Chain",
             "type": "resource"
@@ -1862,6 +2134,16 @@
       {
         "name": "Fireboat",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Chimeric Tar",
@@ -1888,6 +2170,11 @@
         "name": "Relief Hammer",
         "ingredients": [
           {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Black Chain",
             "type": "resource"
@@ -1897,6 +2184,16 @@
       {
         "name": "Dory-Like Spear",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Chimeric Tar",
@@ -1935,6 +2232,11 @@
         "name": "Metasword",
         "ingredients": [
           {
+            "count": 10,
+            "name": "Fear Essence",
+            "type": "resource"
+          },
+          {
             "count": 5,
             "name": "War Machine",
             "type": "resource"
@@ -1952,6 +2254,11 @@
           {
             "count": 5,
             "name": "Fear Essence",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "War Trireme",
             "type": "resource"
           }
         ]
@@ -2031,6 +2338,11 @@
             "type": "resource"
           },
           {
+            "count": 13,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Supersolid Relief Mass",
             "type": "resource"
@@ -2043,6 +2355,11 @@
           {
             "count": 7,
             "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 40,
+            "name": "Violent Ambrosia",
             "type": "resource"
           }
         ]
@@ -2077,6 +2394,16 @@
         "name": "Spartan War Axe",
         "ingredients": [
           {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 8,
             "name": "Cyclopean Metal",
             "type": "resource"
@@ -2085,7 +2412,18 @@
       },
       {
         "name": "Gastraphetes",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -2121,6 +2459,11 @@
             "count": 6,
             "name": "Relief",
             "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Violent Ambrosia",
+            "type": "resource"
           }
         ]
       },
@@ -2130,6 +2473,11 @@
           {
             "count": 5,
             "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Violent Ambrosia",
             "type": "resource"
           },
           {
@@ -2204,6 +2552,16 @@
             "type": "resource"
           },
           {
+            "count": 12,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Black Chain",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Cyclopean Tooth",
             "type": "resource"
@@ -2232,7 +2590,18 @@
       },
       {
         "name": "Cyclopean Knives",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Cyclopean Linothorax",
@@ -2240,6 +2609,11 @@
           {
             "count": 9,
             "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Violent Ambrosia",
             "type": "resource"
           },
           {
@@ -2279,6 +2653,11 @@
         "name": "Cyclopean Visor",
         "ingredients": [
           {
+            "count": 20,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Black Chain",
             "type": "resource"
@@ -2289,6 +2668,21 @@
         "name": "Cyclopean Khopesh",
         "ingredients": [
           {
+            "count": 14,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Cyclopean Metal",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Cyclopean Tooth",
             "type": "resource"
@@ -2297,7 +2691,23 @@
       },
       {
         "name": "Cyclopean Forge Hammer",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 20,
+            "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 106,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Cyclopean Metal",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -2330,6 +2740,11 @@
       {
         "name": "Lethe Guard",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "War Trireme",
+            "type": "resource"
+          },
           {
             "count": 5,
             "name": "Cyclopean Metal",
@@ -2429,6 +2844,11 @@
             "type": "resource"
           },
           {
+            "count": 13,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Black Chain",
             "type": "resource"
@@ -2486,6 +2906,16 @@
         "name": "Needle Sword",
         "ingredients": [
           {
+            "count": 16,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 32,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Supersolid Relief Mass",
             "type": "resource"
@@ -2495,6 +2925,16 @@
       {
         "name": "Katarus",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 6,
             "name": "Cyclopean Metal",
@@ -2506,6 +2946,16 @@
         "name": "Vaulting Spear",
         "ingredients": [
           {
+            "count": 10,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 8,
             "name": "Cyclopean Metal",
             "type": "resource"
@@ -2515,6 +2965,11 @@
       {
         "name": "Maulmace",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "War Trireme",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Black Chain",
@@ -2658,6 +3113,11 @@
         "name": "Ambramat Armor",
         "ingredients": [
           {
+            "count": 12,
+            "name": "War Trireme",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Relief",
             "type": "resource"
@@ -2678,6 +3138,11 @@
             "type": "resource"
           },
           {
+            "count": 13,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Supersolid Relief Mass",
             "type": "resource"
@@ -2687,6 +3152,11 @@
       {
         "name": "Muck Armor",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "War Trireme",
+            "type": "resource"
+          },
           {
             "count": 5,
             "name": "Violent Ambrosia",
@@ -2705,6 +3175,11 @@
           {
             "count": 9,
             "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Violent Ambrosia",
             "type": "resource"
           },
           {
@@ -2746,6 +3221,11 @@
         "name": "Chimeric Xiphos",
         "ingredients": [
           {
+            "count": 17,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Supersolid Relief Mass",
             "type": "resource"
@@ -2754,7 +3234,18 @@
       },
       {
         "name": "Boom Spear",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 14,
+            "name": "War Machine",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Chimeric Tar",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Grand Ramaxe",
@@ -2762,6 +3253,11 @@
           {
             "count": 7,
             "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Black Chain",
             "type": "resource"
           },
           {
@@ -2774,6 +3270,21 @@
       {
         "name": "Muck Bludgeon",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Chimeric Tar",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Chimera Metastasios Core",
@@ -2789,6 +3300,11 @@
       {
         "name": "Dragon Bellow",
         "ingredients": [
+          {
+            "count": 43,
+            "name": "War Trireme",
+            "type": "resource"
+          },
           {
             "count": 6,
             "name": "Chimeric Tar",
@@ -3034,6 +3550,11 @@
           {
             "count": 5,
             "name": "Retractible Mechanism",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Reliefshell Fragment",
             "type": "resource"
           }
         ]
@@ -3617,6 +4138,11 @@
         "name": "Exoaegis",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Frozen Ambrosia",
             "type": "resource"
@@ -3971,12 +4497,22 @@
             "count": 7,
             "name": "Daedalus Makina",
             "type": "resource"
+          },
+          {
+            "count": 18,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
           }
         ]
       },
       {
         "name": "Argocryptex Beta",
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
           {
             "count": 8,
             "name": "Frozen Ambrosia",
@@ -3991,7 +4527,18 @@
       },
       {
         "name": "Argocryptex Gamma",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -4023,6 +4570,11 @@
         "name": "Believer Vestment",
         "ingredients": [
           {
+            "count": 18,
+            "name": "Hyperboread Alloy",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Clothflesh",
             "type": "resource"
@@ -4031,7 +4583,18 @@
       },
       {
         "name": "Erratic Insignitor",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 16,
+            "name": "Hyperboread Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 20,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -4061,11 +4624,37 @@
     "recipes": [
       {
         "name": "Sunlight Gun",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 25,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 25,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Razorclaw",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Lightsword",
         "ingredients": [
+          {
+            "count": 23,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 20,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 2,
             "name": "Eyes Cluster",
@@ -4084,6 +4673,21 @@
           {
             "count": 8,
             "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Razorclaw",
             "type": "resource"
           }
         ]
@@ -4118,6 +4722,11 @@
         "name": "Shade Shield",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Clothflesh",
             "type": "resource"
@@ -4143,6 +4752,11 @@
             "type": "resource"
           },
           {
+            "count": 12,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 3,
             "name": "Razorclaw",
             "type": "resource"
@@ -4152,6 +4766,16 @@
       {
         "name": "Exiles Garb",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 3,
             "name": "Icarian Feather",
@@ -4187,11 +4811,43 @@
     "recipes": [
       {
         "name": "Shade Mace",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 22,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 22,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Razorclaw",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Probability Blade",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 25,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 37,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 18,
+            "name": "Clothflesh",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -4302,6 +4958,11 @@
         "name": "Oracowl",
         "ingredients": [
           {
+            "count": 14,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Clothflesh",
             "type": "resource"
@@ -4357,15 +5018,52 @@
     "recipes": [
       {
         "name": "Echo Eaters",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 21,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 25,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Clothflesh",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Beholder Fists",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 26,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Eyes Cluster",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Time's Arrow",
         "ingredients": [
+          {
+            "count": 18,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Frozen Ambrosia",
@@ -4380,6 +5078,11 @@
       },
       {
         "ingredients": [
+          {
+            "count": 10,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
           {
             "count": 9,
             "name": "Eyes Cluster",
@@ -4585,6 +5288,21 @@
         "name": "Devolver/Descender",
         "ingredients": [
           {
+            "count": 16,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 27,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Razorclaw",
             "type": "resource"
@@ -4600,6 +5318,16 @@
         "name": "Spiral Whip/Spiral Buckler",
         "ingredients": [
           {
+            "count": 19,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Icarian Feather",
             "type": "resource"
@@ -4608,7 +5336,23 @@
       },
       {
         "name": "Spiral Mace/Spiral Spear",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 27,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 31,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Razorclaw",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -4731,6 +5475,21 @@
         "name": "Horseskull Pauldron",
         "ingredients": [
           {
+            "count": 22,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 37,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Sunburned Skull",
             "type": "resource"
@@ -4740,6 +5499,16 @@
       {
         "name": "Enigma of Transformation",
         "ingredients": [
+          {
+            "count": 16,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 34,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 2,
             "name": "Writhing Tentacle",
@@ -4785,12 +5554,7 @@
           },
           {
             "count": 6,
-            "name": "Sunburned Skull",
-            "type": "resource"
-          },
-          {
-            "count": 1,
-            "name": "Sun Descendant Core",
+            "name": "Sunburned Skull -OR- 1x Sun Descendant Core",
             "type": "resource"
           }
         ]
@@ -4801,6 +5565,11 @@
           {
             "count": 9,
             "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 22,
+            "name": "Clothflesh",
             "type": "resource"
           },
           {
@@ -4824,6 +5593,21 @@
         "name": "Sunreach",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Eyes Cluster",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Razorclaw",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Icarian Harpy Core",
             "type": "resource"
@@ -4844,8 +5628,18 @@
         "name": "Extinction Cestus",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
             "count": 8,
             "name": "Eyes Cluster",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Icarian Feather",
             "type": "resource"
           },
           {
@@ -4858,6 +5652,21 @@
       {
         "name": "Black Ice Sword",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 20,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 32,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Writhing Tentacle",
@@ -4873,6 +5682,16 @@
       {
         "name": "Daedalus Flight",
         "ingredients": [
+          {
+            "count": 17,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Clothflesh",
+            "type": "resource"
+          },
           {
             "count": 8,
             "name": "Icarian Feather",
@@ -4924,7 +5743,18 @@
     "recipes": [
       {
         "name": "Aristeia Inducer",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 12,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Homeric Engine",
@@ -4947,6 +5777,11 @@
           {
             "count": 9,
             "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Frozen Ambrosia",
             "type": "resource"
           }
         ]
@@ -5749,7 +6584,18 @@
     "recipes": [
       {
         "name": "Glassword",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Golden Sword",
@@ -5792,6 +6638,11 @@
           {
             "count": 4,
             "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Mutable Ambrosia",
             "type": "resource"
           }
         ]
@@ -5875,6 +6726,11 @@
       {
         "ingredients": [
           {
+            "count": 15,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Wish Embryo",
             "type": "resource"
@@ -5945,11 +6801,32 @@
       },
       {
         "name": "Debtguard",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 10,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Walking Tools",
         "ingredients": [
+          {
+            "count": 10,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 13,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 3,
             "name": "Wish Embryo",
@@ -5987,6 +6864,11 @@
         "name": "Nabuchobuldozer",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Mutable Ambrosia",
             "type": "resource"
@@ -6001,6 +6883,11 @@
       {
         "name": "Sword of Molten Wealth",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 6,
             "name": "Living Gold",
@@ -6019,6 +6906,16 @@
           {
             "count": 3,
             "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Mutable Ambrosia",
             "type": "resource"
           },
           {
@@ -6058,6 +6955,11 @@
         "name": "Golden Dawn",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Cursed Bloatsack",
             "type": "resource"
@@ -6076,6 +6978,11 @@
             "count": 4,
             "name": "Imperial Scroll",
             "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
           }
         ]
       },
@@ -6090,6 +6997,11 @@
           {
             "count": 4,
             "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Mutable Ambrosia",
             "type": "resource"
           },
           {
@@ -6163,6 +7075,11 @@
       {
         "name": "Auric Bank",
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 9,
             "name": "Mutable Ambrosia",
@@ -6260,6 +7177,11 @@
         "name": "Auric Kalaharis",
         "ingredients": [
           {
+            "count": 17,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 2,
             "name": "Cursed Bloatsack",
             "type": "resource"
@@ -6309,11 +7231,32 @@
     "recipes": [
       {
         "name": "Wingblade",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 21,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Alchemic Lance",
         "ingredients": [
+          {
+            "count": 13,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 6,
             "name": "Living Gold",
@@ -6330,6 +7273,11 @@
             "type": "resource"
           },
           {
+            "count": 10,
+            "name": "Living Gold",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Golden Bough",
             "type": "resource"
@@ -6338,6 +7286,11 @@
       },
       {
         "ingredients": [
+          {
+            "count": 24,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 8,
             "name": "Cursed Bloatsack",
@@ -6477,6 +7430,11 @@
         "name": "Antiwish Armor",
         "ingredients": [
           {
+            "count": 15,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Old Irem Fragment",
             "type": "resource"
@@ -6487,6 +7445,11 @@
         "name": "Tornado Cape",
         "ingredients": [
           {
+            "count": 13,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
             "count": 8,
             "name": "Wish Embryo",
             "type": "resource"
@@ -6495,6 +7458,11 @@
       },
       {
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 3,
             "name": "Wish Embryo",
@@ -6548,6 +7516,16 @@
         "name": "Everchanging Whip",
         "ingredients": [
           {
+            "count": 19,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Wish Embryo",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Golden Bough",
             "type": "resource"
@@ -6556,11 +7534,32 @@
       },
       {
         "name": "Wondertide Gauntlets",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 14,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Wish Embryo",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Neverending Spear",
         "ingredients": [
+          {
+            "count": 23,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Old Irem Fragment",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Golden Bough",
@@ -6570,6 +7569,11 @@
       },
       {
         "ingredients": [
+          {
+            "count": 26,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 8,
             "name": "Old Irem Fragment",
@@ -6638,6 +7642,11 @@
         "name": "Willblade",
         "ingredients": [
           {
+            "count": 18,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Living Gold",
             "type": "resource"
@@ -6645,6 +7654,11 @@
           {
             "count": 6,
             "name": "Wish Embryo",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Black-tainted Stepfinger",
             "type": "resource"
           },
           {
@@ -6672,6 +7686,16 @@
       {
         "name": "Cursebreaker",
         "ingredients": [
+          {
+            "count": 30,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Cursed Bloatsack",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Old Irem Fragment",
@@ -6732,11 +7756,32 @@
     "recipes": [
       {
         "name": "Garden Activator",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 16,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 24,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Hermes Gear Mk. II",
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 5,
             "name": "Cursed Bloatsack",
@@ -6746,10 +7791,26 @@
       },
       {
         "name": "Seeds of Tomorrow",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 25,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Mutable Ambrosia",
@@ -6806,12 +7867,28 @@
             "count": 5,
             "name": "Babylonian Contraption",
             "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
           }
         ]
       },
       {
         "name": "Anticurse Armor",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 10,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 17,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       }
     ],
     "faq": "",
@@ -6841,11 +7918,32 @@
     "recipes": [
       {
         "name": "Basilisk Belcher",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 11,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 24,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Bahamut Blade",
         "ingredients": [
+          {
+            "count": 19,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Wish Embryo",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Curse Affliction",
@@ -6859,6 +7957,16 @@
           {
             "count": 9,
             "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Old Irem Fragment",
             "type": "resource"
           }
         ]
@@ -6904,11 +8012,6 @@
           },
           {
             "count": 1,
-            "name": "Midascore Core",
-            "type": "resource"
-          },
-          {
-            "count": 1,
             "name": "Demidjinn Core",
             "type": "resource"
           }
@@ -6917,6 +8020,11 @@
       {
         "name": "Phantom Spear",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Wish Embryo",
@@ -6968,6 +8076,11 @@
             "type": "resource"
           },
           {
+            "count": 12,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 5,
             "name": "Onyx Dust",
             "type": "resource"
@@ -6980,6 +8093,11 @@
           {
             "count": 5,
             "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Mutable Ambrosia",
             "type": "resource"
           },
           {
@@ -7024,6 +8142,16 @@
         "name": "Dahakandys",
         "ingredients": [
           {
+            "count": 12,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Cursed Bloatsack",
             "type": "resource"
@@ -7044,8 +8172,23 @@
         "name": "Immortal Armor",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Cursed Bloatsack",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Onyx Dust",
             "type": "resource"
           }
         ]
@@ -7053,6 +8196,11 @@
       {
         "name": "Immortal Cestus",
         "ingredients": [
+          {
+            "count": 21,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
           {
             "count": 9,
             "name": "Wish Embryo",
@@ -7078,6 +8226,16 @@
       {
         "name": "Dahaka Predestinator",
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 25,
+            "name": "Mutable Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 5,
             "name": "Onyx Dust",
@@ -7109,8 +8267,23 @@
         "name": "A Head of Time",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Cursed Derelict",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Babylonian Contraption",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Cursed Bloatsack",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Onyx Dust",
             "type": "resource"
           }
         ]
@@ -7118,6 +8291,11 @@
       {
         "name": "Doomsday Clock",
         "ingredients": [
+          {
+            "count": 21,
+            "name": "Imperial Scroll",
+            "type": "resource"
+          },
           {
             "count": 9,
             "name": "Wish Embryo",
@@ -7762,6 +8940,16 @@
         "name": "Faith Kopis",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Fading Light Construct",
             "type": "resource"
@@ -7776,6 +8964,16 @@
       {
         "name": "Cowl of Shame",
         "ingredients": [
+          {
+            "count": 14,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 18,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": "Fading Light Construct",
@@ -7828,6 +9026,11 @@
         "name": "Illuminating Blinder",
         "ingredients": [
           {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Microwave Cells",
             "type": "resource"
@@ -7845,6 +9048,11 @@
           {
             "count": 8,
             "name": "Liquid Aether",
+            "type": "resource"
+          },
+          {
+            "count": 18,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           }
         ]
@@ -7959,6 +9167,11 @@
         "name": "Transcendance Wreath",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 3,
             "name": "Hydrdynamic Scales",
             "type": "resource"
@@ -7976,6 +9189,11 @@
           {
             "count": 6,
             "name": "Liquid Aether",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           }
         ]
@@ -8032,6 +9250,11 @@
           {
             "count": 4,
             "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           }
         ]
@@ -8200,6 +9423,11 @@
             "count": 6,
             "name": "Liquid Aether",
             "type": "resource"
+          },
+          {
+            "count": 15,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
           }
         ]
       },
@@ -8221,6 +9449,11 @@
       {
         "name": "Phos Helm",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Oxidized Ambrosia",
@@ -8434,6 +9667,11 @@
         "name": "Coral Armor",
         "ingredients": [
           {
+            "count": 11,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
             "count": 3,
             "name": "Hydradynamic Scales",
             "type": "resource"
@@ -8505,6 +9743,11 @@
         "name": "Trench Khopesh",
         "ingredients": [
           {
+            "count": 14,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 7,
             "name": "Amygdalan Extract",
             "type": "resource"
@@ -8514,6 +9757,11 @@
       {
         "name": "Trench Kusarigama",
         "ingredients": [
+          {
+            "count": 11,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Orichalcum Chunk",
@@ -8533,11 +9781,27 @@
       },
       {
         "name": "Clawhorn Harpoon",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Hydradynamic Scales",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Phobos Urumi",
         "ingredients": [
+          {
+            "count": 16,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Hydradynamic Scales",
@@ -8563,6 +9827,16 @@
       {
         "name": "Harpoon Ballista Gun",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Hydradynamic Scales",
+            "type": "resource"
+          },
           {
             "count": 1,
             "name": " Undead Silver",
@@ -8756,6 +10030,11 @@
         "name": "Infrared Module",
         "ingredients": [
           {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 8,
             "name": "Photophobic Flesh",
             "type": "resource"
@@ -8870,12 +10149,22 @@
             "count": 7,
             "name": "Liquid Aether",
             "type": "resource"
+          },
+          {
+            "count": 12,
+            "name": "Photophobic Flesh",
+            "type": "resource"
           }
         ]
       },
       {
         "name": "Oculus Lance",
         "ingredients": [
+          {
+            "count": 14,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
           {
             "count": 8,
             "name": "Photophobic Flesh",
@@ -8904,6 +10193,16 @@
           {
             "count": 2,
             "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           },
           {
@@ -8946,7 +10245,18 @@
     "recipes": [
       {
         "name": "Pearlstalk Mace",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 15,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 34,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Quicksilver Bow",
@@ -8962,6 +10272,11 @@
             "type": "resource"
           },
           {
+            "count": 13,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 5,
             "name": "Microwave Cell",
             "type": "resource"
@@ -8974,6 +10289,11 @@
           {
             "count": 9,
             "name": "Liquid Aether",
+            "type": "resource"
+          },
+          {
+            "count": 19,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           },
           {
@@ -9018,6 +10338,11 @@
         "name": "Mercurial Cryptex",
         "ingredients": [
           {
+            "count": 16,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Oxidized Ambrosia",
             "type": "resource"
@@ -9033,8 +10358,18 @@
         "name": "Future Spirathorax",
         "ingredients": [
           {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 22,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           },
           {
@@ -9046,11 +10381,27 @@
       },
       {
         "name": "Silverskin",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 16,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Microwave Cell",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Dark Exemplar",
         "ingredients": [
+          {
+            "count": 13,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
           {
             "count": 6,
             "name": "Hydradynamic Scales",
@@ -9084,6 +10435,11 @@
           {
             "count": 8,
             "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           },
           {
@@ -9133,6 +10489,11 @@
             "type": "resource"
           },
           {
+            "count": 10,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 1,
             "name": "Undead Silver",
             "type": "resource"
@@ -9161,11 +10522,32 @@
       },
       {
         "name": "Ephemeral Pearl",
-        "ingredients": []
+        "ingredients": [
+          {
+            "count": 13,
+            "name": "Orichalcum Chunkr",
+            "type": "resource"
+          },
+          {
+            "count": 27,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          }
+        ]
       },
       {
         "name": "Silverlight Amulet",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 16,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Hydradynamic Scales",
@@ -9218,6 +10600,16 @@
         "name": "Argocryptex Delta",
         "ingredients": [
           {
+            "count": 19,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 31,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 4,
             "name": "Black Wool Strand",
             "type": "resource"
@@ -9232,6 +10624,16 @@
       {
         "name": "Crown of the Trench",
         "ingredients": [
+          {
+            "count": 15,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 34,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 7,
             "name": "Black Wool Strand",
@@ -9252,6 +10654,16 @@
       {
         "name": "Oculus Lighthouse",
         "ingredients": [
+          {
+            "count": 22,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Photophobic Flesh",
+            "type": "resource"
+          },
           {
             "count": 4,
             "name": "Black Wool Strand",
@@ -9277,6 +10689,16 @@
       {
         "name": "Deadalive Spear",
         "ingredients": [
+          {
+            "count": 13,
+            "name": "Orichalcum Chunk",
+            "type": "resource"
+          },
+          {
+            "count": 30,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
           {
             "count": 5,
             "name": "Black Wool Strand",
@@ -9335,12 +10757,7 @@
           },
           {
             "count": 1,
-            "name": "Titan X Core",
-            "type": "resource"
-          },
-          {
-            "count": 1,
-            "name": "Meduketos Core",
+            "name": "Titan X Core -OR- 1x Meduketos Core",
             "type": "resource"
           },
           {
@@ -9376,6 +10793,11 @@
           {
             "count": 5,
             "name": "Liquid Aether",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Oxidized Ambrosia",
             "type": "resource"
           },
           {
@@ -9480,6 +10902,16 @@
         "name": "Hermes Highway",
         "ingredients": [
           {
+            "count": 14,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Photophobic Flesh",
+            "type": "resource"
+          },
+          {
             "count": 6,
             "name": "Orichalcum Chunk",
             "type": "resource"
@@ -9489,6 +10921,16 @@
       {
         "name": "Executioner Armor",
         "ingredients": [
+          {
+            "count": 12,
+            "name": "Liquid Aether",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Amygdalan Extract",
+            "type": "resource"
+          },
           {
             "count": 2,
             "name": "Orichalcum Alloy",
@@ -9510,6 +10952,11 @@
             "type": "resource"
           },
           {
+            "count": 30,
+            "name": "Oxidized Ambrosia",
+            "type": "resource"
+          },
+          {
             "count": 9,
             "name": "Orichalcum Alloy",
             "type": "resource"
@@ -9524,6 +10971,16 @@
       {
         "name": "Executioner Helm",
         "ingredients": [
+          {
+            "count": 14,
+            "name": "Atlantean Tekne",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Hydradynamic Scales",
+            "type": "resource"
+          },
           {
             "count": 3,
             "name": "Orichalcum Alloy",
