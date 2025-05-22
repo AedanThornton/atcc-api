@@ -210,7 +210,7 @@ def csv_to_json(csv_file, json_file):
                 "cardType": row["Card Type"],
                 "cardSize": row["Card Size"],
                 "cycle": row["Cycle"],
-                "usedFor": row["Found In"],
+                "foundIn": row["Found In"],
                 "acquisition": row["Acquisition"],
                 "flavor": row["Flavor"],
                 "slot": row["Slot"],
@@ -226,8 +226,8 @@ def csv_to_json(csv_file, json_file):
                 "gatedAbilities": gated_abilities
             }
 
-            if not card_json["usedFor"]:
-                card_json.pop("usedFor")
+            if not card_json["foundIn"]:
+                card_json.pop("foundIn")
 
             output.append(card_json)
     
