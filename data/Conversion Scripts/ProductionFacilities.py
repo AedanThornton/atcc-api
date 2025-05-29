@@ -66,6 +66,10 @@ def csv_to_json(csv_file, json_file):
                 "faq": row["FAQ"],
                 "errata": row["Errata"]
             }
+
+            if not row["Found In"]:
+                card_json.pop("foundIn")
+
             output.append(card_json)
     
     with open(json_file, "w", encoding="utf-8") as outfile:

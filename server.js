@@ -3,6 +3,7 @@ const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const { parseSearch } = require("./lib/SearchParser");
+const { sortCards } = require("./lib/CardSort");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -65,20 +66,27 @@ app.get('/api/cards', (req, res) => {
     console.log('Received request to /api/cards');
     console.log('Query parameters:', req.query);
 
-    let filteredCards = [...allCards]; // Start with a copy of ALL combined cards
+    let filteredCards = [...allCards]; // Start with a copy of ALL cards
     let filters = {
       cardType: [],
       cycle: [],
       cardSize: [],
-      usedFor: [],
+      foundIn: [],
     }
     let searchInput = ""
+    let sortTerm = ""
+    let page = 1
+    let perPageLimit = 10
 
     // --- Update Filters based on request ---
     if (req.query.cardType) filters.cardType = req.query.cardType.split(",")
     if (req.query.cycle)    filters.cycle = req.query.cycle.split(",")
     if (req.query.cardSize) filters.cardSize = req.query.cardSize.split(",")
-    if (req.query.q)        searchInput = req.query.q    
+    if (req.query.foundIn)  filters.foundIn = req.query.foundIn.split(",")
+    if (req.query.q)        searchInput = req.query.q
+    if (req.query.s)        sortTerm = req.query.s
+    if (req.query.p)        page = req.query.p
+    if (req.query.limit)    perPageLimit = req.query.limit
 
     // --- Apply Filters ---
     filteredCards = filteredCards.filter((card) => {
@@ -90,14 +98,30 @@ app.get('/api/cards', (req, res) => {
       if (filters.cardType.length > 0 && !filters.cardType.includes(card.cardType)) return false;
       if (filters.cycle.length > 0 && !filters.cycle.includes(card.cycle)) return false;
       if (filters.cardSize.length > 0 && !filters.cardSize.includes(card.cardSize)) return false;
-      //if (!filters.usedFor.includes(card.usedFor)) return false;    
+      if (filters.foundIn.length > 0 && !filters.foundIn.includes(card.foundIn === undefined ? "Regular" : card.foundIn)) return false;
 
       return true
     });
 
+    let totalCards = filteredCards.length
+    let totalPages = Math.ceil(totalCards / perPageLimit)
+    let startIndex = (page - 1) * perPageLimit
+    let endIndex = page * perPageLimit
+
+    let sortedCards = sortTerm ? sortCards(filteredCards, sortTerm) : filteredCards
+    let currentCards = sortedCards.slice(startIndex, endIndex)
+
     // --- Send the results back (Same logic as before) ---
-    console.log(`Sending back ${filteredCards.length} cards.`);
-    res.json(filteredCards);
+    console.log(`Sending back ${filteredCards.length} cards, sorted by ${sortTerm},
+                as page ${page} out of ${totalPages} with ${perPageLimit} cards per page
+                `);
+    res.json({
+        cards: currentCards,
+        currentPage: page,
+        totalCards: totalCards,
+        totalPages: totalPages,
+        perPageLimit: perPageLimit
+    });
 });
 
 // --- Get unique filter options ---
@@ -107,13 +131,13 @@ app.get('/api/filter-options', (req, res) => {
       const cardTypes = [...new Set(allCards.map(card => card.cardType).filter(Boolean))].sort();
       const cycles = [...new Set(allCards.map(card => card.cycle).filter(Boolean))].sort();
       const cardSizes = [...new Set(allCards.map(card => card.cardSize).filter(Boolean))].sort();
-      const usedFors = [...new Set(allCards.map(card => card.usedFor).filter((usedFor) => typeof usedFor === "string" && (usedFor.includes("Secret Deck") || usedFor.includes("Envelope"))))];          
+      const foundIns = ["Regular", "Promo", ...new Set(allCards.map(card => card.foundIn).filter((foundIn) => typeof foundIn === "string" && (foundIn.includes("Secret Deck") || foundIn.includes("Envelope"))))];          
 
       res.json({
           cardTypes,
           cycles,
           cardSizes,
-          usedFors,
+          foundIns,
       });
 
   } catch (error) {
