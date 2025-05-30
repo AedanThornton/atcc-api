@@ -98,7 +98,7 @@ app.get('/api/cards', (req, res) => {
       if (filters.cardType.length > 0 && !filters.cardType.includes(card.cardType)) return false;
       if (filters.cycle.length > 0 && !filters.cycle.includes(card.cycle)) return false;
       if (filters.cardSize.length > 0 && !filters.cardSize.includes(card.cardSize)) return false;
-      if (filters.foundIn.length > 0 && !filters.foundIn.includes(card.foundIn === undefined ? "Regular" : card.foundIn)) return false;
+      if (filters.foundIn.length > 0 && !filters.foundIn.includes((card.foundIn === undefined || card.foundIn === "") ? "Regular" : card.foundIn)) return false;
 
       return true
     });
