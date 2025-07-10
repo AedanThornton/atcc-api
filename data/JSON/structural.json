@@ -1,0 +1,699 @@
+[
+  {
+    "cardIDs": [
+      "AA0001"
+    ],
+    "name": "Last Tome",
+    "altname": "Last Academy",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "Core",
+    "locked": "FALSE",
+    "flavorProject": "A fount of ancient knowledge, almost dried up now. Contains enough information to allow us to mount a response to the Primordials. It'll serve us well as the cornerstone of our research.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Rhetoric"
+    ],
+    "flavorTech": "Here the philosophers and academicians conduct their research, poring over dusty tomes and phos scripture.",
+    "abilities": [
+      {
+        "name": "Research",
+        "type": "Reference",
+        "effects": [
+          "When you reach a Combat CombatIcon or Structural StructuralIcon node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck."
+        ]
+      },
+      {
+        "name": "Gather Information",
+        "type": "Reference",
+        "effects": [
+          "During the Exploration Step, if the Argo is on an unexplored Map Tile with Progress symbol, gain +1 Progress",
+          "For each Progress you gain, place 1 Progress token on your current Story card or the Inward Odyssey card."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0002"
+    ],
+    "name": "Primordial Dawn",
+    "altname": "Bridge Tholos",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "Core",
+    "locked": "FALSE",
+    "flavorProject": "Not much is known about the Eschaton, except that it brought the Fall of Olympus and the Coming of the Primordials.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "From here the Argonauts shape their fate and steer the mighty Argo towards its unknown destination.",
+    "abilities": [
+      {
+        "name": "Sail and Explore",
+        "type": "Reference",
+        "effects": [
+          "At the start of each day you move to an adjacnet tile using one of the available waterways",
+          "If needed, place the tile, then move the Argo and proceed to the Timeline Step."
+        ]
+      },
+      {
+        "name": "Adventure",
+        "type": "Reference",
+        "effects": [
+          "During the Adventure Step, if the Argo is on an unexplored Map tile with the AdventureHub symbol, go to the Adventure Hubs table in your current Cycle's Storybook."
+        ]
+      },
+      {
+        "name": "Gather Resources",
+        "type": "Reference",
+        "effects": [
+          "DUring the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0021"
+    ],
+    "name": "Antikratos Project",
+    "altname": "Excursion Propylon",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "Core",
+    "locked": "FALSE",
+    "flavorProject": "There is a lot we do not know about the Triskelion Junction used in the process of supressing the atavistic nature of the Titans. We need to know more.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Trireme Weapons",
+      "Trireme Armor"
+    ],
+    "flavorTech": "Here the Argonauts ready for their next excursion and it is also here that a Support Team stands ready to lend their help.",
+    "abilities": [
+      {
+        "name": "Argo Support I",
+        "type": "Permanent",
+        "effects": [
+          "Argo Ability Limit: 2"
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0028"
+    ],
+    "name": "Argo Works",
+    "altname": "Grand Agora",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "Core",
+    "locked": "FALSE",
+    "flavorProject": "The Argo is a marvel of engineering, but there's no denying the fact that most of its systems are inactive or unknown to us. We need to start by setting up a production hub.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Trading Solutions"
+    ],
+    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of gear and new engineering solutions.",
+    "abilities": [
+      {
+        "name": "Craft Gear",
+        "type": "Reference",
+        "effects": [
+          "During the Advancement Step, you can use available resources to craft Gear cards using Production Technologies."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0029"
+    ],
+    "name": "Titanogenesis",
+    "altname": "Titan Stoa",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "Core",
+    "locked": "FALSE",
+    "flavorProject": "They are a mystery to us. Mindless and extremely violent in the wild, they would be Mortalkind greatest enemy, had it not been for the Eschaton. Now they're our best hope for the future.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Titan Hunting"
+    ],
+    "flavorTech": "Here the Titans are tamed and stored when not in use. Some call this place a warehouse. some call it a prison.",
+    "abilities": [
+      {
+        "name": "Gain Titan",
+        "type": "Reference",
+        "effects": [
+          "During the Exploration Step, if the Argo is on an unexplored Map Tile with the TitanIcon symbol, gain +1 Titan",
+          "Titan Stoa Capacity: Titan Limit: 10."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0030"
+    ],
+    "name": "Trading Solutions",
+    "altname": "Trade Fleet Dock",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "If we are to survive, we need to strengthen our connection to the people of Crete.",
+    "requirements": [
+      "Argo Works"
+    ],
+    "leadsTo": [
+      "Diplomatic Relations",
+      "Advanced Trading Solutions",
+      "Crew Expansion",
+      "Shallows Navigation"
+    ],
+    "flavorTech": "A small ship dock will allow us to take in traders and establish connections around the island.",
+    "abilities": [
+      {
+        "name": "Theban Trader",
+        "type": "Immediate",
+        "effects": [
+          "Add the Theban Trader Exploration card to the Exploration deck."
+        ]
+      },
+      {
+        "name": "Port Trading",
+        "type": "City Negotiation",
+        "effects": [
+          "Gain +1 ArgoFate to exchange (up to 3 times): 3 Trireme >> 1 Armament, 2 Trireme >> 1 Monument, 1 Monument >> 2 Trireme, 1 Armament >> 3 Trireme, 1 Muscle Cluster or Infused Mechanism >> 3 Raw Ambrosia, 1 Calcified Knuckle Bone or Fleshy Mantle >> 4 Raw Ambrosia, 3 Raw Ambrosia >> 1 Muscle Cluster or Infused Mechanism, 4 Raw Ambrosia >> 1 Calcified Knuckle Bone or Fleshy Mantle"
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0032"
+    ],
+    "name": "Shallows Navigation",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "The phos scriptures tell of a dormany subsystem of the Argo's engines that allows shallow water navigation.",
+    "requirements": [
+      "Trading Solutions"
+    ],
+    "leadsTo": [
+      "Argo Onboarding",
+      "Pursuer Problem",
+      "Excursion Propylon II"
+    ],
+    "flavorTech": "The Argo rises above the waterline and almost glides on the river surface.",
+    "abilities": [
+      {
+        "name": "Shallows Navigation",
+        "type": "Permanent",
+        "effects": [
+          "You can move through Lock waterways with the River RiverIcon symbol."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0033"
+    ],
+    "name": "Rhetoric",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "The Labyrinthians talk about nothingness with devout passion. We need a message of our own.",
+    "requirements": [
+      "Last Academy"
+    ],
+    "leadsTo": [
+      "Anti-Indoctrination Philosophy",
+      "Minoan Investigations",
+      "Titan Hunting"
+    ],
+    "flavorTech": "Let all who doubt their purpose despair not, for this ship is in itself a message: we are here for a reason.",
+    "abilities": [
+      {
+        "name": "Persuasion",
+        "type": "Save",
+        "effects": [
+          "Gain +1 ArgoFate when you are about to gain Strangers to test Diplomacy (7+)",
+          "Success: Lower this Strangers gain by 1 (to a minimum of 0)."
+        ]
+      },
+      {
+        "name": "Diatribe",
+        "type": "City Negotiation",
+        "effects": [
+          "Gain +1 ArgoFate to lose -1 Strangers."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0034"
+    ],
+    "name": "Diplomatic Relations",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "We've walked blindly into this crisis. Now's the time to learn about the island and acclimate.",
+    "requirements": [
+      "Trading Solutions"
+    ],
+    "leadsTo": [
+      "Intelligence Gathering",
+      "Peace"
+    ],
+    "flavorTech": "Our envoys establish our presence on the island.",
+    "abilities": [
+      {
+        "name": "Diplomatic Corps",
+        "type": "City Negotiation",
+        "effects": [
+          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFate to gain +1 Diplomacy with the Local Faction."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0037"
+    ],
+    "name": "Anti-Indoctrination Philosophy",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "The message of the Labyrinthians is insidious, as it takes root in fear and fear is constant. We must guard against it.",
+    "requirements": [
+      "Rhetoric"
+    ],
+    "leadsTo": [
+      "Hope Logic",
+      "Deeply Embedded Spies"
+    ],
+    "flavorTech": "The Philosopher Guards quickly became a beacon around which the discourse of Purpose flourished.",
+    "abilities": [
+      {
+        "name": "Philosopher Guards",
+        "type": "",
+        "effects": "Gain +1 ArgoFate to test Diplomacy (7+). Success: Chosen Argonaut discards a Despair token."
+      },
+      {
+        "name": "Maze Exorcism",
+        "type": "",
+        "effects": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0043"
+    ],
+    "name": "Minoan Investigations",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "We need to follow up on these loose threads, who knows where they can lead us...",
+    "requirements": [
+      "Rhetoric"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "Regular scouting expeditions are starting to bear fruit.",
+    "abilities": [
+      {
+        "name": "Scout Reports",
+        "type": "Permanent",
+        "effects": [
+          "You may re-roll your Adventure Hubs Table roll (once)."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0044"
+    ],
+    "name": "Titan Hunting",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "There's only a handful of Titans onboard the Argo. If we are meant to survive, we need to... procure more.",
+    "requirements": [
+      "Titanogenesis",
+      "Rhetoric"
+    ],
+    "leadsTo": [
+      "Titan Rearing"
+    ],
+    "flavorTech": "Only philosophers are able to subdue wild Titans and bring them to the Argo, but they refuse to share their secrets.",
+    "abilities": [
+      {
+        "name": "Titanokingos",
+        "type": "Immediate",
+        "effects": [
+          "Add the Untamed Titan Exploration card to the Exploration deck."
+        ]
+      },
+      {
+        "name": "Expedition",
+        "type": "",
+        "effects": "Gain +1 ArgoFate when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success Gain +1 Titan."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0045"
+    ],
+    "name": "Titan Rearing",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "A set of rules and practices that will allow us to house more Titans effectively.",
+    "requirements": [
+      "Titan Hunting"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "With the new practices in place, we can expand our Titan roster.",
+    "abilities": [
+      {
+        "name": "Titan Stoa Capacity II",
+        "type": "Permanent",
+        "effects": [
+          "Titan Limit: 15."
+        ]
+      },
+      {
+        "name": "Comeback",
+        "type": "",
+        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFate to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0047"
+    ],
+    "name": "Advanced Trading Solutions",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "Remember the old saying: \"You do not win a war with swords. You win it with bread.\"",
+    "requirements": [
+      "Trading Solutions"
+    ],
+    "leadsTo": [
+      "Superior Trading Solutions"
+    ],
+    "flavorTech": "Your agents arrive in town before the Argo and lay the groundwork for successful Negotiations.",
+    "abilities": [
+      {
+        "name": "Trade Agents",
+        "type": "Permanent",
+        "effects": [
+          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFate gain."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "AA0048"
+    ],
+    "name": "Crew Expansion",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "A lot of the men and women who joined us on Kephallonia have died or departed. If we don't replace them, we'll soon command a ship of ghosts.",
+    "requirements": [
+      "Trading Solutions"
+    ],
+    "leadsTo": [
+      "Advanced Crew Expansion"
+    ],
+    "flavorTech": "There's a lot of people who enlist only for the promise of a roof over their head and a bowl of warm soup. We need to watch them closely, for they may prove flighty.",
+    "abilities": [
+      {
+        "name": "Port Recruitment",
+        "type": "City Negotiation",
+        "effects": [
+          "Gain +1 ArgoFate and +1 Strangers to gain +1 Crew."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "BA1021"
+    ],
+    "name": "Mnestis Theater",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 04",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "A chamber in which a user can experience an illusory physical environment could be the greatest of training rooms.",
+    "requirements": [
+      "Argo Knowledge 20+"
+    ],
+    "leadsTo": [
+      "Nymph Studies"
+    ],
+    "flavorTech": "What would Plato say of us now? Shadows casting shadows?",
+    "abilities": [
+      {
+        "name": "Mnestis Applications",
+        "type": "Permanent",
+        "effects": [
+          "You've unlocked the Mnestis Theatre."
+        ]
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "BA1044"
+    ],
+    "name": "Old Transportation System",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 04",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "The Helots tell of olds roads for ships. It's worth investigating.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "The diolkos network, though ancient, is still usable. Such is the legacy of Leleges stonework.",
+    "abilities": [
+      {
+        "name": "Diolkos Access",
+        "type": "",
+        "effects": "Gain +1 ArgoFate to travel through a Locked waterway with the Diolkos symbol. Cannot be used during Story 3A."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "CA1609"
+    ],
+    "name": "Surviving The Loop",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 07",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "When the loop resets, everyhing resets. Except the Argo.",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Time Solutions",
+      "Argo Timeline Security",
+      "Trespass Protocol"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "name": "Ariadne's Time Anchor",
+        "type": "",
+        "effects": "During the Exploration Step, if the Argo is on a Map tile with a Lighthouse symbol, you may move Ariadne's Anchor token to that Map tile."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  },
+  {
+    "cardIDs": [
+      "CA1634"
+    ],
+    "name": "Adyton Completion",
+    "altname": "",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 07",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "The Nymphs have found a new home.",
+    "requirements": [
+      "ArgoFate 46+"
+    ],
+    "leadsTo": [
+      "Awakening Studies"
+    ],
+    "flavorTech": "What draws them here?",
+    "abilities": [
+      {
+        "name": "Grand Adyton",
+        "type": "Permanent",
+        "effects": [
+          "Summon Limit: 3."
+        ]
+      },
+      {
+        "name": "Soul-Mending",
+        "type": "",
+        "effects": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction."
+      }
+    ],
+    "faq": "",
+    "errata": ""
+  }
+]
