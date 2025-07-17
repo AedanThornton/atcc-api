@@ -16,6 +16,7 @@ def csv_to_json(csv_file, json_file):
                 "cardSize": row["Card Size"],
                 "cycle": row["Cycle"],
                 "flavor": row["Flavor"],
+                "foundIn": row["Found In"],
                 "traits": row["Traits"].split(", "),
                 "effect": row["Effect"],
                 "growthName": row["Growth Name"],

@@ -15,9 +15,45 @@
       "Fate"
     ],
     "abilities": [
-      "Exhaust Change 1 negative modifier token into a positive one.",
-      "Danger 4+ Exhaust Gain 1 temporary postitive Evasion token.",
-      "Danger 7+ Discard Gain or lose up to 2 Rage."
+      [
+        {
+          "name": "Change 1 negative modifier token into a positive one",
+          "costs": [
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilities": [
+            {
+              "name": "Gain 1 temporary postitive Evasion token",
+              "costs": [
+                "Exhaust"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilities": [
+            {
+              "name": "Gain or lose up to 2 Rage",
+              "costs": [
+                "Discard"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Cunning",
@@ -42,9 +78,39 @@
       "Dream"
     ],
     "abilities": [
-      "When you break a Combo, place 1 Opening or Break token in the Kratos Pool.",
-      "Danger 2+ When you break a Combo, you may lose -1 Fate.",
-      "Danger 6+ Discard When you break a Combo, perform a Bonus Attack!"
+      [
+        {
+          "name": "When you break a Combo, place 1 Opening or Break token in the Kratos Pool",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilities": [
+            {
+              "name": "When you break a Combo, you may lose -1 Fate",
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilities": [
+            {
+              "name": "When you break a Combo, perform a Bonus Attack!",
+              "costs": [
+                "Discard"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Will",
@@ -69,9 +135,35 @@
       "Gods"
     ],
     "abilities": [
-      "Exhaust When you are about to reoslve a Trauma Draw, treat your Danger as 1 lower.",
-      "When you are knocked down, unexhaust this card. Whn you stand up, gain +1 Speed, +1 Precision and Auto-break 1 until the end of your turn.",
-      "When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards.)"
+      [
+        {
+          "name": "When you are about to reoslve a Trauma Draw, treat your Danger as 1 lower",
+          "costs": [
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "When you are knocked down, unexhaust this card",
+          "type": "unique"
+        },
+        {
+          "name": "Whn you stand up, gain +1 Speed, +1 Precision and Auto-break 1 until the end of your turn",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards",
+          "type": "unique"
+        },
+        {
+          "name": ")",
+          "type": "unique"
+        }
+      ]
     ],
     "stats": [
       "Endurance",
@@ -96,9 +188,27 @@
       "Curse"
     ],
     "abilities": [
-      "Start of Battle: You may move 1 space towards the Primordial.",
-      "Start of Battle: You may gain +1 Rage.",
-      "Start of Battle: Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool."
+      [
+        {
+          "name": "You may move 1 space towards the Primordial",
+          "timing": "Start of Battle",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "You may gain +1 Rage",
+          "timing": "Start of Battle",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool",
+          "timing": "Start of Battle",
+          "type": "unique"
+        }
+      ]
     ],
     "stats": [
       "Courage",
@@ -123,9 +233,41 @@
       "Crime"
     ],
     "abilities": [
-      "Fate Exhaust Assist 1.",
-      "Danger 7+ Fate Discard Clutch.",
-      "Discard Succor, then, immediately after current Attack ends, draw an Obol."
+      [
+        {
+          "name": "Assist 1",
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilities": [
+            {
+              "name": "Clutch",
+              "costs": [
+                "Fate",
+                "Discard"
+              ],
+              "type": "keyword"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "name": "Succor, then, immediately after current Attack ends, draw an Obol",
+          "costs": [
+            "Discard"
+          ],
+          "type": "unique"
+        }
+      ]
     ],
     "stats": [
       "Cunning",
@@ -150,9 +292,46 @@
       "Tragedy"
     ],
     "abilities": [
-      "Exhaust Discard 1 Bleeding token.",
-      "Danger 3+ Exhaust When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect.",
-      "Danger 5+ Discard When you are about to discard a positive Trauma card due to the BLeeding Condition card, return it to the top of the deck instead."
+      [
+        {
+          "name": "1 Bleeding token",
+          "costs": [
+            "Exhaust",
+            "Discard"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilities": [
+            {
+              "name": "When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect",
+              "costs": [
+                "Exhaust"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilities": [
+            {
+              "name": "When you are about to discard a positive Trauma card due to the BLeeding Condition card, return it to the top of the deck instead",
+              "costs": [
+                "Discard"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Courage",
@@ -177,9 +356,40 @@
       "Gods"
     ],
     "abilities": [
-      "Exhaust Reestablish your Time Anchor. You may use this ability as a free action or at the end of your turn.",
-      "If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision.",
-      "Danger 5+ Discard When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own."
+      [
+        {
+          "name": "Reestablish your Time Anchor",
+          "costs": [
+            "Exhaust"
+          ],
+          "type": "unique"
+        },
+        {
+          "name": "You may use this ability as a free action or at the end of your turn",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilities": [
+            {
+              "name": "When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
+              "costs": [
+                "Discard"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Will",
@@ -204,9 +414,36 @@
       "Family"
     ],
     "abilities": [
-      "Exhaust Arrive from Time-clocked.",
-      "Danger 3+ Exhaust Another Titan may arrive from Time-clocked.",
-      "When you arrive from Time-clocked, gain +1 Speed and Auto-black 1 until the end of your turn."
+      [
+        {
+          "name": "Arrive from Time-clocked",
+          "costs": [
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilities": [
+            {
+              "name": "Another Titan may arrive from Time-clocked",
+              "costs": [
+                "Exhaust"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "name": "When you arrive from Time-clocked, gain +1 Speed and Auto-black 1 until the end of your turn",
+          "type": "unique"
+        }
+      ]
     ],
     "stats": [
       "Courage",
@@ -231,9 +468,46 @@
       "Supernatural"
     ],
     "abilities": [
-      "Exhaust Place 1 Fire token in the Kratos Pool.",
-      "Danger 4+ Exhaust If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool.",
-      "Danger 6+ Fate Exhaust If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool."
+      [
+        {
+          "name": "Place 1 Fire token in the Kratos Pool",
+          "costs": [
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilities": [
+            {
+              "name": "If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool",
+              "costs": [
+                "Exhaust"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilities": [
+            {
+              "name": "If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool",
+              "costs": [
+                "Fate",
+                "Exhaust"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Fury",
@@ -258,9 +532,43 @@
       "Gods"
     ],
     "abilities": [
-      "Fate Exhaust Gain the Priority Target token.",
-      "Danger 4+ Fate If you are the Priority Target, gain Rouse 1.",
-      "Danger 7+ If you are the Priority Target, gain Hope 1."
+      [
+        {
+          "name": "Gain the Priority Target token",
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ],
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilities": [
+            {
+              "name": "If you are the Priority Target, gain Rouse 1",
+              "costs": [
+                "Fate"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilities": [
+            {
+              "name": "If you are the Priority Target, gain Hope 1",
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Endurance",
@@ -285,9 +593,42 @@
       "Fate"
     ],
     "abilities": [
-      "Start of your turn: Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play). If you are on a Time Anchor, you have +1 Precision.",
-      "Fate Exhaust Rewind.",
-      "Danger 7+ Discard When you die, return from death to your Time Anchor."
+      [
+        {
+          "name": "Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play)",
+          "timing": "Start of your turn",
+          "type": "unique"
+        },
+        {
+          "name": "If you are on a Time Anchor, you have +1 Precision",
+          "type": "unique"
+        }
+      ],
+      [
+        {
+          "name": "Rewind",
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ],
+          "type": "keyword"
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilities": [
+            {
+              "name": "When you die, return from death to your Time Anchor",
+              "costs": [
+                "Discard"
+              ],
+              "type": "unique"
+            }
+          ]
+        }
+      ]
     ],
     "stats": [
       "Fury",

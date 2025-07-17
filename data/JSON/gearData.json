@@ -148,12 +148,11 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Reinforce",
-        "x_value": 1,
+        "name": "Reinforce 1",
         "costs": [
           "Fate"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": []
@@ -900,12 +899,11 @@
         "type": "keyword"
       },
       {
-        "name": "Reinforce",
-        "x_value": 1,
+        "name": "Reinforce 1",
         "costs": [
           "Fate"
         ],
-        "type": "keyword"
+        "type": "unique"
       },
       {
         "name": "Second Chance",
@@ -965,13 +963,12 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       },
       {
         "name": "Reflex",
@@ -1085,12 +1082,11 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Knockback Reduction",
-        "x_value": 3,
+        "name": "Knockback Reduction 3",
         "costs": [
           "Fate"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": []
@@ -1218,12 +1214,11 @@
         "type": "keyword"
       },
       {
-        "name": "Reinforce",
-        "x_value": 1,
+        "name": "Reinforce 1",
         "costs": [
           "Fate"
         ],
-        "type": "keyword"
+        "type": "unique"
       },
       {
         "name": "Gain Rocksteady until you finish resolving this Attack",
@@ -1311,14 +1306,13 @@
         "type": "keyword"
       },
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": [
@@ -2577,18 +2571,16 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "You may reduce suffered Knockbacks and Pushbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Knockbacks and Pushbacks by 1",
         "type": "unique"
       },
       {
         "name": "Unexhaust this card",
-        "flavorName": "Start of your turn",
+        "timing": "Start of your turn",
         "type": "unique"
       },
       {
-        "name": "You may immediately perform Pushback",
-        "x_value": 2,
+        "name": "You may immediately perform Pushback 2",
         "timing": "Crit Evade",
         "type": "unique"
       }
@@ -2661,13 +2653,12 @@
         "type": "keyword"
       },
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": [
@@ -2811,118 +2802,6 @@
   },
   {
     "cardIDs": [
-      "BJ0835",
-      "BJ0835"
-    ],
-    "name": "Labyrinth Mauler",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Stone",
-      "Primordial",
-      "Labyrinth",
-      "Club"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0837",
-      "BJ0838"
-    ],
-    "name": "Puzzle Axe",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Stone",
-      "Primordial",
-      "Labyrinth",
-      "Axe"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0839",
-      "BJ0840"
-    ],
-    "name": "Temenos Xiphos",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Temenos Whip",
-    "traits": [
-      "Stone",
-      "Primordial",
-      "Labyrinth",
-      "Sword"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0839",
-      "BJ0840"
-    ],
-    "name": "Temenos Whip",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Temenos Xiphos",
-    "traits": [
-      "Flesh",
-      "Primordial",
-      "Whip",
-      "Flammable"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
       "BJ0841",
       "BJ0842",
       "BJ0843"
@@ -3010,8 +2889,7 @@
         "type": "unique"
       },
       {
-        "name": "You may reduce suffered Knockbacks and Pushbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Knockbacks and Pushbacks by 1",
         "type": "unique"
       },
       {
@@ -3363,8 +3241,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "When you are about to gain Ambrosia tokens, lower this gain to",
-        "x_value": 1,
+        "name": "When you are about to gain Ambrosia tokens, lower this gain to 1",
         "costs": [
           "Fate",
           "Exhaust"
@@ -3630,14 +3507,13 @@
         "type": "keyword"
       },
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": [
@@ -3820,8 +3696,7 @@
         "value": "3+",
         "abilities": [
           {
-            "name": "When you are about to gain Ambrosia tokens, lower this gain to",
-            "x_value": 1,
+            "name": "When you are about to gain Ambrosia tokens, lower this gain to 1",
             "costs": [
               "Fate",
               "Exhaust"
@@ -4112,12 +3987,11 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Reinforce",
-        "x_value": 1,
+        "name": "Reinforce 1",
         "costs": [
           "Fate"
         ],
-        "type": "keyword"
+        "type": "unique"
       },
       {
         "name": "Rocksteady",
@@ -5009,8 +4883,7 @@
         "type": "keyword"
       },
       {
-        "name": "WoO Immediately Pushback",
-        "x_value": 2,
+        "name": "WoO Immediately Pushback 2",
         "type": "unique"
       }
     ],
@@ -5386,8 +5259,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "You may reduce suffered Knockbacks and Pushbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Knockbacks and Pushbacks by 1",
         "type": "unique"
       },
       {
@@ -5456,18 +5328,16 @@
         "type": "keyword"
       },
       {
-        "name": "You may reduce suffered Knockbacks and Pushbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Knockbacks and Pushbacks by 1",
         "type": "unique"
       },
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       }
     ],
     "gatedAbilities": [
@@ -5931,7 +5801,7 @@
         "abilities": [
           {
             "name": "Unexhaust this card",
-            "flavorName": "Start of your turn",
+            "timing": "Start of your turn",
             "type": "unique"
           }
         ]
@@ -6012,58 +5882,6 @@
   },
   {
     "cardIDs": [
-      "BJ0937"
-    ],
-    "name": "Muckbane",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "This virus weapon has mutated into something greater.",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Mud",
-      "Sword",
-      "Club"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0938"
-    ],
-    "name": "Cyclostus",
-    "cardType": "Gear",
-    "cardSize": "Mini American",
-    "cycle": "Cycle II",
-    "acquisition": "Crafting",
-    "flavor": "A set of heavy Cyclonus gauntlets, adapted for Titan use.",
-    "slot": "3 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Primordial",
-      "Abyss",
-      "Cestus"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
       "BJ0946",
       "BJ0947"
     ],
@@ -6111,13 +5929,12 @@
     "ascended": true,
     "abilities": [
       {
-        "name": "Block",
-        "x_value": 1,
+        "name": "Block 1",
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "keyword"
+        "type": "unique"
       },
       {
         "name": "Break",
@@ -6140,8 +5957,7 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "Ignore Exhaust cost of Block",
-            "x_value": 1,
+            "name": "Ignore Exhaust cost of Block 1",
             "type": "unique"
           }
         ]
@@ -6174,8 +5990,7 @@
     "ascended": true,
     "abilities": [
       {
-        "name": "Exhausted You may reduce suffered Kickbacks, Knockbacks, and Pulls by up to",
-        "x_value": 3,
+        "name": "Exhausted You may reduce suffered Kickbacks, Knockbacks, and Pulls by up to 3",
         "costs": [
           "Fate"
         ],
@@ -6226,8 +6041,7 @@
     "ascended": true,
     "abilities": [
       {
-        "name": "You may reduce suffered Kickbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Kickbacks by 1",
         "type": "unique"
       },
       {
@@ -6308,13 +6122,11 @@
         "type": "unique"
       },
       {
-        "name": "You may reduce suffered Kickbacks by",
-        "x_value": 1,
+        "name": "You may reduce suffered Kickbacks by 1",
         "type": "unique"
       },
       {
-        "name": "When you are about to gain Ambrosia tokens, lower this gain to",
-        "x_value": 1,
+        "name": "When you are about to gain Ambrosia tokens, lower this gain to 1",
         "costs": [
           "Fate",
           "Exhaust"

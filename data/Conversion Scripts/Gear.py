@@ -30,7 +30,7 @@ COSTS = {
 }
 
 TIMINGS = {
-    "Reaction", "Wound", "Crit Miss", "Crit Evade Fail", "Crit Chance", "Crit Evade", "Full Evade", "Full Hit", "Full Miss", "Each Hit", "Sunstarved", "Start of Battle"
+    "Reaction", "Wound", "Crit Miss", "Crit Evade Fail", "Crit Chance", "Crit Evade", "Full Evade", "Full Hit", "Full Miss", "Each Hit", "Sunstarved", "Start of Battle", "Start of your turn"
 }
 
 def parse_power(power_str):
@@ -85,7 +85,9 @@ def parse_abilities(ability_box):
     """Parses the ability box."""
     new_ability_list = []
     gate_ability_list = []
-    ability_list = re.split(r"\.\s?", ability_box)[:-1]
+    ability_list = re.split(r"\.\s?", ability_box)
+    if ability_list[-1] == "":
+        ability_list = ability_list[:-1] 
     gate_pattern = re.compile(r"(\w+) (\d\+) (.*)")
     x_pattern = re.compile(r"^([\w\s:\+,\-']+?)(?:\s+([\dX\-]+))?$")
 
@@ -103,7 +105,7 @@ def parse_abilities(ability_box):
             
         keyword_match = x_pattern.match(ability_name)
 
-        effect, x_value = keyword_match.groups() if keyword_match else (ability_name, None)
+        effect, x_value = keyword_match.groups() if (keyword_match and keyword_match.groups()[0] in KEYWORDS) else (ability_name, None)
 
         costs = []
         timing = ""
