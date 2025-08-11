@@ -1,0 +1,596 @@
+[
+  {
+    "cardIDs": [
+      "AA0022"
+    ],
+    "name": "Forced Kratos Reaction",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Siren Armor"
+    ],
+    "leadsTo": [
+      "Hekaton Sighting"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan. That Titan may gain +1 Rage."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "AA0023"
+    ],
+    "name": "Teleresuscitation",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Labyrinthauros Sighting"
+    ],
+    "leadsTo": [
+      "Labyrinthauros Autopsy",
+      "Specialized Trireme Weapons"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a knocked down Titan. That Titan stands up."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "AA0024"
+    ],
+    "name": "Fate Sink",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Trireme Reach Weapons"
+    ],
+    "leadsTo": [
+      "Hekaton Autopsy"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan. That Titan may lose -1 Fate."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "AA0025"
+    ],
+    "name": "Arrow Barrage",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Trireme Ranged Weapons"
+    ],
+    "leadsTo": [
+      "Crisis Protocol",
+      "Basic Support Equipment"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Place 1 Break token or 2 Opening tokens in the Kratos Pool."
+        ]
+      }
+    ],
+    "charges": "3",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "AA0026"
+    ],
+    "name": "Crisis Protocol",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Arrow Barrage"
+    ],
+    "leadsTo": [
+      "Labyrinthauros Sighting"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan. That Titan may gain or lose 2 Danger."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "AA0027"
+    ],
+    "name": "Pursuer Protocol",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Pursuer Sighting"
+    ],
+    "leadsTo": [
+      "Labyrinthauros Autopsy",
+      "Hekaton Live Study"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Reaction Choose a Titan. That Titan may move 1 space."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1008"
+    ],
+    "name": "Trireme Ballista Fire",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Temenos Armor"
+    ],
+    "leadsTo": [
+      "Cyvlonus Sighting",
+      "Temenos Advanced Gear",
+      "Reflex Priming"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan performing a Power Roll. That Titan gains Power Re-roll 1."
+        ]
+      }
+    ],
+    "charges": "3",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1009"
+    ],
+    "name": "Triskelion Power Boost",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Temenos Weapons"
+    ],
+    "leadsTo": [
+      "Temenos Advanced Gear",
+      "Chimera Metastasios Sighting",
+      "Forced Kratos Cooldown"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose an attacking Titan. That Titan gains Pushback 2."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1010"
+    ],
+    "name": "Forced Kratos Cooldown",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Triskelion Power Boost"
+    ],
+    "leadsTo": [
+      "Cyclonus Sighting"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan that is about to gain involuntary Rage to ignore that gain."
+        ]
+      },
+      {
+        "effects": [
+          "Choose a Titan. That Titan loses -1 Rage."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1011"
+    ],
+    "name": "Reflex Priming",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Trireme Ballista Fire"
+    ],
+    "leadsTo": [
+      "Chimera Metastasios Sighting"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Unexhaust 2 Gear cards among up to 2 Titans."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1012"
+    ],
+    "name": "13th Muse Grand Cannon",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Temenos Advanced Gear"
+    ],
+    "leadsTo": [
+      "Hephaestean Oxybeles",
+      "Experimental Gear"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Start of Titan Round: You may choose an effect from the Payload card and roll a d10. On a 6+, the Cannon is primed. It remains primed until you fire, decide to prime a different effect, or the Battle ends."
+        ]
+      },
+      {
+        "name": "Godkiller Shot",
+        "effects": [
+          "When the Cannon is primed, discard 1 Energy and lose the indicated resource to fire."
+        ]
+      },
+      {
+        "name": "Emergency Priming",
+        "effects": [
+          "As a Reaction or after drawing a BP card you may discard 1 Energy to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1013"
+    ],
+    "name": "Transport Trireme",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Cyclonus Sighting"
+    ],
+    "leadsTo": [
+      "Experimental Gear",
+      "Hephaestean Oxybeles"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "name": "Rearm",
+        "effects": [
+          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon Gear card from the Armory. A spen Transport Trireme can still be moved as normal but loses the Rearm ability."
+        ]
+      }
+    ],
+    "charges": "",
+    "trireme": "TRUE"
+  },
+  {
+    "cardIDs": [
+      "BA1014"
+    ],
+    "name": "Ambrosia Containment",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Chimera Metastasios Sighting"
+    ],
+    "leadsTo": [
+      "Relief Gear"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1015"
+    ],
+    "name": "Hephaestean Oxybeles",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "13th Muse Grand Cannon",
+      "Transport Trireme"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Weapon from the Armory. Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:",
+          "1-5: It lands 3 spaces away from the chosen space in a random direction.",
+          "6-10: It lands on the chosen space. Mark this space with a generic token.",
+          "A Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1016"
+    ],
+    "name": "Hyperadrenaline Infusion",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Temenos Support Equipment"
+    ],
+    "leadsTo": [
+      "War Support Equipment"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement."
+        ]
+      }
+    ],
+    "charges": "1",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1017"
+    ],
+    "name": "Pursuer Order",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Bronze Lair"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "effects": [
+          "Reaction Choose a Titan. That Titan may move up to 2 spaces."
+        ]
+      }
+    ],
+    "charges": "2",
+    "trireme": "FALSE"
+  },
+  {
+    "cardIDs": [
+      "BA1018"
+    ],
+    "name": "Rendezvous Trireme",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "altname": "",
+    "techType": "Combat",
+    "techSubType": "Argo Ability",
+    "locked": "FALSE",
+    "flavorProject": "",
+    "requirements": [
+      "Symmachy Alliance"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "name": "Housewarming Gift",
+        "effects": [
+          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative AT token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative AT token in the Kratos Pool."
+        ]
+      }
+    ],
+    "charges": "",
+    "trireme": "TRUE"
+  }
+]

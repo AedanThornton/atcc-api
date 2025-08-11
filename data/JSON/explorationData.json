@@ -6,16 +6,15 @@
     "name": "Dog Days",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "For each 3 Strangers, lose -1 Crew. Then lose -3 Strangers. If no Crew was lost, gain +1 Strangers. Argo Fate 7+ Gain +2 Strangers.",
     "number": 32,
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "All",
-    "faq": "",
-    "errata": ""
+    "acclimation": "All"
   },
   {
     "cardIDs": [
@@ -24,16 +23,15 @@
     "name": "Minoan Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Resolve an effect based on your Diplomacy with Minoans. Allied Gain +1 Hull. Friendly Gain 4 Trireme resources. Neutral Each Argonaut gains +1 Danger. Unfriendly Gain +1 Argo Fate. Denounced Lose -1 Titan. At War Lose -1 Hull. Argo Fate 7+ Random Argonaut gains 1 Despair token.",
     "number": 29,
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "All",
-    "faq": "",
-    "errata": ""
+    "acclimation": "All"
   },
   {
     "cardIDs": [
@@ -42,16 +40,15 @@
     "name": "Hornsworn Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Resolve an effect based on your Diplomacy with Hornsworn. Allied Gain +1 Progress. Friendly Chosen Argonaut gains 1 Mnemos node. Neutral Chosen Argonauts gain +1 Danger. Unfriendly Gain +1 Argo Fate. Denounced Gain +2 Strangers. At War Lose -1 Crew. Argo Fate 7+ Random Argonaut gains 1 Despair token.",
     "number": 30,
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "All",
-    "faq": "",
-    "errata": ""
+    "acclimation": "All"
   },
   {
     "cardIDs": [
@@ -60,16 +57,15 @@
     "name": "Labyrinthian Vessel",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Resolve an effect based on your Diplomacy with Labyrinthians. Allied Gain +1 Crew and +1 Strangers. Friendly Gain 1 Calcified Knuckle Bone or Fleshy Mantle resource and +1 Strangers. Neutral Each Argonauts gain +1 Fate. Unfriendly Gain +1 Argo Fate. Denounced At the start of the next Timeline Battle, Escalate 1. At War Gain 1 Doom. Argo Fate 7+ Random Argonaut gains 1 Despair token.",
     "number": 31,
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "All",
-    "faq": "",
-    "errata": ""
+    "acclimation": "All"
   },
   {
     "cardIDs": [
@@ -78,16 +74,15 @@
     "name": "Trade Post",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Trireme. Friendly+ Gain 2 Trireme resources instead.",
     "number": 4,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0"
   },
   {
     "cardIDs": [
@@ -96,16 +91,15 @@
     "name": "Trade Post",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Trireme. Friendly+ Gain 2 Trireme resources instead.",
     "number": 8,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0"
   },
   {
     "cardIDs": [
@@ -114,16 +108,15 @@
     "name": "Fishing Pier",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Trireme resources. Denounced- Chosen Argonaut gains +1 Danger",
     "number": 1,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1, 2",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1, 2"
   },
   {
     "cardIDs": [
@@ -132,17 +125,16 @@
     "name": "Trireme Wreck",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Trireme resources. Denounced- Chosen Argonaut gains +1 Danger.",
     "number": 7,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1"
   },
   {
     "cardIDs": [
@@ -151,16 +143,15 @@
     "name": "Trireme Wreck",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Trireme resources. Denounced- Chosen Argonaut gains +1 Danger.",
     "number": 13,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1"
   },
   {
     "cardIDs": [
@@ -169,17 +160,16 @@
     "name": "Smithy",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Armament resource. Friendly+ Gain 2 Armament resources instead.",
     "number": 23,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1"
   },
   {
     "cardIDs": [
@@ -188,17 +178,17 @@
     "name": "Smithy",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
     "foundIn": " ",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Armament resource. Friendly+ Gain 2 Armament resources instead.",
     "number": 5,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0"
   },
   {
     "cardIDs": [
@@ -207,17 +197,16 @@
     "name": "Weapons Cache",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Armament resources. Denounced- Gain 1 Armament resource instead.",
     "number": 2,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1, 2",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1, 2"
   },
   {
     "cardIDs": [
@@ -226,16 +215,15 @@
     "name": "Abandoned Shrine",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Monument resource. Friendly+ Gain 2 Monument resources instead.",
     "number": 6,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0"
   },
   {
     "cardIDs": [
@@ -244,16 +232,15 @@
     "name": "Abandoned Shrine",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Monument resource. Friendly+ Gain 2 Monument resources instead.",
     "number": 19,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0"
   },
   {
     "cardIDs": [
@@ -262,17 +249,16 @@
     "name": "Temple Ruins",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Monument resources. Denounced- Chosen Argonaut gains +1 Fate.",
     "number": 3,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1"
   },
   {
     "cardIDs": [
@@ -281,17 +267,16 @@
     "name": "Temple Ruins",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Monument resources. Denounced- Chosen Argonaut gains +1 Fate.",
     "number": 9,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "0, 1",
-    "faq": "",
-    "errata": ""
+    "acclimation": "0, 1"
   },
   {
     "cardIDs": [
@@ -300,16 +285,15 @@
     "name": "Titan",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 1 Titan. Friendly+ Chosen Argonaut gains +1 Rage.",
     "number": 28,
     "stackType": "Continue Stack",
     "removeEffect": "",
-    "acclimation": "All",
-    "faq": "",
-    "errata": ""
+    "acclimation": "All"
   },
   {
     "cardIDs": [
@@ -318,16 +302,15 @@
     "name": "Abandoned Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Trireme resources. Denounced- Gain +1 Argo Fate",
     "number": 10,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "1, 2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "1, 2, 3"
   },
   {
     "cardIDs": [
@@ -336,17 +319,16 @@
     "name": "Old Armory",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Armament resources. Allied Gain 4 Armament resources instead.",
     "number": 11,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "1, 2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "1, 2, 3"
   },
   {
     "cardIDs": [
@@ -355,16 +337,15 @@
     "name": "Hidden Temple",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Monument resources. Denounced- Gain +1 Doom.",
     "number": 12,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "1, 2",
-    "faq": "",
-    "errata": ""
+    "acclimation": "1, 2"
   },
   {
     "cardIDs": [
@@ -373,17 +354,16 @@
     "name": "Abandoned Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Trireme resources. At War Lose -1 Titan.",
     "number": 14,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "1, 2",
-    "faq": "",
-    "errata": ""
+    "acclimation": "1, 2"
   },
   {
     "cardIDs": [
@@ -392,16 +372,15 @@
     "name": "Desecrated Temple",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 2 Monument resources. Denounced- Gain +1 Strangers.",
     "number": 22,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "1, 2",
-    "faq": "",
-    "errata": ""
+    "acclimation": "1, 2"
   },
   {
     "cardIDs": [
@@ -410,17 +389,16 @@
     "name": "Shipyard",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 4 Trireme resources. Denounced- Chosen Argonaut gains +1 Danger.",
     "number": 17,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "2, 3"
   },
   {
     "cardIDs": [
@@ -429,16 +407,15 @@
     "name": "Shipyard",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 4 Trireme resources. Denounced- Chosen Argonaut gains +1 Danger.",
     "number": 27,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "2, 3"
   },
   {
     "cardIDs": [
@@ -447,16 +424,15 @@
     "name": "Weapons Cache",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Armament resources. Denounced- Chosen Argonaut gains +1 Danger.",
     "number": 15,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "2, 3"
   },
   {
     "cardIDs": [
@@ -465,17 +441,16 @@
     "name": "Desecrated Temple",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 3 Monument resources. Denounced- Gain +1 Strangers.",
     "number": 18,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "2, 3"
   },
   {
     "cardIDs": [
@@ -484,17 +459,16 @@
     "name": "Hidden Temple",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 4 Monument resources. You may gain +3 Argo Fate to gain +1 Priest.",
     "number": 16,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "2, 3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "2, 3"
   },
   {
     "cardIDs": [
@@ -503,17 +477,16 @@
     "name": "Egyptian War Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 5 Trireme resources. Allied Lose -1 Argo Fate.",
     "number": 24,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "3"
   },
   {
     "cardIDs": [
@@ -522,17 +495,16 @@
     "name": "Egyptian War Fleet",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 6 Trireme resources. Allied Lose -1 Argo Fate.",
     "number": 20,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "3"
   },
   {
     "cardIDs": [
@@ -541,16 +513,15 @@
     "name": "Old Armory",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 5 Monument resources. At War Lose -1 Hull.",
     "number": 25,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "3"
   },
   {
     "cardIDs": [
@@ -559,17 +530,16 @@
     "name": "Bronze People Armory",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 5 Armament resources. Allied Gain +1 Argo Knowledge (once until the next Timeline Battle).",
     "number": 21,
     "adversaryTriggers": "1",
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "3"
   },
   {
     "cardIDs": [
@@ -578,16 +548,15 @@
     "name": "Grand Temple Ruins",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain 5 Monument resources. Allied Gain +1 Progress.",
     "number": 26,
     "stackType": "End Stack",
     "removeEffect": "",
-    "acclimation": "3",
-    "faq": "",
-    "errata": ""
+    "acclimation": "3"
   },
   {
     "cardIDs": [
@@ -596,15 +565,14 @@
     "name": "Untamed Titan",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain +1 Titan. Friendly+ Chosen Argonaut gains +1 Rage.",
     "stackType": "Continue Stack",
     "removeEffect": "",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -613,15 +581,14 @@
     "name": "Hekatrap",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "At the end of this Exploration Step, resolve an Ambush Battle (Cycle I Storybook, p. 112). Argo Fate 8+ At the start of this battle, Escalate 1.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -630,15 +597,14 @@
     "name": "Informant Network",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain +1 Progress. Allied Roll a d10. On 8+ gain +1 Argo Knowledge.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -647,16 +613,15 @@
     "name": "Cackle",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Argo Fate 8+ Resolve an additional Adversary.",
     "adversaryTriggers": "2",
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -665,15 +630,14 @@
     "name": "Maze Pilgrim",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain +1 Strangers (If on a Labyrinthians Map Tile: gain +2 Strangers instead). If you then have 3+ Strangers, see 0014 in the Fated Conundrum hub. Argo Fate 5+ Gain 1 additional Stranger. Argo Fate 7+ Random Argonaut gains 1 Despair token.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -682,15 +646,14 @@
     "name": "Maze Storm",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain +1 Doom. Argo Fate 7+ Gain +2 Doom instead.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -699,15 +662,14 @@
     "name": "Recruitment Drive",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Gain +1 Crew. Allied Lose -1 Argo Fate.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -716,15 +678,14 @@
     "name": "Theban Trader",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "Trading",
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   },
   {
     "cardIDs": [
@@ -733,14 +694,13 @@
     "name": "Heart Of The Maze",
     "cardType": "Exploration",
     "game": "Odyssey",
-    "cardSize": "Mini American",
     "cycle": "Cycle I",
-    "foundIn": "",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "effects": "You're Ambushed by the Temenos itself! At the end of this Exploration Step, resolve a Temenos Battle (note Special Aftermath 0006). Argo Fate 8+ At the start of this battle, Escalate 1.",
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",
-    "acclimation": "Other",
-    "faq": "",
-    "errata": ""
+    "acclimation": "Other"
   }
 ]

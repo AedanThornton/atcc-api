@@ -1,0 +1,417 @@
+[
+  {
+    "cardIDs": [
+      "BQ0702"
+    ],
+    "name": "Hephaestus",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+0",
+    "stats": "",
+    "keywords": "",
+    "abilities": [
+      [
+        {
+          "name": "When your Attack hits, but before revealing the BP card, lose -1 Trespass to gain a Crit Chance",
+          "flavorName": "Crippled Savior",
+          "type": "unique"
+        },
+        {
+          "name": "For the duration of this Godform, you cannot die from Obols",
+          "flavorName": "; Hephaestum Skin",
+          "type": "unique"
+        },
+        {
+          "name": "Each time you draw a You died Obol, lose -1 Trespass",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BQ0703"
+    ],
+    "name": "Hermes",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "*",
+    "stats": "+1 Evasion",
+    "keywords": "",
+    "abilities": [
+      [
+        {
+          "name": "For the duration of this Godform, double your Titan's Speed value",
+          "flavorName": "The Messenger",
+          "type": "unique"
+        },
+        {
+          "name": "When you Awaken into this Godform, imediately unexhaust all your exhausted Gear",
+          "flavorName": "; Rearm",
+          "type": "unique"
+        },
+        {
+          "name": "For the duration of this Godform your Gear cards cannot be exhausted",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BQ0704"
+    ],
+    "name": "Ares",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "power": "White",
+    "speed": "+0",
+    "stats": "",
+    "keywords": "",
+    "abilities": [
+      [
+        {
+          "name": "You cannot die by raising your Rage over 9",
+          "flavorName": "God of War",
+          "type": "unique"
+        },
+        {
+          "name": "When you are about to gain Rage above 9, ignore the gain",
+          "type": "unique"
+        },
+        {
+          "name": "When you are about to perform a Power Roll, lose -1 Trespass to gain +1 Power to this roll",
+          "flavorName": "; Eschatonic Fuse",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CQ1319"
+    ],
+    "name": "Artemis",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+2",
+    "stats": "+3 Precision",
+    "keywords": "",
+    "abilities": [
+      [
+        {
+          "name": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool",
+          "flavorName": "Hunter of Mortals",
+          "type": "unique"
+        },
+        {
+          "name": "Treat this die as an automatic hit",
+          "type": "unique"
+        },
+        {
+          "name": "{3, +0, 2 Red} ComplicatedAction Lose -1 Trespass to perform an Attack with your Heavenly Bow! Range 3-9, Pushback x, where X is your Total Power during this Attack",
+          "flavorName": "; Critical Shot",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CQ1320"
+    ],
+    "name": "Athena",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+1",
+    "stats": "",
+    "keywords": "",
+    "abilities": [
+      [
+        {
+          "name": "When you Awaken into this Godform, immediately choose either the AI or BP deck",
+          "flavorName": "Poisoned Wisdom",
+          "type": "unique"
+        },
+        {
+          "name": "For the duration of this Godform, keep the top card from the chosen deck revealed at all times",
+          "type": "unique"
+        },
+        {
+          "name": "Start of your turn: You amy lose up to -2 Fate",
+          "flavorName": "; Moirai Favor",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DQ2048"
+    ],
+    "name": "Dionysus",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "power": "*",
+    "speed": "-1",
+    "stats": "",
+    "keywords": "Roll Out, Bypass, Auto-inspire, Lifeline, Voluntary Knockdown",
+    "abilities": [
+      [
+        {
+          "name": "Drunken Enlightenment: When you Awaken into this Godform and at the start of each of your turns, roll a d10",
+          "type": "unique"
+        },
+        {
+          "name": "Your Power die becomes Red",
+          "flavorName": "1-3",
+          "type": "unique"
+        },
+        {
+          "name": "You gain +3 Evasion",
+          "type": "unique"
+        },
+        {
+          "name": "Your Power die becomes Black",
+          "flavorName": "4-5",
+          "type": "unique"
+        },
+        {
+          "name": "You gain +2 Evasion",
+          "type": "unique"
+        },
+        {
+          "name": "Your Power die becomes 2 Red",
+          "flavorName": "6-7",
+          "type": "unique"
+        },
+        {
+          "name": "You gain +1 Evasion",
+          "type": "unique"
+        },
+        {
+          "name": "Your Power die becomes White",
+          "flavorName": "8-9",
+          "type": "unique"
+        },
+        {
+          "name": "Your Power die becomes 2 White",
+          "flavorName": "10",
+          "type": "unique"
+        },
+        {
+          "name": "You gain -1 Evasion",
+          "type": "unique"
+        },
+        {
+          "name": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 Tresppas to ignore that death and discard as many of the corresponding tokens to have exactly 1 less than the limit",
+          "flavorName": "; Godly Comforter",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DQ2049"
+    ],
+    "name": "Aphrodite",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "power": "Red",
+    "speed": "+0",
+    "stats": "+2 Evasion, +2 Evasion Reroll",
+    "keywords": "Fate Vault",
+    "abilities": [
+      [
+        {
+          "name": "Fate If the Primordial Attack has a singular Target, lose -1 Trespass to change that Target to you",
+          "flavorName": "Unearthly Beauty",
+          "type": "unique"
+        },
+        {
+          "name": "MovementAction Lose -1 Trespass to make the Primordial move to you via the shortest path",
+          "flavorName": "; Irresistible Call",
+          "type": "unique"
+        },
+        {
+          "name": "Use the Primordial's Speed",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DQ2050"
+    ],
+    "name": "Helios Apollonis Exalted",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+0",
+    "stats": "+3 Precision",
+    "keywords": "Bonus Action, Light 4, Cryptex Loathing.",
+    "abilities": [
+      [
+        {
+          "name": "Fate Exhaust Use during voluntary movement to ignore all Terrain tiles during this movement",
+          "flavorName": "Fly",
+          "type": "unique"
+        },
+        {
+          "name": "You cannot end your mmovement on an Obstacle or Chasm",
+          "type": "unique"
+        },
+        {
+          "name": "When you are about to perform a Climb test, automatically succeed at that test instead",
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ],
+          "type": "unique"
+        },
+        {
+          "name": "; Pitiful as the Sun: You cannot die from any Curse",
+          "type": "unique"
+        },
+        {
+          "name": "{3 dice, +0, white} CombatAction Lose -1 respass to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack",
+          "flavorName": "; Trigger Finger",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EQ2635"
+    ],
+    "name": "Hera",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 16",
+    "faq": "",
+    "errata": "",
+    "power": "White",
+    "speed": "+0",
+    "stats": "",
+    "keywords": "Light 1",
+    "abilities": [
+      [
+        {
+          "name": "Choose another Titan",
+          "flavorName": "Till Death Do Us",
+          "type": "unique"
+        },
+        {
+          "name": "That Titan gains the PriorityTarget Priority Target token (you cannot gain the PriorityTarget token)",
+          "type": "unique"
+        },
+        {
+          "name": "As long as you are alive, that Titan cannot die from an Obol Draw",
+          "type": "unique"
+        },
+        {
+          "name": "Each that Titan is forced to draw an Obol, lose -1 Trespass",
+          "type": "unique"
+        },
+        {
+          "name": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 Power",
+          "flavorName": "; Scorned Mother",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EQ2636"
+    ],
+    "name": "Poseidon Exalted",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 16",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+3",
+    "stats": "+2 Precision, +3 Evasion",
+    "keywords": "Bonus Action, Cryptex Loathing",
+    "abilities": [
+      [
+        {
+          "name": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens",
+          "flavorName": "Trench of the Soul",
+          "type": "unique"
+        },
+        {
+          "name": "; Source and Sacrifice: Oxygen Lose -1 Trespass to perform a Bonus Attack (once per Battle)",
+          "type": "unique"
+        },
+        {
+          "name": "After that, a random Titan on the Argo dies",
+          "type": "unique"
+        }
+      ],
+      []
+    ]
+  }
+]

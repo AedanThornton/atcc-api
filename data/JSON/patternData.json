@@ -5,8 +5,11 @@
     ],
     "name": "Iapetan Strain",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Strain",
     "kratosTable": [],
@@ -36,6 +39,7 @@
           "Fate",
           "Exhaust"
         ],
+        "timing": "Reaction",
         "type": "keyword"
       }
     ],
@@ -47,8 +51,11 @@
     ],
     "name": "Promethean Strain",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Strain",
     "kratosTable": [],
@@ -87,8 +94,11 @@
     ],
     "name": "Mazewalker",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Kratos",
     "patternTrait": "Conditioning",
     "kratosTable": [
@@ -185,8 +195,11 @@
     ],
     "name": "Dreamwalker II",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Kratos",
     "patternTrait": "Training",
     "kratosTable": [
@@ -286,8 +299,11 @@
     ],
     "name": "Harsh Conditioning",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Conditioning",
     "kratosTable": [],
@@ -323,8 +339,11 @@
     ],
     "name": "Heavy-Gear Training",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Training",
     "kratosTable": [],
@@ -360,8 +379,11 @@
     ],
     "name": "Aegisbred",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Training",
     "kratosTable": [],
@@ -401,8 +423,11 @@
     ],
     "name": "Spartan Dreamwalker",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Kratos",
     "patternTrait": "Cycle",
     "kratosTable": [
@@ -506,8 +531,11 @@
     ],
     "name": "Monsteneer",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Kratos",
     "patternTrait": "Conditioning",
     "kratosTable": [
@@ -602,7 +630,12 @@
       ]
     ],
     "traumaTable": [],
-    "abilities": [],
+    "abilities": [
+      {
+        "name": "Add +X to your Climb tests, where X is equal to half of your Rage (rounding up)",
+        "type": "unique"
+      }
+    ],
     "gatedAbilities": []
   },
   {
@@ -611,8 +644,11 @@
     ],
     "name": "Canalrunner",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Trauma",
     "patternTrait": "Conditioning",
     "kratosTable": [],
@@ -647,12 +683,139 @@
   },
   {
     "cardIDs": [
+      "BW0978"
+    ],
+    "name": "Umbral Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Ambrosia Limit",
+        "x_value": 5,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BW0979"
+    ],
+    "name": "Zen Training",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Training",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "When you are about to gain Rage, lower this gain to 1",
+        "costs": [
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BW0980"
+    ],
+    "name": "Support Specialization",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Training",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "You have 1 additional Support slot",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "BW0981"
     ],
     "name": "Dreamwalker III",
     "cardType": "Pattern",
-    "cardSize": "Mini American",
+    "game": "Odyssey",
     "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
     "patternType": "Kratos",
     "patternTrait": "Strain",
     "kratosTable": [
@@ -776,6 +939,875 @@
     ],
     "traumaTable": [],
     "abilities": [],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CW1547",
+      "CW1548",
+      "CW1549",
+      "CW1550"
+    ],
+    "name": "Delphian Dreamwalker",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Kratos",
+    "patternTrait": "Cycle",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pushback",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [],
+    "abilities": [
+      {
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CW1552"
+    ],
+    "name": "Scorch Conditioning",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Conditioning",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Each Laser Attack hit and Sun Attack hit deals 1 Danger less to you (to a minimum of 1)",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CW1553"
+    ],
+    "name": "Hyperborean Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-2"
+      },
+      {
+        "type": "Major",
+        "range": "3-4"
+      },
+      {
+        "type": "Minor",
+        "range": "5"
+      },
+      {
+        "type": "Major",
+        "range": "6-7"
+      },
+      {
+        "type": "Grave",
+        "range": "8-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "If you have exactly 1 Bleeding token, ignore the Bleeding Condition",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CW1554"
+    ],
+    "name": "Hypertime Conditioning",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Conditioning",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Reestablish your Time Anchor",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "You may use this ability as a free action or at the end of your turn",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CW1555"
+    ],
+    "name": "Shade Training",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Training",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-2"
+      },
+      {
+        "type": "Major",
+        "range": "3-4"
+      },
+      {
+        "type": "Minor",
+        "range": "5"
+      },
+      {
+        "type": "Major",
+        "range": "6-7"
+      },
+      {
+        "type": "Grave",
+        "range": "8-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Shaded",
+        "costs": [
+          "Danger",
+          "Danger",
+          "Danger"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DW2037"
+    ],
+    "name": "Djinnian Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "You have 1 additional Weapon OneHanded slot (this slot does not allow you to use ThreeHanded Weapons)",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DW2040"
+    ],
+    "name": "Skyscraper",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Training",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-4"
+      },
+      {
+        "type": "Major",
+        "range": "5-7"
+      },
+      {
+        "type": "Grave",
+        "range": "8-10"
+      },
+      {
+        "type": "Obol",
+        "range": "11+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "You gain +2 bonus to the Ascent Check",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DW2041"
+    ],
+    "name": "Curser",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Kratos",
+    "patternTrait": "Strain",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          },
+          {
+            "name": "Reposition",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          },
+          {
+            "name": "Pole Position"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Scale",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          },
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [],
+    "abilities": [],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DW2042"
+    ],
+    "name": "Pioneer",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-7"
+      },
+      {
+        "type": "Grave",
+        "range": "8-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Cryptex Loathing",
+        "type": "keyword"
+      },
+      {
+        "name": "Once per Battle, gain +1 Rage to gain a CombatAction then gain a CombatAction Fatigue token",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DW2043"
+    ],
+    "name": "Pandoran Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Kratos",
+    "patternTrait": "Strain",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "2"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Scale",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reposition",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Scale",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [],
+    "abilities": [
+      {
+        "name": "Hermes Reflex 1",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EW2615"
+    ],
+    "name": "Heat Conditioning",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Conditioning",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Microwave Resistance 1",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EW2618"
+    ],
+    "name": "Silver Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Gain 1 additional Oxygen token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BW9988"
+    ],
+    "name": "Polemarchos",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Kratos",
+    "patternTrait": "Training",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Black",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Inspire",
+            "x_value": "1"
+          },
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Diversion",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Motivate",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Black",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Rouse",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [],
+    "abilities": [
+      {
+        "name": "Gain +1 Speed for each empty Gear slot you ahve (up to 3)",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BW9990"
+    ],
+    "name": "Atropos Strain",
+    "cardType": "Pattern",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "patternType": "Trauma",
+    "patternTrait": "Strain",
+    "kratosTable": [],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "When you are about to resolve a Minor or Major Trauma card, Second Chance",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
     "gatedAbilities": []
   }
 ]
