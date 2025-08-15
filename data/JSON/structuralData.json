@@ -371,12 +371,10 @@
     "abilities": [
       {
         "name": "Philosopher Guards",
-        "type": "",
         "effects": "Gain +1 ArgoFate to test Diplomacy (7+). Success: Chosen Argonaut discards a Despair token."
       },
       {
         "name": "Maze Exorcism",
-        "type": "",
         "effects": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction."
       }
     ]
@@ -448,7 +446,6 @@
       },
       {
         "name": "Expedition",
-        "type": "",
         "effects": "Gain +1 ArgoFate when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success Gain +1 Titan."
       }
     ]
@@ -486,7 +483,6 @@
       },
       {
         "name": "Comeback",
-        "type": "",
         "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFate to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained."
       }
     ]
@@ -618,7 +614,6 @@
     "abilities": [
       {
         "name": "Diolkos Access",
-        "type": "",
         "effects": "Gain +1 ArgoFate to travel through a Locked waterway with the Diolkos symbol. Cannot be used during Story 3A."
       }
     ]
@@ -652,7 +647,6 @@
     "abilities": [
       {
         "name": "Ariadne's Time Anchor",
-        "type": "",
         "effects": "During the Exploration Step, if the Argo is on a Map tile with a Lighthouse symbol, you may move Ariadne's Anchor token to that Map tile."
       }
     ]
@@ -691,7 +685,6 @@
       },
       {
         "name": "Soul-Mending",
-        "type": "",
         "effects": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction."
       }
     ]

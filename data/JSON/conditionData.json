@@ -13,14 +13,14 @@
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
-    "name2": "Dread",
+    "nameB": "Dread",
     "sideA": {
       "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card.",
       "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token.",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
     },
     "sideB": {
-      "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, flip this card.",
+      "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die.",
       "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision token.",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
     }
@@ -32,14 +32,16 @@
       "AL0305",
       "AL0306"
     ],
-    "name": "Knockdown (Falling)",
+    "name": "Knockdown",
     "cardType": "Condition",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
-    "name2": "Knockdown (Standing Up)",
+    "subtitleA": "Falling",
+    "nameB": "Knockdown",
+    "subtitleB": "Standing Up",
     "sideA": {
       "effect": "You are knocked down. Place your miniature on its side as a reminder. You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise. If this card is discarded by another effect, stand up (see the other side of the card). At the end of your next turn, flip this card.",
       "resolution": ""

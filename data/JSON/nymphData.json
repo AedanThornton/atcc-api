@@ -1,0 +1,210 @@
+[
+  {
+    "cardIDs": [
+      "BP0705"
+    ],
+    "name": "Sweets Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Grand Fete",
+    "requirements": "Be on a City tile. You cannot use Voyage Technology abilities this day.",
+    "effects": "Lower ArgoFate to 0."
+  },
+  {
+    "cardIDs": [
+      "BP0706"
+    ],
+    "name": "Nietzschean Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Transcend!",
+    "requirements": "A Titan has just died.",
+    "effects": "Choose a Titan other than the one that just died. That Titan immediately Awakens, then discards 1 Trespass token."
+  },
+  {
+    "cardIDs": [
+      "BP0707"
+    ],
+    "name": "Forge Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Masterpiece",
+    "requirements": "None.",
+    "effects": "Resolve the Forgin a Masterpiece Special Event of your current Cycle Storybook (or Cycle II Storybook for Cycle I). Give the acquired Gear card to one of the Argonauts, that Gear card gains the Argonaut Possession keyword. After the next Battle: Lose that Gear card permanently. The Argonaut gains teh Apathy Fated Mnemos card."
+  },
+  {
+    "cardIDs": [
+      "BP0708"
+    ],
+    "name": "Blade Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Vorpal Secret",
+    "requirements": "At least 1 Titan has died or drawn an Obol.",
+    "effects": "Assign this card and the Blade Nymph token to a Titan. As long as you have this card, you have +1 Power. Before each Power ROll you must say if you will Wound the Primordial or not. If you waver, discard this card and your Weapon. If you're sure and then you do not Wound, discard this card, permanently lose your Weapon, and draw an Obol. Start of your turn: Discard the Blade Nymph token. If you cannot, discard this card instead."
+  },
+  {
+    "cardIDs": [
+      "BP0709"
+    ],
+    "name": "Knowledge Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Page Infinite",
+    "requirements": "Be on a City tile. You cannot use Voyage Technology abilities this day.",
+    "effects": "Immediately research 1 CombatTech or StructuralTech Technology. You need to meet the Technology card's requirements."
+  },
+  {
+    "cardIDs": [
+      "BP0710"
+    ],
+    "name": "Mask Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 06",
+    "faq": "",
+    "errata": "",
+    "title": "Face, Off",
+    "requirements": "Start of Battle",
+    "effects": "One Titan may perform their turn before teh first Primordial Round, instead of in the first Titan Round."
+  },
+  {
+    "cardIDs": [
+      "CP1321"
+    ],
+    "name": "Curiosity Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "title": "Insatiable Secret",
+    "requirements": "ArgoFate 6+",
+    "effects": "This Nymph does not exhaust. Immediately gain +1 Progress or +1 Argo Knowledge. Gain +1 unavoidable Doom."
+  },
+  {
+    "cardIDs": [
+      "CP1323"
+    ],
+    "name": "Age Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "title": "Aeon Bypass",
+    "requirements": "At least 1 Titan has died.",
+    "effects": "Choose a Titan. During the Titan Round, the chosen Titan gains a bonus turn. OR When a Titan dies, place the Age Nymph token on their space or the closest legal free space.During the next Titan Round, the chosen Titan may discard teh Age Nymph token to reappear in its space and take their turn. At the end of that Titan Round, the Titan disappears again."
+  },
+  {
+    "cardIDs": [
+      "CP1324"
+    ],
+    "name": "Hope Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "title": "Stuff of Legends",
+    "requirements": "There is only 1 Titan alive.",
+    "effects": "Until the end of Battle, the last Titan can perform an additional MovementAction and CombatAction. They cannot suffer Knockdown or Time-clocked and cannot gain Rage over 9. When they resolve an Obol Draw, they always draw from the standard 2-card Obol deck."
+  },
+  {
+    "cardIDs": [
+      "CP1325"
+    ],
+    "name": "Machina Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "title": "Postmodern Exorcism",
+    "requirements": "At least 1 Titan has died.",
+    "effects": "Unexhaust all Gear of all Titans. Each prepared Argo Ability regains 1 Energy token."
+  },
+  {
+    "cardIDs": [
+      "DQ2051"
+    ],
+    "name": "Silica Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "title": "Atomic Thaw",
+    "requirements": "At least 1 Titan has died or drawn an Obol.",
+    "effects": "Immediately create 6 Glass Irem Tower tiles. A Glass Irem Tower loses the Shifting keyword and gains the Destructible keyword."
+  },
+  {
+    "cardIDs": [
+      "DQ2052"
+    ],
+    "name": "Midas Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "title": "The Double-Edged Coin",
+    "requirements": "At least 1 Titan has died or you have 16+ Midas tokens among all your Titans.",
+    "effects": "Immediately remove all Midas tokens and Conditon cards from all Titans. OR Immediately turn all Ambrosia tokens into Midas tokens."
+  },
+  {
+    "cardIDs": [
+      "DQ2053"
+    ],
+    "name": "Natron Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 14",
+    "faq": "",
+    "errata": "",
+    "title": "Memory of an Ancient Shore",
+    "requirements": "When an Argonaut is about to die and either During Battle: At least 1 Titan has died. During Voyage: Crew 3 or less. ",
+    "effects": "Prevent the Argonaut death, as if you used an Echo of Recollection, and lose -1 Titan instead."
+  }
+]

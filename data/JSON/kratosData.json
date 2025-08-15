@@ -1,0 +1,124 @@
+[
+  {
+    "cardIDs": [
+      "AN0372"
+    ],
+    "name": "Egolock",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Someone - or something - is trying to wrest control.",
+    "effects": "You are paralyzed. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. When you are attacked, instead of performing the Evasion Roll, immediately die. Do not resolve any other hit effects and proceed to After Attack.",
+    "rally": "You may test Courage (Fate+)."
+  },
+  {
+    "cardIDs": [
+      "AN0373"
+    ],
+    "name": "Reject Argonaut",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "The Titan is having a serologic reaction to the Argonaut.",
+    "effects": "Perform a Kratos Roll. Fail: You die.",
+    "rally": ""
+  },
+  {
+    "cardIDs": [
+      "AN0374"
+    ],
+    "name": "Berserk",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "effects": "Gain +2 Rage. Each Titan Round you must activate first. You cannot Block. Your Titan Power Die is one tier hihger. On your turn, you must use your MovementAction to move towards the closest Target (Titan or Primordial) along the shortest possible path, then use your CombatAction to attack it. You can perform free actions as normal. If you attack a Titan, do not resolve the Attack Sequence, instead that Titan gains +3 Danger and suffers Knockdown. Start of your turn: Unexhaust 1 Weapon Gear. End of Battle: If you still have this card, you die.",
+    "rally": "You may test Courage or Will (10+)."
+  },
+  {
+    "cardIDs": [
+      "AN0375"
+    ],
+    "name": "Moirosis",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "effects": "Gain Fate equal to your Rage. Reduce your Rage to 0.",
+    "rally": ""
+  },
+  {
+    "cardIDs": [
+      "AN0376"
+    ],
+    "name": "Fate Paradox",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "effects": "Gain Danger equal to your Fate.",
+    "rally": ""
+  },
+  {
+    "cardIDs": [
+      "AN0377"
+    ],
+    "name": "Abandon",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "The primal urge to flee is just too strong.",
+    "effects": "You are fleeing. On your turn, you must use your MovementAction to move towards the closest Board Edge. You cannot attack or use other actions or abilities, unless stated otherwise. If you would cross the BOard Edge, remove your Titan from the Board. It runs away (for all purposes treat it as dead).",
+    "rally": "You may test Courage (Fate+)."
+  },
+  {
+    "cardIDs": [
+      "BN0701"
+    ],
+    "name": "Violent Awakening",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 07",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "effects": "You may gain +1 Argo Fate to Awaken. If you do, Adversary.",
+    "rally": ""
+  },
+  {
+    "cardIDs": [
+      "EN2590"
+    ],
+    "name": "Painful Awakening",
+    "cardType": "Kratos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 15",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "effects": "Awaken, then Adversary. Gain 3 Pain tokens. Regardless of anything, you will die after the Battle (you cannot use a Pygmalion stone to save this Titan).",
+    "rally": ""
+  }
+]

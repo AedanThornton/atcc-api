@@ -2,7 +2,6 @@ import re
 from lib.staticVars import *
 
 def parse_power(power_str):
-    """Parses the power."""
     powers = []
     for part in power_str.split(". "):
         gate_match = re.match(r"(\w+ \d+\+)\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
@@ -152,13 +151,29 @@ def parse_abilities(ability_box):
         gate_ability_list.append(last_gate_json)
     return new_ability_list, gate_ability_list
 
-def parse_tech_abilities(raw_abilities):
+def parse_abilities_block(raw_abilities):
     abilities = raw_abilities.split("$")
+    if len(abilities) < 2:
+        abilities = raw_abilities.split("; ")
     ability_json = []
 
     for ability in abilities:
         name = ability.split(":")[0]
         ability_def = ": ".join(ability.split(": ")[1:])
+
+        attack_ability_match = re.match(r'{([^\}]+)}\s*(.*)', ability_def)
+        dice, precision, power_dice = "", "", ""
+        if attack_ability_match:
+            attack, ability_def = attack_ability_match.groups()
+            attack_spread = attack.split(", ")
+            if len(attack_spread) == 3:
+                dice, precision, power = attack_spread
+                power_spread = power.split(" ")
+                if len(power_spread) == 2:
+                    power_dice = int(power_spread[0]) * [power_spread[1]]
+                else: 
+                    power_dice = [power_spread]
+
         ability_type = ability_def.split(". ")[0]
         if ability_type in STRUCTURAL_TYPES:
             effects = ability_def.split(". ")[1:]
@@ -166,11 +181,21 @@ def parse_tech_abilities(raw_abilities):
             ability_type = ""
             effects = ability_def
 
-        ability_json.append({
+        new_json = {
             "name": name,
             "type": ability_type,
             "effects": effects
-        })
+        }
+
+        if not new_json["type"]: new_json.pop("type")
+        if dice:
+            new_json["attack"] = {
+                "attackDice": dice,
+                "precision": precision,
+                "power": [{"type": power_dice}]
+            }
+        
+        ability_json.append(new_json)
 
     return ability_json
 

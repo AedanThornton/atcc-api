@@ -16,23 +16,14 @@
     "stats": "",
     "keywords": "",
     "abilities": [
-      [
-        {
-          "name": "When your Attack hits, but before revealing the BP card, lose -1 Trespass to gain a Crit Chance",
-          "flavorName": "Crippled Savior",
-          "type": "unique"
-        },
-        {
-          "name": "For the duration of this Godform, you cannot die from Obols",
-          "flavorName": "; Hephaestum Skin",
-          "type": "unique"
-        },
-        {
-          "name": "Each time you draw a You died Obol, lose -1 Trespass",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Crippled Savior",
+        "effects": "When your Attack hits, but before revealing the BP card, lose -1 Trespass to gain a Crit Chance."
+      },
+      {
+        "name": "Hephaestum Skin",
+        "effects": "For the duration of this Godform, you cannot die from Obols. Each time you draw a You died Obol, lose -1 Trespass."
+      }
     ]
   },
   {
@@ -52,23 +43,14 @@
     "stats": "+1 Evasion",
     "keywords": "",
     "abilities": [
-      [
-        {
-          "name": "For the duration of this Godform, double your Titan's Speed value",
-          "flavorName": "The Messenger",
-          "type": "unique"
-        },
-        {
-          "name": "When you Awaken into this Godform, imediately unexhaust all your exhausted Gear",
-          "flavorName": "; Rearm",
-          "type": "unique"
-        },
-        {
-          "name": "For the duration of this Godform your Gear cards cannot be exhausted",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "The Messenger",
+        "effects": "For the duration of this Godform, double your Titan's Speed value."
+      },
+      {
+        "name": "Rearm",
+        "effects": "When you Awaken into this Godform, imediately unexhaust all your exhausted Gear. For the duration of this Godform your Gear cards cannot be exhausted."
+      }
     ]
   },
   {
@@ -88,23 +70,14 @@
     "stats": "",
     "keywords": "",
     "abilities": [
-      [
-        {
-          "name": "You cannot die by raising your Rage over 9",
-          "flavorName": "God of War",
-          "type": "unique"
-        },
-        {
-          "name": "When you are about to gain Rage above 9, ignore the gain",
-          "type": "unique"
-        },
-        {
-          "name": "When you are about to perform a Power Roll, lose -1 Trespass to gain +1 Power to this roll",
-          "flavorName": "; Eschatonic Fuse",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "God of War",
+        "effects": "You cannot die by raising your Rage over 9. When you are about to gain Rage above 9, ignore the gain."
+      },
+      {
+        "name": "Eschatonic Fuse",
+        "effects": "When you are about to perform a Power Roll, lose -1 Trespass to gain +1 Power to this roll."
+      }
     ]
   },
   {
@@ -124,23 +97,26 @@
     "stats": "+3 Precision",
     "keywords": "",
     "abilities": [
-      [
-        {
-          "name": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool",
-          "flavorName": "Hunter of Mortals",
-          "type": "unique"
-        },
-        {
-          "name": "Treat this die as an automatic hit",
-          "type": "unique"
-        },
-        {
-          "name": "{3, +0, 2 Red} ComplicatedAction Lose -1 Trespass to perform an Attack with your Heavenly Bow! Range 3-9, Pushback x, where X is your Total Power during this Attack",
-          "flavorName": "; Critical Shot",
-          "type": "unique"
+      {
+        "name": "Hunter of Mortals",
+        "effects": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool. Treat this die as an automatic hit."
+      },
+      {
+        "name": "Critical Shot",
+        "effects": "ComplicatedAction Lose -1 Trespass to perform an Attack with your Heavenly Bow! Range 3-9, Pushback X, where X is your Total Power during this Attack.",
+        "attack": {
+          "attackDice": "3",
+          "precision": "0",
+          "power": [
+            {
+              "type": [
+                "Red",
+                "Red"
+              ]
+            }
+          ]
         }
-      ],
-      []
+      }
     ]
   },
   {
@@ -160,23 +136,14 @@
     "stats": "",
     "keywords": "",
     "abilities": [
-      [
-        {
-          "name": "When you Awaken into this Godform, immediately choose either the AI or BP deck",
-          "flavorName": "Poisoned Wisdom",
-          "type": "unique"
-        },
-        {
-          "name": "For the duration of this Godform, keep the top card from the chosen deck revealed at all times",
-          "type": "unique"
-        },
-        {
-          "name": "Start of your turn: You amy lose up to -2 Fate",
-          "flavorName": "; Moirai Favor",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Poisoned Wisdom",
+        "effects": "When you Awaken into this Godform, immediately choose either the AI or BP deck. For the duration of this Godform, keep the top card from the chosen deck revealed at all times."
+      },
+      {
+        "name": "Moirai Favor",
+        "effects": "Start of your turn: You amy lose up to -2 Fate."
+      }
     ]
   },
   {
@@ -196,59 +163,14 @@
     "stats": "",
     "keywords": "Roll Out, Bypass, Auto-inspire, Lifeline, Voluntary Knockdown",
     "abilities": [
-      [
-        {
-          "name": "Drunken Enlightenment: When you Awaken into this Godform and at the start of each of your turns, roll a d10",
-          "type": "unique"
-        },
-        {
-          "name": "Your Power die becomes Red",
-          "flavorName": "1-3",
-          "type": "unique"
-        },
-        {
-          "name": "You gain +3 Evasion",
-          "type": "unique"
-        },
-        {
-          "name": "Your Power die becomes Black",
-          "flavorName": "4-5",
-          "type": "unique"
-        },
-        {
-          "name": "You gain +2 Evasion",
-          "type": "unique"
-        },
-        {
-          "name": "Your Power die becomes 2 Red",
-          "flavorName": "6-7",
-          "type": "unique"
-        },
-        {
-          "name": "You gain +1 Evasion",
-          "type": "unique"
-        },
-        {
-          "name": "Your Power die becomes White",
-          "flavorName": "8-9",
-          "type": "unique"
-        },
-        {
-          "name": "Your Power die becomes 2 White",
-          "flavorName": "10",
-          "type": "unique"
-        },
-        {
-          "name": "You gain -1 Evasion",
-          "type": "unique"
-        },
-        {
-          "name": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 Tresppas to ignore that death and discard as many of the corresponding tokens to have exactly 1 less than the limit",
-          "flavorName": "; Godly Comforter",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Drunken Enlightenment",
+        "effects": "When you Awaken into this Godform and at the start of each of your turns, roll a d10. 1-3: Your Power die becomes RedPowerDie. You gain +3 Evasion. 4-5: Your Power die becomes BlackPowerDie. You gain +2 Evasion. 6-7: Your Power die becomes 2 RedPowerDie. You gain +1 Evasion. 8-9: Your Power die becomes WhitePowerDie. 10: Your Power die becomes 2 WhitePowerDie. You gain -1 Evasion."
+      },
+      {
+        "name": "Godly Comforter",
+        "effects": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 Trespass to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit."
+      }
     ]
   },
   {
@@ -268,23 +190,14 @@
     "stats": "+2 Evasion, +2 Evasion Reroll",
     "keywords": "Fate Vault",
     "abilities": [
-      [
-        {
-          "name": "Fate If the Primordial Attack has a singular Target, lose -1 Trespass to change that Target to you",
-          "flavorName": "Unearthly Beauty",
-          "type": "unique"
-        },
-        {
-          "name": "MovementAction Lose -1 Trespass to make the Primordial move to you via the shortest path",
-          "flavorName": "; Irresistible Call",
-          "type": "unique"
-        },
-        {
-          "name": "Use the Primordial's Speed",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Unearthly Beauty",
+        "effects": "Fate If the Primordial Attack has a singular Target, lose -1 Trespass to change that Target to you."
+      },
+      {
+        "name": "Irresistible Call",
+        "effects": "MovementAction Lose -1 Trespass to make the Primordial move to you via the shortest path. Use the Primordial's Speed."
+      }
     ]
   },
   {
@@ -304,35 +217,31 @@
     "stats": "+3 Precision",
     "keywords": "Bonus Action, Light 4, Cryptex Loathing.",
     "abilities": [
-      [
-        {
-          "name": "Fate Exhaust Use during voluntary movement to ignore all Terrain tiles during this movement",
-          "flavorName": "Fly",
-          "type": "unique"
-        },
-        {
-          "name": "You cannot end your mmovement on an Obstacle or Chasm",
-          "type": "unique"
-        },
-        {
-          "name": "When you are about to perform a Climb test, automatically succeed at that test instead",
-          "costs": [
-            "Fate",
-            "Exhaust"
-          ],
-          "type": "unique"
-        },
-        {
-          "name": "; Pitiful as the Sun: You cannot die from any Curse",
-          "type": "unique"
-        },
-        {
-          "name": "{3 dice, +0, white} CombatAction Lose -1 respass to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack",
-          "flavorName": "; Trigger Finger",
-          "type": "unique"
+      {
+        "name": "Fly",
+        "effects": "Fate Exhaust Use during voluntary movement to ignore all Terrain tiles during this movement. You cannot end your movement on an Obstacle or Chasm. Fate Exhaust When you are about to perform a Climb test, automatically succeed at that test instead."
+      },
+      {
+        "name": "Pitiful as the Sun",
+        "effects": "You cannot die from any Curse."
+      },
+      {
+        "name": "Trigger Finger",
+        "effects": "CombatAction Lose -1 Trespass to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack.",
+        "attack": {
+          "attackDice": "3",
+          "precision": "0",
+          "power": [
+            {
+              "type": [
+                [
+                  "White"
+                ]
+              ]
+            }
+          ]
         }
-      ],
-      []
+      }
     ]
   },
   {
@@ -352,31 +261,14 @@
     "stats": "",
     "keywords": "Light 1",
     "abilities": [
-      [
-        {
-          "name": "Choose another Titan",
-          "flavorName": "Till Death Do Us",
-          "type": "unique"
-        },
-        {
-          "name": "That Titan gains the PriorityTarget Priority Target token (you cannot gain the PriorityTarget token)",
-          "type": "unique"
-        },
-        {
-          "name": "As long as you are alive, that Titan cannot die from an Obol Draw",
-          "type": "unique"
-        },
-        {
-          "name": "Each that Titan is forced to draw an Obol, lose -1 Trespass",
-          "type": "unique"
-        },
-        {
-          "name": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 Power",
-          "flavorName": "; Scorned Mother",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Till Death Do Us",
+        "effects": "Choose another Titan. That Titan gains the PriorityTarget Priority Target token (you cannot gain the PriorityTarget token). As long as you are alive, that Titan cannot die from an Obol Draw. Each that Titan is forced to draw an Obol, lose -1 Trespass."
+      },
+      {
+        "name": "Scorned Mother",
+        "effects": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 Power."
+      }
     ]
   },
   {
@@ -396,22 +288,14 @@
     "stats": "+2 Precision, +3 Evasion",
     "keywords": "Bonus Action, Cryptex Loathing",
     "abilities": [
-      [
-        {
-          "name": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens",
-          "flavorName": "Trench of the Soul",
-          "type": "unique"
-        },
-        {
-          "name": "; Source and Sacrifice: Oxygen Lose -1 Trespass to perform a Bonus Attack (once per Battle)",
-          "type": "unique"
-        },
-        {
-          "name": "After that, a random Titan on the Argo dies",
-          "type": "unique"
-        }
-      ],
-      []
+      {
+        "name": "Trench of the Soul",
+        "effects": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens."
+      },
+      {
+        "name": "Source and Sacrifice",
+        "effects": "Oxygen Lose -1 Trespass to perform a Bonus Attack (once per Battle). After that, a random Titan on the Argo dies."
+      }
     ]
   }
 ]

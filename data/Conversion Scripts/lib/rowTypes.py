@@ -52,7 +52,9 @@ def clue_row(row):
 
 def condition_row(row):
     card_json = {
-        "name2": row["Reverse Name"],
+        "subtitleA": row["Subtitle"],
+        "nameB": row["Reverse Name"],
+        "subtitleB": row["Reverse Subtitle"],
         "sideA": {
             "effect": row["Primary Effect A"],
             "resolution": row["Resolution Effect A"],
@@ -62,6 +64,9 @@ def condition_row(row):
             "resolution": row["Resolution Effect B"],
         },
     }
+
+    if not card_json["subtitleA"]: card_json.pop("subtitleA")
+    if not card_json["subtitleB"]: card_json.pop("subtitleB")
 
     if row["End of Battle Effect A"]:
         card_json["sideA"]["endOfBattle"] = row["End of Battle Effect A"]
@@ -136,22 +141,20 @@ def gear_row(row):
 
 def godform_row(row):
     card_json = {
-        "cardIDs": row["Card ID"].split(", "),
-        "name": row["Name"],
-        "cardType": row["Card Type"],
-        "game": row["Game"],
-        "cardSize": row["Card Size"],
-        "cycle": row["Cycle"],
-        "foundIn": row["Found In"],
-
         "power": row["God Power"],
         "speed": row["Speed Bonus"],
         "stats": row["Stats"],
         "keywords": row["Keywords"],
-        "abilities": parse_abilities(row["Abilities"]),
-        
-        "faq": row["FAQ"],
-        "errata": row["Errata"]
+        "abilities": parse_abilities_block(row["Abilities"]),
+    }
+
+    return card_json
+
+def kratos_row(row):
+    card_json = {
+        "flavor": row["Flavor"],
+        "effects": row["Effects"],
+        "rally": row["Rally"],
     }
 
     return card_json
@@ -169,6 +172,22 @@ def mnemos_row(row):
         "traits": row["Traits"].split(", "),
         "abilities": [ability1, ability2, ability3],
         "stats": row["Stat"].split(", "),
+    }
+
+    return card_json
+
+def moiros_row(row):
+    card_json = {
+        "effects": row["Effects"],
+    }
+
+    return card_json
+
+def nymph_row(row):
+    card_json = {
+        "title": row["Title"],
+        "requirements": row["Requirements"],
+        "effects": row["Effects"],
     }
 
     return card_json
@@ -251,7 +270,7 @@ def structural_row(row):
         "requirements": row["Requirements"].split(", ") or [],
         "leadsTo": row["Leads To"].split(", ") or [],
         "flavorTech": row["Flavor (Tech)"],
-        "abilities": parse_tech_abilities(row["Abilities"]),
+        "abilities": parse_abilities_block(row["Abilities"]),
     }
 
     return card_json
