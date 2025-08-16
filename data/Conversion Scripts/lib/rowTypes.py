@@ -293,4 +293,15 @@ def titan_row(row):
 
     return card_json
 
+def trauma_row(row):
+    card_json = {
+        "flavor": row["Flavor"],
+        "subtype": row["Sub-Type"],
+        "effects": row["Effects"],
+        "isCondition": row["Condition?"],
+        "arrow": row["Minor Direction"],
+        "number": row["Major Number"],
+        "sign": row["Sign"]
+    }
 
+    return card_json
