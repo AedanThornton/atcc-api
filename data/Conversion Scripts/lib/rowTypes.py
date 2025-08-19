@@ -8,7 +8,6 @@ def argonaut_row(row):
 
 def argoAbility_row(row):
     card_json = {
-        "altname": row["Alternate Name"],
         "techType": row["Tech Type"],
         "techSubType": row["Tech Sub-Type"],
         "locked": row["Cycle-locked?"],
@@ -52,26 +51,26 @@ def clue_row(row):
 
 def condition_row(row):
     card_json = {
-        "subtitleA": row["Subtitle"],
-        "nameB": row["Reverse Name"],
-        "subtitleB": row["Reverse Subtitle"],
-        "sideA": {
+        "subtitle": row["Subtitle"],
+        "name2": row["Reverse Name"],
+        "subtitle2": row["Reverse Subtitle"],
+        "side": {
             "effect": row["Primary Effect A"],
             "resolution": row["Resolution Effect A"],
         },
-        "sideB": {
+        "side2": {
             "effect": row["Primary Effect B"],
             "resolution": row["Resolution Effect B"],
         },
     }
 
-    if not card_json["subtitleA"]: card_json.pop("subtitleA")
-    if not card_json["subtitleB"]: card_json.pop("subtitleB")
+    if not card_json["subtitle"]: card_json.pop("subtitle")
+    if not card_json["subtitle2"]: card_json.pop("subtitle2")
 
     if row["End of Battle Effect A"]:
-        card_json["sideA"]["endOfBattle"] = row["End of Battle Effect A"]
+        card_json["side"]["endOfBattle"] = row["End of Battle Effect A"]
     if row["End of Battle Effect B"]:
-        card_json["sideB"]["endOfBattle"] = row["End of Battle Effect B"]
+        card_json["side2"]["endOfBattle"] = row["End of Battle Effect B"]
 
     return card_json
 
@@ -262,7 +261,7 @@ def productionFacilities_row(row):
 
 def structural_row(row):
     card_json = {
-        "altname": row["Alternate Name"],
+        "name2": row["Alternate Name"],
         "techType": row["Tech Type"],
         "techSubType": row["Tech Sub-Type"],
         "locked": row["Cycle-locked?"],

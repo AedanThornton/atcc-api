@@ -37,7 +37,28 @@ def csv_to_json(csv_file, json_file, row_type):
             default_json = default_row(row)
             type_json = card_types[row_type](row)
             output.append(default_json | type_json)
-    
+        
+        #adjust for transforming gear
+        if output[0]["cardType"] == "Gear":
+            new_output = output.copy()
+            for gear in output:
+                if gear["transformsInto"] != None:
+
+                    flipside = next((item for item in output if item.get("name") == gear["transformsInto"]), None)
+
+                    full_gear = gear.copy()
+                    for key in flipside:
+                        full_gear["{}2".format(key)] = flipside[key]
+                    new_output.remove(gear)
+                    output.remove(gear)
+                    new_output.remove(flipside)
+                    output.remove(flipside)
+
+                    new_output.append(full_gear)
+            
+            output = new_output
+
+
     with open(json_file, "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=2)
 

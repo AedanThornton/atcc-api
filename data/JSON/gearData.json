@@ -2758,152 +2758,6 @@
   },
   {
     "cardIDs": [
-      "BJ0829",
-      "BJ0830"
-    ],
-    "name": "Temenos Scale Shield",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Temenos Scale Umbrella",
-    "traits": [
-      "Stone",
-      "Labyrinth",
-      "Primordial",
-      "Shield"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "1",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Opening",
-        "x_value": 1,
-        "type": "keyword"
-      },
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Block 1",
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ],
-        "type": "unique"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Labyrinth",
-        "value": "4+",
-        "abilities": [
-          {
-            "name": "You may use Transform as WoO",
-            "type": "unique"
-          }
-        ]
-      },
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "name": "Place 1 negative AeonTrespass token in the Kratos Pool",
-            "timing": "Crit Evade",
-            "type": "unique"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0829",
-      "BJ0830"
-    ],
-    "name": "Temenos Scale Umbrella",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Temenos Scale Shield",
-    "traits": [
-      "Flesh",
-      "Hermetic",
-      "Umbrella",
-      "Flammable",
-      "Primordial"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Second Chance",
-        "costs": [
-          "Fate",
-          "Discard"
-        ],
-        "type": "keyword"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "4+",
-        "abilities": [
-          {
-            "name": "Place 1 Diversion token in the Kratos Pool",
-            "timing": "Crit Evade",
-            "type": "unique"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
       "BJ0831",
       "BJ0832",
       "BJ0833",
@@ -3490,152 +3344,6 @@
         "abilities": [
           {
             "name": "WoO Discard Discard 1 Ambrosia token",
-            "type": "unique"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0860",
-      "BJ0861"
-    ],
-    "name": "Longinus",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Pseudomidion",
-    "traits": [
-      "Spear",
-      "Primordial",
-      "Labyrinth",
-      "Flammable"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "3",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Reach",
-        "x_value": 3,
-        "type": "keyword"
-      },
-      {
-        "name": "Pull",
-        "x_value": 1,
-        "type": "keyword"
-      },
-      {
-        "name": "Opening",
-        "x_value": 1,
-        "type": "keyword"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "name": "Reposition",
-            "x_value": 1,
-            "type": "keyword"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0860",
-      "BJ0861"
-    ],
-    "name": "Pseudomidion",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Longinus",
-    "traits": [
-      "Spear",
-      "Stone",
-      "Primordial",
-      "Labyrinth"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "3",
-      "precision": "1",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Reposition",
-        "x_value": 1,
-        "type": "keyword"
-      },
-      {
-        "name": "Break",
-        "x_value": 1,
-        "type": "keyword"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "5+",
-        "abilities": [
-          {
-            "name": "Break 2 instead",
             "type": "unique"
           }
         ]
@@ -4373,157 +4081,6 @@
         "abilities": [
           {
             "name": "When you break a Combo, place 2 Break tokens in the Kratos Pool",
-            "type": "unique"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0883",
-      "BJ0884"
-    ],
-    "name": "Metasword",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "",
-    "transformsInto": "Metabow",
-    "traits": [
-      "Metal",
-      "Smelted",
-      "Argotech",
-      "Sword"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "1",
-      "power": [
-        {
-          "type": [
-            "Red",
-            "Red",
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "PowerIcon"
-          ],
-          "gate": {
-            "type": "Danger",
-            "value": "7+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Auto-break",
-        "x_value": 2,
-        "type": "keyword"
-      },
-      {
-        "name": "Fire",
-        "x_value": 1,
-        "type": "keyword"
-      }
-    ],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0883",
-      "BJ0884"
-    ],
-    "name": "Metabow",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "",
-    "transformsInto": "Metasword",
-    "traits": [
-      "Wood",
-      "Smelted",
-      "Argotech",
-      "Bow",
-      "Flammable"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "1",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Commit",
-        "type": "keyword"
-      },
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Ranged",
-        "y_value": 4,
-        "x_value": 6,
-        "type": "keyword"
-      },
-      {
-        "name": "Opening",
-        "x_value": 1,
-        "type": "keyword"
-      },
-      {
-        "name": "Cumbersome",
-        "type": "keyword"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "name": "Opening 2 instead",
             "type": "unique"
           }
         ]
@@ -5638,175 +5195,6 @@
               "Exhaust"
             ],
             "type": "keyword"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0928",
-      "BJ0929"
-    ],
-    "name": "Boom Spear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Boom Pole",
-    "traits": [
-      "Fire",
-      "Argotech",
-      "Club"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "-1",
-      "power": [
-        {
-          "type": [
-            "Black",
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "PowerIcon"
-          ],
-          "plus": true
-        },
-        {
-          "type": [
-            "PowerIcon"
-          ],
-          "gate": {
-            "type": "Danger",
-            "value": "8+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Reach",
-        "x_value": 2,
-        "type": "keyword"
-      },
-      {
-        "name": "Auto-break",
-        "x_value": 2,
-        "type": "keyword"
-      },
-      {
-        "name": "Fire",
-        "x_value": 2,
-        "type": "keyword"
-      },
-      {
-        "name": "When performing a Power Roll, gain Armor-piercing",
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ],
-        "type": "unique"
-      }
-    ],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "BJ0928",
-      "BJ0929"
-    ],
-    "name": "Boom Pole",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Boom Spear",
-    "traits": [
-      "Fire Argotech",
-      "Pole",
-      "Spear"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "0",
-      "power": [
-        {
-          "type": [
-            "Black",
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "PowerIcon"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Transform",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Jump",
-        "costs": [
-          "Fate"
-        ],
-        "type": "keyword"
-      },
-      {
-        "name": "Before the Power Roll, if the BP card has a Response that creates a VP, immediately perform a Climb test, adding +2 to the result",
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ],
-        "type": "unique"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "name": "Add +4 to the Climb test instead",
-            "type": "unique"
           }
         ]
       }
@@ -6954,5 +6342,609 @@
       }
     ],
     "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BJ0829",
+      "BJ0830"
+    ],
+    "name": "Temenos Scale Shield",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": "Temenos Scale Umbrella",
+    "traits": [
+      "Stone",
+      "Labyrinth",
+      "Primordial",
+      "Shield"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {
+      "evasionRerolls": "2"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Block 1",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Labyrinth",
+        "value": "4+",
+        "abilities": [
+          {
+            "name": "You may use Transform as WoO",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Place 1 negative AeonTrespass token in the Kratos Pool",
+            "timing": "Crit Evade",
+            "type": "unique"
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "BJ0829",
+      "BJ0830"
+    ],
+    "name2": "Temenos Scale Umbrella",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "1 Hand",
+    "transformsInto2": "Temenos Scale Shield",
+    "traits2": [
+      "Flesh",
+      "Hermetic",
+      "Umbrella",
+      "Flammable",
+      "Primordial"
+    ],
+    "offensiveStatistics2": {},
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Second Chance",
+        "costs": [
+          "Fate",
+          "Discard"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "4+",
+        "abilities": [
+          {
+            "name": "Place 1 Diversion token in the Kratos Pool",
+            "timing": "Crit Evade",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0860",
+      "BJ0861"
+    ],
+    "name": "Longinus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": "Pseudomidion",
+    "traits": [
+      "Spear",
+      "Primordial",
+      "Labyrinth",
+      "Flammable"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reach",
+        "x_value": 3,
+        "type": "keyword"
+      },
+      {
+        "name": "Pull",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Reposition",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "BJ0860",
+      "BJ0861"
+    ],
+    "name2": "Pseudomidion",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Longinus",
+    "traits2": [
+      "Spear",
+      "Stone",
+      "Primordial",
+      "Labyrinth"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "3",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Break",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Break 2 instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0883",
+      "BJ0884"
+    ],
+    "name": "Metasword",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "",
+    "transformsInto": "Metabow",
+    "traits": [
+      "Metal",
+      "Smelted",
+      "Argotech",
+      "Sword"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "PowerIcon"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "7+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Auto-break",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [],
+    "cardIDs2": [
+      "BJ0883",
+      "BJ0884"
+    ],
+    "name2": "Metabow",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "",
+    "transformsInto2": "Metasword",
+    "traits2": [
+      "Wood",
+      "Smelted",
+      "Argotech",
+      "Bow",
+      "Flammable"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "2",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Ranged",
+        "y_value": 4,
+        "x_value": 6,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Opening 2 instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0928",
+      "BJ0929"
+    ],
+    "name": "Boom Spear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": "Boom Pole",
+    "traits": [
+      "Fire",
+      "Argotech",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "-1",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "PowerIcon"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "PowerIcon"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "8+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reach",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Auto-break",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "When performing a Power Roll, gain Armor-piercing",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [],
+    "cardIDs2": [
+      "BJ0928",
+      "BJ0929"
+    ],
+    "name2": "Boom Pole",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Boom Spear",
+    "traits2": [
+      "Fire Argotech",
+      "Pole",
+      "Spear"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "1",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "PowerIcon"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Jump",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Before the Power Roll, if the BP card has a Response that creates a VP, immediately perform a Climb test, adding +2 to the result",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Add +4 to the Climb test instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
   }
 ]
