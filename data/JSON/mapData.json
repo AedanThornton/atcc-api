@@ -1,0 +1,3479 @@
+[
+  {
+    "cardIDs": [
+      "001"
+    ],
+    "name": "001",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "City",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "East",
+        "nextTile": "002"
+      },
+      {
+        "direction": "South",
+        "nextTile": "009"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "002"
+    ],
+    "name": "002",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "001"
+      },
+      {
+        "direction": "East",
+        "nextTile": "003"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": "7979"
+  },
+  {
+    "cardIDs": [
+      "003"
+    ],
+    "name": "003",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "002"
+      },
+      {
+        "direction": "East",
+        "nextTile": "004"
+      },
+      {
+        "direction": "South",
+        "nextTile": "011"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "004"
+    ],
+    "name": "004",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "003"
+      },
+      {
+        "direction": "East",
+        "nextTile": "005"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "005"
+    ],
+    "name": "005",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "004"
+      },
+      {
+        "direction": "East",
+        "nextTile": "006"
+      },
+      {
+        "direction": "South",
+        "nextTile": "013"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "006"
+    ],
+    "name": "006",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "005"
+      },
+      {
+        "direction": "East",
+        "nextTile": "007"
+      },
+      {
+        "direction": "South",
+        "nextTile": "014"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "007"
+    ],
+    "name": "007",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure",
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "006"
+      },
+      {
+        "direction": "East",
+        "lock": "Diolkos",
+        "nextTile": "008"
+      },
+      {
+        "direction": "South",
+        "nextTile": "015"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "008"
+    ],
+    "name": "008",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress",
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "lock": "Diolkos",
+        "nextTile": "007"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": "5735"
+  },
+  {
+    "cardIDs": [
+      "009"
+    ],
+    "name": "009",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "001"
+      },
+      {
+        "direction": "East",
+        "nextTile": "010"
+      },
+      {
+        "direction": "South",
+        "nextTile": "016"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "010"
+    ],
+    "name": "010",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "009"
+      },
+      {
+        "direction": "East",
+        "nextTile": "011"
+      },
+      {
+        "direction": "South",
+        "nextTile": "017"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "011"
+    ],
+    "name": "011",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "010"
+      },
+      {
+        "direction": "North",
+        "nextTile": "003"
+      },
+      {
+        "direction": "East",
+        "nextTile": "012"
+      },
+      {
+        "direction": "South",
+        "lock": "Upstream",
+        "nextTile": "018"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "012"
+    ],
+    "name": "012",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure",
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "011"
+      },
+      {
+        "direction": "East",
+        "nextTile": "013"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "013"
+    ],
+    "name": "013",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "lock": "Upstream",
+        "nextTile": "012"
+      },
+      {
+        "direction": "North",
+        "nextTile": "005"
+      },
+      {
+        "direction": "South",
+        "nextTile": "020"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "014"
+    ],
+    "name": "014",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "006"
+      },
+      {
+        "direction": "East",
+        "nextTile": "015"
+      },
+      {
+        "direction": "South",
+        "lock": "Upstream",
+        "nextTile": "021"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "015"
+    ],
+    "name": "015",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "014"
+      },
+      {
+        "direction": "North",
+        "nextTile": "007"
+      },
+      {
+        "direction": "South",
+        "nextTile": "022"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "016"
+    ],
+    "name": "016",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "009"
+      },
+      {
+        "direction": "East",
+        "nextTile": "017"
+      },
+      {
+        "direction": "South",
+        "nextTile": "023"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "017"
+    ],
+    "name": "017",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Doom",
+      "Titan",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "016"
+      },
+      {
+        "direction": "North",
+        "nextTile": "010"
+      },
+      {
+        "direction": "East",
+        "lock": "Upstream",
+        "nextTile": "018"
+      },
+      {
+        "direction": "South",
+        "nextTile": "024"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "018"
+    ],
+    "name": "018",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Doom",
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "017"
+      },
+      {
+        "direction": "North",
+        "nextTile": "011"
+      },
+      {
+        "direction": "East",
+        "nextTile": "019"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "019"
+    ],
+    "name": "019",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots",
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "lock": "Upstream",
+        "nextTile": "018"
+      },
+      {
+        "direction": "East",
+        "nextTile": "020"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "020"
+    ],
+    "name": "020",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress",
+      "Spartan Stronghold",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "019"
+      },
+      {
+        "direction": "North",
+        "nextTile": "013"
+      },
+      {
+        "direction": "East",
+        "nextTile": "021"
+      },
+      {
+        "direction": "South",
+        "nextTile": "027"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "021"
+    ],
+    "name": "021",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "020"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "lock": "Upstream",
+        "nextTile": "014"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "022"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "028"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "022"
+    ],
+    "name": "022",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "021"
+      },
+      {
+        "direction": "North",
+        "nextTile": "015"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "023"
+    ],
+    "name": "023",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "lock": "Second Cataract",
+        "nextTile": "016"
+      },
+      {
+        "direction": "East",
+        "nextTile": "024"
+      },
+      {
+        "direction": "South",
+        "lock": "Upstream",
+        "nextTile": "030"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "024"
+    ],
+    "name": "024",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots",
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "023"
+      },
+      {
+        "direction": "North",
+        "lock": "Second Cataract",
+        "nextTile": "017"
+      },
+      {
+        "direction": "East",
+        "nextTile": "025"
+      },
+      {
+        "direction": "South",
+        "nextTile": "031"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "025"
+    ],
+    "name": "025",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "024"
+      },
+      {
+        "direction": "East",
+        "nextTile": "026"
+      },
+      {
+        "direction": "South",
+        "nextTile": "032"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "026"
+    ],
+    "name": "026",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "025"
+      },
+      {
+        "direction": "East",
+        "nextTile": "027"
+      },
+      {
+        "direction": "South",
+        "nextTile": "033"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "027"
+    ],
+    "name": "027",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "026"
+      },
+      {
+        "direction": "North",
+        "lock": "Second Cataract",
+        "nextTile": "020"
+      },
+      {
+        "direction": "East",
+        "nextTile": "028"
+      },
+      {
+        "direction": "South",
+        "nextTile": "034"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "028"
+    ],
+    "name": "028",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "027"
+      },
+      {
+        "direction": "North",
+        "lock": "Upstream",
+        "nextTile": "021"
+      },
+      {
+        "direction": "East",
+        "nextTile": "029"
+      },
+      {
+        "direction": "South",
+        "nextTile": "035"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "029"
+    ],
+    "name": "029",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "028"
+      },
+      {
+        "direction": "South",
+        "nextTile": "036"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "030"
+    ],
+    "name": "030",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "023"
+      },
+      {
+        "direction": "South",
+        "lock": "Upstream",
+        "nextTile": "037"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "031"
+    ],
+    "name": "031",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots",
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure",
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "024"
+      },
+      {
+        "direction": "East",
+        "nextTile": "032"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "032"
+    ],
+    "name": "032",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "031"
+      },
+      {
+        "direction": "North",
+        "lock": "Upstream",
+        "nextTile": "025"
+      },
+      {
+        "direction": "South",
+        "nextTile": "038"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "033"
+    ],
+    "name": "033",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Doom",
+      "Adventure",
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "026"
+      },
+      {
+        "direction": "East",
+        "nextTile": "034"
+      },
+      {
+        "direction": "South",
+        "nextTile": "039"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "034"
+    ],
+    "name": "034",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "lock": "Upstream",
+        "nextTile": "033"
+      },
+      {
+        "direction": "North",
+        "nextTile": "027"
+      },
+      {
+        "direction": "East",
+        "nextTile": "035"
+      },
+      {
+        "direction": "South",
+        "nextTile": "040"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "035"
+    ],
+    "name": "035",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "034"
+      },
+      {
+        "direction": "North",
+        "nextTile": "028"
+      },
+      {
+        "direction": "South",
+        "nextTile": "041"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "036"
+    ],
+    "name": "036",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "City",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "029"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "037"
+    ],
+    "name": "037",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Titan",
+      "Adventure",
+      "City",
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "030"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": "3721"
+  },
+  {
+    "cardIDs": [
+      "038"
+    ],
+    "name": "038",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "032"
+      },
+      {
+        "direction": "East",
+        "nextTile": "039"
+      },
+      {
+        "direction": "South",
+        "nextTile": "045"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "039"
+    ],
+    "name": "039",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "038"
+      },
+      {
+        "direction": "North",
+        "nextTile": "033"
+      },
+      {
+        "direction": "East",
+        "nextTile": "040"
+      },
+      {
+        "direction": "South",
+        "nextTile": "046"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "040"
+    ],
+    "name": "040",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots",
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "039"
+      },
+      {
+        "direction": "North",
+        "nextTile": "034"
+      },
+      {
+        "direction": "South",
+        "nextTile": "047"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "041"
+    ],
+    "name": "041",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "035"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "042"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "042"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "048"
+      }
+    ],
+    "otherFeatures": [
+      "Diolkos to move between a and b."
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "042"
+    ],
+    "name": "042",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "041"
+      },
+      {
+        "direction": "West",
+        "nextTile": "041"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "043"
+    ],
+    "name": "043",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "City",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "South",
+        "nextTile": "050"
+      },
+      {
+        "direction": "East",
+        "nextTile": "044"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "044"
+    ],
+    "name": "044",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "043"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "045"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "051"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "051"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "045"
+    ],
+    "name": "045",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "b",
+        "nextTile": "044"
+      },
+      {
+        "direction": "North",
+        "nextTile": "n 038"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "046"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "052"
+      }
+    ],
+    "otherFeatures": [
+      "Upstream to move between a and b."
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "046"
+    ],
+    "name": "046",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure",
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "045"
+      },
+      {
+        "direction": "North",
+        "nextTile": "039"
+      },
+      {
+        "direction": "East",
+        "nextTile": "047"
+      },
+      {
+        "direction": "South",
+        "nextTile": "053"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "047"
+    ],
+    "name": "047",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "046"
+      },
+      {
+        "direction": "North",
+        "nextTile": "040"
+      },
+      {
+        "direction": "East",
+        "nextTile": "048"
+      },
+      {
+        "direction": "South",
+        "nextTile": "054"
+      },
+      {
+        "direction": "South",
+        "nextTile": "054"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "048"
+    ],
+    "name": "048",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure",
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "047"
+      },
+      {
+        "direction": "North",
+        "nextTile": "041"
+      },
+      {
+        "direction": "East",
+        "nextTile": "049"
+      },
+      {
+        "direction": "South",
+        "nextTile": "055"
+      },
+      {
+        "direction": "South",
+        "nextTile": "055"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "049"
+    ],
+    "name": "049",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "048"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "050"
+    ],
+    "name": "050",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "043"
+      },
+      {
+        "direction": "East",
+        "nextTile": "051"
+      },
+      {
+        "direction": "South",
+        "lock": "Diolkos",
+        "nextTile": "057"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "051"
+    ],
+    "name": "051",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Doom",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "lock": "Upstream",
+        "nextTile": "050"
+      },
+      {
+        "direction": "North",
+        "nextTile": "1 044"
+      },
+      {
+        "direction": "North",
+        "lock": "First Cataract",
+        "nextTile": "044"
+      },
+      {
+        "direction": "North",
+        "lock": "First Cataract",
+        "nextTile": "044"
+      },
+      {
+        "direction": "East",
+        "nextTile": "052"
+      },
+      {
+        "direction": "South",
+        "nextTile": "058"
+      }
+    ],
+    "otherFeatures": [
+      "Map clue *3*2"
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "052"
+    ],
+    "name": "052",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "051"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "lock": "First Cataract",
+        "nextTile": "045"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "053"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "053"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "059"
+      }
+    ],
+    "otherFeatures": [
+      "Diolkos to move between a and b",
+      "Map clue *4*7"
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "053"
+    ],
+    "name": "053",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "052"
+      },
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "052"
+      },
+      {
+        "direction": "North",
+        "split": "b",
+        "nextTile": "046"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "054"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "060"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "054"
+    ],
+    "name": "054",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Doom",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "b",
+        "nextTile": "053"
+      },
+      {
+        "direction": "North",
+        "split": "b",
+        "nextTile": "047"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "lock": "First Cataract",
+        "nextTile": "047"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "061"
+      }
+    ],
+    "otherFeatures": [
+      "Map clue *1*5"
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "055"
+    ],
+    "name": "055",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy",
+      "Helots"
+    ],
+    "symbols": [
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "split": "a",
+        "lock": "First Cataract",
+        "nextTile": "048"
+      },
+      {
+        "direction": "North",
+        "split": "b",
+        "lock": "First Cataract",
+        "nextTile": "048"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "056"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "062"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "062"
+      }
+    ],
+    "otherFeatures": [
+      "Diolkos to move between a and b",
+      "Map clue *9*0"
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "056"
+    ],
+    "name": "056",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "055"
+      },
+      {
+        "direction": "South",
+        "nextTile": "063"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "057"
+    ],
+    "name": "057",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress",
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "lock": "Diolkos",
+        "nextTile": "050"
+      },
+      {
+        "direction": "South",
+        "nextTile": "064"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "058"
+    ],
+    "name": "058",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Progress",
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "051"
+      },
+      {
+        "direction": "East",
+        "nextTile": "059"
+      },
+      {
+        "direction": "South",
+        "nextTile": "065"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "059"
+    ],
+    "name": "059",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Progress",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "058"
+      },
+      {
+        "direction": "North",
+        "nextTile": "052"
+      },
+      {
+        "direction": "East",
+        "nextTile": "060"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "060"
+    ],
+    "name": "060",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "b",
+        "nextTile": "059"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "053"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "061"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "061"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "067"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "061"
+    ],
+    "name": "061",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Spartan Stronghold"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "060"
+      },
+      {
+        "direction": "West",
+        "split": "b",
+        "nextTile": "060"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "054"
+      },
+      {
+        "direction": "East",
+        "split": "a",
+        "nextTile": "062"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "062"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "068"
+      }
+    ],
+    "otherFeatures": [
+      "Upstream to move between a and b"
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "062"
+    ],
+    "name": "062",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "061"
+      },
+      {
+        "direction": "West",
+        "nextTile": "061"
+      },
+      {
+        "direction": "North",
+        "nextTile": "055"
+      },
+      {
+        "direction": "North",
+        "nextTile": "055"
+      },
+      {
+        "direction": "East",
+        "nextTile": "063"
+      },
+      {
+        "direction": "South",
+        "nextTile": "069"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "063"
+    ],
+    "name": "063",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "062"
+      },
+      {
+        "direction": "North",
+        "nextTile": "056"
+      },
+      {
+        "direction": "South",
+        "nextTile": "070"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "064"
+    ],
+    "name": "064",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "057"
+      },
+      {
+        "direction": "South",
+        "nextTile": "071"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "065"
+    ],
+    "name": "065",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Doom",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "058"
+      },
+      {
+        "direction": "East",
+        "nextTile": "066"
+      },
+      {
+        "direction": "South",
+        "nextTile": "072"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "066"
+    ],
+    "name": "066",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "065"
+      },
+      {
+        "direction": "South",
+        "nextTile": "073"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "067"
+    ],
+    "name": "067",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots",
+      "Cyclopes"
+    ],
+    "symbols": [
+      "City",
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "060"
+      },
+      {
+        "direction": "East",
+        "nextTile": "068"
+      },
+      {
+        "direction": "South",
+        "nextTile": "074"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "068"
+    ],
+    "name": "068",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Doom",
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "067"
+      },
+      {
+        "direction": "North",
+        "nextTile": "061"
+      },
+      {
+        "direction": "East",
+        "nextTile": "069"
+      },
+      {
+        "direction": "South",
+        "nextTile": "075"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "069"
+    ],
+    "name": "069",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "068"
+      },
+      {
+        "direction": "North",
+        "nextTile": "062"
+      },
+      {
+        "direction": "South",
+        "nextTile": "076"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "070"
+    ],
+    "name": "070",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "063"
+      },
+      {
+        "direction": "South",
+        "nextTile": "077"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "071"
+    ],
+    "name": "071",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "lock": "upstream",
+        "nextTile": "064"
+      },
+      {
+        "direction": "East",
+        "nextTile": "072"
+      },
+      {
+        "direction": "South",
+        "nextTile": "078"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "072"
+    ],
+    "name": "072",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Cyclopes"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "071"
+      },
+      {
+        "direction": "North",
+        "nextTile": "065"
+      },
+      {
+        "direction": "East",
+        "nextTile": "073"
+      },
+      {
+        "direction": "South",
+        "nextTile": "079"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "073"
+    ],
+    "name": "073",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "072"
+      },
+      {
+        "direction": "North",
+        "nextTile": "066"
+      },
+      {
+        "direction": "East",
+        "nextTile": "074"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "074"
+    ],
+    "name": "074",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "Titan",
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "073"
+      },
+      {
+        "direction": "North",
+        "nextTile": "067"
+      },
+      {
+        "direction": "East",
+        "nextTile": "075"
+      },
+      {
+        "direction": "South",
+        "nextTile": "081"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "075"
+    ],
+    "name": "075",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "074"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "068"
+      },
+      {
+        "direction": "East",
+        "split": "b",
+        "nextTile": "076"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "082"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "076"
+    ],
+    "name": "076",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "075"
+      },
+      {
+        "direction": "North",
+        "nextTile": "069"
+      },
+      {
+        "direction": "East",
+        "nextTile": "077"
+      },
+      {
+        "direction": "South",
+        "nextTile": "083"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "077"
+    ],
+    "name": "077",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "East",
+        "nextTile": "076"
+      },
+      {
+        "direction": "North",
+        "nextTile": "070"
+      },
+      {
+        "direction": "South",
+        "nextTile": "084"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "078"
+    ],
+    "name": "078",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      ""
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "071"
+      },
+      {
+        "direction": "East",
+        "nextTile": "079"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "079"
+    ],
+    "name": "079",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "078"
+      },
+      {
+        "direction": "North",
+        "nextTile": "072"
+      },
+      {
+        "direction": "East",
+        "nextTile": "080"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "080"
+    ],
+    "name": "080",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "079"
+      },
+      {
+        "direction": "East",
+        "nextTile": "081"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "081"
+    ],
+    "name": "081",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Helots"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "080"
+      },
+      {
+        "direction": "North",
+        "nextTile": "074"
+      },
+      {
+        "direction": "East",
+        "nextTile": "082"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "082"
+    ],
+    "name": "082",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "Progress",
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "081"
+      },
+      {
+        "direction": "North",
+        "nextTile": "075"
+      },
+      {
+        "direction": "East",
+        "nextTile": "083"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "083"
+    ],
+    "name": "083",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "082"
+      },
+      {
+        "direction": "North",
+        "nextTile": "076"
+      },
+      {
+        "direction": "East",
+        "nextTile": "084"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "084"
+    ],
+    "name": "084",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Symmachy"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "083"
+      },
+      {
+        "direction": "North",
+        "nextTile": "077"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "085"
+    ],
+    "name": "085",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "Progress"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "nextTile": "086"
+      },
+      {
+        "direction": "East",
+        "nextTile": "090"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "086"
+    ],
+    "name": "086",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "Titan",
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "081"
+      },
+      {
+        "direction": "East",
+        "nextTile": "091"
+      },
+      {
+        "direction": "South",
+        "nextTile": "085"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "087"
+    ],
+    "name": "087",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": [
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "088a"
+      },
+      {
+        "direction": "North",
+        "split": "b",
+        "nextTile": "088b"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "088"
+    ],
+    "name": "088",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "split": "a",
+        "nextTile": "083"
+      },
+      {
+        "direction": "North",
+        "split": "a",
+        "nextTile": "089"
+      },
+      {
+        "direction": "South",
+        "split": "a",
+        "nextTile": "087"
+      },
+      {
+        "direction": "South",
+        "split": "b",
+        "nextTile": "087"
+      },
+      {
+        "direction": "South",
+        "nextTile": ""
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "089"
+    ],
+    "name": "089",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "Doom"
+    ],
+    "movementArrows": [
+      {
+        "direction": "South",
+        "nextTile": "088"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "090"
+    ],
+    "name": "090",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "Adventure"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "085"
+      },
+      {
+        "direction": "West",
+        "nextTile": "058"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "091"
+    ],
+    "name": "091",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "086"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  },
+  {
+    "cardIDs": [
+      "333"
+    ],
+    "name": "333",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "symbols": [
+      ""
+    ],
+    "movementArrows": [
+      {
+        "direction": "West",
+        "nextTile": "???"
+      },
+      {
+        "direction": "North",
+        "nextTile": "???"
+      },
+      {
+        "direction": "East",
+        "nextTile": "???"
+      },
+      {
+        "direction": "South",
+        "nextTile": "???"
+      }
+    ],
+    "otherFeatures": [
+      ""
+    ],
+    "secrets": ""
+  }
+]

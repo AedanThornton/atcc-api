@@ -18,7 +18,7 @@ KEYWORDS = {
 }
 
 KEYWORDS_WITH_COST_NAME = {
-    "Fate Armor"
+    "Fate Armor", "Fate Follows"
 }
 
 COSTS = {

@@ -74,6 +74,18 @@ def condition_row(row):
 
     return card_json
 
+def doom_row(row):
+    card_json = {
+        "name2": row["Side B"] or row["Name"],
+        "cardNumber": row["Doom Card"],
+        "flavor": row["Flavor A"].split("\\n"),
+        "rules": row["Rules A"].split("\\n"),
+        "flavor2": row["Flavor B"].split("\\n"),
+        "rules2": row["Rules B"].split("\\n")
+    }
+
+    return card_json
+
 def exploration_row(row):
     card_json = {
         "effects": row["Effects"],
@@ -154,6 +166,17 @@ def kratos_row(row):
         "flavor": row["Flavor"],
         "effects": row["Effects"],
         "rally": row["Rally"],
+    }
+
+    return card_json
+
+def map_row(row):
+    card_json = {
+        "factions": row["Faction"].split(", "),
+        "symbols": row["Symbols"].split(", "),
+        "movementArrows": parse_map_movement(row["Movement"]),
+        "otherFeatures": row["Other Features"].split(". "),
+        "secrets": row["Secrets"]
     }
 
     return card_json
@@ -259,6 +282,20 @@ def productionFacilities_row(row):
 
     return card_json
 
+def story_row(row):
+    card_json = {
+        "name2": row["Reverse Side"] or row["Name"],
+        "cardNumber": row["Story Card"],
+        "flavor": row["Flavor A"].split("\\n"),
+        "rulesTitle": row["Summary A"],
+        "rules": row["Rules A"].split("\\n"),
+        "flavor2": row["Flavor B"].split("\\n"),
+        "rulesTitle2": row["Summary B"],
+        "rules2": row["Rules B"].split("\\n")
+    }
+
+    return card_json
+
 def structural_row(row):
     card_json = {
         "name2": row["Alternate Name"],
@@ -289,6 +326,16 @@ def titan_row(row):
         "abilities": abilites,
         "gatedAbilities": gated_abilities
     }
+
+    return card_json
+
+def trait_row(row):
+    card_json = {
+        "name2": row["Reverse Side"],
+        "effects": row["Effects"]
+    }
+
+    if not card_json["name2"]: card_json.pop("name2")
 
     return card_json
 

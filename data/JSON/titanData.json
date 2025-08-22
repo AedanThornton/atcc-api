@@ -1622,7 +1622,7 @@
       [
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "1"
           },
           {
@@ -1659,7 +1659,7 @@
       [
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "1"
           },
           {
@@ -2274,7 +2274,7 @@
             "x_value": "1"
           },
           {
-            "name": "Pole Position"
+            "name": "PolePosition"
           }
         ]
       ],
@@ -2469,7 +2469,7 @@
             "x_value": "1"
           },
           {
-            "name": "Pole Position"
+            "name": "PolePosition"
           }
         ]
       ],
@@ -2748,7 +2748,7 @@
       [
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "1"
           }
         ],
@@ -2773,7 +2773,7 @@
       [
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "1"
           }
         ],
@@ -2805,7 +2805,7 @@
       [
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "1"
           },
           {
@@ -2815,7 +2815,7 @@
         ],
         [
           {
-            "name": "Greater Pass",
+            "name": "GreaterPass",
             "x_value": "2"
           }
         ]
@@ -2917,7 +2917,11 @@
       [
         [
           {
-            "name": "Break 1 adn Hope",
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Hope",
             "x_value": "1"
           }
         ],
@@ -3912,6 +3916,186 @@
       {
         "name": "Rush",
         "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EK9931"
+    ],
+    "name": "Strider",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": null,
+    "titanPower": "Mortal",
+    "speed": "4",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Hope",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Hope",
+            "x_value": "1"
+          },
+          {
+            "name": "Inspire",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Hope",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Hope",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Hope",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Hope",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Heartseeker"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Clutch"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Major",
+        "range": "1-5"
+      },
+      {
+        "type": "Grave",
+        "range": "6-10"
+      },
+      {
+        "type": "Obol",
+        "range": "11+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Dual-Wielding",
+        "type": "unique"
+      },
+      {
+        "name": "Internalize Despair",
+        "type": "unique"
+      },
+      {
+        "name": "Cyclopean Might",
+        "type": "unique"
+      },
+      {
+        "name": "Kreios Strain",
+        "type": "unique"
+      },
+      {
+        "name": "Final Countdown",
+        "type": "unique"
       }
     ],
     "gatedAbilities": []
