@@ -234,6 +234,65 @@ def pattern_row(row):
 
     return card_json
 
+def primordial_row(row):
+    diagram = row["Diagram"].split(", ")
+
+    card_json = {
+        "figure_size": diagram[0],
+        "diagramEffects": diagram[1:],
+    }
+
+    if not row["# of VPs"] == "0":
+        card_json["vp"] = {
+            "vpCount": row["# of VPs"],
+            "climbTest": {
+                "stat": row["VP Climb Test"].split(" ")[0],
+                "difficulty": row["VP Climb Test"].split(" ")[1][0]
+            },
+            "holdOn": {
+                "test": row["VP Hold On"],
+                "fail": row["VP Hold On Fail"]
+            },
+            "effects": row["VP Effects"]
+        }
+
+    levels_json = []
+    traits_list = []
+    for i in range(0, 10):
+        if row["Level " + str(i)]:
+            details = row["Level " + str(i)].split(". ")
+
+            attr_json = []
+            if details[3]:
+                for attribute in details[3].split(", "):
+                    count, name = attribute.split(" ")
+                    attr_json.append({
+                        "count": count,
+                        "name": name
+                    })
+
+            traits = details[4].split(", ")
+            for trait in traits:
+                if trait[0] == "-":
+                    traits_list.remove(trait[1:])
+                else:
+                    traits_list.append(trait)
+
+            levels_json.append({
+                "level": str(i),
+                "toHit": details[0],
+                "speed": details[1],
+                "wounds": details[2],
+                "attributes": attr_json,
+                "traitsChanges": traits,
+                "traitsFullList": traits_list.copy()
+            })
+
+    card_json["levels"] = levels_json
+
+
+    return card_json
+
 def primordialAttack_row(row):
     card_json = {
         "subtype": row["Subtype"],
@@ -308,6 +367,22 @@ def structural_row(row):
         "flavorTech": row["Flavor (Tech)"],
         "abilities": parse_abilities_block(row["Abilities"]),
     }
+
+    return card_json
+
+def terrain_row(row):
+    card_json = {
+        "tiles": parse_tiles(row["Tiles"]),
+        "keywords": row["Keywords"].split(". "),
+        "abilities": row["Abilities"].split(". "),
+    }
+
+    if row["Reverse Side"]:
+        card_json["name2"] = row["Reverse Side"]
+    if row["Flipped Keywords"]:
+        card_json["keywords2"] = row["Flipped Keywords"]
+    if row["Flipped Abilities"]:
+        card_json["abilities2"] = row["Flipped Abilities"]
 
     return card_json
 

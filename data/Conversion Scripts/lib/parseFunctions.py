@@ -436,3 +436,18 @@ def parse_map_movement(map_movement):
 
     return movement_json
 
+def parse_tiles(raw_tiles):
+    tiles = raw_tiles.split(", ")
+    tile_list = []
+
+    for tile in tiles:
+        count, kind = tile.split(" ")
+        tile_json = {
+            "count": count,
+            "type": kind
+        }
+
+        tile_list.append(tile_json)
+
+    return tile_list
+

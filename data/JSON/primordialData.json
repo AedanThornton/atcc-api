@@ -1,0 +1,1564 @@
+[
+  {
+    "cardIDs": [
+      "DU2394"
+    ],
+    "name": "Midascore",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "3x3",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "vp": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "9"
+      },
+      "holdOn": {
+        "test": "Endurance 9+",
+        "fail": "Knockdown. Displace onto the closest Irem Tower Terrain tile. "
+      },
+      "effects": "When on the VP, you gain +2 Power. Ignore normal Primordial Responses. Resolve these instead: Wound: Midas 1. WoO Imperial Impetus. Fail: Airburst 2. WoO Immediately perform the Hold On test."
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment."
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment."
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Amongst the Bleached Bones",
+          "Cities of Gold."
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment.",
+          "Amongst the Bleached Bones",
+          "Cities of Gold."
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "+Sunken Costs."
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment.",
+          "Amongst the Bleached Bones",
+          "Cities of Gold.",
+          "+Sunken Costs."
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Unholy Inflation",
+          "Weight of Greed."
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment.",
+          "Amongst the Bleached Bones",
+          "Cities of Gold.",
+          "+Sunken Costs.",
+          "Unholy Inflation",
+          "Weight of Greed."
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EU3022"
+    ],
+    "name": "Dragon of Phobos",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear."
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear."
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Fear is Constant"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Blacker Than The Night",
+          "Pale Grin of Death"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "A Lie for a Truth",
+          "Light is Dimming"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Psychosomatic Poisoning",
+          "End of Hope"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming",
+          "Psychosomatic Poisoning",
+          "End of Hope"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Relentless Anxiety",
+          "Deeper Depths"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming",
+          "Psychosomatic Poisoning",
+          "End of Hope",
+          "Relentless Anxiety",
+          "Deeper Depths"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Original Trench"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming",
+          "Psychosomatic Poisoning",
+          "End of Hope",
+          "Relentless Anxiety",
+          "Deeper Depths",
+          "Original Trench"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Dice"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming",
+          "Psychosomatic Poisoning",
+          "End of Hope",
+          "Relentless Anxiety",
+          "Deeper Depths",
+          "Original Trench",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "6",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Dice"
+          },
+          {
+            "count": "3",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Dragon of the Lightless Void",
+          "Ruthless."
+        ],
+        "traitsFullList": [
+          "Vanish X",
+          "Phobian Hierarchy",
+          "Pale Grin of Doom",
+          "A Truth for a Truth",
+          "Fat with Fear.",
+          "Fear is Constant",
+          "Blacker Than The Night",
+          "Pale Grin of Death",
+          "A Lie for a Truth",
+          "Light is Dimming",
+          "Psychosomatic Poisoning",
+          "End of Hope",
+          "Relentless Anxiety",
+          "Deeper Depths",
+          "Original Trench",
+          "Beginning of the End",
+          "Dragon of the Lightless Void",
+          "Ruthless."
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EU3061"
+    ],
+    "name": "Meduketos",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "3x3",
+    "diagramEffects": [],
+    "vp": {
+      "vpCount": "2",
+      "climbTest": {
+        "stat": "Will",
+        "difficulty": "7"
+      },
+      "holdOn": {
+        "test": "Endurance 9+. If Meduketos is outside the Board, test Courage 7+ instead",
+        "fail": "Discard 1 Oxygen token, Knockdown, displace to an adjacent space. If the Meduketos is outside the Battle Board, you die instead, and you cannot ignore or mitigate this Falling Down effect"
+      },
+      "effects": "When on a VP, you gain +1 Power. End of your turn: Burn. You may take your turn even if the Primordial is outside of the Battle Board. Scan Test: For Scan Test purposes, you may choose any Vent Terrain tile on the Battle Board. Hard to See: If you are on a VP when he Primordial is outside of the Battle Board, you can be Targeted only if there are no other viable Targets."
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Truth or Death"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Invisible Flame"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Nap of the Vent",
+          "Tigerback"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Candle in the Dark",
+          "End of Hope"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback",
+          "Candle in the Dark",
+          "End of Hope"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Black Soup",
+          "Deeper Depths"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback",
+          "Candle in the Dark",
+          "End of Hope",
+          "Black Soup",
+          "Deeper Depths"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Original Trench"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback",
+          "Candle in the Dark",
+          "End of Hope",
+          "Black Soup",
+          "Deeper Depths",
+          "Original Trench"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Dice"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback",
+          "Candle in the Dark",
+          "End of Hope",
+          "Black Soup",
+          "Deeper Depths",
+          "Original Trench",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "15",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "6",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Dice"
+          },
+          {
+            "count": "3",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Three Seconds",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "Clicks & Pings",
+          "Hide & Heatseek",
+          "Heat Death",
+          "Microwave Shield",
+          "Slow Boiling",
+          "Fat with Light",
+          "Truth or Death",
+          "Invisible Flame",
+          "Nap of the Vent",
+          "Tigerback",
+          "Candle in the Dark",
+          "End of Hope",
+          "Black Soup",
+          "Deeper Depths",
+          "Original Trench",
+          "Beginning of the End",
+          "Three Seconds",
+          "Ruthless"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EU3100"
+    ],
+    "name": "Ur-Fleece",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Full-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot",
+      "Lumbering"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [],
+        "traitsChanges": [
+          "Just a Memory",
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling"
+        ],
+        "traitsFullList": [
+          "Just a Memory",
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "-Just a Memory"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Mortal Embers"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Darkest Before Dawn"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Deeper Depths"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn",
+          "Beginning of the End",
+          "Deeper Depths"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "15",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Dice"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Contagious Fear"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn",
+          "Beginning of the End",
+          "Deeper Depths",
+          "Contagious Fear"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "16",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Dice"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Unfathomable Depths",
+          "-Deeper Depths"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn",
+          "Beginning of the End",
+          "Contagious Fear",
+          "Unfathomable Depths"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "17",
+        "speed": "Inf",
+        "wounds": "99",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "9",
+            "name": "AT"
+          },
+          {
+            "count": "3",
+            "name": "Dice"
+          },
+          {
+            "count": "3",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "End of an Age",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Race Through Dark Places",
+          "It Spreads",
+          "Always There",
+          "No Other Gods Before Me",
+          "Microwave Shield",
+          "Mortal Kindling",
+          "Psychosomatic Poisoning",
+          "Argo's Parting Gift",
+          "All for All",
+          "Mortal Embers",
+          "Darkest Before Dawn",
+          "Beginning of the End",
+          "Contagious Fear",
+          "Unfathomable Depths",
+          "End of an Age",
+          "Ruthless"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EU3144"
+    ],
+    "name": "Titan X",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "1x1",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Toying",
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles"
+        ],
+        "traitsFullList": [
+          "Toying",
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Dazzling Speed",
+          "-Toying"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Nemesis Vow"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Truth of the Shoals"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Play for Keeps"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals",
+          "Beginning of the End",
+          "Play for Keeps"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "You Cannot Advance"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals",
+          "Beginning of the End",
+          "Play for Keeps",
+          "You Cannot Advance"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "15",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Flawless Form"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals",
+          "Beginning of the End",
+          "Play for Keeps",
+          "You Cannot Advance",
+          "Flawless Form"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "16",
+        "speed": "Inf",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Dice"
+          },
+          {
+            "count": "2",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "Just Fold"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals",
+          "Beginning of the End",
+          "Play for Keeps",
+          "You Cannot Advance",
+          "Flawless Form",
+          "Just Fold"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "17",
+        "speed": "Inf",
+        "wounds": "17",
+        "attributes": [
+          {
+            "count": "6",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Dice"
+          },
+          {
+            "count": "3",
+            "name": "DangerPerHit"
+          }
+        ],
+        "traitsChanges": [
+          "End of an Age",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "Killjoy",
+          "Death of Hope",
+          "Man Among SHeep",
+          "Unholy Halo",
+          "Faster Than Thought",
+          "Flash Step",
+          "Feints",
+          "Critical Strikes",
+          "No Obstacles",
+          "Dazzling Speed",
+          "Nemesis Vow",
+          "Truth of the Shoals",
+          "Beginning of the End",
+          "Play for Keeps",
+          "You Cannot Advance",
+          "Flawless Form",
+          "Just Fold",
+          "End of an Age",
+          "Ruthless"
+        ]
+      }
+    ]
+  }
+]

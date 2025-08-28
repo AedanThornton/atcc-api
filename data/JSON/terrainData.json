@@ -1,0 +1,556 @@
+[
+  {
+    "cardIDs": [
+      "AI0370"
+    ],
+    "name": "Argo Hull",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "1x4"
+      },
+      {
+        "count": "2",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Indestructible."
+    ],
+    "abilities": [
+      "Hull Damage: If the Primordial moves on to this tile or a Titan would be involuntarily moved onto it, roll a d10",
+      "On a 6+, the plating holds, otherwise, lose -1 Hull and disable the Argo Support effect (only once per Battle)."
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0371"
+    ],
+    "name": "Ambrosia Pool",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "6",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Ambrosia."
+    ],
+    "abilities": [
+      ""
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0691"
+    ],
+    "name": "Spartan River Works",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "1x1"
+      },
+      {
+        "count": "1",
+        "type": "Z"
+      },
+      {
+        "count": "1",
+        "type": "1x4"
+      },
+      {
+        "count": "1",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "River",
+      "Indestructible",
+      "Chasm",
+      "Exposed."
+    ],
+    "abilities": [
+      ""
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0693"
+    ],
+    "name": "Ambrosia Trail",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Ambrosia."
+    ],
+    "abilities": [
+      ""
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0694"
+    ],
+    "name": "Fortified City",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "3",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Cover",
+      "Inhabited."
+    ],
+    "abilities": [
+      "Scouting: The first time any Titan move son to this tile, test Cunning (6+)",
+      "On Fail, flip this tile",
+      "Thermopylaed: If you push the Primordial onto this tile, test Cunning (6+)",
+      "On Success, flip this tile."
+    ],
+    "name2": "Termophylaed City",
+    "keywords2": "Obscuring. Cover. Inhabited.",
+    "abilities2": "Titans: If this card flipped from Scouting, gain Danger equal to the Primordial LVL and suffer Knockdown. Primordials: If this card flipped from Thermopylaed, place 1 negative AT token in the Kratos Pool."
+  },
+  {
+    "cardIDs": [
+      "BI0695"
+    ],
+    "name": "Cliff",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "4",
+        "type": "L"
+      },
+      {
+        "count": "3",
+        "type": "O"
+      },
+      {
+        "count": "5",
+        "type": "Z"
+      },
+      {
+        "count": "3",
+        "type": "1x4"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible."
+    ],
+    "abilities": [
+      "Cannot be ignored using the Jump keyword",
+      "During voluntary movement, Titans may perform a Climb test to attempt to move through a Cliff tile",
+      "Small Cliff: Fury (8+)",
+      "Large Cliff: Fury (10+)",
+      "Success: Continue to move through the Cliff tile, ignoring the Obstacle keyword",
+      "You cannot end your movement on a Cliff tile",
+      "Fail: Your movement immediately ends."
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0696"
+    ],
+    "name": "Ambrosia Elephant",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Destructible",
+      "Obstacle",
+      "Obscuring."
+    ],
+    "abilities": [
+      "CombatAction Treasure: Once per Battle, when adjacent, search the Ambrosia Elephant",
+      "Roll a d10: 1: The bubbling ambrosia stored in the elephant enguls you! Gain 1 Ambrosia token and suffer Knockdown",
+      "2-5: Dormant raw Ambrosia",
+      "Gain 1 Violent Ambrosia resources",
+      "6-9: Refined Ambrosia tank",
+      "Gain 2 Violent Ambrosia resources",
+      "10: During their excavation, the Spartans dug up a Cyclopean Burial Site",
+      "Gain a Carver Kopis Gear card",
+      "If you already a Carver Kopis, gain a Cyclopean Visor Gear card instead."
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0697"
+    ],
+    "name": "Cyclops Trap",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Chasm."
+    ],
+    "abilities": [
+      "Setup: Place 2 Cyclops Trap Terrain tiles in the Outer 3 zone, minimum 5 spaces apart and 5 spaces from any City",
+      "Trap: If the Primordial moves through this tile, discard the tile and roll a d10: 1-6: Look at the top BP card",
+      "7-10: Look at the top BP card",
+      "The Primordial has -1 AT until the end of the Titan Round",
+      "If a Titan dies from the Chasm effect on this tile, discard the tile."
+    ]
+  },
+  {
+    "cardIDs": [
+      "BI0699"
+    ],
+    "name": "Krypteia Outpost",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Reinforced Destructible",
+      "Obstacle",
+      "Obscuring."
+    ],
+    "abilities": [
+      "Setup: Place the Krypteia Outpost in the Outer 3 Zone of one of the short Board Edges",
+      "Jamming: While the Krypteia Outpost is on the Board, you cannot use Argo Abilities",
+      "You may attack the Krypteia Outpost with a CombatAction as if it was a Primordial",
+      "(To-Hit 4+",
+      "AT 4",
+      "Wound: You damage the structure, flip this tile and place 2 Openings in the Kratos Pool",
+      "Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans",
+      "Gain +1 Danger and resolve a Trauma Draw",
+      "Critical: You destroy the structure in one fell attack! Gain +1 Progress",
+      "Discard this tile",
+      "You and one other Titan may immdiately move up to 5 spaces",
+      "Place 1 Opening token in the Kratos Pool.)"
+    ],
+    "name2": "Damaged Krypteia Outpost",
+    "keywords2": "Destructible. Obstacle. Obscuring.",
+    "abilities2": "Jamming: While the Damaged Krypteia Outpost is on the Board, you can only use 1 Argo Ability per Round. You may attack the Krypteia Outpost with a CombatAction as if it was a Primordial. (To-Hit 6+. AT 3. Wound: Discard this tile. You and one other Titan may immediately move up to 5 spaces. Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans. Gain +1 Danger and resolve a Trauma Draw. Critical: You destroy the structure in one fell attack! Gain +1 Progress. Discard this tile. You and one other Titan may immdiately move up to 5 spaces.)"
+  },
+  {
+    "cardIDs": [
+      "BI0700"
+    ],
+    "name": "Graveyard Of The Frail",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Destructible",
+      "Cover",
+      "Inhabited."
+    ],
+    "abilities": [
+      "<Friendly> Titans on this tile have +1 Precision",
+      "<Allied> Titans on this tile have +1 Precision and +1 Power",
+      "If this tile is destroyed, immediately lose -1 Humanity and gain +1 Refugees."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1310"
+    ],
+    "name": "Timefront",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "1x4"
+      },
+      {
+        "count": "2",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "Board Edge",
+      "Boundless",
+      "Indestructible."
+    ],
+    "abilities": [
+      "If a Titan would die by moving onto or beyond this Board Edge, it is erased from existence instead",
+      "Treat all Timefront Terrain tiles as a single tile."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1311"
+    ],
+    "name": "Time-Frozen City",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Inhabited",
+      "Destructible",
+      "Cover."
+    ],
+    "abilities": [
+      "CombatAction Thaw Time: Once per Battle, when adjacent or on this tile, lose -1 Frozen Time and test (ArgoFate+)> On Success, you've freed the City from the Loop",
+      "Gain +1 Diplomacy with the Local Faction and replace this tile with a City Terrain tile."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1312"
+    ],
+    "name": "Spot Of Nothingness",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Indestructible."
+    ],
+    "abilities": [
+      "Titans treat this tile as having Boundless and Board Edge keywords."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1313"
+    ],
+    "name": "Black Iceberg",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "16",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Destructible",
+      "Black Ice."
+    ],
+    "abilities": [
+      "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
+      "3-8: Place 1 negative AT token in the Kratos Pool",
+      "9-10: Place 2 negative AT tokens in the Kratos Pool."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1314"
+    ],
+    "name": "Giant Black Iceberg",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "4",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Destructible",
+      "Black Ice."
+    ],
+    "abilities": [
+      "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
+      "3-8: Place 1 negative AT token in the Kratos Pool",
+      "9-10: Place 2 negative AT tokens in the Kratos Pool."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1315"
+    ],
+    "name": "Floating Rocks",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible",
+      "Elevated."
+    ],
+    "abilities": [
+      "Climb test Fury (4+)",
+      "On Success, yo may place your Titan on any of this tile's spaces",
+      "When on a Floating Rocks space, a Titan may move to a VP I of an adjacent Primordial with a free action",
+      "They also gain +3 to Climb tests."
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1316"
+    ],
+    "name": "Black Glacier",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "L"
+      },
+      {
+        "count": "1",
+        "type": "Z"
+      },
+      {
+        "count": "2",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "Indestructible",
+      "Slippery."
+    ],
+    "abilities": [
+      ""
+    ]
+  },
+  {
+    "cardIDs": [
+      "CI1317"
+    ],
+    "name": "Black Lake",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "3",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Indestructible",
+      "Slippery."
+    ],
+    "abilities": [
+      ""
+    ]
+  }
+]
