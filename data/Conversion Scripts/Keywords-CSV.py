@@ -19,3 +19,4 @@ def csv_to_json(csv_file, json_file):
         json.dump(output, outfile, indent=2)
 
 csv_to_json("./data/CSV/titanAbilityData.csv", "./data/JSON/titanAbilityData.json")
+csv_to_json("./data/CSV/primordialAbilityData.csv", "./data/JSON/primordialAbilityData.json")
