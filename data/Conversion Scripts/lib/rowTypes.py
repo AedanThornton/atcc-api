@@ -265,7 +265,8 @@ def primordial_row(row):
             attr_json = []
             if details[3]:
                 for attribute in details[3].split(", "):
-                    count, name = attribute.split(" ")
+                    count = attribute.split(" ")[0]
+                    name = " ".join(attribute.split(" ")[1:])
                     attr_json.append({
                         "count": count,
                         "name": name
