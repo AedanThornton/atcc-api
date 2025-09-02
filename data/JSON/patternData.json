@@ -1571,13 +1571,14 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Hermes Reflex 1",
+        "name": "Hermes Reflex",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Exhaust"
         ],
         "timing": "Reaction",
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": []

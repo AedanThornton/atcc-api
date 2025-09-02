@@ -46,6 +46,10 @@ def parse_armor(armor_str):
                 "amount": int(amount),
                 "type": die_type
             })
+        else:
+            armor.append({
+                "type": part
+            })
     return armor
 
 def parse_abilities(ability_box):
@@ -69,23 +73,22 @@ def parse_abilities(ability_box):
             gate_type, gate_value, ability_name = gate_match.groups()
             parsing_gate_abilities = True
         else: ability_name = ability
-            
-        keyword_match = x_pattern.match(ability_name)
-
-        effect, x_value = keyword_match.groups() if (keyword_match and keyword_match.groups()[0] in KEYWORDS) else (ability_name, None)
 
         costs = []
         timing = ""
         timingAfter = False
         flavorName = ""
-        words = effect.split()
-        colon_timings = effect.split(":")
+        words = ability_name.split()
+        colon_timings = ability_name.split(":")
         if words[0] in TIMINGS:
             timing = words[0]
             words.remove(words[0])
         for word in words[:]:
             if word in COSTS:
-                costs.append(word)
+                if word == "DiscardCost":
+                    costs.append("Discard")
+                else:
+                    costs.append(word)
                 words.remove(word)
             else: break
         colon_timings = " ".join(words).split(":")
@@ -103,9 +106,14 @@ def parse_abilities(ability_box):
 
         name = " ".join(words)
                 
+            
+        keyword_match = x_pattern.match(name)
+
+        effect, x_value = keyword_match.groups() if (keyword_match and keyword_match.groups()[0] in KEYWORDS) else (name, None)
+
 
         ability_json = {}
-        ability_json["name"] = name
+        ability_json["name"] = effect
         if flavorName:
             ability_json["flavorName"] = flavorName
         if x_value:
@@ -124,7 +132,7 @@ def parse_abilities(ability_box):
         if timingAfter:
             ability_json["timingAfter"] = True
 
-        if name in KEYWORDS:
+        if effect in KEYWORDS:
             ability_json["type"] = "keyword"
         else:
             ability_json["type"] = "unique"

@@ -36,7 +36,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "This item can be used as a OneHanded Weapon, with the following modifiers: -1 d10",
+        "name": "This item can be used as a OneHandedIcon Weapon, with the following modifiers: -1 d10Icon",
         "type": "unique"
       }
     ],
@@ -160,28 +160,29 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Reinforce 1",
+        "name": "Reinforce",
+        "x_value": 1,
         "costs": [
           "Fate"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": []
   },
   {
     "cardIDs": [
-      "AJ0167",
-      "AJ0168"
+      "AJ0169",
+      "AJ0170"
     ],
-    "name": "Siren Shield",
+    "name": "Sirenteeth",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
-    "acquisition": "Crafting",
+    "acquisition": "Crafting, Story",
     "flavor": "Broken shells make sharp teeth.",
     "slot": "1 Hand",
     "transformsInto": null,
@@ -348,7 +349,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -422,7 +423,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -459,7 +460,7 @@
         "value": "2+",
         "abilities": [
           {
-            "name": "When you are about to perform a Power Roll, gain +3 Danger to gain +1 RedPowerDie for this Attack",
+            "name": "When you are about to perform a Power Roll, gain +3 DangerIcon to gain +1 RedPowerDieIcon for this Attack",
             "type": "unique"
           }
         ]
@@ -554,7 +555,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -684,7 +685,7 @@
         "type": "keyword"
       },
       {
-        "name": "You may gain the PriorityTarget token",
+        "name": "You may gain the PriorityTargetIcon Priority Target token",
         "timing": "Full Hit",
         "type": "unique"
       }
@@ -953,11 +954,12 @@
         "type": "keyword"
       },
       {
-        "name": "Reinforce 1",
+        "name": "Reinforce",
+        "x_value": 1,
         "costs": [
           "Fate"
         ],
-        "type": "unique"
+        "type": "keyword"
       },
       {
         "name": "Second Chance",
@@ -1020,12 +1022,13 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       },
       {
         "name": "Reflex",
@@ -1145,11 +1148,12 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Knockback Reduction 3",
+        "name": "Knockback Reduction",
+        "x_value": 3,
         "costs": [
           "Fate"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": []
@@ -1286,11 +1290,12 @@
         "type": "keyword"
       },
       {
-        "name": "Reinforce 1",
+        "name": "Reinforce",
+        "x_value": 1,
         "costs": [
           "Fate"
         ],
-        "type": "unique"
+        "type": "keyword"
       },
       {
         "name": "Gain Rocksteady until you finish resolving this Attack",
@@ -1344,7 +1349,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -1381,13 +1386,14 @@
         "type": "keyword"
       },
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -1436,7 +1442,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -1503,7 +1509,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -1570,7 +1576,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -1651,7 +1657,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -1668,7 +1674,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "-1 Speed",
+        "name": "-1 SpeedIcon",
         "type": "unique"
       },
       {
@@ -1785,12 +1791,12 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Choose 1 OneHanded Gear from the Argo Armory and place it under this card",
+        "name": "Choose 1 OneHandedIcon GearIcon from the Argo Armory and place it under this card",
         "timing": "Start of Battle",
         "type": "unique"
       },
       {
-        "name": "This Gear is not considered to be equipped on your Titan and can only be used with the following ability: Fate Exhaust Declare this OneHanded Gear as the Active Weapon during an Attack",
+        "name": "This GearIcon is not considered to be equipped on your Titan and can only be used with the following ability: Fate Exhaust Declare this OneHandedIcon GearIcon as the Active Weapon during an Attack",
         "type": "unique"
       }
     ],
@@ -1800,7 +1806,7 @@
         "value": "8+",
         "abilities": [
           {
-            "name": "Ignore this card ability's Fate cost",
+            "name": "Ignore this card ability's FateIcon cost",
             "type": "unique"
           }
         ]
@@ -1837,7 +1843,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Gain +2 Speed for your next MovementAction this turn",
+        "name": "Gain +2 SpeedIcon for your next MovementActionIcon this turn",
         "costs": [
           "Fate",
           "Exhaust"
@@ -1863,7 +1869,7 @@
         "value": "6+",
         "abilities": [
           {
-            "name": "Gain +3 Speed instead",
+            "name": "Gain +3 SpeedIcon instead",
             "type": "unique"
           }
         ]
@@ -1898,8 +1904,38 @@
     "wished": false,
     "unique": false,
     "ascended": false,
-    "abilities": [],
-    "gatedAbilities": []
+    "abilities": [
+      {
+        "name": "During voluntary movement, treat a traversible Terrain tile as 1 space",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "You may use Stabilizers' ability as ReactionIcon",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -2354,7 +2390,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -2429,7 +2465,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -2446,7 +2482,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "-1 Speed",
+        "name": "-1 SpeedIcon",
         "type": "unique"
       },
       {
@@ -2519,7 +2555,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -2536,7 +2572,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Gain +2 Danger",
+        "name": "Gain +2 DangerIcon",
         "timing": "Crit Miss",
         "type": "unique"
       },
@@ -2586,7 +2622,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -2626,6 +2662,76 @@
       }
     ],
     "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "AJ0258"
+    ],
+    "name": "The Promise",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 02",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Hephaestum",
+      "Metal",
+      "Sword",
+      "Ship"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Overbreak",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Gain +1 DangerIcon, +1 FateIcon",
+        "timing": "Crit Miss",
+        "type": "unique"
+      },
+      {
+        "name": "When you deal a Critical Wound, lose -1 StrangersIcon",
+        "flavorName": "Dog Days Are Over",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Overbreak",
+            "x_value": 2,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -2682,7 +2788,7 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "You may use Morpheus Module's Solace ability as Reaction",
+            "name": "You may use Morpheus Module's Solace ability as ReactionIcon",
             "type": "unique"
           }
         ]
@@ -2790,7 +2896,7 @@
         "type": "unique"
       },
       {
-        "name": "That Gear becomes Labyrinthized (becomes Power Level II)",
+        "name": "That GearIcon becomes Labyrinthized (becomes Power Level II)",
         "type": "unique"
       },
       {
@@ -2798,7 +2904,7 @@
         "type": "unique"
       },
       {
-        "name": "Permanently lose this card and the Gear card it is attached to",
+        "name": "Permanently lose this card and the GearIcon card it is attached to",
         "flavorName": "End of Battle",
         "type": "unique"
       }
@@ -2811,6 +2917,205 @@
           {
             "name": "Auto-break",
             "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0835",
+      "BJ0835"
+    ],
+    "name": "Labyrinth Mauler",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Made from the Alpha Temenos's giant tooth.",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Primordial",
+      "Labyrinth",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Auto-break",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Overbreak",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Place 1 Break token in the Kratos Pool",
+        "timing": "Full Miss",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Labyrinth",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Daze",
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Labyrinth",
+        "value": "4+",
+        "abilities": [
+          {
+            "name": "Ignore Cumbersome",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Auto-break 2 instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0837",
+      "BJ0838"
+    ],
+    "name": "Puzzle Axe",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "It's like a riddle, more powerful with each uncovered piece.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Primordial",
+      "Labyrinth",
+      "Axe"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Auto-break",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Labyrinth",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Carving",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Labyrinth",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "+1 Precision",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Labyrinth",
+        "value": "4+",
+        "abilities": [
+          {
+            "name": "Deadly",
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Labyrinth",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Auto-break 2 instead",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Rouse",
             "type": "keyword"
           }
         ]
@@ -2852,7 +3157,11 @@
         "type": "unique"
       },
       {
-        "name": "WoO Fate Charge Combo Breaker: 2 spaces",
+        "name": "Charge Combo Breaker: 2 spaces",
+        "costs": [
+          "Fate"
+        ],
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -2862,7 +3171,13 @@
         "value": "5+",
         "abilities": [
           {
-            "name": "WoO Fate Discard Self Combo Breaker: 2 spaces",
+            "name": "2 spaces",
+            "flavorName": "Self Combo Breaker",
+            "costs": [
+              "Fate",
+              "Discard"
+            ],
+            "timing": "Reaction",
             "type": "unique"
           },
           {
@@ -2908,7 +3223,7 @@
         "type": "unique"
       },
       {
-        "name": "-1 Speed",
+        "name": "-1 SpeedIcon",
         "type": "unique"
       },
       {
@@ -2973,7 +3288,7 @@
         "type": "keyword"
       },
       {
-        "name": "When you are about to gain Rage from an effect other than your Attack, ignore this gain",
+        "name": "When you are about to gain RageIcon from an effect other than your Attack, ignore this gain",
         "costs": [
           "Fate",
           "Exhaust"
@@ -3089,8 +3404,13 @@
         "type": "unique"
       },
       {
-        "name": "WoO Fate Exhaust Reflex",
-        "type": "unique"
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -3099,7 +3419,7 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "When you are about to involuntarily, permanently lose a Weapon, you may lost this card instead",
+            "name": "When you are about to involuntarily, permanently lose a Weapon, you may lose this card instead",
             "type": "unique"
           }
         ]
@@ -3143,7 +3463,7 @@
         "type": "unique"
       },
       {
-        "name": "Lower adjacent Titan's Danger by half (rounding up)",
+        "name": "Lower adjacent Titan's DangerIcon by half (rounding up)",
         "costs": [
           "Fate",
           "Exhaust"
@@ -3151,11 +3471,11 @@
         "type": "unique"
       },
       {
-        "name": "Gain that many Danger",
+        "name": "Gain that many DangerIcon",
         "type": "unique"
       },
       {
-        "name": "Lower your Danger by half (rounding up)",
+        "name": "Lower your DangerIcon by half (rounding up)",
         "costs": [
           "Fate",
           "Exhaust"
@@ -3163,7 +3483,7 @@
         "type": "unique"
       },
       {
-        "name": "An Adjacent Titan gains that many Danger",
+        "name": "An Adjacent Titan gains that many DangerIcon",
         "type": "unique"
       }
     ],
@@ -3173,7 +3493,7 @@
         "value": "5+",
         "abilities": [
           {
-            "name": "You may use this card's abilities as WoO",
+            "name": "You may use this card's abilities as ReactionIcon",
             "type": "unique"
           }
         ]
@@ -3216,7 +3536,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "-1 Speed",
+        "name": "-1 SpeedIcon",
         "type": "unique"
       },
       {
@@ -3247,7 +3567,12 @@
         "value": "6+",
         "abilities": [
           {
-            "name": "WoO Discard Discard 1 Ambrosia token",
+            "name": "1 Ambrosia token",
+            "costs": [
+              "Discard",
+              "Discard"
+            ],
+            "timing": "Reaction",
             "type": "unique"
           }
         ]
@@ -3296,7 +3621,11 @@
         "value": "5+",
         "abilities": [
           {
-            "name": "WoO Discard Discard 1 Ambrosia token",
+            "name": "Discard 1 Ambrosia token",
+            "costs": [
+              "Discard"
+            ],
+            "timing": "Reaction",
             "type": "unique"
           }
         ]
@@ -3343,7 +3672,11 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "WoO Discard Discard 1 Ambrosia token",
+            "name": "Discard 1 Ambrosia token",
+            "costs": [
+              "Discard"
+            ],
+            "timing": "Reaction",
             "type": "unique"
           }
         ]
@@ -3414,13 +3747,14 @@
         "type": "keyword"
       },
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -3572,6 +3906,106 @@
   },
   {
     "cardIDs": [
+      "BJ0900"
+    ],
+    "name": "Spartan War Axe",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A Cyclopean tool of trade remade into a weapon of war.",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Axe"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "Hit"
+          ]
+        },
+        {
+          "type": [
+            "Hits",
+            "Hits"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Break",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Place 2 Break tokens in the Kratos Pool",
+        "timing": "Full Miss",
+        "type": "unique"
+      },
+      {
+        "name": "BP Suppress",
+        "costs": [
+          "Fate"
+        ],
+        "timing": "Wound",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Deadly",
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Rouse",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "BJ0868"
     ],
     "name": "Mazegma",
@@ -3602,7 +4036,7 @@
         "type": "unique"
       },
       {
-        "name": "You may treat your Danger as 2 higher for the purpose of Danger Gate abilities of your Labyrinth Gear cards",
+        "name": "You may treat your DangerIcon as 2 higher for the purpose of DangerIcon Gate abilities of your Labyrinth Gear cards",
         "type": "unique"
       }
     ],
@@ -3657,7 +4091,12 @@
         "type": "keyword"
       },
       {
-        "name": "WoO Fate Exhaust Other Titans treat you as an indestructible obstacle until the end of this Round",
+        "name": "Other Titans treat you as an indestructible obstacle until the end of this Round",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -3726,7 +4165,7 @@
         "type": "keyword"
       },
       {
-        "name": "Opening X, where X is the number of Dice you hit with",
+        "name": "Opening X, where X is the number of d10Icon you hit with",
         "type": "unique"
       }
     ],
@@ -3877,8 +4316,8 @@
         "type": "keyword"
       },
       {
-        "name": "Perishable (When you finish resolving an Attack with this Weapon, discard it)",
-        "type": "unique"
+        "name": "Perishable",
+        "type": "keyword"
       }
     ],
     "gatedAbilities": []
@@ -3918,11 +4357,12 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "Reinforce 1",
+        "name": "Reinforce",
+        "x_value": 1,
         "costs": [
           "Fate"
         ],
-        "type": "unique"
+        "type": "keyword"
       },
       {
         "name": "Rocksteady",
@@ -3997,6 +4437,9 @@
         {
           "amount": 1,
           "type": "Black"
+        },
+        {
+          "type": "Danger 7+ +1 Red"
         }
       ]
     },
@@ -4006,7 +4449,7 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "-1 Speed",
+        "name": "-1 SpeedIcon",
         "type": "unique"
       },
       {
@@ -4014,7 +4457,13 @@
         "type": "keyword"
       },
       {
-        "name": "WoO Fate Exhaust Self Combo Breaker: 2 spaces",
+        "name": "2 spaces",
+        "flavorName": "Self Combo Breaker",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -4130,7 +4579,7 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "You may use Vault on this card as a WoO (outside of its standard activation time)",
+            "name": "You may use Vault on this card as a ReactionIcon",
             "type": "unique"
           }
         ]
@@ -4270,7 +4719,12 @@
         "value": "5+",
         "abilities": [
           {
-            "name": "WoO Fate Discard When adjacent to the Primordial, break any Combo",
+            "name": "When adjacent to the Primordial, break any Combo",
+            "costs": [
+              "Fate",
+              "Discard"
+            ],
+            "timing": "Reaction",
             "type": "unique"
           }
         ]
@@ -4307,8 +4761,13 @@
     "ascended": false,
     "abilities": [
       {
-        "name": "WoO Fate Exhaust Advanced Reflex (Move up to 2 spaces)",
-        "type": "unique"
+        "name": "Advanced Reflex",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
       }
     ],
     "gatedAbilities": []
@@ -4401,7 +4860,13 @@
         "type": "keyword"
       },
       {
-        "name": "WoO Fate Exhaust Combo Breaker: 4 spaces",
+        "name": "4 spaces",
+        "flavorName": "Combo Breaker",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -4450,118 +4915,28 @@
         "type": "unique"
       },
       {
-        "name": "WoO Fate Exhaust Unexhaust any 1 Gear",
-        "type": "unique"
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "7+",
-        "abilities": [
-          {
-            "name": "WoO Fate Exhaust Unexhaust any 2 Gear",
-            "type": "unique"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0900"
-    ],
-    "name": "Spartan War Axe",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "A Cyclopean tool of trade remade into a weapon of war.",
-    "slot": "3 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Iron",
-      "Metal",
-      "Axe"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "0",
-      "power": [
-        {
-          "type": [
-            "Hit"
-          ]
-        },
-        {
-          "type": [
-            "Hits",
-            "Hits"
-          ]
-        },
-        {
-          "type": [
-            "PowerIcon"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": {},
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "name": "Break",
-        "x_value": 2,
-        "type": "keyword"
-      },
-      {
-        "name": "Cumbersome",
-        "type": "keyword"
-      },
-      {
-        "name": "Commit",
-        "type": "keyword"
-      },
-      {
-        "name": "Place 2 Break tokens in the Kratos Pool",
-        "timing": "Full Miss",
-        "type": "unique"
-      },
-      {
-        "name": "BP Suppress",
+        "name": "Unexhaust any 1 GearIcon",
         "costs": [
-          "Fate"
+          "Fate",
+          "Exhaust"
         ],
-        "timing": "Wound",
-        "type": "keyword"
+        "timing": "Reaction",
+        "type": "unique"
       }
     ],
     "gatedAbilities": [
-      {
-        "gate": "Ambrosia",
-        "value": "2+",
-        "abilities": [
-          {
-            "name": "Deadly",
-            "type": "keyword"
-          }
-        ]
-      },
       {
         "gate": "Danger",
         "value": "7+",
         "abilities": [
           {
-            "name": "Rouse",
-            "x_value": 1,
-            "type": "keyword"
+            "name": "Unexhaust any 2 GearIcon",
+            "costs": [
+              "Fate",
+              "Exhaust"
+            ],
+            "timing": "Reaction",
+            "type": "unique"
           }
         ]
       }
@@ -4705,7 +5080,8 @@
         "type": "keyword"
       },
       {
-        "name": "WoO Immediately Pushback 2",
+        "name": "Immediately Pushback 2",
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -4715,7 +5091,7 @@
         "value": "2+",
         "abilities": [
           {
-            "name": "When you use Sacrifice, you may gain additional +2 Danger to gain + 1 Red for this Attack",
+            "name": "When you use Sacrifice, you may gain additional +2 DangerIcon to gain +1 RedPowerDieIcon for this Attack",
             "type": "unique"
           }
         ]
@@ -4754,7 +5130,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -4873,12 +5249,64 @@
         "value": "1+",
         "abilities": [
           {
-            "name": "When you use Sacrifice, you may gain additional +1 Danger to place 2 Break tokens instead",
+            "name": "When you use Sacrifice, you may gain additional +1 DangerIcon to place 2 Break tokens instead",
             "type": "unique"
           }
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "BJ0905"
+    ],
+    "name": "Cyclopean Khopesh",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A relatively crude weapon, from the Cyclopes's barbaric period.",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Cyclopean",
+      "Khopesh"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "-2",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Black"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -4919,7 +5347,13 @@
         "type": "unique"
       },
       {
-        "name": "WoO Fate Exhaust Combo Breaker: 3 spaces",
+        "name": "3 spaces",
+        "flavorName": "Combo Breaker",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
         "type": "unique"
       }
     ],
@@ -5011,6 +5445,67 @@
   },
   {
     "cardIDs": [
+      "BJ0908"
+    ],
+    "name": "Cyclopean Visor",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Knowledge without hope breeds only fatalism and indolence.",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Cyclopean",
+      "Augment",
+      "Helm"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionBonus": "+1",
+      "resistances": [
+        [
+          {
+            "amount": 2,
+            "type": "Energy"
+          }
+        ]
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Treat all Primordial Attacks performed against you as Doomed",
+        "type": "unique"
+      },
+      {
+        "name": "Guess the AT value of the top BP card and then look at it",
+        "flavorName": "Scry",
+        "costs": [
+          "Fate",
+          "Energy"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "If you guessed correctly, leave the card on top",
+        "type": "unique"
+      },
+      {
+        "name": "If you didn't, gain DangerIcon equal to this BP's level and put it at the bottom of the deck",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "BJ0909"
     ],
     "name": "Cyclopean Totem",
@@ -5049,7 +5544,7 @@
         "type": "unique"
       },
       {
-        "name": "You may treat your Danger as 2 higher for the purpose of DangerGate abilities of your Cyclopean Gear cards",
+        "name": "You may treat your DangerIcon as 2 higher for the purpose of DangerGate abilities of your Cyclopean GearIcon cards",
         "type": "unique"
       }
     ],
@@ -5062,6 +5557,92 @@
             "name": "Place 2 Break or 2 Opening tokens in the Kratos Pool",
             "timing": "Crit Evade",
             "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0910"
+    ],
+    "name": "Cyclopean Forge Hammer",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A symbol of the Cyclopes's once great gift to create, not destroy.",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Cyclopean",
+      "Hammer",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "White",
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Masterwork",
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Auto-break",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Daze",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Cyclopes: Diplomacy -1",
+        "timing": "Crit Miss",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Power Re-roll",
+            "x_value": 2,
+            "type": "keyword"
           }
         ]
       }
@@ -5175,12 +5756,13 @@
         "type": "unique"
       },
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -5194,6 +5776,480 @@
               "Fate",
               "Exhaust"
             ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0917",
+      "BJ0918"
+    ],
+    "name": "Ambramat Armor",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Made from easily dispensible leather straps, this armor halts ambrosia infection spread.",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Leather",
+      "Oil",
+      "Argotech"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "armorDice": [
+        {
+          "amount": 2,
+          "type": "Red"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ambrosia Limit",
+        "x_value": 5,
+        "type": "keyword"
+      },
+      {
+        "name": "When you are about to gain Ambrosia tokens, lower this gain to 1",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Ambrosia Limit",
+            "x_value": 6,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0919",
+      "BJ0920"
+    ],
+    "name": "Muck Armor",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Armor made form a transplanted much virus strain.",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Mud",
+      "Ambrosia"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "armorDice": [
+        {
+          "amount": 1,
+          "type": "Red"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ambrosia Limit",
+        "x_value": 5,
+        "type": "keyword"
+      },
+      {
+        "name": "If you are on an Ambrosia Terrain tile, you gain +1 Evasion",
+        "type": "unique"
+      },
+      {
+        "name": "You can perform Armor Rolls to lower DangerIcon from the Digestive Acids Trait",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Your RedArmorDieIcon becomes BlackArmorDieIcon",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "DiscardCost 1 Ambrosia token",
+            "timing": "Crit Evade",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0921",
+      "BJ0922"
+    ],
+    "name": "Needle Sword",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Based on a strange design found in the Last Tome, this weapon requires finesse to use.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Sword"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "6+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Precise",
+        "costs": [
+          "Fate",
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Opening 2 Power Re-roll 1",
+        "type": "unique"
+      },
+      {
+        "name": "2 spaces",
+        "flavorName": "Self Combo Breaker",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "When attacking a BP III card with a Death Blow Crit effect, gain +1 PowerIcon",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0923",
+      "BJ0924"
+    ],
+    "name": "Vaulting Spear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Obscure Last Tome design, deceloped for canal warfare.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Argotech",
+      "Pole",
+      "Spear"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Jump",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reach",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Vault",
+        "type": "keyword"
+      },
+      {
+        "name": "When the Primordial moves adjacent to you during its movement, immediately perform a VP Climb test, adding +2 to the result",
+        "flavorName": "Pole Vaule",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Advanced Jump instead",
+            "costs": [
+              "Fate"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0925",
+      "BJ0926"
+    ],
+    "name": "Katarus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Pinnacle of war engineering, incorporating cestus and katar designs.",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Knife",
+      "Cestus"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": []
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Auto-break",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Overbreak",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Heartseeker",
+        "costs": [
+          "Fate",
+          "Fate"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Diversion",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0927"
+    ],
+    "name": "Maulmace",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "With this refashioned weapon you can simulate the heavy duty way of fighting of a Cyclonus.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Abyss",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Auto-break",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Overbreak",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Daze",
+        "type": "keyword"
+      },
+      {
+        "name": "Armor-piercing",
+        "type": "unique"
+      },
+      {
+        "name": "Gain +1 RageIcon and immediately fully miss the Attack",
+        "timing": "Crit Miss",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Overbreak",
+            "x_value": 1,
             "type": "keyword"
           }
         ]
@@ -5280,7 +6336,7 @@
         "type": "keyword"
       },
       {
-        "name": "Gain +2 Danger",
+        "name": "Gain +2 DangerIcon",
         "timing": "Crit Miss",
         "type": "unique"
       }
@@ -5344,7 +6400,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "plus": true
         }
@@ -5459,7 +6515,7 @@
         "type": "keyword"
       },
       {
-        "name": "When you attack from a VP or while Absorbed, gain +1 PowerIcon",
+        "name": "When you attack from a VP or while Absorbed, gain +1 Power",
         "type": "unique"
       }
     ],
@@ -5510,7 +6566,7 @@
     "errata": "",
     "acquisition": "Crafting",
     "flavor": "The academicians created the perfect environment to transplant the Muck Virus to.",
-    "slot": "",
+    "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
       "Mud",
@@ -5574,6 +6630,142 @@
   },
   {
     "cardIDs": [
+      "BJ0937"
+    ],
+    "name": "Muckbane",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "This virus weapon has mutated into something greater.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Mud",
+      "Sword",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "6+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Break",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Elation",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Ignore the Metamorphosis Trait",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "1+",
+        "abilities": [
+          {
+            "name": "+1 Precision",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "One BlackPowerDieIcon becomes WhitePowerDieIcon",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Ambrosia",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Armor-piercing",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Break",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0938"
+    ],
+    "name": "Cyclostus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A set of heavy Cyclonus gauntlets, adapted for Titan use.",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Abyss",
+      "Cestus"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "BJ0946",
       "BJ0947"
     ],
@@ -5605,7 +6797,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -5624,12 +6816,13 @@
     "ascended": true,
     "abilities": [
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       },
       {
         "name": "Break",
@@ -5688,9 +6881,10 @@
     "ascended": true,
     "abilities": [
       {
-        "name": "Exhausted You may reduce suffered Kickbacks, Knockbacks, and Pulls by up to 3",
+        "name": "You may reduce suffered Kickbacks, Knockbacks, and Pulls by up to 3",
         "costs": [
-          "Fate"
+          "Fate",
+          "Exhaust"
         ],
         "type": "unique"
       }
@@ -5772,7 +6966,7 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "Lose -2 Fate",
+            "name": "Lose -2 FateIcon",
             "costs": [
               "Discard"
             ],
@@ -5844,7 +7038,7 @@
         "value": "6+",
         "abilities": [
           {
-            "name": "gain +1 Speed",
+            "name": "gain +1 SpeedIcon",
             "type": "unique"
           }
         ]
@@ -5853,35 +7047,167 @@
   },
   {
     "cardIDs": [
-      "AJ0258"
+      "BJ0966"
     ],
-    "name": "The Promise",
+    "name": "Hermes Cape",
     "cardType": "Gear",
     "game": "Odyssey",
-    "cycle": "Cycle I",
+    "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "foundIn": "Secret Deck 02",
     "faq": "",
     "errata": "",
-    "acquisition": "Story",
-    "flavor": "",
+    "acquisition": "Crafting",
+    "flavor": "Refashioned and fit for a king - or at least a kingslayer.",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Flammable",
+      "Cloak"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionBonus": "+1"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "+1 SpeedIcon",
+        "type": "unique"
+      },
+      {
+        "name": "Tumble",
+        "type": "keyword"
+      },
+      {
+        "name": "3 spaces",
+        "flavorName": "Combo Breaker",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "4+",
+        "abilities": [
+          {
+            "name": "Discard up to 2 Ambrosia tokens from yourself or an adjacent Titan",
+            "costs": [
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0967"
+    ],
+    "name": "Repurposed Cryptex",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "The Pursuer's secret remade to interact with the Antikratos Hel,. It required surprisingly few modifications...",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Argotech",
+      "Primordial",
+      "Augment",
+      "Cryptex",
+      "Eldertech"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      },
+      {
+        "name": "+1 Precision",
+        "type": "unique"
+      },
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain a MovementActionIcon",
+        "flavorName": "Semi Sync",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "At the end of your turn, gain a MovementActionIcon Fatigue token",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BJ0968"
+    ],
+    "name": "Conqueror Nail",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "The will of the Pursuer is cast in this spear. It eats away at you.",
     "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
-      "Hephaestum",
-      "Metal",
-      "Sword",
-      "Ship"
+      "Primordial",
+      "Spear"
     ],
     "offensiveStatistics": {
       "attackDice": "2",
-      "precision": "+1",
+      "precision": "1",
       "power": [
         {
           "type": [
-            "Red",
-            "Red"
+            "Black"
           ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
         }
       ]
     },
@@ -5889,21 +7215,161 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": false,
+    "ascended": true,
     "abilities": [
       {
-        "name": "Overbreak",
+        "name": "Reach",
+        "x_value": 3,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
         "x_value": 2,
         "type": "keyword"
       },
       {
-        "name": "Gain +1 Danger, +1 Fate",
+        "name": "Carving",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Can only be equipped by a Titan with the Repurposed Cryptex",
+        "type": "unique"
+      },
+      {
+        "name": "Immediately Pushback 2",
+        "timing": "Reaction",
+        "type": "unique"
+      },
+      {
+        "name": "AdversaryIcon",
         "timing": "Crit Miss",
         "type": "unique"
       },
       {
-        "name": "When you deal a Critical Wound, lose -1 Strangers",
-        "flavorName": "Dog Days Are Over",
+        "name": "Gain the Sowed Fated Mnemos (secret deck 7, card 82)",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BJ0969"
+    ],
+    "name": "Archon Pauldron",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A liaison archo of the Symmachy stationed at the Pauldron analyzes the battlefield and counsels the Argo.",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Argotech",
+      "Symmachy",
+      "Warriors"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "2",
+      "resistances": [
+        [
+          {
+            "amount": 1,
+            "type": "Energy"
+          }
+        ]
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Motivate",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "When you are about to suffer a Warriors effect, roll a d10",
+        "type": "unique"
+      },
+      {
+        "name": "On 7+, ignore it",
+        "type": "unique"
+      },
+      {
+        "name": "Place the top BP card at the bottom of the BP deck",
+        "costs": [
+          "Fate",
+          "Energy"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Gain 1 EnergyIcon token",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1170",
+      "CJ1171",
+      "CJ1401",
+      "CJ1402"
+    ],
+    "name": "Excavated",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "This gear was recovered from the Future Argo's wreck. Maybe it can help us cheat fate?",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Paradox",
+      "Ambrosia"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Attach to a Weapon or Armor with the Labyrinth Trait",
+        "type": "unique"
+      },
+      {
+        "name": "That GearIcon becomes Excavated (Power Level III)",
+        "type": "unique"
+      },
+      {
+        "name": "It loses the Labyrinth Trait and gains this Attachment's Traits and Reposition 1",
+        "type": "unique"
+      },
+      {
+        "name": "Permanently lose this card and the GearIcon card it is attached to",
+        "flavorName": "End of Battle",
         "type": "unique"
       }
     ],
@@ -5913,9 +7379,310 @@
         "value": "7+",
         "abilities": [
           {
-            "name": "Overbreak",
+            "name": "Black",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1389",
+      "CJ1390"
+    ],
+    "name": "Black Xiphos",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Forged from the Nietzschean's wrath.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Sword",
+      "Ambrosia",
+      "Fire",
+      "Iron",
+      "Metal",
+      "Abyss"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Black",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Gain +1 RedPowerDieIcon",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Power Re-roll",
             "x_value": 2,
             "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1391",
+      "CJ1392"
+    ],
+    "name": "Smoldering Mace",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "It carries the weight of the Nietzschean's sins.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Club",
+      "Ambrosia",
+      "Fire",
+      "Iron",
+      "Metal",
+      "Abyss"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Break",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Fire",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Auto-black",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1393",
+      "CJ1394"
+    ],
+    "name": "Abyssal Watchers",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Eternally vigilant.",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Knife",
+      "Ambrosia",
+      "Fire",
+      "Iron",
+      "Primordial",
+      "Metal",
+      "Abyss"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Hit"
+          ]
+        },
+        {
+          "type": [
+            "Hits",
+            "Hits"
+          ]
+        },
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "3+"
+          }
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": "When you attack, you may gain +1 FateIcon to gain +2 d10Icon (up to 2 times).",
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Reposition",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Spiral",
+        "x_value": 3,
+        "type": "keyword"
+      },
+      {
+        "name": "Opening X, where X is the number of d10Icon you hit with",
+        "type": "unique"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "+1 RedPowerDieIcon from a Rear or Blindspot space",
+            "flavorName": "4+ hits",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Ambrosia",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Black",
+            "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Reposition 4 instead",
+            "type": "unique"
           }
         ]
       }
@@ -5956,7 +7723,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "plus": true
         }
@@ -6011,7 +7778,7 @@
         "value": "1+",
         "abilities": [
           {
-            "name": "One RedPowerDie becomes a BlackPowerDie",
+            "name": "One RedPowerDieIcon becomes a BlackPowerDieIcon",
             "type": "unique"
           }
         ]
@@ -6032,7 +7799,7 @@
         "value": "3+",
         "abilities": [
           {
-            "name": "Another RedPowerDie becomes a BlackPowerDie",
+            "name": "Another RedPowerDieIcon becomes a BlackPowerDieIcon",
             "type": "unique"
           },
           {
@@ -6049,6 +7816,544 @@
           {
             "name": "Hope",
             "x_value": 1,
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ9947"
+    ],
+    "name": "Discobolus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Club",
+      "Discus",
+      "Metal",
+      "Argotech"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "-1",
+      "power": [
+        {
+          "type": [
+            "White"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ranged",
+        "y_value": 3,
+        "x_value": 4,
+        "type": "keyword"
+      },
+      {
+        "name": "Break",
+        "x_value": 3,
+        "type": "keyword"
+      },
+      {
+        "name": "Assist",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ9948"
+    ],
+    "name": "Spiral Javelin",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Javelin",
+      "Primordial",
+      "Shell"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "4",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Fate",
+            "value": "6+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ranged",
+        "y_value": 2,
+        "x_value": 6,
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Spiral",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Pull",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "When you deal a Wound, lose -1 FateIcon",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ9949"
+    ],
+    "name": "Sunset",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Ilian Sword",
+      "Blade",
+      "Ilian",
+      "Metal",
+      "Meteorite"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Black",
+            "White"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Black",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Precise",
+        "type": "keyword"
+      },
+      {
+        "name": "ComplicatedAction Perform an Attack with Deadly",
+        "type": "unique"
+      },
+      {
+        "name": "If the Primordial is 1 Wound from death, before the Power Roll, ignore the Crit Chance to gain Clutch for this Attack",
+        "timing": "Crit Chance",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ9950"
+    ],
+    "name": "Black Ice Pickaxe",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Axe",
+      "Ice",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "5",
+      "precision": "+2",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Opening",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Deadly",
+        "type": "keyword"
+      },
+      {
+        "name": "Glaciate an adjacent space or destroy and adjacent Black Iceberg Terrain tile",
+        "costs": [
+          "Fate",
+          "Fate",
+          "Fate",
+          "Discard"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "You may use this ability as Reaction",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Succor",
+            "costs": [
+              "Fate"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ9965"
+    ],
+    "name": "Bleeding Vulture Beak",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "The grotesque shape is familiar. You hope it is pure mimicry.",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Augment",
+      "Mask",
+      "Flesh"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "2",
+      "resistances": [
+        [
+          {
+            "type": "Despair 2"
+          }
+        ]
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Provoke",
+        "type": "keyword"
+      },
+      {
+        "name": "Ignore Flare and Feint Primordial Responses",
+        "type": "unique"
+      },
+      {
+        "name": "Disable the Toying Trait",
+        "type": "unique"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of your turn",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Immediately gain 2 Ambrosia tokens",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ9966"
+    ],
+    "name": "Tainted Nailbone",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "A perverse spear wielded with malice.",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Spear",
+      "Primordial",
+      "Ambrosia",
+      "Bone"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "5",
+      "precision": "+4",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Ambrosia Limit",
+        "x_value": -1,
+        "type": "keyword"
+      },
+      {
+        "name": "Reach",
+        "x_value": 3,
+        "type": "keyword"
+      },
+      {
+        "name": "Closing",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Carving",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Disable the Toying Trait",
+        "type": "unique"
+      },
+      {
+        "name": "Pursuit 5, gain 1 Ambrosia token",
+        "costs": [
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      },
+      {
+        "name": "AdversaryIcon, gain 1 Ambrosia token",
+        "timing": "Crit Miss",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Heartseeker",
+            "costs": [
+              "Fate"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ9974"
+    ],
+    "name": "Hoplite Aspis",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Stand together, or die alone.",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Metal",
+      "Shield"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "-1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {
+      "armorDice": [
+        {
+          "amount": 2,
+          "type": "Red"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "You may reduce suffered Knockbacks and Pushbacks by 1",
+        "type": "unique"
+      },
+      {
+        "name": "For each DangerIcon mitigated, place a Break token in the Kratos Pool",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "Reinforce",
+            "x_value": 1,
+            "costs": [
+              "Fate"
+            ],
             "type": "keyword"
           }
         ]
@@ -6120,7 +8425,7 @@
         "type": "unique"
       },
       {
-        "name": "When you attack discard all Opening tokens from this card",
+        "name": "When you attack DiscardCost all Opening tokens from this card",
         "type": "unique"
       }
     ],
@@ -6191,7 +8496,7 @@
         "type": "keyword"
       },
       {
-        "name": "Gain +1 PowerIcon",
+        "name": "Gain +1 Power",
         "timing": "Each Hit",
         "type": "unique"
       },
@@ -6329,7 +8634,7 @@
         "type": "keyword"
       },
       {
-        "name": "Place a negative Speed modifier token on the Primordial Sheet",
+        "name": "Place a negative SpeedIcon modifier token on the Primordial Sheet",
         "costs": [
           "Exhaust"
         ],
@@ -6337,7 +8642,7 @@
         "type": "unique"
       },
       {
-        "name": "When you unexhaust this card, discard that token",
+        "name": "When you unexhaust this card, Discard that token",
         "type": "unique"
       }
     ],
@@ -6397,12 +8702,13 @@
         "type": "keyword"
       },
       {
-        "name": "Block 1",
+        "name": "Block",
+        "x_value": 1,
         "costs": [
           "Fate",
           "Exhaust"
         ],
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -6411,7 +8717,7 @@
         "value": "4+",
         "abilities": [
           {
-            "name": "You may use Transform as WoO",
+            "name": "You may use Transform as ReactionIcon",
             "type": "unique"
           }
         ]
@@ -6421,7 +8727,7 @@
         "value": "6+",
         "abilities": [
           {
-            "name": "Place 1 negative AeonTrespass token in the Kratos Pool",
+            "name": "Place 1 negative ATIcon token in the Kratos Pool",
             "timing": "Crit Evade",
             "type": "unique"
           }
@@ -6482,6 +8788,159 @@
             "name": "Place 1 Diversion token in the Kratos Pool",
             "timing": "Crit Evade",
             "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0839",
+      "BJ0840"
+    ],
+    "name": "Temenos Xiphos",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": "Temenos Whip",
+    "traits": [
+      "Stone",
+      "Primordial",
+      "Labyrinth",
+      "Sword"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Power Re-roll",
+        "x_value": 1,
+        "type": "keyword"
+      },
+      {
+        "name": "Break",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Labyrinth",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Break 2 instead",
+            "type": "unique"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Power Re-roll 2 instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "BJ0839",
+      "BJ0840"
+    ],
+    "name2": "Temenos Whip",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "1 Hand",
+    "transformsInto2": "Temenos Xiphos",
+    "traits2": [
+      "Flesh",
+      "Primordial",
+      "Whip",
+      "Flammable"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "3",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reach",
+        "x_value": 2,
+        "type": "keyword"
+      },
+      {
+        "name": "Provoke",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": 1,
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Spotlight",
+            "type": "keyword"
           }
         ]
       }
@@ -6645,7 +9104,7 @@
     "errata": "",
     "acquisition": "Crafting",
     "flavor": "",
-    "slot": "",
+    "slot": "2 Hands",
     "transformsInto": "Metabow",
     "traits": [
       "Metal",
@@ -6666,7 +9125,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -6714,7 +9173,7 @@
     "errata2": "",
     "acquisition2": "Crafting",
     "flavor2": "",
-    "slot2": "",
+    "slot2": "2 Hands",
     "transformsInto2": "Metasword",
     "traits2": [
       "Wood",
@@ -6782,6 +9241,143 @@
   },
   {
     "cardIDs": [
+      "BJ0915",
+      "BJ0916"
+    ],
+    "name": "Ladder Buckler",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": "Ladder Mode",
+    "traits": [
+      "Wood",
+      "Argotech",
+      "Flammable",
+      "Shield"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {
+      "evasionRerolls": "2"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
+      },
+      {
+        "name": "After you resolve a Trauma Draw, you may immediately Pushback 1",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "Place 2 Break or 2 Opening tokens in the Kratos Pool",
+            "timing": "Crit Evade",
+            "type": "unique"
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "BJ0915",
+      "BJ0916"
+    ],
+    "name2": "Ladder Mode",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "1 Hand",
+    "transformsInto2": "Ladder Buckler",
+    "traits2": [
+      "Wood",
+      "Argotech",
+      "Flammable",
+      "Ladder"
+    ],
+    "offensiveStatistics2": {},
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Add +4 to Climb tests",
+        "type": "unique"
+      },
+      {
+        "name": "Jump",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "Transform",
+            "timing": "Reaction",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "BJ0928",
       "BJ0929"
     ],
@@ -6813,13 +9409,13 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "plus": true
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "gate": {
             "type": "Danger",
@@ -6899,7 +9495,7 @@
         },
         {
           "type": [
-            "PowerIcon"
+            "Power"
           ],
           "plus": true
         }

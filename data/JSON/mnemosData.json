@@ -47,10 +47,7 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "Gain or lose up to 2 Rage",
-              "costs": [
-                "Discard"
-              ],
+              "name": "Discard Gain or lose up to 2 Rage",
               "type": "unique"
             }
           ]
@@ -104,10 +101,7 @@
           "value": "6+",
           "abilities": [
             {
-              "name": "When you break a Combo, perform a Bonus Attack!",
-              "costs": [
-                "Discard"
-              ],
+              "name": "Discard When you break a Combo, perform a Bonus Attack!",
               "type": "unique"
             }
           ]
@@ -237,12 +231,13 @@
     "abilities": [
       [
         {
-          "name": "Assist 1",
+          "name": "Assist",
+          "x_value": 1,
           "costs": [
             "Fate",
             "Exhaust"
           ],
-          "type": "unique"
+          "type": "keyword"
         }
       ],
       [
@@ -251,22 +246,18 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "Clutch",
+              "name": "Discard Clutch",
               "costs": [
-                "Fate",
-                "Discard"
+                "Fate"
               ],
-              "type": "keyword"
+              "type": "unique"
             }
           ]
         }
       ],
       [
         {
-          "name": "Succor, then, immediately after current Attack ends, draw an Obol",
-          "costs": [
-            "Discard"
-          ],
+          "name": "Discard Succor, then, immediately after current Attack ends, draw an Obol",
           "type": "unique"
         }
       ]
@@ -296,10 +287,9 @@
     "abilities": [
       [
         {
-          "name": "1 Bleeding token",
+          "name": "Discard 1 Bleeding token",
           "costs": [
-            "Exhaust",
-            "Discard"
+            "Exhaust"
           ],
           "type": "unique"
         }
@@ -325,10 +315,7 @@
           "value": "5+",
           "abilities": [
             {
-              "name": "When you are about to discard a positive Trauma card due to the BLeeding Condition card, return it to the top of the deck instead",
-              "costs": [
-                "Discard"
-              ],
+              "name": "Discard When you are about to discard a positive Trauma card due to the BLeeding Condition card, return it to the top of the deck instead",
               "type": "unique"
             }
           ]
@@ -383,10 +370,7 @@
           "value": "5+",
           "abilities": [
             {
-              "name": "When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
-              "costs": [
-                "Discard"
-              ],
+              "name": "Discard When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
               "type": "unique"
             }
           ]
@@ -622,10 +606,7 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "When you die, return from death to your Time Anchor",
-              "costs": [
-                "Discard"
-              ],
+              "name": "Discard When you die, return from death to your Time Anchor",
               "type": "unique"
             }
           ]
