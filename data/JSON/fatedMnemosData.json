@@ -18,7 +18,7 @@
     ],
     "effect": "Apply a -1 penalty to all tests you perform (note: rolls are not tests).",
     "growthName": "The cards we are dealt",
-    "growthAbility": "When you fail a test, lose -1 Fate.",
+    "growthAbility": "When you fail a test, lose -1 FateIcon.",
     "stats": [
       "Endurance"
     ]
@@ -42,7 +42,7 @@
     ],
     "effect": "Start of Battle: Gain the Marked for Death Major Trauma card.",
     "growthName": "Decoy",
-    "growthAbility": "When you gain the Priority Target token, lose -1 Fate.",
+    "growthAbility": "When you gain the Priority Target token, lose -1 FateIcon.",
     "stats": [
       "Courage"
     ]
@@ -64,9 +64,9 @@
       "Tragedy",
       "Crime"
     ],
-    "effect": "When you are about to draw an Obool, add an Obol card from teh next threshold on the Massive Danger Chart to the Obol Deck for this draw only.",
+    "effect": "When you are about to draw an Obool, add an Obol card from the next threshold on the Massive Danger Chart to the Obol Deck for this draw only.",
     "growthName": "Resilient",
-    "growthAbility": "When you survive an Obol, lose -1 Fate.",
+    "growthAbility": "When you survive an Obol, lose -1 FateIcon.",
     "stats": [
       "Endurance"
     ]
@@ -90,7 +90,7 @@
     ],
     "effect": "If you are in front of the Primordial, you have -1 Precision.",
     "growthName": "Bravery",
-    "growthAbility": "End of your turn: If you are in front and adjacent to the Primordial, lose -1 Fate.",
+    "growthAbility": "End of your turn: If you are in front and adjacent to the Primordial, lose -1 FateIcon.",
     "stats": [
       "Fury"
     ]
@@ -112,9 +112,9 @@
       "Supernatural",
       "Gods"
     ],
-    "effect": "You cannot use Gear cards with the following traits: Axe, Blade, Javelin, Khopesh, Knife, Lance, Spear, Sword",
+    "effect": "You cannot use GearIcon cards with the following traits: Axe, Blade, Javelin, Khopesh, Knife, Lance, Spear, Sword",
     "growthName": "Someone has to do it",
-    "growthAbility": "When you deal a Wound, lose -1 Fate.",
+    "growthAbility": "When you deal a Wound, lose -1 FateIcon.",
     "stats": [
       "Wisdom"
     ]
@@ -136,9 +136,9 @@
       "Tragedy",
       "Dream"
     ],
-    "effect": "You must always use your MovementAction to move at least one space.",
+    "effect": "You must always use your MovementActionIcon to move at least one space.",
     "growthName": "Still mind",
-    "growthAbility": "End of your turn: If you didn't voluntarily move this turn, lose -1 Fate.",
+    "growthAbility": "End of your turn: If you didn't voluntarily move this turn, lose -1 FateIcon.",
     "stats": [
       "Cunning"
     ]
@@ -162,7 +162,7 @@
     ],
     "effect": "Ambrosia Limit -1.",
     "growthName": "Ambrosia Tolerance",
-    "growthAbility": "When you discard at least 1 Ambrosia token, lose -1 Fate.",
+    "growthAbility": "When you discard at least 1 Ambrosia token, lose -1 FateIcon.",
     "stats": [
       "Will"
     ]
@@ -184,9 +184,9 @@
       "Family",
       "Gods"
     ],
-    "effect": "You can use your CombatAction only to perform attacks.",
+    "effect": "You can use your CombatActionIcon only to perform attacks.",
     "growthName": "Cold steel",
-    "growthAbility": "End of your turn: If you didn't attack this turn, lose -1 Fate.",
+    "growthAbility": "End of your turn: If you didn't attack this turn, lose -1 FateIcon.",
     "stats": [
       "Wisdom"
     ]
@@ -208,9 +208,9 @@
       "Heritage",
       "Curse"
     ],
-    "effect": "You cannot unexhaust your Gear cards.",
+    "effect": "You cannot unexhaust your GearIcon cards.",
     "growthName": "Tinker",
-    "growthAbility": "When you involuntarily exhaust a Gear card, lose -1 Fate.",
+    "growthAbility": "When you involuntarily exhaust a GearIcon card, lose -1 FateIcon.",
     "stats": [
       "Cunning"
     ]
@@ -234,7 +234,7 @@
     ],
     "effect": "When you draw a positive Truma card, ignore it and draw again (once per Trauma Draw).",
     "growthName": "Perseverance",
-    "growthAbility": "When you draw a negative Trauma card, lose -1 Fate.",
+    "growthAbility": "When you draw a negative Trauma card, lose -1 FateIcon.",
     "stats": [
       "Endurance"
     ]
@@ -256,7 +256,7 @@
       "Tragedy",
       "Crime"
     ],
-    "effect": "You cannot use Fate Rerolls.",
+    "effect": "You cannot use FateIcon Rerolls.",
     "growthName": "Rekindled Interest",
     "growthAbility": "If you rerolled 2 or more Attack Dice and none of them are hits, lost -1 Fate.",
     "stats": [
@@ -282,7 +282,7 @@
     ],
     "effect": "You cannot gain Crit Chances.",
     "growthName": "Make your own luck.",
-    "growthAbility": "When you gain a Crit Chance, lose -1 Fate.",
+    "growthAbility": "When you gain a Crit Chance, lose -1 FateIcon.",
     "stats": [
       "Cunning"
     ]
@@ -304,9 +304,9 @@
       "Supernatural",
       "Gods"
     ],
-    "effect": "When you gain the Priority Target token, gain +1 Fate.",
+    "effect": "When you gain the PriorityTargetIcon Priority Target token, gain +1 FateIcon.",
     "growthName": "Chance-taker",
-    "growthAbility": "When you lsoe the Priority Target token, lose -1 Fate.",
+    "growthAbility": "When you lsoe the Priority Target token, lose -1 FateIcon.",
     "stats": [
       "Courage"
     ]
@@ -328,9 +328,9 @@
       "Gods",
       "Family"
     ],
-    "effect": "Start of Battle: Gain 1 CombatAction or MovementAction Fatigue token.",
+    "effect": "Start of Battle: Gain 1 CombatActionIcon or MovementActionIcon Fatigue token.",
     "growthName": "Invigorated",
-    "growthAbility": "When you gain a CombatAction or MovementAction Fatigue token,, lose -1 Fate.",
+    "growthAbility": "When you gain a CombatActionIcon or MovementActionIcon Fatigue token,, lose -1 FateIcon.",
     "stats": [
       "Endurance"
     ]
@@ -354,7 +354,7 @@
     ],
     "effect": "You cannot ignore or re-draw Trauma cards.",
     "growthName": "Only facts",
-    "growthAbility": "If you re-draw a Trauma card or otherwise ignore its effect, lose -1 Fate.",
+    "growthAbility": "If you re-draw a Trauma card or otherwise ignore its effect, lose -1 FateIcon.",
     "stats": [
       "Fury"
     ]
@@ -378,7 +378,7 @@
     ],
     "effect": "When you gain at least 1 Bleeding token, gain +1 Bleeding token.",
     "growthName": "Centered",
-    "growthAbility": "When you gain at least 1 Bleeding token, lose -1 Fate.",
+    "growthAbility": "When you gain at least 1 Bleeding token, lose -1 FateIcon.",
     "stats": [
       "Courage"
     ]
@@ -402,7 +402,7 @@
     ],
     "effect": "During the Titan Round, you cannot voluntarily be the first or last to take your turn.",
     "growthName": "Right on time.",
-    "growthAbility": "When you take your turn second or third during the Titan Round, lose -1 Fate.",
+    "growthAbility": "When you take your turn second or third during the Titan Round, lose -1 FateIcon.",
     "stats": [
       "Wisdom"
     ]
@@ -426,7 +426,7 @@
     ],
     "effect": "After you place any tokens in the Kratos Pool, remove 1 token from the Kratos Pool.",
     "growthName": "Self-worth",
-    "growthAbility": "When you place 5+ Kratos tokens in the Kratos Pool in a single ability window, lose -1 Fate.",
+    "growthAbility": "When you place 5+ Kratos tokens in the Kratos Pool in a single ability window, lose -1 FateIcon.",
     "stats": [
       "Will"
     ]

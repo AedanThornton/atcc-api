@@ -32,7 +32,7 @@
           "value": "4+",
           "abilities": [
             {
-              "name": "Gain 1 temporary postitive Evasion token",
+              "name": "Gain 1 temporary positive EvasionIcon token",
               "costs": [
                 "Exhaust"
               ],
@@ -47,7 +47,10 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "Discard Gain or lose up to 2 Rage",
+              "name": "Gain or lose up to 2 RageIcon",
+              "costs": [
+                "Discard"
+              ],
               "type": "unique"
             }
           ]
@@ -89,7 +92,7 @@
           "value": "2+",
           "abilities": [
             {
-              "name": "When you break a Combo, you may lose -1 Fate",
+              "name": "When you break a Combo, you may lose -1 FateIcon",
               "type": "unique"
             }
           ]
@@ -101,7 +104,10 @@
           "value": "6+",
           "abilities": [
             {
-              "name": "Discard When you break a Combo, perform a Bonus Attack!",
+              "name": "When you break a Combo, perform a Bonus Attack!",
+              "costs": [
+                "Discard"
+              ],
               "type": "unique"
             }
           ]
@@ -133,7 +139,7 @@
     "abilities": [
       [
         {
-          "name": "When you are about to reoslve a Trauma Draw, treat your Danger as 1 lower",
+          "name": "When you are about to reoslve a Trauma Draw, treat your DangerIcon as 1 lower",
           "costs": [
             "Exhaust"
           ],
@@ -146,7 +152,7 @@
           "type": "unique"
         },
         {
-          "name": "Whn you stand up, gain +1 Speed, +1 Precision and Auto-break 1 until the end of your turn",
+          "name": "Whn you stand up, gain +1 SpeedIcon, +1 Precision and Auto-break 1 until the end of your turn",
           "type": "unique"
         }
       ],
@@ -193,7 +199,7 @@
       ],
       [
         {
-          "name": "You may gain +1 Rage",
+          "name": "You may gain +1 RageIcon",
           "timing": "Start of Battle",
           "type": "unique"
         }
@@ -246,18 +252,22 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "Discard Clutch",
+              "name": "Clutch",
               "costs": [
-                "Fate"
+                "Fate",
+                "Discard"
               ],
-              "type": "unique"
+              "type": "keyword"
             }
           ]
         }
       ],
       [
         {
-          "name": "Discard Succor, then, immediately after current Attack ends, draw an Obol",
+          "name": "Succor, then, immediately after current Attack ends, draw an Obol",
+          "costs": [
+            "Discard"
+          ],
           "type": "unique"
         }
       ]
@@ -315,7 +325,10 @@
           "value": "5+",
           "abilities": [
             {
-              "name": "Discard When you are about to discard a positive Trauma card due to the BLeeding Condition card, return it to the top of the deck instead",
+              "name": "When you are about to Discard a positive Trauma card due to the Bleeding Condition card, return it to the top of the deck instead",
+              "costs": [
+                "Discard"
+              ],
               "type": "unique"
             }
           ]
@@ -370,7 +383,10 @@
           "value": "5+",
           "abilities": [
             {
-              "name": "Discard When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
+              "name": "When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
+              "costs": [
+                "Discard"
+              ],
               "type": "unique"
             }
           ]
@@ -426,7 +442,7 @@
       ],
       [
         {
-          "name": "When you arrive from Time-clocked, gain +1 Speed and Auto-black 1 until the end of your turn",
+          "name": "When you arrive from Time-clocked, gain +1 SpeedIcon and Auto-black 1 until the end of your turn",
           "type": "unique"
         }
       ]
@@ -606,7 +622,10 @@
           "value": "7+",
           "abilities": [
             {
-              "name": "Discard When you die, return from death to your Time Anchor",
+              "name": "When you die, return from death to your Time Anchor",
+              "costs": [
+                "Discard"
+              ],
               "type": "unique"
             }
           ]

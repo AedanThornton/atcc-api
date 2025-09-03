@@ -3270,7 +3270,7 @@
     "traits": [
       "Argotech",
       "Augment",
-      "Headgear"
+      "HeadGearIcon"
     ],
     "offensiveStatistics": {},
     "defensiveStatistics": {},
@@ -4036,7 +4036,7 @@
         "type": "unique"
       },
       {
-        "name": "You may treat your DangerIcon as 2 higher for the purpose of DangerIcon Gate abilities of your Labyrinth Gear cards",
+        "name": "You may treat your DangerIcon as 2 higher for the purpose of DangerIcon Gate abilities of your Labyrinth GearIcon cards",
         "type": "unique"
       }
     ],
@@ -4809,7 +4809,7 @@
         "type": "keyword"
       },
       {
-        "name": "ComplicatedAction Fate Rush",
+        "name": "ComplicatedActionIcon Fate Rush",
         "type": "unique"
       }
     ],
@@ -7341,7 +7341,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "This gear was recovered from the Future Argo's wreck. Maybe it can help us cheat fate?",
+    "flavor": "This GearIcon was recovered from the Future Argo's wreck. Maybe it can help us cheat fate?",
     "slot": "Attachment",
     "transformsInto": null,
     "traits": [
@@ -8031,7 +8031,7 @@
         "type": "keyword"
       },
       {
-        "name": "ComplicatedAction Perform an Attack with Deadly",
+        "name": "ComplicatedActionIcon Perform an Attack with Deadly",
         "type": "unique"
       },
       {
@@ -8413,11 +8413,7 @@
         "type": "keyword"
       },
       {
-        "name": "Place an Opening token on this card",
-        "flavorName": "Take Aim",
-        "costs": [
-          "CombatAction"
-        ],
+        "name": "CombatActionIcon Take Aim: Place an Opening token on this card",
         "type": "unique"
       },
       {

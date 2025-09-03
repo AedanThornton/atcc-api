@@ -99,7 +99,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -141,7 +141,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -180,7 +180,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Fate"
+            "effect": "Gain +1 FateIcon"
           },
           {
             "effect": "Knockdown",
@@ -219,7 +219,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +1 Fate"
+            "effect": "Gain +1 FateIcon"
           },
           {
             "effect": "Knockdown",
@@ -261,7 +261,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -303,7 +303,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -342,13 +342,13 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain Danger equal to the Primordial LVL"
+            "effect": "Gain DangerIcon equal to the Primordial LVL"
           }
         ]
       }
     ],
     "critFlavor": "You rip the massive maze plate of the giant as if you would a fingernail.",
-    "critResponse": "Gain the Shieldblade Gear card (Secret Deck 2, card 10), Adversary!"
+    "critResponse": "Gain the Shieldblade GearIcon card (Secret Deck 2, card 10), Adversary!"
   },
   {
     "cardIDs": [
@@ -377,7 +377,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain Danger equal to the Primordial LVL"
+            "effect": "Gain DangerIcon equal to the Primordial LVL"
           }
         ]
       }
@@ -415,7 +415,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -457,7 +457,7 @@
             "effect": "Pushback 1"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -503,7 +503,7 @@
             "effect": "Pushback 2"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -546,13 +546,13 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Gain +1 Fate"
+            "effect": "Gain +1 FateIcon"
           },
           {
             "effect": "Pushback 2"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -598,7 +598,7 @@
             "effect": "Pushback 3"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -644,7 +644,7 @@
             "effect": "Pushback 2"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -687,13 +687,13 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Fate"
+            "effect": "Gain +1 FateIcon"
           },
           {
             "effect": "Pushback 2"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -739,7 +739,7 @@
             "effect": "Pushback 2"
           },
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Knockback 5",
@@ -1071,7 +1071,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Knockback10",
@@ -1081,7 +1081,7 @@
       }
     ],
     "critFlavor": "You rip part of the leg mechanism away and a slimy substance takes its place!",
-    "critResponse": "Gain the Mazemace Gear card (Secret Deck 2, card 12), AdversaryActivation!"
+    "critResponse": "Gain the Mazemace GearIcon card (Secret Deck 2, card 12), AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -1188,7 +1188,7 @@
       }
     ],
     "critFlavor": "You hack at the growth covering the automaton.",
-    "critResponse": "Gain the Glimmer Shroud Gear card (Secret Deck 2, card 12), Adversary!"
+    "critResponse": "Gain the Glimmer Shroud GearIcon card (Secret Deck 2, card 12), Adversary!"
   },
   {
     "cardIDs": [
@@ -1512,7 +1512,7 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "All Titans in Zone 1 gain +1 Danger and suffer Knockdown"
+            "effect": "All Titans in Zone 1 gain +1 DangerIcon and suffer Knockdown"
           }
         ]
       }
@@ -1562,7 +1562,7 @@
             "effect": "Knockback 7"
           },
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           }
         ]
       }
@@ -1611,7 +1611,7 @@
             "effect": "Knockback 7"
           },
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           }
         ]
       }
@@ -1758,13 +1758,13 @@
             "effect": "Knockback 7"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           }
         ]
       }
     ],
     "critFlavor": "You crack the giant maze plate and grab a fragment as a trophy!",
-    "critResponse": "Gain the Temeno Scale Shield Cycle 2 Gear card, AdversaryActivation!"
+    "critResponse": "Gain the Temeno Scale Shield Cycle 2 GearIcon card, AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -1793,7 +1793,7 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "All Titans in Zone 1 gain +1 Danger and suffer Knockdown"
+            "effect": "All Titans in Zone 1 gain +1 DangerIcon and suffer Knockdown"
           }
         ]
       }
@@ -1917,7 +1917,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "All Titans in Zone 1 gain +1 Danger and suffer Knockdown"
+            "effect": "All Titans in Zone 1 gain +1 DangerIcon and suffer Knockdown"
           },
           {
             "effect": ""
@@ -1974,7 +1974,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "All Titans on Labyrinth tiles gain +2 Fate"
+            "effect": "All Titans on Labyrinth tiles gain +2 FateIcon"
           }
         ]
       }
@@ -2097,7 +2097,7 @@
       }
     ],
     "critFlavor": "You look at the miniscule organ that caused so much misery, then crush it like a bug.",
-    "critResponse": "Each Titan discards all negative Condition cards and modifier tokens. Gain the Pyramidion Cycle 2 Gear card (Secret Deck 5, card 46), AdversaryActivation!"
+    "critResponse": "Each Titan discards all negative Condition cards and modifier tokens. Gain the Pyramidion Cycle 2 GearIcon card (Secret Deck 5, card 46), AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -2180,7 +2180,7 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "All Titans in Zone 2 gain +1 Danger and suffer Knockdown"
+            "effect": "All Titans in Zone 2 gain +1 DangerIcon and suffer Knockdown"
           }
         ]
       }
@@ -2396,7 +2396,7 @@
       }
     ],
     "critFlavor": "You rip the pincer out! Pursuer's laughter grows more intense.",
-    "critResponse": "Gain the Nail Spear Gear card (Secret Deck 2, card 17)!"
+    "critResponse": "Gain the Nail Spear GearIcon card (Secret Deck 2, card 17)!"
   },
   {
     "cardIDs": [
@@ -2570,7 +2570,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Resolve a Trauma Draw"
@@ -2590,7 +2590,7 @@
       }
     ],
     "critFlavor": "You smash the large stone beak, sending thousands of splinters into the Pursuer's body.",
-    "critResponse": "Gain the Vulture Mask Gear card (Secret deck 2, card 18)!"
+    "critResponse": "Gain the Vulture Mask GearIcon card (Secret deck 2, card 18)!"
   },
   {
     "cardIDs": [
@@ -3080,7 +3080,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "You dull your Weapon on the black-ironed mauls! Gain +1 Rage, exhaust your active Weapon"
+            "effect": "You dull your Weapon on the black-ironed mauls! Gain +1 RageIcon, exhaust your active Weapon"
           },
           {
             "effect": ""
@@ -3091,7 +3091,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           }
         ]
       }
@@ -3126,7 +3126,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           },
           {
             "effect": ""
@@ -3221,7 +3221,7 @@
             "effect": "Lose -1 Humanity"
           },
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           }
         ]
       }
@@ -3267,7 +3267,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gaint +1 Rage"
+            "effect": "Gaint +1 RageIcon"
           }
         ]
       }
@@ -3351,7 +3351,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "You dull your Weapon on the black-ironed mauls! Gain +2 Rage, exhaust your active Weapon"
+            "effect": "You dull your Weapon on the black-ironed mauls! Gain +2 RageIcon, exhaust your active Weapon"
           },
           {
             "effect": ""
@@ -3368,7 +3368,7 @@
       }
     ],
     "critFlavor": "You've broken the chain holding the maul!",
-    "critResponse": "Gain one of the Maulfist Gear cards (Secret deck 5, card 47 or 48), AdversaryActivation."
+    "critResponse": "Gain one of the Maulfist GearIcon cards (Secret deck 5, card 47 or 48), AdversaryActivation."
   },
   {
     "cardIDs": [
@@ -3435,7 +3435,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +2 Rage"
+            "effect": "Gain +2 RageIcon"
           },
           {
             "effect": ""
@@ -3449,7 +3449,7 @@
             "effect": "Lose -1 Humanity"
           },
           {
-            "effect": "Gain +2 Rage"
+            "effect": "Gain +2 RageIcon"
           }
         ]
       }
@@ -3554,7 +3554,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Exhaust all of your Gear"
+            "effect": "Exhaust all of your GearIcon"
           },
           {
             "effect": ""
@@ -3565,7 +3565,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Rage"
+            "effect": "Gain +2 RageIcon"
           },
           {
             "effect": "Cyclonus moves 4 spaces directly away from the Attacker (without turning)"
@@ -3607,7 +3607,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Exhaust all of your Gear"
+            "effect": "Exhaust all of your GearIcon"
           },
           {
             "effect": ""
@@ -3660,7 +3660,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain Danger equal to twice the Primordial LVL"
+            "effect": "Gain DangerIcon equal to twice the Primordial LVL"
           },
           {
             "effect": ""
@@ -3671,13 +3671,13 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain Rage equal to the Primordial LVL"
+            "effect": "Gain RageIcon equal to the Primordial LVL"
           }
         ]
       }
     ],
     "critFlavor": "You've punctured the Ambrosia Sack, flooding the monster's body with the toxic fluid and shutting down the arm machinas.",
-    "critResponse": "Gain one of the Maulfist Gear cards (Secret deck 5, card 47 or 48), AdversaryActivation."
+    "critResponse": "Gain one of the Maulfist GearIcon cards (Secret deck 5, card 47 or 48), AdversaryActivation."
   },
   {
     "cardIDs": [
@@ -3710,7 +3710,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain Rage equal to the Primordial LVL"
+            "effect": "Gain RageIcon equal to the Primordial LVL"
           },
           {
             "effect": "Escalate 1"
@@ -3727,7 +3727,7 @@
             "effect": "If you wound this BP card, lose -1 Humanity"
           },
           {
-            "effect": "Gain +3 Rage"
+            "effect": "Gain +3 RageIcon"
           }
         ]
       }
@@ -3819,10 +3819,10 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Exhaust all your Gear"
+            "effect": "Exhaust all your GearIcon"
           },
           {
-            "effect": "Gain Rage equal to the Primordial LVL"
+            "effect": "Gain RageIcon equal to the Primordial LVL"
           }
         ]
       }
@@ -3907,7 +3907,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           },
           {
             "effect": "Create 1 Vantage Point"
@@ -4014,7 +4014,7 @@
       }
     ],
     "critFlavor": "You dive deep into the black muck, hacking and smashing at everything that moves. When you emerge, your body is stained with strange black dots.",
-    "critResponse": "Create 1 Vantage Point. If both VPs are already created, place 1 generic token in the VP section of the Primordial Sheet. Gain the Muck Virus Gear card (Secret deck 5, card 50), AdversaryActivation!"
+    "critResponse": "Create 1 Vantage Point. If both VPs are already created, place 1 generic token in the VP section of the Primordial Sheet. Gain the Muck Virus GearIcon card (Secret deck 5, card 50), AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -4046,7 +4046,7 @@
             "effect": "Hidden Spartan Warriors attack you from the wall ruins"
           },
           {
-            "effect": "Gain 1 negative Precision token"
+            "effect": "Gain 1 negative PrecisionIcon token"
           },
           {
             "effect": ""
@@ -4150,7 +4150,7 @@
             "effect": "Hidden Spartan Warriors attack you from the temple"
           },
           {
-            "effect": "Gain 1 negative Evasion token"
+            "effect": "Gain 1 negative EvasionIcon token"
           },
           {
             "effect": ""
@@ -4170,7 +4170,7 @@
       }
     ],
     "critFlavor": "As you raze the temple building, you think you hear a quiet sigh of relief.",
-    "critResponse": "Create 1 Vantage Point. If both VPs are already created, place 1 generic token in the VP section of the Primordial Sheet. Lose -1 ArgoFate and place 1 Charge token on any Argo Ability."
+    "critResponse": "Create 1 Vantage Point. If both VPs are already created, place 1 generic token in the VP section of the Primordial Sheet. Lose -1 ArgoFateIcon and place 1 Charge token on any Argo Ability."
   },
   {
     "cardIDs": [
@@ -4202,7 +4202,7 @@
             "effect": "A sole Spartan Warrior dive attacks you from the top of the statue"
           },
           {
-            "effect": "Gain 2 negative Precision tokens"
+            "effect": "Gain 2 negative PrecisionIcon tokens"
           },
           {
             "effect": ""
@@ -4219,7 +4219,7 @@
       }
     ],
     "critFlavor": "The giant statue of the dead god snaps in half, wounding the abomination on the way down. Peculiarly, the broken statue seems to have a handle...",
-    "critResponse": "Gain the Remembrance Gear card (Secret deck 5, card 49), AdversaryActivation!"
+    "critResponse": "Gain the Remembrance GearIcon card (Secret deck 5, card 49), AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -4265,7 +4265,7 @@
       }
     ],
     "critFlavor": "Your blow is so powerful it unhinges the lion's jaw and sends it flying, making the undead monster literally toothless.",
-    "critResponse": "Gain the Jaws of the Lion Gear card (Secret deck 5, card 51), AdversaryActivation. Disable the Lion's Rigor AI card."
+    "critResponse": "Gain the Jaws of the Lion GearIcon card (Secret deck 5, card 51), AdversaryActivation. Disable the Lion's Rigor AI card."
   },
   {
     "cardIDs": [
@@ -4447,7 +4447,7 @@
             "effect": "A Krypteia Agent attacks from the Peristatis and damages the Antikratos Helm"
           },
           {
-            "effect": "Gain 1 negative Evasion token and make a Kratos roll"
+            "effect": "Gain 1 negative EvasionIcon token and make a Kratos roll"
           },
           {
             "effect": ""
@@ -4511,7 +4511,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Exhaust all your Gear"
+            "effect": "Exhaust all your GearIcon"
           }
         ]
       }
@@ -4550,7 +4550,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Discard your Weapon Gear"
+            "effect": "Discard your Weapon GearIcon"
           },
           {
             "effect": ""
@@ -4606,7 +4606,7 @@
             "effect": "The gods that haunt these halls scorn you"
           },
           {
-            "effect": "Gain +3 Fate"
+            "effect": "Gain +3 FateIcon"
           },
           {
             "effect": ""
@@ -4617,7 +4617,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Each Titan loses -2 Fate and gains a node for 1 Fated Mnemos"
+            "effect": "Each Titan loses -2 FateIcon and gains a node for 1 Fated Mnemos"
           }
         ]
       }
@@ -4786,7 +4786,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "You shatter your Weapon on the thick black skin! Gain +1 Rage, exhaust your active Weapon"
+            "effect": "You shatter your Weapon on the thick black skin! Gain +1 RageIcon, exhaust your active Weapon"
           },
           {
             "effect": ""
@@ -4800,7 +4800,7 @@
             "effect": "Lose -1 Humanity"
           },
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           }
         ]
       }
@@ -4835,7 +4835,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Rage"
+            "effect": "Gain +1 RageIcon"
           },
           {
             "effect": "Escalate 1"
@@ -4849,7 +4849,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +3 Danger and during the second ability window place 2 additional Break tokens in the Kratos Pool"
+            "effect": "Gain +3 DangerIcon and during the second ability window place 2 additional Break tokens in the Kratos Pool"
           }
         ]
       }
@@ -4887,7 +4887,7 @@
             "effect": "Your Weapon gets stuck among the muscles"
           },
           {
-            "effect": "Exhaust your active Weapon Gear"
+            "effect": "Exhaust your active Weapon GearIcon"
           }
         ]
       }
@@ -4939,7 +4939,7 @@
       }
     ],
     "critFlavor": "You smash the vesicle secreting ambrosia. A patch of the refined substance latches onto your skin, temporarily boosting your strength.",
-    "critResponse": "Unexhaust all of your Gear and perform a Bonus Attack!"
+    "critResponse": "Unexhaust all of your GearIcon and perform a Bonus Attack!"
   },
   {
     "cardIDs": [
@@ -4974,7 +4974,7 @@
       }
     ],
     "critFlavor": "You hack at the thick black skin, peeling it layer by layer. Even flayed, it still moves...",
-    "critResponse": "Gain the Umbral Virus Gear card (Secret deck 5, card 175), AdversaryActivation!"
+    "critResponse": "Gain the Umbral Virus GearIcon card (Secret deck 5, card 175), AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -5041,7 +5041,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Rage, 1 Ambrosia token and the Hatred Condition card"
+            "effect": "Gain +1 RageIcon, 1 Ambrosia token and the Hatred Condition card"
           },
           {
             "effect": ""
@@ -5052,7 +5052,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "The Nietzschean moves 5 spaces directly away from the Attacker (without turning)"
@@ -5101,7 +5101,7 @@
             "effect": "Knockback 10"
           },
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": ""
@@ -5112,13 +5112,13 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Rage and +1 Danger"
+            "effect": "Gain +2 RageIcon and +1 Danger"
           }
         ]
       }
     ],
     "critFlavor": "You crush the inscribed bones, collapsing the ribcage. A lesser creature would die instantly; the Nietzschean just coughs black ash. The thick curl of smoke sticks to your right arm.",
-    "critResponse": "Gain the Fumeblade Gear card (Secret deck 5, card 178). AdversaryActivation!"
+    "critResponse": "Gain the Fumeblade GearIcon card (Secret deck 5, card 178). AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -5147,7 +5147,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +2 Rage and +1 Danger"
+            "effect": "Gain +2 RageIcon and +1 DangerIcon"
           },
           {
             "effect": ""
@@ -5161,7 +5161,7 @@
             "effect": "Lose -1 Humanity"
           },
           {
-            "effect": "Gain +2 Rage"
+            "effect": "Gain +2 RageIcon"
           }
         ]
       }
@@ -5200,7 +5200,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Your Weapon gets sucked in by the black mass! Permanently lose your active Weapon if it has a Sword or Slapsword Trait"
+            "effect": "Your Weapon gets sucked in by the black mass! Permanently lose your active Weapon if it has a Sword or Slabsword Trait"
           },
           {
             "effect": "Exhaust any other active Weapon"
@@ -5214,13 +5214,13 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Unexhaust all your exhausted Gear"
+            "effect": "Unexhaust all your exhausted GearIcon"
           }
         ]
       }
     ],
     "critFlavor": "You rip out one of the swords sticking out of the Nietzschean's back!",
-    "critResponse": "Gain the Necroxiphos Gear card (Secret deck 5, card 177) or a Unique Weapon with a Sword or Slabsword Trait you previously had and lost or an Ascended version of such a Weapon from Cycle I. AdversaryActivation!"
+    "critResponse": "Gain the Necroxiphos GearIcon card (Secret deck 5, card 177) or a Unique Weapon with a Sword or Slabsword Trait you previously had and lost or an Ascended version of such a Weapon from Cycle I. AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -5260,13 +5260,13 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +1 Danger and during the second ability window place 2 additional Fire tokens in the Kratos Pool"
+            "effect": "Gain +1 DangerIcon and during the second ability window place 2 additional Fire tokens in the Kratos Pool"
           }
         ]
       }
     ],
     "critFlavor": "You cut through the rippling muscles, cleaving a sheet of the black mass clean off.",
-    "critResponse": "Gain the Elephantine Armor Gear card (Secret deck 5, card 176). AdversaryActivation!"
+    "critResponse": "Gain the Elephantine Armor GearIcon card (Secret deck 5, card 176). AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -5295,10 +5295,10 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain 1 Despair token (see Cycle 1 Storybook) and +3 Danger"
+            "effect": "Gain 1 Despair token (see Cycle 1 Storybook) and +3 DangerIcon"
           },
           {
-            "effect": "Exhaust all Gear"
+            "effect": "Exhaust all GearIcon"
           },
           {
             "effect": ""
@@ -5309,7 +5309,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Rage, +2 Danger and 1 Ambrosia token"
+            "effect": "Gain +2 RageIcon, +2 DangerIcon, and 1 Ambrosia token"
           }
         ]
       }
@@ -5401,7 +5401,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain+5 Danger "
+            "effect": "Gain +5 DangerIcon "
           }
         ]
       },
@@ -5409,7 +5409,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +3 Rage and +2 Danger"
+            "effect": "Gain +3 RageIcon and +2 DangerIcon"
           }
         ]
       }
@@ -5454,7 +5454,7 @@
       }
     ],
     "critFlavor": "Some would say you cannot kill fire - and yet you quench the animated flames, until only embers remain.",
-    "critResponse": "Treat Fire Combos as automatically broken. Gain the Cowl of Char Gear card (Secret deck 5, card 53). AdversaryActivation!"
+    "critResponse": "Treat Fire Combos as automatically broken. Gain the Cowl of Char GearIcon card (Secret deck 5, card 53). AdversaryActivation!"
   },
   {
     "cardIDs": [
@@ -5498,7 +5498,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +3 Danger and during the second ability window place 3 additional Black tokens in the Kratos Pool"
+            "effect": "Gain +3 DangerIcon and during the second ability window place 3 additional Black tokens in the Kratos Pool"
           }
         ]
       }
@@ -5537,10 +5537,10 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Exhaust all Gear"
+            "effect": "Exhaust all GearIcon"
           },
           {
-            "effect": "Gain +3 Rage"
+            "effect": "Gain +3 RageIcon"
           }
         ]
       }
@@ -5579,7 +5579,7 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Gain 2 Ambrosia tokens, then gain twice as many Danger as you have Ambrosia tokens"
+            "effect": "Gain 2 Ambrosia tokens, then gain twice as many DangerIcon as you have Ambrosia tokens"
           }
         ]
       }
@@ -5625,7 +5625,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain as many Rage as there are Kratos tokens in the Kratos Pool"
+            "effect": "Gain as many RageIcon as there are Kratos tokens in the Kratos Pool"
           }
         ]
       }
@@ -5660,7 +5660,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Kickback 6"
@@ -5680,7 +5680,7 @@
       }
     ],
     "critFlavor": "You rip off one of the Burden's mechanical legs! It still moves as if it had a mind of its own.",
-    "critResponse": "Gain the Leg Khopesh Gear card (Secret deck 5, card 52)!"
+    "critResponse": "Gain the Leg Khopesh GearIcon card (Secret deck 5, card 52)!"
   },
   {
     "cardIDs": [
@@ -5709,7 +5709,7 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Gain as many Fate as there are Kratos tokens in the Kratos Pool"
+            "effect": "Gain as many FateIcon as there are Kratos tokens in the Kratos Pool"
           }
         ]
       }
@@ -5747,7 +5747,7 @@
             "effect": "As you try to break the impenetrable metal, your Weapon dulls"
           },
           {
-            "effect": "Until the end of Battle you gain -1 Power"
+            "effect": "Until the end of Battle you gain -1 PowerIcon"
           },
           {
             "effect": ""
@@ -5758,7 +5758,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Kickback 6"
@@ -5842,7 +5842,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +1 Danger"
+            "effect": "Gain +1 DangerIcon"
           },
           {
             "effect": "Kickback 6"
@@ -5902,7 +5902,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain as many Fate as there are Kratos tokens in the Kratos Pool"
+            "effect": "Gain as many FateIcon as there are Kratos tokens in the Kratos Pool"
           }
         ]
       }
@@ -5937,7 +5937,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +2 Danger"
+            "effect": "Gain +2 DangerIcon"
           },
           {
             "effect": "Knockdown"
@@ -5954,7 +5954,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Rage"
+            "effect": "Gain +2 RageIcon"
           }
         ]
       }
@@ -6070,7 +6070,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain Danger equal to your Fate"
+            "effect": "Gain DangerIcon equal to your FateIcon"
           },
           {
             "effect": ""
@@ -6081,13 +6081,13 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Rage and +2 Danger"
+            "effect": "Gain +2 RageIcon and +2 Danger"
           }
         ]
       }
     ],
     "critFlavor": "As you hit the monster's side repeatedly, the visage of Aeacus cracks, then shatters. Stone fragments fall to the ground, a strange spherical stone among them.",
-    "critResponse": "Gain the Sisyphus Burden Gear card (Secret deck 5, card 60)!"
+    "critResponse": "Gain the Sisyphus Burden GearIcon card (Secret deck 5, card 60)!"
   },
   {
     "cardIDs": [
@@ -6127,7 +6127,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +2 Danger and the Sisyphean Condition card"
+            "effect": "Gain +2 DangerIcon and the Sisyphean Condition card"
           }
         ]
       }
@@ -6173,7 +6173,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +3 Rage and +3 Danger"
+            "effect": "Gain +3 RageIcon and +3 DangerIcon"
           }
         ]
       }
@@ -6212,7 +6212,7 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain +3 Danger"
+            "effect": "Gain +3 DangerIcon"
           },
           {
             "effect": "Kickback 10"
@@ -6276,7 +6276,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain as many Danger as there are Kratos tokens in the Kratos Pool"
+            "effect": "Gain as many DangerIcon as there are Kratos tokens in the Kratos Pool"
           }
         ]
       }
@@ -6326,7 +6326,7 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain +3 Fate and a Fated Mnemos card"
+            "effect": "Gain +3 FateIcon and a Fated Mnemos card"
           }
         ]
       }

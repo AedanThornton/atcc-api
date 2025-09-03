@@ -16,12 +16,12 @@
     "name2": "Dread",
     "side": {
       "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card.",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token.",
+      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive PrecisionIcon token.",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
     },
     "side2": {
       "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die.",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision token.",
+      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive PrecisionIcon tokens.",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
     }
   },
@@ -35,7 +35,7 @@
     "name": "Knockdown",
     "cardType": "Condition",
     "game": "Odyssey",
-    "cycle": "Cycle I",
+    "cycle": "ALL",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",

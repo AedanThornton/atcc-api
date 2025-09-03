@@ -27,15 +27,15 @@
         "name": "Research",
         "type": "Reference",
         "effects": [
-          "When you reach a Combat CombatIcon or Structural StructuralIcon node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck."
+          "When you reach a Combat CombatTechIcon or Structural StructuralTechIcon node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck."
         ]
       },
       {
         "name": "Gather Information",
         "type": "Reference",
         "effects": [
-          "During the Exploration Step, if the Argo is on an unexplored Map Tile with Progress symbol, gain +1 Progress",
-          "For each Progress you gain, place 1 Progress token on your current Story card or the Inward Odyssey card."
+          "During the Exploration Step, if the Argo is on an unexplored Map Tile with ProgressIcon symbol, gain +1 ProgressIcon",
+          "For each ProgressIcon you gain, place 1 ProgressIcon token on your current Story card or the Inward Odyssey card."
         ]
       }
     ]
@@ -68,7 +68,7 @@
         "name": "Sail and Explore",
         "type": "Reference",
         "effects": [
-          "At the start of each day you move to an adjacnet tile using one of the available waterways",
+          "At the start of each day you move to an adjacent tile using one of the available waterways",
           "If needed, place the tile, then move the Argo and proceed to the Timeline Step."
         ]
       },
@@ -76,14 +76,14 @@
         "name": "Adventure",
         "type": "Reference",
         "effects": [
-          "During the Adventure Step, if the Argo is on an unexplored Map tile with the AdventureHub symbol, go to the Adventure Hubs table in your current Cycle's Storybook."
+          "During the Adventure Step, if the Argo is on an unexplored Map tile with the AdventureHubIcon symbol, go to the Adventure Hubs table in your current Cycle's Storybook."
         ]
       },
       {
         "name": "Gather Resources",
         "type": "Reference",
         "effects": [
-          "DUring the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards."
+          "During the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards."
         ]
       }
     ]
@@ -144,13 +144,13 @@
     "leadsTo": [
       "Trading Solutions"
     ],
-    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of gear and new engineering solutions.",
+    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of GearIcon and new engineering solutions.",
     "abilities": [
       {
-        "name": "Craft Gear",
+        "name": "Craft GearIcon",
         "type": "Reference",
         "effects": [
-          "During the Advancement Step, you can use available resources to craft Gear cards using Production Technologies."
+          "During the Advancement Step, you can use available resources to craft GearIcon cards using Production Technologies."
         ]
       }
     ]
@@ -227,7 +227,7 @@
         "name": "Port Trading",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFate to exchange (up to 3 times): 3 Trireme >> 1 Armament, 2 Trireme >> 1 Monument, 1 Monument >> 2 Trireme, 1 Armament >> 3 Trireme, 1 Muscle Cluster or Infused Mechanism >> 3 Raw Ambrosia, 1 Calcified Knuckle Bone or Fleshy Mantle >> 4 Raw Ambrosia, 3 Raw Ambrosia >> 1 Muscle Cluster or Infused Mechanism, 4 Raw Ambrosia >> 1 Calcified Knuckle Bone or Fleshy Mantle"
+          "Gain +1 ArgoFateIcon to exchange (up to 3 times): 3 Trireme >> 1 Armament, 2 Trireme >> 1 Monument, 1 Monument >> 2 Trireme, 1 Armament >> 3 Trireme, 1 Muscle Cluster or Infused Mechanism >> 3 Raw Ambrosia, 1 Calcified Knuckle Bone or Fleshy Mantle >> 4 Raw Ambrosia, 3 Raw Ambrosia >> 1 Muscle Cluster or Infused Mechanism, 4 Raw Ambrosia >> 1 Calcified Knuckle Bone or Fleshy Mantle"
         ]
       }
     ]
@@ -262,7 +262,7 @@
         "name": "Shallows Navigation",
         "type": "Permanent",
         "effects": [
-          "You can move through Lock waterways with the River RiverIcon symbol."
+          "You can move through LockIcon waterways with the River RiverIcon symbol."
         ]
       }
     ]
@@ -297,15 +297,15 @@
         "name": "Persuasion",
         "type": "Save",
         "effects": [
-          "Gain +1 ArgoFate when you are about to gain Strangers to test Diplomacy (7+)",
-          "Success: Lower this Strangers gain by 1 (to a minimum of 0)."
+          "Gain +1 ArgoFateIcon when you are about to gain StrangersIcon to test Diplomacy (7+)",
+          "Success: Lower this StrangersIcon gain by 1 (to a minimum of 0)."
         ]
       },
       {
         "name": "Diatribe",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFate to lose -1 Strangers."
+          "Gain +1 ArgoFateIcon to lose -1 StrangersIcon."
         ]
       }
     ]
@@ -339,7 +339,7 @@
         "name": "Diplomatic Corps",
         "type": "City Negotiation",
         "effects": [
-          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFate to gain +1 Diplomacy with the Local Faction."
+          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFateIcon to gain +1 Diplomacy with the Local Faction."
         ]
       }
     ]
@@ -371,7 +371,7 @@
     "abilities": [
       {
         "name": "Philosopher Guards",
-        "effects": "Gain +1 ArgoFate to test Diplomacy (7+). Success: Chosen Argonaut discards a Despair token."
+        "effects": "Gain +1 ArgoFateIcon to test Diplomacy (7+). Success: Chosen Argonaut discards a Despair token."
       },
       {
         "name": "Maze Exorcism",
@@ -438,7 +438,7 @@
     "flavorTech": "Only philosophers are able to subdue wild Titans and bring them to the Argo, but they refuse to share their secrets.",
     "abilities": [
       {
-        "name": "Titanokingos",
+        "name": "Titanokinigos",
         "type": "Immediate",
         "effects": [
           "Add the Untamed Titan Exploration card to the Exploration deck."
@@ -446,7 +446,7 @@
       },
       {
         "name": "Expedition",
-        "effects": "Gain +1 ArgoFate when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success Gain +1 Titan."
+        "effects": "Gain +1 ArgoFateIcon when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success: Gain +1 Titan."
       }
     ]
   },
@@ -483,7 +483,7 @@
       },
       {
         "name": "Comeback",
-        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFate to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained."
+        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFateIcon to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained."
       }
     ]
   },
@@ -509,13 +509,13 @@
     "leadsTo": [
       "Superior Trading Solutions"
     ],
-    "flavorTech": "Your agents arrive in town before the Argo and lay the groundwork for successful Negotiations.",
+    "flavorTech": "Your agents arrive in town before the Argo and lay the groundwork for successful negotiations.",
     "abilities": [
       {
         "name": "Trade Agents",
         "type": "Permanent",
         "effects": [
-          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFate gain."
+          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFateIcon gain."
         ]
       }
     ]
@@ -548,7 +548,7 @@
         "name": "Port Recruitment",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFate and +1 Strangers to gain +1 Crew."
+          "Gain +1 ArgoFateIcon and +1 StrangersIcon to gain +1 CrewIcon."
         ]
       }
     ]
@@ -571,7 +571,7 @@
     "locked": "FALSE",
     "flavorProject": "A chamber in which a user can experience an illusory physical environment could be the greatest of training rooms.",
     "requirements": [
-      "Argo Knowledge 20+"
+      "ArgoKnowledgeIcon 20+"
     ],
     "leadsTo": [
       "Nymph Studies"
@@ -614,40 +614,7 @@
     "abilities": [
       {
         "name": "Diolkos Access",
-        "effects": "Gain +1 ArgoFate to travel through a Locked waterway with the Diolkos symbol. Cannot be used during Story 3A."
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "CA1609"
-    ],
-    "name": "Surviving The Loop",
-    "cardType": "Technology",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "foundIn": "Secret Deck 07",
-    "faq": "",
-    "errata": "",
-    "name2": "",
-    "techType": "Structural",
-    "techSubType": "",
-    "locked": "TRUE",
-    "flavorProject": "When the loop resets, everyhing resets. Except the Argo.",
-    "requirements": [
-      "\u2014"
-    ],
-    "leadsTo": [
-      "Time Solutions",
-      "Argo Timeline Security",
-      "Trespass Protocol"
-    ],
-    "flavorTech": "",
-    "abilities": [
-      {
-        "name": "Ariadne's Time Anchor",
-        "effects": "During the Exploration Step, if the Argo is on a Map tile with a Lighthouse symbol, you may move Ariadne's Anchor token to that Map tile."
+        "effects": "Gain +1 ArgoFateIcon to travel through a LockIcon waterway with the Diolkos symbol. Cannot be used during Story 3A."
       }
     ]
   },
@@ -669,7 +636,7 @@
     "locked": "FALSE",
     "flavorProject": "The Nymphs have found a new home.",
     "requirements": [
-      "ArgoFate 46+"
+      "ArgoFateIcon 46+"
     ],
     "leadsTo": [
       "Awakening Studies"

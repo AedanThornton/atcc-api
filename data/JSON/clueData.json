@@ -69,7 +69,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Lose -1 Hull."
+    "text": "Lose -1 HullIcon."
   },
   {
     "cardIDs": [
@@ -87,7 +87,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Argo Fate 7+: Random Argonaut who is not Mazetouched gains the Mazetouched Affliction."
+    "text": "ArgoFateIcon 7+: Random Argonaut who is not Mazetouched gains the Mazetouched Affliction."
   },
   {
     "cardIDs": [
@@ -105,7 +105,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Argo Fate 6+: Random Argonaut gains 1 Despair token."
+    "text": "ArgoFateIcon 6+: Random Argonaut gains 1 Despair token."
   },
   {
     "cardIDs": [
@@ -123,7 +123,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Gain +1 Strangers."
+    "text": "Gain +1 StrangersIcon."
   },
   {
     "cardIDs": [
@@ -141,7 +141,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Gain +1 Doom."
+    "text": "Gain +1 DoomIcon."
   },
   {
     "cardIDs": [
@@ -159,7 +159,7 @@
     "type": "Story",
     "storyCard": "2B",
     "subdeck": "",
-    "text": "Gain +1 Strangers."
+    "text": "Gain +1 StrangersIcon."
   },
   {
     "cardIDs": [
@@ -249,7 +249,7 @@
     "type": "Story",
     "storyCard": "3A",
     "subdeck": "",
-    "text": "No coordinates here! Gain +1 Strangers."
+    "text": "No coordinates here! Gain +1 StrangersIcon."
   },
   {
     "cardIDs": [
@@ -267,7 +267,7 @@
     "type": "Story",
     "storyCard": "3A",
     "subdeck": "",
-    "text": "No coordinates here! Gain +1 Argo Knowledge."
+    "text": "No coordinates here! Gain +1 ArgoKnowledgeIcon."
   },
   {
     "cardIDs": [
@@ -303,6 +303,6 @@
     "type": "Map",
     "storyCard": "3A",
     "subdeck": "",
-    "text": "A map depicting the locations of the 5 _____, located on tiles ...."
+    "text": ""
   }
 ]

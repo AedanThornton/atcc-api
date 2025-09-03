@@ -79,7 +79,7 @@
     ],
     "abilities": [
       {
-        "name": "Lose -1 Danger",
+        "name": "Lose -1 DangerIcon",
         "costs": [
           "Exhaust"
         ],
@@ -183,7 +183,7 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "If moving through a Labyrinth tile, you gain +1 Speed for this movement",
+        "name": "If moving through a Labyrinth tile, you gain +1 SpeedIcon for this movement",
         "type": "unique"
       }
     ],
@@ -327,7 +327,7 @@
     ],
     "abilities": [
       {
-        "name": "After surviving a Major, Grave, or Obol Trauma, lose -1 Fate",
+        "name": "After surviving a Major, Grave, or Obol Trauma, lose -1 FateIcon",
         "type": "unique"
       }
     ],
@@ -337,7 +337,7 @@
     "cardIDs": [
       "AW0289"
     ],
-    "name": "Heavy-Gear Training",
+    "name": "Heavy-GearIcon Training",
     "cardType": "Pattern",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -367,7 +367,7 @@
     ],
     "abilities": [
       {
-        "name": "Ignore up to -1 Speed penalty from any 1 Gear",
+        "name": "Ignore up to -1 SpeedIcon penalty from any 1 GearIcon",
         "type": "unique"
       }
     ],
@@ -632,7 +632,7 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Add +X to your Climb tests, where X is equal to half of your Rage (rounding up)",
+        "name": "Add +X to your Climb tests, where X is equal to half of your RageIcon (rounding up)",
         "type": "unique"
       }
     ],
@@ -756,7 +756,7 @@
     ],
     "abilities": [
       {
-        "name": "When you are about to gain Rage, lower this gain to 1",
+        "name": "When you are about to gain RageIcon, lower this gain to 1",
         "costs": [
           "Exhaust"
         ],
@@ -799,7 +799,7 @@
     ],
     "abilities": [
       {
-        "name": "You have 1 additional Support slot",
+        "name": "You have 1 additional SupportIcon slot",
         "type": "unique"
       }
     ],
@@ -1097,7 +1097,7 @@
     ],
     "abilities": [
       {
-        "name": "Each Laser Attack hit and Sun Attack hit deals 1 Danger less to you (to a minimum of 1)",
+        "name": "Each Laser Attack hit and Sun Attack hit deals 1 DangerIcon less to you (to a minimum of 1)",
         "type": "unique"
       }
     ],
@@ -1285,7 +1285,7 @@
     ],
     "abilities": [
       {
-        "name": "You have 1 additional Weapon OneHanded slot (this slot does not allow you to use ThreeHanded Weapons)",
+        "name": "You have 1 additional Weapon OneHandedIcon slot (this slot does not allow you to use ThreeHandedIcon Weapons)",
         "type": "unique"
       }
     ],
@@ -1376,7 +1376,7 @@
             "x_value": "1"
           },
           {
-            "name": "Pole Position"
+            "name": "PolePosition"
           }
         ]
       ],
@@ -1464,7 +1464,7 @@
         "type": "keyword"
       },
       {
-        "name": "Once per Battle, gain +1 Rage to gain a CombatAction then gain a CombatAction Fatigue token",
+        "name": "Once per Battle, gain +1 RageIcon to gain a CombatActionIcon then gain a CombatActionIcon Fatigue token",
         "type": "unique"
       }
     ],
@@ -1761,7 +1761,7 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Gain +1 Speed for each empty Gear slot you ahve (up to 3)",
+        "name": "Gain +1 SpeedIcon for each empty GearIcon slot you ahve (up to 3)",
         "type": "unique"
       }
     ],

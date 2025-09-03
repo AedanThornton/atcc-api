@@ -24,7 +24,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may gain +1 Rage."
+          "Choose a Titan. That Titan may gain +1 RageIcon."
         ]
       }
     ],
@@ -89,7 +89,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may lose -1 Fate."
+          "Choose a Titan. That Titan may lose -1 FateIcon."
         ]
       }
     ],
@@ -154,7 +154,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may gain or lose 2 Danger."
+          "Choose a Titan. That Titan may gain or lose 2 DangerIcon."
         ]
       }
     ],
@@ -187,7 +187,7 @@
     "abilities": [
       {
         "effects": [
-          "Reaction Choose a Titan. That Titan may move 1 space."
+          "ReactionIcon Choose a Titan. That Titan may move 1 space."
         ]
       }
     ],
@@ -214,7 +214,7 @@
     ],
     "leadsTo": [
       "Cyvlonus Sighting",
-      "Temenos Advanced Gear",
+      "Temenos Advanced GearIcon",
       "Reflex Priming"
     ],
     "flavorTech": "",
@@ -247,7 +247,7 @@
       "Temenos Weapons"
     ],
     "leadsTo": [
-      "Temenos Advanced Gear",
+      "Temenos Advanced GearIcon",
       "Chimera Metastasios Sighting",
       "Forced Kratos Cooldown"
     ],
@@ -287,12 +287,12 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan that is about to gain involuntary Rage to ignore that gain."
+          "Choose a Titan that is about to gain involuntary RageIcon to ignore that gain."
         ]
       },
       {
         "effects": [
-          "Choose a Titan. That Titan loses -1 Rage."
+          "Choose a Titan. That Titan loses -1 RageIcon."
         ]
       }
     ],
@@ -324,7 +324,7 @@
     "abilities": [
       {
         "effects": [
-          "Unexhaust 2 Gear cards among up to 2 Titans."
+          "Unexhaust 2 GearIcon cards among up to 2 Titans."
         ]
       }
     ],
@@ -348,11 +348,11 @@
     "locked": "FALSE",
     "flavorProject": "",
     "requirements": [
-      "Temenos Advanced Gear"
+      "Temenos Advanced GearIcon"
     ],
     "leadsTo": [
       "Hephaestean Oxybeles",
-      "Experimental Gear"
+      "Experimental GearIcon"
     ],
     "flavorTech": "",
     "abilities": [
@@ -364,13 +364,13 @@
       {
         "name": "Godkiller Shot",
         "effects": [
-          "When the Cannon is primed, discard 1 Energy and lose the indicated resource to fire."
+          "When the Cannon is primed, discard 1 EnergyIcon and lose the indicated resource to fire."
         ]
       },
       {
         "name": "Emergency Priming",
         "effects": [
-          "As a Reaction or after drawing a BP card you may discard 1 Energy to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal."
+          "As a ReactionIcon or after drawing a BP card you may discard 1 EnergyIcon to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal."
         ]
       }
     ],
@@ -396,7 +396,7 @@
       "Cyclonus Sighting"
     ],
     "leadsTo": [
-      "Experimental Gear",
+      "Experimental GearIcon",
       "Hephaestean Oxybeles"
     ],
     "flavorTech": "",
@@ -404,7 +404,7 @@
       {
         "name": "Rearm",
         "effects": [
-          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon Gear card from the Armory. A spen Transport Trireme can still be moved as normal but loses the Rearm ability."
+          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon GearIcon card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability."
         ]
       }
     ],
@@ -430,7 +430,7 @@
       "Chimera Metastasios Sighting"
     ],
     "leadsTo": [
-      "Relief Gear"
+      "Relief GearIcon"
     ],
     "flavorTech": "",
     "abilities": [
@@ -536,7 +536,7 @@
     "abilities": [
       {
         "effects": [
-          "Reaction Choose a Titan. That Titan may move up to 2 spaces."
+          "ReactionIcon Choose a Titan. That Titan may move up to 2 spaces."
         ]
       }
     ],
@@ -569,7 +569,7 @@
       {
         "name": "Housewarming Gift",
         "effects": [
-          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative AT token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative AT token in the Kratos Pool."
+          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative ATIcon token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative ATIcon token in the Kratos Pool."
         ]
       }
     ],

@@ -40,7 +40,7 @@
     "difficulty": "10",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -92,7 +92,7 @@
     "difficulty": "10",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -144,7 +144,7 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -195,7 +195,7 @@
         "effect": "Pushback 3"
       },
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       },
       {
         "WoO": true,
@@ -244,7 +244,7 @@
     "difficulty": "6",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -300,7 +300,7 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 2 Danger"
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -344,14 +344,14 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "4+"
         },
-        "effect": "2 Danger instead"
+        "effect": "2 DangerIcon instead"
       },
       {
         "WoO": true,
@@ -396,14 +396,14 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "4+"
         },
-        "effect": "2 Danger instead"
+        "effect": "2 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -443,7 +443,7 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       },
       {
         "WoO": true,
@@ -503,14 +503,14 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "effect": "If Danger was dealt, repeat Chainfist (once)"
+        "effect": "If DangerIcon was dealt, repeat Chainfist (once)"
       }
     ]
   },
@@ -547,14 +547,14 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deals 2 Danger"
+        "effect": "Each hit deals 2 DangerIcon"
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "3 Danger instead"
+        "effect": "3 DangerIcon instead"
       },
       {
         "WoO": true,
@@ -614,7 +614,7 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deals 2 Danger"
+        "effect": "Each hit deals 2 DangerIcon"
       },
       {
         "WoO": true,
@@ -625,7 +625,7 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "effect": "If 2+ Danger was dealt, draw a Kratos card"
+        "effect": "If 2+ DangerIcon was dealt, draw a Kratos card"
       }
     ]
   },
@@ -672,14 +672,14 @@
         "effect": "Repeat until there are no hits"
       },
       {
-        "effect": "Then each hit deals 1 Danger"
+        "effect": "Then each hit deals 1 DangerIcon"
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "6+"
         },
-        "effect": "2 Danger Instead"
+        "effect": "2 DangerIcon Instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -727,14 +727,14 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deals 3 Danger"
+        "effect": "Each hit deals 3 DangerIcon"
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "6+"
         },
-        "effect": "4 Danger instead"
+        "effect": "4 DangerIcon instead"
       },
       {
         "WoO": true,
@@ -794,7 +794,7 @@
         "effect": "You Die"
       },
       {
-        "effect": "If you didn't die, each hit deals 2 Danger, then draw an Obol instead of a regular Trauma Draw"
+        "effect": "If you didn't die, each hit deals 2 DangerIcon, then draw an Obol instead of a regular Trauma Draw"
       }
     ],
     "preAfterAttackWoO": true,
@@ -850,7 +850,7 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       },
       {
         "WoO": true,
@@ -865,7 +865,7 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "effect": "If Danger was dealt, draw a Kratos card"
+        "effect": "If DangerIcon was dealt, draw a Kratos card"
       }
     ]
   },
@@ -910,7 +910,7 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deal 4 danger"
+        "effect": "Each hit deal 4 dangerIcon"
       },
       {
         "WoO": true,
@@ -962,7 +962,7 @@
     "difficulty": "8",
     "consequences": [
       {
-        "effect": "Each hit deals 2 Danger"
+        "effect": "Each hit deals 2 DangerIcon"
       },
       {
         "WoO": true,
@@ -1022,7 +1022,7 @@
     "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -1070,7 +1070,7 @@
     "difficulty": "",
     "consequences": [
       {
-        "effect": "Each hit deals 1 Danger"
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": false,

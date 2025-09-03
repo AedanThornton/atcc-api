@@ -23,7 +23,7 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards. 2+ tokens: You cannot use exhaustable gear. 3+ tokens: You cannot perform MovementAction."
+    "effects": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards. 2+ tokens: You cannot use exhaustable GearIcon. 3+ tokens: You cannot perform MovementActionIcon."
   },
   {
     "cardIDs": [
@@ -56,21 +56,21 @@
       "BX1059"
     ],
     "name": "All For One",
-    "cardType": "",
+    "cardType": "Trait",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 04",
     "faq": "",
     "errata": "",
-    "effects": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the Danger Sense Trait when moving into the Weakspot space. CombatAction When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card. Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance. Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses). Next time any Titan Attacks, it adds the Power you noted to its Total Power."
+    "effects": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the Danger Sense Trait when moving into the Weakspot space. CombatActionIcon When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card. Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance. Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses). Next time any Titan Attacks, it adds the Power you noted to its Total Power."
   },
   {
     "cardIDs": [
       "BX1060"
     ],
     "name": "Ticking Clock",
-    "cardType": "",
+    "cardType": "Trait",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",

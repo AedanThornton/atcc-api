@@ -13,7 +13,7 @@
     "errata": "",
     "title": "Grand Fete",
     "requirements": "Be on a City tile. You cannot use Voyage Technology abilities this day.",
-    "effects": "Lower ArgoFate to 0."
+    "effects": "Lower ArgoFateIcon to 0."
   },
   {
     "cardIDs": [
@@ -29,7 +29,7 @@
     "errata": "",
     "title": "Transcend!",
     "requirements": "A Titan has just died.",
-    "effects": "Choose a Titan other than the one that just died. That Titan immediately Awakens, then discards 1 Trespass token."
+    "effects": "Choose a Titan other than the one that just died. That Titan immediately Awakens, then discards 1 TrespassIcon token."
   },
   {
     "cardIDs": [
@@ -45,7 +45,7 @@
     "errata": "",
     "title": "Masterpiece",
     "requirements": "None.",
-    "effects": "Resolve the Forgin a Masterpiece Special Event of your current Cycle Storybook (or Cycle II Storybook for Cycle I). Give the acquired Gear card to one of the Argonauts, that Gear card gains the Argonaut Possession keyword. After the next Battle: Lose that Gear card permanently. The Argonaut gains teh Apathy Fated Mnemos card."
+    "effects": "Resolve the Forging a Masterpiece Special Event of your current Cycle Storybook (or Cycle II Storybook for Cycle I). Give the acquired GearIcon card to one of the Argonauts, that GearIcon card gains the Argonaut Possession keyword. After the next Battle: Lose that GearIcon card permanently. The Argonaut gains the Apathy Fated Mnemos card."
   },
   {
     "cardIDs": [
@@ -61,7 +61,7 @@
     "errata": "",
     "title": "Vorpal Secret",
     "requirements": "At least 1 Titan has died or drawn an Obol.",
-    "effects": "Assign this card and the Blade Nymph token to a Titan. As long as you have this card, you have +1 Power. Before each Power ROll you must say if you will Wound the Primordial or not. If you waver, discard this card and your Weapon. If you're sure and then you do not Wound, discard this card, permanently lose your Weapon, and draw an Obol. Start of your turn: Discard the Blade Nymph token. If you cannot, discard this card instead."
+    "effects": "Assign this card and the Blade Nymph token to a Titan. As long as you have this card, you have +1 PowerIcon. Before each Power Roll you must say if you will Wound the Primordial or not. If you waver, discard this card and your Weapon. If you're sure and then you do not Wound, discard this card, permanently lose your Weapon, and draw an Obol. Start of your turn: Discard the Blade Nymph token. If you cannot, discard this card instead."
   },
   {
     "cardIDs": [
@@ -77,7 +77,7 @@
     "errata": "",
     "title": "Page Infinite",
     "requirements": "Be on a City tile. You cannot use Voyage Technology abilities this day.",
-    "effects": "Immediately research 1 CombatTech or StructuralTech Technology. You need to meet the Technology card's requirements."
+    "effects": "Immediately research 1 CombatTechIcon or StructuralTechIcon Technology. You need to meet the Technology card's requirements."
   },
   {
     "cardIDs": [
@@ -93,7 +93,7 @@
     "errata": "",
     "title": "Face, Off",
     "requirements": "Start of Battle",
-    "effects": "One Titan may perform their turn before teh first Primordial Round, instead of in the first Titan Round."
+    "effects": "One Titan may perform their turn before the first Primordial Round, instead of in the first Titan Round."
   },
   {
     "cardIDs": [
@@ -108,8 +108,8 @@
     "faq": "",
     "errata": "",
     "title": "Insatiable Secret",
-    "requirements": "ArgoFate 6+",
-    "effects": "This Nymph does not exhaust. Immediately gain +1 Progress or +1 Argo Knowledge. Gain +1 unavoidable Doom."
+    "requirements": "ArgoFateIcon 6+",
+    "effects": "This Nymph does not exhaust. Immediately gain +1 ProgressIcon or +1 ArgoKnowledgeIcon. Gain +1 unavoidable DoomIcon."
   },
   {
     "cardIDs": [
@@ -125,7 +125,7 @@
     "errata": "",
     "title": "Aeon Bypass",
     "requirements": "At least 1 Titan has died.",
-    "effects": "Choose a Titan. During the Titan Round, the chosen Titan gains a bonus turn. OR When a Titan dies, place the Age Nymph token on their space or the closest legal free space.During the next Titan Round, the chosen Titan may discard teh Age Nymph token to reappear in its space and take their turn. At the end of that Titan Round, the Titan disappears again."
+    "effects": "Choose a Titan. During the Titan Round, the chosen Titan gains a bonus turn. OR When a Titan dies, place the Age Nymph token on their space or the closest legal free space. During the next Titan Round, the chosen Titan may discard the Age Nymph token to reappear in its space and take their turn. At the end of that Titan Round, the Titan disappears again."
   },
   {
     "cardIDs": [
@@ -141,7 +141,7 @@
     "errata": "",
     "title": "Stuff of Legends",
     "requirements": "There is only 1 Titan alive.",
-    "effects": "Until the end of Battle, the last Titan can perform an additional MovementAction and CombatAction. They cannot suffer Knockdown or Time-clocked and cannot gain Rage over 9. When they resolve an Obol Draw, they always draw from the standard 2-card Obol deck."
+    "effects": "Until the end of Battle, the last Titan can perform an additional MovementActionIcon and CombatActionIcon. They cannot suffer Knockdown or Time-clocked and cannot gain RageIcon over 9. When they resolve an Obol Draw, they always draw from the standard 2-card Obol deck."
   },
   {
     "cardIDs": [
@@ -157,7 +157,7 @@
     "errata": "",
     "title": "Postmodern Exorcism",
     "requirements": "At least 1 Titan has died.",
-    "effects": "Unexhaust all Gear of all Titans. Each prepared Argo Ability regains 1 Energy token."
+    "effects": "Unexhaust all GearIcon of all Titans. Each prepared Argo Ability regains 1 EnergyIcon token."
   },
   {
     "cardIDs": [
