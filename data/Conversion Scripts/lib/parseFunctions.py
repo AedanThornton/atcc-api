@@ -413,21 +413,24 @@ def parse_targeting(targeting):
     return new_json
 
 def parse_map_movement(map_movement):
-    movement_json = []
+    movement_json = {}
+    north_json = []
+    west_json = []
+    south_json = []
+    east_json = []
 
     for arrow in map_movement.split(", "):
         arrow_json = {}
 
         match arrow[:1]:
             case "N":
-                direction = "North"
+                direction = north_json
             case "W":
-                direction = "West"
+                direction = west_json
             case "S":
-                direction = "South"
+                direction = south_json
             case "E":
-                direction = "East"
-        arrow_json["direction"] = direction
+                direction = east_json
         arrow = arrow[1:]
 
         if arrow[:1] == 'a' or arrow[:1] == 'b':
@@ -440,7 +443,12 @@ def parse_map_movement(map_movement):
 
         arrow_json["nextTile"] = arrow.strip()
    
-        movement_json.append(arrow_json)
+        direction.append(arrow_json)
+
+    if north_json: movement_json["north"] = north_json
+    if west_json: movement_json["west"] = west_json
+    if south_json: movement_json["south"] = south_json
+    if east_json: movement_json["east"] = east_json
 
     return movement_json
 

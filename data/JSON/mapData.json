@@ -1,7 +1,7 @@
 [
   {
     "cardIDs": [
-      "001"
+      "B001"
     ],
     "name": "001",
     "cardType": "Map",
@@ -17,16 +17,18 @@
       "City",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "East",
-        "nextTile": "002"
-      },
-      {
-        "direction": "South",
-        "nextTile": "009"
-      }
-    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "002"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -34,7 +36,7 @@
   },
   {
     "cardIDs": [
-      "002"
+      "B002"
     ],
     "name": "002",
     "cardType": "Map",
@@ -49,16 +51,18 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "001"
-      },
-      {
-        "direction": "East",
-        "nextTile": "003"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "001"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "003"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -66,7 +70,7 @@
   },
   {
     "cardIDs": [
-      "003"
+      "B003"
     ],
     "name": "003",
     "cardType": "Map",
@@ -81,20 +85,23 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "002"
-      },
-      {
-        "direction": "East",
-        "nextTile": "004"
-      },
-      {
-        "direction": "South",
-        "nextTile": "011"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "002"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "004"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -102,7 +109,7 @@
   },
   {
     "cardIDs": [
-      "004"
+      "B004"
     ],
     "name": "004",
     "cardType": "Map",
@@ -118,16 +125,18 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "003"
-      },
-      {
-        "direction": "East",
-        "nextTile": "005"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "003"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "005"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -135,7 +144,7 @@
   },
   {
     "cardIDs": [
-      "005"
+      "B005"
     ],
     "name": "005",
     "cardType": "Map",
@@ -148,23 +157,26 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "004"
-      },
-      {
-        "direction": "East",
-        "nextTile": "006"
-      },
-      {
-        "direction": "South",
-        "nextTile": "013"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "004"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "013"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "006"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -172,7 +184,7 @@
   },
   {
     "cardIDs": [
-      "006"
+      "B006"
     ],
     "name": "006",
     "cardType": "Map",
@@ -187,20 +199,23 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "005"
-      },
-      {
-        "direction": "East",
-        "nextTile": "007"
-      },
-      {
-        "direction": "South",
-        "nextTile": "014"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "005"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "014"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "007"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -208,7 +223,7 @@
   },
   {
     "cardIDs": [
-      "007"
+      "B007"
     ],
     "name": "007",
     "cardType": "Map",
@@ -221,24 +236,27 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "006"
-      },
-      {
-        "direction": "East",
-        "lock": "Diolkos",
-        "nextTile": "008"
-      },
-      {
-        "direction": "South",
-        "nextTile": "015"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "006"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "015"
+        }
+      ],
+      "east": [
+        {
+          "lock": "Diolkos",
+          "nextTile": "008"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -246,7 +264,7 @@
   },
   {
     "cardIDs": [
-      "008"
+      "B008"
     ],
     "name": "008",
     "cardType": "Map",
@@ -262,13 +280,14 @@
       "Progress",
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "lock": "Diolkos",
-        "nextTile": "007"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "lock": "Diolkos",
+          "nextTile": "007"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -276,7 +295,7 @@
   },
   {
     "cardIDs": [
-      "009"
+      "B009"
     ],
     "name": "009",
     "cardType": "Map",
@@ -289,22 +308,25 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "001"
-      },
-      {
-        "direction": "East",
-        "nextTile": "010"
-      },
-      {
-        "direction": "South",
-        "nextTile": "016"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "001"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "016"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "010"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -312,7 +334,7 @@
   },
   {
     "cardIDs": [
-      "010"
+      "B010"
     ],
     "name": "010",
     "cardType": "Map",
@@ -328,20 +350,23 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "009"
-      },
-      {
-        "direction": "East",
-        "nextTile": "011"
-      },
-      {
-        "direction": "South",
-        "nextTile": "017"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "011"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -349,7 +374,7 @@
   },
   {
     "cardIDs": [
-      "011"
+      "B011"
     ],
     "name": "011",
     "cardType": "Map",
@@ -364,25 +389,29 @@
     "symbols": [
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "010"
-      },
-      {
-        "direction": "North",
-        "nextTile": "003"
-      },
-      {
-        "direction": "East",
-        "nextTile": "012"
-      },
-      {
-        "direction": "South",
-        "lock": "Upstream",
-        "nextTile": "018"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "003"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "010"
+        }
+      ],
+      "south": [
+        {
+          "lock": "Upstream",
+          "nextTile": "018"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "012"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -390,7 +419,7 @@
   },
   {
     "cardIDs": [
-      "012"
+      "B012"
     ],
     "name": "012",
     "cardType": "Map",
@@ -403,19 +432,21 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "011"
-      },
-      {
-        "direction": "East",
-        "nextTile": "013"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "013"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -423,7 +454,7 @@
   },
   {
     "cardIDs": [
-      "013"
+      "B013"
     ],
     "name": "013",
     "cardType": "Map",
@@ -438,21 +469,24 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "lock": "Upstream",
-        "nextTile": "012"
-      },
-      {
-        "direction": "North",
-        "nextTile": "005"
-      },
-      {
-        "direction": "South",
-        "nextTile": "020"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "005"
+        }
+      ],
+      "west": [
+        {
+          "lock": "Upstream",
+          "nextTile": "012"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "020"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -460,7 +494,7 @@
   },
   {
     "cardIDs": [
-      "014"
+      "B014"
     ],
     "name": "014",
     "cardType": "Map",
@@ -473,23 +507,26 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "006"
-      },
-      {
-        "direction": "East",
-        "nextTile": "015"
-      },
-      {
-        "direction": "South",
-        "lock": "Upstream",
-        "nextTile": "021"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "006"
+        }
+      ],
+      "south": [
+        {
+          "lock": "Upstream",
+          "nextTile": "021"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "015"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -497,7 +534,7 @@
   },
   {
     "cardIDs": [
-      "015"
+      "B015"
     ],
     "name": "015",
     "cardType": "Map",
@@ -513,20 +550,23 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "014"
-      },
-      {
-        "direction": "North",
-        "nextTile": "007"
-      },
-      {
-        "direction": "South",
-        "nextTile": "022"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "007"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "014"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "022"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -534,7 +574,7 @@
   },
   {
     "cardIDs": [
-      "016"
+      "B016"
     ],
     "name": "016",
     "cardType": "Map",
@@ -549,20 +589,23 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "009"
-      },
-      {
-        "direction": "East",
-        "nextTile": "017"
-      },
-      {
-        "direction": "South",
-        "nextTile": "023"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "023"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "017"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -570,7 +613,7 @@
   },
   {
     "cardIDs": [
-      "017"
+      "B017"
     ],
     "name": "017",
     "cardType": "Map",
@@ -585,27 +628,31 @@
     "symbols": [
       "Doom",
       "Titan",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "016"
-      },
-      {
-        "direction": "North",
-        "nextTile": "010"
-      },
-      {
-        "direction": "East",
-        "lock": "Upstream",
-        "nextTile": "018"
-      },
-      {
-        "direction": "South",
-        "nextTile": "024"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "010"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "016"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "024"
+        }
+      ],
+      "east": [
+        {
+          "lock": "Upstream",
+          "nextTile": "018"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -613,7 +660,7 @@
   },
   {
     "cardIDs": [
-      "018"
+      "B018"
     ],
     "name": "018",
     "cardType": "Map",
@@ -629,20 +676,23 @@
       "Doom",
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "017"
-      },
-      {
-        "direction": "North",
-        "nextTile": "011"
-      },
-      {
-        "direction": "East",
-        "nextTile": "019"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "019"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -650,7 +700,7 @@
   },
   {
     "cardIDs": [
-      "019"
+      "B019"
     ],
     "name": "019",
     "cardType": "Map",
@@ -664,20 +714,22 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "lock": "Upstream",
-        "nextTile": "018"
-      },
-      {
-        "direction": "East",
-        "nextTile": "020"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "lock": "Upstream",
+          "nextTile": "018"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "020"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -685,7 +737,7 @@
   },
   {
     "cardIDs": [
-      "020"
+      "B020"
     ],
     "name": "020",
     "cardType": "Map",
@@ -700,26 +752,30 @@
     "symbols": [
       "Progress",
       "Spartan Stronghold",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "019"
-      },
-      {
-        "direction": "North",
-        "nextTile": "013"
-      },
-      {
-        "direction": "East",
-        "nextTile": "021"
-      },
-      {
-        "direction": "South",
-        "nextTile": "027"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "013"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "019"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "027"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "021"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -727,7 +783,7 @@
   },
   {
     "cardIDs": [
-      "021"
+      "B021"
     ],
     "name": "021",
     "cardType": "Map",
@@ -742,29 +798,33 @@
     "symbols": [
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "020"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "lock": "Upstream",
-        "nextTile": "014"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "022"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "028"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "lock": "Upstream",
+          "nextTile": "014"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "020"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "028"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "022"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -772,7 +832,7 @@
   },
   {
     "cardIDs": [
-      "022"
+      "B022"
     ],
     "name": "022",
     "cardType": "Map",
@@ -785,18 +845,20 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "021"
-      },
-      {
-        "direction": "North",
-        "nextTile": "015"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "015"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "021"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -804,7 +866,7 @@
   },
   {
     "cardIDs": [
-      "023"
+      "B023"
     ],
     "name": "023",
     "cardType": "Map",
@@ -819,22 +881,25 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "lock": "Second Cataract",
-        "nextTile": "016"
-      },
-      {
-        "direction": "East",
-        "nextTile": "024"
-      },
-      {
-        "direction": "South",
-        "lock": "Upstream",
-        "nextTile": "030"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Second Cataract",
+          "nextTile": "016"
+        }
+      ],
+      "south": [
+        {
+          "lock": "Upstream",
+          "nextTile": "030"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "024"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -842,7 +907,7 @@
   },
   {
     "cardIDs": [
-      "024"
+      "B024"
     ],
     "name": "024",
     "cardType": "Map",
@@ -856,27 +921,31 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "023"
-      },
-      {
-        "direction": "North",
-        "lock": "Second Cataract",
-        "nextTile": "017"
-      },
-      {
-        "direction": "East",
-        "nextTile": "025"
-      },
-      {
-        "direction": "South",
-        "nextTile": "031"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Second Cataract",
+          "nextTile": "017"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "023"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "031"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "025"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -884,7 +953,7 @@
   },
   {
     "cardIDs": [
-      "025"
+      "B025"
     ],
     "name": "025",
     "cardType": "Map",
@@ -899,20 +968,23 @@
     "symbols": [
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "024"
-      },
-      {
-        "direction": "East",
-        "nextTile": "026"
-      },
-      {
-        "direction": "South",
-        "nextTile": "032"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "024"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "032"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "026"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -920,7 +992,7 @@
   },
   {
     "cardIDs": [
-      "026"
+      "B026"
     ],
     "name": "026",
     "cardType": "Map",
@@ -936,20 +1008,23 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "025"
-      },
-      {
-        "direction": "East",
-        "nextTile": "027"
-      },
-      {
-        "direction": "South",
-        "nextTile": "033"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "025"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "033"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "027"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -957,7 +1032,7 @@
   },
   {
     "cardIDs": [
-      "027"
+      "B027"
     ],
     "name": "027",
     "cardType": "Map",
@@ -970,28 +1045,32 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "026"
-      },
-      {
-        "direction": "North",
-        "lock": "Second Cataract",
-        "nextTile": "020"
-      },
-      {
-        "direction": "East",
-        "nextTile": "028"
-      },
-      {
-        "direction": "South",
-        "nextTile": "034"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Second Cataract",
+          "nextTile": "020"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "026"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "034"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "028"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -999,7 +1078,7 @@
   },
   {
     "cardIDs": [
-      "028"
+      "B028"
     ],
     "name": "028",
     "cardType": "Map",
@@ -1014,25 +1093,29 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "027"
-      },
-      {
-        "direction": "North",
-        "lock": "Upstream",
-        "nextTile": "021"
-      },
-      {
-        "direction": "East",
-        "nextTile": "029"
-      },
-      {
-        "direction": "South",
-        "nextTile": "035"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Upstream",
+          "nextTile": "021"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "027"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "035"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "029"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1040,7 +1123,7 @@
   },
   {
     "cardIDs": [
-      "029"
+      "B029"
     ],
     "name": "029",
     "cardType": "Map",
@@ -1055,16 +1138,18 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "028"
-      },
-      {
-        "direction": "South",
-        "nextTile": "036"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "028"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "036"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1072,7 +1157,7 @@
   },
   {
     "cardIDs": [
-      "030"
+      "B030"
     ],
     "name": "030",
     "cardType": "Map",
@@ -1087,17 +1172,19 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "023"
-      },
-      {
-        "direction": "South",
-        "lock": "Upstream",
-        "nextTile": "037"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "023"
+        }
+      ],
+      "south": [
+        {
+          "lock": "Upstream",
+          "nextTile": "037"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1105,7 +1192,7 @@
   },
   {
     "cardIDs": [
-      "031"
+      "B031"
     ],
     "name": "031",
     "cardType": "Map",
@@ -1119,19 +1206,21 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "024"
-      },
-      {
-        "direction": "East",
-        "nextTile": "032"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "024"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "032"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1139,7 +1228,7 @@
   },
   {
     "cardIDs": [
-      "032"
+      "B032"
     ],
     "name": "032",
     "cardType": "Map",
@@ -1154,21 +1243,24 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "031"
-      },
-      {
-        "direction": "North",
-        "lock": "Upstream",
-        "nextTile": "025"
-      },
-      {
-        "direction": "South",
-        "nextTile": "038"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Upstream",
+          "nextTile": "025"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "031"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "038"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1176,7 +1268,7 @@
   },
   {
     "cardIDs": [
-      "033"
+      "B033"
     ],
     "name": "033",
     "cardType": "Map",
@@ -1190,23 +1282,26 @@
     ],
     "symbols": [
       "Doom",
-      "Adventure",
+      "AdventureHub",
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "026"
-      },
-      {
-        "direction": "East",
-        "nextTile": "034"
-      },
-      {
-        "direction": "South",
-        "nextTile": "039"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "026"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "039"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "034"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1214,7 +1309,7 @@
   },
   {
     "cardIDs": [
-      "034"
+      "B034"
     ],
     "name": "034",
     "cardType": "Map",
@@ -1229,25 +1324,29 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "lock": "Upstream",
-        "nextTile": "033"
-      },
-      {
-        "direction": "North",
-        "nextTile": "027"
-      },
-      {
-        "direction": "East",
-        "nextTile": "035"
-      },
-      {
-        "direction": "South",
-        "nextTile": "040"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "027"
+        }
+      ],
+      "west": [
+        {
+          "lock": "Upstream",
+          "nextTile": "033"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "040"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "035"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1255,7 +1354,7 @@
   },
   {
     "cardIDs": [
-      "035"
+      "B035"
     ],
     "name": "035",
     "cardType": "Map",
@@ -1268,22 +1367,25 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "034"
-      },
-      {
-        "direction": "North",
-        "nextTile": "028"
-      },
-      {
-        "direction": "South",
-        "nextTile": "041"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "028"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "034"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "041"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1291,7 +1393,7 @@
   },
   {
     "cardIDs": [
-      "036"
+      "B036"
     ],
     "name": "036",
     "cardType": "Map",
@@ -1307,12 +1409,13 @@
       "City",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "029"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "029"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1320,7 +1423,7 @@
   },
   {
     "cardIDs": [
-      "037"
+      "B037"
     ],
     "name": "037",
     "cardType": "Map",
@@ -1334,16 +1437,17 @@
     ],
     "symbols": [
       "Titan",
-      "Adventure",
+      "AdventureHub",
       "City",
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "030"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "030"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1351,7 +1455,7 @@
   },
   {
     "cardIDs": [
-      "038"
+      "B038"
     ],
     "name": "038",
     "cardType": "Map",
@@ -1364,22 +1468,25 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "032"
-      },
-      {
-        "direction": "East",
-        "nextTile": "039"
-      },
-      {
-        "direction": "South",
-        "nextTile": "045"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "032"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "045"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "039"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1387,7 +1494,7 @@
   },
   {
     "cardIDs": [
-      "039"
+      "B039"
     ],
     "name": "039",
     "cardType": "Map",
@@ -1400,26 +1507,30 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "038"
-      },
-      {
-        "direction": "North",
-        "nextTile": "033"
-      },
-      {
-        "direction": "East",
-        "nextTile": "040"
-      },
-      {
-        "direction": "South",
-        "nextTile": "046"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "033"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "038"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "046"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "040"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1427,7 +1538,7 @@
   },
   {
     "cardIDs": [
-      "040"
+      "B040"
     ],
     "name": "040",
     "cardType": "Map",
@@ -1444,20 +1555,23 @@
       "Progress",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "039"
-      },
-      {
-        "direction": "North",
-        "nextTile": "034"
-      },
-      {
-        "direction": "South",
-        "nextTile": "047"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "034"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "039"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "047"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1465,7 +1579,7 @@
   },
   {
     "cardIDs": [
-      "041"
+      "B041"
     ],
     "name": "041",
     "cardType": "Map",
@@ -1480,28 +1594,30 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "035"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "042"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "042"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "048"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "035"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "048"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "042"
+        },
+        {
+          "split": "b",
+          "nextTile": "042"
+        }
+      ]
+    },
     "otherFeatures": [
       "Diolkos to move between a and b."
     ],
@@ -1509,7 +1625,7 @@
   },
   {
     "cardIDs": [
-      "042"
+      "B042"
     ],
     "name": "042",
     "cardType": "Map",
@@ -1522,18 +1638,18 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "041"
-      },
-      {
-        "direction": "West",
-        "nextTile": "041"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "041"
+        },
+        {
+          "nextTile": "041"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1541,7 +1657,7 @@
   },
   {
     "cardIDs": [
-      "043"
+      "B043"
     ],
     "name": "043",
     "cardType": "Map",
@@ -1555,18 +1671,20 @@
     ],
     "symbols": [
       "City",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "South",
-        "nextTile": "050"
-      },
-      {
-        "direction": "East",
-        "nextTile": "044"
-      }
-    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "050"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "044"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1574,7 +1692,7 @@
   },
   {
     "cardIDs": [
-      "044"
+      "B044"
     ],
     "name": "044",
     "cardType": "Map",
@@ -1589,28 +1707,30 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "043"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "045"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "051"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "051"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "043"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "051"
+        },
+        {
+          "split": "b",
+          "nextTile": "051"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "045"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1618,7 +1738,7 @@
   },
   {
     "cardIDs": [
-      "045"
+      "B045"
     ],
     "name": "045",
     "cardType": "Map",
@@ -1634,27 +1754,31 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "b",
-        "nextTile": "044"
-      },
-      {
-        "direction": "North",
-        "nextTile": "n 038"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "046"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "052"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "n 038"
+        }
+      ],
+      "west": [
+        {
+          "split": "b",
+          "nextTile": "044"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "052"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "046"
+        }
+      ]
+    },
     "otherFeatures": [
       "Upstream to move between a and b."
     ],
@@ -1662,7 +1786,7 @@
   },
   {
     "cardIDs": [
-      "046"
+      "B046"
     ],
     "name": "046",
     "cardType": "Map",
@@ -1675,27 +1799,31 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "045"
-      },
-      {
-        "direction": "North",
-        "nextTile": "039"
-      },
-      {
-        "direction": "East",
-        "nextTile": "047"
-      },
-      {
-        "direction": "South",
-        "nextTile": "053"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "039"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "045"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "053"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "047"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1703,7 +1831,7 @@
   },
   {
     "cardIDs": [
-      "047"
+      "B047"
     ],
     "name": "047",
     "cardType": "Map",
@@ -1718,28 +1846,31 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "046"
-      },
-      {
-        "direction": "North",
-        "nextTile": "040"
-      },
-      {
-        "direction": "East",
-        "nextTile": "048"
-      },
-      {
-        "direction": "South",
-        "nextTile": "054"
-      },
-      {
-        "direction": "South",
-        "nextTile": "054"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "040"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "046"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "054"
+        },
+        {
+          "nextTile": "054"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "048"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1747,7 +1878,7 @@
   },
   {
     "cardIDs": [
-      "048"
+      "B048"
     ],
     "name": "048",
     "cardType": "Map",
@@ -1760,31 +1891,34 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure",
+      "AdventureHub",
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "047"
-      },
-      {
-        "direction": "North",
-        "nextTile": "041"
-      },
-      {
-        "direction": "East",
-        "nextTile": "049"
-      },
-      {
-        "direction": "South",
-        "nextTile": "055"
-      },
-      {
-        "direction": "South",
-        "nextTile": "055"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "041"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "047"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "055"
+        },
+        {
+          "nextTile": "055"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "049"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1792,7 +1926,7 @@
   },
   {
     "cardIDs": [
-      "049"
+      "B049"
     ],
     "name": "049",
     "cardType": "Map",
@@ -1807,12 +1941,13 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "048"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "048"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1820,7 +1955,7 @@
   },
   {
     "cardIDs": [
-      "050"
+      "B050"
     ],
     "name": "050",
     "cardType": "Map",
@@ -1835,21 +1970,24 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "043"
-      },
-      {
-        "direction": "East",
-        "nextTile": "051"
-      },
-      {
-        "direction": "South",
-        "lock": "Diolkos",
-        "nextTile": "057"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "043"
+        }
+      ],
+      "south": [
+        {
+          "lock": "Diolkos",
+          "nextTile": "057"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "051"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -1857,7 +1995,7 @@
   },
   {
     "cardIDs": [
-      "051"
+      "B051"
     ],
     "name": "051",
     "cardType": "Map",
@@ -1871,37 +2009,36 @@
     ],
     "symbols": [
       "Doom",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "lock": "Upstream",
-        "nextTile": "050"
-      },
-      {
-        "direction": "North",
-        "nextTile": "1 044"
-      },
-      {
-        "direction": "North",
-        "lock": "First Cataract",
-        "nextTile": "044"
-      },
-      {
-        "direction": "North",
-        "lock": "First Cataract",
-        "nextTile": "044"
-      },
-      {
-        "direction": "East",
-        "nextTile": "052"
-      },
-      {
-        "direction": "South",
-        "nextTile": "058"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "First Cataract",
+          "nextTile": "044"
+        },
+        {
+          "lock": "First Cataract",
+          "nextTile": "044"
+        }
+      ],
+      "west": [
+        {
+          "lock": "Upstream",
+          "nextTile": "050"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "058"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "052"
+        }
+      ]
+    },
     "otherFeatures": [
       "Map clue *3*2"
     ],
@@ -1909,7 +2046,7 @@
   },
   {
     "cardIDs": [
-      "052"
+      "B052"
     ],
     "name": "052",
     "cardType": "Map",
@@ -1924,34 +2061,37 @@
     "symbols": [
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "051"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "lock": "First Cataract",
-        "nextTile": "045"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "053"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "053"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "059"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "lock": "First Cataract",
+          "nextTile": "045"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "051"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "059"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "053"
+        },
+        {
+          "split": "b",
+          "nextTile": "053"
+        }
+      ]
+    },
     "otherFeatures": [
       "Diolkos to move between a and b",
       "Map clue *4*7"
@@ -1960,7 +2100,7 @@
   },
   {
     "cardIDs": [
-      "053"
+      "B053"
     ],
     "name": "053",
     "cardType": "Map",
@@ -1976,33 +2116,36 @@
       "Progress",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "052"
-      },
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "052"
-      },
-      {
-        "direction": "North",
-        "split": "b",
-        "nextTile": "046"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "054"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "060"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "b",
+          "nextTile": "046"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "052"
+        },
+        {
+          "split": "a",
+          "nextTile": "052"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "060"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "054"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2010,7 +2153,7 @@
   },
   {
     "cardIDs": [
-      "054"
+      "B054"
     ],
     "name": "054",
     "cardType": "Map",
@@ -2024,31 +2167,33 @@
     ],
     "symbols": [
       "Doom",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "b",
-        "nextTile": "053"
-      },
-      {
-        "direction": "North",
-        "split": "b",
-        "nextTile": "047"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "lock": "First Cataract",
-        "nextTile": "047"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "061"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "b",
+          "nextTile": "047"
+        },
+        {
+          "split": "a",
+          "lock": "First Cataract",
+          "nextTile": "047"
+        }
+      ],
+      "west": [
+        {
+          "split": "b",
+          "nextTile": "053"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "061"
+        }
+      ]
+    },
     "otherFeatures": [
       "Map clue *1*5"
     ],
@@ -2056,7 +2201,7 @@
   },
   {
     "cardIDs": [
-      "055"
+      "B055"
     ],
     "name": "055",
     "cardType": "Map",
@@ -2072,35 +2217,36 @@
     "symbols": [
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "split": "a",
-        "lock": "First Cataract",
-        "nextTile": "048"
-      },
-      {
-        "direction": "North",
-        "split": "b",
-        "lock": "First Cataract",
-        "nextTile": "048"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "056"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "062"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "062"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "lock": "First Cataract",
+          "nextTile": "048"
+        },
+        {
+          "split": "b",
+          "lock": "First Cataract",
+          "nextTile": "048"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "062"
+        },
+        {
+          "split": "b",
+          "nextTile": "062"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "056"
+        }
+      ]
+    },
     "otherFeatures": [
       "Diolkos to move between a and b",
       "Map clue *9*0"
@@ -2109,7 +2255,7 @@
   },
   {
     "cardIDs": [
-      "056"
+      "B056"
     ],
     "name": "056",
     "cardType": "Map",
@@ -2124,16 +2270,18 @@
     "symbols": [
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "055"
-      },
-      {
-        "direction": "South",
-        "nextTile": "063"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "055"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "063"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2141,7 +2289,7 @@
   },
   {
     "cardIDs": [
-      "057"
+      "B057"
     ],
     "name": "057",
     "cardType": "Map",
@@ -2157,17 +2305,19 @@
       "Progress",
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "lock": "Diolkos",
-        "nextTile": "050"
-      },
-      {
-        "direction": "South",
-        "nextTile": "064"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "Diolkos",
+          "nextTile": "050"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "064"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2175,7 +2325,7 @@
   },
   {
     "cardIDs": [
-      "058"
+      "B058"
     ],
     "name": "058",
     "cardType": "Map",
@@ -2191,20 +2341,23 @@
       "Progress",
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "051"
-      },
-      {
-        "direction": "East",
-        "nextTile": "059"
-      },
-      {
-        "direction": "South",
-        "nextTile": "065"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "051"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "065"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "059"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2212,7 +2365,7 @@
   },
   {
     "cardIDs": [
-      "059"
+      "B059"
     ],
     "name": "059",
     "cardType": "Map",
@@ -2228,20 +2381,23 @@
       "Progress",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "058"
-      },
-      {
-        "direction": "North",
-        "nextTile": "052"
-      },
-      {
-        "direction": "East",
-        "nextTile": "060"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "052"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "058"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "060"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2249,7 +2405,7 @@
   },
   {
     "cardIDs": [
-      "060"
+      "B060"
     ],
     "name": "060",
     "cardType": "Map",
@@ -2262,35 +2418,38 @@
       "Helots"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "b",
-        "nextTile": "059"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "053"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "061"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "061"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "067"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "053"
+        }
+      ],
+      "west": [
+        {
+          "split": "b",
+          "nextTile": "059"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "067"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "061"
+        },
+        {
+          "split": "b",
+          "nextTile": "061"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2298,7 +2457,7 @@
   },
   {
     "cardIDs": [
-      "061"
+      "B061"
     ],
     "name": "061",
     "cardType": "Map",
@@ -2313,38 +2472,40 @@
     "symbols": [
       "Spartan Stronghold"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "060"
-      },
-      {
-        "direction": "West",
-        "split": "b",
-        "nextTile": "060"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "054"
-      },
-      {
-        "direction": "East",
-        "split": "a",
-        "nextTile": "062"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "062"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "068"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "054"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "060"
+        },
+        {
+          "split": "b",
+          "nextTile": "060"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "068"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "062"
+        },
+        {
+          "split": "b",
+          "nextTile": "062"
+        }
+      ]
+    },
     "otherFeatures": [
       "Upstream to move between a and b"
     ],
@@ -2352,7 +2513,7 @@
   },
   {
     "cardIDs": [
-      "062"
+      "B062"
     ],
     "name": "062",
     "cardType": "Map",
@@ -2367,32 +2528,34 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "061"
-      },
-      {
-        "direction": "West",
-        "nextTile": "061"
-      },
-      {
-        "direction": "North",
-        "nextTile": "055"
-      },
-      {
-        "direction": "North",
-        "nextTile": "055"
-      },
-      {
-        "direction": "East",
-        "nextTile": "063"
-      },
-      {
-        "direction": "South",
-        "nextTile": "069"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "055"
+        },
+        {
+          "nextTile": "055"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "061"
+        },
+        {
+          "nextTile": "061"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "069"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "063"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2400,7 +2563,7 @@
   },
   {
     "cardIDs": [
-      "063"
+      "B063"
     ],
     "name": "063",
     "cardType": "Map",
@@ -2415,20 +2578,23 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "062"
-      },
-      {
-        "direction": "North",
-        "nextTile": "056"
-      },
-      {
-        "direction": "South",
-        "nextTile": "070"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "056"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "062"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "070"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2436,7 +2602,7 @@
   },
   {
     "cardIDs": [
-      "064"
+      "B064"
     ],
     "name": "064",
     "cardType": "Map",
@@ -2451,16 +2617,18 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "057"
-      },
-      {
-        "direction": "South",
-        "nextTile": "071"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "057"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "071"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2468,7 +2636,7 @@
   },
   {
     "cardIDs": [
-      "065"
+      "B065"
     ],
     "name": "065",
     "cardType": "Map",
@@ -2482,22 +2650,25 @@
     ],
     "symbols": [
       "Doom",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "058"
-      },
-      {
-        "direction": "East",
-        "nextTile": "066"
-      },
-      {
-        "direction": "South",
-        "nextTile": "072"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "058"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "072"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "066"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2505,7 +2676,7 @@
   },
   {
     "cardIDs": [
-      "066"
+      "B066"
     ],
     "name": "066",
     "cardType": "Map",
@@ -2518,18 +2689,20 @@
       "Cyclopes"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "065"
-      },
-      {
-        "direction": "South",
-        "nextTile": "073"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "065"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "073"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2537,7 +2710,7 @@
   },
   {
     "cardIDs": [
-      "067"
+      "B067"
     ],
     "name": "067",
     "cardType": "Map",
@@ -2552,22 +2725,25 @@
     ],
     "symbols": [
       "City",
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "060"
-      },
-      {
-        "direction": "East",
-        "nextTile": "068"
-      },
-      {
-        "direction": "South",
-        "nextTile": "074"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "060"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "074"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "068"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2575,7 +2751,7 @@
   },
   {
     "cardIDs": [
-      "068"
+      "B068"
     ],
     "name": "068",
     "cardType": "Map",
@@ -2591,24 +2767,28 @@
       "Doom",
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "067"
-      },
-      {
-        "direction": "North",
-        "nextTile": "061"
-      },
-      {
-        "direction": "East",
-        "nextTile": "069"
-      },
-      {
-        "direction": "South",
-        "nextTile": "075"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "061"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "067"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "075"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "069"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2616,7 +2796,7 @@
   },
   {
     "cardIDs": [
-      "069"
+      "B069"
     ],
     "name": "069",
     "cardType": "Map",
@@ -2629,22 +2809,25 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "068"
-      },
-      {
-        "direction": "North",
-        "nextTile": "062"
-      },
-      {
-        "direction": "South",
-        "nextTile": "076"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "062"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "068"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "076"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2652,7 +2835,7 @@
   },
   {
     "cardIDs": [
-      "070"
+      "B070"
     ],
     "name": "070",
     "cardType": "Map",
@@ -2667,16 +2850,18 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "063"
-      },
-      {
-        "direction": "South",
-        "nextTile": "077"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "063"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "077"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2684,7 +2869,7 @@
   },
   {
     "cardIDs": [
-      "071"
+      "B071"
     ],
     "name": "071",
     "cardType": "Map",
@@ -2697,23 +2882,26 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "lock": "upstream",
-        "nextTile": "064"
-      },
-      {
-        "direction": "East",
-        "nextTile": "072"
-      },
-      {
-        "direction": "South",
-        "nextTile": "078"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "upstream",
+          "nextTile": "064"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "078"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "072"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2721,7 +2909,7 @@
   },
   {
     "cardIDs": [
-      "072"
+      "B072"
     ],
     "name": "072",
     "cardType": "Map",
@@ -2736,24 +2924,28 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "071"
-      },
-      {
-        "direction": "North",
-        "nextTile": "065"
-      },
-      {
-        "direction": "East",
-        "nextTile": "073"
-      },
-      {
-        "direction": "South",
-        "nextTile": "079"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "065"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "071"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "079"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "073"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2761,7 +2953,7 @@
   },
   {
     "cardIDs": [
-      "073"
+      "B073"
     ],
     "name": "073",
     "cardType": "Map",
@@ -2776,20 +2968,23 @@
     "symbols": [
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "072"
-      },
-      {
-        "direction": "North",
-        "nextTile": "066"
-      },
-      {
-        "direction": "East",
-        "nextTile": "074"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "066"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "072"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "074"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2797,7 +2992,7 @@
   },
   {
     "cardIDs": [
-      "074"
+      "B074"
     ],
     "name": "074",
     "cardType": "Map",
@@ -2813,24 +3008,28 @@
       "Titan",
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "073"
-      },
-      {
-        "direction": "North",
-        "nextTile": "067"
-      },
-      {
-        "direction": "East",
-        "nextTile": "075"
-      },
-      {
-        "direction": "South",
-        "nextTile": "081"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "067"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "073"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "081"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "075"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2838,7 +3037,7 @@
   },
   {
     "cardIDs": [
-      "075"
+      "B075"
     ],
     "name": "075",
     "cardType": "Map",
@@ -2851,30 +3050,34 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "074"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "068"
-      },
-      {
-        "direction": "East",
-        "split": "b",
-        "nextTile": "076"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "082"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "068"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "074"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "082"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "076"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2882,7 +3085,7 @@
   },
   {
     "cardIDs": [
-      "076"
+      "B076"
     ],
     "name": "076",
     "cardType": "Map",
@@ -2897,24 +3100,28 @@
     "symbols": [
       "Titan"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "075"
-      },
-      {
-        "direction": "North",
-        "nextTile": "069"
-      },
-      {
-        "direction": "East",
-        "nextTile": "077"
-      },
-      {
-        "direction": "South",
-        "nextTile": "083"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "069"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "075"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "083"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "077"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2922,7 +3129,7 @@
   },
   {
     "cardIDs": [
-      "077"
+      "B077"
     ],
     "name": "077",
     "cardType": "Map",
@@ -2937,20 +3144,23 @@
     "symbols": [
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "East",
-        "nextTile": "076"
-      },
-      {
-        "direction": "North",
-        "nextTile": "070"
-      },
-      {
-        "direction": "South",
-        "nextTile": "084"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "070"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "084"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "076"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2958,7 +3168,7 @@
   },
   {
     "cardIDs": [
-      "078"
+      "B078"
     ],
     "name": "078",
     "cardType": "Map",
@@ -2973,16 +3183,18 @@
     "symbols": [
       ""
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "071"
-      },
-      {
-        "direction": "East",
-        "nextTile": "079"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "071"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "079"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -2990,7 +3202,7 @@
   },
   {
     "cardIDs": [
-      "079"
+      "B079"
     ],
     "name": "079",
     "cardType": "Map",
@@ -3003,22 +3215,25 @@
       "Symmachy"
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "078"
-      },
-      {
-        "direction": "North",
-        "nextTile": "072"
-      },
-      {
-        "direction": "East",
-        "nextTile": "080"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "072"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "078"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "080"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3026,7 +3241,7 @@
   },
   {
     "cardIDs": [
-      "080"
+      "B080"
     ],
     "name": "080",
     "cardType": "Map",
@@ -3041,16 +3256,18 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "079"
-      },
-      {
-        "direction": "East",
-        "nextTile": "081"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "079"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "081"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3058,7 +3275,7 @@
   },
   {
     "cardIDs": [
-      "081"
+      "B081"
     ],
     "name": "081",
     "cardType": "Map",
@@ -3073,20 +3290,23 @@
     "symbols": [
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "080"
-      },
-      {
-        "direction": "North",
-        "nextTile": "074"
-      },
-      {
-        "direction": "East",
-        "nextTile": "082"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "074"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "080"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "082"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3094,7 +3314,7 @@
   },
   {
     "cardIDs": [
-      "082"
+      "B082"
     ],
     "name": "082",
     "cardType": "Map",
@@ -3110,20 +3330,23 @@
       "Progress",
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "081"
-      },
-      {
-        "direction": "North",
-        "nextTile": "075"
-      },
-      {
-        "direction": "East",
-        "nextTile": "083"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "075"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "081"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "083"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3131,7 +3354,7 @@
   },
   {
     "cardIDs": [
-      "083"
+      "B083"
     ],
     "name": "083",
     "cardType": "Map",
@@ -3146,20 +3369,23 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "082"
-      },
-      {
-        "direction": "North",
-        "nextTile": "076"
-      },
-      {
-        "direction": "East",
-        "nextTile": "084"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "076"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "082"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "084"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3167,7 +3393,7 @@
   },
   {
     "cardIDs": [
-      "084"
+      "B084"
     ],
     "name": "084",
     "cardType": "Map",
@@ -3182,16 +3408,18 @@
     "symbols": [
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "083"
-      },
-      {
-        "direction": "North",
-        "nextTile": "077"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "077"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "083"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3199,7 +3427,7 @@
   },
   {
     "cardIDs": [
-      "085"
+      "C085"
     ],
     "name": "085",
     "cardType": "Map",
@@ -3214,16 +3442,18 @@
     "symbols": [
       "Progress"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "nextTile": "086"
-      },
-      {
-        "direction": "East",
-        "nextTile": "090"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "086"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "090"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3231,7 +3461,7 @@
   },
   {
     "cardIDs": [
-      "086"
+      "C086"
     ],
     "name": "086",
     "cardType": "Map",
@@ -3247,20 +3477,23 @@
       "Titan",
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "081"
-      },
-      {
-        "direction": "East",
-        "nextTile": "091"
-      },
-      {
-        "direction": "South",
-        "nextTile": "085"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "081"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "085"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "091"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3268,7 +3501,7 @@
   },
   {
     "cardIDs": [
-      "087"
+      "C087"
     ],
     "name": "087",
     "cardType": "Map",
@@ -3283,18 +3516,18 @@
     "symbols": [
       "City"
     ],
-    "movementArrows": [
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "088a"
-      },
-      {
-        "direction": "North",
-        "split": "b",
-        "nextTile": "088b"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "088a"
+        },
+        {
+          "split": "b",
+          "nextTile": "088b"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3302,7 +3535,7 @@
   },
   {
     "cardIDs": [
-      "088"
+      "C088"
     ],
     "name": "088",
     "cardType": "Map",
@@ -3315,34 +3548,35 @@
       ""
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "split": "a",
-        "nextTile": "083"
-      },
-      {
-        "direction": "North",
-        "split": "a",
-        "nextTile": "089"
-      },
-      {
-        "direction": "South",
-        "split": "a",
-        "nextTile": "087"
-      },
-      {
-        "direction": "South",
-        "split": "b",
-        "nextTile": "087"
-      },
-      {
-        "direction": "South",
-        "nextTile": ""
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "089"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "083"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "087"
+        },
+        {
+          "split": "b",
+          "nextTile": "087"
+        },
+        {
+          "nextTile": ""
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3350,7 +3584,7 @@
   },
   {
     "cardIDs": [
-      "089"
+      "C089"
     ],
     "name": "089",
     "cardType": "Map",
@@ -3365,12 +3599,13 @@
     "symbols": [
       "Doom"
     ],
-    "movementArrows": [
-      {
-        "direction": "South",
-        "nextTile": "088"
-      }
-    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "088"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3378,7 +3613,7 @@
   },
   {
     "cardIDs": [
-      "090"
+      "C090"
     ],
     "name": "090",
     "cardType": "Map",
@@ -3391,18 +3626,18 @@
       ""
     ],
     "symbols": [
-      "Adventure"
+      "AdventureHub"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "085"
-      },
-      {
-        "direction": "West",
-        "nextTile": "058"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "085"
+        },
+        {
+          "nextTile": "058"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3410,7 +3645,7 @@
   },
   {
     "cardIDs": [
-      "091"
+      "C091"
     ],
     "name": "091",
     "cardType": "Map",
@@ -3425,12 +3660,13 @@
     "symbols": [
       "R&R"
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "086"
-      }
-    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "086"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
@@ -3438,7 +3674,7 @@
   },
   {
     "cardIDs": [
-      "333"
+      "C333"
     ],
     "name": "333",
     "cardType": "Map",
@@ -3453,24 +3689,28 @@
     "symbols": [
       ""
     ],
-    "movementArrows": [
-      {
-        "direction": "West",
-        "nextTile": "???"
-      },
-      {
-        "direction": "North",
-        "nextTile": "???"
-      },
-      {
-        "direction": "East",
-        "nextTile": "???"
-      },
-      {
-        "direction": "South",
-        "nextTile": "???"
-      }
-    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "???"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "???"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "???"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "???"
+        }
+      ]
+    },
     "otherFeatures": [
       ""
     ],
