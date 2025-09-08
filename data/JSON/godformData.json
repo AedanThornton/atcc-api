@@ -106,7 +106,7 @@
         "effects": "ComplicatedAction Lose -1 TrespassIcon to perform an Attack with your Heavenly Bow! Range 3-9, Pushback X, where X is your Total Power during this Attack.",
         "attack": {
           "attackDice": "3",
-          "precision": "0",
+          "precision": "+0",
           "power": [
             {
               "type": [
@@ -230,7 +230,7 @@
         "effects": "CombatActionIcon Lose -1 TrespassIcon to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack.",
         "attack": {
           "attackDice": "3",
-          "precision": "0",
+          "precision": "+0",
           "power": [
             {
               "type": [

@@ -8413,7 +8413,11 @@
         "type": "keyword"
       },
       {
-        "name": "CombatActionIcon Take Aim: Place an Opening token on this card",
+        "name": "Place an Opening token on this card",
+        "flavorName": "Take Aim",
+        "costs": [
+          "CombatAction"
+        ],
         "type": "unique"
       },
       {
@@ -8421,7 +8425,7 @@
         "type": "unique"
       },
       {
-        "name": "When you attack DiscardCost all Opening tokens from this card",
+        "name": "When you attack, discard all Opening tokens from this card",
         "type": "unique"
       }
     ],
