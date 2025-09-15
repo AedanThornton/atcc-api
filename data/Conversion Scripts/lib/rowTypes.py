@@ -88,7 +88,7 @@ def doom_row(row):
 
 def exploration_row(row):
     card_json = {
-        "effects": row["Effects"],
+        "effects": parse_exploration(row["Effects"]),
         "number": int(row["Number"]) if row["Number"] else "",
         "adversaryTriggers": row["Adversary Triggers"],
         "stackType": row["Stack Type"],

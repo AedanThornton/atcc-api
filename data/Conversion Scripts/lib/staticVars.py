@@ -32,3 +32,7 @@ TIMINGS = {
 STRUCTURAL_TYPES = [
     "Permanent", "Save", "City Negotiation", "Reference", "Immediate"
 ]
+
+DIPLOMACIES = [
+  "Allied", "Friendly", "Neutral", "Unfriendly", "Denounced", "At War", "Aligned with Nemesis", "Hidden", "Distrustful"
+]

@@ -467,3 +467,26 @@ def parse_tiles(raw_tiles):
 
     return tile_list
 
+def parse_exploration(raw_effects):
+    effects_list = raw_effects.split(". ")
+    parsed_effects = []
+
+    for effect in effects_list:
+        effect_json = {}
+        for dip in DIPLOMACIES:
+            if effect.startswith(dip):
+                effect = dip.join(effect.split(dip)[1:]).strip()
+                effect_json["diplomacy"] = dip
+
+                if effect.startswith("+") or effect.startswith("-"):
+                    words = effect.split(" ")
+                    effect = " ".join(words[1:])
+                    effect_json["sign"] = words[0]
+
+                break
+
+        effect_json["effect"] = effect
+
+        parsed_effects.append(effect_json)
+
+    return parsed_effects
