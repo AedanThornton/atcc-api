@@ -12,16 +12,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton clenches its mighty fist.",
+    "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -64,16 +60,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton clenches its mighty fist.",
+    "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -116,16 +108,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "A fist jabs at you from the left, immediately followed by a right cross.",
+    "flavor": "A fist jabs at you from the left, immediately followed by a right cross",
     "level": "I",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -168,16 +156,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton rears on its hind arms and delivers a powerful downward blow.",
+    "flavor": "The Hekaton rears on its hind arms and delivers a powerful downward blow",
     "level": "I",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -196,10 +180,6 @@
       },
       {
         "effect": "Each hit deals 1 DangerIcon"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ]
   },
@@ -216,16 +196,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It goes from zero to ten in a heartbeat and the punches keep on coming.",
+    "flavor": "It goes from zero to ten in a heartbeat and the punches keep on coming",
     "level": "I",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -268,7 +244,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton smashes his front hands as if with frustration.",
+    "flavor": "The Hekaton smashes his front hands as if with frustration",
     "level": "I",
     "targeting": [
       {
@@ -278,10 +254,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -324,16 +296,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length.",
+    "flavor": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length",
     "level": "II",
     "targeting": [
       {
         "type": "Target:",
         "target": "All adjacent Titans"
-      },
-      {
-        "type": "No Target:",
-        "target": "Perform Signature"
       }
     ],
     "preActionWoO": true,
@@ -352,10 +320,6 @@
           "gateValue": "4+"
         },
         "effect": "2 DangerIcon instead"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockback 5"
       }
     ]
   },
@@ -372,7 +336,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Primordial delivers a blow with its mighty armored fist.",
+    "flavor": "The Primordial delivers a blow with its mighty armored fist",
     "level": "II",
     "targeting": [
       {
@@ -382,10 +346,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -397,13 +357,6 @@
     "consequences": [
       {
         "effect": "Each hit deals 1 DangerIcon"
-      },
-      {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "4+"
-        },
-        "effect": "2 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -427,14 +380,9 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion.",
+    "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion",
     "level": "II",
-    "targeting": [
-      {
-        "type": "Target:",
-        "target": "Zone 2"
-      }
-    ],
+    "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": "Zone",
@@ -444,10 +392,6 @@
     "consequences": [
       {
         "effect": "Each hit deals 1 DangerIcon"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -471,7 +415,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The monster cartwheels into you like a giant ball of fists and pain.",
+    "flavor": "The monster cartwheels into you like a giant ball of fists and pain",
     "level": "II",
     "targeting": [
       {
@@ -481,10 +425,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -527,16 +467,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It knows where it hurts the most.",
+    "flavor": "It knows where it hurts the most",
     "level": "II",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -555,10 +491,6 @@
           "gateValue": "5+"
         },
         "effect": "3 DangerIcon instead"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -582,7 +514,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus.",
+    "flavor": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus",
     "level": "II",
     "targeting": [
       {
@@ -592,10 +524,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -615,10 +543,6 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 DangerIcon"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -642,7 +566,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "Mindless and unrelentless, it comes at you with all of its might. You may endure one, two, ten punches. One hundred is madness.",
+    "flavor": "Mindless and unrelentless, it comes at you with all of its might. You may endure one, two, ten punches. One hundred is madness",
     "level": "III",
     "targeting": [
       {
@@ -652,10 +576,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -673,13 +593,6 @@
       },
       {
         "effect": "Then each hit deals 1 DangerIcon"
-      },
-      {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "6+"
-        },
-        "effect": "2 DangerIcon Instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -703,7 +616,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton winds around, almost turning to you with its side. Then the hook comes knocking.",
+    "flavor": "The Hekaton winds around, almost turning to you with its side. Then the hook comes knocking",
     "level": "III",
     "targeting": [
       {
@@ -713,10 +626,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -735,10 +644,6 @@
           "gateValue": "6+"
         },
         "effect": "4 DangerIcon instead"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -762,7 +667,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling. The other hands raise you in the air, then slam down.",
+    "flavor": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling. The other hands raise you in the air, then slam down",
     "level": "III",
     "uber": true,
     "targeting": [
@@ -773,10 +678,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -792,9 +693,6 @@
           "gateValue": "8+"
         },
         "effect": "You Die"
-      },
-      {
-        "effect": "If you didn't die, each hit deals 2 DangerIcon, then draw an Obol instead of a regular Trauma Draw"
       }
     ],
     "preAfterAttackWoO": true,
@@ -818,7 +716,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It knows you're just controlling the Titan and it intends to break that connection - with flair.",
+    "flavor": "It knows you're just controlling the Titan and it intends to break that connection - with flair",
     "level": "III",
     "targeting": [
       {
@@ -828,10 +726,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -855,10 +749,6 @@
       {
         "WoO": true,
         "effect": " Forced Vault"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -882,16 +772,12 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The mighty hands of the monster clutch your helmeted head and squeeze. The screech of metal is deafening.",
+    "flavor": "The mighty hands of the monster clutch your helmeted head and squeeze. The screech of metal is deafening",
     "level": "III",
     "targeting": [
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -911,10 +797,6 @@
     "consequences": [
       {
         "effect": "Each hit deal 4 dangerIcon"
-      },
-      {
-        "WoO": true,
-        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -938,14 +820,9 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers.",
+    "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers",
     "level": "III",
-    "targeting": [
-      {
-        "type": "Target:",
-        "target": "Zone 3"
-      }
-    ],
+    "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": "Zone",
@@ -967,10 +844,6 @@
       {
         "WoO": true,
         "effect": " Knockdown"
-      },
-      {
-        "WoO": true,
-        "effect": " Fate 5+ Knockback 5"
       }
     ],
     "preAfterAttackWoO": true,
@@ -1000,10 +873,6 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -1056,10 +925,6 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in sight, in range"
-      },
-      {
-        "type": "Target:",
-        "target": "Closest Titan in Sight"
       }
     ],
     "preActionWoO": false,
@@ -1078,9 +943,39 @@
     "afterAttackEffects": [
       {
         "effect": "Trample"
-      },
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1344"
+    ],
+    "name": "Fate Chord",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
       {
-        "effect": "Labyrinth 1"
+        "type": "Target:",
+        "target": "Lowest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": "Regular",
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 FateIcon"
       }
     ]
   }

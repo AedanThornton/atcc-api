@@ -24,7 +24,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may gain +1 RageIcon."
+          "Choose a Titan. That Titan may gain +1 RageIcon"
         ]
       }
     ],
@@ -57,7 +57,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a knocked down Titan. That Titan stands up."
+          "Choose a knocked down Titan. That Titan stands up"
         ]
       }
     ],
@@ -89,7 +89,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may lose -1 FateIcon."
+          "Choose a Titan. That Titan may lose -1 FateIcon"
         ]
       }
     ],
@@ -122,7 +122,7 @@
     "abilities": [
       {
         "effects": [
-          "Place 1 Break token or 2 Opening tokens in the Kratos Pool."
+          "Place 1 Break token or 2 Opening tokens in the Kratos Pool"
         ]
       }
     ],
@@ -154,7 +154,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan. That Titan may gain or lose 2 DangerIcon."
+          "Choose a Titan. That Titan may gain or lose 2 DangerIcon"
         ]
       }
     ],
@@ -187,7 +187,7 @@
     "abilities": [
       {
         "effects": [
-          "ReactionIcon Choose a Titan. That Titan may move 1 space."
+          "ReactionIcon Choose a Titan. That Titan may move 1 space"
         ]
       }
     ],
@@ -221,7 +221,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan performing a Power Roll. That Titan gains Power Re-roll 1."
+          "Choose a Titan performing a Power Roll. That Titan gains Power Re-roll 1"
         ]
       }
     ],
@@ -255,7 +255,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose an attacking Titan. That Titan gains Pushback 2."
+          "Choose an attacking Titan. That Titan gains Pushback 2"
         ]
       }
     ],
@@ -292,7 +292,7 @@
       },
       {
         "effects": [
-          "Choose a Titan. That Titan loses -1 RageIcon."
+          "Choose a Titan. That Titan loses -1 RageIcon"
         ]
       }
     ],
@@ -324,7 +324,7 @@
     "abilities": [
       {
         "effects": [
-          "Unexhaust 2 GearIcon cards among up to 2 Titans."
+          "Unexhaust 2 GearIcon cards among up to 2 Titans"
         ]
       }
     ],
@@ -370,7 +370,7 @@
       {
         "name": "Emergency Priming",
         "effects": [
-          "As a ReactionIcon or after drawing a BP card you may discard 1 EnergyIcon to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal."
+          "As a ReactionIcon or after drawing a BP card you may discard 1 EnergyIcon to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal"
         ]
       }
     ],
@@ -404,7 +404,7 @@
       {
         "name": "Rearm",
         "effects": [
-          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon GearIcon card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability."
+          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon GearIcon card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability"
         ]
       }
     ],
@@ -436,7 +436,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1."
+          "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1"
         ]
       }
     ],
@@ -472,7 +472,7 @@
           "Choose a Weapon from the Armory. Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:",
           "1-5: It lands 3 spaces away from the chosen space in a random direction.",
           "6-10: It lands on the chosen space. Mark this space with a generic token.",
-          "A Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon."
+          "A Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon"
         ]
       }
     ],
@@ -504,7 +504,7 @@
     "abilities": [
       {
         "effects": [
-          "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement."
+          "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement"
         ]
       }
     ],
@@ -536,7 +536,7 @@
     "abilities": [
       {
         "effects": [
-          "ReactionIcon Choose a Titan. That Titan may move up to 2 spaces."
+          "ReactionIcon Choose a Titan. That Titan may move up to 2 spaces"
         ]
       }
     ],
@@ -569,7 +569,7 @@
       {
         "name": "Housewarming Gift",
         "effects": [
-          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative ATIcon token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative ATIcon token in the Kratos Pool."
+          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative ATIcon token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative ATIcon token in the Kratos Pool"
         ]
       }
     ],

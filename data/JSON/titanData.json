@@ -1233,8 +1233,9 @@
     ],
     "abilities": [
       {
-        "name": "Power Reroll 1",
-        "type": "unique"
+        "name": "Power Re-roll",
+        "x_value": 1,
+        "type": "keyword"
       },
       {
         "name": "Stout",

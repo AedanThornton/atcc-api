@@ -173,11 +173,17 @@ def kratos_row(row):
 def map_row(row):
     card_json = {
         "factions": row["Faction"].split(", "),
+        "progDoom": row["Prog/Doom"].split(", "),
         "symbols": row["Symbols"].split(", "),
         "movementArrows": parse_map_movement(row["Movement"]),
         "otherFeatures": row["Other Features"].split(". "),
-        "secrets": row["Secrets"]
+        "secrets": row["Secrets"].split(" ")
     }
+
+    if card_json["progDoom"] == [""]: card_json["progDoom"] = []
+    if card_json["symbols"] == [""]: card_json["symbols"] = []
+    if card_json["otherFeatures"] == [""]: card_json["otherFeatures"] = []
+    if card_json["secrets"] == [""]: card_json["secrets"] = []
 
     return card_json
 
@@ -408,8 +414,10 @@ def titan_row(row):
 def trait_row(row):
     card_json = {
         "name2": row["Reverse Side"],
-        "effects": row["Effects"]
+        "effects": row["Effects"],
     }
+
+    if row["Primordial"]: card_json["primordial"] = row["Primordial"]
 
     if not card_json["name2"]: card_json.pop("name2")
 

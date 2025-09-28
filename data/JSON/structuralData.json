@@ -14,14 +14,14 @@
     "techType": "Structural",
     "techSubType": "Core",
     "locked": "FALSE",
-    "flavorProject": "A fount of ancient knowledge, almost dried up now. Contains enough information to allow us to mount a response to the Primordials. It'll serve us well as the cornerstone of our research.",
+    "flavorProject": "A fount of ancient knowledge, almost dried up now. Contains enough information to allow us to mount a response to the Primordials. It'll serve us well as the cornerstone of our research",
     "requirements": [
       "\u2014"
     ],
     "leadsTo": [
       "Rhetoric"
     ],
-    "flavorTech": "Here the philosophers and academicians conduct their research, poring over dusty tomes and phos scripture.",
+    "flavorTech": "Here the philosophers and academicians conduct their research, poring over dusty tomes and phos scripture",
     "abilities": [
       {
         "name": "Research",
@@ -35,7 +35,7 @@
         "type": "Reference",
         "effects": [
           "During the Exploration Step, if the Argo is on an unexplored Map Tile with ProgressIcon symbol, gain +1 ProgressIcon",
-          "For each ProgressIcon you gain, place 1 ProgressIcon token on your current Story card or the Inward Odyssey card."
+          "For each ProgressIcon you gain, place 1 ProgressIcon token on your current Story card or the Inward Odyssey card"
         ]
       }
     ]
@@ -55,14 +55,14 @@
     "techType": "Structural",
     "techSubType": "Core",
     "locked": "FALSE",
-    "flavorProject": "Not much is known about the Eschaton, except that it brought the Fall of Olympus and the Coming of the Primordials.",
+    "flavorProject": "Not much is known about the Eschaton, except that it brought the Fall of Olympus and the Coming of the Primordials",
     "requirements": [
       "\u2014"
     ],
     "leadsTo": [
       "\u2014"
     ],
-    "flavorTech": "From here the Argonauts shape their fate and steer the mighty Argo towards its unknown destination.",
+    "flavorTech": "From here the Argonauts shape their fate and steer the mighty Argo towards its unknown destination",
     "abilities": [
       {
         "name": "Sail and Explore",
@@ -83,7 +83,7 @@
         "name": "Gather Resources",
         "type": "Reference",
         "effects": [
-          "During the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards."
+          "During the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards"
         ]
       }
     ]
@@ -103,7 +103,7 @@
     "techType": "Structural",
     "techSubType": "Core",
     "locked": "FALSE",
-    "flavorProject": "There is a lot we do not know about the Triskelion Junction used in the process of supressing the atavistic nature of the Titans. We need to know more.",
+    "flavorProject": "There is a lot we do not know about the Triskelion Junction used in the process of supressing the atavistic nature of the Titans. We need to know more",
     "requirements": [
       "\u2014"
     ],
@@ -111,7 +111,7 @@
       "Trireme Weapons",
       "Trireme Armor"
     ],
-    "flavorTech": "Here the Argonauts ready for their next excursion and it is also here that a Support Team stands ready to lend their help.",
+    "flavorTech": "Here the Argonauts ready for their next excursion and it is also here that a Support Team stands ready to lend their help",
     "abilities": [
       {
         "name": "Argo Support I",
@@ -137,20 +137,20 @@
     "techType": "Structural",
     "techSubType": "Core",
     "locked": "FALSE",
-    "flavorProject": "The Argo is a marvel of engineering, but there's no denying the fact that most of its systems are inactive or unknown to us. We need to start by setting up a production hub.",
+    "flavorProject": "The Argo is a marvel of engineering, but there's no denying the fact that most of its systems are inactive or unknown to us. We need to start by setting up a production hub",
     "requirements": [
       "\u2014"
     ],
     "leadsTo": [
       "Trading Solutions"
     ],
-    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of GearIcon and new engineering solutions.",
+    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of GearIcon and new engineering solutions",
     "abilities": [
       {
         "name": "Craft GearIcon",
         "type": "Reference",
         "effects": [
-          "During the Advancement Step, you can use available resources to craft GearIcon cards using Production Technologies."
+          "During the Advancement Step, you can use available resources to craft GearIcon cards using Production Technologies"
         ]
       }
     ]
@@ -170,21 +170,21 @@
     "techType": "Structural",
     "techSubType": "Core",
     "locked": "FALSE",
-    "flavorProject": "They are a mystery to us. Mindless and extremely violent in the wild, they would be Mortalkind greatest enemy, had it not been for the Eschaton. Now they're our best hope for the future.",
+    "flavorProject": "They are a mystery to us. Mindless and extremely violent in the wild, they would be Mortalkind greatest enemy, had it not been for the Eschaton. Now they're our best hope for the future",
     "requirements": [
       "\u2014"
     ],
     "leadsTo": [
       "Titan Hunting"
     ],
-    "flavorTech": "Here the Titans are tamed and stored when not in use. Some call this place a warehouse. some call it a prison.",
+    "flavorTech": "Here the Titans are tamed and stored when not in use. Some call this place a warehouse. some call it a prison",
     "abilities": [
       {
         "name": "Gain Titan",
         "type": "Reference",
         "effects": [
           "During the Exploration Step, if the Argo is on an unexplored Map Tile with the TitanIcon symbol, gain +1 Titan",
-          "Titan Stoa Capacity: Titan Limit: 10."
+          "Titan Stoa Capacity: Titan Limit: 10"
         ]
       }
     ]
@@ -204,7 +204,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "If we are to survive, we need to strengthen our connection to the people of Crete.",
+    "flavorProject": "If we are to survive, we need to strengthen our connection to the people of Crete",
     "requirements": [
       "Argo Works"
     ],
@@ -214,7 +214,7 @@
       "Crew Expansion",
       "Shallows Navigation"
     ],
-    "flavorTech": "A small ship dock will allow us to take in traders and establish connections around the island.",
+    "flavorTech": "A small ship dock will allow us to take in traders and establish connections around the island",
     "abilities": [
       {
         "name": "Theban Trader",
@@ -247,7 +247,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "The phos scriptures tell of a dormany subsystem of the Argo's engines that allows shallow water navigation.",
+    "flavorProject": "The phos scriptures tell of a dormany subsystem of the Argo's engines that allows shallow water navigation",
     "requirements": [
       "Trading Solutions"
     ],
@@ -256,13 +256,13 @@
       "Pursuer Problem",
       "Excursion Propylon II"
     ],
-    "flavorTech": "The Argo rises above the waterline and almost glides on the river surface.",
+    "flavorTech": "The Argo rises above the waterline and almost glides on the river surface",
     "abilities": [
       {
         "name": "Shallows Navigation",
         "type": "Permanent",
         "effects": [
-          "You can move through LockIcon waterways with the River RiverIcon symbol."
+          "You can move through LockIcon waterways with the River RiverIcon symbol"
         ]
       }
     ]
@@ -282,7 +282,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "The Labyrinthians talk about nothingness with devout passion. We need a message of our own.",
+    "flavorProject": "The Labyrinthians talk about nothingness with devout passion. We need a message of our own",
     "requirements": [
       "Last Academy"
     ],
@@ -291,7 +291,7 @@
       "Minoan Investigations",
       "Titan Hunting"
     ],
-    "flavorTech": "Let all who doubt their purpose despair not, for this ship is in itself a message: we are here for a reason.",
+    "flavorTech": "Let all who doubt their purpose despair not, for this ship is in itself a message: we are here for a reason",
     "abilities": [
       {
         "name": "Persuasion",
@@ -305,7 +305,7 @@
         "name": "Diatribe",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFateIcon to lose -1 StrangersIcon."
+          "Gain +1 ArgoFateIcon to lose -1 StrangersIcon"
         ]
       }
     ]
@@ -325,7 +325,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "We've walked blindly into this crisis. Now's the time to learn about the island and acclimate.",
+    "flavorProject": "We've walked blindly into this crisis. Now's the time to learn about the island and acclimate",
     "requirements": [
       "Trading Solutions"
     ],
@@ -333,13 +333,13 @@
       "Intelligence Gathering",
       "Peace"
     ],
-    "flavorTech": "Our envoys establish our presence on the island.",
+    "flavorTech": "Our envoys establish our presence on the island",
     "abilities": [
       {
         "name": "Diplomatic Corps",
         "type": "City Negotiation",
         "effects": [
-          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFateIcon to gain +1 Diplomacy with the Local Faction."
+          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFateIcon to gain +1 Diplomacy with the Local Faction"
         ]
       }
     ]
@@ -359,7 +359,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "The message of the Labyrinthians is insidious, as it takes root in fear and fear is constant. We must guard against it.",
+    "flavorProject": "The message of the Labyrinthians is insidious, as it takes root in fear and fear is constant. We must guard against it",
     "requirements": [
       "Rhetoric"
     ],
@@ -367,7 +367,7 @@
       "Hope Logic",
       "Deeply Embedded Spies"
     ],
-    "flavorTech": "The Philosopher Guards quickly became a beacon around which the discourse of Purpose flourished.",
+    "flavorTech": "The Philosopher Guards quickly became a beacon around which the discourse of Purpose flourished",
     "abilities": [
       {
         "name": "Philosopher Guards",
@@ -375,7 +375,7 @@
       },
       {
         "name": "Maze Exorcism",
-        "effects": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction."
+        "effects": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction"
       }
     ]
   },
@@ -394,20 +394,20 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "We need to follow up on these loose threads, who knows where they can lead us...",
+    "flavorProject": "We need to follow up on these loose threads, who knows where they can lead us..",
     "requirements": [
       "Rhetoric"
     ],
     "leadsTo": [
       "\u2014"
     ],
-    "flavorTech": "Regular scouting expeditions are starting to bear fruit.",
+    "flavorTech": "Regular scouting expeditions are starting to bear fruit",
     "abilities": [
       {
         "name": "Scout Reports",
         "type": "Permanent",
         "effects": [
-          "You may re-roll your Adventure Hubs Table roll (once)."
+          "You may re-roll your Adventure Hubs Table roll (once)"
         ]
       }
     ]
@@ -427,7 +427,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "There's only a handful of Titans onboard the Argo. If we are meant to survive, we need to... procure more.",
+    "flavorProject": "There's only a handful of Titans onboard the Argo. If we are meant to survive, we need to... procure more",
     "requirements": [
       "Titanogenesis",
       "Rhetoric"
@@ -435,7 +435,7 @@
     "leadsTo": [
       "Titan Rearing"
     ],
-    "flavorTech": "Only philosophers are able to subdue wild Titans and bring them to the Argo, but they refuse to share their secrets.",
+    "flavorTech": "Only philosophers are able to subdue wild Titans and bring them to the Argo, but they refuse to share their secrets",
     "abilities": [
       {
         "name": "Titanokinigos",
@@ -446,7 +446,7 @@
       },
       {
         "name": "Expedition",
-        "effects": "Gain +1 ArgoFateIcon when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success: Gain +1 Titan."
+        "effects": "Gain +1 ArgoFateIcon when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success: Gain +1 Titan"
       }
     ]
   },
@@ -465,14 +465,14 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "A set of rules and practices that will allow us to house more Titans effectively.",
+    "flavorProject": "A set of rules and practices that will allow us to house more Titans effectively",
     "requirements": [
       "Titan Hunting"
     ],
     "leadsTo": [
       "\u2014"
     ],
-    "flavorTech": "With the new practices in place, we can expand our Titan roster.",
+    "flavorTech": "With the new practices in place, we can expand our Titan roster",
     "abilities": [
       {
         "name": "Titan Stoa Capacity II",
@@ -483,7 +483,7 @@
       },
       {
         "name": "Comeback",
-        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFateIcon to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained."
+        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFateIcon to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained"
       }
     ]
   },
@@ -509,13 +509,13 @@
     "leadsTo": [
       "Superior Trading Solutions"
     ],
-    "flavorTech": "Your agents arrive in town before the Argo and lay the groundwork for successful negotiations.",
+    "flavorTech": "Your agents arrive in town before the Argo and lay the groundwork for successful negotiations",
     "abilities": [
       {
         "name": "Trade Agents",
         "type": "Permanent",
         "effects": [
-          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFateIcon gain."
+          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFateIcon gain"
         ]
       }
     ]
@@ -535,20 +535,20 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "A lot of the men and women who joined us on Kephallonia have died or departed. If we don't replace them, we'll soon command a ship of ghosts.",
+    "flavorProject": "A lot of the men and women who joined us on Kephallonia have died or departed. If we don't replace them, we'll soon command a ship of ghosts",
     "requirements": [
       "Trading Solutions"
     ],
     "leadsTo": [
       "Advanced Crew Expansion"
     ],
-    "flavorTech": "There's a lot of people who enlist only for the promise of a roof over their head and a bowl of warm soup. We need to watch them closely, for they may prove flighty.",
+    "flavorTech": "There's a lot of people who enlist only for the promise of a roof over their head and a bowl of warm soup. We need to watch them closely, for they may prove flighty",
     "abilities": [
       {
         "name": "Port Recruitment",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFateIcon and +1 StrangersIcon to gain +1 CrewIcon."
+          "Gain +1 ArgoFateIcon and +1 StrangersIcon to gain +1 CrewIcon"
         ]
       }
     ]
@@ -569,7 +569,7 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "A chamber in which a user can experience an illusory physical environment could be the greatest of training rooms.",
+    "flavorProject": "A chamber in which a user can experience an illusory physical environment could be the greatest of training rooms",
     "requirements": [
       "ArgoKnowledgeIcon 20+"
     ],
@@ -582,7 +582,7 @@
         "name": "Mnestis Applications",
         "type": "Permanent",
         "effects": [
-          "You've unlocked the Mnestis Theatre."
+          "You've unlocked the Mnestis Theatre"
         ]
       }
     ]
@@ -603,18 +603,18 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "TRUE",
-    "flavorProject": "The Helots tell of olds roads for ships. It's worth investigating.",
+    "flavorProject": "The Helots tell of olds roads for ships. It's worth investigating",
     "requirements": [
       "\u2014"
     ],
     "leadsTo": [
       "\u2014"
     ],
-    "flavorTech": "The diolkos network, though ancient, is still usable. Such is the legacy of Leleges stonework.",
+    "flavorTech": "The diolkos network, though ancient, is still usable. Such is the legacy of Leleges stonework",
     "abilities": [
       {
         "name": "Diolkos Access",
-        "effects": "Gain +1 ArgoFateIcon to travel through a LockIcon waterway with the Diolkos symbol. Cannot be used during Story 3A."
+        "effects": "Gain +1 ArgoFateIcon to travel through a LockIcon waterway with the Diolkos symbol. Cannot be used during Story 3A"
       }
     ]
   },
@@ -634,9 +634,9 @@
     "techType": "Structural",
     "techSubType": "",
     "locked": "FALSE",
-    "flavorProject": "The Nymphs have found a new home.",
+    "flavorProject": "The Nymphs have found a new home",
     "requirements": [
-      "ArgoFateIcon 46+"
+      "ArgoKnowledgeIcon 46+"
     ],
     "leadsTo": [
       "Awakening Studies"
@@ -652,7 +652,7 @@
       },
       {
         "name": "Soul-Mending",
-        "effects": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction."
+        "effects": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction"
       }
     ]
   }

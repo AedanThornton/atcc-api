@@ -1,6 +1,3425 @@
 [
   {
     "cardIDs": [
+      "A001"
+    ],
+    "name": "001",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "006"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "002"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A002"
+    ],
+    "name": "002",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "001"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "003"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A003"
+    ],
+    "name": "003",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "002"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "008"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "004"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A004"
+    ],
+    "name": "004",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub",
+      "Titan"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "003"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "005"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A005"
+    ],
+    "name": "005",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "004"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "010"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "041"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A006"
+    ],
+    "name": "006",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "001"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "007"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A007"
+    ],
+    "name": "007",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub",
+      "DaedalusCoords"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "006"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "012"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "008"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A008"
+    ],
+    "name": "008",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "003"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "007"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "013"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "009"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A009"
+    ],
+    "name": "009",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "004"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "008"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "014"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "010"
+        },
+        {
+          "nextTile": "010"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A010"
+    ],
+    "name": "010",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub",
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "005"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "009"
+        },
+        {
+          "split": "b",
+          "nextTile": "009"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "015"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "046"
+        },
+        {
+          "split": "b",
+          "nextTile": "046"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A011"
+    ],
+    "name": "011",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "006"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "016"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "012"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A012"
+    ],
+    "name": "012",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "007"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "013"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A013"
+    ],
+    "name": "013",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress",
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "008"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "012"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "018"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "014"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A014"
+    ],
+    "name": "014",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "013"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "019"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "015"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A015"
+    ],
+    "name": "015",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "010"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "014"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "051"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A016"
+    ],
+    "name": "016",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "011"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "021"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "017"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A017"
+    ],
+    "name": "017",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "012"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "016"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "022"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "018"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A018"
+    ],
+    "name": "018",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "013"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "019"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A019"
+    ],
+    "name": "019",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "014"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "018"
+        }
+      ],
+      "south": [
+        {
+          "lock": "River",
+          "nextTile": "024"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "Map Clue *1*6"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A020"
+    ],
+    "name": "020",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "(River) 025"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River) 056"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A021"
+    ],
+    "name": "021",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "016"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "026"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A022"
+    ],
+    "name": "022",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "021"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "027"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A023"
+    ],
+    "name": "023",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "Titan",
+      "DaedalusWorkshop"
+    ],
+    "movementArrows": {
+      "east": [
+        {
+          "nextTile": "(River) 024"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A024"
+    ],
+    "name": "024",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "City",
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "019"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "(River) 023"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River)025"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A025"
+    ],
+    "name": "025",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "(River) 020"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "(River) 024"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "030"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A026"
+    ],
+    "name": "026",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "021"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "031"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "027"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A027"
+    ],
+    "name": "027",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "022"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "026"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "032"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A028"
+    ],
+    "name": "028",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "033"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "029"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A029"
+    ],
+    "name": "029",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "028"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "034"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A030"
+    ],
+    "name": "030",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "River",
+          "nextTile": "025"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "035"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "066"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "Map Clue *4*7"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A031"
+    ],
+    "name": "031",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "026"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "036"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "032"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A032"
+    ],
+    "name": "032",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "027"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "031"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "037"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "033"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A033"
+    ],
+    "name": "033",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "028"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "032"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "038"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "034"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A034"
+    ],
+    "name": "034",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "029"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "033"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "039"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "035"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A035"
+    ],
+    "name": "035",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "030"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "034"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "040"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "071"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A036"
+    ],
+    "name": "036",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub",
+      "Titan",
+      "DaedalusCoords"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "031"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "037"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A037"
+    ],
+    "name": "037",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "032"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "036"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "038"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A038"
+    ],
+    "name": "038",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "033"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "037"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "039"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A039"
+    ],
+    "name": "039",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "034"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "038"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "040"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A040"
+    ],
+    "name": "040",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "035"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "039"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A041"
+    ],
+    "name": "041",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub",
+      "DaedalusCoords"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "005"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "046"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "042"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A042"
+    ],
+    "name": "042",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "041"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "043"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A043"
+    ],
+    "name": "043",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "042"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "048"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "044"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A044"
+    ],
+    "name": "044",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "043"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "049"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "045"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A045"
+    ],
+    "name": "045",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan",
+      "DaedalusWorkshop"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "044"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "050"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A046"
+    ],
+    "name": "046",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "041"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "010"
+        },
+        {
+          "nextTile": "010"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "051"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "047"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A047"
+    ],
+    "name": "047",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "046"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "052"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "048"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A048"
+    ],
+    "name": "048",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "043"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "047"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "053"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "049"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A049"
+    ],
+    "name": "049",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "044"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "048"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "054"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "050"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A050"
+    ],
+    "name": "050",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "045"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "049"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "055"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A051"
+    ],
+    "name": "051",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "046"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "015"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "052"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A052"
+    ],
+    "name": "052",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "047"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "051"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "053"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A053"
+    ],
+    "name": "053",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "048"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "052"
+        }
+      ],
+      "south": [
+        {
+          "lock": "River",
+          "nextTile": "058"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "054"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "Map Clue *3*8"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A054"
+    ],
+    "name": "054",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub",
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "049"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "053"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "059"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "055"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A055"
+    ],
+    "name": "055",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "050"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "054"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "060"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A056"
+    ],
+    "name": "056",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "(River) 020"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "(River) 061"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A057"
+    ],
+    "name": "057",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress",
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "south": [
+        {
+          "nextTile": "(River) 062"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River) 058"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A058"
+    ],
+    "name": "058",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "053"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "(River) 057"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A059"
+    ],
+    "name": "059",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "054"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "064"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "060"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A060"
+    ],
+    "name": "060",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "AdventureHub",
+      "DaedalusCoords"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "055"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "059"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "065"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A061"
+    ],
+    "name": "061",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub",
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "(River) 056"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River) 062"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A062"
+    ],
+    "name": "062",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "(River) 057"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "(River) 061"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "(River) 067"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River) 063"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A063"
+    ],
+    "name": "063",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub",
+      "Titan"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "(River) 062"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "068"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A064"
+    ],
+    "name": "064",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "AdventureHub",
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "059"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "065"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A065"
+    ],
+    "name": "065",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "060"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "064"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "070"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A066"
+    ],
+    "name": "066",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "030"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "071"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A067"
+    ],
+    "name": "067",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "DaedalusWorkshop"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "(River) 062"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A068"
+    ],
+    "name": "068",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "lock": "River",
+          "nextTile": "063"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "073"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "069"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "Map Clue *9*0"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A069"
+    ],
+    "name": "069",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "064"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "068"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "074"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "070"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A070"
+    ],
+    "name": "070",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "065"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "069"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "075"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A071"
+    ],
+    "name": "071",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "066"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "035"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "076"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "072"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A072"
+    ],
+    "name": "072",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "DaedalusCoords"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "071"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "077"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "073"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A073"
+    ],
+    "name": "073",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "068"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "072"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "078"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "074"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A074"
+    ],
+    "name": "074",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "069"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "073"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "079"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "075"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A075"
+    ],
+    "name": "075",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "070"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "074"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "080"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A076"
+    ],
+    "name": "076",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "071"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "077"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A077"
+    ],
+    "name": "077",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "072"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "076"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "078"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A078"
+    ],
+    "name": "078",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "073"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "077"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "079"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A079"
+    ],
+    "name": "079",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "Titan"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "074"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "078"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "080"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A080"
+    ],
+    "name": "080",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Hornsworn"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "City"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "075"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "079"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A309"
+    ],
+    "name": "009",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "a",
+          "nextTile": "004"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "008"
+        }
+      ],
+      "south": [
+        {
+          "split": "b",
+          "nextTile": "014"
+        }
+      ],
+      "east": [
+        {
+          "split": "a",
+          "nextTile": "010"
+        },
+        {
+          "split": "b",
+          "nextTile": "010"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A313"
+    ],
+    "name": "013",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress",
+      "Doom"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "008"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "012"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A314"
+    ],
+    "name": "014",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "009"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "019"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "015"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A318"
+    ],
+    "name": "018",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [],
+    "symbols": [
+      "R&R"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "017"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "019"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A322"
+    ],
+    "name": "022",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Minoans"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "017"
+        }
+      ],
+      "west": [
+        {
+          "nextTile": "012"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "027"
+        }
+      ],
+      "east": [
+        {
+          "lock": "River",
+          "nextTile": "023"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A323"
+    ],
+    "name": "023",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Progress"
+    ],
+    "symbols": [
+      "Titan",
+      "DaedalusWorkshop"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "022"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "(River) 024"
+        }
+      ]
+    },
+    "otherFeatures": [
+      "River"
+    ],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "A335"
+    ],
+    "name": "035",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      "Labyrinthians"
+    ],
+    "progDoom": [
+      "Doom"
+    ],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "split": "b",
+          "nextTile": "030"
+        }
+      ],
+      "west": [
+        {
+          "split": "a",
+          "nextTile": "034"
+        }
+      ],
+      "south": [
+        {
+          "split": "a",
+          "nextTile": "040"
+        }
+      ],
+      "east": [
+        {
+          "split": "b",
+          "nextTile": "071"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
       "B001"
     ],
     "name": "001",
@@ -13,6 +3432,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "City",
       "Titan"
@@ -29,10 +3449,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -48,6 +3466,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -63,10 +3482,10 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": "7979"
+    "otherFeatures": [],
+    "secrets": [
+      "7979"
+    ]
   },
   {
     "cardIDs": [
@@ -82,9 +3501,10 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -102,10 +3522,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -121,10 +3539,11 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -137,10 +3556,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -156,6 +3573,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
       "Titan"
@@ -177,10 +3595,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -196,6 +3612,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -216,10 +3633,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -235,6 +3650,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
       "City"
@@ -257,10 +3673,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -276,8 +3690,10 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
       "R&R"
     ],
     "movementArrows": {
@@ -288,10 +3704,10 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": "5735"
+    "otherFeatures": [],
+    "secrets": [
+      "5735"
+    ]
   },
   {
     "cardIDs": [
@@ -307,6 +3723,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -327,10 +3744,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -346,10 +3761,11 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -367,10 +3783,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -386,8 +3800,9 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -412,10 +3827,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -431,9 +3844,11 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
-      "AdventureHub",
+    "progDoom": [
       "Progress"
+    ],
+    "symbols": [
+      "AdventureHub"
     ],
     "movementArrows": {
       "west": [
@@ -447,10 +3862,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -466,6 +3879,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -487,10 +3901,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -506,6 +3918,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -527,10 +3940,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -546,10 +3957,11 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -567,10 +3979,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -586,9 +3996,10 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -606,10 +4017,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -625,8 +4034,10 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "Titan",
       "AdventureHub"
     ],
@@ -653,10 +4064,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -672,9 +4081,11 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -693,10 +4104,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -713,6 +4122,7 @@
       "Helots",
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
       "Titan"
@@ -730,10 +4140,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -749,9 +4157,11 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
-      "Spartan Stronghold",
+      "SpartanStronghold",
       "AdventureHub"
     ],
     "movementArrows": {
@@ -776,10 +4186,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -795,6 +4203,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "City"
     ],
@@ -825,10 +4234,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -844,6 +4251,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -859,10 +4267,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -878,6 +4284,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -900,10 +4307,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -920,6 +4325,7 @@
       "Helots",
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -946,10 +4352,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -965,8 +4369,9 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "west": [
@@ -985,10 +4390,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1004,10 +4407,11 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -1025,10 +4429,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1044,6 +4446,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
       "Titan"
@@ -1071,10 +4474,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1090,6 +4491,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -1116,10 +4518,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1135,9 +4535,10 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -1150,10 +4551,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1169,6 +4568,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -1185,10 +4585,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1205,6 +4603,7 @@
       "Helots",
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
       "City"
@@ -1221,10 +4620,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1240,9 +4637,10 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -1261,10 +4659,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1280,10 +4676,12 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "AdventureHub",
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -1302,10 +4700,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1321,6 +4717,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -1347,10 +4744,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1366,6 +4761,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -1386,10 +4782,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1405,6 +4799,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "City",
       "Titan"
@@ -1416,10 +4811,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1435,11 +4828,13 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
       "Titan",
       "AdventureHub",
-      "City",
-      "Progress"
+      "City"
     ],
     "movementArrows": {
       "north": [
@@ -1448,10 +4843,10 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": "3721"
+    "otherFeatures": [],
+    "secrets": [
+      "3721"
+    ]
   },
   {
     "cardIDs": [
@@ -1467,6 +4862,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -1487,10 +4883,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1506,6 +4900,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -1531,10 +4926,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1551,8 +4944,10 @@
       "Helots",
       "Symmachy"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
       "Titan"
     ],
     "movementArrows": {
@@ -1572,10 +4967,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1591,9 +4984,10 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -1619,9 +5013,9 @@
       ]
     },
     "otherFeatures": [
-      "Diolkos to move between a and b."
+      "Diolkos to move between a and b"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1637,6 +5031,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -1650,10 +5045,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1669,6 +5062,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "City",
       "AdventureHub"
@@ -1685,10 +5079,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1704,6 +5096,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -1731,10 +5124,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1750,10 +5141,11 @@
     "factions": [
       "Cyclopes"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -1780,9 +5172,9 @@
       ]
     },
     "otherFeatures": [
-      "Upstream to move between a and b."
+      "Upstream to move between a and b"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1798,9 +5190,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -1824,10 +5217,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1843,9 +5234,10 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -1871,10 +5263,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1890,9 +5280,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub",
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -1919,10 +5310,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1938,6 +5327,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -1948,10 +5338,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -1967,6 +5355,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -1988,10 +5377,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2007,8 +5394,10 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "AdventureHub"
     ],
     "movementArrows": {
@@ -2042,7 +5431,7 @@
     "otherFeatures": [
       "Map clue *3*2"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2058,9 +5447,10 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -2096,7 +5486,7 @@
       "Diolkos to move between a and b",
       "Map clue *4*7"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2112,8 +5502,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
       "Titan"
     ],
     "movementArrows": {
@@ -2146,10 +5538,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2165,8 +5555,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "AdventureHub"
     ],
     "movementArrows": {
@@ -2197,7 +5589,7 @@
     "otherFeatures": [
       "Map clue *1*5"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2214,9 +5606,10 @@
       "Symmachy",
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -2251,7 +5644,7 @@
       "Diolkos to move between a and b",
       "Map clue *9*0"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2267,6 +5660,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "City"
     ],
@@ -2282,10 +5676,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2301,8 +5693,10 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
       "R&R"
     ],
     "movementArrows": {
@@ -2318,10 +5712,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2337,9 +5729,11 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -2358,10 +5752,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2377,8 +5769,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Progress"
+    ],
     "symbols": [
-      "Progress",
       "Titan"
     ],
     "movementArrows": {
@@ -2398,10 +5792,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2417,6 +5809,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -2450,10 +5843,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2469,8 +5860,9 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
-      "Spartan Stronghold"
+      "SpartanStronghold"
     ],
     "movementArrows": {
       "north": [
@@ -2509,7 +5901,7 @@
     "otherFeatures": [
       "Upstream to move between a and b"
     ],
-    "secrets": ""
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2525,6 +5917,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -2556,10 +5949,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2575,6 +5966,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -2595,10 +5987,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2614,6 +6004,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -2629,10 +6020,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2648,8 +6037,10 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "AdventureHub"
     ],
     "movementArrows": {
@@ -2669,10 +6060,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2688,6 +6077,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -2703,10 +6093,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2723,6 +6111,7 @@
       "Helots",
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "City",
       "AdventureHub"
@@ -2744,10 +6133,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2763,8 +6150,10 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [
+      "Doom"
+    ],
     "symbols": [
-      "Doom",
       "Titan"
     ],
     "movementArrows": {
@@ -2789,10 +6178,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2808,6 +6195,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -2828,10 +6216,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2847,9 +6233,10 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -2862,10 +6249,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2881,6 +6266,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -2902,10 +6288,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2921,6 +6305,7 @@
     "factions": [
       "Cyclopes"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -2946,10 +6331,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -2965,9 +6348,10 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
+    "progDoom": [
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -2985,10 +6369,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3004,9 +6386,11 @@
     "factions": [
       "Helots"
     ],
-    "symbols": [
-      "Titan",
+    "progDoom": [
       "Progress"
+    ],
+    "symbols": [
+      "Titan"
     ],
     "movementArrows": {
       "north": [
@@ -3030,10 +6414,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3049,6 +6431,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -3078,10 +6461,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3097,6 +6478,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan"
     ],
@@ -3122,10 +6504,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3141,9 +6521,10 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -3161,10 +6542,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3180,9 +6559,8 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
-      ""
-    ],
+    "progDoom": [],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -3195,10 +6573,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3214,6 +6590,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -3234,10 +6611,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3253,9 +6628,10 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress"
     ],
+    "symbols": [],
     "movementArrows": {
       "west": [
         {
@@ -3268,10 +6644,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3287,6 +6661,7 @@
     "factions": [
       "Helots"
     ],
+    "progDoom": [],
     "symbols": [
       "City"
     ],
@@ -3307,10 +6682,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3326,10 +6699,11 @@
     "factions": [
       "Symmachy"
     ],
-    "symbols": [
+    "progDoom": [
       "Progress",
       "Doom"
     ],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -3347,10 +6721,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3366,6 +6738,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "R&R"
     ],
@@ -3386,10 +6759,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3405,6 +6776,7 @@
     "factions": [
       "Symmachy"
     ],
+    "progDoom": [],
     "symbols": [
       "City"
     ],
@@ -3420,10 +6792,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3437,10 +6807,13 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Sunheirs"
+    ],
+    "progDoom": [
+      "Progress"
     ],
     "symbols": [
-      "Progress"
+      "FrozenTime"
     ],
     "movementArrows": {
       "north": [
@@ -3454,10 +6827,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3471,11 +6842,13 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Twilight Watch"
     ],
+    "progDoom": [],
     "symbols": [
       "Titan",
-      "City"
+      "City",
+      "FrozenTime"
     ],
     "movementArrows": {
       "west": [
@@ -3494,10 +6867,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3511,8 +6882,9 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Twilight Watch"
     ],
+    "progDoom": [],
     "symbols": [
       "City"
     ],
@@ -3528,10 +6900,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3545,8 +6915,9 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Sunheirs"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -3571,16 +6942,11 @@
         {
           "split": "b",
           "nextTile": "087"
-        },
-        {
-          "nextTile": ""
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3594,10 +6960,13 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Sunheirs"
+    ],
+    "progDoom": [
+      "Doom"
     ],
     "symbols": [
-      "Doom"
+      "Chariot"
     ],
     "movementArrows": {
       "south": [
@@ -3606,10 +6975,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3623,8 +6990,9 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Sunheirs"
     ],
+    "progDoom": [],
     "symbols": [
       "AdventureHub"
     ],
@@ -3638,10 +7006,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3655,10 +7021,12 @@
     "faq": "",
     "errata": "",
     "factions": [
-      ""
+      "Sunheirs"
     ],
+    "progDoom": [],
     "symbols": [
-      "R&R"
+      "R&R",
+      "Lighthouse"
     ],
     "movementArrows": {
       "west": [
@@ -3667,10 +7035,8 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   },
   {
     "cardIDs": [
@@ -3686,9 +7052,8 @@
     "factions": [
       ""
     ],
-    "symbols": [
-      ""
-    ],
+    "progDoom": [],
+    "symbols": [],
     "movementArrows": {
       "north": [
         {
@@ -3711,9 +7076,7 @@
         }
       ]
     },
-    "otherFeatures": [
-      ""
-    ],
-    "secrets": ""
+    "otherFeatures": [],
+    "secrets": []
   }
 ]

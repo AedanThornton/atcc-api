@@ -22,11 +22,11 @@
     ],
     "keywords": [
       "Obstacle",
-      "Indestructible."
+      "Indestructible"
     ],
     "abilities": [
       "Hull Damage: If the Primordial moves on to this tile or a Titan would be involuntarily moved onto it, roll a d10",
-      "On a 6+, the plating holds, otherwise, lose -1 HullIcon and disable the Argo Support effect (only once per Battle)."
+      "On a 6+, the plating holds, otherwise, lose -1 HullIcon and disable the Argo Support effect (only once per Battle)"
     ]
   },
   {
@@ -47,7 +47,7 @@
       }
     ],
     "keywords": [
-      "Ambrosia."
+      "Ambrosia"
     ],
     "abilities": [
       ""
@@ -86,7 +86,7 @@
       "River",
       "Indestructible",
       "Chasm",
-      "Exposed."
+      "Exposed"
     ],
     "abilities": [
       ""
@@ -110,7 +110,7 @@
       }
     ],
     "keywords": [
-      "Ambrosia."
+      "Ambrosia"
     ],
     "abilities": [
       ""
@@ -136,17 +136,17 @@
     "keywords": [
       "Obscuring",
       "Cover",
-      "Inhabited."
+      "Inhabited"
     ],
     "abilities": [
       "Scouting: The first time any Titan move son to this tile, test Cunning (6+)",
       "On Fail, flip this tile",
       "Thermopylaed: If you push the Primordial onto this tile, test Cunning (6+)",
-      "On Success, flip this tile."
+      "On Success, flip this tile"
     ],
     "name2": "Termophylaed City",
-    "keywords2": "Obscuring. Cover. Inhabited.",
-    "abilities2": "Titans: If this card flipped from Scouting, gain Danger equal to the Primordial LVL and suffer Knockdown. Primordials: If this card flipped from Thermopylaed, place 1 negative AT token in the Kratos Pool."
+    "keywords2": "Obscuring. Cover. Inhabited",
+    "abilities2": "Titans: If this card flipped from Scouting, gain Danger equal to the Primordial LVL and suffer Knockdown. Primordials: If this card flipped from Thermopylaed, place 1 negative AT token in the Kratos Pool"
   },
   {
     "cardIDs": [
@@ -180,7 +180,7 @@
     "keywords": [
       "Obstacle",
       "Obscuring",
-      "Indestructible."
+      "Indestructible"
     ],
     "abilities": [
       "Cannot be ignored using the Jump keyword",
@@ -189,7 +189,7 @@
       "Large Cliff: Fury (10+)",
       "Success: Continue to move through the Cliff tile, ignoring the Obstacle keyword",
       "You cannot end your movement on a Cliff tile",
-      "Fail: Your movement immediately ends."
+      "Fail: Your movement immediately ends"
     ]
   },
   {
@@ -212,7 +212,7 @@
     "keywords": [
       "Destructible",
       "Obstacle",
-      "Obscuring."
+      "Obscuring"
     ],
     "abilities": [
       "CombatActionIcon Treasure: Once per Battle, when adjacent, search the Ambrosia Elephant",
@@ -223,7 +223,7 @@
       "Gain 2 Violent Ambrosia resources",
       "10: During their excavation, the Spartans dug up a Cyclopean Burial Site",
       "Gain a Carver Kopis GearIcon card",
-      "If you already a Carver Kopis, gain a Cyclopean Visor GearIcon card instead."
+      "If you already a Carver Kopis, gain a Cyclopean Visor GearIcon card instead"
     ]
   },
   {
@@ -244,14 +244,14 @@
       }
     ],
     "keywords": [
-      "Chasm."
+      "Chasm"
     ],
     "abilities": [
       "Setup: Place 2 Cyclops Trap Terrain tiles in the Outer 3 zone, minimum 5 spaces apart and 5 spaces from any City",
       "Trap: If the Primordial moves through this tile, discard the tile and roll a d10: 1-6: Look at the top BP card",
       "7-10: Look at the top BP card",
       "The Primordial has -1 ATIcon until the end of the Titan Round",
-      "If a Titan dies from the Chasm effect on this tile, discard the tile."
+      "If a Titan dies from the Chasm effect on this tile, discard the tile"
     ]
   },
   {
@@ -274,7 +274,7 @@
     "keywords": [
       "Reinforced Destructible",
       "Obstacle",
-      "Obscuring."
+      "Obscuring"
     ],
     "abilities": [
       "Setup: Place the Krypteia Outpost in the Outer 3 Zone of one of the short Board Edges",
@@ -291,7 +291,7 @@
       "Place 1 Opening token in the Kratos Pool.)"
     ],
     "name2": "Damaged Krypteia Outpost",
-    "keywords2": "Destructible. Obstacle. Obscuring.",
+    "keywords2": "Destructible. Obstacle. Obscuring",
     "abilities2": "Jamming: While the Damaged Krypteia Outpost is on the Board, you can only use 1 Argo Ability per Round. You may attack the Krypteia Outpost with a CombatActionIcon as if it was a Primordial. (To-Hit 6+. AT 3. Wound: Discard this tile. You and one other Titan may immediately move up to 5 spaces. Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans. Gain +1 Danger and resolve a Trauma Draw. Critical: You destroy the structure in one fell attack! Gain +1 Progress. Discard this tile. You and one other Titan may immdiately move up to 5 spaces.)"
   },
   {
@@ -315,12 +315,12 @@
       "Obscuring",
       "Destructible",
       "Cover",
-      "Inhabited."
+      "Inhabited"
     ],
     "abilities": [
       "<Friendly> Titans on this tile have +1 Precision",
       "<Allied> Titans on this tile have +1 Precision and +1 PowerIcon",
-      "If this tile is destroyed, immediately lose -1 Humanity and gain +1 RefugeesIcon."
+      "If this tile is destroyed, immediately lose -1 Humanity and gain +1 RefugeesIcon"
     ]
   },
   {
@@ -347,11 +347,11 @@
     "keywords": [
       "Board Edge",
       "Boundless",
-      "Indestructible."
+      "Indestructible"
     ],
     "abilities": [
       "If a Titan would die by moving onto or beyond this Board Edge, it is erased from existence instead",
-      "Treat all Timefront Terrain tiles as a single tile."
+      "Treat all Timefront Terrain tiles as a single tile"
     ]
   },
   {
@@ -375,11 +375,11 @@
       "Obscuring",
       "Inhabited",
       "Destructible",
-      "Cover."
+      "Cover"
     ],
     "abilities": [
       "CombatAction Thaw Time: Once per Battle, when adjacent or on this tile, lose -1 Frozen Time and test (ArgoFateIcon+)> On Success, you've freed the City from the Loop",
-      "Gain +1 Diplomacy with the Local Faction and replace this tile with a City Terrain tile."
+      "Gain +1 Diplomacy with the Local Faction and replace this tile with a City Terrain tile"
     ]
   },
   {
@@ -401,10 +401,10 @@
     ],
     "keywords": [
       "Obscuring",
-      "Indestructible."
+      "Indestructible"
     ],
     "abilities": [
-      "Titans treat this tile as having Boundless and Board Edge keywords."
+      "Titans treat this tile as having Boundless and Board Edge keywords"
     ]
   },
   {
@@ -428,12 +428,12 @@
       "Obstacle",
       "Obscuring",
       "Destructible",
-      "Black Ice."
+      "Black Ice"
     ],
     "abilities": [
       "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
       "3-8: Place 1 negative ATIcon token in the Kratos Pool",
-      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool."
+      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool"
     ]
   },
   {
@@ -457,12 +457,12 @@
       "Obstacle",
       "Obscuring",
       "Destructible",
-      "Black Ice."
+      "Black Ice"
     ],
     "abilities": [
       "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
       "3-8: Place 1 negative ATIcon token in the Kratos Pool",
-      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool."
+      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool"
     ]
   },
   {
@@ -486,13 +486,13 @@
       "Obstacle",
       "Obscuring",
       "Indestructible",
-      "Elevated."
+      "Elevated"
     ],
     "abilities": [
       "Climb test Fury (4+)",
       "On Success, yo may place your Titan on any of this tile's spaces",
       "When on a Floating Rocks space, a Titan may move to a VP I of an adjacent Primordial with a free action",
-      "They also gain +3 to Climb tests."
+      "They also gain +3 to Climb tests"
     ]
   },
   {
@@ -522,7 +522,7 @@
     ],
     "keywords": [
       "Indestructible",
-      "Slippery."
+      "Slippery"
     ],
     "abilities": [
       ""
@@ -547,7 +547,7 @@
     ],
     "keywords": [
       "Indestructible",
-      "Slippery."
+      "Slippery"
     ],
     "abilities": [
       ""

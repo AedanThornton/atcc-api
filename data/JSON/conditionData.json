@@ -15,14 +15,14 @@
     "errata": "",
     "name2": "Dread",
     "side": {
-      "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card.",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive PrecisionIcon token.",
-      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
+      "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card",
+      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die.",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive PrecisionIcon tokens.",
-      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card."
+      "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die",
+      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
   {
@@ -43,12 +43,12 @@
     "name2": "Knockdown",
     "subtitle2": "Standing Up",
     "side": {
-      "effect": "You are knocked down. Place your miniature on its side as a reminder. You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise. If this card is discarded by another effect, stand up (see the other side of the card). At the end of your next turn, flip this card.",
+      "effect": "You are knocked down. Place your miniature on its side as a reminder. You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise. If this card is discarded by another effect, stand up (see the other side of the card). At the end of your next turn, flip this card",
       "resolution": ""
     },
     "side2": {
       "effect": "If you move voluntarily, attack or use an action or ability, stand up. At the start of your turn, stand up. If this card is discarded by another effect, stand up. ",
-      "resolution": "Stand Up: Put your miniature in the normal position and discard this card."
+      "resolution": "Stand Up: Put your miniature in the normal position and discard this card"
     }
   }
 ]

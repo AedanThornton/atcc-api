@@ -22,7 +22,7 @@
       },
       {
         "name": "Hephaestum Skin",
-        "effects": "For the duration of this Godform, you cannot die from Obols. Each time you draw a You died Obol, lose -1 TrespassIcon."
+        "effects": "For the duration of this Godform, you cannot die from Obols. Each time you draw a You died Obol, lose -1 TrespassIcon"
       }
     ]
   },
@@ -49,7 +49,7 @@
       },
       {
         "name": "Rearm",
-        "effects": "When you Awaken into this Godform, imediately unexhaust all your exhausted GearIcon. For the duration of this Godform your GearIcon cards cannot be exhausted."
+        "effects": "When you Awaken into this Godform, imediately unexhaust all your exhausted GearIcon. For the duration of this Godform your GearIcon cards cannot be exhausted"
       }
     ]
   },
@@ -76,7 +76,7 @@
       },
       {
         "name": "Eschatonic Fuse",
-        "effects": "When you are about to perform a Power Roll, lose -1 TrespassIcon to gain +1 PowerIcon to this roll."
+        "effects": "When you are about to perform a Power Roll, lose -1 TrespassIcon to gain +1 PowerIcon to this roll"
       }
     ]
   },
@@ -103,7 +103,7 @@
       },
       {
         "name": "Critical Shot",
-        "effects": "ComplicatedAction Lose -1 TrespassIcon to perform an Attack with your Heavenly Bow! Range 3-9, Pushback X, where X is your Total Power during this Attack.",
+        "effects": "ComplicatedAction Lose -1 TrespassIcon to perform an Attack with your Heavenly Bow! Range 3-9, Pushback X, where X is your Total Power during this Attack",
         "attack": {
           "attackDice": "3",
           "precision": "+0",
@@ -142,7 +142,7 @@
       },
       {
         "name": "Moirai Favor",
-        "effects": "Start of your turn: You amy lose up to -2 FateIcon."
+        "effects": "Start of your turn: You amy lose up to -2 FateIcon"
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       {
         "name": "Godly Comforter",
-        "effects": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 TrespassIcon to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit."
+        "effects": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 TrespassIcon to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit"
       }
     ]
   },
@@ -196,7 +196,7 @@
       },
       {
         "name": "Irresistible Call",
-        "effects": "MovementActionIcon Lose -1 TrespassIcon to make the Primordial move to you via the shortest path. Use the Primordial's SpeedIcon."
+        "effects": "MovementActionIcon Lose -1 TrespassIcon to make the Primordial move to you via the shortest path. Use the Primordial's SpeedIcon"
       }
     ]
   },
@@ -215,7 +215,7 @@
     "power": "Black",
     "speed": "+0",
     "stats": "+3 Precision",
-    "keywords": "Bonus Action, Light 4, Cryptex Loathing.",
+    "keywords": "Bonus Action, Light 4, Cryptex Loathing",
     "abilities": [
       {
         "name": "Fly",
@@ -227,7 +227,7 @@
       },
       {
         "name": "Trigger Finger",
-        "effects": "CombatActionIcon Lose -1 TrespassIcon to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack.",
+        "effects": "CombatActionIcon Lose -1 TrespassIcon to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack",
         "attack": {
           "attackDice": "3",
           "precision": "+0",
@@ -267,7 +267,7 @@
       },
       {
         "name": "Scorned Mother",
-        "effects": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 PowerIcon."
+        "effects": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 PowerIcon"
       }
     ]
   },
@@ -294,7 +294,7 @@
       },
       {
         "name": "Source and Sacrifice",
-        "effects": "Oxygen Lose -1 TrespassIcon to perform a Bonus Attack (once per Battle). After that, a random Titan on the Argo dies."
+        "effects": "Oxygen Lose -1 TrespassIcon to perform a Bonus Attack (once per Battle). After that, a random Titan on the Argo dies"
       }
     ]
   }
