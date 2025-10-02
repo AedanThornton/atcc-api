@@ -5,7 +5,7 @@ def parse_power(power_str):
     powers = []
     for part in power_str.split(". "):
         gate_match = re.match(r"(\w+ \d+\+)\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
-        hits_match = re.match(r"(\d+\+) Hits\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
+        hits_match = re.match(r"(\d+\+?) Hit[s]?\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
         match = re.match(r"(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
 
         gate_type, plus, hits, dice_string = "", False, "", ""

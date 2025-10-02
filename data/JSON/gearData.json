@@ -3929,14 +3929,22 @@
       "power": [
         {
           "type": [
-            "Hit"
-          ]
+            "Black"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1"
+          }
         },
         {
           "type": [
-            "Hits",
-            "Hits"
-          ]
+            "Black",
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "2"
+          }
         },
         {
           "type": [
@@ -6381,21 +6389,35 @@
       "power": [
         {
           "type": [
-            "Hit"
-          ]
+            "Red",
+            "Black"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1"
+          }
         },
         {
           "type": [
-            "Hits",
-            "Hits"
-          ]
+            "Red",
+            "Black",
+            "Black"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "2"
+          }
         },
         {
           "type": [
-            "Hits",
-            "Hits",
-            "Hits"
-          ]
+            "Red",
+            "Black",
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "3"
+          }
         },
         {
           "type": [
@@ -7604,14 +7626,22 @@
       "power": [
         {
           "type": [
-            "Hit"
-          ]
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1"
+          }
         },
         {
           "type": [
-            "Hits",
-            "Hits"
-          ]
+            "Red",
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "2"
+          }
         },
         {
           "type": [
