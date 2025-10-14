@@ -74,6 +74,57 @@ def condition_row(row):
 
     return card_json
 
+def dahaka_row(row):
+    AI_name, BP_name = row["Name"].split(" | ")
+
+    card_json = {
+        "ai_name": AI_name,
+        "bp_name": BP_name,
+        "usedFor": row["Used For"],
+        "uber": "TRUE" in row["Uber?"],
+        
+        ## AI
+        "AIlevel": row["Atk Level"],
+        "AItargeting": parse_targeting(row["Targeting"]),
+        "AIpreAction": row["Pre-Action Effects"],
+        "AIpreActionWoO": "TRUE" in row["Pre-Action WoO?"],
+        "AImoveType": row["Move Type"],
+        "AIpreAttack": row["Pre-Attack Effect"],
+        "AIattackType": row["Attack Type"],
+        "AIattackBanners": parse_consequences(row["Attack Banners"]),
+        "AIdice": row["Dice"],
+        "AIdifficulty": row["Difficulty"],
+        "AIconsequences": parse_consequences(row["Attack Consequences"]),
+
+        ## Interrupt
+        "interruptEffect": row["Interrupt Effect"],
+
+        ## BP
+        "BPlevel": row["BP Level"],
+        "BPtype": row["AT/GT?"],
+        "BPvalue": row["AT/GT"],
+        "BPresources": parse_resources(row["Resources"]),
+        "BPnonResponseText": row["Non-Response Text"],
+        "BPresponses": parse_responses(row["Responses"]),
+        "BPcritFlavor": row["Crit Lore"],
+        "BPcritResponse": row["Crit Response"],
+    }
+
+    after_attack_effects = parse_consequences(row["After Attack Effects"])
+    if after_attack_effects:
+        card_json["AIpreAfterAttackWoO"] = "TRUE" in row["Pre-After Attack WoO?"]
+        card_json["AIafterFinal"] = "TRUE" in row["After Final?"]
+        card_json["AIafterAttackEffects"] = after_attack_effects
+
+    if not card_json["AIpreAction"]:
+        card_json.pop("AIpreAction")
+    if not card_json["AIpreAttack"]:
+        card_json.pop("AIpreAttack")
+    if not card_json["uber"]:
+        card_json.pop("uber")
+    
+    return card_json
+
 def doom_row(row):
     card_json = {
         "name2": row["Side B"] or row["Name"],

@@ -1,0 +1,1554 @@
+[
+  {
+    "cardIDs": [
+      "DR2515"
+    ],
+    "name": "Shadowslash | Folds of the Blackrobe",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Shadowslash",
+    "bp_name": "Folds of the Blackrobe",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "5",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Gain 1 Ambrosia tokens"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "6/7",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain 2 Ambrosia tokens"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Where your weapon connects, the robe parts, like a wave crashing on a seawall!",
+    "BPcritResponse": "Gain the PriorityTargetIcon Priority Target token. You may perform a Bonus Attack!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 4"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2516"
+    ],
+    "name": "Shadowpierce | Shadowspicule",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Shadowpierce",
+    "bp_name": "Shadowspicule",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "4",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "If the Attack hits, it deals 8 DangerIcon, gain 2 Ambrosia tokens, Pushback 1"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "7/8",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Gain 2 Ambrosia"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Wound",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "As the needle rushes toward you like floodwater, you flow around it!",
+    "BPcritResponse": "Resolve a Fated Mnemos! Immediately resolve the Memory of the Boiling Sea Special Event",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 4"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2517"
+    ],
+    "name": "Shadepass | Ephemeral Ghost Feet",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Shadepass",
+    "bp_name": "Ephemeral Ghost Feet",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "3",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "One hit deals 5 DangerIcon and 1 Ambrosia token; two or more hits deal 9 DangerIcon and 2 Ambrosia tokens"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 4+ Knockdown"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "6/7",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Somewhere in the cloud of sand and dust is the creature you staggered!",
+    "BPcritResponse": "Gain the PriorityTargetIcon Priority Target token. You may perform a Bonus Attack!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 4"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2518"
+    ],
+    "name": "Doomspeak | Tattered Cowl",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Doomspeak",
+    "bp_name": "Tattered Cowl",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Curse Afflicition in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
+    "AIpreActionWoO": false,
+    "AImoveType": "None",
+    "AIattackType": "Judgement, Wish",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Soulrend"
+      }
+    ],
+    "AIdice": "3",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "Courage/Will"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, perform next AI",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "7/8",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain the Fear Condition card"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Gain the Wishkeen Condition card"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Under it you saw your futile future -- and seized it!",
+    "BPcritResponse": "Disable the Soulrend Trait!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2519"
+    ],
+    "name": "Fumewave | Carcass of Hazes",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Fumewave",
+    "bp_name": "Carcass of Hazes",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindpost"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "AIdice": "4",
+    "AIdifficulty": "8",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon and 1 Ambrosia token"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "6/7",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Knockdown"
+          },
+          {
+            "effect": "Knockdown 10"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Knockdown"
+          },
+          {
+            "effect": "Knockback 7"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "As you strike, the Dahaka envelopes you. Things slither across your skin, neither solid, nor liquid!",
+    "BPcritResponse": "The Dahaka gains 1 negative To Hit ToHitIcon token",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 4"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2520"
+    ],
+    "name": "Blackdraught | Coils of Smoke",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Blackdraught",
+    "bp_name": "Coils of Smoke",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Mnemos with the Voyage Trait"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Zone",
+    "AIattackBanners": [],
+    "AIdice": "5",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      },
+      {
+        "effect": "Gain 1 Ambrosia"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 4+ Knockdown"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "I",
+    "BPtype": "Interrupt",
+    "BPvalue": "6/7",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Wound",
+        "effects": [
+          {
+            "effect": "Gain 2 Ambrosia tokens"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "As you frantically dispel the tentacled smoke, possible pasts flicker before your eyes",
+    "BPcritResponse": "Gain 1 Mnemos node for a chosen Mnemos",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": true,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 5"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2521"
+    ],
+    "name": "Blade Cloud | Paracausal Trapmaw",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Blade Cloud",
+    "bp_name": "Paracausal Trapmaw",
+    "usedFor": "Dahaka",
+    "AIlevel": "I",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": false,
+    "AImoveType": "Drift",
+    "AIpreAttack": "Attack all adjacent Titans",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "5",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Gain 1 Ambrosia token"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "10/12",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain the Covetous Condition card"
+          },
+          {
+            "effect": "Place this card on top of the AI deck"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "It has waited for a paradox to cast off these bonds, and that hour has come at last!",
+    "BPcritResponse": "Disable the Shackles of Regret Trait. You may perform a Bonus Attack!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": true,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Dissipate"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2522"
+    ],
+    "name": "Fumestorm | Roiling Shadowmass",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Fumestorm",
+    "bp_name": "Roiling Shadowmass",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [],
+    "AIpreActionWoO": true,
+    "AImoveType": "None",
+    "AIattackType": "Zone",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Soulrend"
+      }
+    ],
+    "AIdice": "5",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon and 1 Ambrosia token"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "11/13",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Reverse Unholy Alchemy"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Can one cripple a sandstorm? You just did!",
+    "BPcritResponse": "Drift becomes Move Unlimited",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Dissipate"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2523"
+    ],
+    "name": "Ebonshard Whirlpool | Bones of Smoke and Sand",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Ebonshard Whirlpool",
+    "bp_name": "Bones of Smoke and Sand",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [],
+    "AIpreActionWoO": true,
+    "AImoveType": "None",
+    "AIattackType": "Zone",
+    "AIattackBanners": [],
+    "AIdice": "3",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Each hit discard 1 GearIcon"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, perform next AI",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "11/13",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Reverse Unholy Alchemy"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Your weapon passes through the thick cloud unimpeded, yet you hear a bone-chilling crack!",
+    "BPcritResponse": "Another Titan may perform a Bonus Attack!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": true,
+    "AIafterAttackEffects": [
+      {
+        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2524"
+    ],
+    "name": "Doomwail | Stolen Efreethead",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Doomwail",
+    "bp_name": "Stolen Efreethead",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
+    "AIpreActionWoO": false,
+    "AImoveType": "None",
+    "AIattackType": "Judgement, Wish",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Soulrend"
+      }
+    ],
+    "AIdice": "4",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Courage/Will"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, perform next AI",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "9/11",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain the Dread Condition card"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Gain the Wishagog Condition card"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "As you hit the djinn-like face, it collapses on itself with a lustrous glimmer",
+    "BPcritResponse": "Wish Attacks become normal Attacks!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2525"
+    ],
+    "name": "Fire from the Depths | Floating Embers",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Fire from the Depths",
+    "bp_name": "Floating Embers",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Curse Affliction not in front, in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in front, in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Wish",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+2 d10Icon"
+      }
+    ],
+    "AIdice": "4",
+    "AIdifficulty": "8",
+    "AIconsequences": [
+      {
+        "effect": "If the Attack hits, gain 3 Ambrosia tokens"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "10/12",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Gain 3 Ambrosia tokens"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Discard 1 Condition card"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "You fan the embers and embrace the flame that burns away ambrosia. Why does the fire feel wet?",
+    "BPcritResponse": "Remove all Ambrosia tokens from each Titan",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Dissipate"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2526"
+    ],
+    "name": "Shadowcleaver | Blackflesh Arm",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Shadowcleaver",
+    "bp_name": "Blackflesh Arm",
+    "usedFor": "Dahaka",
+    "AIlevel": "II",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "AIdice": "4",
+    "AIdifficulty": "8",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "II",
+    "BPtype": "Interrupt",
+    "BPvalue": "9/11",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Reverse Unholy Alchemy"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Wound",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "You catch the Primordial mid-transformation and hack away the arm at the shoulder!",
+    "BPcritResponse": "Gain the Shadowcleaver GearIcon card (Secret deck 11, card 197)!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 5"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2527"
+    ],
+    "name": "Tentacles of the Old Smog | Head of Smogsludge",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Tentacles of the Old Smog",
+    "bp_name": "Head of Smogsludge",
+    "usedFor": "Dahaka",
+    "AIlevel": "III",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in sight"
+      }
+    ],
+    "AIpreActionWoO": false,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "5",
+    "AIdifficulty": "8",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "4 DangerIcon instead"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "13/16",
+    "BPresources": [
+      {
+        "count": "2",
+        "name": "Onyx Dust"
+      },
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain 4 Ambrosia tokens"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "",
+        "effects": [
+          {
+            "effect": "Interrupt Instinct Lose 1 Mnemos"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Your blow shatters the alien face into fine dust... Dust that you then inhale...",
+    "BPcritResponse": "Gain teh Dahaka Mask GearIcon card (Secret deck 11, card 196)!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 6"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2528"
+    ],
+    "name": "Soot Nebula | Starless Canvas",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Soot Nebula",
+    "bp_name": "Starless Canvas",
+    "usedFor": "Dahaka",
+    "AIlevel": "III",
+    "AItargeting": [],
+    "AIpreActionWoO": true,
+    "AImoveType": "None",
+    "AIattackType": "Regular",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Soulrend"
+      }
+    ],
+    "AIdice": "4",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon and 1 Ambrosia token"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "14/17",
+    "BPresources": [
+      {
+        "count": "3",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Raise DangerIcon to 9, draw an Obol"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Interrupt Wound",
+        "effects": [
+          {
+            "effect": "Reverse Unholy Alchemy"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Fathomless depths stare into you, but you do not blink!",
+    "BPcritResponse": "Deal an additional Single Wound! After the Battle, resolve the Trench and the Cosmos Special Event",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Dissipate"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2529"
+    ],
+    "name": "Bodyflood | Vapor of Godichor",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Bodyflood",
+    "bp_name": "Vapor of Godichor",
+    "usedFor": "Dahaka",
+    "AIlevel": "III",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Mnemos with the Voyage Trait"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Soulrend"
+      }
+    ],
+    "AIdice": "5",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Souldrend"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "12/15",
+    "BPresources": [
+      {
+        "count": "2",
+        "name": "Onyx Dust"
+      },
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Gain 3 Ambrosia tokens"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "You winnow through the creature of smog like an unstoppable wind, and suddenly arrive in a pocket of rarified, blessed air",
+    "BPcritResponse": "Permanently gain Ambrosia Limit 6 (once per Argonaut Lifetime)",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 6"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2530"
+    ],
+    "name": "Endless Dragon | Stormcloud Heart",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Endless Dragon",
+    "bp_name": "Stormcloud Heart",
+    "usedFor": "Dahaka",
+    "AIlevel": "III",
+    "AItargeting": [],
+    "AIpreActionWoO": false,
+    "AImoveType": "",
+    "AIattackType": "Drown, Curse",
+    "AIattackBanners": [],
+    "AIdice": "",
+    "AIdifficulty": "",
+    "AIconsequences": [
+      {
+        "effect": "Heal 1"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, shuffle this card and the discard pile into the deck, then draw another AI card",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "14/17",
+    "BPresources": [
+      {
+        "count": "1",
+        "name": "Onyx Dust"
+      },
+      {
+        "count": "2",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Fail",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Perform next AI"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Your attack causes a cascade of implosions in the rumble heart, now more a maelstrom of inscrutable black. It stiffens suddenly, like a fresh corpse",
+    "BPcritResponse": "Gain the Dahaka Blade GearIcon card (Secret deck 11, card 195)!"
+  },
+  {
+    "cardIDs": [
+      "DR2531"
+    ],
+    "name": "Ur-Doom Unmake | Memory of the First Trench",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Ur-Doom Unmake",
+    "bp_name": "Memory of the First Trench",
+    "usedFor": "Dahaka",
+    "uber": true,
+    "AIlevel": "III",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Mnemos with the Voyage Trait"
+      },
+      {
+        "type": "Target:",
+        "target": "Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
+    "AIpreActionWoO": false,
+    "AImoveType": "None",
+    "AIattackType": "Judgement",
+    "AIattackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "8+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "AIdice": "2",
+    "AIdifficulty": "11",
+    "AIconsequences": [
+      {
+        "effect": "Doomed"
+      },
+      {
+        "effect": "Wisdow/Courage/Will"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, perform next AI",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "12/15",
+    "BPresources": [
+      {
+        "count": "3",
+        "name": "Onyx Dust"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Instinct",
+        "effects": [
+          {
+            "effect": "Perform next Ai"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Perform next Ai"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Your strike reaches further and further into the unknown, and suddenly it touches on the monster's master. It is not pleased",
+    "BPcritResponse": "Draw an Obol. Then the Dahaka dies!",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2532"
+    ],
+    "name": "Ghost of Luminous Irem | Barren Foam",
+    "cardType": "AI | BP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Ghost of Luminous Irem",
+    "bp_name": "Barren Foam",
+    "usedFor": "Dahaka",
+    "AIlevel": "III",
+    "AItargeting": [],
+    "AIpreActionWoO": true,
+    "AImoveType": "None",
+    "AIattackType": "Wish, Zone",
+    "AIattackBanners": [],
+    "AIdice": "4",
+    "AIdifficulty": "9",
+    "AIconsequences": [
+      {
+        "effect": "Gain 1 Midas token fro each hit and Ambrosia token you have"
+      },
+      {
+        "effect": "Each hit deals 5 DangerIcon"
+      }
+    ],
+    "interruptEffect": "If no Interrupt Attack, perform next AI",
+    "BPlevel": "III",
+    "BPtype": "Interrupt",
+    "BPvalue": "12/15",
+    "BPresources": [
+      {
+        "count": "2",
+        "name": "Onyx Dust"
+      },
+      {
+        "count": "1",
+        "name": "Ire Essence"
+      }
+    ],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "Interrupt Instinct",
+        "effects": [
+          {
+            "effect": "Disable the Shackles of Regret Trait"
+          },
+          {
+            "effect": ""
+          }
+        ]
+      },
+      {
+        "type": "Instinct",
+        "effects": [
+          {
+            "effect": "Disable the Shackles of Regret Trait"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "Each of your attacks leaves a bit of the Dahaka on the desert floor, and soon you are wading in ashen foam, as if you were emerging on some primordial shore",
+    "BPcritResponse": "Gain +1 ProgressIcon",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DR2533"
+    ],
+    "name": "Blackslash | Right All Wrongs",
+    "cardType": "Sig | Rout",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Tarot",
+    "faq": "",
+    "errata": "",
+    "ai_name": "Blackslash",
+    "bp_name": "Right All Wrongs",
+    "usedFor": "Dahaka",
+    "AIlevel": "X",
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Curse Affliction in sight"
+      }
+    ],
+    "AIpreActionWoO": true,
+    "AImoveType": "Drift",
+    "AIattackType": "Regular",
+    "AIattackBanners": [],
+    "AIdice": "4",
+    "AIdifficulty": "10",
+    "AIconsequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Gain 1 Ambrosia token"
+      }
+    ],
+    "interruptEffect": "",
+    "BPlevel": "",
+    "BPtype": "Interrupt",
+    "BPvalue": "",
+    "BPresources": [],
+    "BPnonResponseText": "",
+    "BPresponses": [
+      {
+        "type": "The",
+        "effects": [
+          {
+            "effect": "Dahaka moves to the center of the Board and turns to face the most Titans"
+          },
+          {
+            "effect": "Lose -1 CrewIcon and -1 HullIcon"
+          },
+          {
+            "effect": "Random Titan dies"
+          }
+        ]
+      }
+    ],
+    "BPcritFlavor": "",
+    "BPcritResponse": "",
+    "AIpreAfterAttackWoO": true,
+    "AIafterFinal": false,
+    "AIafterAttackEffects": [
+      {
+        "effect": "Shadowstep 4"
+      }
+    ]
+  }
+]
