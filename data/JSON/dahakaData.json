@@ -26,7 +26,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "5",
     "AIdifficulty": "10",
@@ -107,7 +109,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "4",
     "AIdifficulty": "10",
@@ -185,7 +189,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "3",
     "AIdifficulty": "9",
@@ -267,7 +273,10 @@
     ],
     "AIpreActionWoO": false,
     "AImoveType": "None",
-    "AIattackType": "Judgement, Wish",
+    "AIattackType": [
+      "Judgement",
+      "Wish"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -349,7 +358,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -441,7 +452,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Zone",
+    "AIattackType": [
+      "Zone"
+    ],
     "AIattackBanners": [],
     "AIdice": "5",
     "AIdifficulty": "10",
@@ -523,7 +536,9 @@
     "AIpreActionWoO": false,
     "AImoveType": "Drift",
     "AIpreAttack": "Attack all adjacent Titans",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "5",
     "AIdifficulty": "9",
@@ -598,7 +613,9 @@
     "AItargeting": [],
     "AIpreActionWoO": true,
     "AImoveType": "None",
-    "AIattackType": "Zone",
+    "AIattackType": [
+      "Zone"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -675,7 +692,9 @@
     "AItargeting": [],
     "AIpreActionWoO": true,
     "AImoveType": "None",
-    "AIattackType": "Zone",
+    "AIattackType": [
+      "Zone"
+    ],
     "AIattackBanners": [],
     "AIdice": "3",
     "AIdifficulty": "10",
@@ -753,7 +772,10 @@
     ],
     "AIpreActionWoO": false,
     "AImoveType": "None",
-    "AIattackType": "Judgement, Wish",
+    "AIattackType": [
+      "Judgement",
+      "Wish"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -843,7 +865,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Wish",
+    "AIattackType": [
+      "Wish"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -925,7 +949,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -1011,7 +1037,9 @@
     ],
     "AIpreActionWoO": false,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "5",
     "AIdifficulty": "8",
@@ -1091,7 +1119,9 @@
     "AItargeting": [],
     "AIpreActionWoO": true,
     "AImoveType": "None",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -1181,7 +1211,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -1262,7 +1294,10 @@
     "AItargeting": [],
     "AIpreActionWoO": false,
     "AImoveType": "",
-    "AIattackType": "Drown, Curse",
+    "AIattackType": [
+      "Drown",
+      "Curse"
+    ],
     "AIattackBanners": [],
     "AIdice": "",
     "AIdifficulty": "",
@@ -1342,7 +1377,9 @@
     ],
     "AIpreActionWoO": false,
     "AImoveType": "None",
-    "AIattackType": "Judgement",
+    "AIattackType": [
+      "Judgement"
+    ],
     "AIattackBanners": [
       {
         "gate": {
@@ -1422,7 +1459,10 @@
     "AItargeting": [],
     "AIpreActionWoO": true,
     "AImoveType": "None",
-    "AIattackType": "Wish, Zone",
+    "AIattackType": [
+      "Wish",
+      "Zone"
+    ],
     "AIattackBanners": [],
     "AIdice": "4",
     "AIdifficulty": "9",
@@ -1507,7 +1547,9 @@
     ],
     "AIpreActionWoO": true,
     "AImoveType": "Drift",
-    "AIattackType": "Regular",
+    "AIattackType": [
+      "Regular"
+    ],
     "AIattackBanners": [],
     "AIdice": "4",
     "AIdifficulty": "10",
