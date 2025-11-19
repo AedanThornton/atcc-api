@@ -408,7 +408,7 @@
     "abilities": [
       {
         "name": "Armor Re-roll",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -716,7 +716,7 @@
     "abilities": [
       {
         "name": "Ambrosia Limit",
-        "x_value": 5,
+        "x_value": "5",
         "type": "keyword"
       }
     ],
@@ -1572,7 +1572,7 @@
     "abilities": [
       {
         "name": "Hermes Reflex",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Exhaust"

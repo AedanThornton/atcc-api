@@ -17,7 +17,9 @@
     "flavor": "",
     "slot": "2 Hands",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Flesh"
+    ],
     "offensiveStatistics": {
       "attackDice": "2",
       "precision": "+0",
@@ -161,7 +163,7 @@
     "abilities": [
       {
         "name": "Reinforce",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate"
         ],
@@ -209,12 +211,12 @@
     "abilities": [
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       }
     ],
@@ -261,7 +263,7 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -306,7 +308,7 @@
     "abilities": [
       {
         "name": "Carving",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -367,17 +369,17 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Power Re-roll",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -441,12 +443,12 @@
     "abilities": [
       {
         "name": "Carving",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -516,7 +518,7 @@
         "abilities": [
           {
             "name": "Auto-break",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -573,8 +575,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 4,
-        "x_value": 6,
+        "y_value": "4",
+        "x_value": "6",
         "type": "keyword"
       },
       {
@@ -629,8 +631,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 4,
+        "y_value": "2",
+        "x_value": "4",
         "type": "keyword"
       },
       {
@@ -681,7 +683,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -743,7 +745,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -805,12 +807,12 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -821,7 +823,7 @@
         "abilities": [
           {
             "name": "Opening",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -955,7 +957,7 @@
       },
       {
         "name": "Reinforce",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate"
         ],
@@ -1023,7 +1025,7 @@
     "abilities": [
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Exhaust"
@@ -1101,7 +1103,7 @@
     "abilities": [
       {
         "name": "Power Re-roll",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -1149,7 +1151,7 @@
     "abilities": [
       {
         "name": "Knockback Reduction",
-        "x_value": 3,
+        "x_value": "3",
         "costs": [
           "Fate"
         ],
@@ -1286,12 +1288,12 @@
     "abilities": [
       {
         "name": "Knockback Reduction",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Reinforce",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate"
         ],
@@ -1374,7 +1376,7 @@
     "abilities": [
       {
         "name": "Knockback Reduction",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -1387,7 +1389,7 @@
       },
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Fate",
@@ -1460,7 +1462,7 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -1527,12 +1529,12 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Carving",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -1594,17 +1596,17 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Power Re-roll",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Pushback",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -1679,12 +1681,12 @@
       },
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Pushback",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -2179,17 +2181,17 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Pull",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -2204,7 +2206,7 @@
         "abilities": [
           {
             "name": "Opening",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -2251,13 +2253,13 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 4,
+        "y_value": "2",
+        "x_value": "4",
         "type": "keyword"
       },
       {
         "name": "Pull",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -2276,7 +2278,7 @@
         "abilities": [
           {
             "name": "Break",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -2323,8 +2325,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 3,
-        "x_value": 5,
+        "y_value": "3",
+        "x_value": "5",
         "type": "keyword"
       },
       {
@@ -2347,12 +2349,12 @@
         "abilities": [
           {
             "name": "Opening",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           },
           {
             "name": "Break",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -2408,7 +2410,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -2487,17 +2489,17 @@
       },
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Pushback",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -2640,7 +2642,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -2705,7 +2707,7 @@
     "abilities": [
       {
         "name": "Overbreak",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -2726,7 +2728,7 @@
         "abilities": [
           {
             "name": "Overbreak",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -2916,7 +2918,7 @@
         "abilities": [
           {
             "name": "Auto-break",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -2965,12 +2967,12 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Overbreak",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -3059,12 +3061,12 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -3075,7 +3077,7 @@
         "abilities": [
           {
             "name": "Carving",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -3737,17 +3739,17 @@
       },
       {
         "name": "Pushback",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Fate",
@@ -3811,13 +3813,13 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 4,
+        "y_value": "2",
+        "x_value": "4",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -3842,7 +3844,7 @@
         "abilities": [
           {
             "name": "Auto-break",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -3962,7 +3964,7 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -4004,7 +4006,7 @@
         "abilities": [
           {
             "name": "Rouse",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -4094,7 +4096,7 @@
     "abilities": [
       {
         "name": "Inspire",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -4168,7 +4170,7 @@
       },
       {
         "name": "Reposition",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -4230,7 +4232,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -4239,12 +4241,12 @@
       },
       {
         "name": "Pull",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -4255,7 +4257,7 @@
         "abilities": [
           {
             "name": "Auto-break",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -4314,12 +4316,12 @@
     "abilities": [
       {
         "name": "Overbreak",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -4365,7 +4367,7 @@
     "abilities": [
       {
         "name": "Reinforce",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate"
         ],
@@ -4388,7 +4390,7 @@
         "abilities": [
           {
             "name": "Armor Re-roll",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -4516,17 +4518,17 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Elation",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -4657,7 +4659,7 @@
         "abilities": [
           {
             "name": "Reinforce",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -4995,12 +4997,12 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -5074,12 +5076,12 @@
     "abilities": [
       {
         "name": "Elation",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -5155,18 +5157,18 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Ranged",
-        "y_value": 4,
-        "x_value": 7,
+        "y_value": "4",
+        "x_value": "7",
         "type": "keyword"
       },
       {
@@ -5237,12 +5239,12 @@
       },
       {
         "name": "Carving",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -5428,7 +5430,7 @@
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -5474,12 +5476,10 @@
     "defensiveStatistics": {
       "evasionBonus": "+1",
       "resistances": [
-        [
-          {
-            "amount": 2,
-            "type": "Energy"
-          }
-        ]
+        {
+          "amount": 2,
+          "type": "Energy"
+        }
       ]
     },
     "asteriskEffect": null,
@@ -5615,12 +5615,12 @@
       },
       {
         "name": "Fire",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Auto-break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -5648,7 +5648,7 @@
         "abilities": [
           {
             "name": "Power Re-roll",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -5764,7 +5764,7 @@
       },
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Exhaust"
@@ -5826,7 +5826,7 @@
     "abilities": [
       {
         "name": "Ambrosia Limit",
-        "x_value": 5,
+        "x_value": "5",
         "type": "keyword"
       },
       {
@@ -5845,7 +5845,7 @@
         "abilities": [
           {
             "name": "Ambrosia Limit",
-            "x_value": 6,
+            "x_value": "6",
             "type": "keyword"
           }
         ]
@@ -5888,7 +5888,7 @@
     "abilities": [
       {
         "name": "Ambrosia Limit",
-        "x_value": 5,
+        "x_value": "5",
         "type": "keyword"
       },
       {
@@ -6064,12 +6064,12 @@
       },
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -6146,17 +6146,17 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Overbreak",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6227,12 +6227,12 @@
     "abilities": [
       {
         "name": "Auto-break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Overbreak",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -6256,7 +6256,7 @@
         "abilities": [
           {
             "name": "Overbreak",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -6312,18 +6312,18 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 3,
+        "y_value": "2",
+        "x_value": "3",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6439,7 +6439,7 @@
       },
       {
         "name": "Break",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -6467,7 +6467,7 @@
         "abilities": [
           {
             "name": "Rouse",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -6517,22 +6517,22 @@
     "abilities": [
       {
         "name": "Power Re-roll",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6613,12 +6613,12 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Elation",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6699,12 +6699,12 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Elation",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6749,7 +6749,7 @@
         "abilities": [
           {
             "name": "Break",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -6784,6 +6784,72 @@
     "ascended": false,
     "abilities": [],
     "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "BJ0943"
+    ],
+    "name": "Muck Virus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 05",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Ambrosia",
+      "Alive",
+      "Primordial",
+      "Infection"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Titan Possession",
+        "type": "keyword"
+      },
+      {
+        "name": "Elation",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "Ignore the Ambrosia gain from Ambrosia Terrain tiles",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Ambrosia Limit",
+            "x_value": "5",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -6838,7 +6904,7 @@
     "abilities": [
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Exhaust"
@@ -6847,7 +6913,7 @@
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -6856,7 +6922,7 @@
       },
       {
         "name": "Kickback Reduction",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -6917,7 +6983,7 @@
         "abilities": [
           {
             "name": "Reposition",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -7068,6 +7134,64 @@
   },
   {
     "cardIDs": [
+      "BJ0954"
+    ],
+    "name": "Umbral Virus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 05",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Ambrosia",
+      "Alive",
+      "Infection",
+      "Primordial"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "2"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Titan Possession",
+        "type": "keyword"
+      },
+      {
+        "name": "Mus start Battle this side up",
+        "type": "unique"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "8+/Ambrosia 3+ Transform",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "BJ0966"
     ],
     "name": "Hermes Cape",
@@ -7211,7 +7335,7 @@
     ],
     "offensiveStatistics": {
       "attackDice": "2",
-      "precision": "1",
+      "precision": "+1",
       "power": [
         {
           "type": [
@@ -7240,17 +7364,17 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Carving",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -7286,7 +7410,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "A liaison archo of the Symmachy stationed at the Pauldron analyzes the battlefield and counsels the Argo",
+    "flavor": "A liaison archon of the Symmachy stationed at the Pauldron analyzes the battlefield and counsels the Argo",
     "slot": "Armor",
     "transformsInto": null,
     "traits": [
@@ -7299,12 +7423,10 @@
     "defensiveStatistics": {
       "evasionRerolls": "2",
       "resistances": [
-        [
-          {
-            "amount": 1,
-            "type": "Energy"
-          }
-        ]
+        {
+          "amount": 1,
+          "type": "Energy"
+        }
       ]
     },
     "asteriskEffect": null,
@@ -7314,7 +7436,7 @@
     "abilities": [
       {
         "name": "Motivate",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -7362,7 +7484,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "This GearIcon was recovered from the Future Argo's wreck. Maybe it can help us cheat fate?",
+    "flavor": "This gear was recovered from the Future Argo's wreck. Maybe it can help us cheat fate?",
     "slot": "Attachment",
     "transformsInto": null,
     "traits": [
@@ -7401,7 +7523,7 @@
         "abilities": [
           {
             "name": "Black",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -7434,7 +7556,7 @@
     ],
     "offensiveStatistics": {
       "attackDice": "1",
-      "precision": "2",
+      "precision": "+2",
       "power": [
         {
           "type": [
@@ -7458,17 +7580,17 @@
     "abilities": [
       {
         "name": "Black",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -7494,7 +7616,7 @@
         "abilities": [
           {
             "name": "Power Re-roll",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -7527,7 +7649,7 @@
     ],
     "offensiveStatistics": {
       "attackDice": "1",
-      "precision": "1",
+      "precision": "+1",
       "power": [
         {
           "type": [
@@ -7551,17 +7673,17 @@
     "abilities": [
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -7577,7 +7699,7 @@
         "abilities": [
           {
             "name": "Fire",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -7588,7 +7710,7 @@
         "abilities": [
           {
             "name": "Auto-black",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -7622,7 +7744,7 @@
     ],
     "offensiveStatistics": {
       "attackDice": "2",
-      "precision": "2",
+      "precision": "+2",
       "power": [
         {
           "type": [
@@ -7664,12 +7786,12 @@
     "abilities": [
       {
         "name": "Reposition",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Spiral",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -7700,7 +7822,7 @@
         "abilities": [
           {
             "name": "Black",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -7711,6 +7833,1389 @@
         "abilities": [
           {
             "name": "Reposition 4 instead",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1437",
+      "CJ1438"
+    ],
+    "name": "Siren Mask",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Mask",
+      "Ambrosia",
+      "Primordial",
+      "Shell"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "1"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Spiral",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Rouse",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Bleeding Limit",
+        "x_value": "5",
+        "type": "keyword"
+      },
+      {
+        "name": "+1 to Judgements tests",
+        "type": "unique"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "7+/Fate 7+ DiscardCost When you are about to die from an Instant Death effect of a Judgement, draw an Obol instead",
+        "costs": [
+          "Danger"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ1533"
+    ],
+    "name": "Cyclopean Hand Mirror",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 08",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Heirloom",
+      "Cyclopean",
+      "Hephaestum",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Inspire",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Motivate",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Draw an Obol without resolving its effect",
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "The First time you draw an Obol during this Battle, find and resolve the card you drew at the Start of Battle instead",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ1536"
+    ],
+    "name": "Argocryptex Alpha",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Argotech",
+      "Augment",
+      "Cryptex"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      },
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "+1 Precision",
+        "type": "unique"
+      },
+      {
+        "name": "Gain a MovementActionIcon",
+        "flavorName": "Semi Sync",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "At the end of your turn gain a MovementActionIcon Fatigue token",
+        "type": "unique"
+      },
+      {
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "When you are about to gain Ambrosia tokens, ignore this gain",
+            "costs": [
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1537"
+    ],
+    "name": "Argocryptex Beta",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Argotech",
+      "Augment",
+      "Cryptex"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      },
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "+1 Precision",
+        "type": "unique"
+      },
+      {
+        "name": "You may perform a bonus turn before the Primordial",
+        "costs": [
+          "Fate",
+          "Fate"
+        ],
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "At the end of this turn gain a CombatActionIcon Fatigue token",
+        "type": "unique"
+      },
+      {
+        "name": "Reflex",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ2229",
+      "DJ2230"
+    ],
+    "name": "Eclipse Sword",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Still glowing with divine hatred",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Sword",
+      "Eclipse",
+      "Sun",
+      "Stone"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Black",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Hope",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain +1 PowerIcon",
+        "flavorName": "Sunbask 2",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Power Re-roll",
+            "x_value": "2",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2231",
+      "DJ2232"
+    ],
+    "name": "Feathermace",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A toast to the fall from grace!",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Club",
+      "Feathers",
+      "Flammable",
+      "Bone",
+      "Primordial",
+      "Eclipse"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Break",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Vault",
+        "timing": "Sunstarved",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Pushback",
+            "x_value": "2",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2233",
+      "DJ2234"
+    ],
+    "name": "Burnout Whip",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A whip is but a leash revealed",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Whip",
+      "Sun",
+      "Flammable",
+      "Eclipse",
+      "Primordial"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {
+      "resistances": [
+        {
+          "amount": 1,
+          "type": "Energy"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Reach",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Auto-black",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Provoke",
+        "type": "keyword"
+      },
+      {
+        "name": "Spotlight",
+        "timing": "Sunstarved",
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "flavorName": "Each hit",
+        "x_value": "1",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Hermes Move",
+            "x_value": "1",
+            "costs": [
+              "Energy",
+              "Fate",
+              "Exhaust"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2235",
+      "DJ2236"
+    ],
+    "name": "Descentaxe",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A sundown has come",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Axe",
+      "Stone",
+      "Eclipse",
+      "Sun"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "0",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Black",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain +2 Precision",
+        "flavorName": "Sunbask 1",
+        "type": "unique"
+      },
+      {
+        "name": "Deadly",
+        "flavorName": "Sunbask 2",
+        "type": "keyword"
+      },
+      {
+        "name": "Break",
+        "x_value": "3",
+        "timing": "Full Miss",
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ2237",
+      "DJ2238"
+    ],
+    "name": "Duskedges",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Eking out the most from the last rays of the Sun",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Knife",
+      "Stone",
+      "Eclipse",
+      "Sun"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": "When you attack, you may discard a Fire token from teh Kratos Pool to gain +1 d10Icon (up to 3 times)",
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Reposition",
+        "x_value": "3",
+        "type": "keyword"
+      },
+      {
+        "name": "Black",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "flavorName": "Each miss",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain 1 Ambrosia token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Fire",
+            "x_value": "1",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2239",
+      "DJ2240"
+    ],
+    "name": "Ember Spear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Until we draw our last breath, the embers of Hyperborea will be remembered",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Spear",
+      "Fire",
+      "Flammable",
+      "Sun",
+      "Eclipse",
+      "Stone"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": "The Crit Die hit grants you BlackPowerDieIcon instead",
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Reach",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Fate Precise",
+        "timing": "Sunstarved",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Assist",
+            "x_value": "2",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2241",
+      "DJ2242"
+    ],
+    "name": "Withered Javelin",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "To help us remember: nothing is eternal",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Javelin",
+      "Bone",
+      "Primordial",
+      "Eclipse"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "4",
+      "precision": "4",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ranged",
+        "y_value": "2",
+        "x_value": "5",
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Ranged 2-6 instead, Auto-break 2",
+        "flavorName": "Sunbask 2",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Loses Cumbersome",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2243",
+      "DJ2244"
+    ],
+    "name": "Corona Discus",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A gift of those who left for the Demesne, may they live on in our memory",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Discus",
+      "Sun",
+      "Eclipse",
+      "Fire",
+      "Stone"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "3",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ranged",
+        "y_value": "2",
+        "x_value": "3",
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Opening",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Auto-break",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Reposition",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain +1 PowerIcon",
+        "timing": "Sunstarved",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "Deadly",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2245",
+      "DJ2246",
+      "DJ2247",
+      "DJ2248"
+    ],
+    "name": "Accursed",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "The curses of this land are like two-headed cobras: they bite both ways",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Accursed",
+      "Eclipse"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Attach to a Weapon or ArmorIcon with the Abyss Trait",
+        "type": "unique"
+      },
+      {
+        "name": "That GearIcon becomes Accursed (becomes Power Level IV)",
+        "type": "unique"
+      },
+      {
+        "name": "It loses the Abyss Trait and gains this Attachment's Traits and Reposition 1",
+        "type": "unique"
+      },
+      {
+        "name": "ArmorIcon gains FateIcon FateIcon FateIcon DiscardIcon Wish Armor",
+        "type": "unique"
+      },
+      {
+        "name": "Permanently lose this card and the GearIcon card it is attached to",
+        "flavorName": "End of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "9+",
+        "abilities": [
+          {
+            "name": "Weapon gains Clutch",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2261",
+      "DJ2262",
+      "DJ2263",
+      "DJ2264"
+    ],
+    "name": "Hermes Grappling Hook",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "The major hurdle in adapting the Spartan Hermes Gear for Titan use: scale",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Metal",
+      "Rope",
+      "Hook",
+      "Hermes",
+      "Gear",
+      "Argotech",
+      "Flammable"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Hermes Gear)",
+        "type": "unique"
+      },
+      {
+        "name": "Hermes Move",
+        "x_value": "1",
+        "costs": [
+          "MovementAction"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Hermes Move",
+        "x_value": "2",
+        "costs": [
+          "MovementAction",
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ2343",
+      "DJ2344"
+    ],
+    "name": "Hermes GearIcon Mk. II",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Metal",
+      "Rope",
+      "Hook",
+      "Hermes Gear",
+      "Argotech"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Hermes Gear)",
+        "type": "unique"
+      },
+      {
+        "name": "Hermes Move",
+        "x_value": "4",
+        "costs": [
+          "MovementAction"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "Hermes Move",
+        "x_value": "5",
+        "costs": [
+          "MovementAction",
+          "Fate",
+          "Discard"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ2345",
+      "DJ2346"
+    ],
+    "name": "Seeds of Tomorrow",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Eldertech",
+      "Gaia",
+      "Augment",
+      "Life",
+      "Flammable"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "+1 Will",
+        "type": "unique"
+      },
+      {
+        "name": "Hope",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Inspire",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Motivate",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Ascent Check +1",
+        "type": "unique"
+      },
+      {
+        "name": "BP or AI Suppress",
+        "costs": [
+          "Fate",
+          "Discard"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Midas",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Dicard up to 2 Midas tokens",
+            "costs": [
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ2375"
+    ],
+    "name": "Immortal Armor",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Bronze",
+      "Immortal",
+      "Primordial",
+      "Empire"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "armorDice": [
+        {
+          "amount": 2,
+          "type": "Black"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "You have 1 additional SupportIcon slot",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "9+",
+        "abilities": [
+          {
+            "name": "Superior Chance",
+            "costs": [
+              "Fate",
+              "Exhaust"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2391"
+    ],
+    "name": "Oxygen Destroyer",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Sword",
+      "Fire",
+      "Argotech",
+      "Metal",
+      "Symmachy",
+      "Rhodian"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+7",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Mortal"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Fire",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Hope",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Closing",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Power Re-roll",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Oxygen Heartseeker",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Oxygen Gain +1 PowerIcon",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2534"
+    ],
+    "name": "Heir Apparent",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Divine",
+      "Nemesistech",
+      "Argotech",
+      "Hephaestum",
+      "Helmet"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Turn your MovementActionIcon into a CombatActionIcon, or vice versa",
+        "costs": [
+          "PainToken",
+          "DespairToken"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Gain the Hatred and Fear Condition cards",
             "type": "unique"
           }
         ]
@@ -7770,17 +9275,17 @@
       },
       {
         "name": "Black",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Burden",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Elation",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -7793,7 +9298,7 @@
       },
       {
         "name": "Ambrosia Limit",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -7818,7 +9323,7 @@
         "abilities": [
           {
             "name": "Reach",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -7833,7 +9338,7 @@
           },
           {
             "name": "Elation",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -7844,12 +9349,1119 @@
         "abilities": [
           {
             "name": "Hope",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "EJ2840",
+      "EJ2841"
+    ],
+    "name": "Iapetus Warning System",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Augment",
+      "Metal",
+      "Argotech"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Light",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Grant Advanced Reflex to another Titan",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ2886",
+      "EJ2887"
+    ],
+    "name": "Black Vent Camouflage",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Camo",
+      "Stone",
+      "Ambrosia",
+      "Smoke"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionBonus": "+0*"
+    },
+    "asteriskEffect": "+1 EvasionIcon on an Inkblot or Ambrosia Cloud Terrain tile",
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Move up to 5 spaces and Hide",
+        "timing": "Start of Battle",
+        "type": "unique"
+      },
+      {
+        "name": "Oxygen Place an Inkblot Terrain tile on your space",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Hide",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "name": "Perform a Scan on an adjacent space, adding +2 to the result",
+            "costs": [
+              "Fate",
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2894",
+      "EJ2895"
+    ],
+    "name": "Portable Hardlight Generator",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Tekne",
+      "Argotech",
+      "Orichalcum",
+      "Atlantean"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Light",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Discard 1 Despair token from yourself or an adjacent Titan",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Place a 1x1 Lightwall Terrain tile on an adjacent space",
+            "costs": [
+              "Fate",
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2910",
+      "EJ2911"
+    ],
+    "name": "Transcendance Wreath",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Wreath",
+      "Aret\u00e9",
+      "Moirai",
+      "Bone"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Burden",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Place the top BP card at the bottom of the deck",
+        "costs": [
+          "PainToken",
+          "Exhaust"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Pain",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Dare",
+            "costs": [
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2926",
+      "EJ2927"
+    ],
+    "name": "Pearlstalk Mace",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Siren",
+      "Orichalcum",
+      "Quicksilver",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "White",
+            "White"
+          ]
+        },
+        {
+          "type": [
+            "Power",
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Spiral",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Overbreak",
+        "x_value": "3",
+        "type": "keyword"
+      },
+      {
+        "name": "Daze",
+        "type": "keyword"
+      },
+      {
+        "name": "Cumbersome",
+        "type": "keyword"
+      },
+      {
+        "name": "Stuck",
+        "type": "unique"
+      },
+      {
+        "name": "Liquid Edge",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Break",
+        "x_value": "3",
+        "timing": "Full Miss",
+        "type": "keyword"
+      },
+      {
+        "name": "Gain 1 Despair token",
+        "timing": "Crit Miss",
+        "type": "unique"
+      },
+      {
+        "name": "2 Despair+ Deny",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ2940",
+      "EJ2941"
+    ],
+    "name": "Silver Rebreather",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Siren",
+      "Quicksilver",
+      "Primordial"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Flip an Aether token",
+        "costs": [
+          "PainToken",
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Gain 1 Pain token",
+        "timing": "Crit Evade Fail",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Pain",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Superior Chance",
+            "costs": [
+              "Discard"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2950",
+      "EJ2951"
+    ],
+    "name": "Fireraiser Shield",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Shield",
+      "Fire",
+      "Primordial",
+      "Flesh",
+      "Stone"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+4",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Black"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power",
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Fire",
+        "x_value": "3",
+        "type": "keyword"
+      },
+      {
+        "name": "Pushback",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Defy 1 or Block 1",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Tilt",
+        "costs": [
+          "Fate"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "Discard 1 Ambrosia token",
+        "timing": "Crit Evade",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "5+",
+        "abilities": [
+          {
+            "name": "Dare",
+            "costs": [
+              "AetherToken",
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2952",
+      "EJ2953"
+    ],
+    "name": "Infrared Signaler",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Pistol",
+      "Fire",
+      "Primordial",
+      "Argotech",
+      "Apparatus"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Ranged",
+        "y_value": "1",
+        "x_value": "6",
+        "type": "keyword"
+      },
+      {
+        "name": "Fire",
+        "x_value": "3",
+        "type": "keyword"
+      },
+      {
+        "name": "Defy",
+        "x_value": "1",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "keyword"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "If in Range, ignore Vanish, Fade In, or Black March, or perform a Scan on any Petrified Vent in Range",
+            "costs": [
+              "Fate",
+              "Discard"
+            ],
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2956",
+      "EJ2957"
+    ],
+    "name": "Silverskin",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Siren",
+      "Primordial",
+      "Flesh",
+      "Robes"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "4",
+      "resistances": [
+        {
+          "amount": 2,
+          "type": "Despair"
+        }
+      ]
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "+1 SpeedIcon",
+        "type": "unique"
+      },
+      {
+        "name": "Light",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Bypass",
+        "type": "keyword"
+      },
+      {
+        "name": "Vault",
+        "type": "keyword"
+      },
+      {
+        "name": "Tumble",
+        "type": "keyword"
+      },
+      {
+        "name": "Ambrosia Limit +1",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Despair",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "Superior Chance",
+            "costs": [
+              "Discard"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2958"
+    ],
+    "name": "Mercurial Cryptex",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Argotech",
+      "Augment",
+      "Cryptex",
+      "Siren"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      },
+      {
+        "name": "+2 Precision",
+        "type": "unique"
+      },
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "Fate CombatAction Gain a Combat Action token",
+        "flavorName": "Future Sync",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "name": "Advanced Reflex",
+            "costs": [
+              "AetherToken",
+              "Exhaust"
+            ],
+            "timing": "Reaction",
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2963"
+    ],
+    "name": "Light of Eos",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Spear",
+      "Ship",
+      "Metal",
+      "Hephaestum"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Reach",
+        "x_value": "2",
+        "type": "keyword"
+      },
+      {
+        "name": "Overbreak",
+        "x_value": "X",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Light Y",
+        "type": "unique"
+      },
+      {
+        "name": "Y is the number of Despair tokens you have",
+        "type": "unique"
+      },
+      {
+        "name": "ComplicatedAction Piercing Rush: Perform Rush, X is the amount of spaces you move",
+        "type": "unique"
+      },
+      {
+        "name": "Tilt",
+        "timing": "Crit Chance",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ2964"
+    ],
+    "name": "Eternal Vow",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Atlantean",
+      "Orichalcum",
+      "Relief",
+      "Hammer"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+4",
+      "power": [
+        {
+          "type": []
+        },
+        {
+          "type": [
+            "Mortal"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": {},
+    "asteriskEffect": "X is equal to 1 plus the number of Despair tokens you have",
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Spiral",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Truth X",
+        "type": "unique"
+      },
+      {
+        "name": "Daze",
+        "type": "keyword"
+      },
+      {
+        "name": "Commit",
+        "type": "keyword"
+      },
+      {
+        "name": "Stuck",
+        "type": "unique"
+      },
+      {
+        "name": "You may gain 1 Despair token",
+        "timing": "Start of Battle",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Despair",
+        "value": "3+",
+        "abilities": [
+          {
+            "name": "BP Suppress",
+            "costs": [
+              "Fate",
+              "AetherToken"
+            ],
+            "type": "keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2970"
+    ],
+    "name": "Veilwrappings",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Flesh",
+      "Cloth",
+      "CLoak",
+      "Void"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {
+      "evasionRerolls": "4"
+    },
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Bypass",
+        "type": "keyword"
+      },
+      {
+        "name": "Ignore Skitter",
+        "type": "unique"
+      },
+      {
+        "name": "Hide",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
+        "type": "keyword"
+      },
+      {
+        "name": "When Hidden, gain +2 SpeedIcon",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Aether",
+        "value": "2+",
+        "abilities": [
+          {
+            "name": "Primordial Bypass",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ2977"
+    ],
+    "name": "Headdress of the Deep",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Ambrosia",
+      "Olympian"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Husk",
+        "type": "unique"
+      },
+      {
+        "name": "You cannot die from Despair",
+        "type": "unique"
+      },
+      {
+        "name": "Abysswalk",
+        "costs": [
+          "AmbrosiaToken",
+          "AmbrosiaToken"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "AdversaryIcon",
+        "timing": "Crit Miss",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ2992"
+    ],
+    "name": "Typhonic Cryptex",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Augment",
+      "Cryptex",
+      "Typhonic",
+      "Divine",
+      "Eldertech"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      },
+      {
+        "name": "Precision +2",
+        "type": "unique"
+      },
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "Fate Exhaust Each other Titan gains 1 Pain token and moves up to 3 spaces",
+        "flavorName": "Enslave",
+        "type": "unique"
+      },
+      {
+        "name": "This is considered involuntary movement",
+        "type": "unique"
+      },
+      {
+        "name": "Grant Superior Reflex to anotehr Titan",
+        "costs": [
+          "AetherToken",
+          "Exhaust"
+        ],
+        "timing": "Reaction",
+        "type": "unique"
+      },
+      {
+        "name": "That Titan gains 1 Pain token",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ2995"
+    ],
+    "name": "Big Boy Mazey",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 18",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Story",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Dog",
+      "Labyrinth",
+      "Pug",
+      "Cherished Companion"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "+1 to Judgement Tests",
+        "type": "unique"
+      },
+      {
+        "name": "When you are about to die from the Fear or Dread Condition cards, ignore this death",
+        "costs": [
+          "Discard"
+        ],
+        "type": "unique"
+      },
+      {
+        "name": "During an Awakening Roll, add +1 to the result",
+        "costs": [
+          "Discard"
+        ],
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -7864,7 +10476,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crit Loot",
-    "flavor": "",
+    "flavor": "If only the soul could be so easily shielded",
     "slot": "Support",
     "transformsInto": null,
     "traits": [
@@ -7929,7 +10541,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crit Loot",
-    "flavor": "",
+    "flavor": "Stillborn of the Smog",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -7959,17 +10571,17 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Black",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -7978,7 +10590,7 @@
       },
       {
         "name": "Pull",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -8012,7 +10624,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crit Loot",
-    "flavor": "",
+    "flavor": "The Smokestack Tomorrow became our Today",
     "slot": "Armor",
     "transformsInto": null,
     "traits": [
@@ -8108,18 +10720,18 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 3,
-        "x_value": 4,
+        "y_value": "3",
+        "x_value": "4",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
         "name": "Assist",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8189,8 +10801,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 6,
+        "y_value": "2",
+        "x_value": "6",
         "type": "keyword"
       },
       {
@@ -8199,17 +10811,17 @@
       },
       {
         "name": "Spiral",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Pull",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Reposition",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8263,7 +10875,7 @@
     "abilities": [
       {
         "name": "Black",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8327,7 +10939,7 @@
     "abilities": [
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8391,11 +11003,10 @@
     "defensiveStatistics": {
       "evasionRerolls": "2",
       "resistances": [
-        [
-          {
-            "type": "Despair 2"
-          }
-        ]
+        {
+          "amount": 2,
+          "type": "Despair"
+        }
       ]
     },
     "asteriskEffect": null,
@@ -8481,22 +11092,22 @@
     "abilities": [
       {
         "name": "Ambrosia Limit",
-        "x_value": -1,
+        "x_value": "-1",
         "type": "keyword"
       },
       {
         "name": "Reach",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
         "name": "Closing",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Carving",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -8594,7 +11205,7 @@
         "abilities": [
           {
             "name": "Reinforce",
-            "x_value": 1,
+            "x_value": "1",
             "costs": [
               "Fate"
             ],
@@ -8644,8 +11255,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 3,
-        "x_value": 4,
+        "y_value": "3",
+        "x_value": "4",
         "type": "keyword"
       },
       {
@@ -8731,12 +11342,12 @@
     "abilities": [
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8800,8 +11411,8 @@
     "abilities": [
       {
         "name": "Ranged",
-        "y_value": 2,
-        "x_value": 3,
+        "y_value": "2",
+        "x_value": "3",
         "type": "keyword"
       },
       {
@@ -8820,7 +11431,7 @@
         "abilities": [
           {
             "name": "Overbreak",
-            "x_value": 2,
+            "x_value": "2",
             "type": "keyword"
           }
         ]
@@ -8870,7 +11481,7 @@
     "abilities": [
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -8935,7 +11546,7 @@
     "abilities": [
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -8947,7 +11558,7 @@
       },
       {
         "name": "Block",
-        "x_value": 1,
+        "x_value": "1",
         "costs": [
           "Fate",
           "Exhaust"
@@ -9086,12 +11697,12 @@
       },
       {
         "name": "Power Re-roll",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -9164,7 +11775,7 @@
       },
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -9173,7 +11784,7 @@
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -9238,17 +11849,17 @@
       },
       {
         "name": "Reach",
-        "x_value": 3,
+        "x_value": "3",
         "type": "keyword"
       },
       {
         "name": "Pull",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -9259,7 +11870,7 @@
         "abilities": [
           {
             "name": "Reposition",
-            "x_value": 1,
+            "x_value": "1",
             "type": "keyword"
           }
         ]
@@ -9312,12 +11923,12 @@
       },
       {
         "name": "Reposition",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
         "name": "Break",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -9394,12 +12005,12 @@
       },
       {
         "name": "Auto-break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       }
     ],
@@ -9456,13 +12067,13 @@
       },
       {
         "name": "Ranged",
-        "y_value": 4,
-        "x_value": 6,
+        "y_value": "4",
+        "x_value": "6",
         "type": "keyword"
       },
       {
         "name": "Opening",
-        "x_value": 1,
+        "x_value": "1",
         "type": "keyword"
       },
       {
@@ -9684,17 +12295,17 @@
       },
       {
         "name": "Reach",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Auto-break",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
         "name": "Fire",
-        "x_value": 2,
+        "x_value": "2",
         "type": "keyword"
       },
       {
@@ -9786,5 +12397,92 @@
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "DJ2225",
+      "DJ2226",
+      "DJ2227",
+      "DJ2228"
+    ],
+    "name": "Suntanned Fists",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": "Stock Cryptex",
+    "traits": [
+      "Argotech",
+      "Cryptex"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": {},
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "name": "Frontlines",
+        "type": "keyword"
+      },
+      {
+        "name": "Titan Attachment",
+        "type": "unique"
+      },
+      {
+        "name": "Restricted (Cryptex)",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [],
+    "cardIDs2": [
+      "DJ2225",
+      "DJ2226",
+      "DJ2227",
+      "DJ2228"
+    ],
+    "name2": "Stock Cryptex",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle IV",
+    "cardSize2": "Mini American",
+    "faq2": "",
+    "errata2": "",
+    "acquisition2": "Other",
+    "flavor2": "",
+    "slot2": "Attachment",
+    "transformsInto2": "Suntanned Fists",
+    "traits2": [
+      "Flesh"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "2",
+      "precision": "2",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics2": {},
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "name": "This item can be used as a OneHandedIcon Weapon, with the following modifiers: -1 d10Icon",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities2": []
   }
 ]

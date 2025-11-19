@@ -22,7 +22,7 @@ KEYWORDS_WITH_COST_NAME = {
 }
 
 COSTS = {
-    "Fate", "Danger", "Exhaust", "DiscardCost", "MidasToken", "Energy", "AmbrosiaToken", "CombatAction", "MovementAction", "FireToken"
+    "Fate", "Danger", "Exhaust", "DiscardCost", "MidasToken", "Energy", "AmbrosiaToken", "CombatAction", "MovementAction", "FireToken", "DespairToken", "PainToken", "AetherToken"
 }
 
 TIMINGS = {

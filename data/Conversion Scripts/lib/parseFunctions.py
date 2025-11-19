@@ -37,20 +37,17 @@ def parse_power(power_str):
     return powers
 
 def parse_armor(armor_str):
-    armor = []
-    for part in armor_str.split(". "):
-        match = re.match(r"(\d+)\s*(\w+)", part)
-        if match:
-            amount, die_type = match.groups()
-            armor.append({
-                "amount": int(amount),
-                "type": die_type
-            })
-        else:
-            armor.append({
-                "type": part
-            })
-    return armor
+    match = re.match(r"(\d+)\s*(\w+)", armor_str)
+    if match:
+        amount, die_type = match.groups()
+        return {
+            "amount": int(amount),
+            "type": die_type
+        }
+    else:
+        return {
+            "type": armor_str
+        }
 
 def parse_abilities(ability_box):
     """Parses the ability box."""
@@ -121,10 +118,10 @@ def parse_abilities(ability_box):
             y_match = y_pattern.match(x_value)
             y, x = y_match.groups() if y_match else (None, x_value)
             if y_match:
-                ability_json["y_value"] = int(y)
-                ability_json["x_value"] = int(x)
+                ability_json["y_value"] = y
+                ability_json["x_value"] = x
             else:
-                ability_json["x_value"] = int(x)
+                ability_json["x_value"] = x
         if costs != []:
             ability_json["costs"] = costs
         if timing != "":

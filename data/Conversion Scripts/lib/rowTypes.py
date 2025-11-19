@@ -177,7 +177,7 @@ def gear_row(row):
     defensive_statistics = {}
     if row["Evasion Rerolls"]: defensive_statistics["evasionRerolls"] = row["Evasion Rerolls"]
     if row["Evasion Bonus"]: defensive_statistics["evasionBonus"] = row["Evasion Bonus"]
-    if row["Armor Dice"]: defensive_statistics["armorDice"] = parse_armor(row["Armor Dice"])
+    if row["Armor Dice"]: defensive_statistics["armorDice"] = list(map(parse_armor, row["Armor Dice"].split(". ")))
     if row["Resistances"]: defensive_statistics["resistances"] = list(map(parse_armor, row["Resistances"].split(". ")))
 
     abilities, gated_abilities = parse_abilities(row["Ability Box"])
