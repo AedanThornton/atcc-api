@@ -1412,6 +1412,10 @@
       {
         "name": "Abyss-tainted",
         "type": "unique"
+      },
+      {
+        "name": "The Abyss Calls",
+        "type": "unique"
       }
     ],
     "gatedAbilities": []
@@ -3057,6 +3061,554 @@
       }
     ],
     "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EK2592"
+    ],
+    "name": "Feareater",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "subtitle": null,
+    "titanPower": "Red + PowerIcon",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Pull",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pull",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "PolePosition"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Black",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Pull",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          },
+          {
+            "name": "Black",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          },
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Born in the Dark",
+        "type": "unique"
+      },
+      {
+        "name": "Ur-Tainted",
+        "type": "unique"
+      },
+      {
+        "name": "Fear is the Mind Killer",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EK2593"
+    ],
+    "name": "Helldiver",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "subtitle": null,
+    "titanPower": "Black",
+    "speed": "4",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          },
+          {
+            "name": "Taint",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          },
+          {
+            "name": "Taint",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Diversion"
+          },
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Taint",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          },
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          },
+          {
+            "name": "Taint",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Rouse",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Elation",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "AISuppress"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Overbreak",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Elation",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-4"
+      },
+      {
+        "type": "Major",
+        "range": "5-8"
+      },
+      {
+        "type": "Grave",
+        "range": "9-11"
+      },
+      {
+        "type": "Obol",
+        "range": "12+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Auto-black",
+        "x_value": "1",
+        "type": "keyword"
+      },
+      {
+        "name": "Ambrosia Limit",
+        "x_value": "6",
+        "type": "keyword"
+      },
+      {
+        "name": "Cyclopean Might",
+        "type": "unique"
+      },
+      {
+        "name": "Silver Strain",
+        "type": "unique"
+      },
+      {
+        "name": "Aether Lamp",
+        "type": "unique"
+      },
+      {
+        "name": "Electromagnetic Shield",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EK2594"
+    ],
+    "name": "Trespasser",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "subtitle": null,
+    "titanPower": "Black",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Reposition",
+            "x_value": "1"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reposition",
+            "x_value": "1"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reposition",
+            "x_value": "1"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "PolePosition"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Hope",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reposition",
+            "x_value": "1"
+          },
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Heartseeker"
+          },
+          {
+            "name": "Hope",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-5"
+      },
+      {
+        "type": "Major",
+        "range": "6-9"
+      },
+      {
+        "type": "Grave",
+        "range": "10-12"
+      },
+      {
+        "type": "Obol",
+        "range": "13+"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Auto-Hope 1",
+        "type": "unique"
+      },
+      {
+        "name": "Ambrosia Limit",
+        "x_value": "5",
+        "type": "keyword"
+      },
+      {
+        "name": "Despair Resilience 1",
+        "type": "unique"
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "8+",
+        "abilities": [
+          {
+            "name": "Deny",
+            "type": "unique"
+          },
+          {
+            "name": "Silver Strain",
+            "type": "unique"
+          },
+          {
+            "name": "Abyss-Tainted",
+            "type": "unique"
+          },
+          {
+            "name": "To Dark We Will at Last Return",
+            "type": "unique"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
