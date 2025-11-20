@@ -6134,7 +6134,13 @@
           ]
         },
         {
-          "type": []
+          "type": [
+            "Black"
+          ],
+          "gate": {
+            "type": "Full Hit"
+          },
+          "plus": true
         }
       ]
     },
@@ -6300,7 +6306,13 @@
           "plus": true
         },
         {
-          "type": []
+          "type": [
+            "Red"
+          ],
+          "gate": {
+            "type": "Full Hit"
+          },
+          "plus": true
         }
       ]
     },
@@ -9203,8 +9215,8 @@
       {
         "name": "Turn your MovementActionIcon into a CombatActionIcon, or vice versa",
         "costs": [
-          "PainToken",
-          "DespairToken"
+          "Pain",
+          "Despair"
         ],
         "type": "unique"
       }
@@ -9567,7 +9579,7 @@
       {
         "name": "Place the top BP card at the bottom of the deck",
         "costs": [
-          "PainToken",
+          "Pain",
           "Exhaust"
         ],
         "type": "unique"
@@ -9715,7 +9727,7 @@
       {
         "name": "Flip an Aether token",
         "costs": [
-          "PainToken",
+          "Pain",
           "Fate",
           "Exhaust"
         ],
@@ -9835,7 +9847,7 @@
           {
             "name": "Dare",
             "costs": [
-              "AetherToken",
+              "Aether",
               "Discard"
             ],
             "type": "unique"
@@ -10049,7 +10061,7 @@
           {
             "name": "Advanced Reflex",
             "costs": [
-              "AetherToken",
+              "Aether",
               "Exhaust"
             ],
             "timing": "Reaction",
@@ -10160,7 +10172,10 @@
       "precision": "+4",
       "power": [
         {
-          "type": []
+          "type": [
+            "X",
+            "Red"
+          ]
         },
         {
           "type": [
@@ -10212,7 +10227,7 @@
             "name": "BP Suppress",
             "costs": [
               "Fate",
-              "AetherToken"
+              "Aether"
             ],
             "type": "keyword"
           }
@@ -10325,8 +10340,8 @@
       {
         "name": "Abysswalk",
         "costs": [
-          "AmbrosiaToken",
-          "AmbrosiaToken"
+          "Ambrosia",
+          "Ambrosia"
         ],
         "type": "unique"
       },
@@ -10396,7 +10411,7 @@
       {
         "name": "Grant Superior Reflex to anotehr Titan",
         "costs": [
-          "AetherToken",
+          "Aether",
           "Exhaust"
         ],
         "timing": "Reaction",

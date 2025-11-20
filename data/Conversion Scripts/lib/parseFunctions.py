@@ -4,9 +4,9 @@ from lib.staticVars import *
 def parse_power(power_str):
     powers = []
     for part in power_str.split(". "):
-        gate_match = re.match(r"(\w+ \d+\+)\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
-        hits_match = re.match(r"(\d+\+?) Hit[s]?\s*(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
-        match = re.match(r"(\+?)(\d+\s*\w+(?:,\s*\d+\s*\w+)*)", part)
+        gate_match = re.match(r"(\w+ \d+\+)\s*(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
+        hits_match = re.match(r"(\d?\+?)\s*(?:Full\s?)?Hit[s]?\s*(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
+        match = re.match(r"(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
 
         gate_type, plus, hits, dice_string = "", False, "", ""
         if gate_match:
@@ -20,15 +20,21 @@ def parse_power(power_str):
         if dice_string:
             for dice in dice_string.split(", "):
                 count, die_type = dice.split(" ")
-                for x in range(0,int(count)):
+                if "X" in count:
+                    dice_list.append("X")
                     dice_list.append(die_type)
+                else:
+                    for x in range(0,int(count)):
+                        dice_list.append(die_type)
 
         power = {"type": dice_list}
-        if (gate_match or hits_match): 
+        if (gate_match):
+            power["gate"] = {"type": gate_type.split()[0], "value": gate_type.split()[1]}
+        if (hits_match): 
             if (hits):
                 power["gate"] = {"type": "Hits", "value": hits}
             else:
-                power["gate"] = {"type": gate_type.split()[0], "value": gate_type.split()[1]}
+                power["gate"] = {"type": "Full Hit"}
         if (plus):
             power["plus"] = True
 
@@ -82,8 +88,8 @@ def parse_abilities(ability_box):
             words.remove(words[0])
         for word in words[:]:
             if word in COSTS:
-                if word == "DiscardCost":
-                    costs.append("Discard")
+                if word.endswith("Cost"):
+                    costs.append(word[:-4])
                 else:
                     costs.append(word)
                 words.remove(word)
