@@ -1381,10 +1381,7 @@
       },
       {
         "name": "BP Suppress",
-        "costs": [
-          "Fate"
-        ],
-        "timing": "Wound",
+        "flavorName": "Fate Wound",
         "type": "keyword"
       },
       {
@@ -2584,10 +2581,7 @@
       },
       {
         "name": "BP Suppress",
-        "costs": [
-          "Fate"
-        ],
-        "timing": "Wound",
+        "flavorName": "Fate Wound",
         "type": "keyword"
       }
     ],
@@ -3982,10 +3976,7 @@
       },
       {
         "name": "BP Suppress",
-        "costs": [
-          "Fate"
-        ],
-        "timing": "Wound",
+        "flavorName": "Fate Wound",
         "type": "keyword"
       }
     ],
@@ -5181,10 +5172,7 @@
       },
       {
         "name": "BP Suppress",
-        "costs": [
-          "Fate"
-        ],
-        "timing": "Wound",
+        "flavorName": "Fate Wound",
         "type": "keyword"
       }
     ],
@@ -5493,11 +5481,7 @@
       },
       {
         "name": "Guess the AT value of the top BP card and then look at it",
-        "flavorName": "Scry",
-        "costs": [
-          "Fate",
-          "Energy"
-        ],
+        "flavorName": "Fate Energy Scry",
         "type": "unique"
       },
       {
@@ -5636,7 +5620,8 @@
         "type": "keyword"
       },
       {
-        "name": "Cyclopes: Diplomacy -1",
+        "name": "Diplomacy -1",
+        "flavorName": "Cyclopes",
         "timing": "Crit Miss",
         "type": "unique"
       }
@@ -5916,7 +5901,10 @@
         "value": "8+",
         "abilities": [
           {
-            "name": "DiscardCost 1 Ambrosia token",
+            "name": "1 Ambrosia token",
+            "costs": [
+              "Discard"
+            ],
             "timing": "Crit Evade",
             "type": "unique"
           }
@@ -7313,10 +7301,7 @@
       },
       {
         "name": "Gain a MovementActionIcon",
-        "flavorName": "Semi Sync",
-        "costs": [
-          "Fate"
-        ],
+        "flavorName": "Fate Semi Sync",
         "type": "unique"
       },
       {
@@ -8017,10 +8002,7 @@
       },
       {
         "name": "Gain a MovementActionIcon",
-        "flavorName": "Semi Sync",
-        "costs": [
-          "Fate"
-        ],
+        "flavorName": "Fate Semi Sync",
         "type": "unique"
       },
       {
@@ -8592,9 +8574,12 @@
         "type": "keyword"
       },
       {
-        "name": "Fate Precise",
+        "name": "Precise",
+        "costs": [
+          "Fate"
+        ],
         "timing": "Sunstarved",
-        "type": "unique"
+        "type": "keyword"
       }
     ],
     "gatedAbilities": [
@@ -10048,8 +10033,12 @@
         "type": "keyword"
       },
       {
-        "name": "Fate CombatAction Gain a Combat Action token",
+        "name": "Gain a Combat Action token",
         "flavorName": "Future Sync",
+        "costs": [
+          "Fate",
+          "CombatAction"
+        ],
         "type": "unique"
       }
     ],
@@ -10400,8 +10389,12 @@
         "type": "keyword"
       },
       {
-        "name": "Fate Exhaust Each other Titan gains 1 Pain token and moves up to 3 spaces",
+        "name": "Each other Titan gains 1 Pain token and moves up to 3 spaces",
         "flavorName": "Enslave",
+        "costs": [
+          "Fate",
+          "Exhaust"
+        ],
         "type": "unique"
       },
       {
@@ -11505,10 +11498,7 @@
       },
       {
         "name": "Place a negative SpeedIcon modifier token on the Primordial Sheet",
-        "costs": [
-          "Exhaust"
-        ],
-        "timing": "Wound",
+        "flavorName": "Exhaust Wound",
         "type": "unique"
       },
       {

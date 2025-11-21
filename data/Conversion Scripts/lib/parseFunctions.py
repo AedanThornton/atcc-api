@@ -86,6 +86,13 @@ def parse_abilities(ability_box):
         if words[0] in TIMINGS:
             timing = words[0]
             words.remove(words[0])
+        if len(colon_timings) > 1:
+            if colon_timings[0] in TIMINGS:
+                timing = colon_timings[0]
+                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
+            elif len(colon_timings[0]) < 20:
+                flavorName = colon_timings[0]
+                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
         for word in words[:]:
             if word in COSTS:
                 if word.endswith("Cost"):
