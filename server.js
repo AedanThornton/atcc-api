@@ -148,6 +148,7 @@ app.get('/api/filter-options', (req, res) => {
   }
 });
 
+// --- Get specific card by ID ---
 app.get('/api/card/:cardID', (req, res) => {
   const requestedID = req.params.cardID;
   console.log(`Request received for card ID: ${requestedID}`);

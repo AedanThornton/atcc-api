@@ -31,7 +31,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -81,7 +81,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -131,7 +131,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -223,7 +223,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "4",
@@ -277,7 +277,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -456,7 +456,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -559,7 +559,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -769,7 +769,7 @@
           "gateType": "Fate",
           "gateValue": "7+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "3",
@@ -823,7 +823,7 @@
           "gateType": "Fate",
           "gateValue": "8+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -868,7 +868,7 @@
           "gateType": "Fate",
           "gateValue": "7+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -922,7 +922,7 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10"
+        "effect": "+1 d10Icon"
       }
     ],
     "dice": "2",
@@ -937,6 +937,1073 @@
     "afterAttackEffects": [
       {
         "effect": "Knockback 5"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0464"
+    ],
+    "name": "Ram",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0465"
+    ],
+    "name": "Ram & Drag",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "2 DangerIcon Instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockback 6"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0466"
+    ],
+    "name": "Stomp",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Knocked down Titan in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "2 DangerIcon Instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0467"
+    ],
+    "name": "Headbutt",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0468"
+    ],
+    "name": "Tunnel Vision",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "2 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0469"
+    ],
+    "name": "Rampage",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0470"
+    ],
+    "name": "Supercharger",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "If the labyrinthauros moved through at least 1 Labyrinth tile, 3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0471"
+    ],
+    "name": "Encasen",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range, in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in range, in sight"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "2 DangerIcon instead"
+      },
+      {
+        "effect": "For each hit, Labyrinth 1 (if possible)"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Perform Signature"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0472"
+    ],
+    "name": "Roundhouse Kick",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Adjacent Titans"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0473"
+    ],
+    "name": "Gnaw",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Knocked down Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0474"
+    ],
+    "name": "Frequency Charge",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "2 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Labyrinth 2 instead"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0475"
+    ],
+    "name": "Otherworldly Ram",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Labyrinth 2 instead"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0476"
+    ],
+    "name": "Lightspeed Ram",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "If the labyrinthauros moved through at least 1 Labyrinth tile, 3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0477"
+    ],
+    "name": "Minotaur Logic",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "Gain a Fated Mnemos card"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Gain the Fear Condition card"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0478"
+    ],
+    "name": "Bow To The Labyrinth",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "CourageIcon Courage/WillIcon Will"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 7+ Argo loses -1 CrewIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0479"
+    ],
+    "name": "Home Run",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "If DangerIcon was dealt, repeat Home Run against a Titan that has not been attacked this Round"
+      },
+      {
+        "effect": "Repeat until all Titans have been attacked or no DangerIcon was dealt"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0480"
+    ],
+    "name": "Hone In",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0481"
+    ],
+    "name": "True Horn Of The Other Side",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Knocked down Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "Draw an Obol instead of a regular Trauma Draw"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      },
+      {
+        "WoO": true,
+        "effect": " Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
       }
     ]
   },
@@ -965,24 +2032,4526 @@
         "target": "Furthest Titan in sight, in range"
       }
     ],
-    "preActionWoO": false,
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Trample"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0483"
+    ],
+    "name": "Home Run",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Routine",
+    "usedFor": "Labyrinthauros",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "",
+    "attackType": [
+      "Sequential"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "If DangerIcon was dealt, repeat Routine against a Titan that has not been attacked this Round"
+      },
+      {
+        "effect": "Repeat until all Titans have been attacked or no DangerIcon was dealt"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0522"
+    ],
+    "name": "Right Tentacle Swipe",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 8 to the left"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0523"
+    ],
+    "name": "Left Tentacle Swipe",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 8 to the right"
+      },
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0524"
+    ],
+    "name": "Foretentacle Smash",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0525"
+    ],
+    "name": "Tentacle Lash",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 8"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0526"
+    ],
+    "name": "Small Pyramid",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "4",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0527"
+    ],
+    "name": "Maze Breath",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 2 Despair tokens.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon and 2 FateIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Gain the Fear Condition card"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0528"
+    ],
+    "name": "Tentacle Toss",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0529"
+    ],
+    "name": "Tentacle Strangle",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0530"
+    ],
+    "name": "Pyramid",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "4",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0531"
+    ],
+    "name": "Foretentacle Quad",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 2 Despair tokens.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0532"
+    ],
+    "name": "Submerge",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on Labyrinth tiles"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "3 DangerIcon instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Remove Labyrinth tiles under Targets"
+      },
+      {
+        "WoO": true,
+        "effect": " Perform Routine"
+      },
+      {
+        "WoO": true,
+        "effect": " Move adjacent to the furthest Titan"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0533"
+    ],
+    "name": "Maze Light",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "6",
+    "consequences": [
+      {
+        "effect": "If hit, draw an Obol"
+      },
+      {
+        "WoO": true,
+        "effect": " Gain the Fear Condition card"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0534"
+    ],
+    "name": "Starfish Headbutt",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "5",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon and 1 FateIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0535"
+    ],
+    "name": "Mazerain",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on Labyrinth tiles"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Place a Labyrinth tile under the Target (for each placement choose a shape currently marked on the Labyrinth track, then move the token to the next space)"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Perform Routine"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0536"
+    ],
+    "name": "Giant Pyramid",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 Despair token"
+      }
+    ],
+    "dice": "4",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0537"
+    ],
+    "name": "Great Submerge",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on Labyrinth tiles"
+      }
+    ],
+    "preAction": "WoO Gain 1 Despair token.",
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "If hit, draw an Obol"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      },
+      {
+        "WoO": true,
+        "effect": " gain +1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Remove all Labyrinth tiles"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0538"
+    ],
+    "name": "Emerge",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 2 Despair tokens.",
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Fate6+ 4 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Place a Labyrinth tile under each Titan in Zone 2 (for each placement choose a shape currently marked on the Labyrinth track, then move the token to the next space)"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0539"
+    ],
+    "name": "Devour",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preAction": "WoO Gain 2 Despair tokens.",
+    "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
       "Regular"
     ],
     "attackBanners": [],
-    "dice": "",
-    "difficulty": "",
+    "dice": "2",
+    "difficulty": "9",
     "consequences": [
       {
-        "effect": "Each hit deals 1 DangerIcon"
+        "effect": "If hit, raise DangerIcon to 9 and resolve a Trauma Draw"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "8+"
+        },
+        "effect": "You die instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Gain the Fear Condition card"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AR0540"
+    ],
+    "name": "Tentacle Strike",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "Alpha Temenos",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan not in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Labyrinth 1"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0725"
+    ],
+    "name": "Throwing Punches",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "Exhaust your ArmorIcon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Target with the most DangerIcon suggers Knockback 7 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0726"
+    ],
+    "name": "Basher",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "If the Attack hits, it deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pushback 2"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0727"
+    ],
+    "name": "Head To Head",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "If the Attack hits, it deals 4 DangerIcon"
+      },
+      {
+        "effect": "Gain +1 RageIcon"
       }
     ],
     "preAfterAttackWoO": false,
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "effect": "Trample"
+        "effect": "Pushback 2"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0728"
+    ],
+    "name": "Maul Hook",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "Exhaust your ArmorIcon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "effect": "Gain +1 RageIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 7 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0729"
+    ],
+    "name": "Chain Whip",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "6",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "Exhaust your ArmorIcon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "One hit deals 1 DangerIcon; Two hits deal 3 DangerIcon; Three hits deal 5 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pull 2 per hit"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0730"
+    ],
+    "name": "Monstrous Bite",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Level",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "1",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "Gain +1 Rage"
+      },
+      {
+        "effect": "If the Attack hits, it deals 5 DangerIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0731"
+    ],
+    "name": "Knockout Punch",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Exhaust your ArmorIcon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain +1 RageIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0732"
+    ],
+    "name": "Rage Uppercut",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain +1 RageIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+2 RageIcon instead"
+      },
+      {
+        "effect": "If the Attack hits, it deals as many DangerIcon as you have RageIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Forced Vault"
+      },
+      {
+        "effect": "Discard Footwear GearIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0733"
+    ],
+    "name": "Ground Zero",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Target with the most DangerIcon suffers Knockback 8 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0734"
+    ],
+    "name": "Ball Trick",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "6",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Level",
+          "gateValue": "4+"
+        },
+        "effect": "Range +2"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Exhaust your Weapon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pull 3 per hit"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0735"
+    ],
+    "name": "Chain Garrote",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain +2 RageIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "If DangerIcon was dealt, Pull 4"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0736"
+    ],
+    "name": "Figurehead Skewer",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain +2 RageIcon"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pushback 2"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0737"
+    ],
+    "name": "Drop The Ball",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "1",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Exhaust all your GearIcon"
+      },
+      {
+        "effect": "If the Attack hits, it deals 7 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Target with the most DangerIcon suffers Knockback 10 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0738"
+    ],
+    "name": "Old Ball And Chain",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "7",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Level",
+          "gateValue": "4+"
+        },
+        "effect": "Range +2"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Exhaust all your GearIcon"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pull 3 per hit"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0739"
+    ],
+    "name": "Gutmaul",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain +1 RageIcon per hit"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Pushback 3"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0740"
+    ],
+    "name": "Ghostpunch",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "One hit deals 5 DangerIcon"
+      },
+      {
+        "effect": "Two hits, draw an Obol"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Exhaust all your GearIcon"
+      },
+      {
+        "effect": "Forced Vault"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0741"
+    ],
+    "name": "Headshot",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "1",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "If the Attack hits and you have a Helm or Headgear, it deals 5 DangerIcon and you discard that GearIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      },
+      {
+        "effect": "Gain +2 RageIcon"
+      },
+      {
+        "effect": "Knockback 15 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0742"
+    ],
+    "name": "Compactor",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Exhaust all your GearIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Forced Vault"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0743"
+    ],
+    "name": "Maul Smash",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "Cyclonus",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 7 towards the closest short Board Edge"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0781"
+    ],
+    "name": "Shamble",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia tokens"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0782"
+    ],
+    "name": "Slither",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia tokens"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Hidden Spartan Warriors attack you from the temple"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0783"
+    ],
+    "name": "Palloralgor",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range",
+      "Simultaneous"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0784"
+    ],
+    "name": "Statue Swing",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Perform Signature"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0785"
+    ],
+    "name": "Goat's Spasm",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Rear"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0786"
+    ],
+    "name": "Ambrosia Expulsion",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range",
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBTBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "2 Ambrosia tokens instead"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0787"
+    ],
+    "name": "Putrefaction",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "5",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token per hit"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0788"
+    ],
+    "name": "Decomposition",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "4",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia tokens"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "For each DangerIcon dealt, exhaust 1 GearIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0789"
+    ],
+    "name": "Temple Fall",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Perform Signature"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0790"
+    ],
+    "name": "Livor Pooling",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWAAAWWWWWWWWWWW",
+      "WWWWWWWWWWWAAAWWWWWWWWWWW",
+      "WWWWWWWWWWWAAAWWWWWWWWWWW",
+      "WWWWWWWWAAAPPPAAAWWWWWWWW",
+      "WWWWWWWWAAAPPPAAAWWWWWWWW",
+      "WWWWWWWWAAAPPPAAAWWWWWWWW",
+      "WWWWWWWWWWWAAAWWWWWWWWWWW",
+      "WWWWWWWWWWWAAAWWWWWWWWWWW",
+      "WWWWWWWWWWWAAAWWWWWWWWWWW"
+    ],
+    "dice": "2",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token per hit"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Place all Ambrosia Trail tiles around the Chimera (adjacent, one on each side)"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0791"
+    ],
+    "name": "Lion's Rigor",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "3 DangerIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "If 3 or more DangerIcon was dealt, gain the Paralyzed Condition card"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0792"
+    ],
+    "name": "Muddied Ambrosia Barrage",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range",
+      "Zone"
+    ],
+    "rangeSize": "Unlimited",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBTBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "2",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL instead"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0793"
+    ],
+    "name": "Absorption",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token per hit"
+      },
+      {
+        "effect": "You are Absorbed"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0794"
+    ],
+    "name": "Skeletonization",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token per hit"
+      },
+      {
+        "effect": "Discard one GearIcon per hit"
+      },
+      {
+        "effect": "If you cannot discard a GearIcon card, you die"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0795"
+    ],
+    "name": "Acropolis Collapse",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWPPPBBBWWWWWWWWW",
+      "WWWWWWWWWWPPPBBBWWWWWWWWW",
+      "WWWWWWWWWWPPPBBBWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "5",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Perform Signature"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0796"
+    ],
+    "name": "Snake's Kiss",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "3",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "Perform Routine"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0797"
+    ],
+    "name": "Fossilization",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan on Vantage Point"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token per hit"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "For each hit, gain 1 negative Precision token and 1 negative Evasion token"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0798"
+    ],
+    "name": "Ambrosia Hail",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "Unlimited",
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBTBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia tokens"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0799"
+    ],
+    "name": "Trudge",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan not in Rear, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Pushback",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "7",
+    "consequences": [
+      {
+        "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0800"
+    ],
+    "name": "Snakes And Ladders",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Routine",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on Vantage Points"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Chimera moves adjacent to the closest Titan with unlimited Speed and performs Signature"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR0801"
+    ],
+    "name": "Three-Headed Monstrosity",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Special Attack",
+    "usedFor": "Chimera Metastasios",
+    "flavor": "",
+    "level": "X",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "If 3+ DangerIcon was dealth, Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1070"
+    ],
+    "name": "Lot Of The Weak",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "\"Come, I will only use my <b>left</b> hand!\"\\nArms akimbo, The Nietzschean thows his head <b>back</b> and laughs at you",
+    "level": "0",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "",
+    "difficulty": "",
+    "consequences": [
+      {
+        "effect": "<i>The Nietzschean looks at you with contempt and with a dismissive wave invites you to land the first blow"
+      },
+      {
+        "effect": "</i>\\nGain +1 Rage"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "End the Primordial Round and place this card on the AI discard pile"
+      },
+      {
+        "effect": "Never remove it from the bottom of the discard pile nor shuffle it into the deck"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1071"
+    ],
+    "name": "Grasscutter",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWBWWWWWWWWWWWW",
+      "WWWWWWWWWWWNBBWWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWBWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "2 Ambrosia tokens instead"
+      },
+      {
+        "effect": "Exhaust your ArmorIcon"
+      },
+      {
+        "effect": "One hit deals 3 DangerIcon, two hits deal 5 DangerIcon, three hits deal 7 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1072"
+    ],
+    "name": "Blot Out The Sun",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean jumps high, momentarily blocking out the sun. Then he comes crashing like a comet",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "Land on Top",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia tokens and +1 RageIcon"
+      },
+      {
+        "effect": "Exhaust your Weapon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1073"
+    ],
+    "name": "The Fire Grows",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean plunges his fist into the ground, causing a massive eruption!",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Turn to face the most Titans",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWBWWWWWWWWWW",
+      "WWWWWWWWWWWNWBBWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWWBBWWWWWWWWWW",
+      "WWWWWWWWWWWWWWBWWWWWWWWWW"
+    ],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Burn"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1074"
+    ],
+    "name": "Abyssal Cleave",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWNPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "2 Ambrosia tokens instead"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1075"
+    ],
+    "name": "Rend",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean grabs you with his might hands and tries to rip you limb from limb!",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Gain 2 Ambrosia, +1 RageIcon, and the Hatred Condition card"
+      },
+      {
+        "effect": "Exhaust your ArmorIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1076"
+    ],
+    "name": "World Of Hurt",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Turn to face the most Titans",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWBWWWWWWWWWWWWW",
+      "WWWWWWWWWWWBWWWWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWNPPBBBBBWWWWWWWW",
+      "WWWWWWWWWWWBWWWWWWWWWWWWW",
+      "WWWWWWWWWWWBWWWWWWWWWWWWW"
+    ],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Burn"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "Exhaust your Armor"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1077"
+    ],
+    "name": "Domain",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean spins violently, slashing everyone around him!",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWBBBPPBBBWWWWWWWW",
+      "WWWWWWWWWBBBPPBBBWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "2 Ambrosia tokens instead"
+      },
+      {
+        "effect": "One hit deals 3 DangerIcon, two hits deal 6 DangerIcon, three hits deal 8 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1078"
+    ],
+    "name": "Pall Of Ash",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean vanishes in a cloud of choking ash. He reappears <b>behind</b> you and stabs you in the <b>back</b>",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "Appear Behind",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token and +1 RageIcon per hit"
+      },
+      {
+        "effect": "The attack deals as many DangerIcon as you have RageIcon"
+      },
+      {
+        "effect": "For each hit, gain 1 negative Precision token"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1079"
+    ],
+    "name": "Rendezvous With Death",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Black Blade comes crashing down, its speed creates a vacuum around the impact zone",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWWNWWWWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWWWBBBBWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Gain 1 Ambrosia token and +1 RageIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "2 Ambrosia tokens and +2 RageIcon instead"
+      },
+      {
+        "effect": "One hit deals 5 DangerIcon; two hits deal 8 DangerIcon; 3 hits, you die"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1080"
+    ],
+    "name": "Abyssgrasp",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Black-blooded Spartan god grips you in his inhuman <b>right</b> hand, then crushes you until you hear your <b>back</b> break",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Courage/Will"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1081"
+    ],
+    "name": "Dawn Of Dust",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean taps the ground with his sword. Clouds of black ash rise from the ground, obscuring everything",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWBBBBBBBBWWWWWWWW",
+      "WWWWWWWWBBBBPPBBBBWWWWWWW",
+      "WWWWWWWWBBBBPPBBBBWWWWWWW",
+      "WWWWWWWWWBBBBBBBBWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "For each hit gain 1 negative Precision token and 1 Ambrosia token"
+      },
+      {
+        "effect": "Gain +1 RageIcon"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "If no Titan was hit, The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1082"
+    ],
+    "name": "World Of Fire",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Turn to face the most Titans",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWBBWWWWWWWWWWWW",
+      "WWWWWWWWWWWBBWWWWWWWWWWWW",
+      "WWWWWWWWWBBBBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWNPPBBBBWWWWWWWWW",
+      "WWWWWWWWWBBBBBBBWWWWWWWWW",
+      "WWWWWWWWWWWBBWWWWWWWWWWWW",
+      "WWWWWWWWWWWBBWWWWWWWWWWWW"
+    ],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Burn"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Exhaust all your GearIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1083"
+    ],
+    "name": "Visage Of Death",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean turns on the <b>spot</b>, the unseeing gaze of his skill-like face digs deep into your soul, <b>blind</b>ing you",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Courage/Will"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 10"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1084"
+    ],
+    "name": "Ashbite",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean takes a step <b>back</b> and picks you off the ground with his <b>left</b> hand. For a moment, the billowing cloud of smoke and fire turns into a giant maw and takes a big bite out of you",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "You die"
+      },
+      {
+        "effect": "Gain 3 Ambrosia tokens"
+      },
+      {
+        "effect": "Exhaust all your GearIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1085"
+    ],
+    "name": "Dust Of Dreams",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWBBBBBBBBWWWWWWWW",
+      "WWWWWWWWBBBBBBBBBBWWWWWWW",
+      "WWWWWWWBBBBBPPBBBBBWWWWWW",
+      "WWWWWWWBBBBBPPBBBBBWWWWWW",
+      "WWWWWWWWBBBBBBBBBBWWWWWWW",
+      "WWWWWWWWWBBBBBBBBWWWWWWWW",
+      "WWWWWWWWWWBBBBBBWWWWWWWWW",
+      "WWWWWWWWWWWBBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW"
+    ],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "For each hit gain 1 negative Precision token, 2 Ambrosia tokens, and +1 RageIcon"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "If no Titan was hit, The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1086"
+    ],
+    "name": "Ender Of Tales",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan with a Unique Weapon GearIcon card in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "Appear in Front",
+    "attackType": [
+      "Judgement",
+      "Zone"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWWNWBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBWWWWWWWWW",
+      "WWWWWWWWWWWWBBBBWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Doomed"
+      },
+      {
+        "effect": "Courage/Fury"
+      },
+      {
+        "effect": "Permanently lose the Unique Weapon GearIcon card"
+      },
+      {
+        "effect": "One hit, gain +2 RageIcon; two hits, gain +3 RageIcon; three hits, gain +4 RageIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Nietzschean moves to the center of the Board, then turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1087"
+    ],
+    "name": "Skullpyre",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "The Nietzschean moves <b>forward</b>, sweeps you off the ground with his <b>right</b> hand and thrusts you into the blazing fire engulfing his body",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Doomed"
+      },
+      {
+        "effect": "Will/Endurance"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1088"
+    ],
+    "name": "World Of Black",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWRRRRRRRRWBBWRRRRRRRRWW",
+      "WWWRRRRRRRWBBBBWRRRRRRRWW",
+      "WWWRRRRRRWBBBBBBWRRRRRRWW",
+      "WWWRRRRRWBBBBBBBBWRRRRRWW",
+      "WWWRRRRWBBBBBBBBBBWRRRRWW",
+      "WWWRRRWBBBBBBBBBBBBWRRRWW",
+      "WWWRRWBBBBBBPPBBBBBBWRRWW",
+      "WWWRRWBBBBBBPPBBBBBBWRRWW",
+      "WWWRRRWBBBBBBBBBBBBWRRRWW",
+      "WWWRRRRWBBBBBBBBBBWRRRRWW",
+      "WWWRRRRRWBBBBBBBBWRRRRRWW",
+      "WWWRRRRRRRWBBBBWRRRRRRRWW",
+      "WWWRRRRRRRRWBBWRRRRRRRRWW"
+    ],
+    "dice": "6",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon and either: Blast Zone (BlackZoneIcon): Gain +2 RageIcon"
+      },
+      {
+        "effect": "Burn"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      },
+      {
+        "effect": "Knockback 7"
+      },
+      {
+        "effect": "Dust Zone (RedZoneIcon): Gain +1 RageIcon"
+      },
+      {
+        "effect": "Gain 2 Ambrosia tokens"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "If no Titan was hit, Unbreakable Combo"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1089"
+    ],
+    "name": "Measure Of Worth",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWNBWWWWWWWWWWW",
+      "WWWWWWWWWWWPPBBWWWWWWWWWW",
+      "WWWWWWWWWWWPPBBWWWWWWWWWW",
+      "WWWWWWWWWWWWWBWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "One hit deals 3 DangerIcon, tow hits deal 5 DangerIcon, three hits deal 7 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "gate": {
+          "gateType": "Rage",
+          "gateValue": "5+"
+        },
+        "effect": "Perform Combo"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BR1090"
+    ],
+    "name": "Found Wanting",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Routine",
+    "usedFor": "The Nietzschean",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Last to Wound in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move unlimited",
+    "attackType": [
+      "Zone"
+    ],
+    "attackBanners": [],
+    "attackDiagram": [
+      "WWWWWWWWWWWWBWWWWWWWWWWWW",
+      "WWWWWWWWWWWNBBWWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBWWWWWWWWWW",
+      "WWWWWWWWWWPPBBBWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWBWWWWWWWWWWWW"
+    ],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deal 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Exhaust all your GearIcon"
       }
     ]
   },
@@ -1018,6 +6587,1804 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 FateIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 4 spaces directly away from the Target"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1345"
+    ],
+    "name": "Fastforward",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "One hit, draw Mjaor Trauma, 2 hits, draw Grave Trauma, three or more hits, draw an Obol"
+      },
+      {
+        "WoO": true,
+        "effect": " Time-clocked"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 4 spaces directly away from the Target"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial Space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1346"
+    ],
+    "name": "Searing Laser",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest DangerIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Paradox",
+          "gateValue": "3+"
+        },
+        "effect": "or Fate 6+ Double Laser instead"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Rewind"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1347"
+    ],
+    "name": "Ordain",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Teleport Titan",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 FateIcon and 2 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Time-clocked"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1348"
+    ],
+    "name": "Paradoxical Strike",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 FateIcon and 2 DangerIcon"
+      },
+      {
+        "effect": "If 2+ FateIcon was dealt, discard 1 GearIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Rewind"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1349"
+    ],
+    "name": "Vision Of Death",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "I",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "1",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "WisdomIcon Wisdom/ FuryIcon Fury"
+      },
+      {
+        "effect": "If the Attack hits, it deals 5 DangerIcon"
+      },
+      {
+        "effect": "Death 3"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 4 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1350"
+    ],
+    "name": "Ominous Portent",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Teleport Titan",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [
+      {
+        "WoO": true,
+        "effect": " Paradox 2+ or Fate 5+ Move the Timefront 1 space forward"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "WisdomIcon Wisdom / WillIcon Will"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Time-clocked"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1351"
+    ],
+    "name": "Flashforward",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+1 d10Icon"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "One hit, draw Grave Trauma, two hits, draw an Obol, three hits, you die, four hits, you are erased from existence"
+      },
+      {
+        "WoO": true,
+        "effect": " Time-clocked"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 5 spaces directly away from the Target"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1352"
+    ],
+    "name": "Omen Beam",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "If you are hit, draw an Obol"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Move the Timefront 1 space forward for each Titan killed by this Attack"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1353"
+    ],
+    "name": "Hyperlaser",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest DangerIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Paradox",
+          "gateValue": "3+"
+        },
+        "effect": "or Fate 8+ Double Laser instead"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Rewind"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1354"
+    ],
+    "name": "Paradoxical Stab",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "5",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 1 FateIcon and 1 DangerIcon"
+      },
+      {
+        "effect": "If 2+ FateIcon was dealt, discard 1 GearIcon card, if 4+ FateIcon is dealt, discard 2 GearIcon instead"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 5 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1355"
+    ],
+    "name": "Destined To Die",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "II",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "1",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "WisdomIcon Wisdom/ FuryIcon Fury"
+      },
+      {
+        "effect": "If the Attack hits, it deals 7 DangerIcon"
+      },
+      {
+        "effect": "Death 2"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 5 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1356"
+    ],
+    "name": "Lenslaser",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "If the Laser Attack hits an Iceberg, it continues sideways"
+      },
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Time-clocked"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 6 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1357"
+    ],
+    "name": "Existence Erasure",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "If you are hit, you die"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Move the Timefront 1 space forward for each Titan killed by this Attack"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1359"
+    ],
+    "name": "Overtime Laser",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Paradox",
+          "gateValue": "3+"
+        },
+        "effect": "or Fate 8+ Double Laser instead"
+      }
+    ],
+    "dice": "3",
+    "difficulty": "12",
+    "consequences": [
+      {
+        "effect": "Each hit deals 4 DangerIcon"
+      },
+      {
+        "effect": "Rewind"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Repeat Overtime Laser against a Titan that has not been Attacked this round by Overtime Laser"
+      },
+      {
+        "effect": "Repeat until all Titans have been Attacked, then the Oracle moves 5 spaces toward the Timefront (stop if adjacent) and turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1360"
+    ],
+    "name": "Sun's Harbinger",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Priority Target in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in front"
+      }
+    ],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [
+      {
+        "gate": {
+          "gateType": "Paradox",
+          "gateValue": "5+"
+        },
+        "effect": "or Fate 9+ You are erased from existence"
+      }
+    ],
+    "dice": "1",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "WisdomIcon Wisdom/ FuryIcon Fury"
+      },
+      {
+        "effect": "If the Attack hits, it deals 9 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 5 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      },
+      {
+        "effect": "Giant Glaciate the previous Primordial space"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1361"
+    ],
+    "name": "Tyranny Of Stars",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans on the Battle Board"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Teleport All Titans",
+    "attackType": [
+      ""
+    ],
+    "attackBanners": [],
+    "dice": "",
+    "difficulty": "",
+    "consequences": [
+      {
+        "effect": "Reestablish the Time Anchors of teleported Titans"
+      },
+      {
+        "WoO": true,
+        "effect": " Perform Signature against each adjacent Titan, ignoring its After Attack effect"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "The Oracle moves 5 spaces towards the Timefront (stop if adjacent) and turns to face the most Titans"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1362"
+    ],
+    "name": "Aeons Tsunami",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "III",
+    "uber": true,
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 FateIcon"
+      },
+      {
+        "effect": "If hit, gain DangerIcon equal to your FateIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Move the Timefront 1 space forward for every Titan with FateIcon 6+"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CR1363"
+    ],
+    "name": "Rewind Laser",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "Hypertime Oracle",
+    "flavor": "",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in front"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Each hit deals 2 DangerIcon and 2 FateIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Rewind"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1793"
+    ],
+    "name": "Trigger Finger",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Alpha",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "You're nothing",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "laserCount": "1",
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1794"
+    ],
+    "name": "Wave Away",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Alpha",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "Begone",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Judgement",
+      "Sun"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1795"
+    ],
+    "name": "Embrace the Light",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Alpha",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "Bask in the light of your god returned",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Judgement",
+      "Zone"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1796"
+    ],
+    "name": "Trigger Finger",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Alpha",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "Cease to be",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "laserCount": "1",
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1797"
+    ],
+    "name": "Fatherly Pat",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope G",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "I forgive you",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "attackType": [
+      "Regular"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "8",
+    "consequences": [
+      {
+        "effect": "Each hit deals 6 DangerIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Knockdown"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1798"
+    ],
+    "name": "Deny Grace",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope G",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "It is not for you, blasphemer",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1799"
+    ],
+    "name": "Glorious Fire",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope G",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "Let the impurities burn away",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Sun",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1800"
+    ],
+    "name": "Trigger Finger",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope G",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "Disappear",
+    "level": "II",
+    "uber": true,
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "laserCount": "1",
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1801"
+    ],
+    "name": "I am the Sun",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope U",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "The Pitiless",
+    "flavor": "I am the life giver",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [],
+    "dice": "",
+    "difficulty": "",
+    "consequences": [
+      {
+        "effect": "This attack cannot be canceled or ignored in any way"
+      },
+      {
+        "effect": "All Titans are incinerated"
+      },
+      {
+        "effect": "This death is unavoidable"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1802"
+    ],
+    "name": "God's Love",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope 1",
+    "faq": "",
+    "errata": "",
+    "subtype": "Signature",
+    "usedFor": "The Pitiless",
+    "flavor": "Worship me",
+    "level": "X",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1803"
+    ],
+    "name": "God's Justice",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope 1",
+    "faq": "",
+    "errata": "",
+    "subtype": "Routine",
+    "usedFor": "The Pitiless",
+    "flavor": "Fear me",
+    "level": "X",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan"
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1804"
+    ],
+    "name": "Merciless Sun",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": "",
+    "errata": "",
+    "subtype": "Trait Attack",
+    "usedFor": "The Pitiless",
+    "flavor": "Proceed... on your way to oblivion",
+    "level": "X",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Turn to face the most titans",
+    "attackType": [
+      "Sun"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon and 1 FateIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Glaciate the Time Anchor of the Titan with the lowest FateIcon"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2540"
+    ],
+    "name": "Finger Snap",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "<SNAP>",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Range"
+    ],
+    "rangeSize": "Unlimited",
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "If you are hit, draw an Obol"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2541"
+    ],
+    "name": "Obedience Aura",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "My loving flock. My cattle",
+    "level": "I",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Zone",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Destroy all Terrain tiles in the Zone"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2542"
+    ],
+    "name": "Blessing Hand",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "Love me, and you will be blessed in the next life",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Laser",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "laserCount": "2",
+    "dice": "2",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2543"
+    ],
+    "name": "Kneel, Heathens",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "And accept my love and judgement",
+    "level": "II",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Zone",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2544"
+    ],
+    "name": "I Was the Sun",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "I am the life giver",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Simultaneous"
+    ],
+    "attackBanners": [],
+    "dice": "",
+    "difficulty": "",
+    "consequences": [
+      {
+        "effect": "When this AI card is revealed, leave it on top and end the Primordial Round"
+      },
+      {
+        "effect": "If it is already revealed at the start of the Primordial Round, perform it"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2545"
+    ],
+    "name": "Witness Me",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "Bear witness",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": false,
+    "moveType": "None",
+    "attackType": [
+      "Zone",
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Destroy all Terrain tiles in Zone 3"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2546"
+    ],
+    "name": "Five Fingers of Doom",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "You're already dead",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "Move Lateral",
+    "attackType": [
+      "Judgement",
+      "Laser"
+    ],
+    "attackBanners": [],
+    "laserCount": "Omni",
+    "dice": "3",
+    "difficulty": "11",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If the Laser Attack hits a Terrain tile, it continues sideways"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2547"
+    ],
+    "name": "Excommunicate",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "Leave My Grace and be doomed forever",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Judgement"
+    ],
+    "attackBanners": [],
+    "dice": "2",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Chosen Skill"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Destroy all Terrain tiles in Zone 3"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2548"
+    ],
+    "name": "Sundown",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "Starve",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "If you are hit, you are incinerated"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2549"
+    ],
+    "name": "Sunrise",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "AI",
+    "usedFor": "Old Haunt",
+    "flavor": "Bask",
+    "level": "III",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "attackType": [
+      "Laser"
+    ],
+    "attackBanners": [],
+    "dice": "4",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "effect": "If you are hit, you are incinerated"
+      }
+    ],
+    "preAfterAttackWoO": false,
+    "afterFinal": false,
+    "afterAttackEffects": [
+      {
+        "effect": "Burn"
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2569"
+    ],
+    "name": "Merciless Sun",
+    "cardType": "Attack",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "subtype": "Trait Attack",
+    "usedFor": "Old Haunt",
+    "flavor": "Proceed... on your way to oblivion",
+    "level": "X",
+    "targeting": [],
+    "preActionWoO": true,
+    "moveType": "None",
+    "preAttack": "Turn to face the most titans",
+    "attackType": [
+      "Sun"
+    ],
+    "attackBanners": [],
+    "dice": "3",
+    "difficulty": "10",
+    "consequences": [
+      {
+        "effect": "Each hit deals 3 DangerIcon and 1 FateIcon"
+      }
+    ],
+    "preAfterAttackWoO": true,
+    "afterFinal": true,
+    "afterAttackEffects": [
+      {
+        "effect": "Wish Away 12 the Titan with the lowest FateIcon"
       }
     ]
   }

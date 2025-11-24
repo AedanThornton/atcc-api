@@ -364,7 +364,10 @@ def primordialAttack_row(row):
         "moveType": row["Move Type"],
         "preAttack": row["Pre-Attack Effect"],
         "attackType": row["Attack Type"].split(", "),
+        "rangeSize": row["Range Size"] or None,
         "attackBanners": parse_consequences(row["Attack Banners"]),
+        "attackDiagram": parse_attack_diagram(row["Attack Diagram"]) or None,
+        "laserCount": row["Laser Count"] or None,
         "dice": row["Dice"],
         "difficulty": row["Difficulty"],
         "consequences": parse_consequences(row["Attack Consequences"]),
@@ -382,6 +385,12 @@ def primordialAttack_row(row):
         card_json.pop("preAttack")
     if not card_json["uber"]:
         card_json.pop("uber")
+    if not card_json["rangeSize"]:
+        card_json.pop("rangeSize")
+    if not card_json["attackDiagram"]:
+        card_json.pop("attackDiagram")
+    if not card_json["laserCount"]:
+        card_json.pop("laserCount")
 
     return card_json
 

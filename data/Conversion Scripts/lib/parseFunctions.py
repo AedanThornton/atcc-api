@@ -1,5 +1,6 @@
 import re
 from lib.staticVars import *
+import math
 
 def parse_power(power_str):
     powers = []
@@ -504,3 +505,16 @@ def parse_exploration(raw_effects):
         parsed_effects.append(effect_json)
 
     return parsed_effects
+
+def parse_attack_diagram(raw_data):
+    new_rows = []
+    rows = raw_data.split(";")
+
+    for row in rows:
+        front = "W" * math.ceil((25 - len(row)) / 2)
+        back = "W" * math.floor((25 - len(row)) / 2)
+
+        full_row = front + row + back
+        new_rows.append(full_row)
+
+    return new_rows if len(new_rows) > 1 else None
