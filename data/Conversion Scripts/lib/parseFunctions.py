@@ -170,6 +170,63 @@ def parse_abilities(ability_box):
         gate_ability_list.append(last_gate_json)
     return new_ability_list, gate_ability_list
 
+def parse_abilities_new(raw_data):
+    token_regex = re.compile(
+        r"{([^}]+)}"            # {keyword}
+        r"|<([^>]+)>"           # <timing>
+        r"|%([^%]+)%"           # %gate%
+        r"|\*([^\*]+)\*"        # *bold*
+        r"|_([^_]+)_"          # _italics_
+        r"|@(\w+)"              # @icon
+        r"|\$(\w+)"              # $cost
+        r"|([^{}<>%@$_\*]+)"    # plain text
+    )
+
+    sentences = [s.strip() for s in re.split(r"\.\s*", raw_data) if s.strip()]
+    parsed_abilities = []
+    parsed_gated_abilities = []
+
+    for sentence in sentences:
+        ability = {}
+        tokens = []
+        costs = []
+        for match in token_regex.finditer(sentence):
+            keyword, timing, gate, bold, italics, icon, cost, text = match.groups()
+
+            if keyword:
+                tokens.append({"type": "keyword", "value": keyword})
+            elif timing:
+                tokens.append({"type": "timing", "value": timing})
+            elif bold:
+                tokens.append({"type": "bold", "value": bold})
+            elif italics:
+                tokens.append({"type": "italics", "value": italics})
+            elif icon:
+                tokens.append({"type": "icon", "value": icon})
+            elif text and text.strip():
+                tokens.append({"type": "plainText", "value": text.strip()})
+
+            elif gate:
+                parts = gate.split(" ")
+                ability["gate"] = parts[0]
+                if parts[1]:
+                    ability["value"] = parts[1]
+            elif cost:
+                costs.append(cost)
+
+
+        ability["abilityText"] = tokens
+
+        if costs:
+            ability["costs"] = costs
+
+        if "gate" in ability:
+            parsed_gated_abilities.append(ability)
+        else:
+            parsed_abilities.append(ability)
+
+    return parsed_abilities, parsed_gated_abilities
+
 def parse_abilities_block(raw_abilities):
     abilities = raw_abilities.split("$")
     if len(abilities) < 2:

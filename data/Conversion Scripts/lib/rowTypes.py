@@ -180,7 +180,8 @@ def gear_row(row):
     if row["Armor Dice"]: defensive_statistics["armorDice"] = list(map(parse_armor, row["Armor Dice"].split(". ")))
     if row["Resistances"]: defensive_statistics["resistances"] = list(map(parse_armor, row["Resistances"].split(". ")))
 
-    abilities, gated_abilities = parse_abilities(row["Ability Box"])
+    #abilities, gated_abilities = parse_abilities(row["Ability Box"])
+    abilities, gated_abilities = parse_abilities_new(row["AB for Parsing"])    
     
     card_json = {
         "name": row["Name"].replace(" (Wished)", ""),
