@@ -22,6 +22,10 @@
       {
         "type": "Target:",
         "target": "Closest Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -38,6 +42,10 @@
       },
       {
         "effect": "Gain 1 Ambrosia tokens"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 2+ Knockdown"
       }
     ],
     "interruptEffect": "",
@@ -105,6 +113,10 @@
       {
         "type": "Target:",
         "target": "Closest Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -118,6 +130,10 @@
     "AIconsequences": [
       {
         "effect": "If the Attack hits, it deals 8 DangerIcon, gain 2 Ambrosia tokens, Pushback 1"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 3+ Knockdown"
       }
     ],
     "interruptEffect": "",
@@ -185,6 +201,10 @@
       {
         "type": "Target:",
         "target": "Furthest Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -202,6 +222,9 @@
       {
         "WoO": true,
         "effect": " Fate 4+ Knockdown"
+      },
+      {
+        "effect": "Knockback 10"
       }
     ],
     "interruptEffect": "",
@@ -269,6 +292,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": false,
@@ -291,6 +318,9 @@
     "AIconsequences": [
       {
         "effect": "Courage/Will"
+      },
+      {
+        "effect": "One hit, gain the Covetous Condition card; two hits, gain the Greed-crazed Condition card; three hits, you die"
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -354,6 +384,10 @@
       {
         "type": "Target:",
         "target": "Titan in Blindpost"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -448,6 +482,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -468,6 +506,9 @@
       {
         "WoO": true,
         "effect": " Fate 4+ Knockdown"
+      },
+      {
+        "effect": "Knockback 5"
       }
     ],
     "interruptEffect": "",
@@ -531,6 +572,10 @@
       {
         "type": "Target:",
         "target": "Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in sight"
       }
     ],
     "AIpreActionWoO": false,
@@ -548,6 +593,13 @@
       },
       {
         "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Gain 1 negative Precision (PrecisionIcon) token"
       }
     ],
     "interruptEffect": "",
@@ -610,7 +662,12 @@
     "bp_name": "Roiling Shadowmass",
     "usedFor": "Dahaka",
     "AIlevel": "II",
-    "AItargeting": [],
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 2"
+      }
+    ],
     "AIpreActionWoO": true,
     "AImoveType": "None",
     "AIattackType": [
@@ -689,7 +746,12 @@
     "bp_name": "Bones of Smoke and Sand",
     "usedFor": "Dahaka",
     "AIlevel": "II",
-    "AItargeting": [],
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 2"
+      }
+    ],
     "AIpreActionWoO": true,
     "AImoveType": "None",
     "AIattackType": [
@@ -701,6 +763,9 @@
     "AIconsequences": [
       {
         "effect": "Each hit discard 1 GearIcon"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -768,6 +833,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": false,
@@ -790,6 +859,9 @@
     "AIconsequences": [
       {
         "effect": "Courage/Will"
+      },
+      {
+        "effect": "One Hit, Death 2; two hits, Death 1; three or more hits, you die"
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -861,6 +933,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in front, in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -882,6 +958,9 @@
     "AIconsequences": [
       {
         "effect": "If the Attack hits, gain 3 Ambrosia tokens"
+      },
+      {
+        "effect": "Then, gain +3 DangerIcon for each Ambrosia token you have"
       }
     ],
     "interruptEffect": "",
@@ -945,6 +1024,10 @@
       {
         "type": "Target:",
         "target": "Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest FateIcon in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -966,6 +1049,9 @@
     "AIconsequences": [
       {
         "effect": "Each hit deals 4 DangerIcon"
+      },
+      {
+        "effect": "If you gain 10+ DangerIcon, you die without a Trauma Draw"
       }
     ],
     "interruptEffect": "",
@@ -1033,6 +1119,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": false,
@@ -1053,6 +1143,9 @@
           "gateValue": "6+"
         },
         "effect": "4 DangerIcon instead"
+      },
+      {
+        "effect": "Lose -1 Rage and 1 Mnemos or Fated Mnemos node per hit"
       }
     ],
     "interruptEffect": "",
@@ -1116,7 +1209,12 @@
     "bp_name": "Starless Canvas",
     "usedFor": "Dahaka",
     "AIlevel": "III",
-    "AItargeting": [],
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 3"
+      }
+    ],
     "AIpreActionWoO": true,
     "AImoveType": "None",
     "AIattackType": [
@@ -1207,6 +1305,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -1228,6 +1330,9 @@
     "AIconsequences": [
       {
         "effect": "Souldrend"
+      },
+      {
+        "effect": "One hit, raise DangerIcon to 9; two or three hits, you die; four or more hits, you die, and the Argonaut dies"
       }
     ],
     "interruptEffect": "",
@@ -1291,7 +1396,12 @@
     "bp_name": "Stormcloud Heart",
     "usedFor": "Dahaka",
     "AIlevel": "III",
-    "AItargeting": [],
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": ""
+      }
+    ],
     "AIpreActionWoO": false,
     "AImoveType": "",
     "AIattackType": [
@@ -1373,6 +1483,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": false,
@@ -1397,6 +1511,9 @@
       },
       {
         "effect": "Wisdow/Courage/Will"
+      },
+      {
+        "effect": "If the Attack hits, the Titan and the Argonaut die; gain +1 Doom"
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -1456,7 +1573,12 @@
     "bp_name": "Barren Foam",
     "usedFor": "Dahaka",
     "AIlevel": "III",
-    "AItargeting": [],
+    "AItargeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 2"
+      }
+    ],
     "AIpreActionWoO": true,
     "AImoveType": "None",
     "AIattackType": [
@@ -1472,6 +1594,13 @@
       },
       {
         "effect": "Each hit deals 5 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "Float"
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -1543,6 +1672,10 @@
       {
         "type": "Target:",
         "target": "Closest Curse Affliction in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "AIpreActionWoO": true,
@@ -1559,6 +1692,13 @@
       },
       {
         "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "2+"
+        },
+        "effect": "Knockdown"
       }
     ],
     "interruptEffect": "",

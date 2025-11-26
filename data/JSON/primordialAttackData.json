@@ -18,6 +18,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -68,6 +72,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -118,6 +126,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -168,6 +180,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -188,6 +204,10 @@
       },
       {
         "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ]
   },
@@ -210,6 +230,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -264,6 +288,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -314,6 +342,10 @@
       {
         "type": "Target:",
         "target": "All adjacent Titans"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
       }
     ],
     "preActionWoO": true,
@@ -334,6 +366,10 @@
           "gateValue": "4+"
         },
         "effect": "2 DangerIcon instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockback 5"
       }
     ]
   },
@@ -360,6 +396,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -373,6 +413,13 @@
     "consequences": [
       {
         "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "2 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -398,7 +445,12 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 2"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -410,6 +462,10 @@
     "consequences": [
       {
         "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -443,6 +499,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -493,6 +553,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -513,6 +577,10 @@
           "gateValue": "5+"
         },
         "effect": "3 DangerIcon instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -546,6 +614,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -567,6 +639,10 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -600,6 +676,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -619,6 +699,13 @@
       },
       {
         "effect": "Then each hit deals 1 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "2 DangerIcon Instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -652,6 +739,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -672,6 +763,10 @@
           "gateValue": "6+"
         },
         "effect": "4 DangerIcon instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -706,6 +801,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -723,6 +822,9 @@
           "gateValue": "8+"
         },
         "effect": "You Die"
+      },
+      {
+        "effect": "If you didn't die, each hit deals 2 DangerIcon, then draw an Obol instead of a regular Trauma Draw"
       }
     ],
     "preAfterAttackWoO": true,
@@ -756,6 +858,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -781,6 +887,10 @@
       {
         "WoO": true,
         "effect": " Forced Vault"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -810,6 +920,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -831,6 +945,10 @@
     "consequences": [
       {
         "effect": "Each hit deal 4 dangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -856,7 +974,12 @@
     "usedFor": "Hekaton",
     "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 3"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -880,6 +1003,10 @@
       {
         "WoO": true,
         "effect": " Knockdown"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 5+ Knockback 5"
       }
     ],
     "preAfterAttackWoO": true,
@@ -909,6 +1036,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -967,6 +1098,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1028,6 +1163,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1085,6 +1224,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -1135,6 +1278,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1193,6 +1340,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1253,6 +1404,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1314,6 +1469,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1378,6 +1537,10 @@
       {
         "type": "No Target:",
         "target": "Perform Signature"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1438,6 +1601,10 @@
       {
         "type": "No Target:",
         "target": "Perform Signature"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": false,
@@ -1498,6 +1665,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1511,6 +1682,13 @@
     "consequences": [
       {
         "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Unless this Attack causes you to go over the Obol threshold, draw a Grave Trauma instead of a regular Trauma Draw,"
       }
     ],
     "preAfterAttackWoO": true,
@@ -1548,6 +1726,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": false,
@@ -1611,6 +1793,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1679,6 +1865,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": false,
@@ -1735,6 +1925,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1770,6 +1964,9 @@
       },
       {
         "effect": "Labyrinth 1"
+      },
+      {
+        "effect": "Fate5+ Labyrinth 2 instead"
       }
     ]
   },
@@ -1796,6 +1993,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": false,
@@ -1826,6 +2027,13 @@
       },
       {
         "effect": "Labyrinth 1"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Labyrinth 2 instead"
       }
     ]
   },
@@ -1849,6 +2057,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1909,6 +2121,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -1970,6 +2186,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": true,
@@ -2030,6 +2250,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in Sight"
       }
     ],
     "preActionWoO": true,
@@ -2058,6 +2282,9 @@
     "afterAttackEffects": [
       {
         "effect": "Trample"
+      },
+      {
+        "effect": "Labyrinth 1"
       }
     ]
   },
@@ -2080,6 +2307,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan"
+      },
+      {
+        "type": "No Target:",
+        "target": "Random Titan dies"
       }
     ],
     "preActionWoO": true,
@@ -2136,6 +2367,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2197,6 +2432,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2262,6 +2501,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2324,6 +2567,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2379,6 +2626,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2438,6 +2689,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 2 Despair tokens.",
@@ -2505,6 +2760,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2575,6 +2834,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2630,6 +2893,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2685,6 +2952,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 2 Despair tokens.",
@@ -2736,6 +3007,10 @@
       {
         "type": "Target:",
         "target": "All Titans on Labyrinth tiles"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2810,6 +3085,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2869,6 +3148,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2925,6 +3208,10 @@
       {
         "type": "Target:",
         "target": "All Titans on Labyrinth tiles"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -2988,6 +3275,10 @@
       {
         "type": "No Target:",
         "target": "Perform Signature"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -3039,6 +3330,10 @@
       {
         "type": "Target:",
         "target": "All Titans on Labyrinth tiles"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Signature"
       }
     ],
     "preAction": "WoO Gain 1 Despair token.",
@@ -3094,6 +3389,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 2 Despair tokens.",
@@ -3152,6 +3451,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preAction": "WoO Gain 2 Despair tokens.",
@@ -3218,6 +3521,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in sight"
+      },
+      {
+        "type": "Target:",
+        "target": ""
       }
     ],
     "preActionWoO": false,
@@ -3264,7 +3571,12 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All adjacent Titans"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -3291,6 +3603,10 @@
     "afterAttackEffects": [
       {
         "effect": "Target with the most DangerIcon suggers Knockback 7 towards the closest short Board Edge"
+      },
+      {
+        "WoO": true,
+        "effect": " Pushback 3"
       }
     ]
   },
@@ -3317,6 +3633,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -3330,6 +3650,13 @@
     "consequences": [
       {
         "effect": "If the Attack hits, it deals 3 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "4 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3337,6 +3664,9 @@
     "afterAttackEffects": [
       {
         "effect": "Pushback 2"
+      },
+      {
+        "effect": "Gain +1 RageIcon"
       }
     ]
   },
@@ -3359,6 +3689,10 @@
       {
         "type": "Target:",
         "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
       }
     ],
     "preActionWoO": true,
@@ -3375,6 +3709,13 @@
       },
       {
         "effect": "Gain +1 RageIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "+2 RageIcon instead"
       }
     ],
     "preAfterAttackWoO": false,
@@ -3382,6 +3723,9 @@
     "afterAttackEffects": [
       {
         "effect": "Pushback 2"
+      },
+      {
+        "effect": "Perform a Kratos Roll"
       }
     ]
   },
@@ -3408,6 +3752,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -3432,6 +3780,10 @@
       },
       {
         "effect": "Gain +1 RageIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": false,
@@ -3461,6 +3813,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
       }
     ],
     "preActionWoO": false,
@@ -3516,6 +3872,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -3544,6 +3904,10 @@
       },
       {
         "effect": "If the Attack hits, it deals 5 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Pull 4"
       }
     ]
   },
@@ -3570,6 +3934,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -3591,6 +3959,9 @@
     "consequences": [
       {
         "effect": "Gain +1 RageIcon"
+      },
+      {
+        "effect": "If the Attack hits, it deals 5 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3598,6 +3969,10 @@
     "afterAttackEffects": [
       {
         "effect": "Knockback 10 towards the closest short Board Edge"
+      },
+      {
+        "WoO": true,
+        "effect": " Pushback 4"
       }
     ]
   },
@@ -3620,6 +3995,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -3643,6 +4022,10 @@
       },
       {
         "effect": "If the Attack hits, it deals as many DangerIcon as you have RageIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3653,6 +4036,9 @@
       },
       {
         "effect": "Discard Footwear GearIcon"
+      },
+      {
+        "effect": "Pushback 2"
       }
     ]
   },
@@ -3671,7 +4057,12 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All adjacent Titans"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -3683,6 +4074,10 @@
     "consequences": [
       {
         "effect": "Each hit deals 1 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 5+ Exhaust your ArmorIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3712,6 +4107,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -3738,6 +4137,9 @@
           "gateValue": "6+"
         },
         "effect": "Exhaust your Weapon"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3771,6 +4173,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -3792,6 +4198,9 @@
     "consequences": [
       {
         "effect": "Gain +2 RageIcon"
+      },
+      {
+        "effect": "One hit deals 3 DangerIcon; two hits deal 5 DangerIcon; three hits , raise DangerIcon to 9, draw a Kratos card instead of a Trauma card"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3821,6 +4230,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -3845,6 +4258,10 @@
       },
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Pushback 5"
       }
     ],
     "preAfterAttackWoO": true,
@@ -3870,7 +4287,12 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All adjacent Titans"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -3881,6 +4303,13 @@
         "gate": {
           "gateType": "Fate",
           "gateValue": "7+"
+        },
+        "effect": "+1 d10Icon"
+      },
+      {
+        "gate": {
+          "gateType": "Level",
+          "gateValue": "4+"
         },
         "effect": "+1 d10Icon"
       }
@@ -3897,6 +4326,9 @@
       },
       {
         "effect": "If the Attack hits, it deals 7 DangerIcon"
+      },
+      {
+        "effect": "Gain RageIcon equal to the Primordial LVL"
       }
     ],
     "preAfterAttackWoO": false,
@@ -3926,6 +4358,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -3955,6 +4391,9 @@
       },
       {
         "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Gain RageIcon equal to the Primordial LVL"
       }
     ],
     "preAfterAttackWoO": false,
@@ -3988,6 +4427,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -4009,6 +4452,9 @@
     "consequences": [
       {
         "effect": "Gain +1 RageIcon per hit"
+      },
+      {
+        "effect": "The Attack deals as many DangerIcon as you have RageIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4043,6 +4489,10 @@
       {
         "type": "Target:",
         "target": "PriorityTargetIcon Priority Target in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in front, in range"
       }
     ],
     "preActionWoO": true,
@@ -4067,6 +4517,9 @@
       },
       {
         "effect": "Two hits, draw an Obol"
+      },
+      {
+        "effect": "Three hits, you die"
       }
     ],
     "preAfterAttackWoO": false,
@@ -4077,6 +4530,9 @@
       },
       {
         "effect": "Forced Vault"
+      },
+      {
+        "effect": "Cyclonus moves 4 spaces directly away from the Target"
       }
     ]
   },
@@ -4107,6 +4563,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4121,6 +4581,13 @@
           "gateValue": "5+"
         },
         "effect": "+1 d10Icon"
+      },
+      {
+        "gate": {
+          "gateType": "Level",
+          "gateValue": "4+"
+        },
+        "effect": "+1d10Icon"
       }
     ],
     "dice": "1",
@@ -4128,6 +4595,9 @@
     "consequences": [
       {
         "effect": "If the Attack hits and you have a Helm or Headgear, it deals 5 DangerIcon and you discard that GearIcon"
+      },
+      {
+        "effect": "Otherwise, gain 9 DangerIcon and, regardless of Trauma Level, perform an Obol Draw"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4141,6 +4611,9 @@
       },
       {
         "effect": "Knockback 15 towards the closest short Board Edge"
+      },
+      {
+        "effect": "Discard Footwear GearIcon"
       }
     ]
   },
@@ -4163,6 +4636,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4179,6 +4656,13 @@
       },
       {
         "effect": "Exhaust all your GearIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "Gain +2 RageIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4186,6 +4670,9 @@
     "afterAttackEffects": [
       {
         "effect": "Forced Vault"
+      },
+      {
+        "effect": "Pushback 3"
       }
     ]
   },
@@ -4208,6 +4695,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4221,6 +4712,9 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "Perform a Kratos Roll"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4254,6 +4748,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4275,6 +4773,9 @@
     "consequences": [
       {
         "effect": "Gain 2 Ambrosia tokens"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ]
   },
@@ -4301,6 +4802,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4325,6 +4830,13 @@
       },
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "3 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4332,6 +4844,9 @@
     "afterAttackEffects": [
       {
         "effect": "Hidden Spartan Warriors attack you from the temple"
+      },
+      {
+        "effect": "Gain 1 negative Precision token"
       }
     ]
   },
@@ -4350,7 +4865,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -4404,6 +4924,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4426,6 +4950,9 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "If the Target is on a VP, Displace it onto any Rear space, Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4463,6 +4990,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4480,6 +5011,13 @@
       },
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "4+"
+        },
+        "effect": "4 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4505,7 +5043,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight and Zone 1 around it"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -4540,6 +5083,9 @@
           "gateValue": "4+"
         },
         "effect": "2 Ambrosia tokens instead"
+      },
+      {
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ]
   },
@@ -4566,6 +5112,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4595,6 +5145,9 @@
     "consequences": [
       {
         "effect": "Gain 1 Ambrosia token per hit"
+      },
+      {
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ]
   },
@@ -4621,6 +5174,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4643,6 +5200,9 @@
     "consequences": [
       {
         "effect": "Gain 2 Ambrosia tokens"
+      },
+      {
+        "effect": "Each hit deals 1 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4650,6 +5210,13 @@
     "afterAttackEffects": [
       {
         "effect": "For each DangerIcon dealt, exhaust 1 GearIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "7+"
+        },
+        "effect": "Discard instead"
       }
     ]
   },
@@ -4680,6 +5247,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4694,6 +5265,9 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "effect": "If the Target is on a VP, Displace it onto any Rear space, Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4723,7 +5297,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Zone 2"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -4749,6 +5328,13 @@
       },
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "6+"
+        },
+        "effect": "3 DangerIcon instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4786,6 +5372,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4810,6 +5400,9 @@
           "gateValue": "5+"
         },
         "effect": "3 DangerIcon instead"
+      },
+      {
+        "effect": "If the Target is on a VP, Displace it onto any Rear space, Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4835,7 +5428,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight and Zone 1 around it"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -4871,6 +5469,9 @@
           "gateValue": "6+"
         },
         "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL instead"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -4904,6 +5505,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4929,6 +5534,9 @@
       },
       {
         "effect": "You are Absorbed"
+      },
+      {
+        "effect": "Then, each hit deals 3 DangerIcon"
       }
     ]
   },
@@ -4955,6 +5563,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -4990,6 +5602,9 @@
       },
       {
         "effect": "If you cannot discard a GearIcon card, you die"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ]
   },
@@ -5020,6 +5635,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -5041,6 +5660,9 @@
     "consequences": [
       {
         "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "effect": "Each hit deals 3 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5079,6 +5701,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -5102,6 +5728,9 @@
     "consequences": [
       {
         "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      },
+      {
+        "effect": "If hit, raise DangerIcon to 9 and resolve an Obol Draw"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5143,6 +5772,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -5172,6 +5805,9 @@
     "consequences": [
       {
         "effect": "Gain 1 Ambrosia token per hit"
+      },
+      {
+        "effect": "Each deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5197,7 +5833,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight and Zone 1 around it"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -5225,6 +5866,9 @@
     "consequences": [
       {
         "effect": "Gain 2 Ambrosia tokens"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5258,6 +5902,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan not in Rear, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -5279,6 +5927,9 @@
     "consequences": [
       {
         "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5308,6 +5959,10 @@
       {
         "type": "Target:",
         "target": "All Titans on Vantage Points"
+      },
+      {
+        "type": "No Target:",
+        "target": "Random Titan dies"
       }
     ],
     "preActionWoO": false,
@@ -5329,6 +5984,9 @@
     "consequences": [
       {
         "effect": "Gain a number of Ambrosia tokens equal to the Chimera LVL"
+      },
+      {
+        "effect": "If hit, raise DangerIcon to 9 and resolve an Obol Draw"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5354,7 +6012,12 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Attacking Titan"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -5366,6 +6029,9 @@
     "consequences": [
       {
         "effect": "Gain 1 Ambrosia token"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5373,6 +6039,9 @@
     "afterAttackEffects": [
       {
         "effect": "If 3+ DangerIcon was dealth, Knockback 10"
+      },
+      {
+        "effect": "If 5+ DangerIcon was dealt, gain the Paralyzed Condition card"
       }
     ]
   },
@@ -5391,7 +6060,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "\"Come, I will only use my <b>left</b> hand!\"\\nArms akimbo, The Nietzschean thows his head <b>back</b> and laughs at you",
     "level": "0",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Random Titan"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "",
     "attackType": [
@@ -5406,6 +6080,9 @@
       },
       {
         "effect": "</i>\\nGain +1 Rage"
+      },
+      {
+        "effect": "Escalate 1"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5416,6 +6093,9 @@
       },
       {
         "effect": "Never remove it from the bottom of the discard pile nor shuffle it into the deck"
+      },
+      {
+        "effect": "Let it taunt you until you learn your lesson"
       }
     ]
   },
@@ -5438,6 +6118,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5472,6 +6156,10 @@
       },
       {
         "effect": "One hit deals 3 DangerIcon, two hits deal 5 DangerIcon, three hits deal 7 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockback 9"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5497,7 +6185,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean jumps high, momentarily blocking out the sun. Then he comes crashing like a comet",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Land on Top",
     "attackType": [
@@ -5512,6 +6205,9 @@
       },
       {
         "effect": "Exhaust your Weapon"
+      },
+      {
+        "effect": "If the Attack hits, it deals 5 DangerIcon"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5537,7 +6233,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean plunges his fist into the ground, causing a massive eruption!",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Blast Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Turn to face the most Titans",
@@ -5573,6 +6274,9 @@
       {
         "WoO": true,
         "effect": " Knockdown"
+      },
+      {
+        "effect": "Knockback 7"
       }
     ]
   },
@@ -5595,6 +6299,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5626,6 +6334,10 @@
       },
       {
         "effect": "Each hit deals 2 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockback 9"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5659,6 +6371,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5683,6 +6399,9 @@
       },
       {
         "effect": "Exhaust your ArmorIcon"
+      },
+      {
+        "effect": "Each hit deals 2 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5690,6 +6409,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 10"
       }
     ]
   },
@@ -5708,7 +6430,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Blast Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Turn to face the most Titans",
@@ -5736,6 +6463,9 @@
       {
         "WoO": true,
         "effect": " Knockdown"
+      },
+      {
+        "effect": "Knockback 7"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5769,6 +6499,10 @@
       {
         "type": "Target:",
         "target": "Titan in Blindspot"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5802,6 +6536,10 @@
       },
       {
         "effect": "One hit deals 3 DangerIcon, two hits deal 6 DangerIcon, three hits deal 8 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockback 9"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5827,7 +6565,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean vanishes in a cloud of choking ash. He reappears <b>behind</b> you and stabs you in the <b>back</b>",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Appear Behind",
     "attackType": [
@@ -5845,6 +6588,10 @@
       },
       {
         "effect": "For each hit, gain 1 negative Precision token"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown"
       }
     ]
   },
@@ -5867,6 +6614,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5898,6 +6649,10 @@
       },
       {
         "effect": "One hit deals 5 DangerIcon; two hits deal 8 DangerIcon; 3 hits, you die"
+      },
+      {
+        "WoO": true,
+        "effect": " Knockdown 9"
       }
     ],
     "preAfterAttackWoO": true,
@@ -5931,6 +6686,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -5952,6 +6711,9 @@
     "consequences": [
       {
         "effect": "Courage/Will"
+      },
+      {
+        "effect": "One hit, gain Hatred Condition card and +2 RageIcon; two hits, gain the Frenzy Condition card and +3 RageIcon, three or more hits, gain +4 RageIcon and draw a Kratos card"
       }
     ],
     "preAfterAttackWoO": false,
@@ -5959,6 +6721,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 12"
       }
     ]
   },
@@ -5977,7 +6742,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean taps the ground with his sword. Clouds of black ash rise from the ground, obscuring everything",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Dust Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6007,6 +6777,9 @@
       },
       {
         "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "effect": "Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6032,7 +6805,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Blast Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Turn to face the most Titans",
@@ -6070,6 +6848,9 @@
       {
         "WoO": true,
         "effect": " Knockdown"
+      },
+      {
+        "effect": "Knockback 7"
       }
     ],
     "preAfterAttackWoO": false,
@@ -6103,6 +6884,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -6124,6 +6909,9 @@
     "consequences": [
       {
         "effect": "Courage/Will"
+      },
+      {
+        "effect": "One hit, gain Frenzy Condition card and +3 RageIcon; two or three hits, draw an Obol; four hits, you die"
       }
     ],
     "preAfterAttackWoO": false,
@@ -6134,6 +6922,9 @@
       },
       {
         "effect": "Knockback 10"
+      },
+      {
+        "effect": "Gain the Fused Souls Trauma card"
       }
     ]
   },
@@ -6160,6 +6951,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -6183,6 +6978,9 @@
       },
       {
         "effect": "Exhaust all your GearIcon"
+      },
+      {
+        "effect": "One hit deals 6 DangerIcon; two hits deal 9 DangerIcon; three hits, you die"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6190,6 +6988,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 12"
       }
     ]
   },
@@ -6208,7 +7009,12 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Dust Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6237,6 +7043,10 @@
       },
       {
         "effect": "Each hit deals 3 DangerIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Fate 5+ Knockdown"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6270,6 +7080,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
       }
     ],
     "preActionWoO": false,
@@ -6309,6 +7123,9 @@
       },
       {
         "effect": "One hit, gain +2 RageIcon; two hits, gain +3 RageIcon; three hits, gain +4 RageIcon"
+      },
+      {
+        "effect": "The Attack deals as many DangerIcon as you have RageIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6342,6 +7159,10 @@
       {
         "type": "Target:",
         "target": "Last to Wound in sight, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, in range"
       }
     ],
     "preActionWoO": true,
@@ -6366,6 +7187,9 @@
       },
       {
         "effect": "Will/Endurance"
+      },
+      {
+        "effect": "If hit, you die"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6373,6 +7197,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 12"
       }
     ]
   },
@@ -6392,7 +7219,12 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Blast Zone and Dust Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6439,6 +7271,9 @@
       {
         "WoO": true,
         "effect": " Knockdown"
+      },
+      {
+        "effect": "Pull 5"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6468,6 +7303,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan in front, in range"
+      },
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight, range"
       }
     ],
     "preActionWoO": true,
@@ -6487,6 +7326,9 @@
     "consequences": [
       {
         "effect": "One hit deals 3 DangerIcon, tow hits deal 5 DangerIcon, three hits deal 7 DangerIcon"
+      },
+      {
+        "effect": "Knockback 8"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6524,6 +7366,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan"
+      },
+      {
+        "type": "No Target:",
+        "target": "Random Titan dies"
       }
     ],
     "preActionWoO": true,
@@ -6545,6 +7391,9 @@
     "consequences": [
       {
         "effect": "Each hit deal 3 DangerIcon"
+      },
+      {
+        "effect": "Knockback 10"
       }
     ],
     "preAfterAttackWoO": false,
@@ -6574,6 +7423,10 @@
       {
         "type": "Target:",
         "target": "Lowest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6587,6 +7440,13 @@
     "consequences": [
       {
         "effect": "Each hit deals 2 FateIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "3+"
+        },
+        "effect": "Time-clocked"
       }
     ],
     "preAfterAttackWoO": false,
@@ -6616,6 +7476,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest Fateicon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6673,6 +7537,10 @@
       {
         "type": "Target:",
         "target": "Lowest DangerIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest DangerIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6723,6 +7591,10 @@
       {
         "type": "Target:",
         "target": "Lowest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6770,6 +7642,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in sight"
       }
     ],
     "preActionWoO": true,
@@ -6786,6 +7662,13 @@
       },
       {
         "effect": "If 2+ FateIcon was dealt, discard 1 GearIcon"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Discard 1 Weapon GearIcon card instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6815,6 +7698,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest Fateicon in sight"
       }
     ],
     "preActionWoO": false,
@@ -6834,6 +7721,13 @@
       },
       {
         "effect": "Death 3"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Death 2 instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6866,6 +7760,10 @@
       {
         "type": "Target:",
         "target": "Lowest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6885,6 +7783,9 @@
     "consequences": [
       {
         "effect": "WisdomIcon Wisdom / WillIcon Will"
+      },
+      {
+        "effect": "Each hit deals 2 FateIcon and 3 DangerIcon"
       }
     ],
     "preAfterAttackWoO": true,
@@ -6914,6 +7815,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Highest Fateicon in sight"
       }
     ],
     "preActionWoO": true,
@@ -6971,6 +7876,10 @@
       {
         "type": "Target:",
         "target": "Furthest Titan in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Furthest Titan in sight"
       }
     ],
     "preActionWoO": true,
@@ -7013,6 +7922,10 @@
       {
         "type": "Target:",
         "target": "Lowest DangerIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest DangerIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -7067,6 +7980,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in sight"
       }
     ],
     "preActionWoO": true,
@@ -7083,6 +8000,10 @@
       },
       {
         "effect": "If 2+ FateIcon was dealt, discard 1 GearIcon card, if 4+ FateIcon is dealt, discard 2 GearIcon instead"
+      },
+      {
+        "WoO": true,
+        "effect": " Rewind"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7119,6 +8040,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in sight"
       }
     ],
     "preActionWoO": false,
@@ -7138,6 +8063,13 @@
       },
       {
         "effect": "Death 2"
+      },
+      {
+        "gate": {
+          "gateType": "Fate",
+          "gateValue": "5+"
+        },
+        "effect": "Death 1 instead"
       }
     ],
     "preAfterAttackWoO": true,
@@ -7170,6 +8102,10 @@
       {
         "type": "Target:",
         "target": "Lowest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -7226,6 +8162,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in sight"
       }
     ],
     "preActionWoO": true,
@@ -7264,7 +8204,12 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Furthest Titan"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -7323,6 +8268,10 @@
       {
         "type": "Target:",
         "target": "Highest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Priority Target in sight"
       }
     ],
     "preActionWoO": false,
@@ -7347,6 +8296,9 @@
       },
       {
         "effect": "If the Attack hits, it deals 9 DangerIcon"
+      },
+      {
+        "effect": "Death 1"
       }
     ],
     "preAfterAttackWoO": true,
@@ -7379,6 +8331,10 @@
       {
         "type": "Target:",
         "target": "All Titans on the Battle Board"
+      },
+      {
+        "type": "No Target:",
+        "target": "Perform Routine"
       }
     ],
     "preActionWoO": true,
@@ -7423,7 +8379,12 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "This Laser Attack is resolved from all Timefront spaces towards the right Board Edge"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -7438,6 +8399,10 @@
       },
       {
         "effect": "If hit, gain DangerIcon equal to your FateIcon"
+      },
+      {
+        "WoO": true,
+        "effect": " Rewind"
       }
     ],
     "preAfterAttackWoO": true,
@@ -7467,6 +8432,10 @@
       {
         "type": "Target:",
         "target": "Lowest FateIcon in front"
+      },
+      {
+        "type": "Target:",
+        "target": "Lowest FateIcon in sight"
       }
     ],
     "preActionWoO": true,
@@ -7506,7 +8475,12 @@
     "usedFor": "The Pitiless",
     "flavor": "You're nothing",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -7520,6 +8494,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, draw an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7546,7 +8523,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Begone",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Unshaded Board"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -7559,6 +8541,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, draw an Obol"
       }
     ],
     "preAfterAttackWoO": true,
@@ -7566,6 +8551,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 10"
       }
     ]
   },
@@ -7585,7 +8573,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Bask in the light of your god returned",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Embrace Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -7598,6 +8591,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, draw an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7624,7 +8620,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Cease to be",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -7638,6 +8639,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, draw an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7664,7 +8668,12 @@
     "usedFor": "The Pitiless",
     "flavor": "I forgive you",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -7683,6 +8692,9 @@
     "afterAttackEffects": [
       {
         "effect": "Knockdown"
+      },
+      {
+        "effect": "Knockback 15"
       }
     ]
   },
@@ -7702,7 +8714,12 @@
     "usedFor": "The Pitiless",
     "flavor": "It is not for you, blasphemer",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Denial Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -7715,6 +8732,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7741,7 +8761,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Let the impurities burn away",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Unshaded Board"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -7754,6 +8779,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7781,7 +8809,12 @@
     "flavor": "Disappear",
     "level": "II",
     "uber": true,
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -7795,6 +8828,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7821,7 +8857,12 @@
     "usedFor": "The Pitiless",
     "flavor": "I am the life giver",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "All Titans"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -7839,6 +8880,9 @@
       },
       {
         "effect": "This death is unavoidable"
+      },
+      {
+        "effect": "Return to 0203"
       }
     ]
   },
@@ -7858,7 +8902,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Worship me",
     "level": "X",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -7870,6 +8919,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7900,6 +8952,10 @@
       {
         "type": "Target:",
         "target": "Closest Titan"
+      },
+      {
+        "type": "No Target:",
+        "target": "Random Titan dies"
       }
     ],
     "preActionWoO": true,
@@ -7913,6 +8969,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -7939,7 +8998,12 @@
     "usedFor": "The Pitiless",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Unshaded Board"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Turn to face the most titans",
@@ -7959,6 +9023,9 @@
     "afterAttackEffects": [
       {
         "effect": "Glaciate the Time Anchor of the Titan with the lowest FateIcon"
+      },
+      {
+        "effect": "Rewind the Titan with the highest FateIcon"
       }
     ]
   },
@@ -7978,7 +9045,12 @@
     "usedFor": "Old Haunt",
     "flavor": "<SNAP>",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8017,7 +9089,12 @@
     "usedFor": "Old Haunt",
     "flavor": "My loving flock. My cattle",
     "level": "I",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Embrace Zone"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -8030,6 +9107,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, draw an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8056,7 +9136,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Love me, and you will be blessed in the next life",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Closest Titan in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -8070,6 +9155,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8096,7 +9184,12 @@
     "usedFor": "Old Haunt",
     "flavor": "And accept my love and judgement",
     "level": "II",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Denial Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8109,6 +9202,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, Knockdown, then drawn an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8135,7 +9231,12 @@
     "usedFor": "Old Haunt",
     "flavor": "I am the life giver",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Each Titan"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8150,6 +9251,9 @@
       },
       {
         "effect": "If it is already revealed at the start of the Primordial Round, perform it"
+      },
+      {
+        "effect": "Each Titan is incinerated"
       }
     ]
   },
@@ -8169,7 +9273,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Bear witness",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Denial Zone"
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -8182,6 +9291,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, Knockdown, then draw an Obol"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8208,7 +9320,12 @@
     "usedFor": "Old Haunt",
     "flavor": "You're already dead",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "PriorityTargetIcon Priority Target in sight"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -8225,6 +9342,9 @@
       },
       {
         "effect": "If the Laser Attack hits a Terrain tile, it continues sideways"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8251,7 +9371,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Leave My Grace and be doomed forever",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Denial Zone"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8263,6 +9388,9 @@
     "consequences": [
       {
         "effect": "Chosen Skill"
+      },
+      {
+        "effect": "If you are hit, you are incinerated"
       }
     ],
     "preAfterAttackWoO": false,
@@ -8289,7 +9417,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Starve",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "This Laser Attack is resolved from each side of every Irem Tower Terrain tile in cardinal directions"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8327,7 +9460,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Bask",
     "level": "III",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "This Laser Attack is resolved in all Rows from the left and toward the right Board Edge"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -8365,7 +9503,12 @@
     "usedFor": "Old Haunt",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
-    "targeting": [],
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": "Unshaded Board"
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Turn to face the most titans",
@@ -8385,6 +9528,9 @@
     "afterAttackEffects": [
       {
         "effect": "Wish Away 12 the Titan with the lowest FateIcon"
+      },
+      {
+        "effect": "Titan with the highest FateIcon suffers Midas 1"
       }
     ]
   }

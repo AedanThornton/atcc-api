@@ -440,8 +440,6 @@ def parse_trauma(table):
 def parse_consequences(consequences):
     """Parses the Attack Consequences."""
     consequences_list = re.split(r"\.\s?", consequences)
-    if len(consequences_list) > 1:
-        consequences_list = consequences_list[:-1]
     new_json = []
     gate_pattern = re.compile(r"(\w+) (\d\+) (.*)")
 
@@ -468,7 +466,7 @@ def parse_consequences(consequences):
 
 def parse_targeting(targeting):
     """Parses the Attack Consequences."""
-    targeting_lines = re.split(r"\.\s?", targeting)[:-1]
+    targeting_lines = re.split(r"\.\s?", targeting)
     new_json = []
     
     for line in targeting_lines:
