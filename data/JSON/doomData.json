@@ -16,14 +16,113 @@
       "All is not well on Crete. In the absence of Minos, dissent grows. The understaffed Horned Guard struggles to keep the peace after years of oppressive rule. In dawn's grey mists, Primordial silhouettes are seen cresting the mountain ranges, too far to be a threat, too close to completely expel them from the mind. You start to notice strange geometric graffiti adorning the walls and abandoned temples. You hear whispers of change coming from inland"
     ],
     "rules": [
-      "When an Argonaut gains the Mazetouched Affliction, place 1 DoomIcon token on this card (once per campaign).",
-      "Gaining Doom makes your journey harder and brings it closer to a gruesome end. Each time you gain DoomIcon, you must place 1 DoomIcon token on your current DoomIcon card. When there are 5 or more DoomIcon tokens on this card, flip it to side 1B. Place excess DoomIcon tokens on side 1B"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When an Argonaut gains the Mazetouched Affliction, place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card (once per campaign)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gaining Doom makes your journey harder and brings it closer to a gruesome end"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": ", you must place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "token on your current"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip it to side 1B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 1B"
+            }
+          ]
+        }
+      ]
     ],
     "flavor2": [
       "Placeholder"
     ],
     "rules2": [
-      "placeholder"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "placeholder"
+            }
+          ]
+        }
+      ]
     ]
   }
 ]

@@ -14,15 +14,62 @@
     "power": "Black",
     "speed": "+0",
     "stats": "",
-    "keywords": "",
+    "keywords": [
+      [],
+      []
+    ],
     "abilities": [
       {
         "name": "Crippled Savior",
-        "effects": "When your Attack hits, but before revealing the BP card, lose -1 TrespassIcon to gain a Crit Chance."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When your Attack hits, but before revealing the BP card, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain a Crit Chance"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Hephaestum Skin",
-        "effects": "For the duration of this Godform, you cannot die from Obols. Each time you draw a You died Obol, lose -1 TrespassIcon"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform, you cannot die from Obols"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Each time you draw a You died Obol, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -41,15 +88,70 @@
     "power": "Black",
     "speed": "*",
     "stats": "+1 Evasion",
-    "keywords": "",
+    "keywords": [
+      [],
+      []
+    ],
     "abilities": [
       {
         "name": "The Messenger",
-        "effects": "For the duration of this Godform, double your Titan's SpeedIcon value."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform, double your Titan's"
+                },
+                {
+                  "type": "icon",
+                  "value": "Speed"
+                },
+                {
+                  "type": "plainText",
+                  "value": "value"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Rearm",
-        "effects": "When you Awaken into this Godform, imediately unexhaust all your exhausted GearIcon. For the duration of this Godform your GearIcon cards cannot be exhausted"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
+                },
+                {
+                  "type": "icon",
+                  "value": "Gear"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform your"
+                },
+                {
+                  "type": "icon",
+                  "value": "Gear"
+                },
+                {
+                  "type": "plainText",
+                  "value": "cards cannot be exhausted"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -68,15 +170,82 @@
     "power": "White",
     "speed": "+0",
     "stats": "",
-    "keywords": "",
+    "keywords": [
+      [],
+      []
+    ],
     "abilities": [
       {
         "name": "God of War",
-        "effects": "You cannot die by raising your RageIcon over 9. When you are about to gain RageIcon above 9, ignore the gain."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot die by raising your"
+                },
+                {
+                  "type": "icon",
+                  "value": "Rage"
+                },
+                {
+                  "type": "plainText",
+                  "value": "over 9"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you are about to gain"
+                },
+                {
+                  "type": "icon",
+                  "value": "Rage"
+                },
+                {
+                  "type": "plainText",
+                  "value": "above 9, ignore the gain"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Eschatonic Fuse",
-        "effects": "When you are about to perform a Power Roll, lose -1 TrespassIcon to gain +1 PowerIcon to this roll"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you are about to perform a Power Roll, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Power"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to this roll"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -95,15 +264,69 @@
     "power": "Black",
     "speed": "+2",
     "stats": "+3 Precision",
-    "keywords": "",
+    "keywords": [
+      [],
+      []
+    ],
     "abilities": [
       {
         "name": "Hunter of Mortals",
-        "effects": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool. Treat this die as an automatic hit."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Treat this die as an automatic hit"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Critical Shot",
-        "effects": "ComplicatedAction Lose -1 TrespassIcon to perform an Attack with your Heavenly Bow! Range 3-9, Pushback X, where X is your Total Power during this Attack",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to perform an Attack with your Heavenly Bow! Range 3-9,"
+                },
+                {
+                  "type": "keyword",
+                  "value": "Pushback X"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", where X is your Total Power during this Attack"
+                }
+              ],
+              "costs": [
+                "ComplicatedAction"
+              ]
+            }
+          ],
+          []
+        ],
         "attack": {
           "attackDice": "3",
           "precision": "+0",
@@ -134,15 +357,54 @@
     "power": "Black",
     "speed": "+1",
     "stats": "",
-    "keywords": "",
+    "keywords": [
+      [],
+      []
+    ],
     "abilities": [
       {
         "name": "Poisoned Wisdom",
-        "effects": "When you Awaken into this Godform, immediately choose either the AI or BP deck. For the duration of this Godform, keep the top card from the chosen deck revealed at all times."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you Awaken into this Godform, immediately choose either the AI or BP deck"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform, keep the top card from the chosen deck revealed at all times"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Moirai Favor",
-        "effects": "Start of your turn: You amy lose up to -2 FateIcon"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Start of your turn: You amy lose up to -2"
+                },
+                {
+                  "type": "icon",
+                  "value": "Fate"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -161,15 +423,199 @@
     "power": "*",
     "speed": "-1",
     "stats": "",
-    "keywords": "Roll Out, Bypass, Auto-inspire, Lifeline, Voluntary Knockdown",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Roll Out"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Bypass"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Auto-inspire"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Lifeline"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Voluntary Knockdown"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "abilities": [
       {
         "name": "Drunken Enlightenment",
-        "effects": "When you Awaken into this Godform and at the start of each of your turns, roll a d10. 1-3: Your Power die becomes RedPowerDieIcon. You gain +3 EvasionIcon. 4-5: Your Power die becomes BlackPowerDieIcon. You gain +2 EvasionIcon. 6-7: Your Power die becomes 2 RedPowerDieIcon. You gain +1 EvasionIcon. 8-9: Your Power die becomes WhitePowerDieIcon. 10: Your Power die becomes 2 WhitePowerDieIcon. You gain -1 EvasionIcon."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you Awaken into this Godform and at the start of each of your turns, roll a d10"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "1-3: Your Power die becomes"
+                },
+                {
+                  "type": "icon",
+                  "value": "RedPowerDie"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You gain +3"
+                },
+                {
+                  "type": "icon",
+                  "value": "Evasion"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "4-5: Your Power die becomes"
+                },
+                {
+                  "type": "icon",
+                  "value": "BlackPowerDie"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You gain +2"
+                },
+                {
+                  "type": "icon",
+                  "value": "Evasion"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "6-7: Your Power die becomes 2"
+                },
+                {
+                  "type": "icon",
+                  "value": "RedPowerDie"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Evasion"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "8-9: Your Power die becomes"
+                },
+                {
+                  "type": "icon",
+                  "value": "WhitePowerDie"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "10: Your Power die becomes 2"
+                },
+                {
+                  "type": "icon",
+                  "value": "WhitePowerDie"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You gain -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Evasion"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Godly Comforter",
-        "effects": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1 TrespassIcon to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -188,15 +634,88 @@
     "power": "Red",
     "speed": "+0",
     "stats": "+2 Evasion, +2 Evasion Reroll",
-    "keywords": "Fate Vault",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Vault"
+            }
+          ],
+          "costs": [
+            "Fate"
+          ]
+        }
+      ],
+      []
+    ],
     "abilities": [
       {
         "name": "Unearthly Beauty",
-        "effects": "Fate If the Primordial Attack has a singular Target, lose -1 TrespassIcon to change that Target to you."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If the Primordial Attack has a singular Target, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to change that Target to you"
+                }
+              ],
+              "costs": [
+                "Fate"
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Irresistible Call",
-        "effects": "MovementActionIcon Lose -1 TrespassIcon to make the Primordial move to you via the shortest path. Use the Primordial's SpeedIcon"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to make the Primordial move to you via the shortest path"
+                }
+              ],
+              "costs": [
+                "MovementAction"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Use the Primordial's"
+                },
+                {
+                  "type": "icon",
+                  "value": "Speed"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -215,19 +734,126 @@
     "power": "Black",
     "speed": "+0",
     "stats": "+3 Precision",
-    "keywords": "Bonus Action, Light 4, Cryptex Loathing",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Bonus Action"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Light 4"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Cryptex Loathing"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "abilities": [
       {
         "name": "Fly",
-        "effects": "Fate Exhaust Use during voluntary movement to ignore all Terrain tiles during this movement. You cannot end your movement on an Obstacle or Chasm. Fate Exhaust When you are about to perform a Climb test, automatically succeed at that test instead."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Use during voluntary movement to ignore all Terrain tiles during this movement"
+                }
+              ],
+              "costs": [
+                "Fate",
+                "Exhaust"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot end your movement on an Obstacle or Chasm"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you are about to perform a Climb test, automatically succeed at that test instead"
+                }
+              ],
+              "costs": [
+                "Fate",
+                "Exhaust"
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Pitiful as the Sun",
-        "effects": "You cannot die from any Curse."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot die from any Curse"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Trigger Finger",
-        "effects": "CombatActionIcon Lose -1 TrespassIcon to perform an Attack with your Finger! Range 3-10, Fire X, where X is your Total Power during this Attack",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to perform an Attack with your Finger! Range 3-10,"
+                },
+                {
+                  "type": "keyword",
+                  "value": "Fire X"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", where X is your Total Power during this Attack"
+                }
+              ],
+              "costs": [
+                "CombatAction"
+              ]
+            }
+          ],
+          []
+        ],
         "attack": {
           "attackDice": "3",
           "precision": "+0",
@@ -259,15 +885,99 @@
     "power": "White",
     "speed": "+0",
     "stats": "",
-    "keywords": "Light 1",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Light 1"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "abilities": [
       {
         "name": "Till Death Do Us",
-        "effects": "Choose another Titan. That Titan gains the PriorityTargetIcon Priority Target token (you cannot gain the PriorityTargetIcon token). As long as you are alive, that Titan cannot die from an Obol Draw. Each that Titan is forced to draw an Obol, lose -1 TrespassIcon."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Choose another Titan"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "That Titan gains the"
+                },
+                {
+                  "type": "icon",
+                  "value": "PriorityTarget"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Priority Target token (you cannot gain the"
+                },
+                {
+                  "type": "icon",
+                  "value": "PriorityTarget"
+                },
+                {
+                  "type": "plainText",
+                  "value": "token)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "As long as you are alive, that Titan cannot die from an Obol Draw"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Each that Titan is forced to draw an Obol, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Scorned Mother",
-        "effects": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2 PowerIcon"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2"
+                },
+                {
+                  "type": "icon",
+                  "value": "Power"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -286,15 +996,78 @@
     "power": "Black",
     "speed": "+3",
     "stats": "+2 Precision, +3 Evasion",
-    "keywords": "Bonus Action, Cryptex Loathing",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Bonus Action"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Cryptex Loathing"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "abilities": [
       {
         "name": "Trench of the Soul",
-        "effects": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens."
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       },
       {
         "name": "Source and Sacrifice",
-        "effects": "Oxygen Lose -1 TrespassIcon to perform a Bonus Attack (once per Battle). After that, a random Titan on the Argo dies"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to perform a Bonus Attack (once per Battle)"
+                }
+              ],
+              "costs": [
+                "Oxygen"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "After that, a random Titan on the Argo dies"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   }

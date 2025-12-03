@@ -10,7 +10,35 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "For targeting purposes, treat Inhabited terrain tiles as if they were Titans. If a terrain tile is attacked, it is immediately destroyed. Do not resolve an Evasion Roll"
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For targeting purposes, treat Inhabited terrain tiles as if they were Titans"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a terrain tile is attacked, it is immediately destroyed"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Do not resolve an Evasion Roll"
+            }
+          ]
+        }
+      ],
+      []
+    ]
   },
   {
     "cardIDs": [
@@ -23,7 +51,43 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards. 2+ tokens: You cannot use exhaustable GearIcon. 3+ tokens: You cannot perform MovementActionIcon",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2+ tokens: You cannot use exhaustable"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "3+ tokens: You cannot perform"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "Temenos"
   },
   {
@@ -37,7 +101,70 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Remove the Sisyphean Task AI card from the Battle. Add the 3 Sisyphean (Special) Condition cards (Secret deck 8, cards 144-146) to the game. When you deal a Wound, discard a Sisyphean Condition card from your Titan. Additional Setup: Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remove the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Sisyphean Task",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "AI card from the Battle"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the 3"
+            },
+            {
+              "type": "cardRef",
+              "value": "Sisyphean (Special)",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Condition cards (Secret deck 8, cards 144-146) to the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you deal a Wound, discard a"
+            },
+            {
+              "type": "cardRef",
+              "value": "Sisyphean",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card from your Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Additional Setup: Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "The Burden"
   },
   {
@@ -51,7 +178,27 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "At the start of a Titan's turn, they must place their Time Anchor on their space. Move it from its previous location if necessary"
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of a Titan's turn, they must place their Time Anchor on their space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move it from its previous location if necessary"
+            }
+          ]
+        }
+      ],
+      []
+    ]
   },
   {
     "cardIDs": [
@@ -64,7 +211,19 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "For each dead Titan, reduce Vanish by 1.",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For each dead Titan, reduce Vanish by 1"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "Dragon of Phobos"
   },
   {
@@ -78,7 +237,19 @@
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "For each dead Titan, lower Scan Difficulty by 1.",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For each dead Titan, lower Scan Difficulty by 1"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "Meduketos"
   },
   {
@@ -93,7 +264,63 @@
     "foundIn": "Secret Deck 04",
     "faq": "",
     "errata": "",
-    "effects": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the Danger Sense Trait when moving into the Weakspot space. CombatActionIcon When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card. Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance. Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses). Next time any Titan Attacks, it adds the Power you noted to its Total Power",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
+            },
+            {
+              "type": "keyword",
+              "value": "Danger Sense"
+            },
+            {
+              "type": "plainText",
+              "value": "Trait when moving into the Weakspot space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Next time any Titan Attacks, it adds the Power you noted to its Total Power"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "The Nietzschean"
   },
   {
@@ -108,7 +335,338 @@
     "foundIn": "Secret Deck 04",
     "faq": "",
     "errata": "",
-    "effects": "Disable the Stay Your Hand Trait. End of Primordial Round: Titan with the lowest Danger gains X Danger. X is the current position of the Time marker",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Disable the"
+            },
+            {
+              "type": "keyword",
+              "value": "Stay Your Hand"
+            },
+            {
+              "type": "plainText",
+              "value": "Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "End of Primordial Round: Titan with the lowest Danger gains X Danger"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "X is the current position of the Time marker"
+            }
+          ]
+        }
+      ],
+      []
+    ],
     "primordial": "The Nietzschean"
+  },
+  {
+    "cardIDs": [
+      "CV1817"
+    ],
+    "name": "Pitiless Sun",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Primordial Round or your Titan turn adjacent to the Pitiless, you are incinerated"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "The Pitiless"
+  },
+  {
+    "cardIDs": [
+      "CV1818"
+    ],
+    "name": "God Among Men",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Pitiless performs his Round after 2 Titan turns"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then the other 2 Titans go, then the Pitiless, then the players can re-arrange their playing order"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of each Pitiless's Round, perform"
+            },
+            {
+              "type": "cardRef",
+              "value": "Merciless Sun",
+              "refID": ""
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "The Pitiless"
+  },
+  {
+    "cardIDs": [
+      "CV1819"
+    ],
+    "name": "Race the Sun",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If M11 is marked, see 0198"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If R7 is marked, see 0199"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When the first Titan dies, see 0200"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you deal the 3rd Wound, see 0201"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you deal the 6th Wound, see 0202"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If all Titans die, see 0205"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "The Pitiless"
+  },
+  {
+    "cardIDs": [
+      "DV2536"
+    ],
+    "name": "Pitiless Sun",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Primordial Round or your Titan turn adjacent to the Old Haunt, you are incinerated"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Old Haunt"
+  },
+  {
+    "cardIDs": [
+      "DV2537"
+    ],
+    "name": "God Among Men",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Old Haunt performs his Round after 2 Titan turns"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then the other 2 Titans go, then the Old Haunt, then the players can re-arrange their playing order"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of each Old Haunt's Round, perform"
+            },
+            {
+              "type": "cardRef",
+              "value": "Merciless Sun",
+              "refID": ""
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Old Haunt"
+  },
+  {
+    "cardIDs": [
+      "DV2538"
+    ],
+    "name": "Glass It All",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you were on a Shaded space during any Sun Attack, destroy the Terrain tile that shaded that space, even if Indestructible"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Old Haunt"
+  },
+  {
+    "cardIDs": [
+      "DV2539"
+    ],
+    "name": "Old Wounds",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the new cards to the AI and BP I and II decks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Replace the AI and BP III Decks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore the \"do not escalate\" rules of BP cards"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the text refers to the Pitiless, it applies to the Old Haunt"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Old Haunt"
   }
 ]

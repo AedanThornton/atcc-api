@@ -25,8 +25,33 @@
       "Indestructible"
     ],
     "abilities": [
-      "Hull Damage: If the Primordial moves on to this tile or a Titan would be involuntarily moved onto it, roll a d10",
-      "On a 6+, the plating holds, otherwise, lose -1 HullIcon and disable the Argo Support effect (only once per Battle)"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Hull Damage: If the Primordial moves on to this tile or a Titan would be involuntarily moved onto it, roll a d10"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 6+, the plating holds, otherwise, lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            },
+            {
+              "type": "plainText",
+              "value": "and disable the Argo Support effect (only once per Battle)"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -50,7 +75,8 @@
       "Ambrosia"
     ],
     "abilities": [
-      ""
+      [],
+      []
     ]
   },
   {
@@ -89,7 +115,8 @@
       "Exposed"
     ],
     "abilities": [
-      ""
+      [],
+      []
     ]
   },
   {
@@ -113,7 +140,8 @@
       "Ambrosia"
     ],
     "abilities": [
-      ""
+      [],
+      []
     ]
   },
   {
@@ -139,14 +167,69 @@
       "Inhabited"
     ],
     "abilities": [
-      "Scouting: The first time any Titan move son to this tile, test Cunning (6+)",
-      "On Fail, flip this tile",
-      "Thermopylaed: If you push the Primordial onto this tile, test Cunning (6+)",
-      "On Success, flip this tile"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Scouting: The first time any Titan moves on to this tile, test Cunning (6+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On Fail, flip this tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Thermopylaed: If you push the Primordial onto this tile, test Cunning (6+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On Success, flip this tile"
+            }
+          ]
+        }
+      ],
+      []
     ],
     "name2": "Termophylaed City",
-    "keywords2": "Obscuring. Cover. Inhabited",
-    "abilities2": "Titans: If this card flipped from Scouting, gain Danger equal to the Primordial LVL and suffer Knockdown. Primordials: If this card flipped from Thermopylaed, place 1 negative AT token in the Kratos Pool"
+    "keywords2": [
+      "Obscuring",
+      "Cover",
+      "Inhabited"
+    ],
+    "abilities2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans: If this card flipped from Scouting, gain Danger equal to the Primordial LVL and suffer Knockdown"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Primordials: If this card flipped from Thermopylaed, place 1 negative AT token in the Kratos Pool"
+            }
+          ]
+        }
+      ],
+      []
+    ]
   },
   {
     "cardIDs": [
@@ -183,13 +266,73 @@
       "Indestructible"
     ],
     "abilities": [
-      "Cannot be ignored using the Jump keyword",
-      "During voluntary movement, Titans may perform a Climb test to attempt to move through a Cliff tile",
-      "Small Cliff: Fury (8+)",
-      "Large Cliff: Fury (10+)",
-      "Success: Continue to move through the Cliff tile, ignoring the Obstacle keyword",
-      "You cannot end your movement on a Cliff tile",
-      "Fail: Your movement immediately ends"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Cannot be ignored using the"
+            },
+            {
+              "type": "keyword",
+              "value": "Jump"
+            },
+            {
+              "type": "plainText",
+              "value": "keyword"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During voluntary movement, Titans may perform a Climb test to attempt to move through a Cliff tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Small Cliff: Fury (8+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Large Cliff: Fury (10+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Success: Continue to move through the Cliff tile, ignoring the Obstacle keyword"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot end your movement on a Cliff tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Your movement immediately ends"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -215,15 +358,101 @@
       "Obscuring"
     ],
     "abilities": [
-      "CombatActionIcon Treasure: Once per Battle, when adjacent, search the Ambrosia Elephant",
-      "Roll a d10: 1: The bubbling ambrosia stored in the elephant enguls you! Gain 1 Ambrosia token and suffer Knockdown",
-      "2-5: Dormant raw Ambrosia",
-      "Gain 1 Violent Ambrosia resources",
-      "6-9: Refined Ambrosia tank",
-      "Gain 2 Violent Ambrosia resources",
-      "10: During their excavation, the Spartans dug up a Cyclopean Burial Site",
-      "Gain a Carver Kopis GearIcon card",
-      "If you already a Carver Kopis, gain a Cyclopean Visor GearIcon card instead"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "Treasure: Once per Battle, when adjacent, search the Ambrosia Elephant"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Roll a d10: 1: The bubbling ambrosia stored in the elephant enguls you! Gain 1 Ambrosia token and suffer Knockdown"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2-5: Dormant raw Ambrosia"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Violent Ambrosia resources"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "6-9: Refined Ambrosia tank"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Violent Ambrosia resources"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "10: During their excavation, the Spartans dug up a Cyclopean Burial Site"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain a Carver Kopis"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you already a Carver Kopis, gain a Cyclopean Visor"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card instead"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -247,11 +476,57 @@
       "Chasm"
     ],
     "abilities": [
-      "Setup: Place 2 Cyclops Trap Terrain tiles in the Outer 3 zone, minimum 5 spaces apart and 5 spaces from any City",
-      "Trap: If the Primordial moves through this tile, discard the tile and roll a d10: 1-6: Look at the top BP card",
-      "7-10: Look at the top BP card",
-      "The Primordial has -1 ATIcon until the end of the Titan Round",
-      "If a Titan dies from the Chasm effect on this tile, discard the tile"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Setup: Place 2 Cyclops Trap Terrain tiles in the Outer 3 zone, minimum 5 spaces apart and 5 spaces from any City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Trap: If the Primordial moves through this tile, discard the tile and roll a d10: 1-6: Look at the top BP card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7-10: Look at the top BP card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Primordial has -1"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "until the end of the Titan Round"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a Titan dies from the Chasm effect on this tile, discard the tile"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -277,22 +552,237 @@
       "Obscuring"
     ],
     "abilities": [
-      "Setup: Place the Krypteia Outpost in the Outer 3 Zone of one of the short Board Edges",
-      "Jamming: While the Krypteia Outpost is on the Board, you cannot use Argo Abilities",
-      "You may attack the Krypteia Outpost with a CombatActionIcon as if it was a Primordial",
-      "(To-Hit 4+",
-      "AT 4",
-      "Wound: You damage the structure, flip this tile and place 2 Openings in the Kratos Pool",
-      "Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans",
-      "Gain +1 Danger and resolve a Trauma Draw",
-      "Critical: You destroy the structure in one fell attack! Gain +1 Progress",
-      "Discard this tile",
-      "You and one other Titan may immdiately move up to 5 spaces",
-      "Place 1 Opening token in the Kratos Pool.)"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Setup: Place the Krypteia Outpost in the Outer 3 Zone of one of the short Board Edges"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Jamming: While the Krypteia Outpost is on the Board, you cannot use Argo Abilities"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may attack the Krypteia Outpost with a"
+            },
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "as if it was a Primordial"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "(To-Hit 4+"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "AT 4"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Wound: You damage the structure, flip this tile and place 2 Openings in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1 Danger and resolve a Trauma Draw"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Critical: You destroy the structure in one fell attack! Gain +1 Progress"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard this tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You and one other Titan may immdiately move up to 5 spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place 1 Opening token in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        }
+      ],
+      []
     ],
     "name2": "Damaged Krypteia Outpost",
-    "keywords2": "Destructible. Obstacle. Obscuring",
-    "abilities2": "Jamming: While the Damaged Krypteia Outpost is on the Board, you can only use 1 Argo Ability per Round. You may attack the Krypteia Outpost with a CombatActionIcon as if it was a Primordial. (To-Hit 6+. AT 3. Wound: Discard this tile. You and one other Titan may immediately move up to 5 spaces. Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans. Gain +1 Danger and resolve a Trauma Draw. Critical: You destroy the structure in one fell attack! Gain +1 Progress. Discard this tile. You and one other Titan may immdiately move up to 5 spaces.)"
+    "keywords2": [
+      "Destructible",
+      "Obstacle",
+      "Obscuring"
+    ],
+    "abilities2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Jamming: While the Damaged Krypteia Outpost is on the Board, you can only use 1 Argo Ability per Round"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may attack the Krypteia Outpost with a"
+            },
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "as if it was a Primordial"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "(To-Hit 6+"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "AT 3"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Wound: Discard this tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You and one other Titan may immediately move up to 5 spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Your attack is met with fierce opposition! These Spartans have been trained to deal with Titans"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1 Danger and resolve a Trauma Draw"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Critical: You destroy the structure in one fell attack! Gain +1 Progress"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard this tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You and one other Titan may immdiately move up to 5 spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        }
+      ],
+      []
+    ]
   },
   {
     "cardIDs": [
@@ -318,9 +808,47 @@
       "Inhabited"
     ],
     "abilities": [
-      "<Friendly> Titans on this tile have +1 Precision",
-      "<Allied> Titans on this tile have +1 Precision and +1 PowerIcon",
-      "If this tile is destroyed, immediately lose -1 Humanity and gain +1 RefugeesIcon"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Allied"
+            },
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1 Precision and +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this tile is destroyed, immediately lose -1 Humanity and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Refugees"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1 Precision"
+            }
+          ]
+        }
+      ]
     ]
   },
   {
@@ -350,8 +878,25 @@
       "Indestructible"
     ],
     "abilities": [
-      "If a Titan would die by moving onto or beyond this Board Edge, it is erased from existence instead",
-      "Treat all Timefront Terrain tiles as a single tile"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a Titan would die by moving onto or beyond this Board Edge, it is erased from existence instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat all Timefront Terrain tiles as a single tile"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -378,8 +923,45 @@
       "Cover"
     ],
     "abilities": [
-      "CombatAction Thaw Time: Once per Battle, when adjacent or on this tile, lose -1 Frozen Time and test (ArgoFateIcon+)> On Success, you've freed the City from the Loop",
-      "Gain +1 Diplomacy with the Local Faction and replace this tile with a City Terrain tile"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "Thaw Time: Once per Battle, when adjacent or on this tile, lose -1 Frozen Time and test ("
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            },
+            {
+              "type": "plainText",
+              "value": "+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On Success, you've freed the City from the Loop"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1 Diplomacy with the Local Faction and replace this tile with a City Terrain tile"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -404,7 +986,33 @@
       "Indestructible"
     ],
     "abilities": [
-      "Titans treat this tile as having Boundless and Board Edge keywords"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans treat this tile as having"
+            },
+            {
+              "type": "keyword",
+              "value": "Boundless"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "keyword",
+              "value": "Board Edge"
+            },
+            {
+              "type": "plainText",
+              "value": "keywords"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -431,9 +1039,49 @@
       "Black Ice"
     ],
     "abilities": [
-      "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
-      "3-8: Place 1 negative ATIcon token in the Kratos Pool",
-      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "3-8: Place 1 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "token in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9-10: Place 2 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens in the Kratos Pool"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -460,9 +1108,49 @@
       "Black Ice"
     ],
     "abilities": [
-      "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens",
-      "3-8: Place 1 negative ATIcon token in the Kratos Pool",
-      "9-10: Place 2 negative ATIcon tokens in the Kratos Pool"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Trap: If you push the Primordial onto this tile, remove the tile and roll a d10: 1-2: Nothing happens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "3-8: Place 1 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "token in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9-10: Place 2 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens in the Kratos Pool"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -489,10 +1177,41 @@
       "Elevated"
     ],
     "abilities": [
-      "Climb test Fury (4+)",
-      "On Success, yo may place your Titan on any of this tile's spaces",
-      "When on a Floating Rocks space, a Titan may move to a VP I of an adjacent Primordial with a free action",
-      "They also gain +3 to Climb tests"
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Climb test Fury (4+)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On Success, yo may place your Titan on any of this tile's spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a Floating Rocks space, a Titan may move to a VP I of an adjacent Primordial with a free action"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "They also gain +3 to Climb tests"
+            }
+          ]
+        }
+      ],
+      []
     ]
   },
   {
@@ -525,7 +1244,8 @@
       "Slippery"
     ],
     "abilities": [
-      ""
+      [],
+      []
     ]
   },
   {
@@ -550,7 +1270,8 @@
       "Slippery"
     ],
     "abilities": [
-      ""
+      [],
+      []
     ]
   }
 ]

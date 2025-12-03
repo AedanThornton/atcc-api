@@ -6,13 +6,61 @@
     "name": "Egolock",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "Someone - or something - is trying to wrest control",
-    "effects": "You are paralyzed. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. When you are attacked, instead of performing the Evasion Roll, immediately die. Do not resolve any other hit effects and proceed to After Attack",
-    "rally": "You may test Courage (Fate+)"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You are paralyzed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are attacked, instead of performing the Evasion Roll, immediately die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Do not resolve any other hit effects and proceed to After Attack"
+          }
+        ]
+      }
+    ],
+    "rally": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You may test Courage ("
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        },
+        {
+          "type": "plainText",
+          "value": "+)"
+        }
+      ]
+    }
   },
   {
     "cardIDs": [
@@ -21,13 +69,34 @@
     "name": "Reject Argonaut",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "The Titan is having a serologic reaction to the Argonaut",
-    "effects": "Perform a Kratos Roll. Fail: You die",
-    "rally": ""
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Perform a Kratos Roll"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Fail"
+          },
+          {
+            "type": "plainText",
+            "value": "You die"
+          }
+        ]
+      }
+    ],
+    "rally": null
   },
   {
     "cardIDs": [
@@ -36,13 +105,137 @@
     "name": "Berserk",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "",
-    "effects": "Gain +2 RageIcon. Each Titan Round you must activate first. You cannot Block. Your Titan Power Die is one tier higher. On your turn, you must use your MovementActionIcon to move towards the closest Target (Titan or Primordial) along the shortest possible path, then use your CombatActionIcon to attack it. You can perform free actions as normal. If you attack a Titan, do not resolve the Attack Sequence, instead that Titan gains +3 DangerIcon and suffers Knockdown. Start of your turn: Unexhaust 1 Weapon GearIcon. End of Battle: If you still have this card, you die",
-    "rally": "You may test Courage or Will (10+)"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan Round you must activate first"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot Block"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Your Titan Power Die is one tier higher"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On your turn, you must use your"
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          },
+          {
+            "type": "plainText",
+            "value": "to move towards the closest Target (Titan or Primordial) along the shortest possible path, then use your"
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "plainText",
+            "value": "to attack it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You can perform free actions as normal"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you attack a Titan, do not resolve the Attack Sequence, instead that Titan gains +3"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and suffers"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of your turn"
+          },
+          {
+            "type": "plainText",
+            "value": "Unexhaust 1 Weapon"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "If you still have this card, you die"
+          }
+        ]
+      }
+    ],
+    "rally": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You may test Courage or Will (10+)"
+        }
+      ]
+    }
   },
   {
     "cardIDs": [
@@ -51,13 +244,50 @@
     "name": "Moirosis",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "",
-    "effects": "Gain FateIcon equal to your RageIcon. Reduce your RageIcon to 0",
-    "rally": ""
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "equal to your"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reduce your"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "to 0"
+          }
+        ]
+      }
+    ],
+    "rally": null
   },
   {
     "cardIDs": [
@@ -66,13 +296,34 @@
     "name": "Fate Paradox",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "",
-    "effects": "Gain DangerIcon equal to your FateIcon",
-    "rally": ""
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "equal to your"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "rally": null
   },
   {
     "cardIDs": [
@@ -81,13 +332,77 @@
     "name": "Abandon",
     "cardType": "Kratos",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "flavor": "The primal urge to flee is just too strong",
-    "effects": "You are fleeing. On your turn, you must use your MovementActionIcon to move towards the closest Board Edge. You cannot attack or use other actions or abilities, unless stated otherwise. If you would cross the Board Edge, remove your Titan from the Board. It runs away (for all purposes treat it as dead)",
-    "rally": "You may test Courage (Fate+)"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You are fleeing"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On your turn, you must use your"
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          },
+          {
+            "type": "plainText",
+            "value": "to move towards the closest Board Edge"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot attack or use other actions or abilities, unless stated otherwise"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you would cross the Board Edge, remove your Titan from the Board"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It runs away (for all purposes treat it as dead)"
+          }
+        ]
+      }
+    ],
+    "rally": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You may test Courage ("
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        },
+        {
+          "type": "plainText",
+          "value": "+)"
+        }
+      ]
+    }
   },
   {
     "cardIDs": [
@@ -102,8 +417,37 @@
     "faq": "",
     "errata": "",
     "flavor": "",
-    "effects": "You may gain +1 ArgoFateIcon to Awaken. If you do, AdversaryIcon",
-    "rally": ""
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "plainText",
+            "value": "to Awaken"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ],
+    "rally": null
   },
   {
     "cardIDs": [
@@ -118,7 +462,36 @@
     "faq": "",
     "errata": "",
     "flavor": "",
-    "effects": "Awaken, then AdversaryIcon. Gain 3 Pain tokens. Regardless of anything, you will die after the Battle (you cannot use a Pygmalion stone to save this Titan)",
-    "rally": ""
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Awaken, then"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 3 Pain tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Regardless of anything, you will die after the Battle (you cannot use a Pygmalion stone to save this Titan)"
+          }
+        ]
+      }
+    ],
+    "rally": null
   }
 ]

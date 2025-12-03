@@ -2,23 +2,35 @@ Name,Effects
 End of Hope,End of Primordial Round: Perform Signature
 Vanish X,"Move the Primordial X spaces towards the closest Board Edge, without turning, ignoring Board Edges directly across from the Target or attacking Titan. If thes would move the Primordial beyond a Board Edge or outside of all ranges of light, it disappears. When the Primordial is outside the Battle Board, it cannot be affected in any way"
 Pale Grin of Doom,"When you are attacked from behind, ignore the Evasion Roll; the Attack automatically hits with all the dice"
-Fear is Constant,"Start of Battle: Chosen Titan gains the Fear Condition card, another Titan gains the Terror Condition card, a third one flips 1 Oxygen token"
-Blacker Than The Night,"When the Primordial performs Vanish X, it doesn't ignore the Board Edges directly across from the Target or attacking Titan"
+Fear is Constant,"<Start of Battle> Chosen Titan gains the [Fear|AL0299] Condition card, another Titan gains the [Terror] Condition card, a third one flips 1 Oxygen token"
+Blacker Than The Night,"When the Primordial performs {Vanish X}, it doesn't ignore the Board Edges directly across from the Target or attacking Titan"
 Pale Grin of Death,"When you are attacked from behind, ignore the Evasion Roll. You are immediately devoured (dead)"
-Light is Dimming,"If you don't have any Light X keyword, you are always considered to be attacked from behind"
+Light is Dimming,"If you don't have any {Light X} keyword, you are always considered to be attacked from behind"
 Psychosomatic Poisoning,"When you gain a Condition card, and each time you start your turn with a Condition card, gain 1 Ambrosia token"
 Relentless Anxiety,"When the Primordial vanishes, immediately draw an AI card"
 Deeper Depths,Each Titan starts the Battle with 1 Oxygen token less
-Original Trench,Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the Chasm keyword. All other Terrain is considered Elevated
-Beginning of the End,"End of Primordial Round: Before End of Hope, draw and perform another AI card"
+Original Trench,Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the {Chasm} keyword. All other Terrain is considered {Elevated}
+Beginning of the End,"<End of Primordial Round> Before {End of Hope}, draw and perform another AI card"
 Dragon of the Lightless Void,"You can only use X amount of Opening or Closing tokens from the Kratos Pool. You can only use X amount of Break, Fire, Black, and Hope tokens from the Kratos Pool combined. X is equal to your Light X keyword"
 Ruthless,Remove all positive Trauma cards from the Trauma decks (except Obols)
-Heat Death,Primordial doesn't destroy Petrified Vent Terrain tiles it moves through. Primordial's Crash causes incineration
+Heat Death,Primordial doesn't destroy [Petrified Vent] Terrain tiles it moves through. Primordial's Crash causes incineration
 Microwave Shield,"Before performing an Attack Roll, for each space between you and the Primordial, discard 1 token from the Kratos Pool"
 Truth or Death,"Before performing a Scan, declare if the Primordial is there. If you are not correct, after resolving the Scan, draw an Obol"
 Invisible Flame,"When you climb the VP, and when you start your turn on the VP, gain 1 Ambrosia token and 1 Pain token"
-Nap of the Vent,Primordial destroys Petrified Vent Terrain tiles it moves through
+Nap of the Vent,Primordial destroys [Petrified Vent]Terrain tiles it moves through
 Tigerback,"To leave the VP voluntarily, you need to pass a Climb Down test (same difficulty as the Climb test)"
-Candle in the Dark,"If your Light X is lower than the Primordial level divided by 2 (rounding up), Skitter loses WoOIcon"
+Candle in the Dark,"If your Light X is lower than the Primordial level divided by 2 (rounding up), Skitter loses @WoO"
 Black Soup,"If you fail to find the Primordial during the Titan Round, every Titan dies"
-Three Seconds,Ignore WoOIcon preceding Microwave Attacks
+Three Seconds,Ignore @WoO preceding Microwave Attacks
+Imperial Leap,"This Trait replaces the {Imperial Impetus} Trait and the effects of the {Imperial Impetus} keyword. *Imperial Impetus*: Place an [Ambrosia Cloud] Terrain tile beneath the Nosoi Dragon. The Nosoi Dragon moves onto the [Irem Tower] Terrain tile in front that is at least 11 spaces away from it. Then, all Titans in Zone 2 from the Nosoi Dragon gain 1 Ambrosia token and draw an Obol. This movement does not cause Crash. If the Nosoi Dragon cannot perform Imperial Impetus, move it onto the closest [Ambrosia Cloud] (if able) and perform Routine"
+Enriched Toxins,"Whenever a Titan would gain one or more Ambrosia tokens, they additionally gain 1 Midas token."
+Pollution Aura,"Each Titan starts the Battle with 1 Oxygen token. If a Titan ends their turn in Zone 2 from the Nosoi Dragon, they discard 1 Oxygen token and gain 1 Ambrosia token. If, at any point, you must discard an Oxygen token and you don't have any, you die. Note; Do not use Cycle V Oxygen token rules"
+God Given Law,Ignore @WoO preceding [Merciless Sun]
+Magnifying Glass,"VP becomes unshaded. After a Titan fails a Climb test, perform Signature against that Titan"
+Blinding Shine,The Old Haunt cannot be Wounded from the front
+Unworthy Will Die,"At the end of the Primordial Round, the Old Haunt destroys the closest [Irem Tower]"
+Cannot Hide from the Sun,Titan with the @PriorityTarget Priority Target token cannot be shaded in any way
+God Taken Law,"When an [Irem Tower] is destroyed, each Titan adjacent to it is dealt X @Danger, where X is the number of Towers already removed"
+Make the Sun Move and the Earth Stand Still,"At the end of the Primordial Round, the Old Haunt appears at the closest Sun Circle"
+Spontaneous Supernova,"When the Old Haunt appears at a Sun Circle, all unshaded Titans are incinerated and destroy any Terrain tile that shaded a Titan, even if indestructible"
+Gods Don't Look Back,Titans attacking from the Blindspot have an additional +1 Precision

@@ -106,8 +106,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -219,8 +223,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -332,8 +340,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -445,8 +457,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -558,12 +574,20 @@
     ],
     "abilities": [
       {
-        "name": "Cold Open",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cold Open"
+          }
+        ]
       },
       {
-        "name": "Six-Armed",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Six-Armed"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -690,12 +714,20 @@
     ],
     "abilities": [
       {
-        "name": "Maze Awareness",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Maze Awareness"
+          }
+        ]
       },
       {
-        "name": "Improved Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Improved Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -820,17 +852,28 @@
     ],
     "abilities": [
       {
-        "name": "Auto-break",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-break 1"
+          }
+        ]
       },
       {
-        "name": "Logicbreak",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Logicbreak"
+          }
+        ]
       },
       {
-        "name": "Theseus Logic",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Theseus Logic"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -955,20 +998,36 @@
     ],
     "abilities": [
       {
-        "name": "Advanced Reflex",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Advanced Reflex"
+          }
+        ]
       },
       {
-        "name": "Unknown Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unknown Might"
+          }
+        ]
       },
       {
-        "name": "Disturbance in Fate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disturbance in Fate"
+          }
+        ]
       },
       {
-        "name": "Ruse",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ruse"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1106,16 +1165,28 @@
     ],
     "abilities": [
       {
-        "name": "Rage Summit",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rage Summit"
+          }
+        ]
       },
       {
-        "name": "Cyclopean Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cyclopean Might"
+          }
+        ]
       },
       {
-        "name": "Spartan-Bred",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Spartan-Bred"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1233,21 +1304,36 @@
     ],
     "abilities": [
       {
-        "name": "Power Re-roll",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Power Re-roll 1"
+          }
+        ]
       },
       {
-        "name": "Stout",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stout"
+          }
+        ]
       },
       {
-        "name": "Stubborn",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stubborn"
+          }
+        ]
       },
       {
-        "name": "Spartan-Bred",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Spartan-Bred"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1388,34 +1474,60 @@
     ],
     "abilities": [
       {
-        "name": "Auto-black",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-black 1"
+          }
+        ]
       },
       {
-        "name": "Ambrosia Limit",
-        "x_value": "-1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia Limit -1"
+          }
+        ]
       },
       {
-        "name": "Dual-Wielding",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Dual-Wielding"
+          }
+        ]
       },
       {
-        "name": "One for All",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One for All"
+          }
+        ]
       },
       {
-        "name": "Fearless",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fearless"
+          }
+        ]
       },
       {
-        "name": "Abyss-tainted",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Abyss-tainted"
+          }
+        ]
       },
       {
-        "name": "The Abyss Calls",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Abyss Calls"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1528,21 +1640,36 @@
     ],
     "abilities": [
       {
-        "name": "Auto-break",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-break 1"
+          }
+        ]
       },
       {
-        "name": "Surpass!",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Surpass!"
+          }
+        ]
       },
       {
-        "name": "Survive!",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Survive!"
+          }
+        ]
       },
       {
-        "name": "Ascend!",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ascend!"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1694,20 +1821,36 @@
     ],
     "abilities": [
       {
-        "name": "The Return",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Return"
+          }
+        ]
       },
       {
-        "name": "Kreios Strain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Kreios Strain"
+          }
+        ]
       },
       {
-        "name": "Cheat Fate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cheat Fate"
+          }
+        ]
       },
       {
-        "name": "Fickle Fate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fickle Fate"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1830,7 +1973,7 @@
       [
         [
           {
-            "name": "PowerIcon",
+            "name": "@Power 1",
             "x_value": "1"
           }
         ]
@@ -1856,28 +1999,52 @@
     ],
     "abilities": [
       {
-        "name": "Advanced Jump",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Advanced Jump"
+          }
+        ]
       },
       {
-        "name": "Scale",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Scale"
+          }
+        ]
       },
       {
-        "name": "Cyclopean Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cyclopean Might"
+          }
+        ]
       },
       {
-        "name": "In Light and Shade",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "In Light and Shade"
+          }
+        ]
       },
       {
-        "name": "Fall and Soar",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fall and Soar"
+          }
+        ]
       },
       {
-        "name": "Lifeline",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lifeline"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2028,34 +2195,60 @@
     ],
     "abilities": [
       {
-        "name": "Ambrosia Limit",
-        "x_value": "5",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia Limit 5"
+          }
+        ]
       },
       {
-        "name": "Bleeding Limit",
-        "x_value": "5",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bleeding Limit 5"
+          }
+        ]
       },
       {
-        "name": "Despair Limit 5",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Despair Limit 5"
+          }
+        ]
       },
       {
-        "name": "Last Titan Standing",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Last Titan Standing"
+          }
+        ]
       },
       {
-        "name": "The Truth",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Truth"
+          }
+        ]
       },
       {
-        "name": "Elder Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Elder Might"
+          }
+        ]
       },
       {
-        "name": "Disturbance in Fate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disturbance in Fate"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2202,33 +2395,60 @@
     ],
     "abilities": [
       {
-        "name": "Auto-break",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-break 1"
+          }
+        ]
       },
       {
-        "name": "Kreios Strain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Kreios Strain"
+          }
+        ]
       },
       {
-        "name": "Fly",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fly"
+          }
+        ]
       },
       {
-        "name": "Scale",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Scale"
+          }
+        ]
       },
       {
-        "name": "Seer Sense",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Seer Sense"
+          }
+        ]
       },
       {
-        "name": "Fall and Soar",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fall and Soar"
+          }
+        ]
       },
       {
-        "name": "Lifeline",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lifeline"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2363,16 +2583,28 @@
     ],
     "abilities": [
       {
-        "name": "Nimble Feet",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Nimble Feet"
+          }
+        ]
       },
       {
-        "name": "Shadowdance",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shadowdance"
+          }
+        ]
       },
       {
-        "name": "Dance of Fate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Dance of Fate"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2389,7 +2621,7 @@
     "faq": "",
     "errata": "",
     "subtitle": null,
-    "titanPower": "Red + PowerIcon",
+    "titanPower": "Red + @Power",
     "speed": "5",
     "kratosTable": [
       [
@@ -2513,20 +2745,36 @@
     ],
     "abilities": [
       {
-        "name": "Lightweight Curse",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lightweight Curse"
+          }
+        ]
       },
       {
-        "name": "Levitate",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Levitate"
+          }
+        ]
       },
       {
-        "name": "Fall and Soar",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fall and Soar"
+          }
+        ]
       },
       {
-        "name": "Carry the Weight",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Carry the Weight"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2669,20 +2917,36 @@
     ],
     "abilities": [
       {
-        "name": "Four-Armed Centimanes",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Four-Armed Centimanes"
+          }
+        ]
       },
       {
-        "name": "Wish Shield",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Shield"
+          }
+        ]
       },
       {
-        "name": "Djinnslayer",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Djinnslayer"
+          }
+        ]
       },
       {
-        "name": "Wish Engine",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Engine"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -2858,24 +3122,44 @@
     ],
     "abilities": [
       {
-        "name": "Auto-hope 1",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-hope 1"
+          }
+        ]
       },
       {
-        "name": "Selenian Strain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Selenian Strain"
+          }
+        ]
       },
       {
-        "name": "One Small Step",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One Small Step"
+          }
+        ]
       },
       {
-        "name": "Grey Alchemy",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Grey Alchemy"
+          }
+        ]
       },
       {
-        "name": "Forgotten Curse",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Forgotten Curse"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -3018,46 +3302,76 @@
     ],
     "abilities": [
       {
-        "name": "Auto-black",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-black 1"
+          }
+        ]
       },
       {
-        "name": "Ambrosia Limit",
-        "x_value": "6",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia Limit 6"
+          }
+        ]
       },
       {
-        "name": "Bleeding Limit",
-        "x_value": "6",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bleeding Limit 6"
+          }
+        ]
       },
       {
-        "name": "Despair Limit 5",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Despair Limit 5"
+          }
+        ]
       },
       {
-        "name": "Wish Dodge",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Dodge"
+          }
+        ]
       },
       {
-        "name": "Follows",
-        "costs": [
-          "Fate"
-        ],
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fate Follows"
+          }
+        ]
       },
       {
-        "name": "Last Titan Standing",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Last Titan Standing"
+          }
+        ]
       },
       {
-        "name": "Elder Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Elder Might"
+          }
+        ]
       },
       {
-        "name": "The Truth",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Truth"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -3074,7 +3388,7 @@
     "faq": "",
     "errata": "",
     "subtitle": null,
-    "titanPower": "Red + PowerIcon",
+    "titanPower": "Red + @Power",
     "speed": "5",
     "kratosTable": [
       [
@@ -3210,16 +3524,28 @@
     ],
     "abilities": [
       {
-        "name": "Born in the Dark",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Born in the Dark"
+          }
+        ]
       },
       {
-        "name": "Ur-Tainted",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ur-Tainted"
+          }
+        ]
       },
       {
-        "name": "Fear is the Mind Killer",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fear is the Mind Killer"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -3377,30 +3703,52 @@
     ],
     "abilities": [
       {
-        "name": "Auto-black",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-black 1"
+          }
+        ]
       },
       {
-        "name": "Ambrosia Limit",
-        "x_value": "6",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia Limit 6"
+          }
+        ]
       },
       {
-        "name": "Cyclopean Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cyclopean Might"
+          }
+        ]
       },
       {
-        "name": "Silver Strain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Silver Strain"
+          }
+        ]
       },
       {
-        "name": "Aether Lamp",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Aether Lamp"
+          }
+        ]
       },
       {
-        "name": "Electromagnetic Shield",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Electromagnetic Shield"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -3572,43 +3920,63 @@
     ],
     "abilities": [
       {
-        "name": "Auto-Hope 1",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-Hope 1"
+          }
+        ]
       },
       {
-        "name": "Ambrosia Limit",
-        "x_value": "5",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia Limit 5"
+          }
+        ]
       },
       {
-        "name": "Despair Resilience 1",
-        "type": "unique"
-      }
-    ],
-    "gatedAbilities": [
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Despair Resilience 1"
+          }
+        ]
+      },
       {
-        "gate": "Rage",
-        "value": "8+",
-        "abilities": [
+        "abilityText": [
           {
-            "name": "Deny",
-            "type": "unique"
-          },
+            "type": "plainText",
+            "value": "Rage 8+ Deny"
+          }
+        ]
+      },
+      {
+        "abilityText": [
           {
-            "name": "Silver Strain",
-            "type": "unique"
-          },
+            "type": "plainText",
+            "value": "Silver Strain"
+          }
+        ]
+      },
+      {
+        "abilityText": [
           {
-            "name": "Abyss-Tainted",
-            "type": "unique"
-          },
+            "type": "plainText",
+            "value": "Abyss-Tainted"
+          }
+        ]
+      },
+      {
+        "abilityText": [
           {
-            "name": "To Dark We Will at Last Return",
-            "type": "unique"
+            "type": "plainText",
+            "value": "To Dark We Will at Last Return"
           }
         ]
       }
-    ]
+    ],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -3760,24 +4128,44 @@
     ],
     "abilities": [
       {
-        "name": "Final Countdown",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Final Countdown"
+          }
+        ]
       },
       {
-        "name": "Internalize Pain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Internalize Pain"
+          }
+        ]
       },
       {
-        "name": "Finish Him",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Finish Him"
+          }
+        ]
       },
       {
-        "name": "Cyclopean Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cyclopean Might"
+          }
+        ]
       },
       {
-        "name": "Pain Engine",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Pain Engine"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -3922,25 +4310,44 @@
     ],
     "abilities": [
       {
-        "name": "Auto-break",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Auto-break 1"
+          }
+        ]
       },
       {
-        "name": "Arabian Nights",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Arabian Nights"
+          }
+        ]
       },
       {
-        "name": "Spinning Tales",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Spinning Tales"
+          }
+        ]
       },
       {
-        "name": "Tall Tales",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Tall Tales"
+          }
+        ]
       },
       {
-        "name": "Persian Deal",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Persian Deal"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -4071,8 +4478,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -4203,8 +4614,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -4335,8 +4750,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -4467,8 +4886,12 @@
     ],
     "abilities": [
       {
-        "name": "Rush",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -4631,24 +5054,44 @@
     ],
     "abilities": [
       {
-        "name": "Dual-Wielding",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Dual-Wielding"
+          }
+        ]
       },
       {
-        "name": "Internalize Despair",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Internalize Despair"
+          }
+        ]
       },
       {
-        "name": "Cyclopean Might",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cyclopean Might"
+          }
+        ]
       },
       {
-        "name": "Kreios Strain",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Kreios Strain"
+          }
+        ]
       },
       {
-        "name": "Final Countdown",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Final Countdown"
+          }
+        ]
       }
     ],
     "gatedAbilities": []

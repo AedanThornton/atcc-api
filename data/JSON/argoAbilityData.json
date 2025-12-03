@@ -23,9 +23,18 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan. That Titan may gain +1 RageIcon"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan may gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -56,9 +65,14 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a knocked down Titan. That Titan stands up"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a knocked down Titan. That Titan stands up"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -88,9 +102,18 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan. That Titan may lose -1 FateIcon"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan may lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -121,9 +144,14 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Place 1 Break token or 2 Opening tokens in the Kratos Pool"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place 1 Break token or 2 Opening tokens in the Kratos Pool"
+            }
+          ]
+        }
       }
     ],
     "charges": "3",
@@ -153,9 +181,18 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan. That Titan may gain or lose 2 DangerIcon"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan may gain or lose 2"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -186,9 +223,18 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "ReactionIcon Choose a Titan. That Titan may move 1 space"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Reaction"
+            },
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan may move 1 space"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -213,16 +259,25 @@
       "Temenos Armor"
     ],
     "leadsTo": [
-      "Cyvlonus Sighting",
-      "Temenos Advanced GearIcon",
+      "Cyclonus Sighting",
+      "Temenos Advanced Gear",
       "Reflex Priming"
     ],
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan performing a Power Roll. That Titan gains Power Re-roll 1"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan performing a Power Roll. That Titan gains"
+            },
+            {
+              "type": "keyword",
+              "value": "Power Re-roll 1"
+            }
+          ]
+        }
       }
     ],
     "charges": "3",
@@ -247,16 +302,25 @@
       "Temenos Weapons"
     ],
     "leadsTo": [
-      "Temenos Advanced GearIcon",
+      "Temenos Advanced Gear",
       "Chimera Metastasios Sighting",
       "Forced Kratos Cooldown"
     ],
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose an attacking Titan. That Titan gains Pushback 2"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose an attacking Titan. That Titan gains"
+            },
+            {
+              "type": "keyword",
+              "value": "Pushback 2"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -286,14 +350,36 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan that is about to gain involuntary RageIcon to ignore that gain."
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan that is about to gain involuntary"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "plainText",
+              "value": "to ignore that gain."
+            }
+          ]
+        }
       },
       {
-        "effects": [
-          "Choose a Titan. That Titan loses -1 RageIcon"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan loses -1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -323,9 +409,22 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Unexhaust 2 GearIcon cards among up to 2 Titans"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Unexhaust 2"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "cards among up to 2 Titans"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -348,30 +447,73 @@
     "locked": "FALSE",
     "flavorProject": "",
     "requirements": [
-      "Temenos Advanced GearIcon"
+      "Temenos Advanced Gear"
     ],
     "leadsTo": [
       "Hephaestean Oxybeles",
-      "Experimental GearIcon"
+      "Experimental Gear"
     ],
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Start of Titan Round: You may choose an effect from the Payload card and roll a d10. On a 6+, the Cannon is primed. It remains primed until you fire, decide to prime a different effect, or the Battle ends."
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Titan Round"
+            },
+            {
+              "type": "plainText",
+              "value": "You may choose an effect from the Payload card and roll a d10. On a 6+, the Cannon is primed. It remains primed until you fire, decide to prime a different effect, or the Battle ends."
+            }
+          ]
+        }
       },
       {
         "name": "Godkiller Shot",
-        "effects": [
-          "When the Cannon is primed, discard 1 EnergyIcon and lose the indicated resource to fire."
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When the Cannon is primed, discard 1"
+            },
+            {
+              "type": "icon",
+              "value": "Energy"
+            },
+            {
+              "type": "plainText",
+              "value": "and lose the indicated resource to fire."
+            }
+          ]
+        }
       },
       {
         "name": "Emergency Priming",
-        "effects": [
-          "As a ReactionIcon or after drawing a BP card you may discard 1 EnergyIcon to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "As a"
+            },
+            {
+              "type": "icon",
+              "value": "Reaction"
+            },
+            {
+              "type": "plainText",
+              "value": "or after drawing a BP card you may discard 1"
+            },
+            {
+              "type": "icon",
+              "value": "Energy"
+            },
+            {
+              "type": "plainText",
+              "value": "to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -396,16 +538,29 @@
       "Cyclonus Sighting"
     ],
     "leadsTo": [
-      "Experimental GearIcon",
+      "Experimental Gear",
       "Hephaestean Oxybeles"
     ],
     "flavorTech": "",
     "abilities": [
       {
         "name": "Rearm",
-        "effects": [
-          "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon GearIcon card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability"
+            }
+          ]
+        }
       }
     ],
     "charges": "",
@@ -430,14 +585,19 @@
       "Chimera Metastasios Sighting"
     ],
     "leadsTo": [
-      "Relief GearIcon"
+      "Relief Gear"
     ],
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -468,12 +628,14 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Weapon from the Armory. Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:",
-          "1-5: It lands 3 spaces away from the chosen space in a random direction.",
-          "6-10: It lands on the chosen space. Mark this space with a generic token.",
-          "A Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Weapon from the Armory. Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:\\n1-5: It lands 3 spaces away from the chosen space in a random direction.\\n6-10: It lands on the chosen space. Mark this space with a generic token.\\nA Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -503,9 +665,14 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement"
+            }
+          ]
+        }
       }
     ],
     "charges": "1",
@@ -535,9 +702,18 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": [
-          "ReactionIcon Choose a Titan. That Titan may move up to 2 spaces"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Reaction"
+            },
+            {
+              "type": "plainText",
+              "value": "Choose a Titan. That Titan may move up to 2 spaces"
+            }
+          ]
+        }
       }
     ],
     "charges": "2",
@@ -568,9 +744,30 @@
     "abilities": [
       {
         "name": "Housewarming Gift",
-        "effects": [
-          "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative ATIcon token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative ATIcon token in the Kratos Pool"
-        ]
+        "effects": {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "token in the Kratos Pool"
+            }
+          ]
+        }
       }
     ],
     "charges": "",

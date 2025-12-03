@@ -6,13 +6,26 @@
     "name": "Kratos Whisper",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "The Moirai are watching",
     "subtype": "Minor",
-    "effects": "Gain +1 RageIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Down",
     "number": "",
@@ -25,13 +38,31 @@
     "name": "Insulted",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "You may immediately perform a Bonus Attack! If you have the Knockdown (falling down) Condition card, immediately stand up instead",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately perform a Bonus Attack! If you have the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown (falling down)",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card, immediately stand up instead"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Left",
     "number": "",
@@ -44,13 +75,34 @@
     "name": "Gash",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain +1 DangerIcon. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Right",
     "number": "",
@@ -63,13 +115,42 @@
     "name": "Thrown Off-Balance",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Exhaust all your exhaustible GearIcon. If no GearIcon was exhausted by this card, Knockdown",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Exhaust all your exhaustible"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If no"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "was exhausted by this card, Knockdown"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Down",
     "number": "",
@@ -82,13 +163,31 @@
     "name": "Feign Death",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Immediately Chain Break the Primordial Attack, gain the Knockdown (standing up) Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately Chain Break the Primordial Attack, gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown (standing up)",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Up",
     "number": "",
@@ -101,13 +200,22 @@
     "name": "Feint",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Look, a three-headed goat!",
     "subtype": "Minor",
-    "effects": "Place up to 2 Opening and/or Break tokens in the Kratos Pool",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place up to 2 Opening and/or Break tokens in the Kratos Pool"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Left",
     "number": "",
@@ -120,13 +228,54 @@
     "name": "Marked For Glory",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "You may gain the PriorityTargetIcon Priority Target token. If you do, gain 1 positive Precision token. If you already have the PriorityTargetIcon Priority Target token, gain 1 positive Precision token",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do, gain 1 positive Precision token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you already have the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token, gain 1 positive Precision token"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Right",
     "number": "",
@@ -139,13 +288,22 @@
     "name": "Battle Cry",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Another Titan may move up to 2 spaces or stand up",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Another Titan may move up to 2 spaces or stand up"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Down",
     "number": "",
@@ -158,13 +316,30 @@
     "name": "Unexpected Help",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "You may immediately place 1 EnergyIcon on any Argo Ability (even above the starting number of charges)",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately place 1"
+          },
+          {
+            "type": "icon",
+            "value": "Energy"
+          },
+          {
+            "type": "plainText",
+            "value": "on any Argo Ability (even above the starting number of charges)"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Up",
     "number": "",
@@ -177,13 +352,30 @@
     "name": "Glimpse Weak Spot",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Look at the top card of the BP deck. You may put it back on top of the BP deck or onto the discard pile",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Look at the top card of the BP deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may put it back on top of the BP deck or onto the discard pile"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Left",
     "number": "",
@@ -196,13 +388,46 @@
     "name": "Fateful Wound",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "All your Attacks gain: \"Crit Miss: Gain +1 DangerIcon and immediately full miss the Attack.\"",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All your Attacks gain: \""
+          },
+          {
+            "type": "bold",
+            "value": "Crit Miss"
+          },
+          {
+            "type": "plainText",
+            "value": ": Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and immediately full miss the Attack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "\""
+          }
+        ]
+      }
+    ],
     "isCondition": "Body",
     "arrow": "Right",
     "number": "",
@@ -221,7 +446,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain the Fear Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -240,7 +483,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Place a L Labyrinth tile under your Titan",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place a L Labyrinth tile under your Titan"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -259,7 +511,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Place a Z Labyrinth tile under your Titan",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place a Z Labyrinth tile under your Titan"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -278,7 +539,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain 1 Despair token",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Despair token"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -291,13 +561,26 @@
     "name": "Kratos Glimpse",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Your fate is beckoning",
     "subtype": "Major",
-    "effects": "Gain +2 RageIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "1",
@@ -310,13 +593,38 @@
     "name": "Marked For Death",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain this card and the PriorityTargetIcon Priority Target token. While you have this card, you cannot lose this token",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain this card and the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "While you have this card, you cannot lose this token"
+          }
+        ]
+      }
+    ],
     "isCondition": "Fate",
     "arrow": "",
     "number": "2",
@@ -329,13 +637,22 @@
     "name": "Call To Arms",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Another Titan may move up to 3 spaces or stand up",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Another Titan may move up to 3 spaces or stand up"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "3",
@@ -348,13 +665,34 @@
     "name": "Giant Gash",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain +1 DangerIcon. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "4",
@@ -367,13 +705,38 @@
     "name": "Inner Strength",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Lose -1 DangerIcon and stand up. You may immediately perform a Bonus Attack!",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and stand up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "5",
@@ -386,13 +749,26 @@
     "name": "Show Of Willpower",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "You may discard 2 Condition tokens, a tokenless Condition card, or an Ambrosia token, or lose -2 FateIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may discard 2 Condition tokens, a tokenless Condition card, or an Ambrosia token, or lose -2"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "6",
@@ -405,13 +781,31 @@
     "name": "Counterattack",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "You may immediately move up to 3 spaces and perform a Bonus Attack! If you have the Knockdown (falling down) Condition card, immediately stand up instead",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately move up to 3 spaces and perform a Bonus Attack! If you have the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown (falling down)",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card, immediately stand up instead"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "7",
@@ -424,13 +818,30 @@
     "name": "Flood Of Memories",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Your past comes rushing",
     "subtype": "Major",
-    "effects": "Gain +1 Mnemos node for a chosen Mnemos. Then unexhaust that Mnemos",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1 Mnemos node for a chosen Mnemos"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then unexhaust that Mnemos"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "1",
@@ -443,13 +854,30 @@
     "name": "Predict Moves",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Look at the top card of the BP or AI deck. You may put it back on top of the corresponding deck or onto the corresponding discard pile",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Look at the top card of the BP or AI deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may put it back on top of the corresponding deck or onto the corresponding discard pile"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "2",
@@ -462,13 +890,22 @@
     "name": "Dolos Cunning",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Place up to 3 Opening and/or Break tokens in the Kratos Pool",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place up to 3 Opening and/or Break tokens in the Kratos Pool"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "3",
@@ -481,13 +918,76 @@
     "name": "Heroic Death",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "First Round Only: Ignore this card, find and resolve the Feign Death Minor Trauma card instead. Any Other Round: You die, but you won't sell your life cheap! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! Then, shuffle this card back into the Trauma deck and die. If you have the Spark of the Dead Gods Technology card, roll a d10. On a '10' you Awaken, AdversaryIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "First Round Only"
+          },
+          {
+            "type": "plainText",
+            "value": ": Ignore this card, find and resolve the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Feign Death",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Minor Trauma card instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Any Other Round"
+          },
+          {
+            "type": "plainText",
+            "value": ": You die, but you won't sell your life cheap! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! Then, shuffle this card back into the Trauma deck and die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you have the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Spark of the Dead Gods",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Technology card, roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a '10' you Awaken,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "4",
@@ -506,7 +1006,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain the Dread Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -525,7 +1043,20 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Place an O Labyrinth tile under your Titan and suffer Knockdown",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place an O Labyrinth tile under your Titan and suffer"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -544,7 +1075,20 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Place an Z Labyrinth tile under your Titan and suffer Knockdown",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place an Z Labyrinth tile under your Titan and suffer"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -563,7 +1107,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain 2 Despair tokens",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 2 Despair tokens"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -576,13 +1129,30 @@
     "name": "Deluge Of Memories",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "You drown in the flashing images",
     "subtype": "Grave",
-    "effects": "Gain +1 Mnemos node for a chosen Mnemos. Then unexhaust that Mnemos or return it to play if it was discard",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1 Mnemos node for a chosen Mnemos"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then unexhaust that Mnemos or return it to play if it was discard"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -595,13 +1165,31 @@
     "name": "There Will Be A Reckoning",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Add the You died horribly Obol to the Obol deck",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add the"
+          },
+          {
+            "type": "cardRef",
+            "value": "You died horribly",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Obol to the Obol deck"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -614,13 +1202,54 @@
     "name": "Fused Souls",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Your soul has temporarily fused with the Titan's. Better not die today",
     "subtype": "Grave",
-    "effects": "If the Titan dies before the end of the Battle, so does the Argonaut. Resolve the Rude Awakening Special Event. If it lives, resolves the The Other Special Event instead",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the Titan dies before the end of the Battle, so does the Argonaut"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Rude Awakening"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If it lives, resolves the"
+          },
+          {
+            "type": "italics",
+            "value": "The Other"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event instead"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -633,13 +1262,79 @@
     "name": "Heroic Life",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "You will probably die - but until then, you will fight the Primordial with all your being! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! If you deal a Wound to the Primordial, you live! And you feel a new zest for life! Lose -2 DangerIcon and -2 FateIcon. If you do not deal a Wound, you die. If you have the Spark of the Dead Gods Technology card, roll a d10. On a '10' you Awaken, AdversaryIcon. Shuffle this card back into the Trauma deck",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You will probably die - but until then, you will fight the Primordial with all your being! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! If you deal a Wound to the Primordial, you live! And you feel a new zest for life! Lose -2"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and -2"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do not deal a Wound, you die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you have the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Spark of the Dead",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Gods Technology card, roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a '10' you Awaken,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle this card back into the Trauma deck"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -654,13 +1349,30 @@
     "name": "Disemboweled",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "You die. Shuffle this card back into the Trauma Deck",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle this card back into the Trauma Deck"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -673,13 +1385,50 @@
     "name": "Burning Heart",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Bravely we hope, against all hope..",
     "subtype": "Grave",
-    "effects": "Stand up. You may lose -2 DangerIcon and/or gain +1 RageIcon. You may immediately perform a Bonus Attack!",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stand up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may lose -2"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and/or gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -692,13 +1441,34 @@
     "name": "Godly Resolve",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Don't stop believing..",
     "subtype": "Grave",
-    "effects": "You may discard all Condition cards, Condition tokens. and Ambrosia tokens or lose -3 FateIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may discard all Condition cards, Condition tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "and Ambrosia tokens or lose -3"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -711,13 +1481,47 @@
     "name": "Push The Limit!",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Walk along the razor's edge",
     "subtype": "Grave",
-    "effects": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1 PowerIcon! If you have the Knockdown (falling down) Condition card, immediately stand up and gain 1 positive EvasionIcon token instead",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          },
+          {
+            "type": "plainText",
+            "value": "! If you have the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown (falling down)",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card, immediately stand up and gain 1 positive"
+          },
+          {
+            "type": "icon",
+            "value": "Evasion"
+          },
+          {
+            "type": "plainText",
+            "value": "token instead"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -730,13 +1534,67 @@
     "name": "Fate Worse Than Death",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Gain this card and the PriorityTargetIcon Priority Target token (even if someone has a Marked for Death Trauma card). While you have this card, you cannot lose the token. End of Battle: If your Titan is dead, resolve the Fate Worse Than Death Special Event",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain this card and the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token (even if someone has a"
+          },
+          {
+            "type": "cardRef",
+            "value": "Marked for Death",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Trauma card)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "While you have this card, you cannot lose the token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "If your Titan is dead, resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ],
     "isCondition": "Fate",
     "arrow": "",
     "number": "",
@@ -749,13 +1607,34 @@
     "name": "See Pattern",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Look at the top cards of the BP and AI decks You may put each card back on top of its respective deck or onto the respective discard pile. Gain +1 ProgressIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Look at the top cards of the BP and AI decks You may put each card back on top of its respective deck or onto the respective discard pile"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Progress"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -774,7 +1653,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Until the end of Battle, you may ignore Labyrinth tiles for the purposes of voluntary movement and Attacks",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Until the end of Battle, you may ignore Labyrinth tiles for the purposes of voluntary movement and Attacks"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -793,7 +1681,24 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Until the end of Battle, if you attack from a Labyrinth tile, the Primordial has -1 ATIcon during that Attack",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Until the end of Battle, if you attack from a Labyrinth tile, the Primordial has -1"
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "plainText",
+            "value": "during that Attack"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -812,7 +1717,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Gain the Mazetouched Affliction",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the Mazetouched Affliction"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -825,17 +1739,17 @@
     "name": "You Live!",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "Against all odds, you survive",
     "subtype": "Obol",
-    "effects": "",
+    "effects": [],
     "isCondition": "",
     "arrow": "",
     "number": "",
-    "sign": ""
+    "sign": "+"
   },
   {
     "cardIDs": [
@@ -844,17 +1758,17 @@
     "name": "You Died",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Obol",
-    "effects": "",
+    "effects": [],
     "isCondition": "",
     "arrow": "",
     "number": "",
-    "sign": ""
+    "sign": "-"
   },
   {
     "cardIDs": [
@@ -863,13 +1777,26 @@
     "name": "You Live!",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "By the power of the Dead Gods..",
     "subtype": "Obol",
-    "effects": "You may lose -1 FateIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -882,13 +1809,54 @@
     "name": "You Died Horribly",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "It may be he shall take my hand and lead me into his dark land",
     "subtype": "Obol",
-    "effects": "Roll a d10. On a '10', you Awaken instead, AdversaryIcon! If you die, End of Battle: Roll on the Fate Worse Than Death Special Event Table",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a '10', you Awaken instead,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          },
+          {
+            "type": "plainText",
+            "value": "! If you die,"
+          },
+          {
+            "type": "bold",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": ": Roll on the"
+          },
+          {
+            "type": "italics",
+            "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event Table"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -901,17 +1869,66 @@
     "name": "Your Gruesome Death Becomes Legend",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
     "flavor": "And close my eyes and quench my breath... I have a rendezvous with Death",
     "subtype": "Obol",
-    "effects": "Roll a d10. On a '9-10', you Awaken instead, AdversaryIcon! If you die, End of Battle: Your Argonaut dies from Triskelion shock. Resolve the Rude Awakening Special Event",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a '9-10', you Awaken instead,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          },
+          {
+            "type": "plainText",
+            "value": "! If you die,"
+          },
+          {
+            "type": "bold",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": ": Your Argonaut dies from Triskelion shock"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Rude Awakening"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
-    "sign": ""
+    "sign": "-"
   },
   {
     "cardIDs": [
@@ -926,7 +1943,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain the Fear Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Down",
     "number": "",
@@ -945,7 +1980,24 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Burn. Gain 1 Ambrosia token",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Burn"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Ambrosia token"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Choose",
     "number": "",
@@ -964,7 +2016,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain the Terror Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Terror",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Choose",
     "number": "",
@@ -983,7 +2053,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Minor",
-    "effects": "Gain 1 Despair token",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Despair token"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "Choose",
     "number": "",
@@ -1002,7 +2081,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain the Dread Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "5",
@@ -1021,7 +2118,24 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Burn. Gain 2 Ambrosia tokens",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Burn"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 2 Ambrosia tokens"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "6",
@@ -1040,7 +2154,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain the Holy Terror Condition card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Holy Terror",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "7",
@@ -1059,7 +2191,16 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "Gain 2 Despair tokens",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 2 Despair tokens"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "8",
@@ -1078,7 +2219,24 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Burn. Gain 3 Ambrosia tokens",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Burn"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 3 Ambrosia tokens"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1097,7 +2255,25 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Gain the Holy Terror Condition card and 3 Despair tokens",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Holy Terror",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card and 3 Despair tokens"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1116,7 +2292,45 @@
     "errata": "",
     "flavor": "",
     "subtype": "Grave",
-    "effects": "Stand up and gain the Bravery Condition card. You may gain +1 RageIcon. You may immediately move up to 5 spaces and perform a Bonus Attack!",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stand up and gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Bravery",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately move up to 5 spaces and perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1129,14 +2343,35 @@
     "name": "Awakening",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 02",
     "faq": "",
     "errata": "",
     "flavor": "Light our darkest hour..",
     "subtype": "Grave",
-    "effects": "You may gain +1 ArgoFateIcon to Awaken, AdversaryIcon",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "plainText",
+            "value": "to Awaken,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1149,14 +2384,14 @@
     "name": "You died",
     "cardType": "Trauma",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 02",
     "faq": "",
     "errata": "",
     "flavor": "",
     "subtype": "Obol",
-    "effects": "",
+    "effects": [],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1174,9 +2409,22 @@
     "foundIn": "Secret Deck 05",
     "faq": "",
     "errata": "",
-    "flavor": "",
+    "flavor": "Hope will get you through",
     "subtype": "Obol",
-    "effects": "",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -1194,13 +2442,54 @@
     "foundIn": "Secret Deck 05",
     "faq": "",
     "errata": "",
-    "flavor": "",
+    "flavor": "By the power of Mortal Tenacity...",
     "subtype": "Obol",
-    "effects": "",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and/or lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
     "sign": "+"
+  },
+  {
+    "cardIDs": [
+      "DM2567"
+    ],
+    "name": "You died a beggar!",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Obol",
+    "effects": [],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
   },
   {
     "cardIDs": [
@@ -1216,7 +2505,41 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "If you're using the Scarred Trait, for the duration of this Battle, add this card to the Trauma deck. Gain as much DangerIcon as you were just dealt",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you're using the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Scarred",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Trait, for the duration of this Battle, add this card to the Trauma deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain as much"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "as you were just dealt"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "8",
@@ -1236,7 +2559,41 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": "If you're controlling the Firestarter, the Harbinger, or the Treejumper, for the duration of this Battle add this card to the Trauma deck. You may ignore the next Knockback or Pushback you would sugger. When you do, discard this card",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you're controlling the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Firestarter",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": ", the Harbinger, or the Treejumper, for the duration of this Battle add this card to the Trauma deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may ignore the next Knockback or Pushback you would suffer"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you do, discard this card"
+          }
+        ]
+      }
+    ],
     "isCondition": "Body",
     "arrow": "",
     "number": "6",
@@ -1256,7 +2613,37 @@
     "errata": "",
     "flavor": "And I to my pledged word am true. I shall not fail that rendezvous",
     "subtype": "Obol",
-    "effects": "Awaken into the Hades Godform if it is available, AdversaryIcon. Otherwise, you die",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Awaken into the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Hades",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Godform if it is available,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, you die"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",

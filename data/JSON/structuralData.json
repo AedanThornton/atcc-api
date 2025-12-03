@@ -27,15 +27,88 @@
         "name": "Research",
         "type": "Reference",
         "effects": [
-          "When you reach a Combat CombatTechIcon or Structural StructuralTechIcon node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck."
-        ]
-      },
-      {
-        "name": "Gather Information",
-        "type": "Reference",
-        "effects": [
-          "During the Exploration Step, if the Argo is on an unexplored Map Tile with ProgressIcon symbol, gain +1 ProgressIcon",
-          "For each ProgressIcon you gain, place 1 ProgressIcon token on your current Story card or the Inward Odyssey card"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you reach a Combat"
+                },
+                {
+                  "type": "icon",
+                  "value": "CombatTech"
+                },
+                {
+                  "type": "plainText",
+                  "value": "or Structural"
+                },
+                {
+                  "type": "icon",
+                  "value": "StructuralTech"
+                },
+                {
+                  "type": "plainText",
+                  "value": "node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Information: Reference"
+                }
+              ],
+              "costs": [
+                "Gather"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Exploration Step, if the Argo is on an unexplored Map Tile with"
+                },
+                {
+                  "type": "icon",
+                  "value": "Progress"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol, gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Progress"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For each"
+                },
+                {
+                  "type": "icon",
+                  "value": "Progress"
+                },
+                {
+                  "type": "plainText",
+                  "value": "you gain, place 1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Progress"
+                },
+                {
+                  "type": "plainText",
+                  "value": "token on your current Story card or the Inward Odyssey card"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -68,22 +141,71 @@
         "name": "Sail and Explore",
         "type": "Reference",
         "effects": [
-          "At the start of each day you move to an adjacent tile using one of the available waterways",
-          "If needed, place the tile, then move the Argo and proceed to the Timeline Step."
-        ]
-      },
-      {
-        "name": "Adventure",
-        "type": "Reference",
-        "effects": [
-          "During the Adventure Step, if the Argo is on an unexplored Map tile with the AdventureHubIcon symbol, go to the Adventure Hubs table in your current Cycle's Storybook."
-        ]
-      },
-      {
-        "name": "Gather Resources",
-        "type": "Reference",
-        "effects": [
-          "During the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "At the start of each day you move to an adjacent tile using one of the available waterways"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If needed, place the tile, then move the Argo and proceed to the Timeline Step"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": Reference"
+                }
+              ],
+              "costs": [
+                "Adventure"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Adventure Step, if the Argo is on an unexplored Map tile with the"
+                },
+                {
+                  "type": "icon",
+                  "value": "AdventureHub"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol, go to the Adventure Hubs table in your current Cycle's Storybook"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Resources: Reference"
+                }
+              ],
+              "costs": [
+                "Gather"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Exploration Step after resolving Exploration symbols, draw and resolve two stacks of Exploration cards"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -117,7 +239,17 @@
         "name": "Argo Support I",
         "type": "Permanent",
         "effects": [
-          "Argo Ability Limit: 2"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Argo Ability Limit: 2"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -144,13 +276,31 @@
     "leadsTo": [
       "Trading Solutions"
     ],
-    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of GearIcon and new engineering solutions",
+    "flavorTech": "To stand a chance against the Primordials, the smiths and priests of the Argo work tirelessly on new types of @Gear and new engineering solutions",
     "abilities": [
       {
-        "name": "Craft GearIcon",
+        "name": "Craft Gear",
         "type": "Reference",
         "effects": [
-          "During the Advancement Step, you can use available resources to craft GearIcon cards using Production Technologies"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Advancement Step, you can use available resources to craft"
+                },
+                {
+                  "type": "icon",
+                  "value": "Gear"
+                },
+                {
+                  "type": "plainText",
+                  "value": "cards using Production Technologies"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -183,8 +333,33 @@
         "name": "Gain Titan",
         "type": "Reference",
         "effects": [
-          "During the Exploration Step, if the Argo is on an unexplored Map Tile with the TitanIcon symbol, gain +1 Titan",
-          "Titan Stoa Capacity: Titan Limit: 10"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Exploration Step, if the Argo is on an unexplored Map Tile with the"
+                },
+                {
+                  "type": "icon",
+                  "value": "Titan"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol, gain +1 Titan"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Titan Stoa Capacity: Titan Limit: 10"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -220,14 +395,76 @@
         "name": "Theban Trader",
         "type": "Immediate",
         "effects": [
-          "Add the Theban Trader Exploration card to the Exploration deck."
-        ]
-      },
-      {
-        "name": "Port Trading",
-        "type": "City Negotiation",
-        "effects": [
-          "Gain +1 ArgoFateIcon to exchange (up to 3 times): 3 Trireme >> 1 Armament, 2 Trireme >> 1 Monument, 1 Monument >> 2 Trireme, 1 Armament >> 3 Trireme, 1 Muscle Cluster or Infused Mechanism >> 3 Raw Ambrosia, 1 Calcified Knuckle Bone or Fleshy Mantle >> 4 Raw Ambrosia, 3 Raw Ambrosia >> 1 Muscle Cluster or Infused Mechanism, 4 Raw Ambrosia >> 1 Calcified Knuckle Bone or Fleshy Mantle"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Add the Theban Trader Exploration card to the Exploration deck"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Trading: City Negotiation"
+                }
+              ],
+              "costs": [
+                "Port"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to exchange (up to 3 times):\\n3 Trireme"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Armament\\n 2 Trireme"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Monument\\n1 Monument"
+                },
+                {
+                  "type": "plainText",
+                  "value": "2 Trireme\\n1 Armament"
+                },
+                {
+                  "type": "plainText",
+                  "value": "3 Trireme\\n1 Muscle Cluster or Infused Mechanism"
+                },
+                {
+                  "type": "plainText",
+                  "value": "3 Raw Ambrosia\\n1 Calcified Knuckle Bone or Fleshy Mantle"
+                },
+                {
+                  "type": "plainText",
+                  "value": "4 Raw Ambrosia\\n3 Raw Ambrosia"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Muscle Cluster or Infused Mechanism\\n4 Raw Ambrosia"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Calcified Knuckle Bone or Fleshy Mantle"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -262,7 +499,33 @@
         "name": "Shallows Navigation",
         "type": "Permanent",
         "effects": [
-          "You can move through LockIcon waterways with the River RiverIcon symbol"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You can move through"
+                },
+                {
+                  "type": "icon",
+                  "value": "Lock"
+                },
+                {
+                  "type": "plainText",
+                  "value": "waterways with the River"
+                },
+                {
+                  "type": "icon",
+                  "value": "River"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -297,15 +560,84 @@
         "name": "Persuasion",
         "type": "Save",
         "effects": [
-          "Gain +1 ArgoFateIcon when you are about to gain StrangersIcon to test Diplomacy (7+)",
-          "Success: Lower this StrangersIcon gain by 1 (to a minimum of 0)."
-        ]
-      },
-      {
-        "name": "Diatribe",
-        "type": "City Negotiation",
-        "effects": [
-          "Gain +1 ArgoFateIcon to lose -1 StrangersIcon"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "when you are about to gain"
+                },
+                {
+                  "type": "icon",
+                  "value": "Strangers"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to test Diplomacy (7+)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "bold",
+                  "value": "Success"
+                },
+                {
+                  "type": "plainText",
+                  "value": ": Lower this"
+                },
+                {
+                  "type": "icon",
+                  "value": "Strangers"
+                },
+                {
+                  "type": "plainText",
+                  "value": "gain by 1 (to a minimum of 0)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": City Negotiation"
+                }
+              ],
+              "costs": [
+                "Diatribe"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Strangers"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -339,7 +671,25 @@
         "name": "Diplomatic Corps",
         "type": "City Negotiation",
         "effects": [
-          "Lose 4 Mortal resources of your choosing and gain +1 ArgoFateIcon to gain +1 Diplomacy with the Local Faction"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose 4 Mortal resources of your choosing and gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain +1 Diplomacy with the Local Faction"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -371,11 +721,46 @@
     "abilities": [
       {
         "name": "Philosopher Guards",
-        "effects": "Gain +1 ArgoFateIcon to test Diplomacy (7+). Success: Chosen Argonaut discards a Despair token."
-      },
-      {
-        "name": "Maze Exorcism",
-        "effects": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to test Diplomacy (7+)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Success: Chosen Argonaut discards a Despair token"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Exorcism: Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction"
+                }
+              ],
+              "costs": [
+                "Maze"
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -407,7 +792,17 @@
         "name": "Scout Reports",
         "type": "Permanent",
         "effects": [
-          "You may re-roll your Adventure Hubs Table roll (once)"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You may re-roll your Adventure Hubs Table roll (once)"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -441,12 +836,62 @@
         "name": "Titanokinigos",
         "type": "Immediate",
         "effects": [
-          "Add the Untamed Titan Exploration card to the Exploration deck."
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Add the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Untamed Titan",
+                  "refID": ""
+                },
+                {
+                  "type": "plainText",
+                  "value": "Exploration card to the Exploration deck"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "when the Argo is on a Map tile with"
+                },
+                {
+                  "type": "icon",
+                  "value": "Titan"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol to test Diplomacy (7+)"
+                }
+              ],
+              "costs": [
+                "Expedition"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Success: Gain +1 Titan"
+                }
+              ]
+            }
+          ],
+          []
         ]
-      },
-      {
-        "name": "Expedition",
-        "effects": "Gain +1 ArgoFateIcon when the Argo is on a Map tile with TitanIcon symbol to test Diplomacy (7+). Success: Gain +1 Titan"
       }
     ]
   },
@@ -478,12 +923,45 @@
         "name": "Titan Stoa Capacity II",
         "type": "Permanent",
         "effects": [
-          "Titan Limit: 15."
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Titan Limit: 15"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": If you win a Battle that you started with less than 4 Titans, after the Battle gain +X"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa"
+                }
+              ],
+              "costs": [
+                "Comeback"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "X is the number of Titans gained"
+                }
+              ]
+            }
+          ],
+          []
         ]
-      },
-      {
-        "name": "Comeback",
-        "effects": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X ArgoFateIcon to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa. X is the number of Titans gained"
       }
     ]
   },
@@ -515,7 +993,25 @@
         "name": "Trade Agents",
         "type": "Permanent",
         "effects": [
-          "First time you use a Negotiation Ability each day, you may ignore its associated ArgoFateIcon gain"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "First time you use a Negotiation Ability each day, you may ignore its associated"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "gain"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -548,7 +1044,37 @@
         "name": "Port Recruitment",
         "type": "City Negotiation",
         "effects": [
-          "Gain +1 ArgoFateIcon and +1 StrangersIcon to gain +1 CrewIcon"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "and +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Strangers"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Crew"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -571,7 +1097,7 @@
     "locked": "FALSE",
     "flavorProject": "A chamber in which a user can experience an illusory physical environment could be the greatest of training rooms",
     "requirements": [
-      "ArgoKnowledgeIcon 20+"
+      "@ArgoKnowledge 20+"
     ],
     "leadsTo": [
       "Nymph Studies"
@@ -582,7 +1108,393 @@
         "name": "Mnestis Applications",
         "type": "Permanent",
         "effects": [
-          "You've unlocked the Mnestis Theatre"
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You've unlocked the Mnestis Theatre"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1023"
+    ],
+    "name": "Political Protection",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "There may be some who oppose the Nietzschean's rule. If we grant them protectoin, they may server as a useful source of information",
+    "requirements": [
+      "Titan Stoa"
+    ],
+    "leadsTo": [
+      "Refugee Relief Effort"
+    ],
+    "flavorTech": "Defectors and informants risk their lives to help your cause",
+    "abilities": [
+      {
+        "name": "Asylum",
+        "type": "Permanent",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You can gain Defectors"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Immediate"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1 Defector"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": Lose -1 Defector when you are about to perform a Diplomacy test or any test or roll in the Adventure Phase to add +3 to teh result"
+                }
+              ],
+              "costs": [
+                "Subterfuge"
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1024"
+    ],
+    "name": "Refugee Relief Effort",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "The war is displacing whole communities. We can offer them a safe haven",
+    "requirements": [
+      "Political Protection"
+    ],
+    "leadsTo": [
+      "Recruitment Programs",
+      "Counterintelligence"
+    ],
+    "flavorTech": "There is nothing more satisfying than the look on the faces of a family reunited",
+    "abilities": [
+      {
+        "name": "Argo Community",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "City Negotation"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +X"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "and lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Refugees"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain +1 Humanity and +1 Diplomacy with the Local Faction"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Breath Cure: Lose -1 Priest to make one Argonaut lose the Black Breath Affliction"
+                }
+              ],
+              "costs": [
+                "Black"
+              ]
+            }
+          ],
+          [
+            {
+              "gate": "Hidden or Distrustful",
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": X is 1"
+                }
+              ]
+            },
+            {
+              "gate": "Friendly or Allied",
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": X is 2"
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1025"
+    ],
+    "name": "Recruitment Programs",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "The war is taking its toll on your crew. You need to double your recruitment efforts. The refugees are more than eager to volunteer",
+    "requirements": [
+      "Refugee Relief Effort"
+    ],
+    "leadsTo": [
+      "Refugee Integration"
+    ],
+    "flavorTech": "This is their chance to make things right, reclaim their homes and their lives",
+    "abilities": [
+      {
+        "name": "Refugee Enrollment",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to test Diplomacy (7+)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "bold",
+                  "value": "Success"
+                },
+                {
+                  "type": "plainText",
+                  "value": ": You may lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Refugees"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Crew"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1026"
+    ],
+    "name": "Refugee Integration",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "The once nigh-indestructible Argo has seen better days. There are too many repairs to perform and too few hands to carry them out",
+    "requirements": [
+      "Recruitment Programs"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "You crew and your refugee friends work hand in hand to keep the Argo going",
+    "abilities": [
+      {
+        "name": "Volunteer Repair Crews",
+        "type": "Save",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "when you are about to lose"
+                },
+                {
+                  "type": "icon",
+                  "value": "Hull"
+                },
+                {
+                  "type": "plainText",
+                  "value": "during the Voyage or Adventure Phase, to test (X+), where X is 9 minus the number of Refugees you have"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "bold",
+                  "value": "Success"
+                },
+                {
+                  "type": "plainText",
+                  "value": ": Lower this"
+                },
+                {
+                  "type": "icon",
+                  "value": "Hull"
+                },
+                {
+                  "type": "plainText",
+                  "value": "loss by 1 (to a minimum of 0)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If you roll a '1', lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Refugees"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1027"
+    ],
+    "name": "Spartan Investigations",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "Your experiences on Crete dictate you should establish a robust scout network",
+    "requirements": [
+      "Titan Stoa"
+    ],
+    "leadsTo": [
+      "Theseus Method",
+      "Counterintelligen"
+    ],
+    "flavorTech": "Your scouts direct you to the places you're most needed at",
+    "abilities": [
+      {
+        "name": "Lakonian Scout Reports",
+        "type": "Permanent",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "After you roll on the Adventure Hubs table, you may choose to resolve an adventure from the hub you rolled or the one in the row directly above"
+                }
+              ]
+            }
+          ],
+          []
         ]
       }
     ]
@@ -614,7 +1526,258 @@
     "abilities": [
       {
         "name": "Diolkos Access",
-        "effects": "Gain +1 ArgoFateIcon to travel through a LockIcon waterway with the Diolkos symbol. Cannot be used during Story 3A"
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to travel through a"
+                },
+                {
+                  "type": "icon",
+                  "value": "Lock"
+                },
+                {
+                  "type": "plainText",
+                  "value": "waterway with the Diolkos symbol"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Cannot be used during Story 3A"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1046"
+    ],
+    "name": "Trauma Growth",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "FALSE",
+    "flavorProject": "The Nietzschean's propensity for cruelty has left your Titans crippled. That was his mistake",
+    "requirements": [
+      "Counterintelligence",
+      "War Recruitment"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "Trauma is nothing to strive for, but when it happens, it is a chance for a rebirth",
+    "abilities": [
+      {
+        "name": "Rehabilitation",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Choose a crippled Titan"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Note a"
+                },
+                {
+                  "type": "italics",
+                  "value": "Titan's name (Rehabilitation)"
+                },
+                {
+                  "type": "plainText",
+                  "value": "event on the Timeline, 7 days from now"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you resolve this event, the chosen Titan stops being crippled"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot use this ability again until you resolve this event"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": ": Lose -1 Priest"
+                }
+              ],
+              "costs": [
+                "Counseling"
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Chosen Argonaut loses the Consumed by Rage Affliction"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BA1047"
+    ],
+    "name": "Ambrosia Spill Solution",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "The Argo Works are certain they can use the technology of the Aeolipilean Engineroom to combat ambrosia",
+    "requirements": [
+      "Up-stream Navigation"
+    ],
+    "leadsTo": [
+      "\u2014"
+    ],
+    "flavorTech": "The liquifier breaks the bonds of the ambrosia mass, making it easier to navigate or harvest",
+    "abilities": [
+      {
+        "name": "Ambrosia Liquifier",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Gain +1"
+                },
+                {
+                  "type": "icon",
+                  "value": "ArgoFate"
+                },
+                {
+                  "type": "plainText",
+                  "value": "when you draw the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Ambrosia Spill",
+                  "refID": ""
+                },
+                {
+                  "type": "plainText",
+                  "value": "or"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Black Sludge",
+                  "refID": ""
+                },
+                {
+                  "type": "plainText",
+                  "value": "Exploration card to discard it without resolving its effect and gain 3 Violent Ambrosia resources"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CA1609"
+    ],
+    "name": "Surviving The Loop",
+    "cardType": "Technology",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 07",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "techType": "Structural",
+    "techSubType": "",
+    "locked": "TRUE",
+    "flavorProject": "When the loop resets, everyhing resets. Except the Argo",
+    "requirements": [
+      "\u2014"
+    ],
+    "leadsTo": [
+      "Time Solutions",
+      "Argo Timeline Security",
+      "Trespass Protocol"
+    ],
+    "flavorTech": "",
+    "abilities": [
+      {
+        "name": "Ariadne's Time Anchor",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During the Exploration Step, if the Argo is on a Map tile with a"
+                },
+                {
+                  "type": "icon",
+                  "value": "Lighthouse"
+                },
+                {
+                  "type": "plainText",
+                  "value": "symbol, you may move Ariadne's Anchor token to that Map tile"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -636,7 +1799,7 @@
     "locked": "FALSE",
     "flavorProject": "The Nymphs have found a new home",
     "requirements": [
-      "ArgoKnowledgeIcon 46+"
+      "@ArgoFate 46+"
     ],
     "leadsTo": [
       "Awakening Studies"
@@ -647,12 +1810,29 @@
         "name": "Grand Adyton",
         "type": "Permanent",
         "effects": [
-          "Summon Limit: 3."
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Summon Limit: 3"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "-Mending: Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction"
+                }
+              ],
+              "costs": [
+                "Soul"
+              ]
+            }
+          ],
+          []
         ]
-      },
-      {
-        "name": "Soul-Mending",
-        "effects": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction"
       }
     ]
   }

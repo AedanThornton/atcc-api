@@ -6,11 +6,65 @@
     "name": "Fate Worse Than Death",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Gain this card and the PriorityTargetIcon Priority Target token (even if someone has the Marked for Death Trauma card). While you have this card, you cannot lose this token. End of Battle: If your Titan is dead, resolve the Fate Worse Than Death Special Event"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain this card and the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token (even if someone has the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Marked for Death",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Trauma card)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "While you have this card, you cannot lose this token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "If your Titan is dead, resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -19,11 +73,32 @@
     "name": "Argo Will Suffer",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Immediately gain +1 ArgoFateIcon and lose -1 CrewIcon"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "plainText",
+            "value": "and lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -32,11 +107,48 @@
     "name": "Another's Thread",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Another random Titan gains +3 RageIcon, +3 DangerIcon, +3 FateIcon, and suffers Knockdown"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Another random Titan gains +3"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": ", +3"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": ", +3"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": ", and suffers"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -45,11 +157,28 @@
     "name": "Fated Memory",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Immediately gain a Fated Mnemos card. If you already have 2 Fated Mnemos cards, lose all nodes from a random Fated Mnemos instead"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately gain a Fated Mnemos card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you already have 2 Fated Mnemos cards, lose all nodes from a random Fated Mnemos instead"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -58,11 +187,24 @@
     "name": "Argo's Days Are Numbered",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Immediately lose 1 HullIcon"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately lose 1"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -71,11 +213,44 @@
     "name": "Hadeosis",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Reduce your FateIcon to 0. After Battle, resolve the Fateful Visitant Special Event"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reduce your"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "to 0"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After Battle, resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Fateful Visitant"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -84,11 +259,32 @@
     "name": "Fated To Die",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Spawn the Adversary. If it is already on the Voyage Map, instead resolve 2 AdversaryIcon"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Spawn the Adversary"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If it is already on the Voyage Map, instead resolve 2"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -97,11 +293,24 @@
     "name": "Fatebringer",
     "cardType": "Moiros",
     "game": "Odyssey",
-    "cycle": "ALL",
+    "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "effects": "Gain +1 DoomIcon"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Doom"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -115,7 +324,36 @@
     "foundIn": "Secret Deck 07",
     "faq": "",
     "errata": "",
-    "effects": "You may gain +1 ArgoFateIcon to Awaken. If you do, AdversaryIcon"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "plainText",
+            "value": "to Awaken"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -129,6 +367,51 @@
     "foundIn": "Secret Deck 15",
     "faq": "",
     "errata": "",
-    "effects": "You may gain +1 ArgoFateIcon to Awaken. If you do, AdversaryIcon. Reduce your FateIcon to 0"
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "plainText",
+            "value": "to Awaken"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reduce your"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "to 0"
+          }
+        ]
+      }
+    ]
   }
 ]

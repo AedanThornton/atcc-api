@@ -33,14 +33,21 @@
     ],
     "abilities": [
       {
-        "name": "Reflex",
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Reaction"
+          },
+          {
+            "type": "keyword",
+            "value": "Reflex"
+          }
+        ],
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
-        ],
-        "timing": "Reaction",
-        "type": "keyword"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -79,11 +86,19 @@
     ],
     "abilities": [
       {
-        "name": "Lose -1 DangerIcon",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ],
         "costs": [
           "Exhaust"
-        ],
-        "type": "unique"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -183,8 +198,20 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "If moving through a Labyrinth tile, you gain +1 SpeedIcon for this movement",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If moving through a Labyrinth tile, you gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "plainText",
+            "value": "for this movement"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -327,8 +354,16 @@
     ],
     "abilities": [
       {
-        "name": "After surviving a Major, Grave, or Obol Trauma, lose -1 FateIcon",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After surviving a Major, Grave, or Obol Trauma, lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -337,7 +372,7 @@
     "cardIDs": [
       "AW0289"
     ],
-    "name": "Heavy-GearIcon Training",
+    "name": "Heavy-Gear Training",
     "cardType": "Pattern",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -367,8 +402,24 @@
     ],
     "abilities": [
       {
-        "name": "Ignore up to -1 SpeedIcon penalty from any 1 GearIcon",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore up to -1"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "plainText",
+            "value": "penalty from any 1"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -407,9 +458,12 @@
     ],
     "abilities": [
       {
-        "name": "Armor Re-roll",
-        "x_value": "1",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Armor Re-roll 1"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -632,8 +686,20 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Add +X to your Climb tests, where X is equal to half of your RageIcon (rounding up)",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add +X to your Climb tests, where X is equal to half of your"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "(rounding up)"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -672,11 +738,15 @@
     ],
     "abilities": [
       {
-        "name": "Jump",
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Jump"
+          }
+        ],
         "costs": [
           "Fate"
-        ],
-        "type": "keyword"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -715,9 +785,12 @@
     ],
     "abilities": [
       {
-        "name": "Ambrosia Limit",
-        "x_value": "5",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ambrosia Limit 5"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -756,11 +829,23 @@
     ],
     "abilities": [
       {
-        "name": "When you are about to gain RageIcon, lower this gain to 1",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are about to gain"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": ", lower this gain to 1"
+          }
+        ],
         "costs": [
           "Exhaust"
-        ],
-        "type": "unique"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -799,8 +884,20 @@
     ],
     "abilities": [
       {
-        "name": "You have 1 additional SupportIcon slot",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You have 1 additional"
+          },
+          {
+            "type": "icon",
+            "value": "Support"
+          },
+          {
+            "type": "plainText",
+            "value": "slot"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1051,14 +1148,21 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Reflex",
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Reaction"
+          },
+          {
+            "type": "keyword",
+            "value": "Reflex"
+          }
+        ],
         "costs": [
           "Fate",
           "Fate",
           "Exhaust"
-        ],
-        "timing": "Reaction",
-        "type": "keyword"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1097,8 +1201,20 @@
     ],
     "abilities": [
       {
-        "name": "Each Laser Attack hit and Sun Attack hit deals 1 DangerIcon less to you (to a minimum of 1)",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Laser Attack hit and Sun Attack hit deals 1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "less to you (to a minimum of 1)"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1145,8 +1261,21 @@
     ],
     "abilities": [
       {
-        "name": "If you have exactly 1 Bleeding token, ignore the Bleeding Condition",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you have exactly 1 Bleeding token, ignore the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Bleeding",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1185,15 +1314,23 @@
     ],
     "abilities": [
       {
-        "name": "Reestablish your Time Anchor",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reestablish your Time Anchor"
+          }
+        ],
         "costs": [
           "Fate"
-        ],
-        "type": "unique"
+        ]
       },
       {
-        "name": "You may use this ability as a free action or at the end of your turn",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may use this ability as a free action or at the end of your turn"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1240,13 +1377,17 @@
     ],
     "abilities": [
       {
-        "name": "Shaded",
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Shaded"
+          }
+        ],
         "costs": [
           "Danger",
           "Danger",
           "Danger"
-        ],
-        "type": "keyword"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1285,8 +1426,28 @@
     ],
     "abilities": [
       {
-        "name": "You have 1 additional Weapon OneHandedIcon slot (this slot does not allow you to use ThreeHandedIcon Weapons)",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You have 1 additional Weapon"
+          },
+          {
+            "type": "icon",
+            "value": "OneHanded"
+          },
+          {
+            "type": "plainText",
+            "value": "slot (this slot does not allow you to use"
+          },
+          {
+            "type": "icon",
+            "value": "ThreeHanded"
+          },
+          {
+            "type": "plainText",
+            "value": "Weapons)"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1325,8 +1486,12 @@
     ],
     "abilities": [
       {
-        "name": "You gain +2 bonus to the Ascent Check",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You gain +2 bonus to the Ascent Check"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1460,12 +1625,44 @@
     ],
     "abilities": [
       {
-        "name": "Cryptex Loathing",
-        "type": "keyword"
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cryptex Loathing"
+          }
+        ]
       },
       {
-        "name": "Once per Battle, gain +1 RageIcon to gain a CombatActionIcon then gain a CombatActionIcon Fatigue token",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Once per Battle, gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "to gain a"
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "plainText",
+            "value": "then gain a"
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "plainText",
+            "value": "Fatigue token"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1571,14 +1768,20 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Hermes Reflex",
-        "x_value": "1",
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Reaction"
+          },
+          {
+            "type": "keyword",
+            "value": "Hermes Reflex 1"
+          }
+        ],
         "costs": [
           "Fate",
           "Exhaust"
-        ],
-        "timing": "Reaction",
-        "type": "keyword"
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1617,8 +1820,12 @@
     ],
     "abilities": [
       {
-        "name": "Microwave Resistance 1",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Microwave Resistance 1"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1657,9 +1864,16 @@
     ],
     "abilities": [
       {
-        "name": "Gain 1 additional Oxygen token",
-        "timing": "Start of Battle",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "Gain 1 additional Oxygen token"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1761,8 +1975,28 @@
     "traumaTable": [],
     "abilities": [
       {
-        "name": "Gain +1 SpeedIcon for each empty GearIcon slot you ahve (up to 3)",
-        "type": "unique"
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "plainText",
+            "value": "for each empty"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "slot you ahve (up to 3)"
+          }
+        ]
       }
     ],
     "gatedAbilities": []
@@ -1801,12 +2035,20 @@
     ],
     "abilities": [
       {
-        "name": "When you are about to resolve a Minor or Major Trauma card, Second Chance",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are about to resolve a Minor or Major Trauma card,"
+          },
+          {
+            "type": "keyword",
+            "value": "Second Chance"
+          }
+        ],
         "costs": [
           "Fate",
           "Exhaust"
-        ],
-        "type": "unique"
+        ]
       }
     ],
     "gatedAbilities": []

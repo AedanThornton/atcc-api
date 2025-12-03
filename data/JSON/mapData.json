@@ -1069,7 +1069,9 @@
         }
       ]
     },
-    "otherFeatures": [],
+    "otherFeatures": [
+      "Knossos"
+    ],
     "secrets": []
   },
   {
@@ -3412,6 +3414,196 @@
         {
           "split": "b",
           "nextTile": "071"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT01"
+    ],
+    "name": "T01",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "east": [
+        {
+          "nextTile": "T02"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT02"
+    ],
+    "name": "T02",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "T01"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "T03"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT03"
+    ],
+    "name": "T03",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "T02"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "T04"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT04"
+    ],
+    "name": "T04",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "T03"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "T06"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "T05"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT05"
+    ],
+    "name": "T05",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "west": [
+        {
+          "nextTile": "T04"
+        }
+      ],
+      "south": [
+        {
+          "nextTile": "027"
+        }
+      ]
+    },
+    "otherFeatures": [],
+    "secrets": []
+  },
+  {
+    "cardIDs": [
+      "AT06"
+    ],
+    "name": "T06",
+    "cardType": "Map",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Square",
+    "faq": "",
+    "errata": "",
+    "factions": [
+      ""
+    ],
+    "progDoom": [],
+    "symbols": [
+      "AdventureHub"
+    ],
+    "movementArrows": {
+      "north": [
+        {
+          "nextTile": "T04"
+        }
+      ],
+      "east": [
+        {
+          "nextTile": "027"
         }
       ]
     },

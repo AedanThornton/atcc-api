@@ -2,6 +2,74 @@ import re
 from lib.staticVars import *
 import math
 
+
+def parse_formatted_sentence(raw_sentence):
+    if not raw_sentence: return None, None
+
+    token_regex = re.compile(
+        r"{([^}]+)}"            # {keyword}
+        r"|<([^>]+)>"           # <timing>
+        r"|\[([^\]]+)\]"        # [cardRef]
+        r"|%([^%]+)%"           # %gate%
+        r"|\*([^\*]+)\*"        # *bold*
+        r"|_([^_]+)_"           # _italics_
+        r"|@(\w+)"              # @icon
+        r"|\$(\w+)"             # $cost
+        r"|([^{}<>%@$_\*\[\]]+)"    # plain text
+    )
+
+    ability = {}
+    tokens = []
+    costs = []
+    for match in token_regex.finditer(raw_sentence):
+        keyword, timing, cardRef, gate, bold, italics, icon, cost, text = match.groups()
+
+        if keyword:
+            tokens.append({"type": "keyword", "value": keyword})
+        elif timing:
+            tokens.append({"type": "timing", "value": timing})
+        elif cardRef:
+            cardRef = cardRef.split("|")
+            display = cardRef[0]
+            refID = ""
+            if len(cardRef) > 1:
+                refID = cardRef[1]
+            tokens.append({"type": "cardRef", "value": display, "refID": refID})
+        elif bold:
+            tokens.append({"type": "bold", "value": bold})
+        elif italics:
+            tokens.append({"type": "italics", "value": italics})
+        elif icon:
+            tokens.append({"type": "icon", "value": icon})
+        elif text and text.strip():
+            tokens.append({"type": "plainText", "value": text.strip()})
+
+        elif gate:
+            pattern = re.compile(r'(\w+)\s(\d\+?)')
+            gate_match = re.match(pattern, gate)
+
+            if gate_match:
+                gateType, gateValue = gate_match.groups()
+                ability["gate"] = gateType
+                ability["value"] = gateValue
+            else:
+                ability["gate"] = gate
+        elif cost:
+            costs.append(cost)
+
+
+    ability["abilityText"] = tokens
+
+    if costs:
+        ability["costs"] = costs
+
+    if "gate" in ability:
+        return None, ability
+    else:
+        return ability, None
+
+
+
 def parse_power(power_str):
     powers = []
     for part in power_str.split(". "):
@@ -56,211 +124,50 @@ def parse_armor(armor_str):
             "type": armor_str
         }
 
-def parse_abilities(ability_box):
-    """Parses the ability box."""
-    new_ability_list = []
-    gate_ability_list = []
-    ability_list = re.split(r"\.\s?", ability_box)
-    if ability_list[-1] == "":
-        ability_list = ability_list[:-1] 
-    gate_pattern = re.compile(r"(\w+) (\d\+) (.*)")
-    x_pattern = re.compile(r"^([\w\s:\+,\-']+?)(?:\s+([\dX\-]+))?$")
-
-    parsing_gate_abilities = False
-    gated_ability = []
-    last_gate_json = {}
-    
-    for ability in ability_list:
-        if ability == "Unique" or ability == "Ascended": continue
-        gate_match = gate_pattern.match(ability)
-        if gate_match:
-            gate_type, gate_value, ability_name = gate_match.groups()
-            parsing_gate_abilities = True
-        else: ability_name = ability
-
-        costs = []
-        timing = ""
-        timingAfter = False
-        flavorName = ""
-        words = ability_name.split()
-        colon_timings = ability_name.split(":")
-        if words[0] in TIMINGS:
-            timing = words[0]
-            words.remove(words[0])
-        if len(colon_timings) > 1:
-            if colon_timings[0] in TIMINGS:
-                timing = colon_timings[0]
-                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
-            elif len(colon_timings[0]) < 20:
-                flavorName = colon_timings[0]
-                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
-        for word in words[:]:
-            if word in COSTS:
-                if word.endswith("Cost"):
-                    costs.append(word[:-4])
-                else:
-                    costs.append(word)
-                words.remove(word)
-            else: break
-        colon_timings = " ".join(words).split(":")
-        if words[0] in TIMINGS:
-            timing = words[0]
-            timingAfter = True
-            words.remove(words[0])
-        if len(colon_timings) > 1:
-            if colon_timings[0] in TIMINGS:
-                timing = colon_timings[0]
-                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
-            elif len(colon_timings[0]) < 20:
-                flavorName = colon_timings[0]
-                words = ":".join(colon_timings).replace(colon_timings[0] + ": ", "").split()
-
-        name = " ".join(words)
-                
-            
-        keyword_match = x_pattern.match(name)
-
-        effect, x_value = keyword_match.groups() if (keyword_match and keyword_match.groups()[0] in KEYWORDS) else (name, None)
-
-
-        ability_json = {}
-        ability_json["name"] = effect
-        if flavorName:
-            ability_json["flavorName"] = flavorName
-        if x_value:
-            y_pattern = re.compile(r"(\d)\-(\d)")
-            y_match = y_pattern.match(x_value)
-            y, x = y_match.groups() if y_match else (None, x_value)
-            if y_match:
-                ability_json["y_value"] = y
-                ability_json["x_value"] = x
-            else:
-                ability_json["x_value"] = x
-        if costs != []:
-            ability_json["costs"] = costs
-        if timing != "":
-            ability_json["timing"] = timing
-        if timingAfter:
-            ability_json["timingAfter"] = True
-
-        if effect in KEYWORDS:
-            ability_json["type"] = "keyword"
-        else:
-            ability_json["type"] = "unique"
-
-        gate_json = {}
-        if gate_match:
-            gate_json["gate"] = gate_type
-            gate_json["value"] = gate_value
-        
-        if parsing_gate_abilities:
-            if gate_match:
-                if last_gate_json:
-                    last_gate_json["abilities"] = gated_ability
-                    gate_ability_list.append(last_gate_json)
-                    last_gate_json = {}
-                    gated_ability = []  
-                last_gate_json = gate_json
-            gated_ability.append(ability_json)
-        else: 
-            new_ability_list.append(ability_json)
-
-    if last_gate_json: 
-        last_gate_json["abilities"] = gated_ability
-        gate_ability_list.append(last_gate_json)
-    return new_ability_list, gate_ability_list
-
-def parse_abilities_new(raw_data):
-    token_regex = re.compile(
-        r"{([^}]+)}"            # {keyword}
-        r"|<([^>]+)>"           # <timing>
-        r"|%([^%]+)%"           # %gate%
-        r"|\*([^\*]+)\*"        # *bold*
-        r"|_([^_]+)_"          # _italics_
-        r"|@(\w+)"              # @icon
-        r"|\$(\w+)"              # $cost
-        r"|([^{}<>%@$_\*]+)"    # plain text
-    )
-
+def parse_abilities(raw_data):
     sentences = [s.strip() for s in re.split(r"\.\s*", raw_data) if s.strip()]
     parsed_abilities = []
     parsed_gated_abilities = []
 
     for sentence in sentences:
-        ability = {}
-        tokens = []
-        costs = []
-        for match in token_regex.finditer(sentence):
-            keyword, timing, gate, bold, italics, icon, cost, text = match.groups()
+        ability, gated_ability = parse_formatted_sentence(sentence)
 
-            if keyword:
-                tokens.append({"type": "keyword", "value": keyword})
-            elif timing:
-                tokens.append({"type": "timing", "value": timing})
-            elif bold:
-                tokens.append({"type": "bold", "value": bold})
-            elif italics:
-                tokens.append({"type": "italics", "value": italics})
-            elif icon:
-                tokens.append({"type": "icon", "value": icon})
-            elif text and text.strip():
-                tokens.append({"type": "plainText", "value": text.strip()})
-
-            elif gate:
-                parts = gate.split(" ")
-                ability["gate"] = parts[0]
-                if parts[1]:
-                    ability["value"] = parts[1]
-            elif cost:
-                costs.append(cost)
-
-
-        ability["abilityText"] = tokens
-
-        if costs:
-            ability["costs"] = costs
-
-        if "gate" in ability:
-            parsed_gated_abilities.append(ability)
-        else:
+        if ability:
             parsed_abilities.append(ability)
+        if gated_ability:
+            parsed_gated_abilities.append(gated_ability)
 
     return parsed_abilities, parsed_gated_abilities
 
 def parse_abilities_block(raw_abilities):
-    abilities = raw_abilities.split("$")
-    if len(abilities) < 2:
-        abilities = raw_abilities.split("; ")
+    abilities = raw_abilities.split("; ")
     ability_json = []
 
     for ability in abilities:
         name = ability.split(":")[0]
         ability_def = ": ".join(ability.split(": ")[1:])
 
-        attack_ability_match = re.match(r'{([^\}]+)}\s*(.*)', ability_def)
+        attack_ability_match = re.match(r'{(\w),\s?(\+\d),\s?([^\}]+)}\s*(.*)', ability_def)
         dice, precision, power_dice = "", "", ""
         if attack_ability_match:
-            attack, ability_def = attack_ability_match.groups()
-            attack_spread = attack.split(", ")
-            if len(attack_spread) == 3:
-                dice, precision, power = attack_spread
-                power_spread = power.split(" ")
-                if len(power_spread) == 2:
-                    power_dice = int(power_spread[0]) * [power_spread[1]]
-                else: 
-                    power_dice = [power_spread]
+            dice, precision, power, ability_def = attack_ability_match.groups()
+            power_spread = power.split(" ")
+            if len(power_spread) == 2:
+                power_dice = int(power_spread[0]) * [power_spread[1]]
+            else: 
+                power_dice = [power_spread]
 
         ability_type = ability_def.split(". ")[0]
         if ability_type in STRUCTURAL_TYPES:
-            effects = ability_def.split(". ")[1:]
+            effects = ". ".join(ability_def.split(". ")[1:])
         else:
             ability_type = ""
-            effects = ability_def
+            effects = ability_def      
 
         new_json = {
             "name": name,
             "type": ability_type,
-            "effects": effects
+            "effects": parse_abilities(effects)
         }
 
         if not new_json["type"]: new_json.pop("type")
@@ -324,9 +231,9 @@ def parse_argo_abilities(raw_abilities):
 
         if len(name_split) > 1:
             ability_obj["name"] = name_split[0]
-            ability_obj["effects"] = name_split[1].split("\\n")
+            ability_obj["effects"] = parse_formatted_sentence(name_split[1])[0]
         else:
-            ability_obj["effects"] = name_split[0].split("\\n")
+            ability_obj["effects"] = parse_formatted_sentence(name_split[0])[0]
 
         ability_json.append(ability_obj)
 
@@ -365,16 +272,17 @@ def parse_responses(responses_string):
         response_effects = []
 
         for effect in response_effects_list.split(". "):
+            if not effect: continue
             effect = re.sub("\.", "", effect) #remove hanging periods
             
             if effect.startswith("WoO"):
                 response_effects.append({
-                    "effect": " ".join(effect.split(" ")[1:]),
+                    "effect": parse_abilities(" ".join(effect.split(" ")[1:]))[0],
                     "WoO": True
                 })
             else:
               response_effects.append({
-                    "effect": effect
+                    "effect": parse_abilities(effect)[0]
                 })
               
         parse_responses.append({
@@ -401,7 +309,11 @@ def parse_kratos(table):
             for keyword in keywords:
                 x_match = re.match(x_pattern, keyword)
                 parsed_keywords = {}
-                name, x_value = x_match.groups()
+                if x_match:
+                    name, x_value = x_match.groups()
+                else:
+                    name = keyword
+
                 parsed_keywords["name"] = name
                 if x_value:
                     parsed_keywords["x_value"] = x_value
@@ -459,7 +371,7 @@ def parse_consequences(consequences):
                 effect = consequence
         else:
             effect = consequence
-        consequence_json["effect"] = effect
+        consequence_json["effect"] = parse_abilities(effect)[0]
         new_json.append(consequence_json)
 
     return new_json
@@ -470,14 +382,15 @@ def parse_targeting(targeting):
     new_json = []
     
     for line in targeting_lines:
+        if not line: continue
         line_json = {}
         line_type = line.split(": ")
         if len(line_type) > 1:
             line_json["type"] = line_type[0] + ":"
-            line_json["target"] = line_type[1]
+            line_json["target"] = [parse_formatted_sentence(line_type[1])[0]]
         else:
             line_json["type"] = "Target:"
-            line_json["target"] = line
+            line_json["target"] = [parse_formatted_sentence(line)[0]]
         new_json.append(line_json)
 
     return new_json
@@ -537,11 +450,8 @@ def parse_tiles(raw_tiles):
 
     return tile_list
 
-def parse_exploration(raw_effects):
-    effects_list = raw_effects.split(". ")
-    parsed_effects = []
-
-    for effect in effects_list:
+def parse_exploration(raw_data):
+    '''
         effect_json = {}
         for dip in DIPLOMACIES:
             if effect.startswith(dip):
@@ -558,8 +468,9 @@ def parse_exploration(raw_effects):
         effect_json["effect"] = effect
 
         parsed_effects.append(effect_json)
+    '''
 
-    return parsed_effects
+    return parse_abilities(raw_data)
 
 def parse_attack_diagram(raw_data):
     new_rows = []

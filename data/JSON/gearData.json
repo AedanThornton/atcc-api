@@ -3494,7 +3494,25 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Ignore the effects of Despair, [Fear] or [Dread] until the end of your turn"
+            "value": "Ignore the effects of Despair,"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "until the end of your turn"
           }
         ],
         "costs": [
@@ -3522,7 +3540,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may use [Morpheus Module]'s"
+            "value": "You may use"
+          },
+          {
+            "type": "cardRef",
+            "value": "Morpheus Module",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "'s"
           },
           {
             "type": "keyword",
@@ -4168,7 +4195,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When a Titan successfully climbs a Primordial VP from the [Stepping Stone], that Titan gains +1"
+            "value": "When a Titan successfully climbs a Primordial VP from the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Stepping Stone",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": ", that Titan gains +1"
           },
           {
             "type": "icon",
@@ -4204,7 +4240,7 @@
     "traits": [
       "Argotech",
       "Augment",
-      "HeadGearIcon"
+      "@HeadGear"
     ],
     "offensiveStatistics": {},
     "defensiveStatistics": {},
@@ -4297,7 +4333,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "The Strong Eat"
           },
           {
@@ -4854,7 +4890,16 @@
           },
           {
             "type": "plainText",
-            "value": "Gain the [Dread] Condition card"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
           }
         ]
       },
@@ -4862,7 +4907,25 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you gain negative Precision tokens, you may gain the [Fear] (1 token) or [Dread] (2 tokens) Conditon card instead"
+            "value": "When you gain negative Precision tokens, you may gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "(1 token) or"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "(2 tokens) Conditon card instead"
           }
         ]
       }
@@ -4878,7 +4941,12 @@
           },
           {
             "type": "plainText",
-            "value": "Place a Labyrinth tile under your Titan, [Knockdown]"
+            "value": "Place a Labyrinth tile under your Titan,"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": ""
           },
           {
             "type": "plainText",
@@ -4980,7 +5048,16 @@
           },
           {
             "type": "plainText",
-            "value": "You may gain the [Dread] Condition card"
+            "value": "You may gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
           }
         ]
       },
@@ -5008,7 +5085,25 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you resolve the Face Your Fear effect of a [Fear] or [Dread] Condition card, gain +1 additional positive Precision token"
+            "value": "When you resolve the Face Your Fear effect of a"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card, gain +1 additional positive Precision token"
           }
         ]
       }
@@ -5274,7 +5369,12 @@
           },
           {
             "type": "plainText",
-            "value": ", place an L Labyrinth under your Titan and suffer [Knockdown]"
+            "value": ", place an L Labyrinth under your Titan and suffer"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": ""
           }
         ]
       }
@@ -5286,7 +5386,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When this card causes you to suffer [Knockdown], you may immediately stand up and move up to 2 spaces"
+            "value": "When this card causes you to suffer"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": ", you may immediately stand up and move up to 2 spaces"
           }
         ]
       }
@@ -6446,11 +6555,15 @@
         ]
       },
       {
-        "abilityText": [],
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Rush"
+          }
+        ],
         "costs": [
           "ComplicatedAction",
-          "Fate",
-          "Rush"
+          "Fate"
         ]
       }
     ],
@@ -7952,7 +8065,7 @@
             "value": "from the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Digestive Acids"
           },
           {
@@ -8493,7 +8606,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Metamorphosis"
           },
           {
@@ -8899,7 +9012,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Metamorphosis"
           },
           {
@@ -8989,7 +9102,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Metamorphosis"
           },
           {
@@ -9306,7 +9419,16 @@
           },
           {
             "type": "plainText",
-            "value": "Gain the [Bellerophonic] Condition card"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Bellerophonic",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
           }
         ]
       },
@@ -9691,7 +9813,12 @@
           },
           {
             "type": "plainText",
-            "value": ": [Bellerophon]"
+            "value": ":"
+          },
+          {
+            "type": "cardRef",
+            "value": "Bellerophon",
+            "refID": ""
           },
           {
             "type": "icon",
@@ -9939,10 +10066,17 @@
     "defensiveStatistics": {
       "evasionRerolls": "X*"
     },
-    "asteriskEffect": "*X is equal to the number of Opening tokens in the Kratos Pool",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "X is equal to the number of Opening tokens in the Kratos Pool"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -10040,7 +10174,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -10122,7 +10256,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -10223,7 +10357,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -10349,7 +10483,7 @@
             "value": "from the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Digestive Acids"
           },
           {
@@ -10554,7 +10688,14 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "This Weapon occupies all Weapon slots",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "This Weapon occupies all Weapon slots"
+        }
+      ]
+    },
     "wished": false,
     "unique": true,
     "ascended": false,
@@ -10599,7 +10740,16 @@
           },
           {
             "type": "plainText",
-            "value": "Gain the [Hatred] Condition card"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Hatred",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
           }
         ]
       },
@@ -10639,7 +10789,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain the [Hatred] Condition card"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Hatred",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
           }
         ]
       },
@@ -10747,7 +10906,16 @@
           },
           {
             "type": "plainText",
-            "value": "Gain the [Berserk] Kratos card, ignore the associated"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Berserk",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Kratos card, ignore the associated"
           },
           {
             "type": "icon",
@@ -10767,7 +10935,16 @@
           },
           {
             "type": "plainText",
-            "value": ": When you Wound with the [Red Polis], place 1 generic token on this card"
+            "value": ": When you Wound with the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Red Polis",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": ", place 1 generic token on this card"
           }
         ]
       },
@@ -10799,7 +10976,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "If there is a generic token on [Berserk] when you succeed the Rally test, discard this token and fail the test instead"
+            "value": "If there is a generic token on"
+          },
+          {
+            "type": "cardRef",
+            "value": "Berserk",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "when you succeed the Rally test, discard this token and fail the test instead"
           }
         ]
       }
@@ -10811,7 +10997,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain the [Berserk] Kratos card"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Berserk",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Kratos card"
           }
         ]
       }
@@ -11092,7 +11287,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Lumbering"
           },
           {
@@ -11283,7 +11478,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Metamorphosis"
           },
           {
@@ -11355,7 +11550,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -11419,7 +11614,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -11517,7 +11712,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -11562,7 +11757,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Frontlines"
           }
         ]
@@ -11647,7 +11842,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -11693,7 +11888,12 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Can only be equipped by a Titan with the [Repurposed Cryptex]"
+            "value": "Can only be equipped by a Titan with the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Repurposed Cryptex",
+            "refID": ""
           }
         ]
       },
@@ -11729,7 +11929,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain the [Sowed] Fated Mnemos (secret deck 7, card 82)"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Sowed",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "Fated Mnemos (secret deck 7, card 82)"
           }
         ]
       }
@@ -11881,10 +12090,17 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "* This Weapon occupies all Weapon slots",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "This Weapon occupies all Weapon slots"
+        }
+      ]
+    },
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -11950,7 +12166,16 @@
           },
           {
             "type": "plainText",
-            "value": ": Arrive from [Time-clocked] or ignore Rewind"
+            "value": ": Arrive from"
+          },
+          {
+            "type": "cardRef",
+            "value": "Time-clocked",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "or ignore Rewind"
           }
         ],
         "costs": [
@@ -11978,7 +12203,12 @@
           },
           {
             "type": "plainText",
-            "value": ": [Sisyphus's Triumph]"
+            "value": ":"
+          },
+          {
+            "type": "cardRef",
+            "value": "Sisyphus's Triumph",
+            "refID": ""
           },
           {
             "type": "icon",
@@ -12054,10 +12284,17 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "* This Weapon occupies all Weapon slots",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "This Weapon occupies all Weapon slots"
+        }
+      ]
+    },
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -12151,7 +12388,16 @@
           },
           {
             "type": "plainText",
-            "value": ": Arrive from [Time-clocked] or ignore Rewind, then gain 1 positive Precision token"
+            "value": ": Arrive from"
+          },
+          {
+            "type": "cardRef",
+            "value": "Time-clocked",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "or ignore Rewind, then gain 1 positive Precision token"
           }
         ],
         "costs": [
@@ -12586,7 +12832,30 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "When you attack, you may gain +1 FateIcon to gain +2 d10Icon (up to 2 times)",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you attack, you may gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        },
+        {
+          "type": "plainText",
+          "value": "to gain +2"
+        },
+        {
+          "type": "icon",
+          "value": "d10"
+        },
+        {
+          "type": "plainText",
+          "value": "(up to 2 times)"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -12768,7 +13037,7 @@
     "gatedAbilities": [
       {
         "gate": "Danger",
-        "value": "7+/Fate",
+        "value": "7+",
         "abilityText": [
           {
             "type": "plainText",
@@ -12891,7 +13160,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -12928,7 +13197,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Frontlines"
           }
         ]
@@ -13030,7 +13299,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -13063,7 +13332,7 @@
             "value": "Restricted (_Cryptex_)"
           },
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Frontlines"
           }
         ]
@@ -13577,7 +13846,22 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "When you attack, you may discard a Fire token from teh Kratos Pool to gain +1 d10Icon (up to 3 times)",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you attack, you may discard a Fire token from teh Kratos Pool to gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "d10"
+        },
+        {
+          "type": "plainText",
+          "value": "(up to 3 times)"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -13678,7 +13962,22 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "The Crit Die hit grants you BlackPowerDieIcon instead",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "The Crit Die hit grants you"
+        },
+        {
+          "type": "icon",
+          "value": "BlackPowerDie"
+        },
+        {
+          "type": "plainText",
+          "value": "instead"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -14212,7 +14511,7 @@
       "DJ2343",
       "DJ2344"
     ],
-    "name": "Hermes GearIcon Mk. II",
+    "name": "Hermes @Gear Mk. II",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -14420,7 +14719,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -14658,7 +14957,25 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain the [Hatred] and [Fear] Condition cards"
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Hatred",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "and"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition cards"
           }
         ]
       }
@@ -14782,7 +15099,7 @@
             "value": "Ignore the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Curse Carapace"
           },
           {
@@ -14956,7 +15273,22 @@
     "defensiveStatistics": {
       "evasionBonus": "+0*"
     },
-    "asteriskEffect": "+1 EvasionIcon on an Inkblot or Ambrosia Cloud Terrain tile",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "+1"
+        },
+        {
+          "type": "icon",
+          "value": "Evasion"
+        },
+        {
+          "type": "plainText",
+          "value": "on an Inkblot or Ambrosia Cloud Terrain tile"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -15947,7 +16279,14 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "X is equal to 1 plus the number of Despair tokens you have",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "X is equal to 1 plus the number of Despair tokens you have"
+        }
+      ]
+    },
     "wished": false,
     "unique": true,
     "ascended": false,
@@ -16363,7 +16702,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -16401,7 +16740,25 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you are about to die from the [Fear] or [Dread] Condition cards, ignore this death"
+            "value": "When you are about to die from the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition cards, ignore this death"
           }
         ],
         "costs": [
@@ -17158,7 +17515,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -17199,7 +17556,7 @@
             "value": "Disable the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Toying"
           },
           {
@@ -17277,7 +17634,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -17334,7 +17691,7 @@
             "value": "Disable the"
           },
           {
-            "type": "italics",
+            "type": "keyword",
             "value": "Toying"
           },
           {
@@ -19005,7 +19362,7 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": true,
+    "ascended": false,
     "abilities": [
       {
         "abilityText": [
@@ -19091,7 +19448,7 @@
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
-    "ascended2": true,
+    "ascended2": false,
     "abilities2": [
       {
         "abilityText": [
@@ -19242,7 +19599,7 @@
     "gatedAbilities": [
       {
         "gate": "Fate",
-        "value": "8+/Ambrosia",
+        "value": "8+",
         "abilityText": [
           {
             "type": "keyword",
@@ -19431,7 +19788,7 @@
     "gatedAbilities": [
       {
         "gate": "Danger",
-        "value": "8+/Ambrosia",
+        "value": "8+",
         "abilityText": [
           {
             "type": "keyword",
@@ -19859,7 +20216,22 @@
       ]
     },
     "defensiveStatistics": {},
-    "asteriskEffect": "Gain +1 d10Icon per Allied Faction",
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "d10"
+        },
+        {
+          "type": "plainText",
+          "value": "per Allied Faction"
+        }
+      ]
+    },
     "wished": false,
     "unique": true,
     "ascended": false,
@@ -19972,7 +20344,16 @@
           },
           {
             "type": "plainText",
-            "value": "to immediately gain [Peaceful Transition] (even from the Argo Armory)"
+            "value": "to immediately gain"
+          },
+          {
+            "type": "cardRef",
+            "value": "Peaceful Transition",
+            "refID": ""
+          },
+          {
+            "type": "plainText",
+            "value": "(even from the Argo Armory)"
           }
         ]
       }
@@ -20070,7 +20451,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Frontlines"
           }
         ]
@@ -20086,16 +20467,8 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
-            "value": "Restricted ("
-          },
-          {
-            "type": "italics",
-            "value": "Cryptex"
-          },
-          {
-            "type": "plainText",
-            "value": ")"
+            "type": "keyword",
+            "value": "Restricted (_Cryptex_)"
           }
         ]
       }

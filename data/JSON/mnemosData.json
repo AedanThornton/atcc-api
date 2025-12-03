@@ -19,25 +19,37 @@
     "abilities": [
       [
         {
-          "name": "Change 1 negative modifier token into a positive one",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Change 1 negative modifier token into a positive one"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "4+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "Gain 1 temporary positive EvasionIcon token",
-              "costs": [
-                "Exhaust"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "Gain 1 temporary positive"
+            },
+            {
+              "type": "icon",
+              "value": "Evasion"
+            },
+            {
+              "type": "plainText",
+              "value": "token"
             }
+          ],
+          "costs": [
+            "Exhaust"
           ]
         }
       ],
@@ -45,14 +57,18 @@
         {
           "gate": "Danger",
           "value": "7+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "Gain or lose up to 2 RageIcon",
-              "costs": [
-                "Discard"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "Gain or lose up to 2"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
             }
+          ],
+          "costs": [
+            "Discard"
           ]
         }
       ]
@@ -82,18 +98,26 @@
     "abilities": [
       [
         {
-          "name": "When you break a Combo, place 1 Opening or Break token in the Kratos Pool",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you break a Combo, place 1 Opening or Break token in the Kratos Pool"
+            }
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "2+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you break a Combo, you may lose -1 FateIcon",
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you break a Combo, you may lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
             }
           ]
         }
@@ -102,14 +126,14 @@
         {
           "gate": "Danger",
           "value": "6+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you break a Combo, perform a Bonus Attack!",
-              "costs": [
-                "Discard"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you break a Combo, perform a Bonus Attack!"
             }
+          ],
+          "costs": [
+            "Discard"
           ]
         }
       ]
@@ -117,6 +141,244 @@
     "stats": [
       "Will",
       "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BG0647"
+    ],
+    "name": "Left For Dead",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "They've all written you off, yet your story is still unwritten",
+    "traits": [
+      "Deed",
+      "Tragedy",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you survive an Obol, lose up to -3"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "and up to -2"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to die from an Instant Death effect, draw an Obol instead"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes"
+            },
+            {
+              "type": "icon",
+              "value": "BlackPowerDie"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BG0648"
+    ],
+    "name": "Spewed By The Abyss",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Even darkness did not want you",
+    "traits": [
+      "Supernatural",
+      "Fate",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to gain at least 1 Ambrosia token, test (8+) for each of these tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For each success, lower Ambrosia gain by 1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard up to 2 Ambrosia tokens"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to draw a Trauma card, gain Ambrosia tokens instead: 1 for Minor, 2 for Major, 3 for Grave, and 4 for an Obol"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Will",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BG0649"
+    ],
+    "name": "Coward's Way",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You owe your cowardice your life. But what kind of life is it?",
+    "traits": [
+      "Deed",
+      "Voyage",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Before performing a Power Roll, gain"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "equal to the BP level to immediately fail this Attack instead, ignoring the Fail Responses"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you do, do not place any tokens in the Kratos Pool"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you fail to Wound, place the BP card back on top of the BP deck instead of discarding it"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "That Titan becomes the Target instead"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to become the Target of an Attack, swap places with an adjacent Titan"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Wisdom"
     ]
   },
   {
@@ -139,31 +401,67 @@
     "abilities": [
       [
         {
-          "name": "When you are about to reoslve a Trauma Draw, treat your DangerIcon as 1 lower",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to reoslve a Trauma Draw, treat your"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "as 1 lower"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
-          "name": "When you are knocked down, unexhaust this card",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are knocked down, unexhaust this card"
+            }
+          ]
         },
         {
-          "name": "Whn you stand up, gain +1 SpeedIcon, +1 Precision and Auto-break 1 until the end of your turn",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Whn you stand up, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": ", +1 Precision and Auto-break 1 until the end of your turn"
+            }
+          ]
         }
       ],
       [
         {
-          "name": "When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards"
+            }
+          ]
         },
         {
-          "name": ")",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
         }
       ]
     ],
@@ -192,28 +490,192 @@
     "abilities": [
       [
         {
-          "name": "You may move 1 space towards the Primordial",
-          "timing": "Start of Battle",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "You may move 1 space towards the Primordial"
+            }
+          ]
         }
       ],
       [
         {
-          "name": "You may gain +1 RageIcon",
-          "timing": "Start of Battle",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "You may gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
         }
       ],
       [
         {
-          "name": "Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool",
-          "timing": "Start of Battle",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool"
+            }
+          ]
         }
       ]
     ],
     "stats": [
       "Courage",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BG0652"
+    ],
+    "name": "Forbidden Love",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You longed for the fobidden things, desired what was denied to you",
+    "traits": [
+      "Deed",
+      "Dream",
+      "Curse"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Daze"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Inspire 1"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Rouse 1"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Endurance"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BG0653"
+    ],
+    "name": "Scorned Champion",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "When you reached the top you realized the only way forward was down",
+    "traits": [
+      "Fate",
+      "Voyage",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Jump"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Reaction"
+            },
+            {
+              "type": "keyword",
+              "value": "Reflex"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Run"
+            }
+          ],
+          "costs": [
+            "ComplicatedAction"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Will",
       "Fury"
     ]
   },
@@ -237,38 +699,49 @@
     "abilities": [
       [
         {
-          "name": "Assist",
-          "x_value": "1",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Assist 1"
+            }
+          ],
           "costs": [
             "Fate",
             "Exhaust"
-          ],
-          "type": "keyword"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "7+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "Clutch",
-              "costs": [
-                "Fate",
-                "Discard"
-              ],
-              "type": "keyword"
+              "type": "keyword",
+              "value": "Clutch"
             }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
           ]
         }
       ],
       [
         {
-          "name": "Succor, then, immediately after current Attack ends, draw an Obol",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Succor"
+            },
+            {
+              "type": "plainText",
+              "value": ", then, immediately after current Attack ends, draw an Obol"
+            }
+          ],
           "costs": [
             "Discard"
-          ],
-          "type": "unique"
+          ]
         }
       ]
     ],
@@ -297,25 +770,29 @@
     "abilities": [
       [
         {
-          "name": "Discard 1 Bleeding token",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard 1 Bleeding token"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "3+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect",
-              "costs": [
-                "Exhaust"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect"
             }
+          ],
+          "costs": [
+            "Exhaust"
           ]
         }
       ],
@@ -323,14 +800,23 @@
         {
           "gate": "Danger",
           "value": "5+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you are about to Discard a positive Trauma card due to the Bleeding Condition card, return it to the top of the deck instead",
-              "costs": [
-                "Discard"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you are about to Discard a positive Trauma card due to the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Bleeding",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, return it to the top of the deck instead"
             }
+          ],
+          "costs": [
+            "Discard"
           ]
         }
       ]
@@ -360,35 +846,47 @@
     "abilities": [
       [
         {
-          "name": "Reestablish your Time Anchor",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Reestablish your Time Anchor"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         },
         {
-          "name": "You may use this ability as a free action or at the end of your turn",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may use this ability as a free action or at the end of your turn"
+            }
+          ]
         }
       ],
       [
         {
-          "name": "If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision"
+            }
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "5+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own",
-              "costs": [
-                "Discard"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own"
             }
+          ],
+          "costs": [
+            "Discard"
           ]
         }
       ]
@@ -418,32 +916,56 @@
     "abilities": [
       [
         {
-          "name": "Arrive from Time-clocked",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Arrive from Time-clocked"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "3+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "Another Titan may arrive from Time-clocked",
-              "costs": [
-                "Exhaust"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "Another Titan may arrive from Time-clocked"
             }
+          ],
+          "costs": [
+            "Exhaust"
           ]
         }
       ],
       [
         {
-          "name": "When you arrive from Time-clocked, gain +1 SpeedIcon and Auto-black 1 until the end of your turn",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you arrive from Time-clocked, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-black 1"
+            },
+            {
+              "type": "plainText",
+              "value": "until the end of your turn"
+            }
+          ]
         }
       ]
     ],
@@ -472,25 +994,29 @@
     "abilities": [
       [
         {
-          "name": "Place 1 Fire token in the Kratos Pool",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place 1 Fire token in the Kratos Pool"
+            }
+          ],
           "costs": [
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "4+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool",
-              "costs": [
-                "Exhaust"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool"
             }
+          ],
+          "costs": [
+            "Exhaust"
           ]
         }
       ],
@@ -498,15 +1024,15 @@
         {
           "gate": "Danger",
           "value": "6+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool",
-              "costs": [
-                "Fate",
-                "Exhaust"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool"
             }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
           ]
         }
       ]
@@ -536,26 +1062,42 @@
     "abilities": [
       [
         {
-          "name": "Gain the Priority Target token",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain the"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target token"
+            }
+          ],
           "costs": [
             "Fate",
             "Exhaust"
-          ],
-          "type": "unique"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "4+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "If you are the Priority Target, gain Rouse 1",
-              "costs": [
-                "Fate"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "If you are the Priority Target, gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Rouse 1"
             }
+          ],
+          "costs": [
+            "Fate"
           ]
         }
       ],
@@ -563,10 +1105,14 @@
         {
           "gate": "Danger",
           "value": "7+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "If you are the Priority Target, gain Hope 1",
-              "type": "unique"
+              "type": "plainText",
+              "value": "If you are the Priority Target, gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Hope 1"
             }
           ]
         }
@@ -597,37 +1143,52 @@
     "abilities": [
       [
         {
-          "name": "Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play)",
-          "timing": "Start of your turn",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of your turn"
+            },
+            {
+              "type": "plainText",
+              "value": "Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play)"
+            }
+          ]
         },
         {
-          "name": "If you are on a Time Anchor, you have +1 Precision",
-          "type": "unique"
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are on a Time Anchor, you have +1 Precision"
+            }
+          ]
         }
       ],
       [
         {
-          "name": "Rewind",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Rewind"
+            }
+          ],
           "costs": [
             "Fate",
             "Exhaust"
-          ],
-          "type": "keyword"
+          ]
         }
       ],
       [
         {
           "gate": "Danger",
           "value": "7+",
-          "abilities": [
+          "abilityText": [
             {
-              "name": "When you die, return from death to your Time Anchor",
-              "costs": [
-                "Discard"
-              ],
-              "type": "unique"
+              "type": "plainText",
+              "value": "When you die, return from death to your Time Anchor"
             }
+          ],
+          "costs": [
+            "Discard"
           ]
         }
       ]

@@ -24,7 +24,60 @@
         "test": "Endurance 9+",
         "fail": "Knockdown. Displace onto the closest Irem Tower Terrain tile. "
       },
-      "effects": "When on the VP, you gain +2 PowerIcon. Ignore normal Primordial Responses. Resolve these instead: Wound: Midas 1. WoO Imperial Impetus. Fail: Airburst 2. WoO Immediately perform the Hold On test"
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on the VP, you gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore normal Primordial Responses"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve these instead: Wound: Midas 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "WoO Imperial Impetus"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Airburst 2"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "WoO Immediately perform the Hold On test"
+            }
+          ]
+        }
+      ]
     },
     "levels": [
       {
@@ -492,7 +545,52 @@
         "test": "Endurance 9+. If Meduketos is outside the Board, test Courage 7+ instead",
         "fail": "Discard 1 Oxygen token, Knockdown, displace to an adjacent space. If the Meduketos is outside the Battle Board, you die instead, and you cannot ignore or mitigate this Falling Down effect"
       },
-      "effects": "When on a VP, you gain +1 PowerIcon. End of your turn: Burn. You may take your turn even if the Primordial is outside of the Battle Board. Scan Test: For Scan Test purposes, you may choose any Vent Terrain tile on the Battle Board. Hard to See: If you are on a VP when he Primordial is outside of the Battle Board, you can be Targeted only if there are no other viable Targets"
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "End of your turn: Burn"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may take your turn even if the Primordial is outside of the Battle Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Scan Test: For Scan Test purposes, you may choose any Vent Terrain tile on the Battle Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Hard to See: If you are on a VP when he Primordial is outside of the Battle Board, you can be Targeted only if there are no other viable Targets"
+            }
+          ]
+        }
+      ]
     },
     "levels": [
       {
@@ -1557,6 +1655,479 @@
           "Just Fold",
           "End of an Age",
           "Ruthless"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CV1816"
+    ],
+    "name": "Pitiless",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Race the Sun",
+          "Gods Don't Look Back"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Race the Sun",
+          "Gods Don't Look Back"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2535"
+    ],
+    "name": "Old Haunt",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DV2539"
+    ],
+    "name": "Eclipse Point",
+    "cardType": "VP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": "",
+    "errata": "",
+    "figure_size": "",
+    "diagramEffects": [],
+    "vp": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "1"
+      },
+      "holdOn": {
+        "test": "",
+        "fail": "After you perform an Attack, or at the end of the Primordial Round, place your Titan on any empty space on the Board"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "VP is always Shaded"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While on the VP, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may perform Combined Attacks"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": []
+  },
+  {
+    "cardIDs": [
+      "DU3248"
+    ],
+    "name": "Old Haunt",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "foundIn": "Ultra-secret",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "God Given Law",
+          "Magnifying Glass"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Blinding Shine"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Unworthy Will Die"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine",
+          "Beginning of the End",
+          "Unworthy Will Die"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Cannot Hide from the Sun"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine",
+          "Beginning of the End",
+          "Unworthy Will Die",
+          "Cannot Hide from the Sun"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "God Taken Law",
+          "Make the Sun Move and the Eath Stand Still"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine",
+          "Beginning of the End",
+          "Unworthy Will Die",
+          "Cannot Hide from the Sun",
+          "God Taken Law",
+          "Make the Sun Move and the Eath Stand Still"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "17",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Spontaneous Supernova"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back",
+          "End of Hope",
+          "Ruthless",
+          "God Given Law",
+          "Magnifying Glass",
+          "Blinding Shine",
+          "Beginning of the End",
+          "Unworthy Will Die",
+          "Cannot Hide from the Sun",
+          "God Taken Law",
+          "Make the Sun Move and the Eath Stand Still",
+          "Spontaneous Supernova"
         ]
       }
     ]

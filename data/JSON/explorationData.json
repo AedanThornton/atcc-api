@@ -11,18 +11,77 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "For each 3 StrangersIcon, lose -1 CrewIcon"
-      },
-      {
-        "effect": "Then lose -3 StrangersIcon"
-      },
-      {
-        "effect": "If no CrewIcon was lost, gain +1 StrangersIcon"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Gain +2 StrangersIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For each 3"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            },
+            {
+              "type": "plainText",
+              "value": ", lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then lose -3"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If no"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            },
+            {
+              "type": "plainText",
+              "value": "was lost, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            },
+            {
+              "type": "plainText",
+              "value": "7+ Gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        }
+      ],
+      []
     ],
     "number": 32,
     "stackType": "Continue Stack",
@@ -41,36 +100,98 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Resolve an effect based on your Diplomacy with Minoans"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain +1 HullIcon"
-      },
-      {
-        "diplomacy": "Friendly",
-        "effect": "Gain 4 Trireme resources"
-      },
-      {
-        "diplomacy": "Neutral",
-        "effect": "Each Argonaut gains +1 DangerIcon"
-      },
-      {
-        "diplomacy": "Unfriendly",
-        "effect": "Gain +1 ArgoFateIcon"
-      },
-      {
-        "diplomacy": "Denounced",
-        "effect": "Lose -1 Titan"
-      },
-      {
-        "diplomacy": "At War",
-        "effect": "Lose -1 HullIcon"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Random Argonaut gains 1 Despair token"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve an effect based on your Diplomacy with Minoans"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        },
+        {
+          "gate": "Friendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 4 Trireme resources"
+            }
+          ]
+        },
+        {
+          "gate": "Neutral",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        },
+        {
+          "gate": "Unfriendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        },
+        {
+          "gate": "Denounced",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1 Titan"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        },
+        {
+          "gate": "ArgoFate",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ]
     ],
     "number": 29,
     "stackType": "Continue Stack",
@@ -89,36 +210,86 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Resolve an effect based on your Diplomacy with Hornsworn"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain +1 Progress"
-      },
-      {
-        "diplomacy": "Friendly",
-        "effect": "Chosen Argonaut gains 1 Mnemos node"
-      },
-      {
-        "diplomacy": "Neutral",
-        "effect": "Chosen Argonauts gain +1 Danger"
-      },
-      {
-        "diplomacy": "Unfriendly",
-        "effect": "Gain +1 ArgoFateIcon"
-      },
-      {
-        "diplomacy": "Denounced",
-        "effect": "Gain +2 Strangers"
-      },
-      {
-        "diplomacy": "At War",
-        "effect": "Lose -1 Crew"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Random Argonaut gains 1 Despair token"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve an effect based on your Diplomacy with Hornsworn"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1 Progress"
+            }
+          ]
+        },
+        {
+          "gate": "Friendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains 1 Mnemos node"
+            }
+          ]
+        },
+        {
+          "gate": "Neutral",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonauts gain +1 Danger"
+            }
+          ]
+        },
+        {
+          "gate": "Unfriendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        },
+        {
+          "gate": "Denounced",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +2 Strangers"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1 Crew"
+            }
+          ]
+        },
+        {
+          "gate": "ArgoFate",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ]
     ],
     "number": 30,
     "stackType": "Continue Stack",
@@ -137,36 +308,110 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Resolve an effect based on your Diplomacy with Labyrinthians"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain +1 CrewIcon and +1 StrangersIcon"
-      },
-      {
-        "diplomacy": "Friendly",
-        "effect": "Gain 1 Calcified Knuckle Bone or Fleshy Mantle resource and +1 StrangersIcon"
-      },
-      {
-        "diplomacy": "Neutral",
-        "effect": "Each Argonauts gain +1 FateIcon"
-      },
-      {
-        "diplomacy": "Unfriendly",
-        "effect": "Gain +1 ArgoFateIcon"
-      },
-      {
-        "diplomacy": "Denounced",
-        "effect": "At the start of the next Timeline Battle, Escalate 1"
-      },
-      {
-        "diplomacy": "At War",
-        "effect": "Gain 1 DoomIcon"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Random Argonaut gains 1 Despair token"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve an effect based on your Diplomacy with Labyrinthians"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            },
+            {
+              "type": "plainText",
+              "value": "and +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        },
+        {
+          "gate": "Friendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Calcified Knuckle Bone or Fleshy Mantle resource and +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        },
+        {
+          "gate": "Neutral",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each Argonauts gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        },
+        {
+          "gate": "Unfriendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        },
+        {
+          "gate": "Denounced",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of the next Timeline Battle, Escalate 1"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        },
+        {
+          "gate": "ArgoFate",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ]
     ],
     "number": 31,
     "stackType": "Continue Stack",
@@ -185,14 +430,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Trireme"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Trireme resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Trireme"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Trireme resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 4,
     "stackType": "End Stack",
@@ -211,14 +469,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Trireme"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Trireme resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Trireme"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Trireme resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 8,
     "stackType": "End Stack",
@@ -237,14 +508,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 1,
     "stackType": "End Stack",
@@ -263,14 +551,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 7,
     "adversaryTriggers": "1",
@@ -290,14 +595,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 13,
     "stackType": "End Stack",
@@ -316,14 +638,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Armament resource"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Armament resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Armament resource"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Armament resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 23,
     "adversaryTriggers": "1",
@@ -344,14 +679,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Armament resource"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Armament resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Armament resource"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Armament resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 5,
     "adversaryTriggers": "1",
@@ -371,14 +719,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Armament resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Gain 1 Armament resource instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Armament resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Armament resource instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 2,
     "adversaryTriggers": "1",
@@ -398,14 +759,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Monument resource"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Monument resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Monument resource"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Monument resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 6,
     "stackType": "End Stack",
@@ -424,14 +798,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Monument resource"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Gain 2 Monument resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Monument resource"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Monument resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 19,
     "stackType": "End Stack",
@@ -450,14 +837,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Monument resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 FateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        }
+      ]
     ],
     "number": 3,
     "adversaryTriggers": "1",
@@ -477,14 +881,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Monument resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 FateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        }
+      ]
     ],
     "number": 9,
     "adversaryTriggers": "1",
@@ -504,14 +925,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 1 Titan"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Chosen Argonaut gains +1 RageIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Titan"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
+        }
+      ]
     ],
     "number": 28,
     "stackType": "Continue Stack",
@@ -530,14 +968,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Gain +1 ArgoFateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        }
+      ]
     ],
     "number": 10,
     "stackType": "End Stack",
@@ -556,13 +1011,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Armament resources"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain 4 Armament resources instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Armament resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 4 Armament resources instead"
+            }
+          ]
+        }
+      ]
     ],
     "number": 11,
     "adversaryTriggers": "1",
@@ -582,14 +1051,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Monument resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Gain +1 DoomIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ]
     ],
     "number": 12,
     "stackType": "End Stack",
@@ -608,13 +1094,27 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Trireme resources"
-      },
-      {
-        "diplomacy": "At War",
-        "effect": "Lose -1 Titan"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1 Titan"
+            }
+          ]
+        }
+      ]
     ],
     "number": 14,
     "adversaryTriggers": "1",
@@ -634,14 +1134,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 2 Monument resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Gain +1 StrangersIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 2 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        }
+      ]
     ],
     "number": 22,
     "stackType": "End Stack",
@@ -660,14 +1177,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 4 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 4 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 17,
     "adversaryTriggers": "1",
@@ -687,14 +1221,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 4 Trireme resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 4 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 27,
     "stackType": "End Stack",
@@ -713,14 +1264,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Armament resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Chosen Argonaut gains +1 DangerIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Armament resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     ],
     "number": 15,
     "stackType": "End Stack",
@@ -739,14 +1307,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 3 Monument resources"
-      },
-      {
-        "diplomacy": "Denounced",
-        "sign": "-",
-        "effect": "Gain +1 StrangersIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 3 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Denounced-",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        }
+      ]
     ],
     "number": 18,
     "adversaryTriggers": "1",
@@ -766,12 +1351,33 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 4 Monument resources"
-      },
-      {
-        "effect": "You may gain +3 ArgoFateIcon to gain +1 Priest"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 4 Monument resources"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may gain +3"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            },
+            {
+              "type": "plainText",
+              "value": "to gain +1 Priest"
+            }
+          ]
+        }
+      ],
+      []
     ],
     "number": 16,
     "adversaryTriggers": "1",
@@ -791,13 +1397,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 5 Trireme resources"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Lose -1 ArgoFateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 5 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        }
+      ]
     ],
     "number": 24,
     "adversaryTriggers": "1",
@@ -817,13 +1441,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 6 Trireme resources"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Lose -1 ArgoFateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 6 Trireme resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        }
+      ]
     ],
     "number": 20,
     "adversaryTriggers": "1",
@@ -843,13 +1485,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 5 Monument resources"
-      },
-      {
-        "diplomacy": "At War",
-        "effect": "Lose -1 HullIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 5 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        }
+      ]
     ],
     "number": 25,
     "stackType": "End Stack",
@@ -868,13 +1528,35 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 5 Armament resources"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain +1 ArgoKnowledgeIcon (once until the next Timeline Battle)"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 5 Armament resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "(once until the next Timeline Battle)"
+            }
+          ]
+        }
+      ]
     ],
     "number": 21,
     "adversaryTriggers": "1",
@@ -894,13 +1576,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain 5 Monument resources"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Gain +1 ProgressIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 5 Monument resources"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            }
+          ]
+        }
+      ]
     ],
     "number": 26,
     "stackType": "End Stack",
@@ -919,14 +1619,31 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain +1 Titan"
-      },
-      {
-        "diplomacy": "Friendly",
-        "sign": "+",
-        "effect": "Chosen Argonaut gains +1 RageIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1 Titan"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Friendly+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chosen Argonaut gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "",
@@ -944,15 +1661,36 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "At the end of this Exploration Step, resolve an Ambush Battle (Cycle I Storybook, p"
-      },
-      {
-        "effect": "112)"
-      },
-      {
-        "effect": "ArgoFateIcon 8+ At the start of this battle, Escalate 1"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of this Exploration Step, resolve an Ambush Battle (Cycle I Storybook, p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "112)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "ArgoFate",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of this battle, Escalate 1"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",
@@ -970,16 +1708,43 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain +1 ProgressIcon"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Roll a d10"
-      },
-      {
-        "effect": "On 8+ gain +1 ArgoKnowledgeIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On 8+ gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Roll a d10"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
@@ -997,9 +1762,23 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "ArgoFateIcon 8+ Resolve an additional AdversaryIcon"
-      }
+      [],
+      [
+        {
+          "gate": "ArgoFate",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve an additional"
+            },
+            {
+              "type": "icon",
+              "value": "Adversary"
+            }
+          ]
+        }
+      ]
     ],
     "adversaryTriggers": "2",
     "stackType": "Continue Stack",
@@ -1018,18 +1797,84 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain +1 StrangersIcon (If on a LabyrinthiansIcon Map Tile: gain +2 Strangers instead)"
-      },
-      {
-        "effect": "If you then have 3+ StrangersIcon, see 0014 in the Fated Conundrum hub"
-      },
-      {
-        "effect": "ArgoFateIcon 5+ Gain 1 additional StrangersIcon"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Random Argonaut gains 1 Despair token"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            },
+            {
+              "type": "plainText",
+              "value": "(If on a"
+            },
+            {
+              "type": "icon",
+              "value": "Labyrinthians"
+            },
+            {
+              "type": "plainText",
+              "value": "Map Tile: gain +2 Strangers instead)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you then have 3+"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 0014 in the"
+            },
+            {
+              "type": "italics",
+              "value": "Fated Conundrum"
+            },
+            {
+              "type": "plainText",
+              "value": "hub"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            },
+            {
+              "type": "plainText",
+              "value": "7+ Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "ArgoFate",
+          "value": "5+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 additional"
+            },
+            {
+              "type": "icon",
+              "value": "Strangers"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
@@ -1047,12 +1892,40 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain +1 DoomIcon"
-      },
-      {
-        "effect": "ArgoFateIcon 7+ Gain +2 DoomIcon instead"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "ArgoFate",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "instead"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
@@ -1070,13 +1943,35 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Gain +1 CrewIcon"
-      },
-      {
-        "diplomacy": "Allied",
-        "effect": "Lose -1 ArgoFateIcon"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",
@@ -1094,9 +1989,17 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "Trading"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Trading"
+            }
+          ]
+        }
+      ],
+      []
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove until the next Timeline Battle",
@@ -1114,12 +2017,28 @@
     "faq": "",
     "errata": "",
     "effects": [
-      {
-        "effect": "You're Ambushed by the Temenos itself! At the end of this Exploration Step, resolve a Temenos Battle (note Special Aftermath 0006)"
-      },
-      {
-        "effect": "ArgoFateIcon 8+ At the start of this battle, Escalate 1"
-      }
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You're Ambushed by the Temenos itself! At the end of this Exploration Step, resolve a Temenos Battle (note Special Aftermath 0006)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "ArgoFate",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of this battle, Escalate 1"
+            }
+          ]
+        }
+      ]
     ],
     "stackType": "Continue Stack",
     "removeEffect": "Remove from the deck permanently",

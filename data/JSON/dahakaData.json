@@ -17,15 +17,42 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Closest Titan in front"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in front"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -38,14 +65,45 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Gain 1 Ambrosia tokens"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Ambrosia tokens"
+              }
+            ]
+          }
+        ]
       },
       {
         "WoO": true,
-        "effect": " Fate 2+ Knockdown"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Fate 2+ Knockdown"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -64,10 +122,16 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain 2 Ambrosia tokens"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 2 Ambrosia tokens"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -75,18 +139,36 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Where your weapon connects, the robe parts, like a wave crashing on a seawall!",
-    "BPcritResponse": "Gain the PriorityTargetIcon Priority Target token. You may perform a Bonus Attack!",
+    "BPcritResponse": "Gain the @PriorityTarget Priority Target token. You may perform a Bonus Attack!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 4"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -108,15 +190,42 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Closest Titan not in front"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan not in front"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -129,11 +238,37 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "If the Attack hits, it deals 8 DangerIcon, gain 2 Ambrosia tokens, Pushback 1"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Attack hits, it deals 8"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": ", gain 2 Ambrosia tokens, Pushback 1"
+              }
+            ]
+          }
+        ]
       },
       {
         "WoO": true,
-        "effect": " Fate 3+ Knockdown"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Fate 3+ Knockdown"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -152,10 +287,16 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Gain 2 Ambrosia"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 2 Ambrosia"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -163,18 +304,36 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "As the needle rushes toward you like floodwater, you flow around it!",
-    "BPcritResponse": "Resolve a Fated Mnemos! Immediately resolve the Memory of the Boiling Sea Special Event",
+    "BPcritResponse": "Resolve a Fated Mnemos! Immediately resolve the _Memory of the Boiling Sea_ Special Event",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 4"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -196,15 +355,42 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Furthest Titan in front"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Furthest Titan in front"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Furthest Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Furthest Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Furthest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Furthest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -217,14 +403,57 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "One hit deals 5 DangerIcon and 1 Ambrosia token; two or more hits deal 9 DangerIcon and 2 Ambrosia tokens"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "One hit deals 5"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "and 1 Ambrosia token; two or more hits deal 9"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "and 2 Ambrosia tokens"
+              }
+            ]
+          }
+        ]
       },
       {
         "WoO": true,
-        "effect": " Fate 4+ Knockdown"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Fate 4+ Knockdown"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Knockback 10"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Knockback 10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -243,10 +472,16 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Perform next AI"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -254,18 +489,36 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Somewhere in the cloud of sand and dust is the creature you staggered!",
-    "BPcritResponse": "Gain the PriorityTargetIcon Priority Target token. You may perform a Bonus Attack!",
+    "BPcritResponse": "Gain the @PriorityTarget Priority Target token. You may perform a Bonus Attack!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 4"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -287,15 +540,46 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Curse Afflicition in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Curse Afflicition in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "PriorityTargetIcon Priority Target in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": false,
@@ -310,17 +594,62 @@
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Soulrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "3",
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "Courage/Will"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Courage/Will"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "One hit, gain the Covetous Condition card; two hits, gain the Greed-crazed Condition card; three hits, you die"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "One hit, gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Covetous",
+                "refID": ""
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card; two hits, gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Greed-crazed",
+                "refID": ""
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card; three hits, you die"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -339,10 +668,25 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain the Fear Condition card"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Fear",
+                    "refID": "AL0299"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -350,18 +694,45 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain the Wishkeen Condition card"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Wishkeen",
+                    "refID": ""
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Under it you saw your futile future -- and seized it!",
-    "BPcritResponse": "Disable the Soulrend Trait!",
+    "BPcritResponse": "Disable the {Soulrend} Trait!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -383,11 +754,29 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Titan in Blindpost"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Titan in Blindpost"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -401,14 +790,44 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10Icon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "+1"
+              },
+              {
+                "type": "icon",
+                "value": "d10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "4",
     "AIdifficulty": "8",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon and 1 Ambrosia token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "and 1 Ambrosia token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -427,13 +846,28 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Knockdown"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Knockdown"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "effect": "Knockdown 10"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Knockdown 10"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -441,21 +875,48 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Knockdown"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Knockdown"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "effect": "Knockback 7"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Knockback 7"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "As you strike, the Dahaka envelopes you. Things slither across your skin, neither solid, nor liquid!",
-    "BPcritResponse": "The Dahaka gains 1 negative To Hit ToHitIcon token",
+    "BPcritResponse": "The Dahaka gains 1 negative To Hit @ToHit token",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 4"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -477,15 +938,54 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Mnemos with the Voyage Trait"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Mnemos with the"
+              },
+              {
+                "type": "italics",
+                "value": "Voyage"
+              },
+              {
+                "type": "plainText",
+                "value": "Trait"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "PriorityTargetIcon Priority Target in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -498,17 +998,57 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 4 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 4"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Gain 1 Ambrosia"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Ambrosia"
+              }
+            ]
+          }
+        ]
       },
       {
         "WoO": true,
-        "effect": " Fate 4+ Knockdown"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Fate 4+ Knockdown"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Knockback 5"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Knockback 5"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -527,10 +1067,16 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -538,7 +1084,16 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Gain 2 Ambrosia tokens"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 2 Ambrosia tokens"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -549,7 +1104,16 @@
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 5"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 5"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -571,11 +1135,37 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Highest FateIcon in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Highest"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": false,
@@ -589,17 +1179,56 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Gain 1 Ambrosia token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Ambrosia token"
+              }
+            ]
+          }
+        ]
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Gain 1 negative Precision (PrecisionIcon) token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 negative Precision ("
+              },
+              {
+                "type": "icon",
+                "value": "Precision"
+              },
+              {
+                "type": "plainText",
+                "value": ") token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -618,13 +1247,37 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain the Covetous Condition card"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Covetous",
+                    "refID": ""
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "effect": "Place this card on top of the AI deck"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Place this card on top of the AI deck"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -632,18 +1285,36 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "It has waited for a paradox to cast off these bonds, and that hour has come at last!",
-    "BPcritResponse": "Disable the Shackles of Regret Trait. You may perform a Bonus Attack!",
+    "BPcritResponse": "Disable the {Shackles of Regret} Trait. You may perform a Bonus Attack!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
-        "effect": "Dissipate"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Dissipate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -665,7 +1336,16 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Zone 2"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Zone 2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -679,14 +1359,40 @@
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Soulrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "5",
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon and 1 Ambrosia token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "and 1 Ambrosia token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -705,10 +1411,16 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -716,18 +1428,36 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Reverse Unholy Alchemy"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "keyword",
+                    "value": "Reverse Unholy Alchemy"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Can one cripple a sandstorm? You just did!",
-    "BPcritResponse": "Drift becomes Move Unlimited",
+    "BPcritResponse": "{Drift} becomes Move Unlimited",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Dissipate"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Dissipate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -749,7 +1479,16 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Zone 2"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Zone 2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -762,10 +1501,36 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Each hit discard 1 GearIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit discard 1"
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Each hit deals 3 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -784,10 +1549,16 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -795,7 +1566,16 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Reverse Unholy Alchemy"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "keyword",
+                    "value": "Reverse Unholy Alchemy"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -806,7 +1586,16 @@
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
-        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -828,15 +1617,46 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Closest Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "PriorityTargetIcon Priority Target in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": false,
@@ -851,17 +1671,62 @@
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Soulrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "4",
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Courage/Will"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Courage/Will"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "One Hit, Death 2; two hits, Death 1; three or more hits, you die"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "One Hit,"
+              },
+              {
+                "type": "cardRef",
+                "value": "Death 2",
+                "refID": ""
+              },
+              {
+                "type": "plainText",
+                "value": "; two hits,"
+              },
+              {
+                "type": "cardRef",
+                "value": "Death 1",
+                "refID": ""
+              },
+              {
+                "type": "plainText",
+                "value": "; three or more hits, you die"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -880,10 +1745,25 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain the Dread Condition card"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Dread",
+                    "refID": "AL0299"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -891,7 +1771,25 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Gain the Wishagog Condition card"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Wishagog",
+                    "refID": ""
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -902,7 +1800,16 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -924,19 +1831,55 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Titan in Blindspot"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Titan in Blindspot"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Curse Affliction not in front, in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Curse Affliction not in front, in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan not in front, in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan not in front, in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in front, in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in front, in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -950,17 +1893,56 @@
           "gateType": "Fate",
           "gateValue": "6+"
         },
-        "effect": "+2 d10Icon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "+2"
+              },
+              {
+                "type": "icon",
+                "value": "d10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "4",
     "AIdifficulty": "8",
     "AIconsequences": [
       {
-        "effect": "If the Attack hits, gain 3 Ambrosia tokens"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Attack hits, gain 3 Ambrosia tokens"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Then, gain +3 DangerIcon for each Ambrosia token you have"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Then, gain +3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "for each Ambrosia token you have"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -979,10 +1961,16 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Gain 3 Ambrosia tokens"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 3 Ambrosia tokens"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -990,7 +1978,16 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Discard 1 Condition card"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Discard 1 Condition card"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1001,7 +1998,16 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Dissipate"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Dissipate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1023,11 +2029,37 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Highest FateIcon in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Highest"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -1041,17 +2073,60 @@
           "gateType": "Fate",
           "gateValue": "3+"
         },
-        "effect": "+1 d10Icon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "+1"
+              },
+              {
+                "type": "icon",
+                "value": "d10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "4",
     "AIdifficulty": "8",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 4 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 4"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "If you gain 10+ DangerIcon, you die without a Trauma Draw"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you gain 10+"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": ", you die without a Trauma Draw"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -1070,10 +2145,16 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Reverse Unholy Alchemy"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "keyword",
+                    "value": "Reverse Unholy Alchemy"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1081,18 +2162,36 @@
         "type": "Wound",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "You catch the Primordial mid-transformation and hack away the arm at the shoulder!",
-    "BPcritResponse": "Gain the Shadowcleaver GearIcon card (Secret deck 11, card 197)!",
+    "BPcritResponse": "Gain the [Shadowcleaver] @Gear card (Secret deck 11, card 197)!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 5"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 5"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1114,15 +2213,50 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Highest FateIcon in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Highest"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": false,
@@ -1135,17 +2269,56 @@
     "AIdifficulty": "8",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "6+"
         },
-        "effect": "4 DangerIcon instead"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "4"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Lose -1 Rage and 1 Mnemos or Fated Mnemos node per hit"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1 Rage and 1 Mnemos or Fated Mnemos node per hit"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -1168,10 +2341,16 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain 4 Ambrosia tokens"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 4 Ambrosia tokens"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1179,18 +2358,36 @@
         "type": "",
         "effects": [
           {
-            "effect": "Interrupt Instinct Lose 1 Mnemos"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Interrupt Instinct Lose 1 Mnemos ?node?"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Your blow shatters the alien face into fine dust... Dust that you then inhale...",
-    "BPcritResponse": "Gain teh Dahaka Mask GearIcon card (Secret deck 11, card 196)!",
+    "BPcritResponse": "Gain the [Dahaka Mask] @Gear card (Secret deck 11, card 196)!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 6"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 6"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1212,7 +2409,16 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Zone 3"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Zone 3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -1226,14 +2432,40 @@
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Soulrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "4",
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 4 DangerIcon and 1 Ambrosia token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 4"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "and 1 Ambrosia token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -1252,10 +2484,24 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Raise DangerIcon to 9, draw an Obol"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Raise"
+                  },
+                  {
+                    "type": "icon",
+                    "value": "Danger"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "to 9, draw an Obol"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1263,18 +2509,36 @@
         "type": "Interrupt Wound",
         "effects": [
           {
-            "effect": "Reverse Unholy Alchemy"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "keyword",
+                    "value": "Reverse Unholy Alchemy"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Fathomless depths stare into you, but you do not blink!",
-    "BPcritResponse": "Deal an additional Single Wound! After the Battle, resolve the Trench and the Cosmos Special Event",
+    "BPcritResponse": "Deal an additional Single Wound! After the Battle, resolve the _Trench and the Cosmos_ Special Event",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Dissipate"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Dissipate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1296,19 +2560,67 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Titan in Blindspot"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Titan in Blindspot"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Mnemos with the Voyage Trait"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Mnemos with the"
+              },
+              {
+                "type": "italics",
+                "value": "Voyage"
+              },
+              {
+                "type": "plainText",
+                "value": "Trait"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "PriorityTargetIcon Priority Target in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -1322,17 +2634,52 @@
           "gateType": "Fate",
           "gateValue": "5+"
         },
-        "effect": "Soulrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "5",
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Souldrend"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Soulrend"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "One hit, raise DangerIcon to 9; two or three hits, you die; four or more hits, you die, and the Argonaut dies"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "One hit, raise"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "to 9; two or three hits, you die; four or more hits, you die, and the Argonaut dies"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -1355,10 +2702,16 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Gain 3 Ambrosia tokens"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Gain 3 Ambrosia tokens"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1366,7 +2719,16 @@
         "type": "Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1377,7 +2739,16 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 6"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 6"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1396,12 +2767,7 @@
     "bp_name": "Stormcloud Heart",
     "usedFor": "Dahaka",
     "AIlevel": "III",
-    "AItargeting": [
-      {
-        "type": "Target:",
-        "target": ""
-      }
-    ],
+    "AItargeting": [],
     "AIpreActionWoO": false,
     "AImoveType": "",
     "AIattackType": [
@@ -1413,7 +2779,16 @@
     "AIdifficulty": "",
     "AIconsequences": [
       {
-        "effect": "Heal 1"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Heal 1"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, shuffle this card and the discard pile into the deck, then draw another AI card",
@@ -1436,10 +2811,16 @@
         "type": "Interrupt Fail",
         "effects": [
           {
-            "effect": "Perform next AI"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1447,13 +2828,22 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Perform next AI"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Your attack causes a cascade of implosions in the rumble heart, now more a maelstrom of inscrutable black. It stiffens suddenly, like a fresh corpse",
-    "BPcritResponse": "Gain the Dahaka Blade GearIcon card (Secret deck 11, card 195)!"
+    "BPcritResponse": "Gain the [Dahaka Blade] @Gear card (Secret deck 11, card 195)!"
   },
   {
     "cardIDs": [
@@ -1474,19 +2864,67 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Mnemos with the Voyage Trait"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Mnemos with the"
+              },
+              {
+                "type": "italics",
+                "value": "Voyage"
+              },
+              {
+                "type": "plainText",
+                "value": "Trait"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "PriorityTargetIcon Priority Target in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": false,
@@ -1500,20 +2938,64 @@
           "gateType": "Fate",
           "gateValue": "8+"
         },
-        "effect": "+1 d10Icon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "+1"
+              },
+              {
+                "type": "icon",
+                "value": "d10"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIdice": "2",
     "AIdifficulty": "11",
     "AIconsequences": [
       {
-        "effect": "Doomed"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Doomed"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Wisdow/Courage/Will"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Wisdom/Courage/Will"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "If the Attack hits, the Titan and the Argonaut die; gain +1 Doom"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Attack hits, the Titan and the Argonaut die; gain +1"
+              },
+              {
+                "type": "icon",
+                "value": "Doom"
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -1532,10 +3014,16 @@
         "type": "Interrupt Instinct",
         "effects": [
           {
-            "effect": "Perform next Ai"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next AI"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1543,7 +3031,16 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Perform next Ai"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Perform next Ai"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1554,7 +3051,16 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1576,7 +3082,16 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Zone 2"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Zone 2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -1590,17 +3105,49 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
-        "effect": "Gain 1 Midas token fro each hit and Ambrosia token you have"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Midas token for each hit and Ambrosia token you have"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Each hit deals 5 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 5"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "7+"
         },
-        "effect": "Float"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "cardRef",
+                "value": "Float",
+                "refID": ""
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
@@ -1623,10 +3170,24 @@
         "type": "Interrupt Instinct",
         "effects": [
           {
-            "effect": "Disable the Shackles of Regret Trait"
-          },
-          {
-            "effect": ""
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Disable the"
+                  },
+                  {
+                    "type": "keyword",
+                    "value": "Shackles of Regret"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Trait"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1634,18 +3195,44 @@
         "type": "Instinct",
         "effects": [
           {
-            "effect": "Disable the Shackles of Regret Trait"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Disable the"
+                  },
+                  {
+                    "type": "keyword",
+                    "value": "Shackles of Regret"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Trait"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ],
     "BPcritFlavor": "Each of your attacks leaves a bit of the Dahaka on the desert floor, and soon you are wading in ashen foam, as if you were emerging on some primordial shore",
-    "BPcritResponse": "Gain +1 ProgressIcon",
+    "BPcritResponse": "Gain +1 @Progress",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Dahaka moves to the center of the Board, then turns to face the most Titans"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1667,15 +3254,42 @@
     "AItargeting": [
       {
         "type": "Target:",
-        "target": "Closest Titan in front"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in front"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Curse Affliction in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Curse Affliction in sight"
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "Target:",
-        "target": "Closest Titan in sight"
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Closest Titan in sight"
+              }
+            ]
+          }
+        ]
       }
     ],
     "AIpreActionWoO": true,
@@ -1688,17 +3302,49 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
-        "effect": "Each hit deals 3 DangerIcon"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each hit deals 3"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effect": "Gain 1 Ambrosia token"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Ambrosia token"
+              }
+            ]
+          }
+        ]
       },
       {
         "gate": {
           "gateType": "Fate",
           "gateValue": "2+"
         },
-        "effect": "Knockdown"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "cardRef",
+                "value": "Knockdown",
+                "refID": ""
+              }
+            ]
+          }
+        ]
       }
     ],
     "interruptEffect": "",
@@ -1712,13 +3358,52 @@
         "type": "The",
         "effects": [
           {
-            "effect": "Dahaka moves to the center of the Board and turns to face the most Titans"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Dahaka moves to the center of the Board and turns to face the most Titans"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "effect": "Lose -1 CrewIcon and -1 HullIcon"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Lose -1"
+                  },
+                  {
+                    "type": "icon",
+                    "value": "Crew"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "and -1"
+                  },
+                  {
+                    "type": "icon",
+                    "value": "Hull"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "effect": "Random Titan dies"
+            "effect": [
+              {
+                "abilityText": [
+                  {
+                    "type": "plainText",
+                    "value": "Random Titan dies"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -1729,7 +3414,16 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
-        "effect": "Shadowstep 4"
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Shadowstep 4"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
