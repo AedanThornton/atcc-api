@@ -394,7 +394,7 @@ def primordialAttack_row(row):
 
     return card_json
 
-def productionFacilities_row(row):
+def productionFacility_row(row):
     card_json = {
         "techType": row["Tech Type"],
         "techSubType": row["Tech Sub-Type"],

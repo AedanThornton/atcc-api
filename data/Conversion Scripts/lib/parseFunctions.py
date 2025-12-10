@@ -195,7 +195,10 @@ def parse_recipes(recipes_string):
 
         if gear_match:
             number, name = gear_match.groups()
-            parsed_recipes[int(number) - 1]["name"] = name
+            card_info = name.split("#")
+            parsed_recipes[int(number) - 1]["name"] = card_info[0]
+            if len(card_info) > 1:
+                parsed_recipes[int(number) - 1]["refID"] = card_info[1]
         elif ingredients_match:
             number, ingredients = ingredients_match.groups()
 
@@ -210,8 +213,11 @@ def parse_recipes(recipes_string):
 
                     unique_match = re.compile(r'\[\[(.*)\]\]').match(name)
                     if unique_match:
-                        new_ingredient["name"] = unique_match.groups()[0]
+                        card_info = unique_match.groups()[0].split("#")
+                        new_ingredient["name"] = card_info[0]
                         new_ingredient["type"] = "gear"
+                        if len(card_info) > 1:
+                            new_ingredient["refID"] = card_info[1]
                     else:
                         new_ingredient["type"] = "resource"
 

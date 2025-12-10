@@ -8,6 +8,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -22,6 +24,7 @@
     "recipes": [
       {
         "name": "Sail Spolas",
+        "refID": "AJ0160",
         "ingredients": [
           {
             "count": 3,
@@ -37,6 +40,7 @@
       },
       {
         "name": "Shipwrecker Shield",
+        "refID": "AJ0163",
         "ingredients": [
           {
             "count": 2,
@@ -55,9 +59,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -68,6 +70,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -83,6 +87,7 @@
     "recipes": [
       {
         "name": "Siren Shield",
+        "refID": "AJ0167",
         "ingredients": [
           {
             "count": 5,
@@ -98,6 +103,7 @@
       },
       {
         "name": "Siren Panoply Armor",
+        "refID": "AJ0165",
         "ingredients": [
           {
             "count": 2,
@@ -118,6 +124,7 @@
       },
       {
         "name": "Ancient Siren Panoply Armor",
+        "refID": "AJ0271",
         "ingredients": [
           {
             "count": 5,
@@ -136,9 +143,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -149,6 +154,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -164,6 +171,7 @@
     "recipes": [
       {
         "name": "Smelted Breastplate",
+        "refID": "AJ0209",
         "ingredients": [
           {
             "count": 9,
@@ -189,6 +197,7 @@
       },
       {
         "name": "Smelted Aspis",
+        "refID": "AJ0211",
         "ingredients": [
           {
             "count": 17,
@@ -204,6 +213,7 @@
       },
       {
         "name": "Smelted Xiphos",
+        "refID": "AJ0213",
         "ingredients": [
           {
             "count": 4,
@@ -222,9 +232,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -235,6 +243,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -251,6 +261,7 @@
     "recipes": [
       {
         "name": "Iapetus Lifeguard",
+        "refID": "AJ0199",
         "ingredients": [
           {
             "count": 7,
@@ -266,6 +277,7 @@
       },
       {
         "name": "Ares Aulos",
+        "refID": "AJ0202",
         "ingredients": [
           {
             "count": 2,
@@ -281,6 +293,7 @@
       },
       {
         "name": "Makesheath",
+        "refID": "AJ0204",
         "ingredients": [
           {
             "count": 6,
@@ -296,6 +309,7 @@
       },
       {
         "name": "Spring Harness",
+        "refID": "AJ0206",
         "ingredients": [
           {
             "count": 4,
@@ -309,9 +323,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -322,6 +334,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -337,6 +351,7 @@
     "recipes": [
       {
         "name": "Morpheus Module",
+        "refID": "AJ0275",
         "ingredients": [
           {
             "count": 14,
@@ -357,6 +372,7 @@
       },
       {
         "name": "Sail Camo",
+        "refID": "AJ0231",
         "ingredients": [
           {
             "count": 21,
@@ -372,6 +388,7 @@
       },
       {
         "name": "Tackle Sheath",
+        "refID": "AJ0233",
         "ingredients": [
           {
             "count": 19,
@@ -385,9 +402,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -398,6 +413,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -412,6 +429,7 @@
     "recipes": [
       {
         "name": "Boatmace",
+        "refID": "AJ0171",
         "ingredients": [
           {
             "count": 3,
@@ -427,6 +445,7 @@
       },
       {
         "name": "Kratos Kopis",
+        "refID": "AJ0175",
         "ingredients": [
           {
             "count": 2,
@@ -447,6 +466,7 @@
       },
       {
         "name": "Sirenblade",
+        "refID": "AJ0173",
         "ingredients": [
           {
             "count": 4,
@@ -462,6 +482,7 @@
       },
       {
         "name": "Sirenteeth",
+        "refID": "AJ0169",
         "ingredients": [
           {
             "count": 5,
@@ -475,9 +496,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -488,6 +507,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -504,6 +525,7 @@
     "recipes": [
       {
         "name": "Teeth Khopesh",
+        "refID": "AJ0181",
         "ingredients": [
           {
             "count": 2,
@@ -524,6 +546,7 @@
       },
       {
         "name": "Great Tree Club",
+        "refID": "AJ0179",
         "ingredients": [
           {
             "count": 3,
@@ -539,6 +562,7 @@
       },
       {
         "name": "Whale Knives",
+        "refID": "AJ0177",
         "ingredients": [
           {
             "count": 3,
@@ -552,9 +576,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -565,6 +587,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -581,6 +605,7 @@
     "recipes": [
       {
         "name": "Naval Ram",
+        "refID": "AJ0183",
         "ingredients": [
           {
             "count": 11,
@@ -596,6 +621,7 @@
       },
       {
         "name": "Jawbone Axe",
+        "refID": "AJ0187",
         "ingredients": [
           {
             "count": 6,
@@ -611,6 +637,7 @@
       },
       {
         "name": "Heavy Kopis",
+        "refID": "AJ0185",
         "ingredients": [
           {
             "count": 3,
@@ -624,9 +651,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -637,6 +662,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -653,6 +680,7 @@
     "recipes": [
       {
         "name": "Ballista Gun",
+        "refID": "AJ0189",
         "ingredients": [
           {
             "count": 5,
@@ -668,6 +696,7 @@
       },
       {
         "name": "Petrified Javelin",
+        "refID": "AJ0191",
         "ingredients": [
           {
             "count": 3,
@@ -681,9 +710,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -694,6 +721,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -710,6 +739,7 @@
     "recipes": [
       {
         "name": "Longmast Spear",
+        "refID": "AJ0197",
         "ingredients": [
           {
             "count": 8,
@@ -730,6 +760,7 @@
       },
       {
         "name": "Whalebone Bident",
+        "refID": "AJ0195",
         "ingredients": [
           {
             "count": 12,
@@ -745,6 +776,7 @@
       },
       {
         "name": "Liontail Whip",
+        "refID": "AJ0193",
         "ingredients": [
           {
             "count": 6,
@@ -760,6 +792,7 @@
       },
       {
         "name": "MWE-4 \"Keelbow\"",
+        "refID": "AJ9983",
         "ingredients": [
           {
             "count": 6,
@@ -775,6 +808,7 @@
       },
       {
         "name": "MWE-6D \"Sharkscourge\"",
+        "refID": "AJ9989",
         "ingredients": [
           {
             "count": 12,
@@ -790,6 +824,7 @@
       },
       {
         "name": "MWE-33B \"Chainblade\"",
+        "refID": "AJ9987",
         "ingredients": [
           {
             "count": 8,
@@ -808,9 +843,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -821,6 +854,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -837,6 +872,7 @@
     "recipes": [
       {
         "name": "Impetus Breakers",
+        "refID": "AJ0215",
         "ingredients": [
           {
             "count": 9,
@@ -852,6 +888,7 @@
       },
       {
         "name": "Primordial Lure",
+        "refID": "AJ0219",
         "ingredients": [
           {
             "count": 7,
@@ -872,6 +909,7 @@
       },
       {
         "name": "Analyticos Module",
+        "refID": "AJ0217",
         "ingredients": [
           {
             "count": 5,
@@ -887,6 +925,7 @@
       },
       {
         "name": "Safety Rope",
+        "refID": "AJ0241",
         "ingredients": [
           {
             "count": 10,
@@ -900,9 +939,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -913,6 +950,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -930,6 +969,7 @@
     "recipes": [
       {
         "name": "Earthshaker",
+        "refID": "AK0295",
         "ingredients": [
           {
             "count": 1,
@@ -945,6 +985,7 @@
       },
       {
         "name": "Knuckle Shield",
+        "refID": "AJ0222",
         "ingredients": [
           {
             "count": 8,
@@ -965,6 +1006,7 @@
       },
       {
         "name": "Hekaton Panoply Armor",
+        "refID": "AJ0220",
         "ingredients": [
           {
             "count": 7,
@@ -983,9 +1025,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -996,6 +1036,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1013,6 +1055,7 @@
     "recipes": [
       {
         "name": "Pillarmace",
+        "refID": "AJ0224",
         "ingredients": [
           {
             "count": 11,
@@ -1033,6 +1076,7 @@
       },
       {
         "name": "Hekatomb",
+        "refID": "AJ0226",
         "ingredients": [
           {
             "count": 28,
@@ -1048,6 +1092,7 @@
       },
       {
         "name": "Rebound Hammer",
+        "refID": "AJ0228",
         "ingredients": [
           {
             "count": 26,
@@ -1068,6 +1113,7 @@
       },
       {
         "name": "Gigan",
+        "refID": "AJ0230",
         "ingredients": [
           {
             "count": 10,
@@ -1092,13 +1138,12 @@
           {
             "count": 1,
             "name": "Shieldblade",
-            "type": "gear"
+            "type": "gear",
+            "refID": "AJ0257"
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1109,6 +1154,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1125,6 +1172,7 @@
     "recipes": [
       {
         "name": "Grappling Hook",
+        "refID": "AJ0239",
         "ingredients": [
           {
             "count": 7,
@@ -1140,6 +1188,7 @@
       },
       {
         "name": "Aeolipile Engine",
+        "refID": "AJ0235",
         "ingredients": [
           {
             "count": 5,
@@ -1155,6 +1204,7 @@
       },
       {
         "name": "Stabilizers",
+        "refID": "AJ0237",
         "ingredients": [
           {
             "count": 6,
@@ -1170,6 +1220,7 @@
       },
       {
         "name": "MWE-109A \"Hermes Winch\"",
+        "refID": "AJ9984",
         "ingredients": [
           {
             "count": 7,
@@ -1183,9 +1234,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1196,6 +1245,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1212,6 +1263,7 @@
     "recipes": [
       {
         "name": "Mazerunner",
+        "refID": "AK0296",
         "ingredients": [
           {
             "count": 1,
@@ -1227,6 +1279,7 @@
       },
       {
         "name": "Instinct Linothorax",
+        "refID": "AJ0243",
         "ingredients": [
           {
             "count": 10,
@@ -1242,6 +1295,7 @@
       },
       {
         "name": "Bull Aspis",
+        "refID": "AJ0245",
         "ingredients": [
           {
             "count": 5,
@@ -1255,9 +1309,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1268,6 +1320,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1285,6 +1339,7 @@
     "recipes": [
       {
         "name": "Maze Rake",
+        "refID": "AJ0247",
         "ingredients": [
           {
             "count": 20,
@@ -1310,6 +1365,7 @@
       },
       {
         "name": "Whaler Javelin",
+        "refID": "AJ0249",
         "ingredients": [
           {
             "count": 15,
@@ -1335,6 +1391,7 @@
       },
       {
         "name": "Hull Bow",
+        "refID": "AJ0251",
         "ingredients": [
           {
             "count": 38,
@@ -1350,6 +1407,7 @@
       },
       {
         "name": "Ariadne's Hello",
+        "refID": "AJ0253",
         "ingredients": [
           {
             "count": 19,
@@ -1369,13 +1427,12 @@
           {
             "count": 1,
             "name": "Glimmer Shroud",
-            "type": "resource"
+            "type": "gear",
+            "refID": "AJ0260"
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1386,6 +1443,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1400,6 +1459,7 @@
     "recipes": [
       {
         "name": "Logicbreaker",
+        "refID": "AK0297",
         "ingredients": [
           {
             "count": 1,
@@ -1415,6 +1475,7 @@
       },
       {
         "name": "Mazemmer",
+        "refID": "AJ0255",
         "ingredients": [
           {
             "count": 13,
@@ -1439,12 +1500,14 @@
           {
             "count": 1,
             "name": "Mazemace",
-            "type": "gear"
+            "type": "gear",
+            "refID": "AJ0259"
           }
         ]
       },
       {
         "name": "Gigas",
+        "refID": "AJ0254",
         "ingredients": [
           {
             "count": 28,
@@ -1469,12 +1532,14 @@
           {
             "count": 1,
             "name": "Gigan",
-            "type": "gear"
+            "type": "gear",
+            "refID": "AJ0230"
           }
         ]
       },
       {
         "name": "Ariadne's Goodbye",
+        "refID": "AJ0256",
         "ingredients": [
           {
             "count": 25,
@@ -1504,13 +1569,12 @@
           {
             "count": 1,
             "name": "Ariadne's Hello",
-            "type": "gear"
+            "type": "gear",
+            "refID": "AJ0253"
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1521,6 +1585,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1538,6 +1604,7 @@
     "recipes": [
       {
         "name": "Pursuer Imperative",
+        "refID": "AJ0261",
         "ingredients": [
           {
             "count": 9,
@@ -1548,6 +1615,7 @@
       },
       {
         "name": "Mothlame",
+        "refID": "AJ0262",
         "ingredients": [
           {
             "count": 2,
@@ -1563,6 +1631,7 @@
       },
       {
         "name": "Trireme Breastplate",
+        "refID": "AJ0266",
         "ingredients": [
           {
             "count": 6,
@@ -1578,6 +1647,7 @@
       },
       {
         "name": "Hermes Tatters",
+        "refID": "AJ0264",
         "ingredients": [
           {
             "count": 3,
@@ -1593,6 +1663,7 @@
       },
       {
         "name": "Ambrosia Trocar",
+        "refID": "AJ0277",
         "ingredients": [
           {
             "count": 2,
@@ -1606,9 +1677,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1619,6 +1688,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1633,6 +1704,7 @@
     "recipes": [
       {
         "name": "Labyrinthization",
+        "refID": "BJ0831",
         "ingredients": [
           {
             "count": 1,
@@ -1648,6 +1720,7 @@
       },
       {
         "name": "Labyrinth Armor",
+        "refID": "BJ0827",
         "ingredients": [
           {
             "count": 2,
@@ -1663,6 +1736,7 @@
       },
       {
         "name": "Temenos Scale Shield/Temenos Scale Umbrella",
+        "refID": "BJ0829",
         "ingredients": [
           {
             "count": 3,
@@ -1676,9 +1750,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1689,6 +1761,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1703,6 +1777,7 @@
     "recipes": [
       {
         "name": "Temenos Xiphos",
+        "refID": "BJ0839",
         "ingredients": [
           {
             "count": 2,
@@ -1723,6 +1798,7 @@
       },
       {
         "name": "Puzzle Axe",
+        "refID": "BJ0837",
         "ingredients": [
           {
             "count": 3,
@@ -1738,6 +1814,7 @@
       },
       {
         "name": "Labyrinth Mauler",
+        "refID": "BJ0835",
         "ingredients": [
           {
             "count": 3,
@@ -1751,9 +1828,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1764,6 +1839,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1778,6 +1855,7 @@
     "recipes": [
       {
         "name": "Stepping Stone",
+        "refID": "BJ0844",
         "ingredients": [
           {
             "count": 3,
@@ -1793,6 +1871,7 @@
       },
       {
         "name": "Isokratos Limiter",
+        "refID": "BJ0845",
         "ingredients": [
           {
             "count": 6,
@@ -1808,6 +1887,7 @@
       },
       {
         "name": "Amphoras Belt",
+        "refID": "BJ0841",
         "ingredients": [
           {
             "count": 3,
@@ -1821,9 +1901,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1834,6 +1912,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1850,6 +1930,7 @@
     "recipes": [
       {
         "name": "Mazed Cestus",
+        "refID": "BJ0862",
         "ingredients": [
           {
             "count": 3,
@@ -1870,6 +1951,7 @@
       },
       {
         "name": "Scale Chakram",
+        "refID": "BJ0864",
         "ingredients": [
           {
             "count": 5,
@@ -1885,6 +1967,7 @@
       },
       {
         "name": "Psuedomidion",
+        "refID": "BJ0860",
         "ingredients": [
           {
             "count": 4,
@@ -1898,9 +1981,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1911,6 +1992,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -1925,6 +2008,7 @@
     "recipes": [
       {
         "name": "Mazechute",
+        "refID": "BJ0866",
         "ingredients": [
           {
             "count": 2,
@@ -1940,6 +2024,7 @@
       },
       {
         "name": "Stonewall",
+        "refID": "BJ0869",
         "ingredients": [
           {
             "count": 3,
@@ -1955,6 +2040,7 @@
       },
       {
         "name": "Mazegma",
+        "refID": "BJ0868",
         "ingredients": [
           {
             "count": 2,
@@ -1968,14 +2054,12 @@
           },
           {
             "count": 1,
-            "name": "Chimeric Tar OR 1x Unsolved Engima",
+            "name": "Chimeric Tar OR 1x [[Unsolved Engima#AJ0274]]",
             "type": "resource"
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -1986,6 +2070,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2002,6 +2088,7 @@
     "recipes": [
       {
         "name": "Relief Cestus",
+        "refID": "BJ0881",
         "ingredients": [
           {
             "count": 8,
@@ -2022,6 +2109,7 @@
       },
       {
         "name": "Stone Relief Armor",
+        "refID": "BJ0877",
         "ingredients": [
           {
             "count": 12,
@@ -2037,6 +2125,7 @@
       },
       {
         "name": "Great Breaker",
+        "refID": "BJ0879",
         "ingredients": [
           {
             "count": 7,
@@ -2050,9 +2139,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2063,6 +2150,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2078,6 +2167,7 @@
     "recipes": [
       {
         "name": "Chain Whip",
+        "refID": "BJ0873",
         "ingredients": [
           {
             "count": 10,
@@ -2093,6 +2183,7 @@
       },
       {
         "name": "Eviscerators",
+        "refID": "BJ0871",
         "ingredients": [
           {
             "count": 7,
@@ -2108,6 +2199,7 @@
       },
       {
         "name": "Fireboat",
+        "refID": "BJ0875",
         "ingredients": [
           {
             "count": 10,
@@ -2128,6 +2220,7 @@
       },
       {
         "name": "Xiphos Knives",
+        "refID": "BJ9975",
         "ingredients": [
           {
             "count": 7,
@@ -2143,6 +2236,7 @@
       },
       {
         "name": "Relief Hammer",
+        "refID": "BJ9976",
         "ingredients": [
           {
             "count": 10,
@@ -2158,6 +2252,7 @@
       },
       {
         "name": "Dory-Like Spear",
+        "refID": "BJ9977",
         "ingredients": [
           {
             "count": 10,
@@ -2176,9 +2271,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2189,6 +2282,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2204,6 +2299,7 @@
     "recipes": [
       {
         "name": "Metasword",
+        "refID": "BJ0883",
         "ingredients": [
           {
             "count": 10,
@@ -2224,6 +2320,7 @@
       },
       {
         "name": "Vaulting Rope",
+        "refID": "BJ0885",
         "ingredients": [
           {
             "count": 5,
@@ -2239,6 +2336,7 @@
       },
       {
         "name": "Watchtower Pauldron",
+        "refID": "BJ0887",
         "ingredients": [
           {
             "count": 4,
@@ -2259,6 +2357,7 @@
       },
       {
         "name": "Siegetower Pauldron",
+        "refID": "BJ0889",
         "ingredients": [
           {
             "count": 4,
@@ -2277,9 +2376,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2290,6 +2387,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2304,6 +2403,7 @@
     "recipes": [
       {
         "name": "Spartan Kopis",
+        "refID": "BJ0902",
         "ingredients": [
           {
             "count": 7,
@@ -2324,6 +2424,7 @@
       },
       {
         "name": "Heavy Spear",
+        "refID": "BJ0901",
         "ingredients": [
           {
             "count": 7,
@@ -2337,9 +2438,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2350,6 +2449,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2364,6 +2465,7 @@
     "recipes": [
       {
         "name": "Spartan War Axe",
+        "refID": "BJ0900",
         "ingredients": [
           {
             "count": 10,
@@ -2384,6 +2486,7 @@
       },
       {
         "name": "Gastraphetes",
+        "refID": "BJ0903",
         "ingredients": [
           {
             "count": 11,
@@ -2397,9 +2500,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2410,6 +2511,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2425,6 +2528,7 @@
     "recipes": [
       {
         "name": "Iapetus Lifesaver",
+        "refID": "BJ0891",
         "ingredients": [
           {
             "count": 6,
@@ -2440,6 +2544,7 @@
       },
       {
         "name": "Control Module",
+        "refID": "BJ0898",
         "ingredients": [
           {
             "count": 5,
@@ -2460,6 +2565,7 @@
       },
       {
         "name": "Boost Kothornos",
+        "refID": "BJ0894",
         "ingredients": [
           {
             "count": 5,
@@ -2475,6 +2581,7 @@
       },
       {
         "name": "Achillean Hectors",
+        "refID": "BJ0896",
         "ingredients": [
           {
             "count": 6,
@@ -2488,9 +2595,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2501,6 +2606,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2515,6 +2622,7 @@
     "recipes": [
       {
         "name": "Carver Kopis",
+        "refID": "BJ0904",
         "ingredients": [
           {
             "count": 9,
@@ -2540,6 +2648,7 @@
       },
       {
         "name": "Cyclopean Totem",
+        "refID": "BJ0909",
         "ingredients": [
           {
             "count": 5,
@@ -2560,6 +2669,7 @@
       },
       {
         "name": "Cyclopean Knives",
+        "refID": "BJ0907",
         "ingredients": [
           {
             "count": 11,
@@ -2575,6 +2685,7 @@
       },
       {
         "name": "Cyclopean Linothorax",
+        "refID": "BJ0906",
         "ingredients": [
           {
             "count": 9,
@@ -2593,9 +2704,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2606,6 +2715,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2620,6 +2731,7 @@
     "recipes": [
       {
         "name": "Cyclopean Visor",
+        "refID": "BJ0908",
         "ingredients": [
           {
             "count": 20,
@@ -2635,6 +2747,7 @@
       },
       {
         "name": "Cyclopean Khopesh",
+        "refID": "0905",
         "ingredients": [
           {
             "count": 14,
@@ -2660,6 +2773,7 @@
       },
       {
         "name": "Cyclopean Forge Hammer",
+        "refID": "0910",
         "ingredients": [
           {
             "count": 20,
@@ -2678,9 +2792,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2691,6 +2803,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2707,6 +2821,7 @@
     "recipes": [
       {
         "name": "Lethe Guard",
+        "refID": "BJ0849",
         "ingredients": [
           {
             "count": 12,
@@ -2722,6 +2837,7 @@
       },
       {
         "name": "Asklepios Node",
+        "refID": "BJ0847",
         "ingredients": [
           {
             "count": 4,
@@ -2737,6 +2853,7 @@
       },
       {
         "name": "Covenant",
+        "refID": "BJ0851",
         "ingredients": [
           {
             "count": 6,
@@ -2755,9 +2872,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2768,6 +2883,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2784,6 +2901,7 @@
     "recipes": [
       {
         "name": "Warkeeper",
+        "refID": "BK0654",
         "ingredients": [
           {
             "count": 1,
@@ -2799,6 +2917,7 @@
       },
       {
         "name": "Impact Armor",
+        "refID": "BJ0911",
         "ingredients": [
           {
             "count": 7,
@@ -2824,6 +2943,7 @@
       },
       {
         "name": "Collision Shield",
+        "refID": "BJ0913",
         "ingredients": [
           {
             "count": 3,
@@ -2842,9 +2962,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -2855,6 +2973,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2870,6 +2990,7 @@
     "recipes": [
       {
         "name": "Needle Sword",
+        "refID": "BJ0921",
         "ingredients": [
           {
             "count": 16,
@@ -2890,6 +3011,7 @@
       },
       {
         "name": "Katarus",
+        "refID": "BJ0925",
         "ingredients": [
           {
             "count": 10,
@@ -2910,6 +3032,7 @@
       },
       {
         "name": "Vaulting Spear",
+        "refID": "BJ0923",
         "ingredients": [
           {
             "count": 10,
@@ -2930,6 +3053,7 @@
       },
       {
         "name": "Maulmace",
+        "refID": "BJ0927",
         "ingredients": [
           {
             "count": 15,
@@ -2948,15 +3072,12 @@
           },
           {
             "count": 1,
-            "name": "Maulfist ([[Left Maulfist",
+            "name": "Maulfist ([[Left#BJ0941]] or [[Right#BJ0940]])",
             "type": "resource"
           }
         ]
-      },
-      {}
-    ],
-    "faq": "",
-    "errata": ""
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -2967,6 +3088,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -2983,6 +3106,7 @@
     "recipes": [
       {
         "name": "Medusa Extract",
+        "refID": "BJ0854",
         "ingredients": [
           {
             "count": 5,
@@ -3003,6 +3127,7 @@
       },
       {
         "name": "Temple Camo",
+        "refID": "BJ0852",
         "ingredients": [
           {
             "count": 7,
@@ -3018,6 +3143,7 @@
       },
       {
         "name": "Ambrostilts",
+        "refID": "BJ0856",
         "ingredients": [
           {
             "count": 7,
@@ -3031,9 +3157,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3044,6 +3168,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3060,6 +3186,7 @@
     "recipes": [
       {
         "name": "Firestarter",
+        "refID": "BK0655",
         "ingredients": [
           {
             "count": 1,
@@ -3075,6 +3202,7 @@
       },
       {
         "name": "Ambramat Armor",
+        "refID": "BJ0917",
         "ingredients": [
           {
             "count": 12,
@@ -3095,6 +3223,7 @@
       },
       {
         "name": "Ladder Buckler",
+        "refID": "BJ0915",
         "ingredients": [
           {
             "count": 9,
@@ -3115,6 +3244,7 @@
       },
       {
         "name": "Muck Armor",
+        "refID": "BJ0919",
         "ingredients": [
           {
             "count": 10,
@@ -3135,6 +3265,7 @@
       },
       {
         "name": "Hoplite Aspis",
+        "refID": "BJ9974",
         "ingredients": [
           {
             "count": 9,
@@ -3153,9 +3284,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3166,6 +3295,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3182,6 +3313,7 @@
     "recipes": [
       {
         "name": "Chimeric Xiphos",
+        "refID": "BJ0934",
         "ingredients": [
           {
             "count": 17,
@@ -3197,6 +3329,7 @@
       },
       {
         "name": "Boom Spear",
+        "refID": "BJ0928",
         "ingredients": [
           {
             "count": 14,
@@ -3212,6 +3345,7 @@
       },
       {
         "name": "Grand Ramaxe",
+        "refID": "BJ0932",
         "ingredients": [
           {
             "count": 7,
@@ -3232,6 +3366,7 @@
       },
       {
         "name": "Muck Bludgeon",
+        "refID": "BJ0936",
         "ingredients": [
           {
             "count": 10,
@@ -3256,12 +3391,14 @@
           {
             "count": 1,
             "name": "Muck Virus",
-            "type": "resource"
+            "type": "gear",
+            "refID": "BJ0943"
           }
         ]
       },
       {
         "name": "Dragon Bellow",
+        "refID": "BJ0930",
         "ingredients": [
           {
             "count": 43,
@@ -3275,9 +3412,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3288,6 +3423,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3303,6 +3440,7 @@
     "recipes": [
       {
         "name": "Abysswatcher",
+        "refID": "BK0656",
         "ingredients": [
           {
             "count": 1,
@@ -3316,11 +3454,73 @@
           }
         ]
       },
-      {},
+      {
+        "name": "Muckbane",
+        "refID": "BJ0937",
+        "ingredients": [
+          {
+            "count": 15,
+            "name": "War Trireme",
+            "type": "resource"
+          },
+          {
+            "count": 31,
+            "name": "Violent Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Chimeric Tar",
+            "type": "resource"
+          },
+          {
+            "count": 1,
+            "name": "Chimera Metastasios Core",
+            "type": "resource"
+          },
+          {
+            "count": 1,
+            "name": "Muck Bludgeon",
+            "type": "gear",
+            "refID": "BJ0936"
+          }
+        ]
+      },
+      {
+        "name": "Cyclostus",
+        "refID": "BJ0938",
+        "ingredients": [
+          {
+            "count": 28,
+            "name": "Relief",
+            "type": "resource"
+          },
+          {
+            "count": 10,
+            "name": "Cyclopean Metal",
+            "type": "resource"
+          },
+          {
+            "count": 2,
+            "name": "Cyclonus Core",
+            "type": "resource"
+          },
+          {
+            "count": 1,
+            "name": "Left Maulfist",
+            "type": "gear",
+            "refID": "BJ0941"
+          },
+          {
+            "count": 1,
+            "name": "Right Maulfist",
+            "type": "gear",
+            "refID": "BJ0940"
+          }
+        ]
+      },
       {}
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3331,6 +3531,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3346,6 +3548,7 @@
     "recipes": [
       {
         "name": "Pursuer Ultimatum",
+        "refID": "BJ0965",
         "ingredients": [
           {
             "count": 5,
@@ -3360,12 +3563,14 @@
           {
             "count": 1,
             "name": "Pursuer Imperative",
-            "type": "resource"
+            "type": "gear",
+            "refID": "AJ0261"
           }
         ]
       },
       {
         "name": "Hermes Cape",
+        "refID": "BJ0966",
         "ingredients": [
           {
             "count": 7,
@@ -3380,12 +3585,14 @@
           {
             "count": 1,
             "name": "Hermes Tatters",
-            "type": "resource"
+            "type": "gear",
+            "refID": "AJ0264"
           }
         ]
       },
       {
         "name": "Conqueror Nail",
+        "refID": "BJ0968",
         "ingredients": [
           {
             "count": 9,
@@ -3400,12 +3607,14 @@
           {
             "count": 1,
             "name": "Nail Spear",
-            "type": "resource"
+            "type": "gear",
+            "refID": "AJ0273"
           }
         ]
       },
       {
         "name": "Repurposed Cryptex",
+        "refID": "BJ0967",
         "ingredients": [
           {
             "count": 2,
@@ -3421,6 +3630,7 @@
       },
       {
         "name": "Gamechanger",
+        "refID": "AK0298",
         "ingredients": [
           {
             "count": 1,
@@ -3434,9 +3644,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3447,6 +3655,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3461,6 +3671,7 @@
     "recipes": [
       {
         "name": "Roll Breakers",
+        "refID": "BJ0948",
         "ingredients": [
           {
             "count": 5,
@@ -3476,6 +3687,7 @@
       },
       {
         "name": "Squat Armor",
+        "refID": "BJ0952",
         "ingredients": [
           {
             "count": 7,
@@ -3491,6 +3703,7 @@
       },
       {
         "name": "Pithos Armor",
+        "refID": "BJ0950",
         "ingredients": [
           {
             "count": 9,
@@ -3506,6 +3719,7 @@
       },
       {
         "name": "Faceshield",
+        "refID": "BJ0946",
         "ingredients": [
           {
             "count": 5,
@@ -3519,9 +3733,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3532,6 +3744,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3605,9 +3819,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3618,6 +3830,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3676,9 +3890,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3689,6 +3901,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3747,9 +3961,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3760,6 +3972,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3833,9 +4047,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3846,6 +4058,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -3939,9 +4153,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -3952,6 +4164,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4046,9 +4260,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4059,6 +4271,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4147,9 +4361,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4160,6 +4372,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4217,9 +4431,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4230,6 +4442,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4297,9 +4511,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4310,6 +4522,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4328,7 +4542,7 @@
     "facilityName": "Argofoundry",
     "recipes": [
       {
-        "name": "Scaling Gear Prototype",
+        "name": "Scaling gear Prototype",
         "ingredients": [
           {
             "count": 4,
@@ -4412,9 +4626,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4425,13 +4637,15 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
     "requirements": [
       "Argoline Transforming Weapons",
       "Pursuit's End Battle Victory",
-      "Argo Knowledge 51+"
+      "ArgoKnowledge 51+"
     ],
     "leadsTo": [
       "\u2014"
@@ -4489,9 +4703,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4502,6 +4714,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4544,9 +4758,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4557,6 +4769,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4639,9 +4853,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4652,6 +4864,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4729,9 +4943,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4742,6 +4954,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4794,9 +5008,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4807,6 +5019,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4869,9 +5083,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4882,6 +5094,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -4932,9 +5146,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -4945,6 +5157,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5042,16 +5256,14 @@
           },
           {
             "count": 1,
-            "name": "[[Paradox (Gear)",
+            "name": "[[Paradox (gear)",
             "type": "resource"
           }
         ],
         "name": "Paradont"
       },
       {}
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5062,6 +5274,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5123,9 +5337,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5136,6 +5348,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5197,9 +5411,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5210,6 +5422,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5293,9 +5507,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5306,6 +5518,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5381,9 +5595,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5394,6 +5606,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5453,9 +5667,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5466,6 +5678,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5650,9 +5864,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5663,12 +5875,14 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
     "requirements": [
       "Argoline Transforming Weapons",
-      "Argo Knowledge 48+"
+      "ArgoKnowledge 48+"
     ],
     "leadsTo": [
       "\u2014"
@@ -5736,9 +5950,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5749,6 +5961,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5862,9 +6076,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5875,6 +6087,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -5952,9 +6166,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -5965,6 +6177,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6037,9 +6251,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6050,6 +6262,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6127,9 +6341,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6140,6 +6352,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6207,9 +6421,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6220,6 +6432,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6267,9 +6481,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6280,6 +6492,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6342,9 +6556,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6355,6 +6567,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6412,9 +6626,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6425,6 +6637,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6482,9 +6696,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6495,6 +6707,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6572,9 +6786,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6585,6 +6797,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6628,7 +6842,7 @@
         ]
       },
       {
-        "name": "Hermes Gear Mk. I",
+        "name": "Hermes gear Mk. I",
         "ingredients": [
           {
             "count": 6,
@@ -6667,9 +6881,7 @@
         ],
         "name": "Djinn Cryptex"
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6680,6 +6892,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6757,9 +6971,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6770,6 +6982,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6847,9 +7061,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6860,6 +7072,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6932,9 +7146,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -6945,6 +7157,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -6978,7 +7192,7 @@
         ]
       },
       {
-        "name": "Hermes Gear Prototype",
+        "name": "Hermes gear Prototype",
         "ingredients": [
           {
             "count": 4,
@@ -7012,9 +7226,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7025,6 +7237,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7122,9 +7336,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7135,6 +7347,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7232,9 +7446,7 @@
         ],
         "name": "Trihorn Lance"
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7245,6 +7457,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7302,9 +7516,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7315,6 +7527,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7402,9 +7616,7 @@
         ],
         "name": "Djinn Exoskeleton"
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7415,6 +7627,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7512,9 +7726,7 @@
         ],
         "name": "Curseblade"
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7525,6 +7737,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7642,9 +7856,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7655,6 +7867,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7683,7 +7897,7 @@
         ]
       },
       {
-        "name": "Hermes Gear Mk. II",
+        "name": "Hermes gear Mk. II",
         "ingredients": [
           {
             "count": 11,
@@ -7742,9 +7956,7 @@
         ],
         "name": "Pandoran Cryptex"
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7755,6 +7967,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7802,9 +8016,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7815,6 +8027,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -7882,9 +8096,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -7895,6 +8107,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8022,9 +8236,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8035,6 +8247,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8227,9 +8441,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8240,6 +8452,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8317,9 +8531,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8330,6 +8542,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8422,9 +8636,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8435,6 +8647,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8492,9 +8706,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8505,6 +8717,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8582,9 +8796,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8595,6 +8807,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8657,9 +8871,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8670,6 +8882,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8742,9 +8956,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8755,6 +8967,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8812,9 +9026,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8825,6 +9037,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -8897,9 +9111,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -8910,6 +9122,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9017,9 +9231,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9030,6 +9242,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9097,9 +9311,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9110,6 +9322,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9172,9 +9386,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9185,6 +9397,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9287,9 +9501,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9300,6 +9512,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9377,9 +9591,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9390,6 +9602,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9482,9 +9696,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9495,6 +9707,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9607,9 +9821,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9620,6 +9832,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9737,9 +9951,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9750,6 +9962,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9837,9 +10051,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9850,6 +10062,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -9962,9 +10176,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -9975,6 +10187,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10107,9 +10321,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10120,6 +10332,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10197,9 +10411,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10210,6 +10422,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10342,9 +10556,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10355,6 +10567,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10442,9 +10656,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10455,6 +10667,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10602,9 +10816,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10615,6 +10827,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10757,9 +10971,7 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   },
   {
     "cardIDs": [
@@ -10770,6 +10982,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "",
@@ -10892,8 +11106,6 @@
           }
         ]
       }
-    ],
-    "faq": "",
-    "errata": ""
+    ]
   }
 ]
