@@ -73,7 +73,7 @@ def parse_formatted_sentence(raw_sentence):
 def parse_power(power_str):
     powers = []
     for part in power_str.split(". "):
-        gate_match = re.match(r"(\w+ \d+\+)\s*(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
+        gate_match = re.match(r"([\w\&]+ \d+[\+\-])\s*([\+\-]?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
         hits_match = re.match(r"(\d?\+?)\s*(?:Full\s?)?Hit[s]?\s*(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
         match = re.match(r"(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
 
@@ -105,7 +105,10 @@ def parse_power(power_str):
             else:
                 power["gate"] = {"type": "Full Hit"}
         if (plus):
-            power["plus"] = True
+            if (plus == "+"):
+                power["plus"] = True
+            elif plus == '-':
+                power["minus"] = True
 
         powers.append(power)
 

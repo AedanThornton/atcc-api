@@ -167,6 +167,7 @@ def fatedMnemos_row(row):
     return card_json
 
 def gear_row(row):
+    print(row["Name"])
     offensive_statistics = {}
     if row["Attack Dice"]:
         offensive_statistics = {
