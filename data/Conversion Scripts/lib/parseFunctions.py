@@ -71,11 +71,12 @@ def parse_formatted_sentence(raw_sentence):
 
 
 def parse_power(power_str):
+    base_pattern = r"([\+\-]?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)"
     powers = []
     for part in power_str.split(". "):
-        gate_match = re.match(r"([\w\&]+ \d+[\+\-])\s*([\+\-]?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
-        hits_match = re.match(r"(\d?\+?)\s*(?:Full\s?)?Hit[s]?\s*(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
-        match = re.match(r"(\+?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)", part)
+        gate_match = re.match(r"([\w\&]+ \d+[\+\-]\d?)\s*" + base_pattern, part)
+        hits_match = re.match(r"(\d?[\+\-]?\d?)\s*(?:Full\s?)?Hit[s]?\s*" + base_pattern, part)
+        match = re.match(base_pattern, part)
 
         gate_type, plus, hits, dice_string = "", False, "", ""
         if gate_match:
@@ -115,12 +116,51 @@ def parse_power(power_str):
     return powers
 
 def parse_armor(armor_str):
-    match = re.match(r"(\d+)\s*(\w+)", armor_str)
-    if match:
-        amount, die_type = match.groups()
+    base_pattern = r"(\+?\w)\s*(.+)"
+    die_types = ["Red", "Black", "White", "Mortal"]
+
+    armor_dice = []
+    if len(armor_str.split(", ")) > 1: armor_dice = armor_str.split(", ")
+    elif len(armor_str.split(" ")) > 1 and armor_str.split(" ")[1] in die_types: armor_dice = [armor_str]
+    if armor_dice:
+        dice_list = []
+        for die in armor_dice:
+            match = re.match(base_pattern, die)
+
+            if match:
+                count, die_type = match.groups()
+                if "X" in count:
+                    dice_list.append("X")
+                    dice_list.append(die_type)
+                else:
+                    for x in range(0,int(count)):
+                        dice_list.append(die_type)
+        
         return {
-            "amount": int(amount),
-            "type": die_type
+            "type": "Armor",
+            "armorDice": dice_list
+        }
+
+
+    gate_match = re.match(r"([\w\&]+ \d+[\+\-]\d?)\s*" + base_pattern, armor_str)
+    match = re.match(base_pattern, armor_str)
+
+    gate_type, amount, armor_type = "", "", ""
+    if gate_match:
+        gate_type, amount, armor_type = gate_match.groups()
+    elif match:
+        amount, armor_type = match.groups()
+
+    if (gate_match):
+        return {
+            "gate": {"type": gate_type.split()[0], "value": gate_type.split()[1]},
+            "amount": amount,
+            "type": armor_type
+        }
+    if match:
+        return {
+            "amount": amount,
+            "type": armor_type
         }
     else:
         return {
@@ -458,28 +498,6 @@ def parse_tiles(raw_tiles):
         tile_list.append(tile_json)
 
     return tile_list
-
-def parse_exploration(raw_data):
-    '''
-        effect_json = {}
-        for dip in DIPLOMACIES:
-            if effect.startswith(dip):
-                effect = dip.join(effect.split(dip)[1:]).strip()
-                effect_json["diplomacy"] = dip
-
-                if effect.startswith("+") or effect.startswith("-"):
-                    words = effect.split(" ")
-                    effect = " ".join(words[1:])
-                    effect_json["sign"] = words[0]
-
-                break
-
-        effect_json["effect"] = effect
-
-        parsed_effects.append(effect_json)
-    '''
-
-    return parse_abilities(raw_data)
 
 def parse_attack_diagram(raw_data):
     new_rows = []

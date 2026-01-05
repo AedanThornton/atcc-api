@@ -31,7 +31,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -82,7 +82,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -143,9 +143,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -194,7 +197,14 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -245,7 +255,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -309,7 +319,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -367,7 +377,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -426,7 +436,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -474,7 +484,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -530,7 +540,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -622,7 +632,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -691,7 +701,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -742,7 +752,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -844,7 +854,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -935,7 +945,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1005,7 +1015,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1071,7 +1081,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1129,7 +1139,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1209,7 +1219,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1281,7 +1291,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1340,7 +1350,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1387,7 +1397,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1439,7 +1449,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1497,7 +1507,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1547,14 +1557,15 @@
       "Bronze"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1637,7 +1648,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1735,7 +1746,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1786,7 +1797,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1828,7 +1839,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -1884,7 +1895,7 @@
       "Bone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -1935,14 +1946,16 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 3,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2044,14 +2057,14 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2161,7 +2174,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2245,7 +2258,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2322,7 +2335,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2423,7 +2436,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -2511,7 +2524,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2588,7 +2601,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2699,7 +2712,7 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2798,7 +2811,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2874,7 +2887,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2919,7 +2932,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -2961,9 +2974,12 @@
       "Bronze"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -3031,9 +3047,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "3"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -3120,7 +3139,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -3204,7 +3223,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -3288,7 +3307,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -3389,7 +3408,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -3490,7 +3509,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -3620,7 +3639,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -3717,7 +3736,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -3821,7 +3840,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -3924,7 +3943,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4043,7 +4062,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4104,9 +4123,12 @@
       "Silk"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "4"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4184,7 +4206,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4248,7 +4270,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -4302,7 +4324,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4390,14 +4412,15 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -4466,7 +4489,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4556,15 +4579,18 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "1",
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      },
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4650,14 +4676,14 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4687,7 +4713,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -4743,14 +4769,14 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -4815,7 +4841,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4916,7 +4942,7 @@
       "Alive"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -4998,7 +5024,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -5110,7 +5136,7 @@
       "Tool"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -5176,15 +5202,16 @@
       "Mask"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "1",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -5278,7 +5305,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -5357,14 +5384,12 @@
       "Divine"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -5390,7 +5415,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "During an Attack, ignore Labyrinth tiles for teh purposes of Line of Sight and adjacency"
+            "value": "During an Attack, ignore Labyrinth tiles for the purposes of Line of Sight and adjacency"
           }
         ]
       }
@@ -5420,7 +5445,7 @@
       "Cherished Companion"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -5523,7 +5548,7 @@
       "Pain"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -5622,14 +5647,15 @@
       "Primodial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -5678,6 +5704,14 @@
             "value": "Pushback 2"
           }
         ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On 6+, ignore it"
+          }
+        ]
       }
     ],
     "gatedAbilities": [
@@ -5688,16 +5722,6 @@
           {
             "type": "plainText",
             "value": "When you are about to suffer Knockdown, roll a d10"
-          }
-        ]
-      },
-      {
-        "gate": "On",
-        "value": "6+",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": ", ignore it"
           }
         ]
       }
@@ -5726,7 +5750,7 @@
       "Labyrinth"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -5856,7 +5880,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -5971,7 +5995,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6071,14 +6095,12 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6150,7 +6172,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -6276,7 +6298,7 @@
       "@HeadGear"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6353,7 +6375,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6416,7 +6438,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6494,7 +6516,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -6628,14 +6650,14 @@
       "Camo"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6747,7 +6769,7 @@
       "Potion"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6757,7 +6779,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -6821,7 +6843,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -6897,7 +6919,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -7046,7 +7068,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7175,7 +7197,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7266,7 +7288,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7350,7 +7372,7 @@
       "Artifact"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7463,7 +7485,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -7573,7 +7595,7 @@
       "Artifact"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -7635,7 +7657,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -7679,7 +7701,7 @@
       "Artifact"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7755,7 +7777,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7848,7 +7870,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7944,7 +7966,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -7998,14 +8020,14 @@
       "Relief"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8093,17 +8115,22 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      },
+      {
+        "gate": {
+          "type": "Danger",
+          "value": "7+"
         },
-        {
-          "type": "Danger 7+ +1 Red"
-        }
-      ]
-    },
+        "amount": "+1",
+        "type": "Red"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8180,7 +8207,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8247,7 +8274,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8312,15 +8339,18 @@
       "Warriors"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "1",
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      },
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8408,14 +8438,14 @@
       "Warriors"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8512,7 +8542,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8560,7 +8590,7 @@
       "Sandals"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8630,7 +8660,7 @@
       "Sandals"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8695,7 +8725,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -8793,7 +8823,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -8894,7 +8924,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9028,7 +9058,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9137,7 +9167,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9261,7 +9291,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -9300,9 +9330,12 @@
       "Armor"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9400,7 +9433,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9485,15 +9518,16 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      },
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9574,7 +9608,7 @@
       "Artifact"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9685,7 +9719,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -9796,9 +9830,12 @@
       "Armor"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -9888,9 +9925,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -9972,14 +10012,15 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -9997,7 +10038,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -10052,14 +10093,14 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10192,7 +10233,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10300,7 +10341,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10367,7 +10408,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10461,7 +10502,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -10588,7 +10629,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10754,7 +10795,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10861,7 +10902,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -10976,7 +11017,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11100,7 +11141,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11253,7 +11294,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11393,14 +11434,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11567,7 +11606,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11669,7 +11708,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11766,7 +11805,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11906,7 +11945,7 @@
       "Infection"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -11999,7 +12038,7 @@
       "Guard"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -12098,9 +12137,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "X*"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "X",
+        "type": "* Reroll"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -12205,7 +12247,7 @@
       "Rope"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -12285,9 +12327,12 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "3"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -12381,14 +12426,15 @@
       "Armor"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -12426,7 +12472,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -12485,15 +12531,18 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "1",
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      },
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -12543,7 +12592,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -12615,7 +12664,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -12746,7 +12795,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -12919,7 +12968,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13116,7 +13165,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13300,7 +13349,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13475,7 +13524,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13604,7 +13653,7 @@
     "transformsInto": null,
     "traits": [],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13666,9 +13715,12 @@
       "Cloak"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13766,7 +13818,7 @@
       "Eldertech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -13800,7 +13852,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Cryptex_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -13896,7 +13960,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -14025,15 +14089,16 @@
       "Warriors"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -14147,7 +14212,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -14341,7 +14406,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -14508,7 +14573,7 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -14646,7 +14711,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -14752,7 +14817,7 @@
       "Celestial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -14843,7 +14908,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -14955,7 +15020,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15082,7 +15147,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -15270,7 +15335,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15405,7 +15470,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15521,7 +15586,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15654,14 +15719,15 @@
       "Abyss"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15741,14 +15807,15 @@
       "Abyss"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15862,9 +15929,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -15969,7 +16039,7 @@
       "Paradox"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16050,7 +16120,7 @@
       "Umbrella"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16137,7 +16207,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16191,14 +16261,12 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16259,9 +16327,12 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16335,14 +16406,15 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16430,9 +16502,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16539,7 +16614,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16657,7 +16732,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16773,7 +16848,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16862,7 +16937,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -16958,7 +17033,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17070,7 +17145,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17162,9 +17237,12 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17253,7 +17331,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17339,14 +17417,12 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17408,7 +17484,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17496,7 +17572,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17578,7 +17654,7 @@
       "Divine"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -17624,7 +17700,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you die, lose 1 Titan from teh Argo to come back to life at your Time Anchor"
+            "value": "When you die, lose 1 Titan from the Argo to come back to life at your Time Anchor"
           }
         ],
         "costs": [
@@ -17657,7 +17733,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17737,7 +17813,7 @@
       "Divine"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17814,7 +17890,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17885,7 +17961,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -17945,7 +18021,7 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18010,7 +18086,7 @@
       "Mythical"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18079,7 +18155,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18162,14 +18238,12 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18218,7 +18292,7 @@
       "Leather"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18324,20 +18398,19 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18424,14 +18497,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18520,14 +18591,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -18625,14 +18694,12 @@
       "Hook"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -18709,7 +18776,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -18806,7 +18873,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -18899,7 +18966,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -18984,7 +19051,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19079,14 +19146,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19233,14 +19298,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19380,14 +19443,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19540,14 +19601,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19682,15 +19741,19 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -19802,7 +19865,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -19917,7 +19980,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -20018,14 +20081,14 @@
       "Apostasis"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "White"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "White"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -20105,10 +20168,16 @@
       "Apostasis"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -20211,14 +20280,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -20345,14 +20412,15 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -20455,9 +20523,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -20557,7 +20628,7 @@
       "Paradox"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -20654,7 +20725,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -20768,7 +20839,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -20886,7 +20957,7 @@
       "Flesh"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -20936,7 +21007,7 @@
           },
           {
             "type": "plainText",
-            "value": "by at least the number of Time Anchors on the BOard, reestablish any Time Anchor on your space"
+            "value": "by at least the number of Time Anchors on the Board, reestablish any Time Anchor on your space"
           }
         ]
       }
@@ -21006,7 +21077,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -21133,7 +21204,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -21260,7 +21331,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -21362,14 +21433,15 @@
       "Bone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -21430,9 +21502,12 @@
       "Atemporal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -21535,7 +21610,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -21649,7 +21724,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -21793,7 +21868,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -21909,7 +21984,7 @@
       "Divine"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -21994,14 +22069,15 @@
       "Paradox"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -22134,7 +22210,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -22240,7 +22316,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -22353,7 +22429,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22383,7 +22459,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you fail teh Hold on test, instead of suffering the Falling Down effect, move 2 spaces"
+            "value": "When you fail the Hold on test, instead of suffering the Falling Down effect, move 2 spaces"
           }
         ],
         "costs": [
@@ -22440,7 +22516,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22531,7 +22607,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22595,7 +22671,7 @@
       "Paradox"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22701,7 +22777,7 @@
       "Orichalcum"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22796,7 +22872,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22900,7 +22976,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -22984,14 +23060,12 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -23077,9 +23151,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "3"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -23133,7 +23210,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -23196,7 +23273,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -23230,7 +23307,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Cryptex_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -23335,7 +23424,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -23369,7 +23458,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Cryptex_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           },
           {
             "type": "keyword",
@@ -23457,7 +23558,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -23602,9 +23703,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "X"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "X",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -23717,7 +23821,7 @@
       "Relief"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -23815,10 +23919,16 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -23927,14 +24037,14 @@
       "Armor"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "White"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "White"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -23984,7 +24094,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -24067,7 +24177,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -24204,9 +24314,12 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -24358,7 +24471,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -24522,7 +24635,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -24715,7 +24828,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -24886,7 +24999,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25045,7 +25158,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -25191,7 +25304,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25355,7 +25468,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25497,7 +25610,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25666,7 +25779,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25883,7 +25996,7 @@
       "Mythical"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -25997,7 +26110,7 @@
           },
           {
             "type": "plainText",
-            "value": "token in teh Kratos Pool"
+            "value": "token in the Kratos Pool"
           }
         ]
       },
@@ -26099,7 +26212,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -26293,7 +26406,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -26450,7 +26563,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -26545,7 +26658,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You gain the following abilities based on teh number of Condition tokens on the"
+            "value": "You gain the following abilities based on the number of Condition tokens on the"
           },
           {
             "type": "italics",
@@ -26665,7 +26778,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -26830,7 +26943,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27033,7 +27146,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27195,7 +27308,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27377,7 +27490,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27539,15 +27652,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "3",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      },
+      {
+        "amount": "2",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27701,7 +27815,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -27912,7 +28026,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -28086,15 +28200,19 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      },
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -28266,7 +28384,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -28480,7 +28598,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -28649,7 +28767,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -28744,7 +28862,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -28826,14 +28944,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -28947,7 +29063,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29057,12 +29173,12 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
           "type": "plainText",
-          "value": "When you attack, you may discard a Fire token from teh Kratos Pool to gain +1"
+          "value": "When you attack, you may discard a Fire token from the Kratos Pool to gain +1"
         },
         {
           "type": "icon",
@@ -29173,7 +29289,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -29288,7 +29404,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29390,7 +29506,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29497,7 +29613,7 @@
       "Eclipse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29665,20 +29781,19 @@
       "Eclipse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Sun"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "amount": "1",
+        "type": "Sun"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29757,14 +29872,14 @@
       "Eclipse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29878,7 +29993,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -29965,7 +30080,7 @@
       "Elixir"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30033,7 +30148,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30081,7 +30196,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30141,7 +30256,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30159,7 +30274,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Hermes Gear_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Hermes Gear"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -30212,9 +30339,12 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30312,9 +30442,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30432,7 +30565,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30551,7 +30684,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -30689,7 +30822,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30785,7 +30918,7 @@
       "Cloth"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30861,7 +30994,7 @@
       "Alchemy"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30930,7 +31063,7 @@
       "Alchemy"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -30968,7 +31101,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -31003,7 +31136,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "Made of glass harvested from teh Eschaton-touched desert",
+    "flavor": "Made of glass harvested from the Eschaton-touched desert",
     "slot": "Armor",
     "transformsInto": null,
     "traits": [
@@ -31012,15 +31145,16 @@
       "Sun"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "3",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31075,21 +31209,23 @@
       "Sun"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      },
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31170,14 +31306,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31281,7 +31415,7 @@
       "Relief"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31357,7 +31491,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31375,7 +31509,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Hermes Gear_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Hermes Gear"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -31428,14 +31574,12 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31500,7 +31644,7 @@
       "Lamp"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31574,7 +31718,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31651,7 +31795,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31747,14 +31891,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -31851,14 +31993,15 @@
       "Irem"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -31892,7 +32035,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When resolving an Attack against you, if the Primordial Shadowsteps, Vanishes, Flickers, or moves to teh center of the Board, move up to 3 spaces (until adjacent) toward it"
+            "value": "When resolving an Attack against you, if the Primordial Shadowsteps, Vanishes, Flickers, or moves to the center of the Board, move up to 3 spaces (until adjacent) toward it"
           }
         ],
         "costs": [
@@ -31941,7 +32084,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32026,7 +32169,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32125,14 +32268,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32214,7 +32355,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -32369,7 +32510,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -32458,9 +32599,12 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32522,7 +32666,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32597,14 +32741,12 @@
       "Irem"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32664,7 +32806,7 @@
       "Windcurse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32767,7 +32909,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -32785,7 +32927,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Hermes Gear_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Hermes Gear"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -32839,7 +32993,7 @@
       "Accursed"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -32966,14 +33120,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -33114,14 +33266,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -33196,7 +33346,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -33251,7 +33401,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -33404,14 +33554,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -33551,14 +33699,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -33716,15 +33862,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "resistances": [
-        {
-          "amount": 4,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "4",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -33880,7 +34027,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -34002,14 +34149,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -34155,7 +34300,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -34282,14 +34427,15 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -34383,9 +34529,12 @@
       "Alive"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -34498,7 +34647,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -34638,7 +34787,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -34789,7 +34938,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -34950,7 +35099,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -35073,7 +35222,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -35229,7 +35378,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -35365,14 +35514,12 @@
       "Babylonian"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -35432,7 +35579,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -35450,7 +35597,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Hermes Gear_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Hermes Gear"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -35505,7 +35664,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -35610,7 +35769,7 @@
       "Pandoran"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -35769,7 +35928,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -35892,7 +36051,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -36039,7 +36198,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -36174,20 +36333,19 @@
       "Pandoran"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -36221,7 +36379,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -36281,9 +36439,12 @@
       "Pandoran"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -36419,7 +36580,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -36544,7 +36705,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -36708,7 +36869,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -36828,15 +36989,16 @@
       "Curse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "3",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -36908,7 +37070,7 @@
       "Curse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37009,7 +37171,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37148,7 +37310,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37282,9 +37444,12 @@
       "Divine"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37411,7 +37576,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -37472,7 +37637,7 @@
           },
           {
             "type": "plainText",
-            "value": "Gain teh"
+            "value": "Gain the"
           },
           {
             "type": "cardRef",
@@ -37526,7 +37691,7 @@
       "Mask"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37652,7 +37817,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37763,15 +37928,16 @@
       "Curse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37858,14 +38024,14 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "White"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "White"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -37969,7 +38135,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -38128,10 +38294,16 @@
       "Curse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38244,7 +38416,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38388,7 +38560,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -38523,14 +38695,14 @@
       "Curse"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38617,9 +38789,12 @@
       "Irem"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38704,14 +38879,15 @@
       "Empire"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38809,7 +38985,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -38922,7 +39098,7 @@
       "Moirai"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -39012,7 +39188,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -39169,7 +39345,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -39334,7 +39510,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -39461,7 +39637,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -39601,14 +39777,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -39761,7 +39935,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -39840,7 +40014,7 @@
       "Flesh"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -39923,7 +40097,7 @@
       "Bomb"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -40028,7 +40202,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -40123,7 +40297,7 @@
       "Helmet"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -40232,7 +40406,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -40375,7 +40549,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": true,
     "unique": true,
@@ -40571,15 +40745,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "3",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Reroll"
+      },
+      {
+        "amount": "2",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -40712,15 +40887,19 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": true,
     "unique": true,
@@ -40892,7 +41071,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": true,
     "unique": true,
@@ -41093,7 +41272,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41194,7 +41373,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41300,7 +41479,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41429,7 +41608,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -41558,9 +41737,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41670,7 +41852,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41783,7 +41965,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -41899,7 +42081,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42006,7 +42188,7 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42191,9 +42373,12 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42281,15 +42466,18 @@
       "Babelian"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      },
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42389,7 +42577,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42485,7 +42673,7 @@
       "Stone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42556,7 +42744,7 @@
       "Stone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42633,7 +42821,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42713,7 +42901,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42771,9 +42959,12 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42860,14 +43051,15 @@
       "Alive"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -42941,14 +43133,14 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43057,7 +43249,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43161,7 +43353,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -43295,7 +43487,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43393,7 +43585,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43457,7 +43649,7 @@
       "Skin"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43549,14 +43741,12 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43617,9 +43807,12 @@
       "Atlantean"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "4"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43682,14 +43875,15 @@
       "Atlantean"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43777,14 +43971,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Laser"
+      },
+      {
+        "amount": "1",
+        "type": "Microwave"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43844,7 +44040,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -43911,14 +44107,12 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44004,7 +44198,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44131,7 +44325,7 @@
       "Apparatus"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44210,7 +44404,7 @@
       "Lamp"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44299,7 +44493,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44383,7 +44577,7 @@
       "Ambrosia"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44442,7 +44636,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44532,7 +44726,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44639,7 +44833,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44739,15 +44933,16 @@
       "Cloth"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      },
+      {
+        "amount": "1",
+        "type": "Pain"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44837,7 +45032,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -44847,7 +45042,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Full Stanch"
+            "value": "Superior Stanch"
           },
           {
             "type": "plainText",
@@ -44920,7 +45115,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45027,7 +45222,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45151,9 +45346,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45273,7 +45471,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45381,20 +45579,18 @@
       "Telchines"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "White"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "White"
+        ]
+      },
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45457,9 +45653,12 @@
       "Smoke"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+0*"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+0",
+        "type": "* Evasion"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -45560,9 +45759,12 @@
       "Stone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45663,7 +45865,7 @@
       "Apparatus"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45706,7 +45908,7 @@
       "Atlantean"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45765,7 +45967,7 @@
       "Atlantean"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45832,14 +46034,12 @@
       "Helmet"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45911,14 +46111,12 @@
       "Paracausal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -45992,20 +46190,18 @@
       "Suit"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Black"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Microwave"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black"
+        ]
+      },
+      {
+        "amount": "2",
+        "type": "Microwave"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46058,14 +46254,17 @@
       "Suit"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 4,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red",
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46141,7 +46340,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46230,7 +46429,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46324,14 +46523,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Pain"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -46432,7 +46629,7 @@
       "Bone"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46514,7 +46711,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -46624,7 +46821,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -46734,14 +46931,14 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Mortal"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Mortal"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46841,7 +47038,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -46955,14 +47152,16 @@
       "Glass"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Pain"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47046,7 +47245,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47179,7 +47378,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47341,7 +47540,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47487,7 +47686,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47640,7 +47839,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47754,7 +47953,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -47848,7 +48047,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -47975,7 +48174,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48077,7 +48276,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48166,7 +48365,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48237,14 +48436,12 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48311,7 +48508,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48412,7 +48609,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48519,7 +48716,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48658,7 +48855,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48765,7 +48962,7 @@
       "Apparatus"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48839,14 +49036,14 @@
       "Shell"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -48952,15 +49149,16 @@
       "Robes"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "4",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Reroll"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -49057,7 +49255,7 @@
       "Siren"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -49083,7 +49281,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (Cryptex)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -49168,7 +49378,7 @@
       "Virus"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -49246,7 +49456,7 @@
       "Pandoran"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -49383,7 +49593,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -49524,7 +49734,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -49656,7 +49866,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -49787,7 +49997,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -49925,7 +50135,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -50046,7 +50256,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50152,14 +50362,12 @@
       "Mask"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50246,7 +50454,7 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50303,9 +50511,12 @@
       "Void"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "4"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50423,14 +50634,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Microwave"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Microwave"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50515,7 +50724,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50632,15 +50841,16 @@
       "Hephaestum"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      },
+      {
+        "amount": "1",
+        "type": "Pain"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50745,7 +50955,7 @@
       "Helm"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50837,14 +51047,14 @@
       "Imaginary"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Mortal"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Mortal"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -50930,7 +51140,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51020,7 +51230,7 @@
       "Olympian"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51099,14 +51309,12 @@
       "Selenian"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51227,7 +51435,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51348,7 +51556,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51473,7 +51681,7 @@
       "Mortal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -51579,7 +51787,7 @@
       "Metal"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -51647,15 +51855,19 @@
       "Hephaestum"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+2",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "+2"
+      },
+      {
+        "amount": "2",
+        "type": "Pain"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -51756,7 +51968,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -51861,7 +52073,7 @@
       "Augment"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -51948,7 +52160,7 @@
       "Void"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52098,7 +52310,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52190,7 +52402,7 @@
       "Eldertech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52216,7 +52428,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (Cryptex)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -52322,7 +52546,7 @@
       "Typhonic"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52348,7 +52572,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (Cryptex)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       },
@@ -52464,7 +52700,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52567,7 +52803,7 @@
       "Cherished Companion"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52686,7 +52922,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52824,14 +53060,12 @@
       "Mythical"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -52945,7 +53179,7 @@
           },
           {
             "type": "plainText",
-            "value": "token in teh Kratos Pool"
+            "value": "token in the Kratos Pool"
           }
         ]
       },
@@ -53038,7 +53272,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -53211,7 +53445,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -53379,27 +53613,20 @@
       "power": [
         {
           "type": [
-            "1",
-            "1",
-            "1"
+            "Red"
           ],
           "gate": {
             "type": "Energy",
-            "value": "0-"
+            "value": "0-3"
           }
         },
         {
           "type": [
-            "1",
-            "1",
-            "1",
-            "1",
-            "1",
-            "1"
+            "Black"
           ],
           "gate": {
             "type": "Energy",
-            "value": "4-"
+            "value": "4-6"
           }
         },
         {
@@ -53413,15 +53640,40 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "Energy 0-3 1. Energy 4-6 3. Energy 7+ 5",
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      },
+      {
+        "gate": {
+          "type": "Energy",
+          "value": "0-3"
+        },
+        "amount": "1",
+        "type": "Reroll"
+      },
+      {
+        "gate": {
+          "type": "Energy",
+          "value": "4-6"
+        },
+        "amount": "3",
+        "type": "Reroll"
+      },
+      {
+        "gate": {
+          "type": "Energy",
+          "value": "7+"
+        },
+        "amount": "5",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -53521,7 +53773,7 @@
       "Wish"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -53637,24 +53889,46 @@
           ]
         },
         {
-          "type": []
+          "type": [
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1-2"
+          },
+          "plus": true
         },
         {
-          "type": []
+          "type": [
+            "Red",
+            "Black"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "3-4"
+          },
+          "plus": true
         },
         {
-          "type": []
+          "type": [
+            "Red",
+            "Black",
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "5-6"
+          },
+          "plus": true
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -53831,15 +54105,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionBonus": "+2",
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+2",
+        "type": "Evasion"
+      },
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54027,14 +54302,16 @@
       "Dead"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54174,9 +54451,12 @@
       "Argotech"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+3"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+3",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54306,7 +54586,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54513,7 +54793,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54682,14 +54962,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -54849,7 +55127,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -55040,7 +55318,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -55249,19 +55527,20 @@
       "Atlantean"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 3,
-          "type": "Black"
-        }
-      ],
-      "resistances": [
-        {
-          "type": "X Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black",
+          "Black"
+        ]
+      },
+      {
+        "amount": "X",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -55399,14 +55678,16 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Laser"
+      },
+      {
+        "amount": "3",
+        "type": "Microwave"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -55550,15 +55831,20 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "6",
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "6",
+        "type": "Reroll"
+      },
+      {
+        "amount": "3",
+        "type": "Pain"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -55666,14 +55952,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 4,
-          "type": "Pain"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Pain"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -55814,20 +56098,18 @@
       "Fire"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 1,
-          "type": "Mortal"
-        }
-      ],
-      "resistances": [
-        {
-          "amount": 3,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Mortal"
+        ]
+      },
+      {
+        "amount": "3",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56006,7 +56288,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56194,14 +56476,12 @@
       "Olympian"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 4,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "4",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56311,7 +56591,7 @@
       "Flammable"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56407,7 +56687,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56511,14 +56791,15 @@
       "Leather"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -56628,7 +56909,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -56725,7 +57006,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -56822,7 +57103,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -56923,7 +57204,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -57011,15 +57292,16 @@
       "Flesh"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2",
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Despair"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      },
+      {
+        "amount": "2",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -57138,7 +57420,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -57215,10 +57497,6 @@
             "value": "Reaction"
           },
           {
-            "type": "plainText",
-            "value": "Exhaust"
-          },
-          {
             "type": "keyword",
             "value": "Pursuit 5"
           },
@@ -57226,6 +57504,9 @@
             "type": "plainText",
             "value": ", gain 1 Ambrosia token"
           }
+        ],
+        "costs": [
+          "Exhaust"
         ]
       },
       {
@@ -57293,14 +57574,15 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Red"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Red"
+        ]
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -57397,7 +57679,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -57501,7 +57783,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -57602,7 +57884,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -57681,7 +57963,7 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -57800,9 +58082,12 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionBonus": "+1"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "+1",
+        "type": "Evasion"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -57853,7 +58138,7 @@
         ],
         "costs": [
           "Fate",
-          "exhaust"
+          "Exhaust"
         ]
       }
     ],
@@ -57909,7 +58194,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -58047,7 +58332,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -58171,7 +58456,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -58268,7 +58553,7 @@
     "transformsInto": null,
     "traits": [],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -58351,7 +58636,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -58448,7 +58733,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -58527,7 +58812,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -58605,7 +58890,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -58720,7 +59005,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -58842,7 +59127,7 @@
       "Cryptex"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -58976,14 +59261,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Midas"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -59065,6 +59348,138 @@
   },
   {
     "cardIDs": [
+      "DJ9944"
+    ],
+    "name": "Alchemic Incendiaries",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Fire",
+      "Ambrosia",
+      "Alchemy",
+      "Flammable"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ranged 2-3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "icon",
+            "value": "Energy"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Startup 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 3"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Midas/Ambrosia 2+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Perform"
+          },
+          {
+            "type": "keyword",
+            "value": "Unholy Alchemy"
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "keyword",
+            "value": "Reverse Unholy Alchemy"
+          }
+        ],
+        "costs": [
+          "Energy",
+          "Fate",
+          "Exhaust"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "DJ9945"
     ],
     "name": "Prismshield",
@@ -59101,14 +59516,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 1,
-          "type": "Laser"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -59209,140 +59622,6 @@
   },
   {
     "cardIDs": [
-      "DJ9944"
-    ],
-    "name": "Alchemic Incendiaries",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": "",
-    "errata": "",
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Fire",
-      "Ambrosia",
-      "Alchemy",
-      "Flammable"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+0",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Red"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Ranged 2-3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
-          },
-          {
-            "type": "plainText",
-            "value": "("
-          },
-          {
-            "type": "icon",
-            "value": "Energy"
-          },
-          {
-            "type": "plainText",
-            "value": ")"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Startup 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fire 3"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Midas/Ambrosia 2+",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Perform"
-          },
-          {
-            "type": "keyword",
-            "value": "Unholy Alchemy"
-          },
-          {
-            "type": "plainText",
-            "value": "or"
-          },
-          {
-            "type": "keyword",
-            "value": "Reverse Unholy Alchemy"
-          }
-        ],
-        "costs": [
-          "Energy",
-          "Fate",
-          "Exhaust"
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
       "DJ9946"
     ],
     "name": "Tusk Lance",
@@ -59380,7 +59659,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -59462,6 +59741,124 @@
   },
   {
     "cardIDs": [
+      "DJ9957"
+    ],
+    "name": "Sword of the Unbranded",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Sword",
+      "Empire",
+      "Metal",
+      "Primordial",
+      "Djinn"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "type": [
+            "Power",
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan Possession"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas Immune"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Unburden 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This cannot be exhausted or discarded in any way"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "plainText",
+            "value": "You may discard a Mind Condition card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "6+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately discard another"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "DJ9963"
     ],
     "name": "Cirrotrireme",
@@ -59485,7 +59882,7 @@
       "Trireme"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -59575,9 +59972,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -59684,7 +60084,7 @@
       "Primordial"
     ],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -59773,7 +60173,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -59861,7 +60261,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -59949,7 +60349,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -60035,7 +60435,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -60131,7 +60531,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -60199,7 +60599,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -60295,9 +60695,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -60381,7 +60784,7 @@
       "Ladder"
     ],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -60485,7 +60888,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -60582,7 +60985,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -60676,7 +61079,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -60762,7 +61165,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -60861,9 +61264,12 @@
       "Primordial"
     ],
     "offensiveStatistics": {},
-    "defensiveStatistics": {
-      "evasionRerolls": "2"
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -60948,14 +61354,15 @@
       "Armor"
     ],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {
-      "armorDice": [
-        {
-          "amount": 2,
-          "type": "Black"
-        }
-      ]
-    },
+    "defensiveStatistics2": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Black",
+          "Black"
+        ]
+      }
+    ],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -61044,7 +61451,7 @@
     "transformsInto": "Necroxiphos",
     "traits": [],
     "offensiveStatistics": {},
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -61150,7 +61557,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -61265,7 +61672,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -61385,7 +61792,7 @@
     "transformsInto2": "Fumeblade (Hidden)",
     "traits2": [],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -61533,7 +61940,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -61620,7 +62027,7 @@
       "Self-propelling wagon"
     ],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -61711,7 +62118,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -61838,7 +62245,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -61963,7 +62370,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -62051,7 +62458,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -62157,7 +62564,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -62263,7 +62670,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -62370,7 +62777,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -62486,7 +62893,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -62626,7 +63033,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -62761,7 +63168,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -62885,7 +63292,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -63002,7 +63409,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -63124,7 +63531,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -63230,7 +63637,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -63354,7 +63761,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -63456,7 +63863,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -63581,14 +63988,12 @@
         }
       ]
     },
-    "defensiveStatistics": {
-      "resistances": [
-        {
-          "amount": 2,
-          "type": "Energy"
-        }
-      ]
-    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -63760,7 +64165,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -63892,7 +64297,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
@@ -63942,7 +64347,7 @@
       "Cryptex"
     ],
     "offensiveStatistics2": {},
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": false,
@@ -63968,7 +64373,19 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Restricted (_Cryptex_)"
+            "value": "Restricted"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "italics",
+            "value": "Cryptex"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ]
       }
@@ -64008,7 +64425,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -64127,7 +64544,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -64248,7 +64665,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -64390,7 +64807,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,
@@ -64540,7 +64957,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": {
       "abilityText": [
         {
@@ -64681,7 +65098,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": {
       "abilityText": [
         {
@@ -64797,7 +65214,7 @@
         }
       ]
     },
-    "defensiveStatistics": {},
+    "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -64938,7 +65355,7 @@
         }
       ]
     },
-    "defensiveStatistics2": {},
+    "defensiveStatistics2": [],
     "asteriskEffect2": null,
     "wished2": false,
     "unique2": true,

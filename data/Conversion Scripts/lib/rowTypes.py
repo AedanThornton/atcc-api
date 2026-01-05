@@ -139,7 +139,7 @@ def doom_row(row):
 
 def exploration_row(row):
     card_json = {
-        "effects": parse_exploration(row["Effects"]),
+        "effects": parse_abilities(row["Effects"]),
         "number": int(row["Number"]) if row["Number"] else "",
         "adversaryTriggers": row["Adversary Triggers"],
         "stackType": row["Stack Type"],
@@ -167,7 +167,6 @@ def fatedMnemos_row(row):
     return card_json
 
 def gear_row(row):
-    print(row["Name"])
     offensive_statistics = {}
     if row["Attack Dice"]:
         offensive_statistics = {
@@ -175,11 +174,6 @@ def gear_row(row):
             "precision": row["Precision"],
             "power": parse_power(row["Power"])
         }
-    defensive_statistics = {}
-    if row["Evasion Rerolls"]: defensive_statistics["evasionRerolls"] = row["Evasion Rerolls"]
-    if row["Evasion Bonus"]: defensive_statistics["evasionBonus"] = row["Evasion Bonus"]
-    if row["Armor Dice"]: defensive_statistics["armorDice"] = list(map(parse_armor, row["Armor Dice"].split(". ")))
-    if row["Resistances"]: defensive_statistics["resistances"] = list(map(parse_armor, row["Resistances"].split(". ")))
 
     abilities, gated_abilities = parse_abilities(row["AB for Parsing"])    
     
@@ -191,7 +185,7 @@ def gear_row(row):
         "transformsInto": row["Transforms Into"] or None,
         "traits": row["Traits"].split(", ") if row["Traits"] else [],
         "offensiveStatistics": offensive_statistics,
-        "defensiveStatistics": defensive_statistics,
+        "defensiveStatistics": [parse_armor(line) for line in row["Defensive Statistics"].split(". ")] if row["Defensive Statistics"] else [],
         "asteriskEffect": parse_formatted_sentence(row["Asterisk Effect"])[0],
         "wished": "(Wished)" in row["Name"],
         "unique": "Unique. " in row["AB for Parsing"],
