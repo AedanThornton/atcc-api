@@ -1,36 +1,185 @@
 Name,Effects
-End of Hope,End of Primordial Round: Perform Signature
-Vanish X,"Move the Primordial X spaces towards the closest Board Edge, without turning, ignoring Board Edges directly across from the Target or attacking Titan. If thes would move the Primordial beyond a Board Edge or outside of all ranges of light, it disappears. When the Primordial is outside the Battle Board, it cannot be affected in any way"
-Pale Grin of Doom,"When you are attacked from behind, ignore the Evasion Roll; the Attack automatically hits with all the dice"
-Fear is Constant,"<Start of Battle> Chosen Titan gains the [Fear|AL0299] Condition card, another Titan gains the [Terror] Condition card, a third one flips 1 Oxygen token"
-Blacker Than The Night,"When the Primordial performs {Vanish X}, it doesn't ignore the Board Edges directly across from the Target or attacking Titan"
-Pale Grin of Death,"When you are attacked from behind, ignore the Evasion Roll. You are immediately devoured (dead)"
-Light is Dimming,"If you don't have any {Light X} keyword, you are always considered to be attacked from behind"
-Psychosomatic Poisoning,"When you gain a Condition card, and each time you start your turn with a Condition card, gain 1 Ambrosia token"
-Relentless Anxiety,"When the Primordial vanishes, immediately draw an AI card"
-Deeper Depths,Each Titan starts the Battle with 1 Oxygen token less
-Original Trench,Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the {Chasm} keyword. All other Terrain is considered {Elevated}
+A Fist for a Fist,"Each time the Hekaton gains a Wound (a Double Wound is treated as 2 Wounds) place a token on this Trait. If there are 3 or more tokens on this Trait, finish resolving the current action, discard all tokens, then perform Signature"
+A Wall of Fists,Titans cannot voluntarily move into spaces adjacent to the Hekaton
+Aggressive Expansion,<Start of Primordial Round> @WoO {Airburst 3}
+Antisherpa,Titans in columns 1-7 are dealt +2 @Danger per hit. Titans in columns 8-15 are dealt +1 @Danger per hit
+Ariadne's Logic,"When attacked from a Labyrinth tiles, Temenos has -1 @AT"
+Bane of Odysseus,"If you don't pass the [Trojan Ire|DZ2589] card, die. Then, random Titan gains the _Trojan Ire_"
 Beginning of the End,"<End of Primordial Round> Before {End of Hope}, draw and perform another AI card"
-Dragon of the Lightless Void,"You can only use X amount of Opening or Closing tokens from the Kratos Pool. You can only use X amount of Break, Fire, Black, and Hope tokens from the Kratos Pool combined. X is equal to your Light X keyword"
-Ruthless,Remove all positive Trauma cards from the Trauma decks (except Obols)
-Heat Death,Primordial doesn't destroy [Petrified Vent] Terrain tiles it moves through. Primordial's Crash causes incineration
-Microwave Shield,"Before performing an Attack Roll, for each space between you and the Primordial, discard 1 token from the Kratos Pool"
-Truth or Death,"Before performing a Scan, declare if the Primordial is there. If you are not correct, after resolving the Scan, draw an Obol"
-Invisible Flame,"When you climb the VP, and when you start your turn on the VP, gain 1 Ambrosia token and 1 Pain token"
-Nap of the Vent,Primordial destroys [Petrified Vent]Terrain tiles it moves through
-Tigerback,"To leave the VP voluntarily, you need to pass a Climb Down test (same difficulty as the Climb test)"
-Candle in the Dark,"If your Light X is lower than the Primordial level divided by 2 (rounding up), Skitter loses @WoO"
+Black Rain,"<Start of Titan turn> If you are in front of the Chimera, unless you have an Umbrella @Gear card, gain 1 Ambrosia token"
 Black Soup,"If you fail to find the Primordial during the Titan Round, every Titan dies"
-Three Seconds,Ignore @WoO preceding Microwave Attacks
-Imperial Leap,"This Trait replaces the {Imperial Impetus} Trait and the effects of the {Imperial Impetus} keyword. *Imperial Impetus*: Place an [Ambrosia Cloud] Terrain tile beneath the Nosoi Dragon. The Nosoi Dragon moves onto the [Irem Tower] Terrain tile in front that is at least 11 spaces away from it. Then, all Titans in Zone 2 from the Nosoi Dragon gain 1 Ambrosia token and draw an Obol. This movement does not cause Crash. If the Nosoi Dragon cannot perform Imperial Impetus, move it onto the closest [Ambrosia Cloud] (if able) and perform Routine"
-Enriched Toxins,"Whenever a Titan would gain one or more Ambrosia tokens, they additionally gain 1 Midas token."
-Pollution Aura,"Each Titan starts the Battle with 1 Oxygen token. If a Titan ends their turn in Zone 2 from the Nosoi Dragon, they discard 1 Oxygen token and gain 1 Ambrosia token. If, at any point, you must discard an Oxygen token and you don't have any, you die. Note; Do not use Cycle V Oxygen token rules"
-God Given Law,Ignore @WoO preceding [Merciless Sun]
-Magnifying Glass,"VP becomes unshaded. After a Titan fails a Climb test, perform Signature against that Titan"
+Black Sun,"If you are hit by _Merciless Sun_, you are incinerated"
+Blacker Than The Night,"When the Primordial performs {Vanish X}, it doesn't ignore the Board Edges directly across from the Target or attacking Titan"
+Bleed Your Heart Out,Each Bleeding token gives you -1 @Speed. {Bleeding Limit -1}
 Blinding Shine,The Old Haunt cannot be Wounded from the front
-Unworthy Will Die,"At the end of the Primordial Round, the Old Haunt destroys the closest [Irem Tower]"
+Bloodlost,"<Start of Battle> Starting from the highest @Danger and continuing in descending order, Titans suffer: {Bleeding 4}, Bleeding 3, Bleeding 2, and Bleeding 2. This Trait overrides the Start of Battle effect of the [Predator|CX1681] Trait"
+Bow or Die,"If you don't start the Primordial Round knocked down, you are incinerated"
+Bred for War,"*Additional Setp:* Place a Combo token on the Maul space of the Combo track. After resolving a Combo or Combo Break, move the token clockwise to the next space.\n*Combo:* After resolving the first AI card in a Round, perform @WoO *Combo:* Draw and resolve another AI card.\n<Reaction> *Combo Break:* A Titan who is *not the* @PriorityTarget Priority Target, and has @Gear with a Weapon class indicated by the Combo track, may exhaust this Weapon to break the Combo. The Titan must be within this Weapon's effective range. It gains the @PriortyTarget token.\n*Note:* @Rage gain doesn't trigger @PriorityTarget change"
+Built for Eternity,The Endless Staircase has 18 spaces
+Built to Be Broken,"Each time you fail to wound, lock the highest unlocked Endless Staircase tier. All Titans on that Staircase tier die"
+By Any Other Name,The Blackbeak is a Hermesian Pursuer with modified attributes and Traits as denoted on this card and an additional Flare card. The [Toying|EX3219] and {Tease} Traits are disabled. Permanently remove the [Black-blood Cryptex|AS0581] BP card from its BP deck
+Cackle,"When a Titan becomes adjacent to the Hermesian Pursuer, they gain the [Fear|AL0299] Condition card"
+Candle in the Dark,"If your Light X is lower than the Primordial level divided by 2 (rounding up), Skitter loses @WoO"
 Cannot Hide from the Sun,Titan with the @PriorityTarget Priority Target token cannot be shaded in any way
-God Taken Law,"When an [Irem Tower] is destroyed, each Titan adjacent to it is dealt X @Danger, where X is the number of Towers already removed"
-Make the Sun Move and the Earth Stand Still,"At the end of the Primordial Round, the Old Haunt appears at the closest Sun Circle"
-Spontaneous Supernova,"When the Old Haunt appears at a Sun Circle, all unshaded Titans are incinerated and destroy any Terrain tile that shaded a Titan, even if indestructible"
+Cities of Gold,"When a Terrain tile is displaced as a result of the Midascore's movement, place a generic token on that tile. If a Titan starts or ends their turn on a Terrain tile, they gain 1 Midas token for each generic token on that tile"
+Clever Boy,"Board Edges gain Boundless: they are now high cliffs. If a Titan is moved beyond the edge, they die"
+Contaminated Cuts,<End of Titan turn> Gain @Danger equal to the number of Ambrosia tokens you have
+Crimson Tide,<Start of Primordial Round> Perform Routine
+Critical Mass,"Each time the Chimera gains a Wound on the *Secondary Wound Stack* or you *OoR evade*, place a generic token on this Trait. If there are 3 or more tokens on this Trait, finish resolving the current action, discard all tokens, then draw and resolve the top AI card"
+Curse Carapace,The Demidjinn gains +1 @AT for every [Wishkeen|DL2011] and [Wishagog|DL2011] Condition card in play (but not on dead Titans)
+Danger Sense,"The D letters on the Primordial Diagram mark the Danger Zone spaces. If a Titan moves through or into the Danger Zone during the Titan Round, roll a d10. On a 7+, they manage to get through. Otherwise, tehy immediately stop and the Nietzschean performs Signature against that Titan. Ignore this Trait during a Nietzschean Attack"
+Darkness Comes With Me,"After the Pursuer moves, but before it Attack, every Titan in any of the 2 rows of spaces behind the Pursuer sufferes Unavoidable Knockback 7 (regardless of adjacency)"
+Dealbreaker Stance,"Use this Combo Track instead of the regular one. Sword: Knife, Shield. Fire: Spear, Sword, Cestus. Ambrosia: Club, Axe. Hatred: Whip, Bow, Slabsword"
+Debts of Succession,"Double all Midas token gains. When a Titan dies, after placing half of their Midas tokens on [Incremental Painment|DX3222], distribute the rest of the tokens evenly among all other Titans"
+Deep Cut,<End of Titan Turn> Gain @Danger equal to the number of Bleeding tokens you have
+Deeper Depths,Each Titan starts the Battle with 1 Oxygen token less
+Devour Whole,<Start of Primordial Round> {Consume} all Titans adjacent to the Icarian Harpy
+Digestive Acids,<End of Primordial Round> Each Titan gains as many @Danger as they have Ambrosia tokens
+Dissipate,"Move the Dahaka to the closest [Ambrosia Cloud|DI2031] Terrain tile other than the one it is currently on, so that its base is fully placed on the Terrain tile, then turn it to face the most Titans"
+Djinnian Determination,"When the Demidjinn is about to perform Wish Away, turn it toward the closest Board Edge"
+Djinnian Precision,"Each Wish Away must be performed to the Irem Tower that is exactly X spaces from the Demidjinn, where X is the Wish Away value"
+Doom of the Centimanes,"If you're not adjacent to another Titan, you cannot use @Fate to re-roll your Attack Rolls, Evasion Rolls, and Judgement tests. If you're not adjacent to another Titan and you fully miss an Attack, you die"
+Dragon of the Lightless Void,"You can only use X amount of Opening or Closing tokens from the Kratos Pool. You can only use X amount of Break, Fire, Black, and Hope tokens from the Kratos Pool combined. X is equal to your Light X keyword"
+Dreadnought,"During the Titan Round, Cyclonus can only be Wounded from its Blindspot. Combos can be broken only from the Blindspot"
+Drift,"When the Dahaka performs Drift, it moves through the Target stopping directly across the Target, then turns to face them. If the Dahaka cannot Drift across the Target, it stops adjacent to the Target and the Target dies. If the Dahaka moves through a Titan during Drift, that Titan gains a negative Precision token. Drift does not cause Crash"
+Drifter of Wastes,"The Dahaka ignores Line of Sight. The Dahaka has the following unique movement abilities: {Drift}, {Dissipate}"
+End of Hope,End of Primordial Round: Perform Signature
+Endless Escalator,"When there is at least one Titan in the Endless Staircase, at the start of the Primordial Round, move the lowest segment of the Endless Staircase to the top. Titans on the lowest segment die"
+Endless Staircase,This fight uses the Endless Staircase (see Cycle IV Storybook for details). The Staircase has a number of tiers equal to the Primordial level (max. 4)
+Endless Wish,Every Attack becomes a Wish Attack in addition to its other types
+Enriched Toxins,"Whenever a Titan would gain one or more Ambrosia tokens, they additionally gain 1 Midas token"
+Extinguish Possibilities,"<Start of Primordial Round> Look at the top Trauma card from each deck. If it's positive, remove it from the Battle. If it's negative, leave it on top"
+Extradimensional Trample,"Ignore @WoO preceeding Trample Responses. Treat all Labyrinthauros Movement as having the following ability: If the Labyrinthauros moves through a knocked down Titan, it dies"
+Eye for an Eye,"Each time Cyclonus gains a Wound (a Double Wound is treated as 2 Wounds) or performs an unbroken Combo, place a token on this Trait. If there are 4 or more tokens on this Trait, finish resolving the current action, discard all tokens, then draw and resolve the top AI card"
+Fate of a Debtor,"When a Titan gains Midas tokens, each other Titan gains the same amount of Midas tokens"
+Fate of All Cowards,"When a Titan voluntarily moves away from the Nietzschean, the Nietzschean immediately performs Signature against that Titan"
+Fear is Constant,"<Start of Battle> Chosen Titan gains the [Fear|AL0299] Condition card, another Titan gains the [Terror|EL2596] Condition card, a third one flips 1 Oxygen token"
+Feedback Loop,"Each time you use {Wish Armor} against an AI Attack, place 1 token on the [Wish for a Wish|DX3223] Trait"
+Fissurebuilder,Treat all Labyrinth tiles as Maze Fissure tiles
+Fissures,"*Additional Setup:* Alternate Battle Diagram. If you are playing an Ambush Battle, replace the Labyrinth tiles with Maze Fissure tiles of the corresponding size and shape"
+Flawless,Disable the _All for One_ Trait
+Fleet of Hands,+1 to all Pushbacks and +2 to all Knockbacks performed by the Hekaton
+Flickering Wishes,"Perform the ""Start of Primordial Round"" effect of the Global Wish Trait after every Attack (Demidjinn and Titan) instead"
+Forbidden Alchemy,"When you gain Ambrosia tokens in any way, double the amount gained"
+Friendly Warning,-2 to all Knockbacks performed by the Hekaton
+Gaze of the Void,<Start of Primordial Round (except 1st)> All Titans in front of the Oracle die
+Global Wish,"*Additional Setup:* Take all Global Wish cards with a level that is equal to or lower than the current Demidjinn level, shuffle them, and place them face up on the Global Wish stack. <Start of Primordial Round (ignore during the first round)> Place the top card from the Global Wish stack in the Active Global Wish space, discarding any card that was already on it. Then, if there are no cards on the Global Wish stack, shuffle all discard Global Wish cards and place them face up on the Global Wish stack. If a Global Wish card is on the Active Global Wish space, it takes effect during both the Primordial and Titan Rounds"
+God Among Men,"The Nietzschean performs his Round after 2 Titan turns. Then the other 2 Titans go, then the Nietzschean, then the players can rearrange their playing order"
+God Given Law,Ignore @WoO preceding _Merciless Sun_
+God Taken Law,"When an [Irem Tower|DI2028] is destroyed, each Titan adjacent to it is dealt X @Danger, where X is the number of Towers already removed"
 Gods Don't Look Back,Titans attacking from the Blindspot have an additional +1 Precision
+Goldtaste,Argonauts with the Goldthirst Curse Affliction must apply all @Fate+ or @Midas+ effects regardless of their actual @Fate or @Midas
+Head to Head,You cannot attack the Hermesian Pursuer unless you're adjacent to it
+Headhunter,"If you have a Cryptex, resolve your Trauma Draw as if you crossed the next threshold on your Trauma Table (or Massive Danger chart). Each Time a Titan dies, the Hermesian Pursuer performs Heal (if possible)"
+Heat Death,Primordial doesn't destroy [Petrified Vent|EI2606] Terrain tiles it moves through. Primordial's Crash causes incineration
+Heavenward,"When you are instructed to create an Irem Tower, place it on any empty Battle Board space not adjacent to any other Terrain tile.\nWhen you are instructed to remove an Irem Tower, remove an Irem Tower Terrain tile closest to the Babelian Lunacy"
+Hyperaggression,Add +1 to all Pushbacks and Pulls and +2 to all Knockbacks performed by the Cyclonus
+Hypertimefront,"Level 3: When the Timefront moves, it moves 4 spaces forward instead.\nLevel 4+: When the Timefront moves, it moves 5 spaces forward instead"
+Ice Age,Treat every Battle Board space as if it had the {Slippery} keyword
+Icecapade,"Disable abilities that allow to treat Slippery tiles as one tile. If you end the Primordial Round or your Titan turn on a Slippery space, move towards the lowest colu,m until you are no longer on a Slippery space. *Additional Setup:* Alternate Battle Diagram"
+Imminent Destruction,"<End of Titan turn> If you didn't Attack this turn, resolve the top AI card"
+Imperial Impetus,"*Imperial Impetus:* The Midascore moves X spaces in a straight line. X is equal to 7 + the Primordial LVL (max. 11). If the Midascore moves through or ends its move on a knocked down Titan, that Titan draws an Obol. When a Titan suffers Crash as a result of Imperial Impetus, they additionally gain 1 Midas token."
+Imperial Leap,"This Trait replaces the {Imperial Impetus} Trait and the effects of the {Imperial Impetus} keyword. *Imperial Impetus*: Place an [Ambrosia Cloud|DI2031] Terrain tile beneath the Nosoi Dragon. The Nosoi Dragon moves onto the [Irem Tower|DI2028] Terrain tile in front that is at least 11 spaces away from it. Then, all Titans in Zone 2 from the Nosoi Dragon gain 1 Ambrosia token and draw an Obol. This movement does not cause Crash. If the Nosoi Dragon cannot perform Imperial Impetus, move it onto the closest Ambrosia Cloud (if able) and perform Routine"
+Incorpreal Wraith,The Dahaka can only be Wounded by Interrupt Attacks. Always use the higher @AT value of the BP cards
+Insatiable Pull,"<End of Primordial Round> Pull each Titan X spaces, where X is the number of Ambrosia tokens they have. If you are pulled adjacent to the Chimera and the Pull value was not lowered to 0, instead of continuing the Pull, you are Absorbed"
+Invisible Flame,"When you climb the VP, and when you start your turn on the VP, gain 1 Ambrosia token and 1 Pain token"
+Labyrinth X,*Additional Setup:* Place a Labyrinth token on the topmost space of the Labyrinth track.\n{Labyrinth X}
+Land That Knows Nothing of the Sea,"When you gain [The Oar|DZ2585] card, immediately flip it"
+Layover,<Start of Titan Round> The Titan with the most @Fate is moved to the [Omega Terminus|CR1365]
+Leleges Spin,"<Start of Primordial Round> Place one generic token on this Trait. Signature becomes a Zone Attack performed in Zone X, where X is the number of tokens on this Trait"
+Light is Dimming,"If you don't have any {Light X} keyword, you are always considered to be attacked from behind"
+Lightspeeder,Ignore @WoO preceeding Move and Attack instructions
+Living Fortress,You can only Wound the Chimera from a VP or when Absorbed
+Living Tornado,"The Demidjinn ignores Line of Sight. It does not destroy Terrain tiles, unless stated otherwise"
+Loss of Liquidity,"Each Midas token on a non-Weapon @Gear lowers your @Speed and Hermes Move by 1. If you don't move during your Titan turn, you die"
+Magnifying Glass,"All VPs becomes unshaded. After a Titan fails a Hold On test, perform Signature against that Titan"
+Make the Sun Move and the Earth Stand Still,"At the end of the Primordial Round, the Old Haunt appears at the closest Sun Circle"
+Maze Hyperactive Armor,All BP cards without a Wound Response gain: Wound: @WoO {Trample}
+Maze Reactive Armor,"All BP cards without a Fail Response gain: Fail: Gain +1 @Danger. Labyrinthauros turns towards the Attacker, Labyrinth 1"
+Maze Reconfiguration,"When Temenos is instructed to place a Labyrinth tile under a Titan that is already on a Labyrinth tiles, that Titan draws an Obol instead"
+Mazebuilder,"After performing Trample from a Response, immediately perform Labyrinth 1"
+Mazesense,"Labyrinth tiles do not block this Primordial's Line of Sight. Argonauts with the Mazetouched Affliction must apply all @Fate X+ banner effects, regardless of their actual @Fate"
+Megaton,"After End of Hope, draw and perform another AI card"
+Merciless Sun,<Start of Primordial Round> Perform [Merciless Sun]
+Metamorphosis,"The Chimera's physical state is indicated by the last wounded BP card. At the start of Battle, the Chimera has no state. When you deal a Wound, move the State token to the state designated on that card.\n*Gelatinous:* If attacked with a Weapon other than _Club, Cestus, Slabsword_, or _Shield_, the Chimera has +1 @AT.\n*Supersolid:* If attacked with a _Club, Cestus, Slabsword_, or _Shield_ Weapon, the Chimera has +1 @AT.\nLevel 4+: +2 @AT instead.\n*Corrosive:* After you resolve a successful Attack (at least 1 hit), if your Weapon is not _Stone, Relief, Divine, Hephaestum, Cyclopean, Mythic_, or _Electrum_, exhaust it and gain @Danger equal to the Chimera LVL"
+Microwave Shield,"Before performing an Attack Roll, for each space between you and the Primordial, discard 1 token from the Kratos Pool"
+Moirai Vault,"Place stolen @Gear, Mnemos cards, and @Progress tokens on this Trait, note stolen Mnemos nodes, Game elements placed here cannot be used in any way. If you do not reclaim them until the end of Battle, they are permanently lost. If you Wound a Fateless Eye BP, instead of dealing a Wound, you may take 1 thing from the Moirai Vault. Then discard the BP card and gain +1 @Fate"
+Mothwing Trance,"If you're in front of the Pursuer, you cannot re-roll your Attack Rolls, Evasion Rolls, and Judgement tests"
+Mountain of Madness,Treat the Cliffs marked as red on the diagram as Boundless Board Edges
+Nap of the Vent,Primordial destroys [Petrified Vent|EI2606] Terrain tiles it moves through
+Nemesis Vow,"When you are about to draw a Flare card, each Titan gains 1 Ambrosia token"
+No Missed Chances,"When a Titan performs a Full Evade or reduces all @Danger from an Attack to 0, perform Signature"
+No Quarter,"If a Titan has to resolve an Obol Draw, they die instead"
+Not Yet,Disable Rewind. Cycle II only
+Omega Terminus,"*Additional Setup:* Place the [Omega Terminus|CR1365] Status card near the Primordial Sheet. Instead of the normal effect, a Titan that suffers Crash is immediately moved onto that card"
+Once Upon a Time,"Each time the Oracle consumes a Time Anchor or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait. After resolving the current action, when there are 4 or more tokens on this Trait, discard all tokens, then draw and resolve the top AI card"
+One Fool at a Time,"When a Titan enters the Endless Staircase, the Staircase Entrance disappears!"
+Original Trench,Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the {Chasm} keyword. All other Terrain is considered {Elevated}
+Overclocked,Ignore @WoO preceding Laser Attacks
+Pale Grin of Death,"When you are attacked from behind, ignore the Evasion Roll. You are immediately devoured (dead)"
+Pale Grin of Doom,"When you are attacked from behind, ignore the Evasion Roll; the Attack automatically hits with all the dice"
+Perfection,<End of Titan Round> Place an additional generic token on top of any Rapid Adaptation Token on the Icarian Adaptation Board. This Adaptation token cannot be moved or removed until the end of Battle
+Pollution Aura,"Each Titan starts the Battle with 1 Oxygen token. If a Titan ends their turn in Zone 2 from the Nosoi Dragon, they discard 1 Oxygen token and gain 1 Ambrosia token. If, at any point, you must discard an Oxygen token and you don't have any, you die. Note; Do not use Cycle V Oxygen token rules"
+Primordial Plasma,"From now on, if there are no Wound cards in the Wound Stack or the last card is a Single of Double Wound, the Chimera's state is *Plasmous*\n*Plasmous:* If attacked with a Weapon other than _Primordial, DIvine, Mythic_, or _Eldertech_, the Chimera has +2 @AT and you exhaust your Weapon after resolving this Attack"
+Psychosomatic Poisoning,"When you gain a Condition card, and each time you start your turn with a Condition card, gain 1 Ambrosia token"
+Quantum Eye,"If you reveal a BP card with this open-eyed symbol as a result of a card or an ability effect (not during a normal BP Draw), gain @Fate equal to the BP card's level. *This is a Permanent Rule: From now on, this Trait is added to every Battle in the game, regardless of the Primordial or Cycle! Even to new campaigns!*"
+Quantumfront,"When the Timefront moves, it moves 6 spaces instead"
+Ram of Fists,Disable all @WoO preceding Knockbacks
+Refuse Credit,Disable the {Shifting} Keyword on Terrain tiles. The Midascore destroys Irem Towers during movement
+Regurgitate,*Regurgitate:* Place an [Ambrosia Pool|AI0371] Terrain tile beneath the Primordial.\nLevel 2+: Treat all Ambrosia Pools as [Black Glaciers|CI1316]
+Relentless Anxiety,"When the Primordial vanishes, immediately draw an AI card"
+Roost Battle,"Board Edges gain Boundless: they are now high cliffs. If a Titan is moved beyond the edge, they die"
+Rupture Veins,"Instead of the normal Bleeding Build-up, gain as many Bleeding tokens as there are Bleeding tokens on your Titan"
+Ruthless,Remove all positive Trauma cards from the Trauma decks (except Obols)
+Sandstorm Spiral,"*Sandstorm Spiral:* If adjacent to a Target, the Demidjinn moves clockwise around the Target, so that it ends up on four spaces directly across the Target. If the movement is blocked by a Board Edge, the Demidjinn moves 6 spaces directly away from the Target without turning instead"
+Scourge of the Centimanes,All BP cards without a Wound Response gain: Wound: @WoO Pushback 3. Fail: Knockback 5
+Semicorporeal Wraith,"When the special @GoldWoO comes up, a Titan adjacent to the Dahaka may perform an Interrupt Attack. If they do, they gain a @CombatAction Fatigue token. Bonus Attacks are always Interrupt Attacks (but you do not gain the Fatigue token). Chain Break doesn't disable the special @GoldWoO"
+Shackles of Regret,"Apply the following modifiers to all Dahaka Attacks: -1 @d10 and -1 @Danger per hit (minimum 1). As long as this Trait is active, the End of Hope Trait is disabled"
+Shadow and the Flame,"Attacks that don't normally deal Ambrosia, deal 1 Ambrosia token"
+Shadow Backstep,"When the Dahaka Shadowsteps through the Board Edge, the Dahaka performs {Heal}"
+Shadow in the Skies,"The Midascore ignores Line of Sight. During movement it does not destroyt Terrain tiles, unless stated otherwise"
+Shadowstep X,"The Dahaka moves X spaces directly away from the Target, without turning. If it would move past the Board Edge, it appears on the other side of the Board in a straight line from its previous position and continues the movement in the same direction"
+Sisyphus's Spiral,"When the Burden moves adjacent to its Target, if it is not above the Target (i.e. isn't positioned in solely higher-numbered columns than the Target), it swivels clockwise around the Target, so that it ends up on the four spaces directly above the Target. If the movement is blocked by the Board Edge, the Burden moves onto the Target's space instead and the Target is Displaced onto a lower space adjacent to the Burden (this may results in being displaced 2 spaces!)"
+Slippery Slope,+3 to all Kickbacks performed by the Burden
+Snail of Nothing,"Each time Temenos gains a Wound, it gains 1 positive @AT token. Next time you resolve an AI card, discard all of the @AT tokens and add that many @Danger to the @Danger dealt by that Attack"
+Song of Great Fear,"Each time you gain a Despair token, you also gain the [Fear|AL0299] Condition card"
+Soulrend,Lose 1 Mnemos node from every Mnemos
+Soundspeed Impetus,"If the Midascore moves through or ends it move on a knocked down or floating Titan, that Titan dies"
+Splash,"When a Titan suffers Crash as a result of Primordial movement, they additionally gain 1 Ambrosia token"
+Spontaneous Supernova,"When the Old Haunt appears at a Sun Circle, all unshaded Titans are incinerated and destroy any Terrain tile that shaded a Titan, even if indestructible"
+Starfish,"<Start of Primordial Round> If the Hekaton is adjacent to 2 or more Titans, all of those Titans suffer Knockback 5"
+Stay Your Hand,Each Nietzschean Attack does 1 @Danger less
+Sunken Costs,<End of Primordial Round> Gain @Danger equal to the number of Midas tokens you have
+Supersonic Punch,"If you are pushed into an Obstacle, you die. *Additional Setup:* Alternate Battle Diagram, see Mnestis Battle Diagrams in the Rulebook"
+Symphony of Despair,<Start of Titan Turn> Gain 1 Despair token
+Temporal Ruthlessness,"If you draw a positive Trauma card or an Obol, ignore it and draw again (once per Draw)"
+Tentacled Monstrosity,+3 to all Pulls performed by the Harpy
+The Dragon Does Not Sleep,"*Additional Setup:* Place a Combo token on the Cleaver space of the Combo track. After resolving a Combo or Combo Break, move the token clockwise to the next space.\n*Combo:* Dahaka AI card cannot be Interrupt Attacked, unless you perform a Combo Break.\n@WoO *Combo Break:* A Titan who is not the @PriorityTarget PriorityTarget and has a @Gear with a Weapon class indicated by the Combo track may exhaust this Weapon to break the Combo. The Titan must be within this Weapon's effective range. They gain the @PriorityTarget token. *Note:* @Rage gain doesn't trigger @PriorityTarget change"
+The Game is Rigged,"If a Titan ends their turn with the [Sisyphean|BL0673] Condition, they die. <End of Primordial Round> Burden performs Heal"
+The Last,"*Battle Setup:* Place the special [AI 0|DR2456] card at the bottom of the AI deck. It is never shuffled or discard. *After Escalation:* If the top AI card is not an AI IV or AI 0, discard it (once per Escalation)"
+The Strong Eat,*Additional Setup:* Add 1 _You died_ Obol to the Obol deck
+Thread Lightly,"If you fail an Ascent Check, draw an Obol"
+Three Point Six,"When a Titan becomes adjacent to the Chimera, they gain 1 Ambrosia token. When a Titan is Absorbed, they immediately gain 1 Ambrosia token. When a Titan ends their turn on a VP, they gain 1 Ambrosia token"
+Three Seconds,Ignore @WoO preceding Microwave Attacks
+Ties That Bind Us,"Titans can involuntarily moved outside the Tethered limit. If at any point a Titan is outside the Tethered limit, it treats all spaces as Chasms until it returns within the limit"
+Tigerback,"To leave the VP voluntarily, you need to pass a Climb Down test (same difficulty as the Climb test)"
+Timefront Beckons,"<Start of Battle> Place the Timefront tiles on the bottom column (1). <End of Titan Round> @WoO Move the Timefront 3 spaces up (towards the highest column). If the Timefront moves onto a space occupied by a Titan, this Titan is erased from existence. If the Timefront moves onto a space with a Terrain tile, this tile is destroyed (unless Indestructible). When the Timefront is about to move onto a space occupied by the Primordial, move the Primordial directly away from the Timefront to enable full Timefront movement"
+Total Eclipse,Treat every Battle Board space as if it had the {Chasm} keyword
+Tower of Madness,"At the start of the Battle, the Endless Staircase and all VPs are locked, which means you cannot enter them in any way. Each Wound you deal from outside the Endless Staircase unnlocks an Endless Staircase tier up to the current Battle's tier limit. When all tiers are unlocked, you start to unlock VPs.\nYou can only wound a BP III card from a VP"
+Trample,{Trample}
+Trigger Happy,The Signature becomes [Trigger Finger|CV1800] (you know which one)
+True Babylon,"<Start of Battle> Each player chooses a different language. For the duration of the Battle, they can only speak in their chosen language. For each word spoken in a different language, they gain +1 @Fate"
+Truth or Death,"Before performing a Scan, declare if the Primordial is there. If you are not correct, after resolving the Scan, draw an Obol"
+Unbeatable Guard,"During the Titan Round, Cyclonus cannot be Wounded from the front and Combos cannot be broken from the front. Ignore this Trait during a Cyclonus Attack"
+Unholy Inflation,"When you are about to suffer Knockdown, if you have 3+ MIdas tokens, suffer Float instead. When you are about to suffer Float, if you have the Windblight Curse Affliction, you die instead"
+Unworthy Will Die,"At the end of the Primordial Round, the Old Haunt destroys the closest [Irem Tower|DI2028]"
+Vanish X,"Move the Primordial X spaces towards the closest Board Edge, without turning, ignoring Board Edges directly across from the Target or attacking Titan. If thes would move the Primordial beyond a Board Edge or outside of all ranges of light, it disappears. When the Primordial is outside the Battle Board, it cannot be affected in any way"
+Voracious Bog,"During the Primordial Round, Ambrosia Pools and Ambrosia Trails have the {Chasm} keyword. If a Titan ends their turn on an Ambrosia Pool or Ambrosia Trail tile, they die, consumed by the living abyss"
+Voracious Parasite,The Hypertime Oracle consumes all Time Anchors it moves through and all Time Anchors it is adjacent to at the end of the Primordial Round. Remove consumed Time Anchors from the Battle Board
+Weapon Master,"*Additional Setp:* Place a Combo token on the Sword space of the Combo track. After resolving a Combo or Combo Break, move the token clockwise to the next space.\n*Combo:* After resolving the first AI card in a Round, perform @WoO *Combo:* Draw and resolve another AI card.\n<Reaction> *Combo Break:* A Titan who is *not the* @PriorityTarget Priority Target, and has @Gear with a Weapon class indicated by the Combo track, may exhaust this Weapon to break the Combo. The Titan must be within this Weapon's effective range. It gains the @PriortyTarget token.\n*Inevitable:* If the Nietzschean has 6+ Wounds, Sword Combos cannot be broken. If the Nietzschean has 10+ Wounds, Fire Combos cannot be broken.\n*Note:* @Rage gain doesn't trigger @PriorityTarget change"
+Weight of Greed,"When a Titan with Midas tokens dies, place half of their Midas tokens (rounding up) on the [Incremental Painment|DX3222] Trait"
+Win Together Die Alone,"<Start of Titan Turn> If you're not adjacent to another Titan, gain +2 @Danger and +2 @Fate"
+Winnowing,"Remove the [Fearful Hospitality|DZ2584] card and add the [Trojan Ire|DZ2589] and [The Oar|DZ2585] cards to the Battle (See Cycle IV Storybook, pg. 171)"
+Wish Away,"When the Primordial performs Wish Away, it performs Wish Away X, where X is 8 + the Primordial level (max. 12)"
+Wishtanglement,"When you gain a [Wishkeen|DL2011] or [Wishagog|DL2011] Condition card, every other Titan gains the same Condition card"
+Worm of the Labyrinth,Temenos can only be attacked from the white spaces marked on the diagram or the VP

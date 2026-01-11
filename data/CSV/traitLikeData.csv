@@ -1,20 +1,52 @@
-Card ID,Name,Reverse Name,Game,Card Type,Cycle,Card Size,Used For,BP Level,Effect Text,FAQ,Errata
-AS0503,Gaze Of Temenos,,Odyssey,Trap,Cycle I,Standard,Labyrinthauros,III,"Test Endurance (8+). Fail: Gain +3 @Danger, +3 @Fate and the [Dread|AL0299] Condition card. Then remove this card from the deck and draw another BP card.
+Card ID,Name,Reverse Name,Game,Card Type,Actual Type,Cycle,Card Size,Used For,Found In,Card Level,Flavor,Effect Text,FAQ,Errata
+AR0413,Idle Hands,Cow Toss,Odyssey,Trait-like,Routine,Cycle I,Standard,Hekaton,,X,Devil's playthings,Argo loses -1 @Crew,,
+AR0413,Cow Toss,Idle Hands,Odyssey,Trait-like,Routine,Mnestis Theatre,Standard,Hekaton,,X,,"Furthest Titan suffers {Knockdown}, raise @Danger to 9, and draws an Obol. Hekaton moves adjacent to Closest Titan with Unlimited @Speed",,
+AR0483,The Call,Home Run,Odyssey,Trait-like,Routine,Cycle I,Standard,Labyrinthauros,,X,Labyrinthauros pauses to sing the song of surrender. Many listen,Argo loses -1 @Crew,,
+AR0541,Contract,Contract Will,Odyssey,Trait-like,Routine,Cycle I,Standard,Alpha Temenos,,X,"Temenos's body contracts, becoming an impenetrable shell",Temenos gains 1 postiive @AT token. Discard this token after the next Temenos attack,,
+AR0541,Contract Will,Contract,Odyssey,Trait-like,Routine,Mnestis Theatre,Standard,Alpha Temenos,,X,"Temenos's body contracts, becoming an impenetrable shell",Each Titan gains 1 Despair token. Temenos gains 1 postiive @AT token. Discard this token after the next Temenos attack,,
+AR0601,Eyes On The Prize,Final Judgement,Odyssey,Trait-like,Routine,Cycle I,Standard,Hermesian Pursuer,,X,The Pursuer remembers why it came here,Pursuer moves to the center of the Board and turns to face the most Titans. Lose -1 @Crew and -1 @Hull,,
+AR0602,Ambrosia: Harrow,,Odyssey,Trait-like,Flare,Cycle I,Standard,Hermesian Pursuer,,F,,"Each Titan gains as many @Fate as they have Ambrosia tokens. If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature",,
+AR0603,Ambrosia: Burnout,,Odyssey,Trait-like,Flare,Cycle I,Standard,Hermesian Pursuer,,F,,"Each Titan gains as many @Danger as they have Ambrosia tokens. If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature",,
+AR0604,Ambrosia: Stain,,Odyssey,Trait-like,Flare,Cycle I,Standard,Hermesian Pursuer,,F,,"Each Titan assigns all of their Ambrosia tokens to their Titan Sheet, Kratos Table, or to any of their @Gear or Mnemos cards (up to 1 token on each element). Treat these elements' ability text as blank. These Ambrosia tokens still count towards the Ambrosia Limit. If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature",,
+AR0605,Ambrosia: Drain,,Odyssey,Trait-like,Flare,Cycle I,Standard,Hermesian Pursuer,,F,,"If there are 3+ Ambrosia tokens in total on all Titans, the Pursuer performs Heal. If this ability didn't trigger, Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature",,
+AS0503,Gaze Of Temenos,,Odyssey,Trait-like,Trap,Cycle I,Standard,Labyrinthauros,,III,,"Test Endurance (8+). Fail: Gain +3 @Danger, +3 @Fate and the [Dread|AL0299] Condition card. Then remove this card from the deck and draw another BP card.
 The will beyond wills looks into your heart and finds only fear.
 ",,
-BS0822,Absorbed,,Odyssey,Status,Cycle II,Standard,Chimera Metastasios,,"When you are Absorbed, place your Titan here. As long as you are Absorbed, you cannot move (voluntarily or involuntarily) and you attack as if you were on a VP.
+BR0744,Infuriating Roar,Infuriating Roar,Odyssey,Trait-like,Routine,Cycle II,Standard,Cyclonus,,X,,Each Titan gains +2 @Danger and +1 @Rage. Lose -1 @Refugees. @WoO Cyclonus moves to center of the Board,,
+BR0744,Infuriating Roar,Infuriating Roar,Odyssey,Trait-like,Routine,Cycle II,Standard,Cyclonus,,X,,Each Titan gains +3 @Danger and +2 @Rage. WoO Cyclonus moves to center of the Board,,
+BR0800,Terrorize,Snakes And Ladders,Odyssey,Trait-like,Routine,Cycle II,Standard,Chimera Metastasios,,X,,All Titans on Vantage Points suffer Displacement onto a Rear space and Knockdown. Lose -1 Humanity,,
+BR1130,Imposter's Gaze,,Odyssey,Trait-like,Routine,Cycle II,Standard,The Burden,,X,,"Steal 1 Mnemos node from each Titan.\nLose -1 @Progress token from the current Story card. If there are no @Progress tokens on the current Story card, gain +2 @Doom instead.\n@WoO Burden moves to the center of the Board",,
+BS0822,Absorbed,,Odyssey,Trait-like,Status,Cycle II,Standard,Chimera Metastasios,,X,,"When you are Absorbed, place your Titan here. As long as you are Absorbed, you cannot move (voluntarily or involuntarily) and you attack as if you were on a VP.
 *Indigestion*: If there are any Absorbed Titans, when the Chimera suffers a Secondary Stack Wound, place 1 generic token under each Titan miniature here. Then, if there are 2 or more generic tokens under a miniature, that Titan is regurgitated! Place their miniature on an empty space adjacent to the Chimera.
 <End of Titan Round> Each Absorbed Titan gains 1 Ambrosia token and draws an Obol. Discard all generic tokens under the Absorbed Titans.
-[Zeus] Godform has +1 @Power when Absorbed.
+[Zeus|AQ0386] Godform has +1 @Power when Absorbed.
 If you are ever Absorbed while being Absorbed, you die.
 <End of Battle> Each still Absorbed Titan resolves the _Bellynaut_ Special Event",,
-CR1365,Omega Terminus,,Odyssey,Status,Cycle III,Standard,Hypertime Oracle,,,,
-DR2415,Impaled,,Odyssey,Status,Cycle IV,Standard,Midascore,,,,
-AR0602,Ambrosia: Harrow,,Odyssey,Flare,Cycle I,Standard,Hermesian Pursuer,,,,
-AR0603,Ambrosia: Burnout,,Odyssey,Flare,Cycle I,Standard,Hermesian Pursuer,,,,
-AR0604,Ambrosia: Stain,,Odyssey,Flare,Cycle I,Standard,Hermesian Pursuer,,,,
-AR0605,Ambrosia: Drain,,Odyssey,Flare,Cycle I,Standard,Hermesian Pursuer,,,,
-BR0744,Infuriating Roar,Infuriating Roar,Odyssey,Routine,Cycle II,Standard,Cyclonus,,Each Titan gains +2 @Danger and +1 @Rage. Lose -1 @Refugees. @WoO Cyclonus moves to center of the Board,,
-BR0744,Infuriating Roar,Infuriating Roar,Odyssey,Routine,Cycle II,Standard,Cyclonus,,Each Titan gains +3 @Danger and +2 @Rage. WoO Cyclonus moves to center of the Board,,
-BR0800,Terrorize,Snakes And Ladders,Odyssey,Routine,Cycle II,Standard,Chimera Metastasios,,All Titans on Vantage Points suffer Displacement onto a Rear space and Knockdown. Lose -1 Humanity,,
-AR0483,The Call,Home Run,Odyssey,Routine,Cycle I,Standard,Labyrinthauros,,,,
+CR1343,In Media Res,,Odyssey,Trait-like,Attack,Cycle III,Standard,Hypertime Oracle,,0,,"Starting from the lowest @Fate and continuing in ascending order, Titans must draw and resolve a Minor, Major, and Grave Trauma (one card per Titan). Then remove this card from the Battle and draw another AI card. This card never escalates",This card cannot be chain broken,
+CR1364,Skip Timeline,,Odyssey,Trait-like,Routine,Cycle III,Standard,Hypertime Oracle,,X,,The Oracle moves 4 spaces towards the Timefront (stop if adjacent). Escalate 1. Gain +1 @Doom,,
+CR1365,Omega Terminus,,Odyssey,Trait-like,Status,Cycle III,Standard,Hypertime Oracle,,X,,"While on this card, during your turn, you can only unexhaust and/or attack.\nIf you deal a Wound, place your Titan on a space adjacent to the Timefront in a straight line from the Oracle. If you fail to Wound, ignore responses.\nAt the end of your turn, if you're still in the Omega Terminus, you are erased from existence.\nZeus Godform gains +1 @Power here",,
+CR1714,Icarian Shriek,,Odyssey,Trait-like,Routine,Cycle III,Standard,Icarian Harpy,,X,,Each Titan suffers {Bleeding 3},,
+DR2414,Auric Storm,,Odyssey,Trait-like,Routine,Cycle IV,Standard,Midascore,,X,,Lose -1 @Crew. Each Titan gains 2 Midas tokens and 2 Ambrosia tokens,,
+DR2415,Impaled,,Odyssey,Trait-like,Status,Cycle IV,Standard,Midascore,,X,,"If you become Impaled, place your miniature on this card. During your turn you can either try to Get Free or attack. You can only use Melee Weapons. %Wound% If you deal a Wound, in addition to normal responses, create a VP (you stay Impaled)!\n*Get Free!:* @CombatAction Test @Endurance Endurance or @Fury Fury (9+). If you succeed, Displace.\n*End of your turn:* If you start your turn Impaled, {Midas 2}, then gain X+5 @Danger, where X is the number of Midas tokens you have, then resolve a Trauma Draw",,
+DR2453,The Last Wish,,Odyssey,Trait-like,True Wish,Cycle IV,Standard,Demidjinn,,IV,,All Titans die,,
+DR2455,Wish Dissonance,,Odyssey,Trait-like,Routine,Cycle IV,Standard,Demidjinn,,X,,Lose -1 @Crew and -1 @Hull. Random Titan dies,,
+DR2456,The Last Wish,,Odyssey,Trait-like,True Wish,Cycle IV,Standard,Demidjinn,,0,,*Start of Battle (Level 4+):*\nPlace this card at the bottom of the AI deck and never shuffle or discard it.\n\nAll Titans die,,
+DR2495,Total Lunacy,,Odyssey,Trait-like,Routine,Cycle IV,Standard,Babelian Lunacy,,X,,*Staircase:* Disappears!\nRandom Titan dies,,
+ER3042,Churning Black,,Odyssey,Trait-like,Routine,Cycle V,Standard,Dragon of Phobos,,X,,Each Titan discard 1 Oxygen token and a @Gear card with the highest Ligh tX keyword. Then the Dragon of Phobos disappears (remove it from the Battle Board),,
+ER3081,Black Immolation,,Odyssey,Trait-like,Routine,Cycle V,Standard,Meduketos,,X,,"Each Titan discards 1 Oxygen token, suffers {Burn}, and gains 1 Ambrosia token",,
+ER3121,Argo Burns,Coming of Darkness,Odyssey,Trait-like,Routine,Cycle V,Standard,Ur-Fleece,,X,,Lose -1 @Hull. Move Ur-Fleece 6 spaces on the Abyss Track,,
+ER3121,Coming of Darkness,Argo Burns,Odyssey,Trait-like,Routine,Mnestis Theatre,Standard,Ur-Fleece,,X,,All Titans gain the [Terror|EL2596] Condition card. {Black March}. @WoO Black March,,
+ER3141,Aether Suck,,Odyssey,,Attack,Cycle V,Standard,Blackbeak,Envelope Beta,F,,"Remove all Aether tokens from each Titan. For every 4 tokens removed this way, perform Signature. If this ability didn't trigger, Blackbeak moves to the center of the Board, turns to face the most Titans, and performs AI",,
+ER3165,Eyes on the Gleaming Prize,,Odyssey,Trait-like,Routine,Cycle V,Standard,Titan X,,X,,Titan X moves to the closest Board Edge; move all Titans 8 spaces in the opposite direction. Titan X turns to face the most Titans. Lose -1 @Crew and -1 @Hull,,
+ER3166,Unreadable,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"As long as this Feint is in play, draw AI and BP cards form the bottom of the appropriate deck (and not the top). When you wound a BP III, after performing Escalation, shuffle the BP deck",,
+ER3167,Overstep (I),,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"Shuffle the [Overstep BP I|ES3194] into the BP deck. Then, remove this card from the Feint deck",,
+ER3168,Overstep (II),,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"Shuffle the [Overstep BP II|ES3195] into the BP deck. Then, remove this card from the Feint deck",,
+ER3169,Riposte,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"As long as this Feint is in play, all your Attacks gain: ""*Full Miss:* Titan X performs Signature against the Attacker.""",,
+ER3170,Met Your Match,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"As long as this Feint is in play, all your Attacks gain: ""*Full Miss:* {Pain X}, where X is the top BP card's level""",,
+ER3171,No Rules,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"As long as this Feint is in play, and you're in front of Titan X, ignore Opening and Closing tokens",,
+ER3172,Blinding Lights,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"When this Feint is drawn, Titan goes for the _Argo_. Immediately discard 1 random Argo Ability from the Battle",,
+ER3173,Mind Games,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"When this Feint is drawn, clear the Kratos Pool and place this card in the Kratos Pool. Then, the next time you would place tokens in the Kratos Pool, don't, but discard this card instead.\nIf this card was drawn as an effect of the AI 0, discard it and draw again",,
+ER3174,Feint Injury,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"When this Feint is drawn, {Heal 1}. Then remove this card form the Feint deck. If this card was drawn as an effect of the AI 0, discard it and draw again",,
+ER3175,Junction Seizure,,Odyssey,Trait-like,Feint,Cycle V,Standard,Titan X,,X,,"When this Feint is drawn, if all Titans have 10+ Pain tokens combined, discard those tokens. Every Titan gains as much @Danger as they discard Pain tokens. If the Titans don't have 10+ Pain tokens, every Titan gains 2 Pain tokens instead",,
+ES3194,Overstep,,Odyssey,Trait-like,BP,Cycle V,Standard,Titan X,,I,,"If you rolled a Crit Chance, immmediately end this Attack and discard this card. Otherwise, Chain Break. Then, Titan X immediately performs AI against you. Then, remove this card from the deck",,
+ES3195,Overstep,,Odyssey,Trait-like,BP,Cycle V,Standard,Titan X,,II,,"If you rolled a Crit Chance, immmediately end this Attack and discard this card. Otherwise, Chain Break. Then, Titan X immediately performs AI against you. Then, remove this card from the deck",,

@@ -56,11 +56,11 @@ def condition_row(row):
         "subtitle2": row["Reverse Subtitle"],
         "side": {
             "effect": row["Primary Effect A"],
-            "resolution": row["Resolution Effect A"],
+            "abilities": row["Abilities A"],
         },
         "side2": {
             "effect": row["Primary Effect B"],
-            "resolution": row["Resolution Effect B"],
+            "abilities": row["Abilities B"],
         },
     }
 
@@ -196,7 +196,7 @@ def gear_row(row):
 
     return card_json
 
-def godform_row(row):
+def godform_row(row):    
     card_json = {
         "power": row["God Power"],
         "speed": row["Speed Bonus"],
@@ -300,7 +300,7 @@ def primordial_row(row):
             "climbTest": {
                 "stat": row["VP Climb Test"].split(" ")[0],
                 "difficulty": row["VP Climb Test"].split(" ")[1][0]
-            },
+            } if row["VP Climb Test"] else {},
             "holdOn": {
                 "test": row["VP Hold On"],
                 "fail": row["VP Hold On Fail"]
@@ -325,11 +325,12 @@ def primordial_row(row):
                     })
 
             traits = details[4].split(", ")
-            for trait in traits:
-                if trait[0] == "-":
-                    traits_list.remove(trait[1:])
-                else:
-                    traits_list.append(trait)
+            if traits[0] != '':
+                for trait in traits:
+                    if trait[0] == "-":
+                        traits_list.remove(trait[1:])
+                    else:
+                        traits_list.append(trait)
 
             levels_json.append({
                 "level": str(i),
@@ -396,7 +397,6 @@ def productionFacility_row(row):
         "flavorProject": row["Flavor (Project)"],
         "requirements": row["Requirements"].split(", ") or [],
         "leadsTo": row["Leads To"].split(", ") or [],
-        "flavorTech": row["Flavor (Tech)"],
         "facilityName": row["Facility Name"],
         "recipes": parse_recipes(row["Recipes"]),
     }
@@ -468,13 +468,10 @@ def titan_row(row):
 
 def trait_row(row):
     card_json = {
-        "name2": row["Reverse Side"],
         "effects": parse_abilities(row["Effects"]),
     }
 
     if row["Primordial"]: card_json["primordial"] = row["Primordial"]
-
-    if not card_json["name2"]: card_json.pop("name2")
 
     return card_json
 

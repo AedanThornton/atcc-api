@@ -1,6 +1,267 @@
 [
   {
     "cardIDs": [
+      "AQ0386"
+    ],
+    "name": "Zeus",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+2",
+    "stats": "+2 Precision",
+    "keywords": [
+      [],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "Instant Transmission",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, if your Total Power surpassed"
+                },
+                {
+                  "type": "icon",
+                  "value": "AT"
+                },
+                {
+                  "type": "plainText",
+                  "value": "by 3 or more, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to ignore Responses, resolve the rest of the attack sequence, then"
+                },
+                {
+                  "type": "keyword",
+                  "value": "Pushback 5"
+                },
+                {
+                  "type": "plainText",
+                  "value": ","
+                },
+                {
+                  "type": "keyword",
+                  "value": "Vault"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", and perform a"
+                },
+                {
+                  "type": "bold",
+                  "value": "Bonus Attack!"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "God of Thunder",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Perform an Attack with your Lightning!"
+                },
+                {
+                  "type": "keyword",
+                  "value": "Ranged 3-9"
+                },
+                {
+                  "type": "plainText",
+                  "value": ","
+                },
+                {
+                  "type": "keyword",
+                  "value": "Pushback X"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", where X is your Total Power during this Attack"
+                }
+              ],
+              "costs": [
+                "ComplicatedAction"
+              ]
+            }
+          ],
+          []
+        ],
+        "attack": {
+          "attackDice": "2",
+          "precision": "+0",
+          "power": [
+            {
+              "type": [
+                "Red",
+                "Red"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AQ0387"
+    ],
+    "name": "Poseidon",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+1",
+    "stats": "+2 Evasion",
+    "keywords": [
+      [],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "Everocean",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Discard all Ambrosia tokens from your Titan Sheet"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot gain Ambrosia tokens"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Water Finds a Way",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Furing movement, ignore Obstacle and Chasm Terrain tiles"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot end voluntary movement on an Obstacle or Chasm"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If you end involuntary movement on an Obstacle or Chasm, place your Titan on the closest empty space instead"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AQ0388"
+    ],
+    "name": "Demeter",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+0",
+    "stats": "+1 @BlackArmorDie",
+    "keywords": [
+      [],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "Roots of the Earth",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot be involuntarily moved or suffer Knockdown (you can still be displaced)"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "She of the Grain",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "Start of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "You may lose up to -2"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "BQ0702"
     ],
     "name": "Hephaestus",
@@ -533,7 +794,11 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "6-7: Your Power die becomes 2"
+                  "value": "6-7: Your Power die becomes"
+                },
+                {
+                  "type": "icon",
+                  "value": "RedPowerDie"
                 },
                 {
                   "type": "icon",
@@ -569,7 +834,11 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "10: Your Power die becomes 2"
+                  "value": "10: Your Power die becomes"
+                },
+                {
+                  "type": "icon",
+                  "value": "WhitePowerDie"
                 },
                 {
                   "type": "icon",
@@ -836,7 +1105,15 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "to perform an Attack with your Finger! Range 3-10,"
+                  "value": "to perform an Attack with your Finger!"
+                },
+                {
+                  "type": "keyword",
+                  "value": "Range 3-10"
+                },
+                {
+                  "type": "plainText",
+                  "value": ","
                 },
                 {
                   "type": "keyword",
@@ -1062,6 +1339,435 @@
                 {
                   "type": "plainText",
                   "value": "After that, a random Titan on the Argo dies"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EQ2637"
+    ],
+    "name": "Zeus Exalted",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 16",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+3",
+    "stats": "+4 Precision",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Bonus Action"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Light 2"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Cryptex Loathing"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "Father of it All",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You canont die from"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Fear",
+                  "refID": "AL0299"
+                },
+                {
+                  "type": "plainText",
+                  "value": ","
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Dread",
+                  "refID": "AL0299"
+                },
+                {
+                  "type": "plainText",
+                  "value": ","
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Terror",
+                  "refID": "EL2596"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", or"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Holy Terror",
+                  "refID": "EL2596"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition cards or Despair tokens"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Childeater",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "and lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Crew"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to ignore Responses and perform a"
+                },
+                {
+                  "type": "bold",
+                  "value": "Bonus Attack"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If you fail to Wound, you die"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AQ0627"
+    ],
+    "name": "Hades",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Envelope H",
+    "faq": "",
+    "errata": "",
+    "power": "Black",
+    "speed": "+0",
+    "stats": "",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "All Things End",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, you may lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to place 1 negative"
+                },
+                {
+                  "type": "icon",
+                  "value": "AT"
+                },
+                {
+                  "type": "plainText",
+                  "value": "token in the Kratos Pool"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Inverted Death",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you would gain any"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", you lose the same amount of"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": "instead (if it was dealt, you still resolve a Trauma Draw)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Once you reach 0"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": ", you begin to gain"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": "as normal (including the remaining"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": "from the effect that lowered your"
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": "value to 0)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When it happens, place a generic token on this ability as a reminder"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Hermes Exalted",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Ultra-secret",
+    "faq": "",
+    "errata": "",
+    "power": "",
+    "speed": "*",
+    "stats": "+2 Precision, +2 Evasion",
+    "keywords": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Bonus Action"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Superior Bypass"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Cryptex Loathing"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "abilities": [
+      {
+        "name": "The Message",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform, triple your Titan's"
+                },
+                {
+                  "type": "icon",
+                  "value": "Speed"
+                },
+                {
+                  "type": "plainText",
+                  "value": "value"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Rearm",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
+                },
+                {
+                  "type": "icon",
+                  "value": "Gear"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "For the duration of this Godform, your"
+                },
+                {
+                  "type": "icon",
+                  "value": "Gear"
+                },
+                {
+                  "type": "plainText",
+                  "value": "cards cannot be exhausted"
+                }
+              ]
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Scion of Hermes",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You may lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Trespass"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to gain d5 Pain and perform an additional"
+                },
+                {
+                  "type": "icon",
+                  "value": "MovementAction"
+                },
+                {
+                  "type": "plainText",
+                  "value": "or"
+                },
+                {
+                  "type": "icon",
+                  "value": "CombatAction"
                 }
               ]
             }

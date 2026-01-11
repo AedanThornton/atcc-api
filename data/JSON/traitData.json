@@ -92,6 +92,255 @@
   },
   {
     "cardIDs": [
+      "BX0715"
+    ],
+    "name": "Lesser Danger Sense",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The D letters on the Primordial Diagram mark the Danger Zone spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a Titan moves through or into the Danger Zone during the Titan Round, roll a d10"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 7+, they manage to get through"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Otherwise, they gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore this Trait during a Cyclonus Attack"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Cyclonus"
+  },
+  {
+    "cardIDs": [
+      "BX0764"
+    ],
+    "name": "Slime Trail",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "As the Chimera moves, it leaves behind a trail of black Ambrosia"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After the Chimera ends its movement, place an"
+            },
+            {
+              "type": "cardRef",
+              "value": "Ambrosia Trail",
+              "refID": "BI0693"
+            },
+            {
+              "type": "plainText",
+              "value": "tile directly behind it"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Chimera Metastasios"
+  },
+  {
+    "cardIDs": [
+      "BX0765"
+    ],
+    "name": "This Train",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Chimera always moves its full"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": "value and that movement is considered a"
+            },
+            {
+              "type": "keyword",
+              "value": "Pushback"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Pushback applies to the Target, as well as every Titan adjacent to the Chimera at the start of the move"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Target is on the VP, the Chimera still moves in the direction it is currently facing"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Titanwall:"
+            },
+            {
+              "type": "plainText",
+              "value": "All Titans affected by Pushback can collectively use all effects that mitigate it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Nobody Stops:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Pushback value is reduced below 3, the Chimera gains a positive Speed token"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Chimera Metastasios"
+  },
+  {
+    "cardIDs": [
+      "BX0768"
+    ],
+    "name": "Highly Toxic",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Chimera's Ambrosia is highly toxic and volatile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During this Battle, all Titans suffer the following penalty:\\nLevel 2-3:"
+            },
+            {
+              "type": "keyword",
+              "value": "Ambrosia Limit -1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 4-6: Ambrosia Limit -2"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 7+: Ambrosia Limit -3"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Chimera Metastasios"
+  },
+  {
+    "cardIDs": [
       "BX1158"
     ],
     "name": "Burden Hardest To Bear",
@@ -112,7 +361,7 @@
             {
               "type": "cardRef",
               "value": "Sisyphean Task",
-              "refID": ""
+              "refID": "BR1110"
             },
             {
               "type": "plainText",
@@ -129,7 +378,7 @@
             {
               "type": "cardRef",
               "value": "Sisyphean (Special)",
-              "refID": ""
+              "refID": "BL0674"
             },
             {
               "type": "plainText",
@@ -146,7 +395,7 @@
             {
               "type": "cardRef",
               "value": "Sisyphean",
-              "refID": ""
+              "refID": "BL0673"
             },
             {
               "type": "plainText",
@@ -202,6 +451,1033 @@
   },
   {
     "cardIDs": [
+      "CT1329"
+    ],
+    "name": "Death By Fate",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When a Primordial Attack deals"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": ", it triggers a Trauma Draw (just like dealing"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "would)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If an Attack deals both"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": ", resolve only one Trauma Draw"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Being dealt"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "over 9 does not cause a Moiros draw (it causes an Obol draw instead)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Whenever a Titan resolves a Trauma Draw, consult their Trauma Table and draw a Trauma card of a severity corresponding with their current"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "value (whichever is higher)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CX1679"
+    ],
+    "name": "Rapid Adaptation",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The track on this sheet represents the"
+            },
+            {
+              "type": "bold",
+              "value": "Icarian Adaptation Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If you Wound the Icarian Harpy, after resolving Responses, place an Adaptation token on the Icarian Adaptation Board, on a space corresponding to your Weapon class"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no more Adaptation tokens outside of the Adaptation Board, move one of the tokens form the Adaptation Board onto this space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Any attempt to Wound with a Weapon class listed on a space covered with an Adaptation token will automatically Fail"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During attempts with a Weapon class listed on a space adjacent to an Adaptation token, the Icarian Harpy gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This bonus can stack if a space is adjacent to two Adaptation tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Additional Setup:"
+            },
+            {
+              "type": "plainText",
+              "value": "Place a designated number of generic tokens near the Icarian Adaptation Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "These are the Adaptation tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 1: 1 token"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 2: 2 tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 3-4: 3 tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 5-6: 4 tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 7+: 5 tokens"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Icarian Harpy"
+  },
+  {
+    "cardIDs": [
+      "CX1681"
+    ],
+    "name": "Predator",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Starting from the highest"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "and continuing in descending order, Titans suffer:\\nLevel 1:"
+            },
+            {
+              "type": "keyword",
+              "value": "Bleeding 2"
+            },
+            {
+              "type": "plainText",
+              "value": ", Bleeding 1\\nLevel 2: Bleeding 2, Bleeding 2\\nLevel 3: Bleeding 2, Bleeding 2, Bleeding 1\\nLevel 4: Bleeding 3, Bleeding 2, Bleeding 2\\n"
+            },
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "timing",
+              "value": "End of Primordial Round"
+            },
+            {
+              "type": "plainText",
+              "value": "Titan with the most Bleeding tokens in Sight that has not been Attacked this Round becomes the Target of Predation"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there is no eligible Target, Predation doesn't trigger"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Icarian Harpy"
+  },
+  {
+    "cardIDs": [
+      "DX2387"
+    ],
+    "name": "Quantum Eye",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you reveal a BP card with a"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol as a result of a card or an ability effect (not during a normal BP Draw), gain"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "equal to the BP card's level"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Remember: This Trait is added to every Battle in the game, regardless of the Primordial"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2388"
+    ],
+    "name": "Bleak Outlook",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During this Battle, you cannot use Hope tokens"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2389"
+    ],
+    "name": "Abundance Has Impoverished You",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Battle Setup"
+            },
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "You died a beggar!",
+              "refID": "DM2567"
+            },
+            {
+              "type": "plainText",
+              "value": "Obol (Secret deck 10, card 185) to the Obol deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remove it after the Battle concludes"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2390"
+    ],
+    "name": "You Will Never Win",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you roll a Crit Miss during the Attack Roll, during thie Attack, ignore"
+            },
+            {
+              "type": "icon",
+              "value": "Potential"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2391"
+    ],
+    "name": "Reap the Ashes",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During Battle Aftermath, for the purposes of gaining resources, treat the Primordial as 1 level lower (to a minimum of 1)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2392"
+    ],
+    "name": "Years to Rust",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Discard 1"
+            },
+            {
+              "type": "icon",
+              "value": "Energy"
+            },
+            {
+              "type": "plainText",
+              "value": "token from every Argo Ability"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX2393"
+    ],
+    "name": "Inverted Battle",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Unless Titans have at least one free"
+            },
+            {
+              "type": "icon",
+              "value": "OneHanded"
+            },
+            {
+              "type": "plainText",
+              "value": "slot, whenever they would suffer Knockdown, they fall into the abyss and die instead"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX3221"
+    ],
+    "name": "Amongst the Bleached Bones",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the"
+            },
+            {
+              "type": "keyword",
+              "value": "Chasm"
+            },
+            {
+              "type": "plainText",
+              "value": "keyword"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DX3222"
+    ],
+    "name": "Incremental Painment",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time Midascore gains Wound (a Double Wound counts as 2 Wounds), place a Midas token on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time a Titan discard Midas tokens, place them here"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After resolving the current action, if there are 5 or more Midas tokens on this card, discard 5 of those tokens and perform Signature"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Midascore"
+  },
+  {
+    "cardIDs": [
+      "DX3223"
+    ],
+    "name": "Wish for a Wish",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time Demdjinn gains Wound (a Double Wound counts as 2 Wounds), place a token on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After resolving the current action, if there are 3 or more Midas tokens on this card, discard all tokens, then perform Signature"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Demidjinn"
+  },
+  {
+    "cardIDs": [
+      "DX3224"
+    ],
+    "name": "Moon Call",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When instructed to remove an Irem Towre and there are no empty Irem Tower Terrain tiles, remove an Irem Tower with a Titan on it instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Primordial Round"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are no Irem Tower Terrain tiles on the Battle Board, the Babelian Lunacy immediately wins the Battle"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Otherwise, remove 4 Irem Tower Terrain tiles"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Babelian Lunacy"
+  },
+  {
+    "cardIDs": [
+      "DX3225"
+    ],
+    "name": "Total Eclipse",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Eclipse Attacks are additionally measured from an imaginary line drawn along th Rear spaces of the Babelian Lunacy"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Babelian Lunacy"
+  },
+  {
+    "cardIDs": [
+      "DX3226"
+    ],
+    "name": "God's Breath",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Primordial Round"
+            },
+            {
+              "type": "plainText",
+              "value": "Pull 3 all Titans in Zone 6"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Babelian Lunacy does not move as a result of that Pull"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "End of Primordial Round"
+            },
+            {
+              "type": "plainText",
+              "value": "Knockback 6 all Titans in Zone 3 away from the Babelian Lunacy"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Babelian Lunacy"
+  },
+  {
+    "cardIDs": [
+      "EX3019"
+    ],
+    "name": "Smother",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you gain Ambrosia tokens, if possible, place them on a single game element ("
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": ", Mnemos, etc"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": ") with the Light X keyword that does not already have Ambrosia tokens on it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Those Ambrosia tokens still count toward your Ambrosia Limit"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a game element with Ambrosia tokens is discard for any reason, move the tokens to your Titan Sheet"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Disable all Light X keywords on a game element with Ambrosia tokens on it"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EX3020"
+    ],
+    "name": "Oxygen and Aether",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each Titan starts the Battle with 2 Oxygen tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "End of your turn"
+            },
+            {
+              "type": "plainText",
+              "value": "Flip 1 Oxygen token"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If at any point you must flip or discard an Oxygen token and you don't have any, you die"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EX3211"
+    ],
+    "name": "Phobian Hierarchy",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Dragon of Phobos is outside of the Battle Board when drawing AI or performing Signature, instead of normal Targeting, use"
+            },
+            {
+              "type": "bold",
+              "value": "Target:"
+            },
+            {
+              "type": "plainText",
+              "value": "Hierarchy"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Instead of performing any movement instructions (like"
+            },
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "plainText",
+              "value": "Move & Attack):\\n"
+            },
+            {
+              "type": "plainText",
+              "value": "if the space directly behind the Target is empty, appear behind the Target, if able"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "if that space is occupied, appear to the side, then front (even if occupied, stand Crash rules apply)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Finally, without moving, continue resolving the AI or Signature"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Dragon of Phobos"
+  },
+  {
+    "cardIDs": [
+      "EX3212"
+    ],
+    "name": "A Truth for a Truth",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After resolving the current action, if there are 4 or more tokens on this Trait, discard all tokens, then draw and resolve the top AI card"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Dragon of Phobos"
+  },
+  {
+    "cardIDs": [
       "EX3213"
     ],
     "name": "Fat with Fear",
@@ -228,7 +1504,7 @@
   },
   {
     "cardIDs": [
-      "EX3214"
+      "EX3213"
     ],
     "name": "Fat with Light",
     "cardType": "Trait",
@@ -251,6 +1527,544 @@
       []
     ],
     "primordial": "Meduketos"
+  },
+  {
+    "cardIDs": [
+      "EX3214"
+    ],
+    "name": "A Lie For a Truth",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This replaces the"
+            },
+            {
+              "type": "cardRef",
+              "value": "A Truth for a Truth",
+              "refID": "EX3212"
+            },
+            {
+              "type": "plainText",
+              "value": "Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Dragon of Phobos disappears"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, draw and resolve the top AI card"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Dragon of Phobos"
+  },
+  {
+    "cardIDs": [
+      "EX3215"
+    ],
+    "name": "Clicks & Pings",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Meduketos starts the Battle outside of the Battle Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When the Meduketos is outside of the Battle Board, it cannot be Targeted, unless from a VP"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "When the Meduketos attacks while outside of the Battle Board, it does so from the closest Board Edge to the Target, ignoring the initial"
+            },
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "plainText",
+              "value": "and any Move commands (in other words, the Meduketos stays outside of the Battle Board)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Lightbend:"
+            },
+            {
+              "type": "plainText",
+              "value": "The Meduketos disappears (remove the Primordial from the Battle Board)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If able, place a"
+            },
+            {
+              "type": "cardRef",
+              "value": "Petrified Vent",
+              "refID": "EI2606"
+            },
+            {
+              "type": "plainText",
+              "value": "Terrain tile on the center of its previous space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Triggers when prompted"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Meduketos"
+  },
+  {
+    "cardIDs": [
+      "EX3216"
+    ],
+    "name": "Slow Boiling",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time the Meduketos gains a Wound (a Double Wound is treated as 2 Wounds), unless it was dealt from a VP, place a token on this Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens, then"
+            },
+            {
+              "type": "keyword",
+              "value": "Lightbend"
+            },
+            {
+              "type": "plainText",
+              "value": "and create 1 Vantage Point, then draw and resolve the top AI card"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Meduketos"
+  },
+  {
+    "cardIDs": [
+      "EX3217"
+    ],
+    "name": "Hide & Heatseek",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Once per Titan Round, Titans may perform a Scane (see Cycle V Storybook, p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7):\\nChoose a"
+            },
+            {
+              "type": "bold",
+              "value": "Titan"
+            },
+            {
+              "type": "plainText",
+              "value": "and an"
+            },
+            {
+              "type": "bold",
+              "value": "adjacent Petrified Vent"
+            },
+            {
+              "type": "plainText",
+              "value": "Terrain tile, then reveal the top Major Trauma card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is called scanning a card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Instead of resolving the card, check the number in the lower left corner"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "bold",
+              "value": "total"
+            },
+            {
+              "type": "plainText",
+              "value": "of"
+            },
+            {
+              "type": "bold",
+              "value": "every scanned card"
+            },
+            {
+              "type": "plainText",
+              "value": "and the"
+            },
+            {
+              "type": "bold",
+              "value": "Light X value"
+            },
+            {
+              "type": "plainText",
+              "value": "of the currently scanning Titan is"
+            },
+            {
+              "type": "bold",
+              "value": "equal to or higher"
+            },
+            {
+              "type": "plainText",
+              "value": "than"
+            },
+            {
+              "type": "bold",
+              "value": "the Scan Difficulty"
+            },
+            {
+              "type": "plainText",
+              "value": ", you have found the Meduketos! Immediately replace that Vent with the Meduketos (in any way), then perform"
+            },
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "keyword",
+              "value": "Skitter"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If the total is lower, leave the Trauma card revealed and proceed to the next scanning Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each Titan and each Vent may be chosen for a Scan only once per Round"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "End of Titan Round"
+            },
+            {
+              "type": "plainText",
+              "value": "Shuffle all Major Trauma cards back into the deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "The Scan Difficulty is equal to 8 + the Primordial level"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At level IX, instead the Scan Difficulty is 18"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Meduketos"
+  },
+  {
+    "cardIDs": [
+      "EX3218"
+    ],
+    "name": "Mortal Kindling",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you have the Light X keyword, during a single movement, you may move through X spaces of a Black Abyss Terrain tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "In this way, you may end your movement on a Black Abyss space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you move through or onto a Black Abyss tile, gain 1 Ambrosia token at the end of that movement"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a Titan starts its turn on a Black Abyss tile and doesn't move until the end of this turn, they gain 1 Ambrosia token"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If at any point you do not have the Light X keyword while on a Black Abyss tile, you die"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Relight:"
+            },
+            {
+              "type": "plainText",
+              "value": "When you deal a Wound, move X Ambrosia tokens from a game element with Light X to your Sheet, where X is the BP level"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Ur-Fleece"
+  },
+  {
+    "cardIDs": [
+      "EX3219"
+    ],
+    "name": "Toying",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Apply the following modifiers to all Titan X Attacks: -1"
+            },
+            {
+              "type": "icon",
+              "value": "d10"
+            },
+            {
+              "type": "plainText",
+              "value": "and -1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "per hit (minimum 1)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "As long as this Trait is active, the"
+            },
+            {
+              "type": "keyword",
+              "value": "Death of Hope"
+            },
+            {
+              "type": "plainText",
+              "value": "Trait is disabled"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Titan X"
+  },
+  {
+    "cardIDs": [
+      "EX3244"
+    ],
+    "name": "Just a Memory",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ur-Fleece has -1"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Ur-Fleece"
   },
   {
     "cardIDs": [
@@ -376,6 +2190,491 @@
   },
   {
     "cardIDs": [
+      "EX3227"
+    ],
+    "name": "Argo's Parting Gift",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 15",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Place this card in the Wound Stack"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This card counts as X Wounds, where X is equal to 89 - Primordial level"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Ur-Fleece"
+  },
+  {
+    "cardIDs": [
+      "EX3246"
+    ],
+    "name": "All for All",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 15",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Reference"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack a BP Ill (and only a BP Ill), proceed to resolve it as a normal Attack, but after performing the Power Roll, divide your Total Power by 2 (rounding up), add +1 if you had a Crit Chance, and then note the result"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Do not Escalate and do not resolve any responses"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Instead, Ur-Fleece"
+            },
+            {
+              "type": "keyword",
+              "value": "Flickers"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, clear the Kratos Pool and continue to your second ability window"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Finally, place the BP card on top of the BP deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Note:"
+            },
+            {
+              "type": "plainText",
+              "value": "This does not count as a Wound!\\nThe next"
+            },
+            {
+              "type": "bold",
+              "value": "two"
+            },
+            {
+              "type": "plainText",
+              "value": "Titan attacks targeting this BP Ill will similarly add half of their Total Power to this growing"
+            },
+            {
+              "type": "bold",
+              "value": "Ultimate Power"
+            },
+            {
+              "type": "plainText",
+              "value": ", following the above rules"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The final,"
+            },
+            {
+              "type": "bold",
+              "value": "fourth"
+            },
+            {
+              "type": "plainText",
+              "value": "Attack should be performed as a normal Attack, but add their full Total Power to this Ultimate Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This means each subsequent Titan Attack is stronger than the last"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If, during any of the four Attacks the Ultimate Power matches or beats the"
+            },
+            {
+              "type": "icon",
+              "value": "GT"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "of the BP card, you finally deal a Wound!\\nIf any Titan attacks another BP card, erase the noted Power and ignore this effect"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!\\n"
+            },
+            {
+              "type": "plainText",
+              "value": "Important: During the White Lie Battle see paragraph 8677, on p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "70 for additional rules"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Ur-Fleece"
+  },
+  {
+    "cardIDs": [
+      "EX3247"
+    ],
+    "name": "All Good Things",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 15",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Assign a Facing Indicator to each Titan X"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During Titan X's turn, draw 3 AI cards and resolve them in order"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Each Titan X has their own Wound Stack with 12"
+            },
+            {
+              "type": "icon",
+              "value": "Wounds"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Escalation happens every 3 Wounds"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you deal a Wound, place a Generic token on this card and a Generic Wound in the corresponding Titan X's Wound Stack"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are already 2 tokens on this card, discard them, perform a normal Escalation, and place the BP on the corresponding Wound Stack instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "For full Setup and rules, see 7539 in Cycle V Storybook (p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "63)"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Titan X"
+  },
+  {
+    "cardIDs": [
+      "AX9968"
+    ],
+    "name": "Scarred",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may add this card to any Hermesian Pursuer Battle to test yourself"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Punctured",
+              "refID": "AM9969"
+            },
+            {
+              "type": "plainText",
+              "value": "Trauma card to the Major Trauma deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Replace the Signature with the new"
+            },
+            {
+              "type": "cardRef",
+              "value": "Conquerer Strike",
+              "refID": "AR9967"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "All Regular (non-Zone, non-Judgement, etc"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": ") Attacks become Sequential Attacks with \"Move and Attack All Titan in Path\" and their \"After Attack\" becomes \"After Final Attack\""
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Hermesian Pursuer"
+  },
+  {
+    "cardIDs": [
+      "CR9994"
+    ],
+    "name": "Time's Woe Momentum",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Assign a Time Anchor token to your Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place it under your Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of your tunr"
+            },
+            {
+              "type": "plainText",
+              "value": "Move the Time Anchor 5 spaces in a random direction"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you draw a card with"
+            },
+            {
+              "type": "icon",
+              "value": "ChooseDirection"
+            },
+            {
+              "type": "plainText",
+              "value": ", place the Time Anchor under your Titan instead of choosing a direction"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "ZX9998"
+    ],
+    "name": "Argo-Drift Cryptex",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "ZX9999"
+    ],
+    "name": "Wise Providence",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
       "CV1817"
     ],
     "name": "Pitiless Sun",
@@ -440,7 +2739,7 @@
             {
               "type": "cardRef",
               "value": "Merciless Sun",
-              "refID": ""
+              "refID": "CV1804"
             }
           ]
         }
@@ -582,7 +2881,7 @@
             {
               "type": "cardRef",
               "value": "Merciless Sun",
-              "refID": ""
+              "refID": "DV2569"
             }
           ]
         }
@@ -668,5 +2967,104 @@
       []
     ],
     "primordial": "Old Haunt"
+  },
+  {
+    "cardIDs": [
+      "EX3143"
+    ],
+    "name": "Blackbeak Traits",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Beta",
+    "faq": "",
+    "errata": "",
+    "effects": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mimetic Darkness: Draw AI cards from the bottom of the AI deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": ", after resolving the Attack, immediately"
+            },
+            {
+              "type": "keyword",
+              "value": "Heal 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
+            },
+            {
+              "type": "bold",
+              "value": "even if Blackbeak was techincally killed (ignore the Mercy Rule)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no BP cards in the Escalation decks, you lose the Battle"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Goes For the Head:"
+            },
+            {
+              "type": "timing",
+              "value": "Crit Evade Fail"
+            },
+            {
+              "type": "plainText",
+              "value": "Exhaust your Cryptex and gain a"
+            },
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": "Fatigue token"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "primordial": "Blackbeak"
   }
 ]

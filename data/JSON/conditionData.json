@@ -16,12 +16,12 @@
     "name2": "Dread",
     "side": {
       "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token",
+      "abilities": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
       "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die",
-      "resolution": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens",
+      "abilities": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens",
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -44,11 +44,452 @@
     "subtitle2": "Standing Up",
     "side": {
       "effect": "You are knocked down. Place your miniature on its side as a reminder. You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise. If this card is discarded by another effect, stand up (see the other side of the card). At the end of your next turn, flip this card",
-      "resolution": ""
+      "abilities": ""
     },
     "side2": {
-      "effect": "If you move voluntarily, attack or use an action or ability, stand up. At the start of your turn, stand up. If this card is discarded by another effect, stand up. ",
-      "resolution": "Stand Up: Put your miniature in the normal position and discard this card"
+      "effect": "If you move voluntarily, attack, or use an action or ability, stand up. At the start of your turn, stand up. If this card is discarded by another effect, stand up",
+      "abilities": "Stand Up: Put your miniature in the normal position and discard this card"
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0657",
+      "BL0658",
+      "BL0659",
+      "BL0660"
+    ],
+    "name": "Paralyzed",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "You are paralyzed. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. When you are attack, do not perform the Evasion Roll. Instead you are automatically hit and you do not perform the Armor Roll",
+      "abilities": "Snap Out: <Start of your turn> You may test Endurance (@Danger+). *Success:* Discard this card"
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0661",
+      "BL0662",
+      "BL0663",
+      "BL0664"
+    ],
+    "name": "Hatred",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Frenzy",
+    "side": {
+      "effect": "You cannot break Combos or use abilities that place tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Frenzy_ Condition card, flip this card",
+      "abilities": "Calm Down: <End of your turn> If you did not attack this turn, discard this card and gain 1 positive Precision token",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    },
+    "side2": {
+      "effect": "You cannot break Combos, use Kratos tokens from the Kratos Pool, or use abilities that place tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Hatred_ Condition card, you die",
+      "abilities": "Calm Down: <End of your turn> If you did not attack this turn, discard this card and gain 2 positive Precision tokens",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0665",
+      "BL0666",
+      "BL0667",
+      "BL0668"
+    ],
+    "name": "Bellerophonic",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "Add +2 to Climb and Hold on tests. If you gain this card again, automatically move to the VP (even if not adjacent!) or, if you are already on the VP, you may gain +1 @Fate to perform a *Bonus Attack!*",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0669",
+      "BL0670",
+      "BL0671",
+      "BL0672"
+    ],
+    "name": "Roused",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "For the purposes of Kratos Table abilities treat your @Rage as 1 higher",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0673"
+    ],
+    "name": "Sisyphean",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "You have -1 @Speed. Your cards cannot unexhaust. Ignore {Tireless}. When the Burden attacks a Titan with _Sisyphean_, apply the following additional effects: Attack gains +1 @d10, each hits deals +1 @Danger. When another Titan gains _Sisyphean_, and there are no more _Sisyphean_ cards in the game, pass this Condition card to that Titan",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "BL0674",
+      "BL0675",
+      "BL0676"
+    ],
+    "name": "Sisyphean",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 08",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "You have -1 @Speed. Your cards cannot unexhaust. Ignore {Tireless}. When the Burden attacks a Titan with _Sisyphean_, apply the following additional effects: Attack gains +1 @d10, each hits deals +1 @Danger",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "CL1283",
+      "CL1284",
+      "CL1285",
+      "CL1286"
+    ],
+    "name": "Bleeding",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "<Start of your turn> Gain 1 Bleeding token, then draw as many cards from your Trauma level deck as you have Bleeding tokens. Remove all revealed positive cards from the Battle and return all the negative ones to the top of the deck in the same order",
+      "abilities": "Bleeding Limit 4: If there are 0 Bleeding tokens on this card, discard it. If Bleeding tokens on this card exceed your Bleeding Limit (default 4), you die; Stop Bleeding: @MovementAction or @CombatAction to discard up to 2 Bleeding tokens from yourself; Stop Bleeding Other: As a free action, discard up to 2 Bleeding tokens from an adjacent Titan"
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "CL1287",
+      "CL1288",
+      "CL1289",
+      "CL1290"
+    ],
+    "name": "Death",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "Your death has been prophesized. <Start of your turn> Discard 1 Death token from this card. If you can't discard a token, you die",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "CL1291",
+      "CL1292",
+      "CL1293",
+      "CL1294"
+    ],
+    "name": "Muffled",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Sealed",
+    "side": {
+      "effect": "You cannot voluntarily gain @Fate. If you gain this Condition a second time or you gain the _Sealed_ Condition card, flip this card instead",
+      "abilities": "Defy Fate: <Start of your turn> You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1 @Fate",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    },
+    "side2": {
+      "effect": "You cannot voluntarily gain @Fate. You cannot gain @Rage. If you gain this Condition a second time or you gain the _Muffled_ Condition card, you die instead",
+      "abilities": "Defy Fate: <Start of your turn> You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2 @Fate",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    }
+  },
+  {
+    "cardIDs": [
+      "CL1295",
+      "CL1296",
+      "CL1297",
+      "CL1298"
+    ],
+    "name": "Time-clocked",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Departing",
+    "name2": "Time-clocked",
+    "subtitle2": "Arriving",
+    "side": {
+      "effect": "You have been punched into the future. Remove your miniature fro the Board. You cannot move voluntarily, attack or use actions or abilities or suffer Rewind or be Targeted unless stated otherwise. If this card is dsicard by another effect, arrive (see the other side of this card). At the end of your turn, flip this card",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "If you move voluntarily, attack, or use an action or ability, arrive. At the start of your turn, arrive. If this card is discarded by another effect, arrive",
+      "abilities": "Arrive: Place your miniature on your Time Anchor and discard this card. If your Time Anchor is not on the Board at the moment of arrival, you are erased from existence instead"
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2006"
+    ],
+    "name": "Tongue Curse",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "During Battles, the player among you who takes charge the most (quarterbacks!) can speak during a Round only if they gain +1 @Fate",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2007",
+      "DL2008",
+      "DL2009",
+      "DL2010"
+    ],
+    "name": "Covetous",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Greed-crazed",
+    "side": {
+      "effect": "When you place tokens in the Kratos Pool, you may only place half (rounding down). If you gain this Condition card a second time or you gain the _Greed-crazed_ Condition card, flip this card",
+      "abilities": "Giveaway: When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the [Enriched|DL2015] Condition card and 1 positive Precision token",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    },
+    "side2": {
+      "effect": "When you place tokens in the Kratos Pool, you may only place half (rounding down). You may only use half (rounding down) of the tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Covetous_ Condition card, you die",
+      "abilities": "Giveaway: When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the [Enlightened|DL2015] Condition card and 2 positive Precision tokens",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2011",
+      "DL2012",
+      "DL2013",
+      "DL2014"
+    ],
+    "name": "Wishkeen",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Wishagog",
+    "side": {
+      "effect": "You ignore {Wish Armor}. +1 to all Wish Aways you suffer. If you gain this Condition card a second time or you gain the _Wishagog_ Condition card, flip this card",
+      "abilities": "What you wish for: During your turn, you may choose for the Primordial to immediately perform Signature against you. You cannot gain the _Wishkeen_ Condition card from this Signature. If you survive the Attack, discard this Condition card and gain the [Enriched|DL2015] Condition card and 1 positive Precision token",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    },
+    "side2": {
+      "effect": "You ignore {Wish Armor}. +2 to all Wish Aways you suffer. If you gain this Condition card a second time or you gain the _Wishkeen_ Condition card, you die",
+      "abilities": "What you wish for: During your turn, you may choose for the Primordial to immediately perform an AI card against you. You cannot gain the _Wishkeen_ or _Wishagog_ Condition card from this Attack. If you survive the Attack, discard this Condition card and gain the [Enlightened|DL2015] Condition card and 3 positive Precision tokens",
+      "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2015",
+      "DL2016",
+      "DL2017",
+      "DL2018"
+    ],
+    "name": "Enriched",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Enlightened",
+    "side": {
+      "effect": "You cannot involuntarily gain tokens or Condition cards (exlcuding Ambrosia and Trespass). Discard this card at the end of the next Primordial Round",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "You may discard any tokens and Condition cards (excluding Ambrosia). You cannot involuntarily gain tokens or Condition cards (excluding Ambrosia and Trespass). DIscard this card at the end of the next Primordial Round",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2019",
+      "DL2020",
+      "DL2021",
+      "DL2022"
+    ],
+    "name": "Lander",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "",
+    "side": {
+      "effect": "When on a VP, you cannot suffer a Falling Down effect, Knockdown, Knockback, Pushback, Kickback, Wish Away, or Float. When on a VP, you cannot be moved to the Endless Staircase. <Start of your turn> Discard this card",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "",
+      "abilities": ""
+    }
+  },
+  {
+    "cardIDs": [
+      "DL2023",
+      "DL2024",
+      "DL2025",
+      "DL2026"
+    ],
+    "name": "Float",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Up",
+    "name2": "Float",
+    "subtitle2": "Down",
+    "side": {
+      "effect": "You are floating. Place your Titan on its die as a reminder. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. If you gain this Condition card a second time, you die. If this card is discarded by another effect, deflate (see the other side of the card). At the end of your next turn, flip this card",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "If you move voluntarily, attack, or use an action or ability, deflate. At the start of your turn, deflate. If this card is discarded by another effect, deflate",
+      "abilities": "Deflate: Put your miniature in the normal position and discard this card"
+    }
+  },
+  {
+    "cardIDs": [
+      "EL2596",
+      "EL2597",
+      "EL2598",
+      "EL2599"
+    ],
+    "name": "Terror",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Holy Terror",
+    "side": {
+      "effect": "{Awakening Lock}. You don't benefit from Precision Bonuses (expect for Kratos tokens). During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss. If you gain this Condition card a second time or gain the _Holy Terror_ Condition card, flip this card",
+      "abilities": "Calm as the Sea: When you deal a Wound, discard this Condition card and gain the [Bravery|EL2600] Condition card",
+      "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
+    },
+    "side2": {
+      "effect": "{Awakening Lock}. You don't benefit from Precision Bonuses (expect for Kratos tokens). During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss. After you perform the Attack Roll, if you didn't get a Crit Chance, discard 1 hit. If you gain this Condition card a second time or gain the _Terror_ Condition card, you die",
+      "abilities": "Calm as the Sea: When you deal a Wound, discard this Condition card and gain the [Bravery|EL2600] Condition card",
+      "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
+    }
+  },
+  {
+    "cardIDs": [
+      "EL2600",
+      "EL2601",
+      "EL2602",
+      "EL2603"
+    ],
+    "name": "Bravery",
+    "cardType": "Condition",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "name2": "Resolve",
+    "side": {
+      "effect": "When you gain this card, discard any [Fear|AL0299], [Dread|AL0299], [Terror|EL2596], or [Holy Terror|EL2596] Condition cards. If you would gain a _Terror_ or _Holy Terror_ Condition card, ignore that gain and discard this card instead",
+      "abilities": ""
+    },
+    "side2": {
+      "effect": "You have +2 Precision and {Auto-break 1}. Discard this card if you fully miss an Attack or Fail to wound",
+      "abilities": ""
     }
   }
 ]

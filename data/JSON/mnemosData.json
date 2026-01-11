@@ -1,6 +1,1087 @@
 [
   {
     "cardIDs": [
+      "AG0134"
+    ],
+    "name": "Siren Survivor",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Against all odds, you've survived. Why?",
+    "traits": [
+      "Voyage",
+      "Supernatural",
+      "Deed"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard a Condition token or"
+            },
+            {
+              "type": "icon",
+              "value": "Discard"
+            },
+            {
+              "type": "plainText",
+              "value": "instead to discard a Condition card"
+            }
+          ],
+          "costs": [
+            "Exhuast"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard a Condition token from another Titan or"
+            },
+            {
+              "type": "icon",
+              "value": "Discard"
+            },
+            {
+              "type": "plainText",
+              "value": "instead to discard a Condition card from another Titan"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 6+, ignore this gain"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to gain a Condition card or token, roll a d10"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0135"
+    ],
+    "name": "Someone Waiting",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You can't quite put a finger on it, but there's a soft pull on your soul's strings each time you look to the north",
+    "traits": [
+      "Voyage",
+      "Family",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Stand up"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can use this ability while knocked down"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Another Titan may stand up"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 6+, ignore this Knockdown"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to suffer Knockdown, you may roll a d10"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Endurance"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0136"
+    ],
+    "name": "A Dream You Hold",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You are not some castaway on life's tumultuous ocean. Come hell or high water, you will fulfill your dream",
+    "traits": [
+      "Dream",
+      "Voyage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans adjacent to you have +1 Precision"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Another Titan may move 1 space"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack, use another Titan's Kratos Table for this Attack"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0137"
+    ],
+    "name": "Family Feud",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Some things should never be spoken. Some bridges can never be rebuilt. There is a wound on your heart that may never heal",
+    "traits": [
+      "Family",
+      "Tragedy",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place 1 Opening or Break token in the Kratos Pool"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Kratos Pool is empty, place up to 2 Opening and/or Break tokens in the Kratos Pool"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Kratos Pool is empty, place up to 3 Opening and/or Break tokens in the Kratos Pool"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0138"
+    ],
+    "name": "Imprisonment",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Who can tell how long it's been? Dark and damp, and cramped and lonely, the cell gave no quarters. Just a tiny crack in the wall",
+    "traits": [
+      "Curse",
+      "Dream",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Knockback Reduction 2"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Pushback Reduction 1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you suffer Knockback, you may lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0139"
+    ],
+    "name": "Haunted",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You past lingers like a waft of cold air. Something happened to you. Something... unspeakable",
+    "traits": [
+      "Fate",
+      "Supernatural",
+      "Curse"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Once per adventure, you may re-roll any d10 roll"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to roll a d10 during an adventure, add +3 to this roll (once per adventure)"
+            }
+          ],
+          "costs": [
+            "Fate"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to perform an Argonaut Test during an adventure, automatically pass this test instead (once per adventure)"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Fate"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0140"
+    ],
+    "name": "A Broken Promise",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "A word's no shield, it's easily broken. You probably had a reason, oathbreaker. They all do",
+    "traits": [
+      "Deed",
+      "Tragedy",
+      "Family"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on a Rear space, you gain +1 Precision"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on a Rear space, you gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Power Re-roll 1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on a Rear space, you gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0141"
+    ],
+    "name": "A Night To Remember",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Warm air and cold wine and fabulous colors on the night sky. A love realized or an age attained. A joyous celebration",
+    "traits": [
+      "Deed",
+      "Heritage",
+      "Dream"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Unexhaust a"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Another Titan may unexhaust a"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to exhaust a card, ignore this exhaust"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Fate"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0142"
+    ],
+    "name": "Death Follows",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Most people brush with death, but when he brushed with you, Tanatos paused. You have been trying to outrun him ever since",
+    "traits": [
+      "Gods",
+      "Heritage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to perform a Power Roll, add 1"
+            },
+            {
+              "type": "icon",
+              "value": "RedPowerDie"
+            },
+            {
+              "type": "plainText",
+              "value": "to your Power Pool"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to perform a Power Roll, add 1"
+            },
+            {
+              "type": "icon",
+              "value": "BlackPowerDie"
+            },
+            {
+              "type": "plainText",
+              "value": "to your Power Pool"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to perform a Power Roll, add 2"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            },
+            {
+              "type": "plainText",
+              "value": "for this Roll"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0143"
+    ],
+    "name": "Minoan Heritage",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Everywhere you look, familiarity. Your roots are buried under the Shattered Island. Or the Shattered Island is burying into you",
+    "traits": [
+      "Voyage",
+      "Heritage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": ", gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": "for this movement"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": ", gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "keyword",
+              "value": "Bypass"
+            },
+            {
+              "type": "plainText",
+              "value": "for this movement"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": ", gain +3"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "keyword",
+              "value": "Bypass"
+            },
+            {
+              "type": "plainText",
+              "value": "for this movement and gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Vault"
+            },
+            {
+              "type": "plainText",
+              "value": "until the end of your turn"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0144"
+    ],
+    "name": "Blood On Your Hands",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "A look. A word. A misunderstanding and a mistake. You can't wash it off",
+    "traits": [
+      "Deed",
+      "Crime",
+      "Tragedy"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you raise you"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "plainText",
+              "value": "for any reason, if your"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "plainText",
+              "value": "is equal to current"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target's"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may gain the"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target token"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are the"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target, you gain +1 Precision"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are the"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target, you gain"
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Fury",
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0145"
+    ],
+    "name": "A Familiar Curse",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Restless days in sweat and shade, sleepless nights under dim stars",
+    "traits": [
+      "Fate",
+      "Gods",
+      "Curse"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Turn the Primordial in your direction"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When another Titan is about to gain a Condition card or Condition token, gain it instead"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While resolving an AI card, when the Primordial moves adjacent to you, become the Target of this AI card"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Danger",
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AG0146"
+    ],
+    "name": "Curse Of The Gods",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Even in death their words have weight - and consequences",
+    "traits": [
+      "Heritage",
+      "Fate",
+      "Voyage"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During an Attack Roll, re-roll all 1s on non-Crit dice"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Re-roll an Awakening roll"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "WHen another Titan is about to gain"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": ", you gain it instead"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "was dealt by an Attack, resolve a Trauma Draw"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
       "BG0645"
     ],
     "name": "Runt Of The Litter",
@@ -404,7 +1485,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "When you are about to reoslve a Trauma Draw, treat your"
+              "value": "When you are about to resolve a Trauma Draw, treat your"
             },
             {
               "type": "icon",
@@ -433,7 +1514,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Whn you stand up, gain +1"
+              "value": "When you stand up, gain +1"
             },
             {
               "type": "icon",
@@ -681,6 +1762,73 @@
   },
   {
     "cardIDs": [
+      "CG1270"
+    ],
+    "name": "A Fall From Eden",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Your parent failed. Will you?",
+    "traits": [
+      "Dream",
+      "Voyage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to suffer Knockdown, suffer Time-clocked instead"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Second Chance"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Clutch"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
       "CG1271"
     ],
     "name": "Unearned Life",
@@ -808,7 +1956,7 @@
             {
               "type": "cardRef",
               "value": "Bleeding",
-              "refID": ""
+              "refID": "CL1283"
             },
             {
               "type": "plainText",
@@ -1196,6 +2344,1313 @@
     "stats": [
       "Fury",
       "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2054"
+    ],
+    "name": "Seed of Paradise",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "The more you divide it, the more you have",
+    "traits": [
+      "Voyage",
+      "Family",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack, treat the Kratos Pool as Sunstarved or Sunbask 2 for the purposes of triggering abilities"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Clear the Kratos Pool step, leave half of the unused tokens there"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Second Ability Window, move them to the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack, move half of the tokens from the Kratos Pool to this card"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2055"
+    ],
+    "name": "The Third Wish",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You saved the best for last",
+    "traits": [
+      "Family",
+      "Tragedy",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "1+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Wish Armor"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Wishrod"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Fate"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard a"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wishkeen",
+              "refID": "DL2011"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wishagog",
+              "refID": "DL2011"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card and gained the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Enriched",
+              "refID": "DL2015"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "cardRef",
+              "value": "Lander",
+              "refID": "DL2019"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Endurance"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2056"
+    ],
+    "name": "The Beggar and the Prince",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "A windfall or a sudden fall?",
+    "traits": [
+      "Deed",
+      "Crime",
+      "Tragedy"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard 1 Midas token"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to gain Midas tokens, ignore that gain"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack, discard all Midas tokens and gain that much Precision for this Attack"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2057"
+    ],
+    "name": "Updraft",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Carries only those determined enough",
+    "traits": [
+      "Supernatural",
+      "Tragedy",
+      "Family"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Hermes Move 1"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Reaction"
+            },
+            {
+              "type": "keyword",
+              "value": "Hermes Reflex"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Hermes Move 3"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2058"
+    ],
+    "name": "Peddler of Misery",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "When greed becomes the end in itself",
+    "traits": [
+      "Fate",
+      "Voyage",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Startup 2"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard 1 Midas token and place 1 Black token in the Kratos Pool"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Unholy Alchemy"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2059"
+    ],
+    "name": "Too Big to Fail",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "They all said it",
+    "traits": [
+      "Dream",
+      "Voyage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Deflate"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may use this ability while floating"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to suffer Airburst during a Primordial Attack, ignore it"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When a Curse Attack is about to affect you, ignore it (other Targets remain affected)"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2060"
+    ],
+    "name": "The Thousandth Night",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You can stave off inevitability only for so long",
+    "traits": [
+      "Curse",
+      "Heritage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +X"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "to gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Evasion"
+            },
+            {
+              "type": "plainText",
+              "value": ", where X is the sum of Evasion bonuses you have (including this one)"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Second Chance"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot prevent that death in any way"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "End of Battle"
+            },
+            {
+              "type": "plainText",
+              "value": "Gain a random Curse Affliction"
+            }
+          ]
+        },
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to die, postpone the death until the end of your next turn"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DG2061"
+    ],
+    "name": "The Mule",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "What grows in a barren wasteland?",
+    "traits": [
+      "Deed",
+      "Heritage",
+      "Supernatural"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move an Irem Tower Terrain tile one space"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move an Irem Tower Terrain tile up to 3 spaces"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place an"
+            },
+            {
+              "type": "cardRef",
+              "value": "Irem Tower",
+              "refID": "DI2028"
+            },
+            {
+              "type": "plainText",
+              "value": "Terrain tile anywhere on the Battle Board"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2640"
+    ],
+    "name": "Vanishing Point",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "It was meant to be",
+    "traits": [
+      "Curse",
+      "Heritage",
+      "Fate"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Pull 1"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Pushback 2"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "6+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Pull 3"
+            },
+            {
+              "type": "plainText",
+              "value": "For the purposes of this Pull, ignore"
+            },
+            {
+              "type": "keyword",
+              "value": "Lumbering"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2641"
+    ],
+    "name": "In Your Image",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "What else is there?",
+    "traits": [
+      "Deed",
+      "Family",
+      "Dream"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to gain at least 1 Pain token, test (8+) for each of these tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For each success, lower Pain gain by 1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard up to 2 Pain tokens"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to draw a Trauma card, gain 5 Pain tokens instead"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Cunning",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2642"
+    ],
+    "name": "Shelter",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "How could you let it happen?",
+    "traits": [
+      "Deed",
+      "Tragedy",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Ambrosia",
+          "value": "1+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When another Titan dies, immediately perform"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Ambrosia",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are adjacent to another Titan, you both ignore Burn"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Ambrosia",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are adjacent to another Titan, you both gain Tumble and automatically succeed at the Tumble test"
+            }
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Wisdom",
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2643"
+    ],
+    "name": "Dogma",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You were in the right",
+    "traits": [
+      "Fate",
+      "Supernatural",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to suffer Burn, ignore that Burn"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore the effects of Despair tokens until the end of your turn"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Dagner",
+          "value": "8+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore Ambrosia tokens placed on your Gear with the Light X keyword until the end of this round"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Fury",
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2644"
+    ],
+    "name": "Last Crusader",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "There are monsters in this world",
+    "traits": [
+      "Deed",
+      "Voyage",
+      "Crime"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During a Light Check, gain Light 1"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "5+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you attack, ignore all negative Precision modifiers"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Block 1"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "keyword",
+              "value": "Defy 1"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2645"
+    ],
+    "name": "Words and Deeds",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Do as I say",
+    "traits": [
+      "Family",
+      "Heritage",
+      "Gods"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take a"
+            },
+            {
+              "type": "cardRef",
+              "value": "Fear",
+              "refID": "AL0299"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "cardRef",
+              "value": "Dread",
+              "refID": "AL0299"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card of an adjacent Titan and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take a"
+            },
+            {
+              "type": "cardRef",
+              "value": "Terror",
+              "refID": "EL2596"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "cardRef",
+              "value": "Holy Terror",
+              "refID": "EL2596"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card of an adjacent Titan and gain 1 Aether token"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard all Condition cards"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2646"
+    ],
+    "name": "Twilight",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "This is the end",
+    "traits": [
+      "Supernatural",
+      "Tragedy",
+      "Curse"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Danger",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Flip 1 Aether token"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "7+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore an Aether or Oxygen"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "cost"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to perform a Power Roll, add 1"
+            },
+            {
+              "type": "icon",
+              "value": "WhitePowerDie"
+            },
+            {
+              "type": "plainText",
+              "value": "to your Power Pool"
+            }
+          ],
+          "costs": [
+            "Oxygen",
+            "Fate",
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Endurance",
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EG2647"
+    ],
+    "name": "He Spoke the Truth",
+    "cardType": "Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You have been chosen",
+    "traits": [
+      "Deed",
+      "Curse",
+      "Voyage"
+    ],
+    "abilities": [
+      [
+        {
+          "gate": "Despair",
+          "value": "2+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Dare"
+            }
+          ],
+          "costs": [
+            "Fate",
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Despair",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Deny"
+            }
+          ],
+          "costs": [
+            "Aether",
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Despair",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You Titan's Power die becomes"
+            },
+            {
+              "type": "icon",
+              "value": "MortalPowerDie"
+            },
+            {
+              "type": "plainText",
+              "value": "for the duration of this Battle"
+            }
+          ],
+          "costs": [
+            "Oxygen",
+            "Fate",
+            "Discard"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Courage",
+      "Wisdom"
     ]
   }
 ]

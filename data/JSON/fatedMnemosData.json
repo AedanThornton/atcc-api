@@ -1,6 +1,408 @@
 [
   {
     "cardIDs": [
+      "AF0125"
+    ],
+    "name": "Memory Of Death",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "That moment is etched in your soul for all eternity",
+    "traits": [
+      "Heritage",
+      "Gods",
+      "Fate"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "During the Trauma Draw, treat your"
+        },
+        {
+          "type": "icon",
+          "value": "Danger"
+        },
+        {
+          "type": "plainText",
+          "value": "as 1 higher"
+        }
+      ]
+    },
+    "growthName": "A life worth living",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you fully evade an attack, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0126"
+    ],
+    "name": "Betrayal",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "The soft sweet lies, the hard sharp truth. Never again",
+    "traits": [
+      "Family",
+      "Tragedy",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot voluntarily end your movement no a space adjacent to another Titan"
+        }
+      ]
+    },
+    "growthName": "Bonds of trust",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you start and end your turn adjacent to a Titan, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0127"
+    ],
+    "name": "Alone",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "There was no one there for you",
+    "traits": [
+      "Curse",
+      "Dream",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "Start of your turn"
+        },
+        {
+          "type": "plainText",
+          "value": "If you're more than 5 spaces from all other Titans, gain +2"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "growthName": "A company",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "Start of your turn"
+        },
+        {
+          "type": "plainText",
+          "value": "If all Titans are within 4 spaces of you, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0128"
+    ],
+    "name": "Left Behind",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You were just a burden to them",
+    "traits": [
+      "Fate",
+      "Supernatural",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot be the last one to take your turn during the Titan Round, unless there are no other living Titans"
+        }
+      ]
+    },
+    "growthName": "Last one out",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you take your turn last during the Titan Round, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0129"
+    ],
+    "name": "Oblivious",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Huh?",
+    "traits": [
+      "Deed",
+      "Tragedy",
+      "Family"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You don't benefit from Opening tokens"
+        }
+      ]
+    },
+    "growthName": "Mindful",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you are about to attack, if there are 3+ Opening tokens in the Kratos Pool, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0130"
+    ],
+    "name": "Ikari",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "I don't want to do this..",
+    "traits": [
+      "Deed",
+      "Heritage",
+      "Dream"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You must be the last one to take your turn during the Titan Round"
+        }
+      ]
+    },
+    "growthName": "First one in",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you take your turn first during the Titan Round, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0131"
+    ],
+    "name": "Honorblind",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Honor has its place, but you've misplaced it",
+    "traits": [
+      "Voyage",
+      "Supernatural",
+      "Deed"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot end voluntary movement in a Rear space"
+        }
+      ]
+    },
+    "growthName": "Honor is a sea",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you are about to attack, if you are on a Rear space, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0132"
+    ],
+    "name": "Egotist",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You see it so clearly. Scion of legend. Yours should be the glory",
+    "traits": [
+      "Voyage",
+      "Family",
+      "Gods"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You must be the first one to take your turn during the Titan Round"
+        }
+      ]
+    },
+    "growthName": "Humble",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "End of your turn"
+        },
+        {
+          "type": "plainText",
+          "value": "If you did not attack this turn, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AF0133"
+    ],
+    "name": "Selfishness",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You were nobility once. Yes, you must've been",
+    "traits": [
+      "Deed",
+      "Heritage",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot place tokens in the Kratos Pool"
+        }
+      ]
+    },
+    "growthName": "Selfless",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you are about to attack, if the Kratos Pool is empty, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
       "BF0636"
     ],
     "name": "Hapless",
@@ -71,7 +473,7 @@
         {
           "type": "cardRef",
           "value": "Marked for Death",
-          "refID": ""
+          "refID": "AM0323"
         },
         {
           "type": "plainText",
@@ -117,7 +519,7 @@
       "abilityText": [
         {
           "type": "plainText",
-          "value": "When you are about to draw an Obool, add an Obol card from the next threshold on the Massive Danger Chart to the Obol Deck for this draw only"
+          "value": "When you are about to draw an Obol, add an Obol card from the next threshold on the Massive Danger Chart to the Obol Deck for this draw only"
         }
       ]
     },
@@ -862,6 +1264,862 @@
     },
     "stats": [
       "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2070"
+    ],
+    "name": "Cursed",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You covet that which gleams like the Sun",
+    "traits": [
+      "Family",
+      "Heritage",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Gain the Goldthirst Curse Affliction. When you gain at least 1 Midas token, gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "growthName": "Thrifty",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you discard or turn (into another token) at least 1 Midas token, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2071"
+    ],
+    "name": "Twice-Cursed",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You're as light as a feather--and just as fickle",
+    "traits": [
+      "Supernatural",
+      "Heritage",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Gain the Windblight Curse Affliction. When you suffer involuntary movement, Knockdown, or Float, gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "growthName": "Second Wind",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you stand up, deflate, or arrive form Time-clocked, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Endurance"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2072"
+    ],
+    "name": "Thrice-Cursed",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You see things",
+    "traits": [
+      "Curse",
+      "Dream",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "At the end of your turn, if you didn't move your full"
+        },
+        {
+          "type": "icon",
+          "value": "Speed"
+        },
+        {
+          "type": "plainText",
+          "value": "value or use all of your available Hermes Moves, gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "growthName": "Premonition",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you move your full"
+        },
+        {
+          "type": "icon",
+          "value": "Speed"
+        },
+        {
+          "type": "plainText",
+          "value": "value or use all of your available Hermes Moves, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2073"
+    ],
+    "name": "Fear of Heights",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Don't look down",
+    "traits": [
+      "Voyage",
+      "Dream",
+      "Gods"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When on an Elevated space or a VP, you gain -1 Precision and"
+        },
+        {
+          "type": "bold",
+          "value": "Crit Fail:"
+        },
+        {
+          "type": "keyword",
+          "value": "Knockdown"
+        },
+        {
+          "type": "plainText",
+          "value": "(end your attack)"
+        }
+      ]
+    },
+    "growthName": "Acrophilia",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you successfully perform a Climb test, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2074"
+    ],
+    "name": "Wishful Thinker",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "I've got this!",
+    "traits": [
+      "Deed",
+      "Supernatural",
+      "Dream"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you Wound, after Escalation, if the AI card on the top of the AI deck isn't an AI III or IV, shuffle the AI deck (once per Wound)"
+        }
+      ]
+    },
+    "growthName": "Wishful Doer",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you take your turn last during the Titan Round, if you shuffle the BP deck, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2075"
+    ],
+    "name": "Deprived",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "That spark that burns in others--you don't have it",
+    "traits": [
+      "Deed",
+      "Supernatural",
+      "Voyage"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot Awaken. You cannot summon during your turn"
+        }
+      ]
+    },
+    "growthName": "Hopeful",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you Awaken or Summon during your turn, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2076"
+    ],
+    "name": "Hoarder",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "I need that",
+    "traits": [
+      "Fate",
+      "Gods",
+      "Family"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot voluntarily discard tokens and card"
+        }
+      ]
+    },
+    "growthName": "Kondo",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you discard a"
+        },
+        {
+          "type": "icon",
+          "value": "Gear"
+        },
+        {
+          "type": "plainText",
+          "value": "card, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2077"
+    ],
+    "name": "Indebted",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Taxes trump death",
+    "traits": [
+      "Dream",
+      "Tragedy",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain at least 1 Condition token or Ambrosia token, gain 1 more of that token"
+        }
+      ]
+    },
+    "growthName": "Investor",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain at least 3 Condition tokens or Ambrosia tokens from a single source, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "DF2078"
+    ],
+    "name": "Expendable",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Your robes are daubed crimson",
+    "traits": [
+      "Deed",
+      "Gods",
+      "Fate"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot re-draw Obol cards"
+        }
+      ]
+    },
+    "growthName": "Indispensable",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you draw an Obol and don't re-draw it, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2648"
+    ],
+    "name": "Sanctimonious",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "I know what's best for us",
+    "traits": [
+      "Fate",
+      "Gods",
+      "Family"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot equip"
+        },
+        {
+          "type": "icon",
+          "value": "Gear"
+        },
+        {
+          "type": "plainText",
+          "value": "with the Light X keyword"
+        }
+      ]
+    },
+    "growthName": "Forthright",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you place Ambrosia tokens on your"
+        },
+        {
+          "type": "icon",
+          "value": "Gear"
+        },
+        {
+          "type": "plainText",
+          "value": "cards, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2649"
+    ],
+    "name": "Delusional",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "They want to poison us",
+    "traits": [
+      "Supernatural",
+      "Tragedy",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When your Attack hits, but before revealing the BP card, guess the"
+        },
+        {
+          "type": "icon",
+          "value": "AT"
+        },
+        {
+          "type": "plainText",
+          "value": ". If you guess incorrectly, gain 1 Ambrosia token"
+        }
+      ]
+    },
+    "growthName": "Rational",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When your Attack hits, but before revealing the BP card, guess the"
+        },
+        {
+          "type": "icon",
+          "value": "AT"
+        },
+        {
+          "type": "plainText",
+          "value": ". If you guess correctly, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2650"
+    ],
+    "name": "Dogmatic",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "This would be sacrilege",
+    "traits": [
+      "Curse",
+      "Dream",
+      "Crime"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot use Aether tokens in any way"
+        }
+      ]
+    },
+    "growthName": "Broad-minded",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you use Aether tokens, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2651"
+    ],
+    "name": "Humiliated",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "Nobody will tell you you're a coward!",
+    "traits": [
+      "Voyage",
+      "Dream",
+      "Gods"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot voluntarily move away from the Primordial"
+        }
+      ]
+    },
+    "growthName": "Self-confident",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you move away from the Primordial with a"
+        },
+        {
+          "type": "icon",
+          "value": "MovementAction"
+        },
+        {
+          "type": "plainText",
+          "value": ", lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2652"
+    ],
+    "name": "Depressed",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "You cannot go on this way..",
+    "traits": [
+      "Deed",
+      "Curse",
+      "Dream"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "Start of your turn"
+        },
+        {
+          "type": "plainText",
+          "value": "Gain 1 Despair token"
+        }
+      ]
+    },
+    "growthName": "Content",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain 2+ Despair tokens from one source, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Cunning"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2653"
+    ],
+    "name": "Memory of Drowning",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "The worst death",
+    "traits": [
+      "Voyage",
+      "Supernatural",
+      "Deed"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You cannot gain additional Oxygen tokens"
+        }
+      ]
+    },
+    "growthName": "Breath of life",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you discard or spend Oxygen tokens (but not flip them!), lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Endurance"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2654"
+    ],
+    "name": "Phantom Pain",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "I still feel it",
+    "traits": [
+      "Deed",
+      "Heritage",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you draw a Trauma card, gain 1 Pain"
+        }
+      ]
+    },
+    "growthName": "Comfort",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain 2+ Pain tokens from one source, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Will"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2655"
+    ],
+    "name": "Godfearing",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "This is their punishment",
+    "traits": [
+      "Family",
+      "Gods",
+      "Fate"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain a negative Mind Condition card, gain 1 negative Precision token"
+        }
+      ]
+    },
+    "growthName": "Godforsaken",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain a Mind Condition card, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
+    ]
+  },
+  {
+    "cardIDs": [
+      "EF2656"
+    ],
+    "name": "Messianic",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "flavor": "My death was promised",
+    "traits": [
+      "Supernatural",
+      "Heritage",
+      "Curse"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you are about to draw an Obol, add an additional"
+        },
+        {
+          "type": "italics",
+          "value": "You died"
+        },
+        {
+          "type": "plainText",
+          "value": "Obol to the Obol deck (for this draw only)"
+        }
+      ]
+    },
+    "growthName": "Realist",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you survive an Obol Draw from 3 or more Obol cards, lose -1"
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Fury"
     ]
   },
   {

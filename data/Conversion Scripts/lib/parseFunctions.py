@@ -7,7 +7,8 @@ def parse_formatted_sentence(raw_sentence):
     if not raw_sentence: return None, None
 
     token_regex = re.compile(
-        r"{([^}]+)}"            # {keyword}
+        r"(\\n)"
+        r"|{([^}]+)}"            # {keyword}
         r"|<([^>]+)>"           # <timing>
         r"|\[([^\]]+)\]"        # [cardRef]
         r"|%([^%]+)%"           # %gate%
@@ -22,9 +23,11 @@ def parse_formatted_sentence(raw_sentence):
     tokens = []
     costs = []
     for match in token_regex.finditer(raw_sentence):
-        keyword, timing, cardRef, gate, bold, italics, icon, cost, text = match.groups()
+        newline, keyword, timing, cardRef, gate, bold, italics, icon, cost, text = match.groups()
 
-        if keyword:
+        if newline:
+            tokens.append({"type": "newline"})
+        elif keyword:
             tokens.append({"type": "keyword", "value": keyword})
         elif timing:
             tokens.append({"type": "timing", "value": timing})

@@ -632,7 +632,7 @@
               {
                 "type": "cardRef",
                 "value": "Covetous",
-                "refID": ""
+                "refID": "DL2007"
               },
               {
                 "type": "plainText",
@@ -641,7 +641,7 @@
               {
                 "type": "cardRef",
                 "value": "Greed-crazed",
-                "refID": ""
+                "refID": "DL2007"
               },
               {
                 "type": "plainText",
@@ -704,7 +704,7 @@
                   {
                     "type": "cardRef",
                     "value": "Wishkeen",
-                    "refID": ""
+                    "refID": "DL2011"
                   },
                   {
                     "type": "plainText",
@@ -1257,7 +1257,7 @@
                   {
                     "type": "cardRef",
                     "value": "Covetous",
-                    "refID": ""
+                    "refID": "DL2007"
                   },
                   {
                     "type": "plainText",
@@ -1707,18 +1707,16 @@
                 "value": "One Hit,"
               },
               {
-                "type": "cardRef",
-                "value": "Death 2",
-                "refID": ""
+                "type": "keyword",
+                "value": "Death 2"
               },
               {
                 "type": "plainText",
                 "value": "; two hits,"
               },
               {
-                "type": "cardRef",
-                "value": "Death 1",
-                "refID": ""
+                "type": "keyword",
+                "value": "Death 1"
               },
               {
                 "type": "plainText",
@@ -1781,7 +1779,7 @@
                   {
                     "type": "cardRef",
                     "value": "Wishagog",
-                    "refID": ""
+                    "refID": "DL2011"
                   },
                   {
                     "type": "plainText",
@@ -2177,7 +2175,7 @@
       }
     ],
     "BPcritFlavor": "You catch the Primordial mid-transformation and hack away the arm at the shoulder!",
-    "BPcritResponse": "Gain the [Shadowcleaver] @Gear card (Secret deck 11, card 197)!",
+    "BPcritResponse": "Gain the [Shadowcleaver|DJ2366] @Gear card (Secret deck 11, card 197)!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2373,7 +2371,7 @@
       }
     ],
     "BPcritFlavor": "Your blow shatters the alien face into fine dust... Dust that you then inhale...",
-    "BPcritResponse": "Gain the [Dahaka Mask] @Gear card (Secret deck 11, card 196)!",
+    "BPcritResponse": "Gain the [Dahaka Mask|DJ2365] @Gear card (Secret deck 11, card 196)!",
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2843,7 +2841,7 @@
       }
     ],
     "BPcritFlavor": "Your attack causes a cascade of implosions in the rumble heart, now more a maelstrom of inscrutable black. It stiffens suddenly, like a fresh corpse",
-    "BPcritResponse": "Gain the [Dahaka Blade] @Gear card (Secret deck 11, card 195)!"
+    "BPcritResponse": "Gain the [Dahaka Blade|DJ2364] @Gear card (Secret deck 11, card 195)!"
   },
   {
     "cardIDs": [
@@ -3141,9 +3139,8 @@
           {
             "abilityText": [
               {
-                "type": "cardRef",
-                "value": "Float",
-                "refID": ""
+                "type": "keyword",
+                "value": "Float"
               }
             ]
           }
@@ -3340,7 +3337,7 @@
               {
                 "type": "cardRef",
                 "value": "Knockdown",
-                "refID": ""
+                "refID": "AL0299"
               }
             ]
           }

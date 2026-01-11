@@ -49,16 +49,32 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may immediately perform a Bonus Attack! If you have the"
+            "value": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          },
+          {
+            "type": "plainText",
+            "value": "! If you have the"
           },
           {
             "type": "cardRef",
             "value": "Knockdown (falling down)",
-            "refID": ""
+            "refID": "AL0303"
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately stand up instead"
+            "value": "Condition card, immediately stand up and gain 1 positive"
+          },
+          {
+            "type": "icon",
+            "value": "Evasion"
+          },
+          {
+            "type": "plainText",
+            "value": "token instead"
           }
         ]
       }
@@ -174,16 +190,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Immediately Chain Break the Primordial Attack, gain the"
+            "value": "You may immediately perform a Bonus Attack! If you have the"
           },
           {
             "type": "cardRef",
-            "value": "Knockdown (standing up)",
-            "refID": ""
+            "value": "Knockdown (falling down)",
+            "refID": "AL0303"
           },
           {
             "type": "plainText",
-            "value": "Condition card"
+            "value": "Condition card, immediately stand up instead"
           }
         ]
       }
@@ -797,7 +813,7 @@
           {
             "type": "cardRef",
             "value": "Knockdown (falling down)",
-            "refID": ""
+            "refID": "AL0303"
           },
           {
             "type": "plainText",
@@ -938,7 +954,7 @@
           {
             "type": "cardRef",
             "value": "Feign Death",
-            "refID": ""
+            "refID": "AM0311"
           },
           {
             "type": "plainText",
@@ -967,7 +983,7 @@
           {
             "type": "cardRef",
             "value": "Spark of the Dead Gods",
-            "refID": ""
+            "refID": "AA0051"
           },
           {
             "type": "plainText",
@@ -1181,7 +1197,7 @@
           {
             "type": "cardRef",
             "value": "You died horribly",
-            "refID": ""
+            "refID": "AM0357"
           },
           {
             "type": "plainText",
@@ -1305,12 +1321,12 @@
           },
           {
             "type": "cardRef",
-            "value": "Spark of the Dead",
-            "refID": ""
+            "value": "Spark of the Dead Gods",
+            "refID": "AA0051"
           },
           {
             "type": "plainText",
-            "value": "Gods Technology card, roll a d10"
+            "value": "Technology card, roll a d10"
           }
         ]
       },
@@ -1505,7 +1521,7 @@
           {
             "type": "cardRef",
             "value": "Knockdown (falling down)",
-            "refID": ""
+            "refID": "AL0303"
           },
           {
             "type": "plainText",
@@ -1558,7 +1574,7 @@
           {
             "type": "cardRef",
             "value": "Marked for Death",
-            "refID": ""
+            "refID": "AM0323"
           },
           {
             "type": "plainText",
@@ -1762,7 +1778,7 @@
     "cardSize": "Mini American",
     "faq": "",
     "errata": "",
-    "flavor": "",
+    "flavor": "I have a rendezvous with Death",
     "subtype": "Obol",
     "effects": [],
     "isCondition": "",
@@ -1932,6 +1948,1303 @@
   },
   {
     "cardIDs": [
+      "AM0359"
+    ],
+    "name": "Your Death Transcends Reality",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "And I to my pledged word am true, I shall not fail that rendezvous",
+    "subtype": "Obol",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "See the"
+          },
+          {
+            "type": "italics",
+            "value": "Your Death Transcend Reality"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event in the Cycle I Storybook"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0678"
+    ],
+    "name": "Hatred",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Hatred",
+            "refID": "BL0661"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Down",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0679"
+    ],
+    "name": "Bloodlust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0680"
+    ],
+    "name": "Bloodlust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0681"
+    ],
+    "name": "Bloodlust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0682"
+    ],
+    "name": "Frenzy",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Frenzy",
+            "refID": "BL0661"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "5",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0683"
+    ],
+    "name": "Bloodrage",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "6",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0684"
+    ],
+    "name": "Bloodrage",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "7",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0685"
+    ],
+    "name": "Disarmed",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Discard 1 Weapon"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "8",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0686"
+    ],
+    "name": "Bloodmadness",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +3"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "BM0687"
+    ],
+    "name": "Achilles's Counter",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Choose a space adjacent to the Primordial on the Primordial diagram"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It becomes a Weakspot ("
+          },
+          {
+            "type": "icon",
+            "value": "Weakspot"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Until the end of Battle, when attacked from the"
+          },
+          {
+            "type": "icon",
+            "value": "Weakspot"
+          },
+          {
+            "type": "plainText",
+            "value": ", the Primordial has -1"
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "+"
+  },
+  {
+    "cardIDs": [
+      "BM0688"
+    ],
+    "name": "The Touch",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stand up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may immediately move up to your"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "plainText",
+            "value": "and perform a"
+          },
+          {
+            "type": "bold",
+            "value": "Bonus Attack!"
+          },
+          {
+            "type": "plainText",
+            "value": "If you're the last Titan on the Board, repeat once"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "+"
+  },
+  {
+    "cardIDs": [
+      "CM1299"
+    ],
+    "name": "Muffled",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Muffled",
+            "refID": "CL1291"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Down",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1300"
+    ],
+    "name": "Time-Clocked",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reestablish your Time Anchor"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Time-clocked",
+            "refID": "CL1295"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1301"
+    ],
+    "name": "Moirai Edict",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1302"
+    ],
+    "name": "Fateful Paradox",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Paradox"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1303"
+    ],
+    "name": "Sealed",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Sealed",
+            "refID": "CL1291"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "5",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1304"
+    ],
+    "name": "Moirai Verdict",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "6",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1305"
+    ],
+    "name": "Moirai Verdict",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "7",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1306"
+    ],
+    "name": "Fateful Paradox",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Paradox"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "8",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1307"
+    ],
+    "name": "Moirai Law",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +3"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1308"
+    ],
+    "name": "At Death's Door",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Suffer"
+          },
+          {
+            "type": "keyword",
+            "value": "Death 1"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "CM1309"
+    ],
+    "name": "Break The Wheel",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Stand up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10, adding +X, where X is the number of"
+          },
+          {
+            "type": "icon",
+            "value": "Paradox"
+          },
+          {
+            "type": "plainText",
+            "value": "you have"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a 10+, you Awaken,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "+"
+  },
+  {
+    "cardIDs": [
+      "DM2044"
+    ],
+    "name": "Covetous",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Covetous",
+            "refID": "DL2007"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Down",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2045"
+    ],
+    "name": "Aurified",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas 1"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2046"
+    ],
+    "name": "Wishing for a Wish",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Wishkeen",
+            "refID": "DL2011"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2047"
+    ],
+    "name": "Sunward Gust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Float"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2560"
+    ],
+    "name": "Greed-Crazed",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Greed-crazed",
+            "refID": "DL2007"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "5",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2561"
+    ],
+    "name": "Severely Aurified",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas 2"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "6",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2562"
+    ],
+    "name": "Yearning for a Wish",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Wishagog",
+            "refID": "DL2011"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "7",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2563"
+    ],
+    "name": "Moonward Gust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Zone 3 (originating from the Titan, including them):"
+          },
+          {
+            "type": "keyword",
+            "value": "Float"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "8",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2564"
+    ],
+    "name": "Cursed Land",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain a random Curse Affliction"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2565"
+    ],
+    "name": "Gravely Aurified",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas 4"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "DM2566"
+    ],
+    "name": "Earthward Gust",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you have a Cursed Affliction, Awaken"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If not, stand up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": ", immediately perform"
+          },
+          {
+            "type": "keyword",
+            "value": "Hermes Move 3"
+          },
+          {
+            "type": "plainText",
+            "value": "and a"
+          },
+          {
+            "type": "bold",
+            "value": "Bonus Attack!"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "+"
+  },
+  {
+    "cardIDs": [
       "EM2620"
     ],
     "name": "Primal Fear",
@@ -2026,7 +3339,7 @@
           {
             "type": "cardRef",
             "value": "Terror",
-            "refID": ""
+            "refID": "EL2596"
           },
           {
             "type": "plainText",
@@ -2059,6 +3372,34 @@
           {
             "type": "plainText",
             "value": "Gain 1 Despair token"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "Choose",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "EM2624"
+    ],
+    "name": "Pain of Dying",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Minor",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Pain token"
           }
         ]
       }
@@ -2164,7 +3505,7 @@
           {
             "type": "cardRef",
             "value": "Holy Terror",
-            "refID": ""
+            "refID": "EL2596"
           },
           {
             "type": "plainText",
@@ -2204,6 +3545,34 @@
     "isCondition": "",
     "arrow": "",
     "number": "8",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
+      "EM2629"
+    ],
+    "name": "Pain of Living",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 2 Pain tokens"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "0",
     "sign": "-"
   },
   {
@@ -2265,7 +3634,7 @@
           {
             "type": "cardRef",
             "value": "Holy Terror",
-            "refID": ""
+            "refID": "EL2596"
           },
           {
             "type": "plainText",
@@ -2302,7 +3671,7 @@
           {
             "type": "cardRef",
             "value": "Bravery",
-            "refID": ""
+            "refID": "EL2600"
           },
           {
             "type": "plainText",
@@ -2335,6 +3704,34 @@
     "arrow": "",
     "number": "",
     "sign": "+"
+  },
+  {
+    "cardIDs": [
+      "EM2633"
+    ],
+    "name": "Pain of Being",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 3 Pain tokens"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
   },
   {
     "cardIDs": [
@@ -2389,9 +3786,34 @@
     "foundIn": "Secret Deck 02",
     "faq": "",
     "errata": "",
-    "flavor": "",
+    "flavor": "Light our darkest hour..",
     "subtype": "Obol",
-    "effects": [],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a 10, you Awaken instead,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          },
+          {
+            "type": "plainText",
+            "value": "!"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -2483,9 +3905,54 @@
     "foundIn": "Secret Deck 10",
     "faq": "",
     "errata": "",
-    "flavor": "",
+    "flavor": "Abundance has improverished you..",
     "subtype": "Obol",
-    "effects": [],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a 10, you Awaken instead,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
+          },
+          {
+            "type": "plainText",
+            "value": "!"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "Permanently lose 1 equipped Unique Weapon"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card!"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
     "number": "",
@@ -2515,7 +3982,7 @@
           {
             "type": "cardRef",
             "value": "Scarred",
-            "refID": ""
+            "refID": "AX9968"
           },
           {
             "type": "plainText",
@@ -2569,7 +4036,7 @@
           {
             "type": "cardRef",
             "value": "Firestarter",
-            "refID": ""
+            "refID": "BK0655"
           },
           {
             "type": "plainText",
@@ -2601,6 +4068,78 @@
   },
   {
     "cardIDs": [
+      ""
+    ],
+    "name": "Windswept",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Major",
+    "effects": [],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": ""
+  },
+  {
+    "cardIDs": [
+      "BM9973"
+    ],
+    "name": "Deathtouched",
+    "cardType": "Trauma",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtype": "Grave",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you're fighting the Nietzschea, for the duration of the Battle, add this card to the Trauma deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          },
+          {
+            "type": "plainText",
+            "value": "and +2"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ]
+      }
+    ],
+    "isCondition": "",
+    "arrow": "",
+    "number": "",
+    "sign": "-"
+  },
+  {
+    "cardIDs": [
       "AM0360"
     ],
     "name": "Your Death Transcends Reality",
@@ -2623,7 +4162,7 @@
           {
             "type": "cardRef",
             "value": "Hades",
-            "refID": ""
+            "refID": "AQ0629"
           },
           {
             "type": "plainText",

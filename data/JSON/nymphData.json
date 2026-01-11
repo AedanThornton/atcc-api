@@ -1,6 +1,296 @@
 [
   {
     "cardIDs": [
+      "AP0389"
+    ],
+    "name": "Engine Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "title": "God-Charged Engine",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "3"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          },
+          {
+            "type": "plainText",
+            "value": "or less"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are about to move the Argo, move the Argo two times instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Do not resolve any other Voyage steps on the first tile moved to"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the tile you ignored was unexplored, place the Engine Nymph token on it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Next time you enter that tile, discard that token and treat the tile as if you have just revealed it"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AP0390"
+    ],
+    "name": "Solitude Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "title": "Gaia's Hold",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died or drawn an Obol"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately discard the drawn AI card, without resolving it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Treat it as resolved"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AP0391"
+    ],
+    "name": "Amalthean Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "title": "Amalthea's Milk",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died or drawn an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When a Titan is about to die from an Obol Draw"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Treat the Titan as if they drew a"
+          },
+          {
+            "type": "italics",
+            "value": "You Live!"
+          },
+          {
+            "type": "plainText",
+            "value": "Obol card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Additionally, they lose -3"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and -3"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AP0392"
+    ],
+    "name": "Labyrinth Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "title": "Minotaur Logic",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died or drawn an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When a Titan is about to die from an Obol Draw"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately remove, move, or place 3 different Labyrinth tiles anywhere on the Board"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All moved or placed tiles must create a connected Labyrinth path"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The first Titan Attack this Round performed from a Labyrinth tile gains +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AP0393"
+    ],
+    "name": "Depths Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 03",
+    "faq": "",
+    "errata": "",
+    "title": "Midnight Tide",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Any Titan has at least 4 Ambrosia tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +6"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "as a group"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately remove all Terrain tiles with the Ambrosia keyword and discard all Ambrosia tokens from all Titans"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "BP0705"
     ],
     "name": "Sweets Nymph",
@@ -135,7 +425,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Resolve the Forging a Masterpiece Special Event of your current Cycle Storybook (or Cycle II Storybook for Cycle I)"
+            "value": "Resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Forging a Masterpiece"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event of your current Cycle Storybook (or Cycle II Storybook for Cycle I)"
           }
         ]
       },
@@ -159,7 +457,15 @@
           },
           {
             "type": "plainText",
-            "value": "card gains the Argonaut Possession keyword"
+            "value": "card gains the"
+          },
+          {
+            "type": "keyword",
+            "value": "Argonaut Possession"
+          },
+          {
+            "type": "plainText",
+            "value": "keyword"
           }
         ]
       },
@@ -183,7 +489,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "The Argonaut gains the Apathy Fated Mnemos card"
+            "value": "The Argonaut gains the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Apathy",
+            "refID": "CF1261"
+          },
+          {
+            "type": "plainText",
+            "value": "Fated Mnemos card"
           }
         ]
       }
@@ -260,8 +575,12 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Start of your turn:"
+          },
+          {
             "type": "plainText",
-            "value": "Start of your turn: Discard the Blade Nymph token"
+            "value": "Discard the Blade Nymph token"
           }
         ]
       },
@@ -293,7 +612,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Be on a City tile"
+            "value": "Be on a"
+          },
+          {
+            "type": "icon",
+            "value": "City"
+          },
+          {
+            "type": "plainText",
+            "value": "tile"
           }
         ]
       },
@@ -447,6 +774,64 @@
   },
   {
     "cardIDs": [
+      "CP1322"
+    ],
+    "name": "Night Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 09",
+    "faq": "",
+    "errata": "",
+    "title": "Veil of Nyx",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "None"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Choose a waterway on any explored Map tile, leading to an unexplored tile"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reveal that tile and place the Night Nymph token on it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you enter that tile, discard the token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Treat that tile as if you've just revealed it"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "CP1323"
     ],
     "name": "Age Nymph",
@@ -559,7 +944,23 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "They cannot suffer Knockdown or Time-clocked and cannot gain"
+            "value": "They cannot suffer"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "keyword",
+            "value": "Time-clocked"
+          },
+          {
+            "type": "plainText",
+            "value": "and cannot gain"
           },
           {
             "type": "icon",
@@ -667,7 +1068,16 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Immediately create 6 Glass Irem Tower tiles"
+            "value": "Immediately create 6 Glass"
+          },
+          {
+            "type": "cardRef",
+            "value": "Irem Tower",
+            "refID": "DI2028"
+          },
+          {
+            "type": "plainText",
+            "value": "tiles"
           }
         ]
       },
@@ -675,7 +1085,23 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "A Glass Irem Tower loses the Shifting keyword and gains the Destructible keyword"
+            "value": "A Glass Irem Tower loses the"
+          },
+          {
+            "type": "keyword",
+            "value": "Shifting"
+          },
+          {
+            "type": "plainText",
+            "value": "keyword and gains the"
+          },
+          {
+            "type": "keyword",
+            "value": "Destructible"
+          },
+          {
+            "type": "plainText",
+            "value": "keyword"
           }
         ]
       }
@@ -741,15 +1167,31 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When an Argonaut is about to die and either During Battle: At least 1 Titan has died"
+            "value": "When an Argonaut is about to die and either"
+          },
+          {
+            "type": "bold",
+            "value": "During Battle:"
+          },
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died"
           }
         ]
       },
       {
         "abilityText": [
           {
+            "type": "bold",
+            "value": "During Voyage:"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          },
+          {
             "type": "plainText",
-            "value": "During Voyage: Crew 3 or less"
+            "value": "3 or less"
           }
         ]
       }
@@ -760,6 +1202,82 @@
           {
             "type": "plainText",
             "value": "Prevent the Argonaut death, as if you used an Echo of Recollection, and lose -1 Titan instead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EQ2638"
+    ],
+    "name": "Ambrosia Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 16",
+    "faq": "",
+    "errata": "",
+    "title": "Final Descent",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died or drawn an Obol"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Discard all Ambrosia tokens from all Titans"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains 1 Aether token for each 2 Ambrosia tokens discarded this way"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EQ2639"
+    ],
+    "name": "Aether Nymph",
+    "cardType": "Nymph",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Tarot",
+    "foundIn": "Secret Deck 16",
+    "faq": "",
+    "errata": "",
+    "title": "Oxygen Destroyer",
+    "requirements": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At least 1 Titan has died or drawn an Obol"
+          }
+        ]
+      }
+    ],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Flip all Aether tokens or all Oxygen tokens"
           }
         ]
       }

@@ -63,15 +63,7 @@
             },
             {
               "type": "plainText",
-              "value": "token on your current"
-            },
-            {
-              "type": "icon",
-              "value": "Doom"
-            },
-            {
-              "type": "plainText",
-              "value": "card"
+              "value": "token on your current Doom card"
             }
           ]
         },
@@ -110,7 +102,8 @@
       ]
     ],
     "flavor2": [
-      "Placeholder"
+      "As you familiarize yourself with the island and its people, you start to understand why the Daughters of Minos want their father back: their rule is crumbling. Minos held power with fear and ruthlessness, his empire a well-oiled machine of tyranny. Now that machine has ground to a halt. The Horned Guard fails to quiet the dissent from the old compatriots of Theseus, the Hornsworn, while more and more flock to the maze cult's alluring promise: salvation for all.",
+      "In this tumultous time, a lowly beggar known only as the Punished begins to accumulate influence"
     ],
     "rules2": [
       [
@@ -118,7 +111,4095 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "placeholder"
+              "value": "If J1 is marked, see 0050"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Old Spinner",
+              "refID": "AC0073"
+            },
+            {
+              "type": "plainText",
+              "value": "is with you, see 0022"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat Labyrinthian Temple markers as"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "Map symbols"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotatiation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by a Labyrinthian Temple marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hekatrap",
+              "refID": "AB0109"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card into the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0004"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AE0118"
+    ],
+    "name": "Invisible Weights",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Invisible Weights",
+    "cardNumber": "2",
+    "flavor": [
+      "Wherever the Temenos emerges, death and despair rule absolutely. Even your Titans are powerless to stop it.",
+      "The Truth of the Labyrinth grows louder by the day, the words of its reluctant prophet, the Punished, reach more and more ears. While the Labyrinthian numbers soar, their actions grow bolder. Maze-tattooed pilgrims become a common sight on coastal roads. The Truth of the Labyrinth they teach with disarming honesty and humility worms its way into the stoutest of hearts. Their connection to the Primordials is no longer contained to gossip and hearsay. It makes many questions their loyalties. If those titanic monstrosities bow to the Labyrinth, what hope is there?"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Maze Pilgrim",
+              "refID": "AB0112"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat Labyrinthian Temple markers as"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "Map symbols"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotatiation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by a Labyrinthian Temple marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip it to side 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 2B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Those few who manage to escape from the heart of the island fear to look back. They tell tales of a land transformed into Pythagoras's nightmare. Angular trees bearing angular fruit, grass becoming like fine texture and hills turning into solid blocks cut by an unholy mason. Birds flying in maze patterns on the evening sky and elk growing maze-like anters.",
+      "They also tell of a man who speaks for the Maze. The Punished.",
+      "\"He is coming to Knossos,\" they whisper fearfully.",
+      "\"To render judgment?\"",
+      "\"No. To receive it.\""
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Maze Storm",
+              "refID": "AB0113"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat Labyrinthian Temple markers as"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "Map symbols"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotatiation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by a Labyrinthian Temple marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0025"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AE0119"
+    ],
+    "name": "No Way Out",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "No Way Out",
+    "cardNumber": "3",
+    "flavor": [
+      "Some say the Punished has been put to death, others that he is jailed and tortured in the Daedalus Vault. However gruesome his fate, it has not turned the tide. The Labyrinth grows vaster every day. It consumes plains, forests, rivers. It transforms the cities and those who inhabit them. The maze-like tattoos start to blossom, turning people into living nightmares of angular flesh and symmetrical ribbons of skin. Thousands flock to Knossos for protection, only to be violently turned away by the Horned Guard.",
+      "It seems the Punished told the Truth: he was no one, a meaningless mouthpiece, now discarded in favor of another. Or ten thousand others"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat Labyrinthian Temple markers as"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "Map symbols"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotatiation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by a Labyrinthian Temple marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hekatrap",
+              "refID": "AB0109"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card to the Exploration deck (unless it's already there)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip it to side 3B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 3B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Crete's days numbered. The Horned Guard is crumbling, with many regiments deserting to join the swelling ranks of the Labyrinthians and others fleeing to the Hornsworn islands, hoping water will stop the spread of the maze disease, as it did before. Poor wretches. They do not realize the Labyrinth has found a way.",
+      "As Knossos itself starts to transform, all hope seems lost"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat Labyrinthian Temple markers as"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "Map symbols"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotatiation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by a Labyrinthian Temple marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Heart of the Maze",
+              "refID": "AB0116"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card to the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Swap Map tiles 9, 13, 14, 18, 22, 23, and 35 with the Alternate versions (unless already swapped)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0099"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "BE0628"
+    ],
+    "name": "Spartan Olympics",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Hateful Seeds",
+    "cardNumber": "1",
+    "flavor": [
+      "\"The strong eat, and the weak are meet.\"",
+      "The Nietzschean has declared war on the civilized world in the name of his perverse ideology, subjugating culture after culture and exploiting the land for valuable resources, like ambrosia. As his armies march toward the coast, it seems there are none who can oppose him.",
+      "None but you and your allies.",
+      "Yet, from the beginning, you are beset by your own problems. Spies and saboteurs of the emprie are infiltrating the Argo with the flood of refugees. It's only a matter of time before something happens"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Find the Exploration cards numbered 33-36 and shuffle them to create the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Sabotage deck",
+              "refID": ""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are instructed to add Sabotage cards the Exploration deck, randomly draw them from the Sabotage deck, then shuffle them into the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When a Sabotage card is removed from the Exploration deck, shuffle it back into the Sabotage deck (unless it was removed permanently)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If your Sabotage deck runs out of cards, as long as it is empty, ignore all effects that instruct you to add Sabotage cards to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add 2 random Sabotage cards to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card or you've advanced to Story 2A, flip the card to side 1B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 1B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "As you face the Spartan legions and familiarize yourself with the empire's tactics, one thing becomes clear: conventional thinking won't get you far. The Nietzschean is not playing by the rules of Hellas. Yet, if you resort to fighting fire with fire, you will be walking a treacherous path, closer and closer to the abyss itself.",
+      "As you ponder this paradox, the saboteurs onboard the Argo are growing bolder with each day. And in the far corners of Laconia, people whisper of another plot"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately add 2 Sabotage cards to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0036"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "BE0629"
+    ],
+    "name": "Ill Fate Marshaling",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Ill Fate Marshaling",
+    "cardNumber": "2",
+    "flavor": [
+      "The Nietzschean knows much about the Argo--too much to blame it on the secrets gleaned by his spies. But that knowledge is stained with blood, and obtaining it may carry too high a price. As the war continues and atrocities escalate, the Great River Works run red and black, whipping the gargantuan Chimeras Metastasios into a frenzy. THeir lumberous hulks have been seen moving north, along the ambrosia pipelines, like stone glaciers. They're heading toward the Temple of Man, but to what end, nobody knows.",
+      "An ill fate is marshaling, Argonauts. Tread carefully and tend to your humanity, for you are dancing above the abyss"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Krypteia Assassin Attempt",
+              "refID": "BB1248"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Moral Erosion",
+              "refID": "BB1249"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards to the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Carefully open Envelope N and take the cards out iwhtout looking or shuffling"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you are playing with less than 4 players, return the corresponding number of cards back to Envelope N, starting from the top card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, shuffle the remaining cards and deal one to each player"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "These cards are secret"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Do not show your card to the other players or discuss its contents"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While this card is in play, each time you battle a Chimera Metastasios, gain +1 unavoidable"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to sid e 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 2B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The Primordials do not discern between friend and foe. To them, all are equal: insignificant bugs to be squashed or consumed. The Chimera Migration has decimated the countryside, blocking or collapsing canals, with the largest casualties suffered by the empire itself.",
+      "Yet the Nietzschean does not seem to concern himself with such trivial matters. He sits on his throne in the Temple of Man, counting down the days the Argo has left to fulfill his dreadful challenge. He does not hold much hope for you, for hope is for the weak"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Black Sludge",
+              "refID": "BB1250"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Ambrosia Spill",
+              "refID": "BB1251"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards to the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While this card is in play, at the start of each Chimera Metastasios Battle, Escalate 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you battle a Chimera Metastasios, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0109"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "BE0630"
+    ],
+    "name": "Wolf Among You",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Darkest Before",
+    "cardNumber": "3",
+    "flavor": [
+      "You have escaped Therapne with rekindled hope, but night still falls on Sparta.",
+      "As the war is seemingly drawing to a close, the Symmachy pushes north, though its supply lines are stretched thin and its coffers are all but empty. The Helots' and Cyclopes' rebellions near their zeniths, and without a decisive victory, they will undoubtedly fail.",
+      "The empire, cornered like a wild animal, has grown more desperate and dangerous, and each subsequent step closer to the Temple of Man will cost you dearly in blood. Still, the Nietzschean waits on his throne with a sly smile, as if all has gone according to some grand design.",
+      "They say it's darkest before the dawn. You hope it's true, for all you can see is the abyss"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Private Lesson",
+              "refID": "BB1252"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card to the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately reveal the Temple of Man tile (018)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "All"
+            },
+            {
+              "type": "bold",
+              "value": "Save"
+            },
+            {
+              "type": "plainText",
+              "value": "ability rolls except for Font Infinite ("
+            },
+            {
+              "type": "cardRef",
+              "value": "Hope Logic",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card) suffer -1 penalty"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there is 1 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0099"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to side 3B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 3B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "All is as it should be. The Nietzschean's apotheosis is at hand. It seems his philosophy of power through strength, pain, and struggle has built him a staircase to the heavens themselves, where vacant Olympian thrones await a worthy successor. Is there no way of stopping him? No weakness to exploit?",
+      "The days grow shorter and a new glorious age looms over Laconia--though not many will be deemed worthy enough to see it"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "All"
+            },
+            {
+              "type": "bold",
+              "value": "Save"
+            },
+            {
+              "type": "plainText",
+              "value": "ability rolls except for Font Infinite ("
+            },
+            {
+              "type": "cardRef",
+              "value": "Hope Logic",
+              "refID": "AA0038"
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card) suffer -2 penalty"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0247"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CE1254"
+    ],
+    "name": "Vicious Circle",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Vicious Cycle",
+    "cardNumber": "1",
+    "flavor": [
+      "There is no mistaking that mighty silhouette, that figurehead that came to embody hope and unyielding mortal will. That there, in the ice, that broken carcass of a ship, is the Argo.",
+      "You came to Delphi to save its people from their irreversible, inevitable fate and in doing so you seem to have sealed your own. Maybe, in another time, another life, before Crete and Sparta, maybe then you would have considered turning back.",
+      "Now? Now you're on a mission to bring hope to a hopeless world. And what better way to do that than to challenge the mute, inexorable Moirai and their pitiless verdicts? To challenge and win at a game rigged from the start.",
+      "That's you"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to side 1B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Put excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 1B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Just like you, the people of Delphi are trapped in a vicious cycle between the dark past and a bleak future. As time slowly but inexorably compresses, the two extremes inch toward a collision, like fated glaciers.",
+      "Golden altars and blood sacrifices to the mighty uncaring god Helios. A regime ruled by the mad Oracles, desperately clinging to waning power with more and more dangerous prophecies. And the people of the Twilight, stripped from delusions of gods and fates, but of their fragile humanity as well. Be trapped by the past or reject it. Is this truly a choice?",
+      "The strait narrows..."
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Tomorrow's Edge",
+              "refID": "CB1652"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Rewound",
+              "refID": "CB1653"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0049"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CE1255"
+    ],
+    "name": "The Eschaton Dilemma",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Rendezvous With Death",
+    "cardNumber": "2",
+    "flavor": [
+      "You catch yourself looking to the north, beyond the no-horizon, toward a mountain that now exists only in your memories. It all started to unravel that day, the day of the Eschaton, which even the gods were unable to predict or stop, or indeed, survive.",
+      "The time-lock that now shackles Delphi is a distant echo of that event, like a nefarious aftershock. You look to the crooked, ice-covered statues of Helios, and think of the Primordials you have faced. That day mortals exchanged one terror for another. Which was worse?"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Fast-forwarded",
+              "refID": "CB1654"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Tightening the Loop",
+              "refID": "CB1655"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to side 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Put excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 2B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "It is a strange feeling, to cross between timelines. One moment you walk among the ruins of a Spartan fortress, not strong enough--oh irony--to withstand the pitiless forces of time, of fate, of the sun that shines high above. The next, you are pulled back to the times of the invasion, and are besieged from all sides by the countless legions clad in red, white, and black, still fighting for their Supreme Leader, unable to comprehend their war was already waged and lost a long time ago.",
+      "You are the only ones allowed to trespass here, and soon you will either be back, or cast even further, to a time when the world is as bleak and cold as the Nietzschean's heart. Is he here, you wonder briefly, still thinking strength was all it took"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Entropy's Embrace",
+              "refID": "CB1656"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Checkov's Sun",
+              "refID": "CB1657"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0087"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CE1256"
+    ],
+    "name": "Divine Shackles",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Fade To Black",
+    "cardNumber": "3",
+    "flavor": [
+      "The Argo creaks and groans under the tremendous pressures of history trying to unravel itself--or return to its original course. You have no way of knowing if your efforts amount to anything or if you are just sailing the currents carved long ago by the trembling hands of the Moirai, leading you to an inevitable conclusion, the one that greeted you at the gates of Delphi. The vicious cycle.",
+      "A sun rises above you, the black spot of Helios's Domain a dark blemish. You know that even at this very moment, his self-styled descendant reaches for the throne"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to side 3B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Put excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 3B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Time and space are compressing.",
+      "The loop was thought to be infinite, just like the gods before the Eschaton were thought to be omniscient and omnipotent. The bitter, liberating truth it this: nothing is ever all, nothing is forever. As the walls of entropy close all around you, the Sun's descendant, false scion of the gods, sits atop Helios's Domain and looks down on the mortal world. Not long now, he thinks.",
+      "Not long at all"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For the purposes of all effects treat your"
+            },
+            {
+              "type": "icon",
+              "value": "Paradox"
+            },
+            {
+              "type": "plainText",
+              "value": "value as 1 higher"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0259"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DE2083"
+    ],
+    "name": "Delusions of Grandeur",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Market Forces",
+    "cardNumber": "1",
+    "flavor": [
+      "\"Beyond the Law of Bargains, there is only death.\"",
+      "The instant you recover from the battle with the phantasmal tower, another one begins, one not of arms and violence but of trade and attrition. A slow, methodical grinding into fine dust, indistinguishable from the Persian wastes. The Eternal Empire aims to cripple you economically, so that you stand no chance of facing its ruler, God-King Xerxes.",
+      "They have not heard of you, it seems"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card flip the card to side 1B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on side 1B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 3"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)!"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: If you flip this card, all the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on it are lost!"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You have been here long enough to understand that this land offers paradise to a few and Hades to the rest. And yet it somehow thrives and grows, grander, more opulent. It has all to do with Pandora's Jar, that tower of curses.",
+      "There are many ways to find it, you figure. One is to seek audience with the ruler of the land... but the smarter one is to look for the place it was built. Uruk. That is where you will go"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Curselenders",
+              "refID": "DB2151"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "String Wish",
+              "refID": "DB2152"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, see 2301"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then, when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 4"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)!"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: If you flip this card, all the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on it are lost!"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DE2084"
+    ],
+    "name": "Pandora's Jar",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "When the Night Comes",
+    "cardNumber": "2",
+    "flavor": [
+      "You have found the Panoptes of Babel, the birthplace of the Babelian Lunacy, but it has not yielded any answers, and you are no closer to breaking the curse that cast you into this forsaken land.",
+      "You have corroborated that its architect was indeed Pandora, and that the cost to build it was... unimaginable. Countless people toiled and died during its decade-spanning construction, and yet even that seems miniscule compared to the financial toll on the Empire's economy. By all accounts, such a feat would bankrupt all of Hellas in half the time, and the Empire is still here, going strong, stronger than ever, as if its coffers were indeed infinite.",
+      "How do you stop such a power?"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Season of Curses",
+              "refID": "DB2153"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "The Storm Worsens",
+              "refID": "DB2154"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, flip the card to side 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Put excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "token on side 2B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
+            },
+            {
+              "type": "italics",
+              "value": "Son of Dusk"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event on p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "137"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: If you flip this card, all the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on it are lost!"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Pandora's Jar, Pandora's Tower, Babelian Lunacy, Heavenly Staircase, the many-named monstrosity that mars the horizon from dawn till dusk is getting noticeably taller by the day now. On overcast days it disappears into the clouds; when it's clear, it goes on, and on, and on.",
+      "It is to be a symbol of the Empire's eternity, its endless wealth, its everlasting growth, and it seems to encompass all those things and more. And yet there is this imperceptible tinge to the air, a scentless smell to the wafts of the wind, this... atmosphere of growing worry, as if something bad was coming.",
+      "Something... irreversible"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Imperial Dues",
+              "refID": "DB2155"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Diminishing Returns",
+              "refID": "DB2156"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, see 3271"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then, when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
+            },
+            {
+              "type": "italics",
+              "value": "Son of Dusk"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event on p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "137"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: If you flip this card, all the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on it are lost!"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DE2085"
+    ],
+    "name": "Final Bid",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Infinite Decline",
+    "cardNumber": "3",
+    "flavor": [
+      "The unthinkable has happened. The Empire that supposedly stood for an eternity has faltered overnight, not as a result of divine judgement or because of a natural desaster, nor by the hand of the conquering armies of the Expeditionary Force, but by the sheer power of shortsighted greed.",
+      "Yet it will continue unabated toward its almost sacred goal, Infinite Growth, while its citizens suffer and die in poverty and hunger. The end draws near"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Babelian Fata Morgana",
+              "refID": "DB2158"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, see 3301"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you flip this Doom card, put excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "token on side 2B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 7"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
+            },
+            {
+              "type": "italics",
+              "value": "Son of Dusk"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event on p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "137"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: If you flip this card, all the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on it are lost!"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You have spurned Midas for the last time. He won't be back.",
+      "During the day, the tower on the horizon now cuts the sun. During the night, it brushes the stars. It is nearly complete and it is almost over, by which, of course, you mean it will just begin: a true infinity, not of growth, but of decline.",
+      "Will it be contained to Persia, or will it spill outside of its borders and drown the world? You do not know. But it will not drown you"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 2324"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Doomed Investment:"
+            },
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may place it on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 8"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "cardRef",
+              "value": "Wished Gear",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
+            },
+            {
+              "type": "italics",
+              "value": "Son of Dusk"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event on p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "137"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "EE2663"
+    ],
+    "name": "Your Nemesis",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "In The Mirror Darkly",
+    "cardNumber": "1",
+    "flavor": [
+      "Whispers come with the midnight tides of a ship eerily similar to the Argo cutting through the waves, looking for... you. And wherever this other ship calls into port, misery and death follow. Evade it, like you once evaded the Hermesian Pursuer, and hope beyond hope that by looking for a way to kill Ur-Fleece, you also find a way to deal with it"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0103"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when you flip this card, place them on side 1B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "has entered play:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 2"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The Last Hierei of Poseidon, Phillipos II, from his sunken throne within the Nemesis, has rendered his judgement, delivered to you on a clay tablet by the hands of a terrified Nubian merchant: \"With your blasphemies and lies you have strayed from the light of Lord Poseidon, may His Sleep be short. For this... trespass, this transgression, there is only one punishment. Yet none are beyond salvation. Return to me His ship, the one you call 'Argo', and I will return you to the dark peacefully, for I am a pious man full of forgiveness.\"",
+      "In other words, the Last Hierei wants the city-ship and will stop at nothing to claim it. That is not an enticing proposition. You draw up a reply: \"Thank you. We'll pass.\""
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle"
+            },
+            {
+              "type": "cardRef",
+              "value": "The Hidden Truth",
+              "refID": "EB2674"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Long Range Bombardment",
+              "refID": "EB2675"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 0231"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "has entered play:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 3"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "EE2664"
+    ],
+    "name": "The Last Hierei",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Olympian Peace",
+    "cardNumber": "2",
+    "flavor": [
+      "You have met the Last Hierei of Poseidon and barely made it out alive, with the Nemesis biting at your heels. He is single-mindedly focused on taking the Argo, which he believes to be his god's possession, and will stop at nothing until he gets his way.",
+      "He commands a black host of warriors and acolytes, all of whom are blindly devoted, and he wields the terrifying power of his divine Lord: to make people drown with the flick of a finger. Where does he draw it from? Does this mean that Helios was not the only Olympian to survive the Eschaton? That Poseidon is out there, somewhere, scheming the downfall of mortalkind? If so, you may have already lost..."
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Depths Charges",
+              "refID": "EB2714"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Drown in Fear",
+              "refID": "EB2715"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 1079"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when you flip this card, place them on side 2B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "On reveal:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "has not yet entered play, place the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature on the closest"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "tile not occupied by the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 3"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "With each passing day, you feel the walls around you closing. The Nemesis does not stop, it does not relent. It is always there, just beyond the horizon, a promise that all things end.",
+      "The rogue Titan you've come to call Titan X is boxing you in, cutting off your escape routes, following you even where the Nemesis cannot, to the bottom of the Great Sea. They remind you of the encounters with the Nietzschean, but even the Nietzschean claimed to want to teach you something. That thing? It just wants to break you.",
+      "And if you ever stop thinking about what is chasing you, if you ever let your guard down and allow yourselves a moment of respite, you are reminded of what awaits you at the end of this road: Ur-Fleece. A flood of your own making"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle"
+            },
+            {
+              "type": "cardRef",
+              "value": "Nemesis Blockade",
+              "refID": "EB2716"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Doom Scrolls",
+              "refID": "EB2717"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 4"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 1081"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 4"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "EE2665"
+    ],
+    "name": "To Dark Do We At Last Return",
+    "cardType": "Doom",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "End of an Aeon",
+    "cardNumber": "3",
+    "flavor": [
+      "You attempt to parley with the Last Hierei has cost you dearly. Perhaps it was foolish of you to even try, though, as the Old Priest used to say, if we don't make the effort to affect change, how can we expect the world to?",
+      "At least now you know what he is after, and it isn't the Argo, or the Titans, or you. It is the Truth Machine he desires. A way to wake his \"sleeping\" god, Poseidon. Poseidon is dead. That is what Odysseus told you. Can the Last Hierei's zealous fath, as blind as it is searing, truly bring him back?",
+      "He won't get the Truth Machine from you, so you won't find out"
+    ],
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately shuffle the"
+            },
+            {
+              "type": "cardRef",
+              "value": "The Noose Tightens",
+              "refID": "EB2718"
+            },
+            {
+              "type": "plainText",
+              "value": "and"
+            },
+            {
+              "type": "cardRef",
+              "value": "Panic Spreads",
+              "refID": "EB2719"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration cards into the Exploration deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 4"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 2802"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when you flip this card, place them on side 3B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "On reveal:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "has not yet entered play, place the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature on the closest"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "tile not occupied by the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 4"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Supplies are running out. People are leaving. Crucial systems are failing. You are barely managing to keep the damaged city-ship afloat. The end is close. Not a grand end, of valiant struggle, but a quiet, disgraceful passing into oblivion. The world will forget about the Argo soon enough, though it will follow soon after. Its demise will mirror yours--no wars will be waged, no great battle will decide its fate.",
+      "It will simply wither.",
+      "And yet, as if to spite you one last time, your enemies wish to accelerate your doom. It travels on the blackest of wings"
+    ],
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, see 3749"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Set excess"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Path to Ruin:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "move through or ends its movement on a tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", it destroys it--place a Ruins token there instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Your Nemesis:"
+            },
+            {
+              "type": "plainText",
+              "value": "The"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is constantly chasing you"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for whatever reason, you occupy the same tile as the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For full"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "Rules see p"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12 of the Cycle V Storybook"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Relentless:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is surfaced, at the end of the Exploration Step, move the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "X spaces twoards the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 5-7 spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "is 8+ spaces away from the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", X is 4"
             }
           ]
         }

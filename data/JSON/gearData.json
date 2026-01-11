@@ -5088,16 +5088,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may use"
-          },
-          {
-            "type": "cardRef",
-            "value": "Morpheus Module",
-            "refID": ""
-          },
-          {
-            "type": "plainText",
-            "value": "'s"
+            "value": "You may use this card's"
           },
           {
             "type": "keyword",
@@ -6253,9 +6244,8 @@
             "value": "When a Titan successfully climbs a Primordial VP from the"
           },
           {
-            "type": "cardRef",
-            "value": "Stepping Stone",
-            "refID": ""
+            "type": "italics",
+            "value": "Stepping Stone"
           },
           {
             "type": "plainText",
@@ -7071,14 +7061,14 @@
     "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
-    "unique": false,
+    "unique": true,
     "ascended": false,
     "abilities": [
       {
         "abilityText": [
           {
             "type": "plainText",
-            "value": "+1 Will"
+            "value": "Unique"
           }
         ]
       },
@@ -7086,7 +7076,80 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Ignore the effects of Despair,"
+            "value": "Evolved"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reach 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "You may gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "plainText",
+            "value": "You may change 1 negative Precision or Evasion token into a positive one, or lose"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "equal to the wounded BP's level"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "WHen you resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Face Your Fear"
+          },
+          {
+            "type": "plainText",
+            "value": "effect of a"
           },
           {
             "type": "cardRef",
@@ -7104,51 +7167,19 @@
           },
           {
             "type": "plainText",
-            "value": "until the end of your turn"
+            "value": "Condition card, gain +1 additional positive Precision token"
           }
-        ],
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Solace"
-          }
-        ],
-        "costs": [
-          "Fate",
-          "Discard"
         ]
       }
     ],
     "gatedAbilities": [
       {
         "gate": "Danger",
-        "value": "7+",
+        "value": "5+",
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may use"
-          },
-          {
-            "type": "italics",
-            "value": "Morpheus Module's"
-          },
-          {
-            "type": "keyword",
-            "value": "Solace"
-          },
-          {
-            "type": "plainText",
-            "value": "ability as"
-          },
-          {
-            "type": "icon",
-            "value": "Reaction"
+            "value": "If you would die from an Instant Death effect of a Judgemnt, draw an Obol instead"
           }
         ]
       }
@@ -13651,7 +13682,12 @@
     "flavor": "We learned something too: you can't run forever",
     "slot": "Support",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Primordial",
+      "Ambrosia",
+      "Argotech",
+      "Helm"
+    ],
     "offensiveStatistics": {},
     "defensiveStatistics": [],
     "asteriskEffect": null,
@@ -18258,7 +18294,7 @@
           {
             "type": "cardRef",
             "value": "Icarian Adaptaion Board",
-            "refID": ""
+            "refID": "CX1697"
           }
         ],
         "costs": [
@@ -24919,7 +24955,7 @@
           {
             "type": "cardRef",
             "value": "The Promise",
-            "refID": ""
+            "refID": "AJ0258"
           },
           {
             "type": "icon",
@@ -26153,7 +26189,7 @@
           {
             "type": "cardRef",
             "value": "Marked for Death",
-            "refID": ""
+            "refID": "AM0323"
           },
           {
             "type": "plainText",
@@ -28725,6 +28761,32 @@
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "AJ1998"
+    ],
+    "name": "Unseen Scar",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Other",
+    "flavor": "",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -39729,7 +39791,7 @@
             "value": "After you resolve your Attack, perform a"
           },
           {
-            "type": "plainText",
+            "type": "bold",
             "value": "Bonus Attack"
           }
         ]
@@ -44368,7 +44430,7 @@
           {
             "type": "cardRef",
             "value": "Petrified Vent",
-            "refID": ""
+            "refID": "EI2606"
           },
           {
             "type": "plainText",
@@ -46472,7 +46534,7 @@
           {
             "type": "cardRef",
             "value": "Petrified Vent",
-            "refID": ""
+            "refID": "EI2606"
           }
         ],
         "costs": [
@@ -49425,7 +49487,7 @@
           {
             "type": "cardRef",
             "value": "Petrified Vent",
-            "refID": ""
+            "refID": "EI2606"
           }
         ],
         "costs": [
@@ -52255,7 +52317,7 @@
           {
             "type": "cardRef",
             "value": "Petrified Vent",
-            "refID": ""
+            "refID": "EI2606"
           }
         ],
         "costs": [
@@ -53222,7 +53284,7 @@
           {
             "type": "cardRef",
             "value": "Marked for Death",
-            "refID": ""
+            "refID": "AM0323"
           },
           {
             "type": "plainText",
@@ -56291,22 +56353,14 @@
     "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
-    "unique": true,
+    "unique": false,
     "ascended": false,
     "abilities": [
       {
         "abilityText": [
           {
-            "type": "plainText",
-            "value": "Mnestis"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
+            "type": "keyword",
+            "value": "Light 1"
           }
         ]
       },
@@ -56314,141 +56368,41 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Auto-hope 2"
+            "value": "Ranged 1-4"
           }
         ]
       },
       {
         "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Closing 4"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Overbreak 6"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Hope 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Assist 4"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Clutch"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Succor"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Start of Battle"
-          },
           {
             "type": "plainText",
-            "value": "Gain 1 Oxygen token"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Crit Chance"
-          },
-          {
-            "type": "plainText",
-            "value": "All Titans move toward you up to their"
-          },
-          {
-            "type": "icon",
-            "value": "Speed"
-          },
-          {
-            "type": "plainText",
-            "value": "value"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "bold",
-            "value": "As Promised:"
-          },
-          {
-            "type": "plainText",
-            "value": "When you discard this card, immediately gain the"
-          },
-          {
-            "type": "cardRef",
-            "value": "Promise Fulfilled",
-            "refID": ""
-          },
-          {
-            "type": "icon",
-            "value": "Gear"
-          },
-          {
-            "type": "plainText",
-            "value": "card, with 2 positive Precision tokens and +1"
-          },
-          {
-            "type": "icon",
-            "value": "MortalPowerDie"
-          },
-          {
-            "type": "plainText",
-            "value": "on it"
+            "value": "Then place 3 Fire tokens in the Kratos Pool"
           }
         ]
       }
     ],
     "gatedAbilities": [
       {
-        "gate": "Danger",
-        "value": "5+",
+        "gate": "Rage",
+        "value": "3+",
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When another Titan gains a Crit Chance, all other Titans (you included) may move toward that Titan up to their"
+            "value": "If in Range, ignore Vanish, Fade In, or Black March, or perform a Scan on any"
           },
           {
-            "type": "icon",
-            "value": "Speed"
+            "type": "cardRef",
+            "value": "Petrified Vent",
+            "refID": "EI2606"
           },
           {
             "type": "plainText",
-            "value": "value"
+            "value": "in Range"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Discard"
         ]
       }
     ]
@@ -56552,7 +56506,7 @@
           {
             "type": "cardRef",
             "value": "Knockdown (standing up)",
-            "refID": ""
+            "refID": "AL0303"
           },
           {
             "type": "plainText",
@@ -57541,6 +57495,343 @@
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "CJ9970"
+    ],
+    "name": "Sunlight Bow",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "Weapon of choice of the Bright Guards of the Sun's Domain",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Bow",
+      "Fire",
+      "Hephaestum",
+      "Divine",
+      "Metal"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+X*",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "White"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "3",
+        "type": "Energy"
+      }
+    ],
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "X is equal to the amount of"
+        },
+        {
+          "type": "icon",
+          "value": "Energy"
+        },
+        {
+          "type": "plainText",
+          "value": "on this card"
+        }
+      ]
+    },
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Deadly"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ranged 3-7"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 5"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Guided Vengeance:"
+          },
+          {
+            "type": "plainText",
+            "value": "When another Titan dies, gain 1"
+          },
+          {
+            "type": "icon",
+            "value": "Energy"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          },
+          {
+            "type": "plainText",
+            "value": "against the Nietzschean"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Precise"
+          }
+        ],
+        "costs": [
+          "Fate",
+          "Energy",
+          "Energy",
+          "Energy"
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ9971"
+    ],
+    "name": "Primal Engine",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "Once, the world was full of dragons",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Argotech",
+      "Tenet",
+      "Augment"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ascended"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Pushback 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you attack, gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Evade"
+          },
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ9972"
+    ],
+    "name": "Mended Humanity",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Other",
+    "flavor": "In remembrance of the innocence lost when choices had to be made",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Blood",
+      "Metal",
+      "Badge",
+      "Primordial"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Badge"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan Attachment"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Once per Battle you may lower Ambrosia gain to 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you do, place an Ambrosia token on this card as a reminder"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail"
+          },
+          {
+            "type": "plainText",
+            "value": "Discard this card and draw a Kratos card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -58551,7 +58842,14 @@
     "flavor": "What a difference a gneration of progress makes",
     "slot": "Support",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Metal",
+      "Rope",
+      "Hook",
+      "Hermes Gear",
+      "Argotech",
+      "Flammable"
+    ],
     "offensiveStatistics": {},
     "defensiveStatistics": [],
     "asteriskEffect": null,
@@ -58862,6 +59160,326 @@
           {
             "type": "plainText",
             "value": "When you unexhaust this card, Discard that token"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ9991"
+    ],
+    "name": "A Head of Time",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "A Draziv is never late",
+    "slot": "Armor",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Primordial",
+      "Helm",
+      "Atemporal"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Reroll"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": true,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ascended"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may equip"
+          },
+          {
+            "type": "italics",
+            "value": "Paradox"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "regardless of the Cycle you're in"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Fate",
+        "value": "9+",
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Superior Chance"
+          }
+        ],
+        "costs": [
+          "Exhaust"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9992"
+    ],
+    "name": "Doomsday Clock",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "Five minutes to midnight",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Stone",
+      "Primordial",
+      "Atemporal",
+      "Shield"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "4",
+      "precision": "+4",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "type": "Armor",
+        "armorDice": [
+          "Red",
+          "Black"
+        ]
+      },
+      {
+        "amount": "1",
+        "type": "Sun"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Mnestis"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fearless"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas Immune"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ambrosia Limit +3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "Gain the Wise Providence Boon and 2 Aether tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Authority:"
+          },
+          {
+            "type": "plainText",
+            "value": "All other Titans gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown (standing up)",
+            "refID": "AL0303"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card and become shaded until they stand up"
+          }
+        ],
+        "costs": [
+          "Pain",
+          "Exhaust"
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CJ9993"
+    ],
+    "name": "Damocles Weight",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Other",
+    "flavor": "For those who know not to look back",
+    "slot": "Attachment",
+    "transformsInto": null,
+    "traits": [
+      "Sun",
+      "Ice",
+      "Badge",
+      "Primordial"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Badge"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan Attachment"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Once per Battle you may lower"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "cost of an ability to 1 (to a minimum of 0)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you do, place a generic token on this card as a reminder"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail"
+          },
+          {
+            "type": "plainText",
+            "value": "Discard this card and suffer"
+          },
+          {
+            "type": "keyword",
+            "value": "Death 1"
           }
         ]
       }
@@ -59859,6 +60477,32 @@
   },
   {
     "cardIDs": [
+      "DJ9962"
+    ],
+    "name": "Nimbutrireme",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "DJ9963"
     ],
     "name": "Cirrotrireme",
@@ -59934,6 +60578,82 @@
             "type": "plainText",
             "value": "Other Titans may treat your space as Elevated for the purposes of Hermes Movement (they cannot end their movement on your space)"
           }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Endjinn Metastoma",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [],
+    "offensiveStatistics": {
+      "attackDice": "6",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Black 4"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Knockback 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Hit"
+          },
+          {
+            "type": "keyword",
+            "value": "BP Suppress"
+          }
+        ],
+        "costs": [
+          "Fate"
         ]
       }
     ],
@@ -61449,7 +62169,12 @@
     "flavor": "",
     "slot": "Attachment",
     "transformsInto": "Necroxiphos",
-    "traits": [],
+    "traits": [
+      "Primordial",
+      "Alive",
+      "Ambrosia",
+      "Infection"
+    ],
     "offensiveStatistics": {},
     "defensiveStatistics": [],
     "asteriskEffect": null,
@@ -61790,7 +62515,13 @@
     "flavor2": "",
     "slot2": "1 Hand",
     "transformsInto2": "Fumeblade (Hidden)",
-    "traits2": [],
+    "traits2": [
+      "Abyss",
+      "Primordial",
+      "Ambrosia",
+      "Sword",
+      "Leleges"
+    ],
     "offensiveStatistics2": {},
     "defensiveStatistics2": [],
     "asteriskEffect2": null,
@@ -65015,7 +65746,7 @@
           {
             "type": "cardRef",
             "value": "Aurified Sapling",
-            "refID": ""
+            "refID": "DS2509"
           },
           {
             "type": "plainText",
@@ -65032,7 +65763,7 @@
           {
             "type": "cardRef",
             "value": "Greater Saphos",
-            "refID": ""
+            "refID": "DJ2386"
           },
           {
             "type": "icon",

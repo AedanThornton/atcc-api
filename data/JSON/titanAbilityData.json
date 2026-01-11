@@ -13,16 +13,20 @@
       ]
     }
   ],
-  "The Abyss Calls": [
+  "Aether Lamp": [
     {
       "abilityText": [
         {
           "type": "plainText",
-          "value": "After surviving any Trauma other than Obol, gain +1"
+          "value": "You have"
         },
         {
-          "type": "icon",
-          "value": "Danger"
+          "type": "keyword",
+          "value": "Light X"
+        },
+        {
+          "type": "plainText",
+          "value": ", where X is the nymber of Aether tokens you have"
         }
       ]
     }
@@ -135,6 +139,34 @@
         {
           "type": "icon",
           "value": "Adversary"
+        }
+      ]
+    }
+  ],
+  "Born in the Dark": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Immune to"
+        },
+        {
+          "type": "cardRef",
+          "value": "Fear",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "and"
+        },
+        {
+          "type": "cardRef",
+          "value": "Dread",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "Conditions cards and Despair"
         }
       ]
     }
@@ -385,6 +417,24 @@
       ]
     }
   ],
+  "Electromagnetic Shield": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Each Laser Attack hit and Microwave Attack hit deals 1"
+        },
+        {
+          "type": "icon",
+          "value": "Danger"
+        },
+        {
+          "type": "plainText",
+          "value": "less (to a minimum of 1) to you and adjacent Titans"
+        }
+      ]
+    }
+  ],
   "Fall and Soar": [
     {
       "abilityText": [
@@ -435,12 +485,110 @@
       ]
     }
   ],
+  "Fear is the Mind Killer": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Each time you gain a"
+        },
+        {
+          "type": "cardRef",
+          "value": "Fear",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "Condition card,"
+        },
+        {
+          "type": "cardRef",
+          "value": "Dread",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "Condition card, or a Despair token (each), place 1 Generic token on your Titan Sheet"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You gain the following stacking benefits depending on the number of Generic tokens here: 1: +1 Precision"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "2: +1"
+        },
+        {
+          "type": "icon",
+          "value": "Speed"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "3:"
+        },
+        {
+          "type": "keyword",
+          "value": "Defy 1"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "4: +1"
+        },
+        {
+          "type": "icon",
+          "value": "Power"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "If you would ever have 5+ Generic tokens, you immediately die"
+        }
+      ]
+    }
+  ],
   "Fearless": [
     {
       "abilityText": [
         {
           "type": "plainText",
-          "value": "Immune to [Fear|AL0299] and [Dread|AL0299] Conditions"
+          "value": "Immune to"
+        },
+        {
+          "type": "cardRef",
+          "value": "Fear",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "and"
+        },
+        {
+          "type": "cardRef",
+          "value": "Dread",
+          "refID": "AL0299"
+        },
+        {
+          "type": "plainText",
+          "value": "Conditions"
         }
       ]
     },
@@ -828,6 +976,28 @@
       ]
     }
   ],
+  "Maze Awareness": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "After surviving a Major, Grave, or Obol Trauma, gain 1 temporary positive"
+        },
+        {
+          "type": "icon",
+          "value": "Evasion"
+        },
+        {
+          "type": "plainText",
+          "value": "token If you are on a Terrain tile, you have +1"
+        },
+        {
+          "type": "icon",
+          "value": "Evasion"
+        }
+      ]
+    }
+  ],
   "Nimble Feet": [
     {
       "abilityText": [
@@ -858,6 +1028,28 @@
         {
           "type": "plainText",
           "value": "Weapons"
+        }
+      ]
+    }
+  ],
+  "Nimble Hands": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You may use"
+        },
+        {
+          "type": "icon",
+          "value": "ThreeOneHanded"
+        },
+        {
+          "type": "plainText",
+          "value": "Weapons as if they were"
+        },
+        {
+          "type": "icon",
+          "value": "TwoHanded"
         }
       ]
     }
@@ -1132,6 +1324,20 @@
       ]
     }
   ],
+  "Silver Strain": [
+    {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "Start of Battle"
+        },
+        {
+          "type": "plainText",
+          "value": "Gain 1 Oxygen token"
+        }
+      ]
+    }
+  ],
   "Six-Armed": [
     {
       "abilityText": [
@@ -1336,6 +1542,20 @@
       ]
     }
   ],
+  "The Abyss Calls": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "After surviving any Trauma other than Obol, gain +1"
+        },
+        {
+          "type": "icon",
+          "value": "Danger"
+        }
+      ]
+    }
+  ],
   "The Return": [
     {
       "abilityText": [
@@ -1352,7 +1572,12 @@
       "abilityText": [
         {
           "type": "plainText",
-          "value": "You can use this ability while [Time-clocked]"
+          "value": "You can use this ability while"
+        },
+        {
+          "type": "cardRef",
+          "value": "Time-clocked",
+          "refID": "CL1295"
         }
       ]
     }
@@ -1388,6 +1613,60 @@
         {
           "type": "plainText",
           "value": "You cannot end your move on an Obstacle or Chasm"
+        }
+      ]
+    }
+  ],
+  "To Dark We Will at Last Return": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Each time you gain an Ambrosia token (each), place 1 Generic token on your Titan Sheet"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You gain the following stacking benefits depending on the number of Generic tokens here: 1: +1 Precision"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "2:"
+        },
+        {
+          "type": "keyword",
+          "value": "Stalwart"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "3:"
+        },
+        {
+          "type": "keyword",
+          "value": "Tireless"
+        }
+      ]
+    },
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "4:"
+        },
+        {
+          "type": "keyword",
+          "value": "Rocksteady"
         }
       ]
     }
@@ -1430,6 +1709,16 @@
       ]
     }
   ],
+  "Ur-Tainted": [
+    {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "You do not provide any adjacency benefits to other Titans"
+        }
+      ]
+    }
+  ],
   "Wish Engine": [
     {
       "abilityText": [
@@ -1443,7 +1732,25 @@
       "abilityText": [
         {
           "type": "plainText",
-          "value": "Each time you gain a [Wishkeen] or [Wishagog] Condition card, place respectively 1 or 2 Generic tokens on your Titan Sheet"
+          "value": "Each time you gain a"
+        },
+        {
+          "type": "cardRef",
+          "value": "Wishkeen",
+          "refID": "DL2011"
+        },
+        {
+          "type": "plainText",
+          "value": "or"
+        },
+        {
+          "type": "cardRef",
+          "value": "Wishagog",
+          "refID": "DL2011"
+        },
+        {
+          "type": "plainText",
+          "value": "Condition card, place respectively 1 or 2 Generic tokens on your Titan Sheet"
         }
       ]
     },
@@ -1538,214 +1845,6 @@
         {
           "type": "plainText",
           "value": "less (to a minimum of 1) to you and adjacent Titans"
-        }
-      ]
-    }
-  ],
-  "Born in the Dark": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "Immune to [Fear|AL0299] and [Dread|AL0299] Conditions cards and Despair"
-        }
-      ]
-    }
-  ],
-  "Ur-Tainted": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You do not provide any adjacency benefits to other Titans"
-        }
-      ]
-    }
-  ],
-  "Fear is the Mind Killer": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "Each time you gain a [Fear|AL0299] Condition card, [Dread|AL0299] Condition card, or a Despair token (each), place 1 Generic token on your Titan Sheet"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You gain the following stacking benefits depending on the number of Generic tokens here: 1: +1 Precision"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "2: +1"
-        },
-        {
-          "type": "icon",
-          "value": "Speed"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "3:"
-        },
-        {
-          "type": "keyword",
-          "value": "Defy 1"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "4: +1"
-        },
-        {
-          "type": "icon",
-          "value": "Power"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "If you would ever have 5+ Generic tokens, you immediately die"
-        }
-      ]
-    }
-  ],
-  "Silver Strain": [
-    {
-      "abilityText": [
-        {
-          "type": "timing",
-          "value": "Start of Battle"
-        },
-        {
-          "type": "plainText",
-          "value": "Gain 1 Oxygen token"
-        }
-      ]
-    }
-  ],
-  "Aether Lamp": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You have"
-        },
-        {
-          "type": "keyword",
-          "value": "Light X"
-        },
-        {
-          "type": "plainText",
-          "value": ", where X is the nymber of Aether tokens you have"
-        }
-      ]
-    }
-  ],
-  "Electromagnetic Shield": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "Each Laser Attack hit and Microwave Attack hit deals 1"
-        },
-        {
-          "type": "icon",
-          "value": "Danger"
-        },
-        {
-          "type": "plainText",
-          "value": "less (to a minimum of 1) to you and adjacent Titans"
-        }
-      ]
-    }
-  ],
-  "Nimble Hands": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You may use"
-        },
-        {
-          "type": "icon",
-          "value": "ThreeOneHanded"
-        },
-        {
-          "type": "plainText",
-          "value": "Weapons as if they were"
-        },
-        {
-          "type": "icon",
-          "value": "TwoHanded"
-        }
-      ]
-    }
-  ],
-  "To Dark We Will at Last Return": [
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "Each time you gain an Ambrosia token (each), place 1 Generic token on your Titan Sheet"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You gain the following stacking benefits depending on the number of Generic tokens here: 1: +1 Precision"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "2:"
-        },
-        {
-          "type": "keyword",
-          "value": "Stalwart"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "3:"
-        },
-        {
-          "type": "keyword",
-          "value": "Tireless"
-        }
-      ]
-    },
-    {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "4:"
-        },
-        {
-          "type": "keyword",
-          "value": "Rocksteady"
         }
       ]
     }

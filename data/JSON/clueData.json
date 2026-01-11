@@ -1,6 +1,170 @@
 [
   {
     "cardIDs": [
+      "AC0053"
+    ],
+    "name": "Estuary Clue A",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The directions were vague at best. This is the north coast, somewhere near Knossos",
+    "subtitle": "Clue",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "6"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AC0054"
+    ],
+    "name": "Estuary Clue B",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The directions were vague at best. They said it was close to Knossos, on the south coast",
+    "subtitle": "Clue",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "4"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AC0055"
+    ],
+    "name": "Estuary Clue C",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The directions were vague at best, but they mentioned it was quite far away, north-east of Knossos",
+    "subtitle": "Clue",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "1"
+            },
+            {
+              "type": "bold",
+              "value": "8"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AC0056"
+    ],
+    "name": "Estuary Clue D",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The directions were vague at best. It's in the south-east of the island",
+    "subtitle": "Clue",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "bold",
+              "value": "2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Random Argonaut gains 1 Despair token"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
       "AC0057"
     ],
     "name": "River Course",
@@ -545,6 +709,76 @@
   },
   {
     "cardIDs": [
+      "AC0072"
+    ],
+    "name": "Minoan Guide",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Aloof and demanding, the Princess mostly keeps to her quarters",
+    "subtitle": "Ally",
+    "type": "Ally",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Write 'Acacallis' in the"
+            },
+            {
+              "type": "italics",
+              "value": "Boons, Afflictions, and Notes"
+            },
+            {
+              "type": "plainText",
+              "value": "section of the Argo Sheet"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Various effects may instruct you to make tally marks next to her name"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are 10 or moretally marks besides Acacallis, see 0043"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may dismiss the Princess at the end of any Voyage Phase"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you do, see 0011"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
       "AC0073"
     ],
     "name": "Old Spinner",
@@ -594,8 +828,226 @@
     "errata": "",
     "flavor": "Was it Daedalus's madness, or Xenodice's?",
     "subtitle": "Clue",
-    "type": "Map",
+    "type": "Xenodice Map",
     "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1172"
+    ],
+    "name": "Cyclopean Gate Ignition Key",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This sluice gate was built on the ruins of an old cataract outpost",
+    "subtitle": "Ignition Key",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "1"
+            },
+            {
+              "type": "bold",
+              "value": "8"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
+            },
+            {
+              "type": "icon",
+              "value": "Cyclopes"
+            },
+            {
+              "type": "plainText",
+              "value": "tiles"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1173"
+    ],
+    "name": "Eastern Gate Ignition Key",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This sluice gate has sustained damage from repeated Symmachy attacks",
+    "subtitle": "Ignition Key",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "bold",
+              "value": "6"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
+            },
+            {
+              "type": "icon",
+              "value": "Symmachy"
+            },
+            {
+              "type": "plainText",
+              "value": "tiles"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1174"
+    ],
+    "name": "Leonidas Stoa Ignition Key",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Here lies buried Leonidas, one who could not kill the Nietzschean",
+    "subtitle": "Ignition Key",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "6"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hope Logic",
+              "refID": "AA0038"
+            },
+            {
+              "type": "plainText",
+              "value": "save tests"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1175"
+    ],
+    "name": "Black Gate Ignition Key",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Blackened by regular ambrosia spillages, this gate is mostly used by traders and laborers",
+    "subtitle": "Ignition Key",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "4"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
+            },
+            {
+              "type": "icon",
+              "value": "Helot"
+            },
+            {
+              "type": "plainText",
+              "value": "tiles"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1176"
+    ],
+    "name": "First Cataract Fortification Line",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The First Cataract. This is as far as your advanced scouts got",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "1A",
     "subdeck": "",
     "text": [
       [],
@@ -621,6 +1073,1051 @@
     "subdeck": "",
     "text": [
       [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1178"
+    ],
+    "name": "Fortresses Of Central Lakonia",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Each one an Ares-class behemoth",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1179"
+    ],
+    "name": "Outer Keep",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This keep stands watch over the precarious plains of the Contested Lands",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1180"
+    ],
+    "name": "Kyklopes Keep",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Under this fortress, old Cyclopes' bones stir",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1181"
+    ],
+    "name": "Central First Perimeter Fortress",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The centerpiece of the First Cataract defense line",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1182"
+    ],
+    "name": "Eastern First Perimeter Fortress",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This citadel serves as a prison for Symmachy war criminals",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1183"
+    ],
+    "name": "Central Second Perimeter Fortress",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The centerpiece of the Second Cataract defense line",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1184"
+    ],
+    "name": "Lakonias",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This fortress was once a beautiful place of contemplation",
+    "subtitle": "Fortress",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1185"
+    ],
+    "name": "Fireships",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "You've seen this once before. A flaming fleet to boil the sea - and the Argo with it",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place an additional Blockade token on a space opposite the currently used Blockade token (ignore this effect if that's the only viable route)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard it at the end of the next Movement Step"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1186"
+    ],
+    "name": "Boarding Bridges",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Rotating cranes and Ambrosia Elephants powered by ungodly hydraulics are extended over the canal to allow boarding from above",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place an additional Blockade token on a space opposite the currently used Blockade token (ignore this effect if that's the only viable route)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard it at the end of the next Movement Step"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1187"
+    ],
+    "name": "Machinations",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "While Argo fights for its life, the Nietzschean advances his master plan",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place an additional Blockade token on a space opposite the currently used Blockade token (ignore this effect if that's the only viable route)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard it at the end of the next Movement Step"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1188"
+    ],
+    "name": "Cyclopean Snares",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Giant-sized mechanical traps from a previous aeon, primed again for Titan hunting",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -2 Titans"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1189"
+    ],
+    "name": "Ballista Fire",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Day and night, the fire does not cease",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            },
+            {
+              "type": "plainText",
+              "value": "or -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1190"
+    ],
+    "name": "Javelin Gauntlet",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Through a city canal, where the javelins darken the skies",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Randomly choose one of your Argo Ability technologies"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "It is disabled and cannot be used! Write its name as an event on the Timeline, 10 days from now"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you resolve this event, it is repaired and ready to use"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1191"
+    ],
+    "name": "Hammer & Anvil",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Coralled into a tight canal, with the might of the Nietzschean fleet behind you, you face a Cyclonus enforcer",
+    "subtitle": "Argophylae",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of the current Step, resolve a regular Cyclonus Battle but"
+            },
+            {
+              "type": "bold",
+              "value": "do not"
+            },
+            {
+              "type": "plainText",
+              "value": "mark it on the Evolution Track"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Cyclonus' level is determined by the last marked box on its Evolution Track"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After the Battle, return this card to the box (do not shuffle it into the Argophylae deck when it runs out of cards)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1192"
+    ],
+    "name": "Apella Delegate",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "A Spartiates representitive who survived the Cleansing",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Administrative Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Gerusia Delegate",
+              "refID": "BC1193"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1193"
+    ],
+    "name": "Gerusia Delegate",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "To be old and alive in the New World Order, you need to be a god or a monster",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Administrative Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all save tests that allow you to mitigate"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            },
+            {
+              "type": "plainText",
+              "value": "loss"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1194"
+    ],
+    "name": "Krypteia Agent",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "You see the Krypteia only when it wants to be seen. And then it is too late",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Security Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Krypteia Spymaster",
+              "refID": "BC1195"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1195"
+    ],
+    "name": "Krypteia Spymaster",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Even the Ephors fear the ever vigilant eye of the Krypteia",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Security Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, the first"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "Negotation ability you use during the day costs you -1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            },
+            {
+              "type": "plainText",
+              "value": "less (to a minimum of 0)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1196"
+    ],
+    "name": "Hippeis Commander",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "A Spartiates warrior leading one of the cohorts",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Military Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hermes Hoplites Commander",
+              "refID": "BC1197"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1197"
+    ],
+    "name": "Hermes Hoplites Commander",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "A Superior Spartiates ordering a force that can bring down a Titan",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Military Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, each time you use the Expedition ability from the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Titan Hunting",
+              "refID": "AA0044"
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card, add +1 to the result"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1198"
+    ],
+    "name": "Ambrosia Extraction Advisor",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "An astrologer and alchemist, leader of an Ambrosia Extraction Platform",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Black Industries Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Ambrosia Processing Overseer",
+              "refID": "BC1199"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1199"
+    ],
+    "name": "Ambrosia Processing Overseer",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "A tinker and philosopher supervising the refinement of raw ambrosia",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Black Industries Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, if a Sabotage effect requires you to note an event on the Timeline, note it 5 days from your current day instead"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1200"
+    ],
+    "name": "Agiad King",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The position of the Agaid King brings the Nietzschean's regime much needed legitimacy",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Inner Circle Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Ephor",
+              "refID": "BC1202"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck (if available)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1201"
+    ],
+    "name": "Eurypontid King",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "In Nietzschean's Sparta, even a King is a lapdog",
+    "subtitle": "Identity",
+    "type": "Blue Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Inner Circle Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Ephor",
+              "refID": "BC1202"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck (if available)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1202"
+    ],
+    "name": "Ephor",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Ephors are the de facto governors and generals of Sparta",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Inner Circle Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all save tests that allow you to mitigate"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            },
+            {
+              "type": "plainText",
+              "value": "loss"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "cardRef",
+              "value": "High Preist of Man",
+              "refID": "BC1203"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card to the Identity deck"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1203"
+    ],
+    "name": "High Priest Of Man",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The one who did not hesitate",
+    "subtitle": "Identity",
+    "type": "Red Clue",
+    "storyCard": "3B",
+    "subdeck": "Identity",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Inner Circle Clearance"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have this card, add +1 to all save tests that allow you to mitigate"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "gain"
+            }
+          ]
+        }
+      ],
       []
     ]
   },
@@ -668,6 +2165,2811 @@
           ]
         }
       ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1205"
+    ],
+    "name": "The Wolf Among Us",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Envelope N",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Loyalty",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Krypteia assassins have infiltrated your ranks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "You are not one of them"
+            },
+            {
+              "type": "plainText",
+              "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Their instructions are printed on the Loyalty card they were dealt"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Observe your fellow players carefully, looking for any signs of treachery"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At a later point you will be asked to vote which of you is an imposter"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1206"
+    ],
+    "name": "The Wolf Among Us",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Envelope N",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Loyalty",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Krypteia assassins have infiltrated your ranks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "You are not the traitor"
+            },
+            {
+              "type": "plainText",
+              "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Their instructions are printed on the Loyalty card they were dealt"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Observe your fellow players carefully, looking for any signs of treachery"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At a later point you will be asked to vote which of you is an imposter"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1207"
+    ],
+    "name": "The Wolf Among Us",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Envelope N",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Loyalty",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Krypteia assassins have infiltrated your ranks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "You are loyal to the Argo"
+            },
+            {
+              "type": "plainText",
+              "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Their instructions are printed on the Loyalty card they were dealt"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Observe your fellow players carefully, looking for any signs of treachery"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At a later point you will be asked to vote which of you is an imposter"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "BC1208"
+    ],
+    "name": "The Wolf Among Us",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "foundIn": "Envelope N",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Loyalty",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Krypteia assassins have infiltrated your ranks"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "You did not betray your comrades"
+            },
+            {
+              "type": "plainText",
+              "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Their instructions are printed on the Loyalty card they were dealt"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Observe your fellow players carefully, looking for any signs of treachery"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At a later point you will be asked to vote which of you is an imposter"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1557"
+    ],
+    "name": "Map Of The Past",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This is the reconstructed map of Delphi from the time before the Eschaton",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1558"
+    ],
+    "name": "Finish The Prime Lighthouse",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Icarus used his father's lighthouses to guide his ship to the skies, but one failed to activate. Perhaps some of the rare components and alloys of the Argo's hull could repair it before the ill-fated flight..",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 32, during the Story Step, lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            },
+            {
+              "type": "plainText",
+              "value": "to repair the Prime Lighthouse ahead of schedule"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark J9"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1559"
+    ],
+    "name": "Design A Mazestone Solution",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Icarus's vessel uses a Sirenshell core to contain the paracausal energies of its central machina, but there was a problem with its configuration. Maybe it would be better to use Mazeflesh in its construction..",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 46, during the Story Step, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "to alter the Sirenshell Crucible"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark J3"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1560"
+    ],
+    "name": "Infiltrate The Expedition",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Icarus needed a Delphian Oracle to plot the Aspirant's course, but the one he chose lacked confidence in his abilities. Maybe another candidate from among the Argo's crew will not hesitate",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 42, during the Story Step, lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            },
+            {
+              "type": "plainText",
+              "value": "to replace the Oracle who accompanies the mission"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark F6"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1561"
+    ],
+    "name": "Broker A Deal",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "While preparing for the Aspirant's mission, Icarus was approached by Symmachy agents with offers of aid and resources. He refused, but perhaps you can convince him to accept instead..",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 37, during the Story Step, gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Paradox"
+            },
+            {
+              "type": "plainText",
+              "value": "to convince Icarus to accept outside help"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark N4"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1562"
+    ],
+    "name": "Provide A Titan",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Some of the Aspirant's larger machina need a colossus to operate them. Icarus used a Gaia-born Titan he captured and tamed himself, but perhaps one of your Titans might be better suited to the task..",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 48, during the Story Step, lose -1 Titan to provide the Aspirant with a tamed Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark M7"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1563"
+    ],
+    "name": "Donate Refined Ambrosia",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The Aspirant's mission required prodigious amounts of ambrosia to fuel it, but the supplies received contained impurities. The Argo's ambrosia stockpile, however, is of much higher quality, thanks to their recent visit to Sparta..",
+    "subtitle": "Event",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are on tile 54, during the Story Step, lose any 10 Primordial resources to reveal the impurities in the ambrosia stockpile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark B4"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1564"
+    ],
+    "name": "Chariot 1A",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This map shows the possible location of a Sunheir chariot part",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "Chariot Deck",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1565"
+    ],
+    "name": "Chariot 2B",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This map shows the possible location of a stolen Exile chariot part",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "Chariot Deck",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1566"
+    ],
+    "name": "Chariot 1B",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This map shows the possible location of a stolen Exile chariot part",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "Chariot Deck",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "CC1567"
+    ],
+    "name": "Chariot 2A",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "This map shows the possible location of a Sunheir chariot part",
+    "subtitle": "Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "Chariot Deck",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2086"
+    ],
+    "name": "Irembihazar",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Oh, Irembihazar, the jewel of the Empire, my gilded love!",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0047"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2087"
+    ],
+    "name": "City of Beggars",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The Empire is so wealthy that only the most lazy and stupid are destitute",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0049"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2088"
+    ],
+    "name": "The Great Bazaar",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "In the Great Bazaar of the Empire, everything is for sale, and for a fair price too!",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0051"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2089"
+    ],
+    "name": "Bankrupt Metropolis",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "If you fail in the name of the Empire, the Empire will bail you out",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0053"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2090"
+    ],
+    "name": "Aristotelian Conquered City",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Equality for all--is that not the very essence of commerce?",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0055"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2091"
+    ],
+    "name": "Post-Collapse Palace City",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Even in ruin are our cities the envy of all onlookers",
+    "subtitle": "Search",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 0057"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2092"
+    ],
+    "name": "Pandora's Tower Looms",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the 5th+ Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card once, if possible"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2093"
+    ],
+    "name": "Lookout Irem Tower",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the 6th+ Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card once, if possible"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2094"
+    ],
+    "name": "Violent Wish Storm",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the 7th+ Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card once, if possible"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Loses -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2095"
+    ],
+    "name": "Lure of an Opulent Oasis",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the 8th+ Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2096"
+    ],
+    "name": "Waster Shantytown",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the 9th+ Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2097"
+    ],
+    "name": "Cloud Thieves Shipyard",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this is the last Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again, then, if possible, repeat it for a third and final time"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2098"
+    ],
+    "name": "Downed Debt Ark",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card once, if possible"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "BabelianDebt"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2099"
+    ],
+    "name": "Skygazing Titan",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Titan"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2100"
+    ],
+    "name": "Shadow of a Debt Ark",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "BabelianDebt"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2101"
+    ],
+    "name": "Meteorological Tower",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cloud Chase",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
+            },
+            {
+              "type": "plainText",
+              "value": "Repeat this card, if possible, then, if possible, repeat it again, then, if possible, repeat it for a third and final time"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If this is the last card played, you've found the Hanging Gardens! See 0094"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2102"
+    ],
+    "name": "Scheherazade",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Ally",
+    "type": "Ally",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of Story 2A, without looking, discard 1 card from the City of Splendor deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may dismiss Scheherazade at the end of any Voyage Phase"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you do, see 0095"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2103"
+    ],
+    "name": "Law of Bargains",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "1A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The God-King granted his people the Law of Bargains, so the senseless bloodshed over petty squabbles could end, for he saw them as more than --Babelian Text--yphon"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2104"
+    ],
+    "name": "The Royal Game",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Many games are played across Immortal --Babelian Text--ersia, for its citizens enjoy personal growth and free time, luxuries not afforded previously, under the rule of the gods"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2105"
+    ],
+    "name": "Wish-Veil",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "So great was the wealth he had accumulated that it became like a second sun, blinding to all but the most wealthy citizens, like --Babelian Text--roesus or Midas"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Thus it was hidden by a powerful veil woven of wishes"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2106"
+    ],
+    "name": "Hanging Gardens",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "2A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "They are not one of, but the wonder of the World, a symbol of the wealth and power generated by the --Babelian Text--nfinite Growth of Persia's system, and a promise that each and every one of its citizens can either aspire to one day walk its fabulous halls, or simply wait for its opulence to trickle down\\n\\n--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2107"
+    ],
+    "name": "Pandora's Jar",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Empire is as the --Babelian Text--un above, brilliant and eternal, and its Great Tower will take us to the stars, so the Infinite Growth can continue to the vacant heavenly realms"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2108"
+    ],
+    "name": "The Mural",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Cipher",
+    "type": "Story",
+    "storyCard": "3B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "--Babelian Text--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2109"
+    ],
+    "name": "Stolen Clouds",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "The truth of the stolen clouds. Will you help spread the word?",
+    "subtitle": "Message",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At any time you may cross out 1 Stolen Clouds tally mark to lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoFate"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2110"
+    ],
+    "name": "Unbestowed",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "What was uprooted needs to be replanted",
+    "subtitle": "Message",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At any time you may cross out 1 Unbestowed tally mark to lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "BabelianDebt"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2111"
+    ],
+    "name": "Day After Tomorrow",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "The Aristotelian command has declared victory, yet many continue to fight",
+    "subtitle": "Message",
+    "type": "Other",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Cursed Trait"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add this Trait to every Cycle IV Battle"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you gain more than 1 Midas token, give 1 of those tokens to another random Titan"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2575"
+    ],
+    "name": "Rule One",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Infinite Climb",
+    "type": "Rule One",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the numbers match, you move the Titan and the Entrance the indicated number of spaces and leave these cards face-up (first the Entrance, then the Titan!)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, move the Entrance one additional spaces"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Finally, remove any Midas tokens from these cards and move the Titan again for each one you removed"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2576"
+    ],
+    "name": "Rule Two",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Infinite Climb",
+    "type": "Rule Two",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the numbers don't match and both are odd, move the Entrance by the higher value and place a Midas token on that card"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2577"
+    ],
+    "name": "Rule Three",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Infinite Climb",
+    "type": "Rule Three",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the numbers don't match and both are even, move the Entrance by the lower value and place a Midas token on that card"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2578"
+    ],
+    "name": "Rule Four",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Infinite Climb",
+    "type": "Rule Four",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the numbers don't match and one is odd and the other is even, neither the Titan nor the Entrance move"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DC2579"
+    ],
+    "name": "Rule Five",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Secret Deck 10",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "Infinite Climb",
+    "type": "Rule Five",
+    "storyCard": "",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Sadly, as the Empire chases Infinite Growth, time grows shorter:"
+            },
+            {
+              "type": "bold",
+              "value": "Immediately lose 1 Grip and 1 round"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Do this only once"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2667"
+    ],
+    "name": "Unreliable Intel V",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at IV (062) or VI (059)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2668"
+    ],
+    "name": "Unreliable Intel IV",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at V (076) or III (021)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2669"
+    ],
+    "name": "Unreliable Intel VI",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at V (076) or I (026)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2670"
+    ],
+    "name": "Unreliable Intel III",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at II (003) or I (026)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2671"
+    ],
+    "name": "Unreliable Intel I",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at II (003), VII (009), or VI (059)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2672"
+    ],
+    "name": "Unreliable Intel II",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at III (021) or I (026)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC2673"
+    ],
+    "name": "Unreliable Intel VII",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The locations of Atlantean cities are a closely guarded secret. The clues you are given refer to the Great Atlantean Spiral",
+    "subtitle": "Atlantean Coordinates",
+    "type": "Story",
+    "storyCard": "2B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "White Haven is located at I (026) or VI (059)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on one of these underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 1037"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3197"
+    ],
+    "name": "Liaison",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "Cold and aloof",
+    "subtitle": "Ally",
+    "type": "Story",
+    "storyCard": "1B",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Write \"Liaison\" in the Boons, Afflictions, and Notes section of the Argo Sheet"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "You may dismiss the Liaison at the end of any Voyage Phase"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You must dismiss them if you removed your last Liaison tally mark"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "In both cases, see 0101"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3198"
+    ],
+    "name": "Atlantean Capital Cycle A",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "6"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0601 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3199"
+    ],
+    "name": "Atlantean Capital Cycle B",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "4"
+            },
+            {
+              "type": "bold",
+              "value": "3"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0602 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3200"
+    ],
+    "name": "Atlantean Capital Cycle C",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7"
+            },
+            {
+              "type": "bold",
+              "value": "8"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0603 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3201"
+    ],
+    "name": "Atlantean Capital Cycle D",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9"
+            },
+            {
+              "type": "bold",
+              "value": "2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0604 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3202"
+    ],
+    "name": "Atlantean Capital Cycle E",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "8"
+            },
+            {
+              "type": "bold",
+              "value": "8"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0605 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3203"
+    ],
+    "name": "Atlantean Capital Cycle F",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The capital's location was kept hidden even from its own citizens--yet even this precation did not stave off the fall",
+    "subtitle": "Phos Map",
+    "type": "Story",
+    "storyCard": "3A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5"
+            },
+            {
+              "type": "bold",
+              "value": "2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on your current Story card, you may discard 5 Progress to see paragraph 0606 for an exact location"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3204"
+    ],
+    "name": "Eclipse Tablet",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "The refuge has been hidden from this world, and thus can manifest itself in several places",
+    "subtitle": "Eldritch Lore",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "--Siren Script--"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3205"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3206"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3207"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3208"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3209"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EC3210"
+    ],
+    "name": "(Unnamed)",
+    "cardType": "Clue",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "faq": "",
+    "errata": "",
+    "flavor": "",
+    "subtitle": "",
+    "type": "Story",
+    "storyCard": "4A",
+    "subdeck": "",
+    "text": [
+      [],
       []
     ]
   }

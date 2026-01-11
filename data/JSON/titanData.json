@@ -2621,7 +2621,7 @@
     "faq": "",
     "errata": "",
     "subtitle": null,
-    "titanPower": "Red + @Power",
+    "titanPower": "Red + Power",
     "speed": "5",
     "kratosTable": [
       [
@@ -3388,7 +3388,7 @@
     "faq": "",
     "errata": "",
     "subtitle": null,
-    "titanPower": "Red + @Power",
+    "titanPower": "Red + Power",
     "speed": "5",
     "kratosTable": [
       [
@@ -4898,6 +4898,550 @@
   },
   {
     "cardIDs": [
+      "CK9924"
+    ],
+    "name": "Solon",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Delphian Dreamwalker",
+    "titanPower": "Red",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pushback",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CK9923"
+    ],
+    "name": "Philoctera",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Delphian Dreamwalker",
+    "titanPower": "Red",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pushback",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CK9922"
+    ],
+    "name": "Ulyssea",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Delphian Dreamwalker",
+    "titanPower": "Red",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pushback",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "CK9921"
+    ],
+    "name": "Herodotus",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": "Delphian Dreamwalker",
+    "titanPower": "Red",
+    "speed": "5",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Pushback",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Rush"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "EK9931"
     ],
     "name": "Strider",
@@ -5090,6 +5634,179 @@
           {
             "type": "plainText",
             "value": "Final Countdown"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Daredevil Wishender",
+    "cardType": "Titan",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "subtitle": null,
+    "titanPower": "Black",
+    "speed": "4",
+    "kratosTable": [
+      [
+        [
+          {
+            "name": "Break",
+            "x_value": "1"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "2"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Break",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          },
+          {
+            "name": "Motivate",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Closing",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Opening",
+            "x_value": "2"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Reroll",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Hope",
+            "x_value": "1"
+          },
+          {
+            "name": "Scale",
+            "x_value": "1"
+          }
+        ],
+        [
+          {
+            "name": "Closing",
+            "x_value": "2"
+          },
+          {
+            "name": "Scale",
+            "x_value": "1"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "name": "Succor"
+          }
+        ]
+      ]
+    ],
+    "traumaTable": [
+      {
+        "type": "Minor",
+        "range": "1-3"
+      },
+      {
+        "type": "Major",
+        "range": "4-6"
+      },
+      {
+        "type": "Grave",
+        "range": "7-9"
+      },
+      {
+        "type": "Obol",
+        "range": "10+"
+      }
+    ],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Four-Armed Centimanes"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Shield"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Djinnslayer"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Engine"
           }
         ]
       }

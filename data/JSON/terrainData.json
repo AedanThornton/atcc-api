@@ -1,6 +1,314 @@
 [
   {
     "cardIDs": [
+      "AI0361"
+    ],
+    "name": "Column",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "16",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Destructible",
+      "Trap"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0362"
+    ],
+    "name": "City",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Inhabited",
+      "Reinforced Destructible",
+      "Cover"
+    ],
+    "abilities": [
+      [],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat this tile as an"
+            },
+            {
+              "type": "keyword",
+              "value": "Obstacle"
+            }
+          ]
+        }
+      ]
+    ],
+    "name2": "Ruined City",
+    "keywords2": [
+      "Inhabited",
+      "Destructible",
+      "Cover"
+    ],
+    "abilities2": [
+      [],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat this tile as an"
+            },
+            {
+              "type": "keyword",
+              "value": "Obstacle"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0364"
+    ],
+    "name": "Labyrinth",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "4",
+        "type": "1x4"
+      },
+      {
+        "count": "4",
+        "type": "Z"
+      },
+      {
+        "count": "4",
+        "type": "L"
+      },
+      {
+        "count": "4",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Indestructible",
+      "Labyrinth"
+    ],
+    "abilities": [
+      [],
+      []
+    ],
+    "name2": "Maze Fissure"
+  },
+  {
+    "cardIDs": [
+      "AI0364"
+    ],
+    "name": "Maze Fissure",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "3",
+        "type": "1x4"
+      },
+      {
+        "count": "2",
+        "type": "Z"
+      },
+      {
+        "count": "3",
+        "type": "L"
+      },
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Chasm"
+    ],
+    "abilities": [
+      [],
+      []
+    ],
+    "name2": "Labyrinth"
+  },
+  {
+    "cardIDs": [
+      "AI0366"
+    ],
+    "name": "Giant Shell",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible",
+      "Treasure"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0367"
+    ],
+    "name": "Minos Manos Unit",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Destructible",
+      "Trap",
+      "Treasure"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0368"
+    ],
+    "name": "Maze Outcrop",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible",
+      "Treasure"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "AI0369"
+    ],
+    "name": "Abandoned Temple",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Destructible",
+      "Treasure"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
       "AI0370"
     ],
     "name": "Argo Hull",
@@ -92,7 +400,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "1",
+        "count": "4",
         "type": "1x1"
       },
       {
@@ -100,11 +408,11 @@
         "type": "Z"
       },
       {
-        "count": "1",
+        "count": "5",
         "type": "1x4"
       },
       {
-        "count": "1",
+        "count": "3",
         "type": "1x5"
       }
     ],
@@ -132,7 +440,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "1",
+        "count": "4",
         "type": "3x3"
       }
     ],
@@ -244,7 +552,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "4",
+        "count": "3",
         "type": "L"
       },
       {
@@ -256,7 +564,7 @@
         "type": "Z"
       },
       {
-        "count": "3",
+        "count": "6",
         "type": "1x4"
       }
     ],
@@ -348,110 +656,18 @@
     "errata": "",
     "tiles": [
       {
-        "count": "1",
+        "count": "2",
         "type": "1x1"
       }
     ],
     "keywords": [
       "Destructible",
       "Obstacle",
-      "Obscuring"
+      "Obscuring",
+      "Treasure"
     ],
     "abilities": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            },
-            {
-              "type": "plainText",
-              "value": "Treasure: Once per Battle, when adjacent, search the Ambrosia Elephant"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Roll a d10: 1: The bubbling ambrosia stored in the elephant enguls you! Gain 1 Ambrosia token and suffer Knockdown"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "2-5: Dormant raw Ambrosia"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Gain 1 Violent Ambrosia resources"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "6-9: Refined Ambrosia tank"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Gain 2 Violent Ambrosia resources"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "10: During their excavation, the Spartans dug up a Cyclopean Burial Site"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Gain a Carver Kopis"
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "plainText",
-              "value": "card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you already a Carver Kopis, gain a Cyclopean Visor"
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "plainText",
-              "value": "card instead"
-            }
-          ]
-        }
-      ],
+      [],
       []
     ]
   },
@@ -1028,7 +1244,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "16",
+        "count": "15",
         "type": "1x1"
       }
     ],
@@ -1097,7 +1313,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "4",
+        "count": "3",
         "type": "2x2"
       }
     ],
@@ -1231,11 +1447,11 @@
         "type": "L"
       },
       {
-        "count": "1",
+        "count": "2",
         "type": "Z"
       },
       {
-        "count": "2",
+        "count": "3",
         "type": "1x5"
       }
     ],
@@ -1261,7 +1477,7 @@
     "errata": "",
     "tiles": [
       {
-        "count": "3",
+        "count": "2",
         "type": "3x3"
       }
     ],
@@ -1271,6 +1487,861 @@
     ],
     "abilities": [
       [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Hyperborean Ruins",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "CombatAction"
+            },
+            {
+              "type": "bold",
+              "value": "Treasure:"
+            },
+            {
+              "type": "plainText",
+              "value": "Once per Battle, when adjacent, search the Hyperborean Ruins"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Roll a d10:\\n1: You devle too deep and get lost in time and space"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Suffer Time-clocked"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "2-5: Unknown dangers still lurk in the ruins"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Suffer"
+            },
+            {
+              "type": "keyword",
+              "value": "Bleeding 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "6-9: An artifact of ancient origin"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain 1 Antediluvian Sirenshell Rare resource"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "10: Among the rubble, you find a forgotten treasure"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Exiles Garb",
+              "refID": "CJ1490"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you already have it, gain +1 Pygmalion Stone instead"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DI2027"
+    ],
+    "name": "Irem City",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "3",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Indestructible",
+      "Obscuring",
+      "Elevated",
+      "Cover"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "To climb the Irem City (if you are not on an elevated space), test Fury (5+)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DI2028"
+    ],
+    "name": "Irem Tower",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "26",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Shifting",
+      "Obscuring",
+      "Obstacle",
+      "Elevated"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "To climb the Irem Tower (if you are not on an elevated space), test Fury (4+)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "DI2029"
+    ],
+    "name": "Windblighted Fleet",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Shifting",
+      "Obscuring",
+      "Elevated",
+      "Inhabited",
+      "Cloud"
+    ],
+    "abilities": [
+      [],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "gate": "Friendly",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have Auto-break 1"
+            }
+          ]
+        },
+        {
+          "gate": "Denounced",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you move onto this tile, gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": "and +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        },
+        {
+          "gate": "At War",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat this tile as an"
+            },
+            {
+              "type": "keyword",
+              "value": "Obstacle"
+            }
+          ]
+        }
+      ]
+    ],
+    "name2": "Trireme Graveyard"
+  },
+  {
+    "cardIDs": [
+      "DI2029"
+    ],
+    "name": "Trireme Graveyard",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Destructible",
+      "Obstacle",
+      "Elevated",
+      "Treasure"
+    ],
+    "abilities": [
+      [],
+      []
+    ],
+    "name2": "Windblighted Fleet"
+  },
+  {
+    "cardIDs": [
+      "DI2030"
+    ],
+    "name": "Wishstorm",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Cloud",
+      "Trap",
+      "Treasure",
+      "Elevated"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "To climb the Wishstorm (if you are not on an elevated space), test Fury (7+)"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "name2": "School of Creatures"
+  },
+  {
+    "cardIDs": [
+      "DI2030"
+    ],
+    "name": "School of Creatures",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Destructible",
+      "Cover"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Mobile:"
+            },
+            {
+              "type": "plainText",
+              "value": "If you start your"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": "on this tile, or more through it during a"
+            },
+            {
+              "type": "icon",
+              "value": "MovementAction"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may move this tile up to 2 spaces in the direction of your movement"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Camouflage:"
+            },
+            {
+              "type": "plainText",
+              "value": "When you are on this tile, pass the"
+            },
+            {
+              "type": "icon",
+              "value": "PriorityTarget"
+            },
+            {
+              "type": "plainText",
+              "value": "Priority Target token to the next eligible holder"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot be a Target if there are other eligible Targets for the targeting line"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "name2": "Wishstorm"
+  },
+  {
+    "cardIDs": [
+      "DI2031"
+    ],
+    "name": "Ambrosia Cloud",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "4",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Ambrosia",
+      "Obscuring",
+      "Cloud"
+    ],
+    "abilities": [
+      [],
+      []
+    ],
+    "name2": "Black Abyss"
+  },
+  {
+    "cardIDs": [
+      "DI2031"
+    ],
+    "name": "Black Abyss",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "5",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Chasm",
+      "Indestructible"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Abyss:"
+            },
+            {
+              "type": "plainText",
+              "value": "You cannot voluntarily move through or ignore this tile in any way; you cannot measure effective range of your weapons through empty spaces of this tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If a Black Abyss tile moves onto you or you're move involuntarily through or onto it, you are devoured (die)"
+            }
+          ]
+        }
+      ],
+      []
+    ],
+    "name2": "Ambrosia Cloud"
+  },
+  {
+    "cardIDs": [
+      "DI2032"
+    ],
+    "name": "Staircase Entrance",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "1",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Obscuring",
+      "Obstacle",
+      "Elevated",
+      "Indestructible"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "To climb the Irem Tower (if you are not on an elevated space), test Fury (4+)"
+            }
+          ]
+        }
+      ],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EI2604"
+    ],
+    "name": "Arcology",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "3x3"
+      }
+    ],
+    "keywords": [
+      "Obscuing",
+      "Inhabited",
+      "Reinforced Destructible",
+      "Cover"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Light 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Omnilight:"
+            },
+            {
+              "type": "plainText",
+              "value": "This tile projects light in all cardinal directions"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "gate": "Aligned with Nemesis",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat this tile as an"
+            },
+            {
+              "type": "keyword",
+              "value": "Obstacle"
+            }
+          ]
+        }
+      ]
+    ],
+    "name2": "Ruined Arcology",
+    "keywords2": [
+      "Obscuing",
+      "Inhabited",
+      "Destructible",
+      "Cover"
+    ],
+    "abilities2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Light 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Omnilight:"
+            },
+            {
+              "type": "plainText",
+              "value": "This tile projects light in all cardinal directions"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Allied",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Titans on this tile have +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "gate": "Aligned with Nemesis",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Treat this tile as an"
+            },
+            {
+              "type": "keyword",
+              "value": "Obstacle"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "EI2605"
+    ],
+    "name": "Inkblot",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "5",
+        "type": "2x2"
+      }
+    ],
+    "keywords": [
+      "Ambrosia",
+      "Obscuring",
+      "Cloud"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EI2606"
+    ],
+    "name": "Petrified Vent",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "24",
+        "type": "1x1"
+      }
+    ],
+    "keywords": [
+      "Obstacle",
+      "Obscuring",
+      "Destructible",
+      "Black Smoke"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EI2607"
+    ],
+    "name": "Trench",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "1x1"
+      },
+      {
+        "count": "2",
+        "type": "1x4"
+      },
+      {
+        "count": "2",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "Indestructible",
+      "Chasm",
+      "Light Void"
+    ],
+    "abilities": [
+      [],
+      []
+    ]
+  },
+  {
+    "cardIDs": [
+      "EI2608"
+    ],
+    "name": "Lightwall",
+    "cardType": "Terrain",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "tiles": [
+      {
+        "count": "2",
+        "type": "1x1"
+      },
+      {
+        "count": "2",
+        "type": "1x4"
+      },
+      {
+        "count": "2",
+        "type": "1x5"
+      }
+    ],
+    "keywords": [
+      "Destructible",
+      "Obstacle",
+      "Light 1"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Monument to Progress:"
+            },
+            {
+              "type": "plainText",
+              "value": "For the purposes of Despair adjacency, treat this tile as a Titan"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Omnilight:"
+            },
+            {
+              "type": "plainText",
+              "value": "This tile projects light in all cardinal directions"
+            }
+          ]
+        }
+      ],
       []
     ]
   }

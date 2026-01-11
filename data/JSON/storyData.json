@@ -24,7 +24,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "If you skipped the Tutorial, create the Cycle I exploration deck: find Cycle I Exploration cards 1-9, 13, 19, 23, and 28-32, and shuffle the,"
+              "value": "If you skipped the Tutorial, create the Cycle I exploration deck: find Cycle I Exploration cards 1-9, 13, 19, 23, and 28-32, and shuffle them"
             }
           ]
         },
@@ -32,7 +32,16 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Take the Cycle I Map tile 027 and place it on the table"
+              "value": "Take the Cycle I Map tile"
+            },
+            {
+              "type": "cardRef",
+              "value": "027",
+              "refID": "A027"
+            },
+            {
+              "type": "plainText",
+              "value": "and place it on the table"
             }
           ]
         },
@@ -109,7 +118,7 @@
             {
               "type": "cardRef",
               "value": "Minoan Guide",
-              "refID": ""
+              "refID": "AC0072"
             },
             {
               "type": "plainText",
@@ -144,11 +153,838 @@
       ]
     ],
     "flavor2": [
-      ""
+      "Minos is a hard man to find. The scraps of information you do manage to uncover inevitably lead to a dead end: a missing fisherman, a burned down temple, a murdered philosopher. It doesn't help that the Minoans are not as forthcoming as you would like. It seems the king held the island in too tight a grip, and there are many who would prefer him to remain missing.",
+      "A lesser crew would give up on this fruitless search. But not you. Even the absence of clues is in itself a clue. Someone has been covering their tracks.",
+      "There's talk of foreigners supposedly looking for the same prize you're after. Not far from your current position, atop a mount on an artificial island, stands an unfinished Cretan wonder known to some as the City of the Bull. Construction halted when the Great Mourning began--yet now there are rumors of foreign ships coming and going under the cover of night.",
+      "It might be prudent to pay it a visit"
     ],
-    "rulesTitle2": "",
+    "rulesTitle2": "Reach the City of the Bull",
     "rules2": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place the City of the Bull marker on the closest unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no unoccupied"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbols on the Map, place the marker on thisc ard instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, when you reveal a Map tile with a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol, immediately place the City of the Bull marker on that"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot use"
+            },
+            {
+              "type": "bold",
+              "value": "Negotation"
+            },
+            {
+              "type": "plainText",
+              "value": "abilities on a"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "covered by the City of the Bull marker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Finding the City:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the Mpa tile with the City of the Bull marker, during the Story Step, see 0002"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AD0121"
+    ],
+    "name": "A Fateful Randezvous",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "A Fateful Randezvous",
+    "cardNumber": "2",
+    "flavor": [
+      "It seems King Minos may have found himself some new friends in this \"Symmachy\" you've been hearing about. But to choose foreign power over his own daughters? Strange and ominous. Eitehr something is rotten at the core of the Minoan Dynasty... or Minos was taken prisoner and the Symmachy are using old animosities to stir the already boiling pot that is Crete.",
+      "Either way, this \"Symmachy\" is involved and your mission remains the same. You concentrate your efforts on finding the foreign ship, the Marathonian"
+    ],
+    "rulesTitle": "Collect Progress and follow the clues",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the four Story 2A Clue cards and shuffle the,"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you place your 2nd"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card, draw one of the four 2A Clue cards and return the rest to the box"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to find the Map tile shown on the card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Correctly match the clue from the card to the clue on the Map tile to find what to do next!"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can contineu placing"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card (up to 9)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "They may come in handy later"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Alternatively, you may wish to learn more about the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "through the Inward Odyssey"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The Symmachy flagship has fled upriver. You're not sure what their plan is or how far the Argo can sail in shallow waters, but you have little choise: Minos is on that ship. Willingly or not, he will come with you, and you will be done with this cursed island once and for all.",
+      "You give pursuit. Even a few miles inland, the landscape starts to change, become more angular, more... artificial. Your scouts reported as much, but seeing this with your own eyes, hills slowly turning into stepped terraces like the Egyptain pyramids, or peach and persimmon trees bearing cube-shaped fruit, is something else.",
+      "Crete is being remade and seemingly nothing can stop it.",
+      "You must find Minos"
+    ],
+    "rulesTitle2": "Catch up to the Flagship",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Find the ten Story 2B Clue cards, set aside the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Symmachy Flagship",
+              "refID": "AC0066"
+            },
+            {
+              "type": "plainText",
+              "value": "card and shuffle the rest"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then randomly remove a number of these Clue cards equal to the number of"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens you had on Story 2A and return them to the box (without looking)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Finally, shuffle the"
+            },
+            {
+              "type": "italics",
+              "value": "Symmachy Flagship"
+            },
+            {
+              "type": "plainText",
+              "value": "card with the remaining Clue cards to create the Pursuit deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Looking for the Flagship:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on a"
+            },
+            {
+              "type": "bold",
+              "value": "river"
+            },
+            {
+              "type": "plainText",
+              "value": "(a Map tile with the"
+            },
+            {
+              "type": "icon",
+              "value": "River"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol in the bottom right corner), during the Story Step, draw 1 card from the Pursuit deck and resolve it, then remove it form the game (return it to the box)"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AD0122"
+    ],
+    "name": "A Phantom Thread",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "A Phantom Thread",
+    "cardNumber": "3",
+    "flavor": [
+      "Your meeting with the Symmachy has left you with more questions than answers. You have no reason to believe anything Militiades said--but you could say the same about the about the Minoan Dynasty. The only difference is, Minos's daughters hold the keys to the Daedalus Vault, wherein you hope to find parts to fix the Argo. Or so they claim.",
+      "From what you've learned, Minos, if he is still alive, is heading for the grave of Ariadne at the Sepulcher Acropolis. The Acropolis is hidden, but Daedalus, its builder, left clues to its location at several sites across Crete.",
+      " Thankfully, you've got a map"
+    ],
+    "rulesTitle": "Locate the Sepulcher Acropolis",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the five Story 3A Clue cards and shuffle them to create the Temple deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on a Map tile with the Minotaur Temple symbol, during the Story Step, you may search it by drawing and resolving a card from the Temple deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the card shows any coordinates, these coordinates are forever tied to the Map tile they were drawn on"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can search each Minotaur Temple only once"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note searched Temples in the Map section of the Argo Sheet"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can collect"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "to quicken your search"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve the effects below when you place the designeated number of"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Reveal the top card from the Temple deck and discard it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is not considered drawing a card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Reveal the top card from the Temple deck and discard it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is not considered drawing a card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw the top card from the Temple deck and resolve it"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you find the full set of coordinates of the Sepulcher Acropolis, turn this card to side 3B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You've traveled Crete far and wide, uncovering cryptic clues left by the Great Inventor, Daedalus. Many a time you've asked yourselves: why hide a necropolis? Why leave clues leading to it? For whom?",
+      "Maybe Minos will be able to provide some answers.... once you find him. If he's alive. As you put together the fragmented information from the many Minotaur Temples visited, you pinpoint the location of the Sepulcher Acropolis.",
+      "You set your course"
+    ],
+    "rulesTitle2": "Reach the Sepulcher Acropolis",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place the Sepulcher Acropolis marker on the Map tile shown by the coordinates"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it is unexplored, place the marker on this card instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, when you reveal the Map tile designated by the coordinates, immediately place the Sepulcher Acropolis marker on this tile"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Find the Sepulcher Acropolis:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the same Map tile as the Sepulcher Acropolis marker, during the Story Step, see 0075"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "AD0123"
+    ],
+    "name": "Unappealable Egress",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Unappealable Egress",
+    "cardNumber": "4",
+    "flavor": [
+      "There are many things that you still don't understand, but the hour grows late, and Crete's twilight is at hand. Soon there will be no way of stopping the reality-bending Truth. Minos is gone and with him, the true line of Minoan rulers seemingly ends. Your contract with the Minoan Dynasty cannot be fulfilled.",
+      "Ironically, the Sepulcher Acropolis housed the Daedalus Vault, the very place you've risked your neck for. With the parts found within, Alkabiades mends the Argo. You can finally leave this accursed island behind.",
+      "Yet you remain. For during your journey you've learned that mere survival is not enough. This world desperately needs hope heroes--and you will provide both. This is your purpose.",
+      "The Last Academy is creating a machina that will amplify the ontological field surrounding the grave of Ariadne and make the Temenos vulnerable. They call it Ariadne's Anchor.",
+      "You rush to Knossos to have a word with the self-proclaimed mouth of the Labyrinth, the Punished, now a prisoner of the Minoan Dynasty, to lure the creature out"
+    ],
+    "rulesTitle": "Collect Progress and reach Knossos",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Minoan Guide is with you, see 0089"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Old Spinner is with you, immediately place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Dog Days Are Over:"
+            },
+            {
+              "type": "plainText",
+              "value": "Permanently remove the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Dog Days",
+              "refID": "AB0075"
+            },
+            {
+              "type": "plainText",
+              "value": "Exploration card from the Exploration deck (return it to the box)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to create the Ariadne's Anchor and rush back to Knossos"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Reach Knossos:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Argo is on the Knossos Map tile (027) and there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, the Anchor is complete"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Story Step, see 0104 ("
+            },
+            {
+              "type": "bold",
+              "value": "Warning: Point of No Return"
+            },
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Upgrade the Anchor:"
+            },
+            {
+              "type": "plainText",
+              "value": "When there are 12 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip to side 4B"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Ariande's Anchor is complete, with time to spare. The scholars of the Last Academy can perfect the design.The ontological field seems to have more properties than just anchoring an object to reality: some of the philosophers propose it may be used to conjure up a \"theatre-like\" reality environment, a waking dream to explore the endless possibilities of life. But that is for the future.",
+      "One day, the scholars find a giant xiphos lying on the floor of the Anchor's chamber, with no idea how it got there"
+    ],
+    "rulesTitle2": "Reach Knossos",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Theseus Razor",
+              "refID": "AJ0268"
+            },
+            {
+              "type": "icon",
+              "value": "Gear"
+            },
+            {
+              "type": "plainText",
+              "value": "card (Secret deck 2, Card 14) and the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Temenos Sighting",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card (unless you already have it)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, immediately go on an adventure from the Dreams Laid Bare hub (if you finished this hub already, choose another hub to go on an adventure from!)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "With the Ariadne's Anchor upgraded and operational, it is time to head to Knossos"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Reach Knossos:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Argo is on the Knossos Map tile (027) and there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, the Anchor is complete"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Story Step, see 0104 ("
+            },
+            {
+              "type": "bold",
+              "value": "Warning: Point of No Return"
+            },
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        }
+      ]
     ]
   },
   {
@@ -170,14 +1006,302 @@
     ],
     "rulesTitle": "",
     "rules": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "1: Endless Decks"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2: Phos Dance"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "23: Glitch in the Engine"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "4: A Distant Thunder"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5: Mark of the Maker"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "6: Of Dreams and Memories"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7: Blood of the Mother"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "8: See the Forest"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9: Days of Meaninglessness"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "10: Memory of a Distant Shore"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you resolve the last adventure from this list, flip this card"
+            }
+          ]
+        }
+      ]
     ],
     "flavor2": [
-      ""
+      "Your Inward Odyssey continues!"
     ],
     "rulesTitle2": "",
     "rules2": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "11: Garden of Solitude"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12: The Argonites"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "13: Children of the Earth"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "14: Remembrance"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "15: A Spy Among Us"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "16: Fire in the Depths"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "17: United"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "18: The Final Deterrent"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "19: Black Blood Cryptex"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "20: Echoes of Long-Lost Battles"
+            }
+          ]
+        }
+      ]
     ]
   },
   {
@@ -214,7 +1338,16 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Take the Cycle II Map tile 078 and place it on the table"
+              "value": "Take the Cycle II Map tile"
+            },
+            {
+              "type": "cardRef",
+              "value": "078",
+              "refID": "B078"
+            },
+            {
+              "type": "plainText",
+              "value": "and place it on the table"
             }
           ]
         },
@@ -230,7 +1363,16 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Gain the First Cataract Fortification Line Clue card (Story 1A)"
+              "value": "Gain the"
+            },
+            {
+              "type": "cardRef",
+              "value": "First Cataract Fortification Line",
+              "refID": "BC1176"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card (Story 1A)"
             }
           ]
         },
@@ -346,16 +1488,908 @@
       "The Nietzschean is said to travel between the outlying fortresses, inspecting the troops, which leaves you an opening. If you're able to pinpoint his location or learn of his itinerary, you'll be able to trap him inside a fortress and force him to battle on your terms.",
       "Until that time, you need to build up Resistance in the region. It'll take a concerted effort from you and your allies to bring the tyrant down"
     ],
-    "rulesTitle": "",
+    "rulesTitle": "Find the Nietzschean's location and muster the rebel forces",
     "rules": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "From this point onward, you can freely traverse"
+            },
+            {
+              "type": "icon",
+              "value": "Lock"
+            },
+            {
+              "type": "plainText",
+              "value": "waterways with the First Cataract Sluice Gate Fortress"
+            },
+            {
+              "type": "icon",
+              "value": "FirstCataract"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note this on your Argo Sheet"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Gain the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Fortress Map",
+              "refID": "BC1178"
+            },
+            {
+              "type": "plainText",
+              "value": "Clue card (Story 2AA)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Spartan Stronghold symbols ("
+            },
+            {
+              "type": "icon",
+              "value": "SpartanStronghold"
+            },
+            {
+              "type": "plainText",
+              "value": ") denote possible locations of the Nietzschean"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the six 2A Clue cards and shuffle them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Fortress Deck",
+              "refID": ""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Whenever you win a Battle, draw 1 card from the Fortress deck and reveal it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Until the next Battle, the Nietzschean is at the last revealed location"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This will become relevant when you progress to side 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you lose a Battle, shuffle all revealed Fortress cards back into the deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens placed on this card represent the strength of the Resistance in the region"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip the card to side 2B"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move the"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens to side 2B"
+            }
+          ]
+        }
+      ]
     ],
     "flavor2": [
-      ""
+      "As the giant Argo trudges through the ambrosia-contaminated canals of the Lakonian heartland, your allies gather in the Bridge Tholos to discuss the operation that will bring the Nietzschean down.",
+      "You've achieved so much in such a short amount of time, you can hardly believe it. And yet you dread facing the Nietzschean's monstrous shadow on the battlefield, as you still feel outclassed... yet this is it. You've located the Nietzschean and his Temple of Man citadel, and you've cut off all possible escape routes. It's time to call on your allies--on everyone who opposes the Spartan tyranny--and make the final push.",
+      "The bastard will pay for every drop of innocent blood he's spilled"
     ],
-    "rulesTitle2": "",
+    "rulesTitle2": "Lay siege to the Fortress and put an end to the Nietzschean",
     "rules2": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You do not draw any more Fortress cards: the Nietzschean is waiting at the last revealed location"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If no Fortress card is currently revealed, draw one now"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens placed on this card represent the strength of the Resistance in the region"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are at least 10"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card and you're on the correct tile with the Spartan Stronghold symbol, during the Story Step you may initiate the Siege of Sparta and see:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "10-14"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "Ragtag force: 0053"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "15-19"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "Sizeable force: 0054"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "20+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "Overwhelming force: 0055"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "BD0633"
+    ],
+    "name": "Argophylae",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Bearing Gifts",
+    "cardNumber": "3",
+    "flavor": [
+      "You're still reeling from the disaster that was the Battle at the Fortress. The Nietzschean baited you in and closed the trap behind you. He has sacrificed the entire stronghold to deal the revel forces a grave wound--one that they may not recover from.",
+      "As your allies scatter for safety, all the might of the Nietzschean empire bears down on the Argo. You thought yourselves untouchable in your gargantuan ship. Well, your enemy is right here to prove you wrong. Nothing is untouchable.",
+      "Cyclopean-forged chains have been strung from canal walls. Pursuit armadas of hunter-killer triremes snap at your heels. A barrage of harassment falls on you from above and below, from without and within, day and night, without reprieve. You're tired, broken, trapped.",
+      "Out of this gauntlet, you will emerge hardened--or not at all"
+    ],
+    "rulesTitle": "Escape the Argophylae trap and hide in a Resistance Haven",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the seven Story 3A Clue cards and shuffle them to create the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Argophylae deck",
+              "refID": ""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of each Timeline Step, draw 1 card from this deck and resolve it"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place the Blockade token on the top space of the Blockade diagram on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot move the Argo in the direction denoted by the Blockade token"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of each Movement Step, move the token 1 space clockwise"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Eligible Resistance havens are"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "named in the 2B Story adventure (if you're not sure which, check the noted paragraph again and follow the instructions there)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Argophylae deck runs out of cards, shuffle it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Argophylae deck runs out of cards for the second time or the Argo is on a Map tile with a friendly Resistance Haven, during the Story Step see 0128"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You are the Argonauts, and you have survived the grinder the Nietzschean has put you through. As you lick your wounds in the relative safety of a Resistance haven, you are able to process how the bastard did it: as the Nietzschean moves, so does his Temple of Man. The Abyss wills it.",
+      "If you want to have a chance at defeating him, you need to negate this advantage.",
+      "A dangerous plan is set in motion. A strike team will infiltrate the heart of the empire, the very Temple of Man, to seed the unlikeliest of things: a piece of the maze of Crete, courtesy of the Temenos carcass in your cargo hold. Then, Ariadne's Anchor will root the fortress in place.",
+      "Now you need to snatch yourselves a few Spartan officials to impersonate"
+    ],
+    "rulesTitle2": "Infiltrate the Temple of Man",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the six Blue Clue 3B cards and shuffle the, (for now, put the six Red Clue 3B cards aside)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Identity deck",
+              "refID": ""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain a"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token, you may draw a card from this deck instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you have at least 4 Identity cards, during the Story Step you may see 0143 (however, you may wish to gain more Identity cards before you do that!)"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "BD0634"
+    ],
+    "name": "Stand Together",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "What Are You?",
+    "cardNumber": "4",
+    "flavor": [
+      "As you stand on the Acropolis deck, your gaze is drawn to the heart of the empire. You've anchored the Temple of Man and you've learned of the Nietzschean's weakness. You're still not sure you can win, your forces all but depleted, but if you are to lose, you will do it together.",
+      "Preparations are well underway on a two-pronged attack: the Argo and the Titans will engage the Nietzschean monstrosity and the Spartan army around the capital, while a second, smaller strike team will once again brave the corridors of the Temple of Man, breach the Throne Room, and attack the mortal Nietzschean directly. Hopefully, he can't fight on two fronts at once.",
+      "They start coming at dawn: ships of all shapes and sizes manned by the Helots, caravans of Cyclopes numbering in the dozens, and the triremes of the grand Symmachy Diaspora Fleet. You recognize some of them as veterans of the Battle of the Fortress.",
+      "Before you can say anything, a representative of the growing refugee community on the Argo comes to you with a plea: the refugees want to fight too.",
+      "\"How many?\" you ask.",
+      "\"All of them.\"",
+      "You feel your eyes water.",
+      "They have all comel They will all stand with you in the end.",
+      "Let's take down the Nietzschean together"
+    ],
+    "rulesTitle": "Attack the Nietzschean on two fronts. End him",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately reveal the Temple of Man tile (018)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card for each Refugee you have"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Immediately place a number of"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card equal to the sum of all Faction Diplomacy Bonuses"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Halve the noted Resistance Strength from 2B (rounding up) and place that many additional"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "placed on this card represents the strength of the Resistance in the region"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are at least 10"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card and the Argo is on the Temple of Man tile, during the Story Step you may initiate the Siege of the Temple of Man and see 0201"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "("
+            },
+            {
+              "type": "bold",
+              "value": "Warning:"
+            },
+            {
+              "type": "plainText",
+              "value": "This is a"
+            },
+            {
+              "type": "bold",
+              "value": "Point of No Return"
+            },
+            {
+              "type": "plainText",
+              "value": ", you won't be able to return to the Voyage Phase!)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Note: The more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "you have here, the stronger your allied force will be during the final confrontation!"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The time has come and you mustn't blink. Each battle and decision has led you here. The Nietzschean has a habit of asking people what they are... Show him. Break his hold and power"
+    ],
+    "rulesTitle2": "Time and Edge",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place an Edge marker and a Time marker on the Battle track, on space '0' (unless the Edge marker has already been moved)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Battle, move the Edge marker 1 space each time the Nietzschean is dealt a Wound (treat a Double Wound as two Wounds)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move the Time marker at the beginning of every Titan Round"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When a marker reaches the indicated space or the event happens (in case of the 12th Wound), trigger the appropriate story paragraph (resolve it immediately):"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Time 1: see 0212"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Time 2: see 0213"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Edge 6: see 0214"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Time 3: see 0217"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Time 4: see 0220"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Edge 10: see 0222"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "12th Wound dealt, see 0224"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Darkest Hour"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of the Battle, if you gathered a Sizeable or Overwhelming Force, choose a space on the Battle track"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Once per Battle, if the Time marker is on the chosen space and a Titan is about to attack, you may immediately place a negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "token in the Kratos Pool (2 negative"
+            },
+            {
+              "type": "icon",
+              "value": "AT"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens instead if you have Overwhelming Force)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "The Sea of People"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of Battle, place a number of Support tokens (mark them with generic tokens) on this card equal to the number of your"
+            },
+            {
+              "type": "icon",
+              "value": "Refugees"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During this Battle, when a Titan is about to attack, you may discard exactly 1 Support token to immediately place 1 Opening or Break token in the Kratos Pool"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Ties that Bind"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If Cyclopes: Allied, the first time a Titan is about to die from a normal Attack (i"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "without any additional Attack type), see 0243"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If Symmachy: Allied, the first time a Titan is about to die from a Judgement Attack, see 0245"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If Helots: Allied, the first time a Titan is about to die from a Zone Attack, see 0244"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "The Battles commenses!"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you've read all the rules here and in the Storybook, see 0211"
+            }
+          ]
+        }
+      ]
     ]
   },
   {
@@ -376,14 +2410,4569 @@
     ],
     "rulesTitle": "",
     "rules": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "21: Land of the Strong and Free"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "22: The Price of Difference"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "23: Scorned Smith"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "24: Chimeric War"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "25: The Nymph and the Engine"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "26: The Means the End"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "27: The Muse Kids"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "28: Way of Strength"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "29: A Titan's View"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "30: The Rule of the Blade"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you resolve the last adventure from this list, flip this card"
+            }
+          ]
+        }
+      ]
     ],
     "flavor2": [
       "Your Inward Odyssey continues!"
     ],
     "rulesTitle2": "",
     "rules2": [
-      []
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "31: Blood of the Earth"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "32: The Fourth"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "33: As Above, So Below"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "34: Shadow Play"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "35:Argo-bred"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "36: Forsaken Aeons"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "37: Unyielding"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "38: Days of Aeons Past"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "39: Gen 1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "40: Song of Life"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CD1257"
+    ],
+    "name": "Icarus's Plea",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Oracles' Sentence",
+    "cardNumber": "1",
+    "flavor": [
+      "Delphi is a land stuck, its people hostage to the whims of the mad Oracles, repeating a cycle of death and destruction over and over again. You have come to free them from this time-locked prison, but also to realize a dream: to go back to a time before the Eschaton and to stop it from ever happening.",
+      "A noble goal or a fool's errand? You still haven't decided. Still, an endeavor worth pursuing. Imagine a world without the Eschaton.",
+      "As you reached the shores of Delphi, you were visited by the unlikeliest of creatures, Icarus, the son of the Great Inventor. Reluctantly, and with great apprehension, did he urge you to light his father's masterpieces. Before he had a chance to reveal more, he was remvoed from Argo's deck in a brilliant flash...",
+      "You need to find Icarus"
+    ],
+    "rulesTitle": "Find Icarus",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Create the Cycle III Exploration deck: find the Cycle III Exploration cards 1-9, 13, 19, 23, 29-30, 32-34 and shuffle them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the Cycle III Map tile 010 and place it on the board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "on that tile"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark day 0 on the Timeline"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Proceed to the first step of the Campaign Round"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 6 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, see 0008"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Story Step of the 6th day, see 0009"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The key to finding Icarus lies with his father's last work. The Lighthouses of Delphi have been built to withstand the ravages of time tiself and stave off the wall of void that descends upon the land, the inevitable Timefront. All they needed was the tinder to kindle the fire, one you've brought with you all the way from Crete: Ariadne's Anchor. It seems the shadow of the Great Inventor, Daedalus, is indeed long and dark.",
+      "And it begs the question: Has all of this been preordained? Are you doomed to fail and continue this vicious cycle? In Delphi there are supposedly no coincidences. But there was also no hope here, and that you have brought aplenty. Hope will see you through this storm"
+    ],
+    "rulesTitle2": "Re-light 5 Daedalus Lighthouses",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you reveal a Map tile with a Daedalus Lighthouse symbol, you re-light that Lighthouse"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This includes all the Map tiles you already revealed"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reveal the 5th Lighthouse, during the Story Step, see 0017"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Note:"
+            },
+            {
+              "type": "plainText",
+              "value": "Some Lighthouses are still standing in Delphi's Glorious Past, but to reach them, you will need the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Trespass Protocol",
+              "refID": "CA1611"
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can place"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card to study the unusual temporal phenomena and the fractured land of Delphi:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": You partially reconstruct the geographical map of Delphi, immediately see 0016"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Your academicians re-establish inter-lighthouse connections"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This counts as 1 re-lit lighthouse for the purposes of this task"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CD1258"
+    ],
+    "name": "To Those Long Dead",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "To Those Yet Unborn",
+    "cardNumber": "2",
+    "flavor": [
+      "Delphi is a land stuck, and Icarus a hostage to a Sun God's last will, repeating a cycle of expectations and failure over and over again.",
+      "The cycle begins. In the last days before the Eschaton, on the behest of his father, Icarus undertakes a daring mission to reach the Sun in his sky ship, the Aspirant. He doesn't make it. His ship, his crew, all is lost in the incinerating embrace of the Sun's Domain. Icarus falls. He and his crew transform into the tainted creatures plaguing Delphi. The cycle loops.",
+      "Poor Icarus keeps falling. and failing. And yet he will contineu to rise until he satisfies his father's command. Bound to repeat this vicious cycle and trap everyone else in it. And each time Delphi is a little less, consumed by the Timefront, the maw of entropy.",
+      "Icarus is bound by the Moirai to repeat his mistakes. You are not. Change the past, let Icarus soar. Cancel the Eschaton"
+    ],
+    "rulesTitle": "Change the timeline to help Icarus",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the six Story 2A Clue cards and shuffle them to create the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Events deck",
+              "refID": ""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Draw 3 cards from this deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "These represent the events you need to change to affect the timeline and change the fate of the Aspirant"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to change 3 events in a Single Time Loop, otherwise you will have to repeat them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For this reason, when you are asked to mark a code in the matrix, don't put it in the Choice Matrix yet, note it separately"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the Loop resets (i"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "e"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "you resolve the Loop effect), erase those noted codes"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You will only mark these in the Matrix once you see the paragraph below"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can collect"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "They will come in handy later and will also have some immediate benefits, allowing you to choose from a wider variety of events:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw another event (you still need to change only 3 events)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "3"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw another event (you still need to change only 3 events)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw another event (you still need to change only 3 events)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "As soon as you change 3 events in a Single Time Loop, see 0059"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "It should have worked. You did everything you agreed upon and events, for once, did flow differently. Yet the time loop is still here, Delphi trapped, time-locked, slowly consumed by the voracious Timefront.",
+      "Did Icarus fail or have you been deceived? Or is there something else at play here, hidden? Impossible to tell at this point. The Last Academy is tracking the descent trajectory of a near-sun object, both through time and space. The Aspirant, the sky chariot of Icarus. You need to locate it"
+    ],
+    "rulesTitle2": "Calculate the course of the Aspirant. Collect Progress",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move all"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens from side 2A here"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 9 or"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, see 0083"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CD1259"
+    ],
+    "name": "Box Of Black",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "The Eschaton Solution",
+    "cardNumber": "3",
+    "flavor": [
+      "The Chariot crash-landed in the outer reaches of Delphi, in the bleak future from which the Twilight Watch hails, the future you are trying to avert by stopping the Eschaton.",
+      "You've crossed the timeslip several times now, small reconnaissance missions as you look for a way to bring the Argo into the future of Delphi to look for the Aspirant. Each time, dark thoughts assail you. The ice-locked wastes are still there. Icarus's mission must have failed, and you haven't changed anything after all. The Primordials, too, are still here, more powerful than ever.",
+      "You need to find the Aspirant, the heavenly chariot, and it master and commander, Icarus. Learn what went wrong"
+    ],
+    "rulesTitle": "Find any chariot piece",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the three remaining Story 3A Clue cards and shuffle them to create the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Chariot Map deck",
+              "refID": ""
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to find a chariot piece depicted on any of the Maps you have acquired (including the one you already have)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Chariot pieces are represented on the Map tiles with the Chariot A and Chariot B symbols"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Note:"
+            },
+            {
+              "type": "plainText",
+              "value": "The chariot pieces are scattered in the future, to which you can travel only if you have the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Icebreaker Protocol",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can collect"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "to gain additional Chariot Maps:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw a card form the Chariot Map deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw a card form the Chariot Map deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw the last card form the Chariot Map deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Finding the Aspirant:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Argo is on the same Map tile as a Chariot A or Chariot B symbol, during the Story step, see 0108"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You have met with Icarus, but not the one from before. Not the merciful broken angel constantly failing to live up to expectations, but a creature strong, and cold, and calculating, one that went to the sun and came back transformed.",
+      "Uncaring and callous, this \"perfected\" Icarus wants to ascend to Helios's throne, to godhood, and so finally surpass his father. So it seems he is still the old Icarus: living in Daedalus's shadow, measuring his worth through the Great Inventor's pitiless eyes.",
+      "Icarus told you one more thing: The desolate Delphi you have been voyaging through is one untouched by the Eschaton. This is the future you wanted to bring back all this time. So now you know: The only way is forward.",
+      "The chase after the self-styled Sun's descendant to the Domain of Helios hidden high above Delphi, in the clouds, you will need a heaven-worthy vessel. A Chariot of your own"
+    ],
+    "rulesTitle2": "Locate the rest of the chariot",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to find another chariot piece, one that matches the one you have already found, so either another"
+            },
+            {
+              "type": "icon",
+              "value": "ChariotB"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "icon",
+              "value": "ChariotA"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Move all"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens from side 3A onto this side (but do not draw additional Chariot Map cards for move"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can then continue collecting"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "to gain additional Chariot Maps:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw a card form the Chariot Map deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw a card form the Chariot Map deck"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "9+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Draw the last card form the Chariot Map deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "\\"
+            },
+            {
+              "type": "bold",
+              "value": "Finding the other part of the Chariot:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the same Map tile as"
+            },
+            {
+              "type": "icon",
+              "value": "ChariotB"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "icon",
+              "value": "ChariotA"
+            },
+            {
+              "type": "plainText",
+              "value": "symboland this symbol matches the symbol on the first Chariot part you found, during the Story Step, see 0118"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "\\When this story card is revealed erase your current Loop End from the timeline, then count X days from the current day and mark the last day as the Loop End"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "X is your Loop Length"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remember, you can always force a Loop effect using the"
+            },
+            {
+              "type": "bold",
+              "value": " [Chronosail|CA1610] "
+            },
+            {
+              "type": "plainText",
+              "value": "Technology"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CD1850"
+    ],
+    "name": "Trespassing",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Aeons' End",
+    "cardNumber": "4",
+    "flavor": [
+      "The loop is tightening. Icarus is ready to ascend the Vacant Throne, crush the Argo and Delphi along with it. You... you are not ready to be crushed just yet. As it fell, Icarus's heavenly chariot broke into pieces and has been damaged beyond repair.",
+      "Argo Works is building a new one using the parts you have salvaged, old Hyperborean tekne, and the Argo's own systems. The Phoinikos. They're certain you will be able to achieve flight, if only for a little while. A little while is all you need.",
+      "However, you're missing a crucial part, one that was destroyed a long time ago. The Argo's twilight is nigh, as its destiny looms, eager to close the circle"
+    ],
+    "rulesTitle": "Procure parts for the Argo",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "italics",
+              "value": "Trespass"
+            },
+            {
+              "type": "plainText",
+              "value": "Event to the Timeline X days from today"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Story Step of that day, see 0135"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "X is:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 85+: 1 day"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 80-84: 2 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 75-79: 3 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 70-74: 5 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 69 or earlier: 8 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remember, you can always force a Loop effect using the"
+            },
+            {
+              "type": "bold",
+              "value": " [Chronosail|CA1610] "
+            },
+            {
+              "type": "plainText",
+              "value": "Technology"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "This is it. The final ascent.",
+      "As Phoinikos takes flight, you are reminded of all that made you embark on this journey and all that made you a beacon of hope for Hellas. For a while, you too became time-locked, not by divine power or the verdict of the Moirai, but by the alluring promise of past's embrace, of misplaced nostalgia. Yet a people looking back will never progress.",
+      "So no more of that. The only way is forward. Not to stop the Eschaton, but to rise from its ashes.",
+      "You set your course for the Sun's Domain"
+    ],
+    "rulesTitle2": "Reach the Sun's Domain. End this",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Phoinikos, the Argo:"
+            },
+            {
+              "type": "plainText",
+              "value": "The Argo Works have built you a new, flying ship, a heavenly chariot of your own! Instead of a normal move, you may resolve one or both of these effects:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "--Place the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature on any explored space with the"
+            },
+            {
+              "type": "icon",
+              "value": "Lighthouse"
+            },
+            {
+              "type": "plainText",
+              "value": "symbol,"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "--Move up to 3 tiles (you must stop on the first unexplored Map tile); you only resolve the symbols and effects of the tile you stop on"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Reach the Sun's Domain:"
+            },
+            {
+              "type": "plainText",
+              "value": "During any Story Step, you may see 0160 ("
+            },
+            {
+              "type": "bold",
+              "value": "Warning: This is a Point of No Return, you won't be able to return to the Voyage Phases"
+            },
+            {
+              "type": "plainText",
+              "value": ")"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remember, you can always force a Loop effect using the"
+            },
+            {
+              "type": "bold",
+              "value": " [Chronosail|CA1610] "
+            },
+            {
+              "type": "plainText",
+              "value": "Technology"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "CD1851"
+    ],
+    "name": "Inward Odyssey: Pitiless Of The Sun",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Inward Odyssey: Pitiless Of The Sun",
+    "cardNumber": "IO",
+    "flavor": [
+      "As you sail through Delphi, your knowledge of the city-ship grows. Forbidden truths about the Argo and the Eschaton are revealed"
+    ],
+    "rulesTitle": "",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "41: Throne of Heavens"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "42: Burden of Proof"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "43: In God's Name"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "44: Crisis of Faith"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "45: A Day Under the Sun"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "46: Mother Dark"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "47: To Grasp the Stars"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "48: Inherintence"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "49: Holy Murder"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "50: Unto Dawn"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you resolve the last adventure from this list, flip this card"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Your Inward Odyssey continues!"
+    ],
+    "rulesTitle2": "",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "51: The First Junction"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "52: Shadow of the Mountain"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "53: Machina Ex Deus"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "54: The Iron Extinction"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "55: Sacred Weapons"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "56: The Typhon Comes"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "57: How the World Was Born"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "58: Trespassing Aeons"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "59: How the World Was Murdered"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "60: Perpetual Motion"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DD2079"
+    ],
+    "name": "Law of Bargains",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Debts Are Forever",
+    "cardNumber": "1",
+    "flavor": [
+      "Pandora built a tower that holds all the curses. To topple it, you need to find it, and to find it, you need to speak with the cursed ruler of Persia. And before you can even face him, you need to stop the Empire from crushing and swallowing you whole... by becoming recognized by it, under the Law of Bargains.",
+      "In the Land Thrice-Cursed, all kneel to this Law, even the king. As the Argo sails through the sands, deeper into the Eternal Empire, you know you need to familiarize yourself with its rules too. Not to kneel, but to bend. Use it against them and buy yourselves time to search for Xerxes."
+    ],
+    "rulesTitle": "Collect Progress and submit to the Law of Bargains",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Create the Cycle IV Exploration deck: find Cycle IV Exploration cards 1-6, 8, 9, 19, 23 and 27-37 and shuffle them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the Cycle IV Map cards 029, 052, and 074, randomly choose one, and return the rest"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place the chosen card on the table, then place the Argo on that card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark day 0 on the Timeline"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Proceed to the first step of the Campaign Round"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Ceaseless Aggression:"
+            },
+            {
+              "type": "plainText",
+              "value": "As long as you are on Story 1A, at the start of each Timeline Battle add 1 random Cursed Trait"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Acclimation note!"
+            },
+            {
+              "type": "plainText",
+              "value": "The first Acclimation is tied to the Law of Bargains"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot"
+            },
+            {
+              "type": "icon",
+              "value": "Lock"
+            },
+            {
+              "type": "plainText",
+              "value": "acclimate your Exploration deck as long as you are on the Story 1A card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you advance the Timeline to the second Acclimation while on Story 1A, you lose the campaign; see the"
+            },
+            {
+              "type": "italics",
+              "value": "Barren Aeons"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain, you may place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, during the Story Step, see 0015"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You leave the palace-city posthaste; its streets, gilded with promises and the labor of the less fortunate, becoming insufferably suffocating. You have been granted a Writ of Belonging, but the writ is useless without the seal of a high Imperial official. Yet more busywork, another indirect attack against the Argo, to stall and aggravate.",
+      "You will find this Eternal Treasurer and make him stamp the Writ, of his own free will... or otherwise. You cannot waste more time."
+    ],
+    "rulesTitle2": "Visit 5 Empire Treasuries and bargain with the Eternal Treasurer",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to find the touring office of the Eternal Treasurer to make him stamp your Writ of Belonging"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you explore a new Map tile with a City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", you visit the local bablos official"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This automatically, retroactively, includes all the Map tiles you have already explored up to this point"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reveal the 5th City this way, during the Story Step, see 0038"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can place"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card to pay for bribes and bring the bablos to you:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": For the purposes of this task, treat this Story card as 1 explored City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": For the purposes of this task, treat this Story card as 2 explored Cities"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": For the purposes of this task, treat this Story card as 3 explored C\u00edties"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Ceaseless Aggression:"
+            },
+            {
+              "type": "plainText",
+              "value": "As long as you are on Story 1B, at the start of each Timeline Battle add 1 random Cursed Trait"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Acclimation note!"
+            },
+            {
+              "type": "plainText",
+              "value": "The first Acclimation is tied to the Law of Bargains"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot"
+            },
+            {
+              "type": "icon",
+              "value": "Lock"
+            },
+            {
+              "type": "plainText",
+              "value": "acclimate your Exploration deck as long as you are on the Story 1B card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you advance the Timeline to the second Acclimation, while on Story 1B, you lose the campaign; see the"
+            },
+            {
+              "type": "italics",
+              "value": "Barren Aeons"
+            },
+            {
+              "type": "plainText",
+              "value": "Special Event"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DD2080"
+    ],
+    "name": "Splendor That Beggars Belief",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Beyond the Wish-Veil",
+    "cardNumber": "2",
+    "flavor": [
+      "As newly minted citizens of the Eternal Empire, you are free to roam its vast deserts, at least nominally. With the Writ of Belonging came surprising insight into the way Xerxes rules his domain: from afar, with curses and invisible hands, hidden behind a veil of laws, procedures, and officials.",
+      "And a Wish-veil, for good measure, whatever that is.",
+      "You will pierce them all. And once you stand before this so-called God-King, you will make him loosen his grasp, on the Argo, on this ill-fated land. In Delphi, you brought down a radiant god; you can deal with a cheap imitation"
+    ],
+    "rulesTitle": "Find the City of Splendor",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Acclimation note!"
+            },
+            {
+              "type": "plainText",
+              "value": "If you have already advanced the Timeline past the first Acclimation, as soon as you reach Story 2A and read this, perform this Acclimation"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the six Story 2A Clue cards, shuffle them, then, without looking, remove one and return it to the box (you won't be using it)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The remaining 5 cards form the Search for Splendor deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, take the City of Splendor token, as well as 5 City of Squalor tokens, and place them near the Story card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You will place these tokens on the map"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story step on an empty"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "tile (one that does not have the Last Visited City token or any other tokens on it), draw a Search for Splendor card and follow its instructions"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After that, if don't find the City of Splendor, place a City of Squalor token on the"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "to denote it"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You can place"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card to pay for bribes that will hasten your search:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Without looking at it, discard 1 Clue card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "4"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Without looking at it, discard 1 Clue card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "7+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Without looking at it, discard 1 Clue card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "\\If you are ever forced to discard your last Clue card, resolve it immediately"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You could say you have pierced the Wish-veil and witnessed the true shape of things, but that would be an exaggeration. You are still chasing phantoms, though of a more pronounced shape now. The Collateral Emir escapes, and you have a hunch he will lead you to the Hanging Gardens, among the clouds, where, finally, you will face the God-King Xerxes.",
+      "His list of crimes against you--and the people of Persia--has grown considerably since you first arrived in the Thrice-Cursed Land, and if that is any indication of how things were before, it may truly be infinite. Is there even a punishment severe enough for one so guilty?"
+    ],
+    "rulesTitle2": "Chase the Collateral Emir's cloud ship!",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You will find the full rules of the chase in paragraph 0093"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Keep the storybook open; you'll be referring to it often!"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you located the Hanging Gardens, place their marker on the indicated Map tile"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Travel to the Hanging Gardens"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the same Map tile as the Hanging Gardens marker, during the Story Step, see 1112"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DD2081"
+    ],
+    "name": "The Rope Sellers",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Grave of Empires",
+    "cardNumber": "3",
+    "flavor": [
+      "The Hanging Gardens turned out to be a dead end, which, in a sense, is par for the course for your voyage across the Land Thrice-Cursed. It is as if the people here have mad eit their trade to lie and obfuscate, to the point where nothing seems truly real anymore, not even your ship and its mission.",
+      "You are the Argonauts, though, and you do not simply quit. You will struggle against adversity until your very last breaths, so long as there is even the tiniest thread to follow.",
+      "And that is why you embark on a search for the Graves of the Anemoi, the source of the counterweight gas that literally keeps the Eternal Empire afloat. Maybe it is the missing link to Pandora's Jar. Maybe it will become a weapon against it. Maybe.",
+      "It is something, at least"
+    ],
+    "rulesTitle": "Look for information about the Graves of the Anemoi",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Check the following Map tiles in order and stop as soon as you arrive at a Map tile not already explored"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "That is the Map tile where the Old Refinery City is located"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Map tiles you check (in order) are:"
+            },
+            {
+              "type": "cardRef",
+              "value": "004",
+              "refID": "D004"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "008",
+              "refID": "D008"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "024",
+              "refID": "D024"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "028",
+              "refID": "D028"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "036",
+              "refID": "D036"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "040",
+              "refID": "D040"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "042",
+              "refID": "D042"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "048",
+              "refID": "D048"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "050",
+              "refID": "D050"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "062",
+              "refID": "D062"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "073",
+              "refID": "D073"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "076",
+              "refID": "D076"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If, for some reason, you have explored all of these Map tiles, you can choose which one of them has the Old Refinery City (do it now)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, and you are on the Old Refinery City Map tile, during the Story Step, see 1207"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "After a quick stop at a rundown refinery city--even its name eludes you now--you have learned the coordinates of the closest active deposit of the subterranean conterweight gas. A Grave of the Anemoi, if you believe the legends.",
+      "You have also witnessed the wasting effects the gas has on those who have handled it, and the remorseless attitude the Eternal Empire has toward those who are no longer useful to it, loyal citizens or not.",
+      "You set off toward the Grave"
+    ],
+    "rulesTitle2": "Travel to the Grave of the Anemoi",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You will find the full rules of this Story in paragraph 1211 (the same paragraph that directed you to take this card)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "In short, you need to travel to a Grave of the Anemoi"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "There are several on the Map, but some are exhausted, not eligible--if you're not sure which, check the aformentioned paragraph"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the same Map tile as an active Grave of the Anemoi, during the Story Step, see 1331"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DD2082"
+    ],
+    "name": "A Mortal's Reach",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Exceeds Your Grasp",
+    "cardNumber": "4",
+    "flavor": [
+      "The mural at the Grave of the Anemoi had a transformative effect, illuminating that which was previously hidden from you. It hel a deeper truth still, some kind of cipher, but this newfound knowledge was quite enough for you to go on. The veil of deceit is coming apart at the seams. You just have to pull at it a little while longer"
+    ],
+    "rulesTitle": "Collect Progress to ponder on what you have realized, or see beyond it",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge (see rules)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 9 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, flip it"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The Tower of Pandora has goaded you from the moment you set foot in Persia, always there, in the corner of your eye, ready to appear at a moment's notice to dispense its curses.",
+      "You did not deserve it, just as the peoples of Persian have done nothing to deserve the yoke of Infinite Growth. And yet, you both allowed yourselves to be deceived into believing that you had. Into self-loathing. Into guilt. Into debt.",
+      "No more.",
+      "Today, the tower falls, and growth stops"
+    ],
+    "rulesTitle2": "Reach Pandora's Jar",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately: See 3300"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Reach Pandora's Jar:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "is on the Pandora's Jar Map tile, during the Story Step, you may see 3306"
+            },
+            {
+              "type": "bold",
+              "value": "(Warning: This is a Point of No Return; you won't be able to return to the Voyage Phase beyond this point)"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "DD2568"
+    ],
+    "name": "Inward Odyssey: Gardens of Infinite Growth",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Inward Odyssey: Gardens of Infinite Growth",
+    "cardNumber": "IO",
+    "flavor": [
+      "As you sail through the Thrice-Cursed Land of Persia, your knowledge of the city-ship grows. Illusions are dispersed, and a final course is charted"
+    ],
+    "rulesTitle": "",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "61: Daybreak"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "62: Polyphemos"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "63: The Glassblower"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "64: The Glorious Climb"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "65: The King and the Philosopher"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "66: The Great Crime"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "67: The Last Lotus Eater"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "68: Cast to the Four"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "69: Long Voyage Home"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "70: Titanaktisos"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you resolve the last adventure from this list, flip this card"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Your Inward Odyssey continues!"
+    ],
+    "rulesTitle2": "",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "71: The Island of Pigs"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "72: A Girl from Uruk"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "73: Smoke and Mirrors"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "74: The Sun Endures"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "75: Due Time"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "76: Gardens of the Moon"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "77: The Laestrygonian"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "78: Jason"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "79: Kiss of Mnemosyne"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "80: Nostos"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "ED2657"
+    ],
+    "name": "What Remains?",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "The Face of the Enemy",
+    "cardNumber": "1",
+    "flavor": [
+      "You came to the Cyclades to realize the late Old Priest's plan. Bring hope to its people and put an end to the threat of the long Eschaton once and for all. Free Hellas from the shackles of the gods, Primordials, and black ambrosia in one fell swoop.",
+      "It took years to finally get here. THousands have come and gone from the Argo in the meantime, conscripts and refugees from Crete, Sparta, Delphi, Persia, and all the other disparate places you have not visited, but which have heard about you and your mission, and decided to throw their lots with the Odyssey.",
+      "The list of the decorated and the dead covers many steles of the Heroon. Countless nameless Titans have been killed in action, the only evidence of their existence the notches on the walls of the Titan Stoa. So many notches.",
+      "Challenges overcome. Empires toppled. Tyrants slain. Sacrifices made and paid in full. Lifetimes of struggle.",
+      "For it all to spectacularly fail before your eyes. For it to cause untold devastation and make things worse. To unleash a monster that could drown the world in flames. Ur-Fleece.",
+      "Without recourse, without a plan, you are left to ask: what remains?"
+    ],
+    "rulesTitle": "Discard Progress and help the people of the Cyclades deal with the Disaster, as you look for the Virtuary",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Create the Cycle V Exploration deck by finding the Cycle V Exploration cards 1-6, 8, 9, 19, 23, 29, and 31-36 and shuffling them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, take the Cycle V Map card"
+            },
+            {
+              "type": "cardRef",
+              "value": "047",
+              "refID": "E047"
+            },
+            {
+              "type": "plainText",
+              "value": "and place it, surface face up, on the table, then place the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            },
+            {
+              "type": "plainText",
+              "value": "on that card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Mark day 0 on the Timeline"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Proceed to the first step of the Campaign Round"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "On reveal:"
+            },
+            {
+              "type": "plainText",
+              "value": "Place 4"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you would gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", discard 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token from this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no more tokens on this card, see 0028"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "You may discard tokens from this card only if the Last Visited City token is on the Map, on a surface City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "bold",
+              "value": "space"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "A decade ago, the Protectorate emerged as the major power of the Cyclades, putting an end to years of lawlessness and religious strife. They promised safety and prosperity. Today, the archipelago is nothing but. Today, their control is slipping.",
+      "You travel the Great Sea, bringing relief to the victims of the Disaster, straddling the divide between the Protectorate and the Vanguard of Atlantis, returning to claim what they perceive is their birthright. Ever on the lookout for the Virtuary, who many call \"Truthsayer,\" and whom the Truth Machine marked as the only one who can stop Ur-Fleece.",
+      "Behind you, the Nemesis. Ahead of you, a conflict with the Symmachy who wish to take the Argo away"
+    ],
+    "rulesTitle2": "Discard Progress and help the people of the Cyclades deal with the Disaster, as you look for the Virtuary",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "On reveal:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Nemesis has not yet entered play, place the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": "miniature on the closest"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "tile not occupied by the"
+            },
+            {
+              "type": "italics",
+              "value": "Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "On reveal:"
+            },
+            {
+              "type": "plainText",
+              "value": "Place 3"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you would gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", discard 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token from this card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are no more tokens on this card, see 0039"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may discard tokens from this card only if the Last Visited City token is on the Map, on a surface City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "space"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "ED2658"
+    ],
+    "name": "The Enemy of My Enemy",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "White Haven",
+    "cardNumber": "2",
+    "flavor": [
+      "On the shores of Ios, an old foe has reappeared. For once, you have gained the upper hand, thanks to an unlikely ally, who you believe to have been the Virtuary. Few would doubt the near-prophetic words of the Truth Machine.",
+      "Yet the encounter has opened old wounds and sowed fear among the crew. Against your wishes, stories of a fabled refuge called \"Unknown Delos\" spread in hushed whispers. Though you understand the weariness and the desire ot finally lay down arms, you will not abandon your mission to look for something... that may not even exist.",
+      "Unlike myths, you now know the Virtuary is a man of blood and bones, and men leave trails"
+    ],
+    "rulesTitle": "Find someone who can lead you to the Virtuary",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gian"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 4 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "on this card, during the Story Step, see 0911"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "With the Nemesis spreading their holy terror and Ur-Fleece boiling the seas, the Cyclades once again drown in fear. Many await a promised Truthsayer to come and wash away their grief and pain in one tidal wave of truth, and many seize this opportunity to proclaim themselves prophet. The Punished was only the beginning.",
+      "Another, arguably, is the Virtuary, though you believe him to be different. The Machine marked him. He is the key to defeating Ur-Fleece and quelling the rising flames...",
+      "And you finally know where to find him. White Haven, a hidden Followers of Arete hermitage, whose trappings purposefully tap into the imagery of the mythical refuge of Unknown Delos. The Virtuary is supposed to be there, making an address to his inner circle.",
+      "Now... you just need to locate it"
+    ],
+    "rulesTitle2": "Find the location of 'White Haven'",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on an Underwater"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": "tile that does not have the Last Visited Underwater City token or any other tokens on it, see 0577"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During this Story card, if you wish, you may place additional"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "here"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "represents your research into 'Unknown Delos'"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "ED2659"
+    ],
+    "name": "Quietly Into the Night",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Place of No Return",
+    "cardNumber": "3",
+    "flavor": [
+      "At Eusebes, the Follower hermitage of White Haven, you have found only ghosts and death... and the Last Hierei's desire. He is not interested in you or the Argo at all, but rather in what it currently holds: the Truth Machine, which he thinks is the genuine article, not a Mnestis-generated simulacrum. He believes it will tell him how to bring Poseidon back from the dead. \"A priest should never drink his own poison,\" says Jason. \"HIs faith is his weakness, which we might yet exploit...\"",
+      "The Argo is not the only lead the Last Heirei is following. There once was an original Truth Machine, remember, one lost with the fall of Anostos, Atlantis's capital. Now that the metropolis is rumored to have been reclaimed, others will soon find their way there.",
+      "You need to get there before the Nemesis does"
+    ],
+    "rulesTitle": "Collect Progress and find Anostos, the fallen capital of Atlantis",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately: see 1399"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You now have a Phos Map that supposedly leads to the capital of Atlantis"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You need to find the tile shown on that Map card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each time you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may place 1"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "token on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Then, if you have:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "3+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Gain another, random Story 3A Clue card (cards 3AA-3AF)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "5+"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": ": Check your Phos Map cards for deatils on new actions"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on a tile you think is the correct one, match the clue form the card to the clue on the tile to find a paragraph number! If you are correct, place the Atlantean Capital marker on your tile and proceed to the appropriate paragraph"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Important: Be sure you're ready for what is to come"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You went to Anostos to stop the Last Hierei from finding a way to awaken his dead god, Poseidon. Needlessly. For he is already on his way. Has been, since that fateful night on Thera. Thanks to you.",
+      "The Last Hierei does not know. Yet. He will, once he gets his hands on the Argo and the Truth Machine. You can't go against him and his indominable ship, the Nemesis, alone. You hate to admit it, but... you need help. You need the Symmachy"
+    ],
+    "rulesTitle2": "Rendezvous with the Symmachy fleet",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Doom card number is lower than the Story card number, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add the"
+            },
+            {
+              "type": "italics",
+              "value": "Rendezvous"
+            },
+            {
+              "type": "plainText",
+              "value": "Event to the Timeline X days from today"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Story Step of that day, see 2407"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "X is:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 65+: 1 day"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 60+: 6 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 50+: 12 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 40+: 18 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If it's day 39 or earlier: 20 days"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You don't need"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "for this Story! However, if you wish, you may place additional"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "here"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "represents your research into 'Unknown Delos'"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "ED2660"
+    ],
+    "name": "The Sleep of Reason",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Odyssey's End",
+    "cardNumber": "4",
+    "flavor": [
+      "You have left the Symmachy fleet behind, and with it any notion that they will help you. No one will. Poseidon is waking. Unbeknownst, the Last Hierei comes for you to hasten his return.",
+      "You last hope is to hide. Remove yourselves from the world, so the Last Hierei never claims the damned thing. There is only one place in the whole Cyclades where one might find shelter from all harm, a mythical refuge. Unknown Delos.",
+      "If it exists. If you can find your way to it"
+    ],
+    "rulesTitle": "Find Unknown Delos",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately::"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Doom card number is lower than 3, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately:"
+            },
+            {
+              "type": "plainText",
+              "value": "See 2406"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "End of Hope:"
+            },
+            {
+              "type": "plainText",
+              "value": "Disable the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hope Logic",
+              "refID": "AA0038"
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Take the seven 4A Clue cards and shuffle them"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "This is the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Unknown Delos",
+              "refID": ""
+            },
+            {
+              "type": "plainText",
+              "value": "deck"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you visit any City"
+            },
+            {
+              "type": "icon",
+              "value": "City"
+            },
+            {
+              "type": "plainText",
+              "value": ", a tile with a Ruins token on it, or a Silver Remnant"
+            },
+            {
+              "type": "icon",
+              "value": "SilverRemnant"
+            },
+            {
+              "type": "plainText",
+              "value": ", during the Story Step, draw an Unknown Delos card and place a Generic token on the visited location to mark it as searched (you cannot gain any more Unknown Delos card from that tile)"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The Unknown Delos cards will reveal to you the place you need to go--a paragraph number"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you know the number, simply proceed to it"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "The paragraph you're looking for will be marked be a"
+            },
+            {
+              "type": "icon",
+              "value": "FragmentedCircle"
+            },
+            {
+              "type": "plainText",
+              "value": "tag"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Warning:"
+            },
+            {
+              "type": "plainText",
+              "value": "This is a Point of No Return"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "You sought Unknown Delos, and, after much struggle, you have found it. You wish you haven't. There is no refuge. Never was. Not for the Silver People. Not for you. Not even for the god-in-tatters. Just fairy tales to help children sleep at night.",
+      "There is... nothing for you to do now. Nowhere to run, or hide. With a myriad foes around you, with a ship that is at this very moment failing, you stand no chance of facing even the pale shadow of Ur-Fleece.",
+      "What remains?",
+      "You are the Argonauts. You will go out the same way you lived: swinging"
+    ],
+    "rulesTitle2": "Help the Cycladeans for as long as you can and go out swinging",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Immediately:"
+            },
+            {
+              "type": "plainText",
+              "value": "If the Doom card number is lower than 3B, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "End of Hope:"
+            },
+            {
+              "type": "plainText",
+              "value": "Disable the"
+            },
+            {
+              "type": "cardRef",
+              "value": "Hope Logic",
+              "refID": "AA0038"
+            },
+            {
+              "type": "plainText",
+              "value": "Technology card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot gain"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you lose -1"
+            },
+            {
+              "type": "icon",
+              "value": "Crew"
+            },
+            {
+              "type": "plainText",
+              "value": ", you may instead gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you emergency submerge, you may gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "instead of losing -1"
+            },
+            {
+              "type": "icon",
+              "value": "Hull"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      "ED2662"
+    ],
+    "name": "Inward Odyssey: Truthsayer",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "name2": "Inward Odyssey: Truthsayer",
+    "cardNumber": "IO",
+    "flavor": [
+      "As you sail through the Cyclades, you begin to piece it all together"
+    ],
+    "rulesTitle": "",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "81: My Ship"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "82: All Great Truths"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "83: A Life Unfinished"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "84: I Am the Message"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "85: The Great Hierei"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "86: Dark"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "87: Favorite Son"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "88: Lies of Trismegistus"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "89: Creatures of Habit"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "90: The Silver Age"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you resolve the last adventure from this list, flip this card"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "Your Inward Odyssey continues!"
+    ],
+    "rulesTitle2": "",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When there are 2"
+            },
+            {
+              "type": "icon",
+              "value": "Progress"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens on this card, discard them and gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you reach a given"
+            },
+            {
+              "type": "icon",
+              "value": "ArgoKnowledge"
+            },
+            {
+              "type": "plainText",
+              "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "91: A Heel Turn"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "92: The Cult of Telemachus"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "93: The Tortoise and the Hare"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "94: Speak Not of Ilion"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "95: Music of the Spheres"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "96: The Trojan"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "97: Worldcarers"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "98: Genesis"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "99: A Ship Named Argo"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "100: Kathairein"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "101: My Penelope"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Have it",
+    "cardType": "Story",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Full-Page",
+    "foundIn": "Envelope Z",
+    "faq": "",
+    "errata": "",
+    "name2": "Meet Your Maker",
+    "cardNumber": "5",
+    "flavor": [
+      "It was always there, at the very bottom, beyond the dark, the doubt, and the despair, waiting for you to rekindle it.",
+      "Hope.",
+      "Hope to quench the fires, destroy Poseidon and honor a legacy. Everything you need to end it you either already know, possess or will find onboard your sister-ship, the Nemesis. Whose leader is singularly obsessed with something you have. The Truth Machine.",
+      "So... why not take a cue from Odysseus's Trojan playbook?.",
+      "And give it to him"
+    ],
+    "rulesTitle": "Reach the _Nemesis_ and get yourselves 'eaten' by the gargantuan warship",
+    "rules": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When this card is revealed, perform a Divine Surge"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Time is Ticking:"
+            },
+            {
+              "type": "plainText",
+              "value": "When you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens, place them on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are ever 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens here, it's game over"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 4214"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you flip this card, move all"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens to the other side,"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Last One Out:"
+            },
+            {
+              "type": "plainText",
+              "value": "For the purposes of Adventure Hub selection, treat this card as if it was Story 4B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on a tile that contains the"
+            },
+            {
+              "type": "italics",
+              "value": "Nemesis"
+            },
+            {
+              "type": "plainText",
+              "value": ", see 5989"
+            }
+          ]
+        }
+      ]
+    ],
+    "flavor2": [
+      "The Last Hierei finally got to meet his maker.",
+      "You? You are on your way to the Dark Below, the deepest trench of the Great Sea, where the carcass of Poseidon rots, not quite as dead as you would have hoped. It needs a little push. The payload you've liberated from the Nemesis should remedy that.",
+      "Without the 13th Muse Grand Cannon, you have no delivery mechanism... save for the Argo itself. Your crew begins to evacuate.",
+      "One way or another, this is your final voyage"
+    ],
+    "rulesTitle2": "Find Ur-Fleece and end it",
+    "rules2": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Time is Ticking:"
+            },
+            {
+              "type": "plainText",
+              "value": "When you gain"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens, place them on this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If there are ever 5 or more"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens here, it's game over"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "See 4214"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you flip this card, move all"
+            },
+            {
+              "type": "icon",
+              "value": "Doom"
+            },
+            {
+              "type": "plainText",
+              "value": "tokens to the other side,"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "bold",
+              "value": "Last One Out:"
+            },
+            {
+              "type": "plainText",
+              "value": "For the purposes of Adventure Hub selection, treat this card as if it was Story 4B"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you start the Story Step on the Atlantean Capital tile, any Unknown Delos tile, or any of the Wound Trench tiles (046, 057, or 068): If Z11 is marked, see 8659"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Otherwise, see 8658"
+            }
+          ]
+        }
+      ]
     ]
   }
 ]

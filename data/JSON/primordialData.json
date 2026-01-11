@@ -1,6 +1,3565 @@
 [
   {
     "cardIDs": [
+      "AU0447"
+    ],
+    "name": "Hekaton",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [],
+    "levels": [
+      {
+        "level": "0",
+        "toHit": "7",
+        "speed": "6",
+        "wounds": "6",
+        "attributes": [
+          {
+            "count": "-1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Friendly Warning"
+        ],
+        "traitsFullList": [
+          "Friendly Warning"
+        ]
+      },
+      {
+        "level": "1",
+        "toHit": "7",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          ""
+        ],
+        "traitsFullList": [
+          "Friendly Warning"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "7",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "-Friendly Warning"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Fleet of Hands"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "8",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Fissures"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures",
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "A Wall of Fists"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures",
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes",
+          "A Wall of Fists"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "10",
+        "speed": "9",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ram of Fists"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures",
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes",
+          "A Wall of Fists",
+          "Ram of Fists"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "10",
+        "speed": "10",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Supersonic Punch"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures",
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes",
+          "A Wall of Fists",
+          "Ram of Fists",
+          "Supersonic Punch"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "11",
+        "speed": "11",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Megaton"
+        ],
+        "traitsFullList": [
+          "Clever Boy",
+          "A Fist for a Fist",
+          "Fleet of Hands",
+          "Fissures",
+          "Starfish",
+          "End of Hope",
+          "Scourge of the Centimanes",
+          "A Wall of Fists",
+          "Ram of Fists",
+          "Supersonic Punch",
+          "Ruthless",
+          "Megaton"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AU0448"
+    ],
+    "name": "Labyrinthauros",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Weakspot"
+    ],
+    "vp": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "8"
+      },
+      "holdOn": {
+        "test": "Endurance 6+",
+        "fail": "Displace to a Rear space, {Knockdown}"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            },
+            {
+              "type": "plainText",
+              "value": ", you cannot gain Despair tokens and you ignore Responses other than Critical"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "7",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Mazesense"
+        ],
+        "traitsFullList": [
+          "Mazesense"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "7",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Trample"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "8",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Mazebuilder"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "8",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "Danger"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Maze Reactive Armor"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor",
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Lightspeeder"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor",
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification",
+          "Lightspeeder"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "10",
+        "speed": "8",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Extradimensional Trample"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor",
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification",
+          "Lightspeeder",
+          "Extradimensional Trample"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "10",
+        "speed": "8",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Fissurebuilder"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor",
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification",
+          "Lightspeeder",
+          "Extradimensional Trample",
+          "Fissurebuilder"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "11",
+        "speed": "9",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "2 d10",
+          "3 Danger per hit"
+        ],
+        "traitsFullList": [
+          "Mazesense",
+          "Trample",
+          "Mazebuilder",
+          "Maze Reactive Armor",
+          "End of Hope",
+          "Maze Hyperactive Armor",
+          "VP Modification",
+          "Lightspeeder",
+          "Extradimensional Trample",
+          "Fissurebuilder",
+          "2 d10",
+          "3 Danger per hit"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AU0563"
+    ],
+    "name": "Alpha Temenos",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "3x3",
+    "diagramEffects": [
+      "Lumbering"
+    ],
+    "vp": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "6"
+      },
+      "holdOn": {
+        "test": "Endurance 5+",
+        "fail": "Displace to an adjacent space, {Knockdown}"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            },
+            {
+              "type": "plainText",
+              "value": ", you cannot gain Despair tokens and you ignore Responses other than Critical"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Snail of Nothing",
+          "VP Modification"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Worm of the Labyrinth"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Win Together Die Alone"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "10",
+        "speed": "7",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Song of Hopelessness"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone",
+          "Beginning of the End",
+          "Song of Hopelessness"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "10",
+        "speed": "8",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Song of Great Fear"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone",
+          "Beginning of the End",
+          "Song of Hopelessness",
+          "Song of Great Fear"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "11",
+        "speed": "8",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Doom of the Centimanes"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone",
+          "Beginning of the End",
+          "Song of Hopelessness",
+          "Song of Great Fear",
+          "Doom of the Centimanes"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "11",
+        "speed": "8",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Symphony of Despair",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "Labyrinth X",
+          "Mazesense",
+          "Maze Reconfiguration",
+          "Ariadne's Logic",
+          "End of Hope",
+          "Snail of Nothing",
+          "VP Modification",
+          "Worm of the Labyrinth",
+          "Win Together Die Alone",
+          "Beginning of the End",
+          "Song of Hopelessness",
+          "Song of Great Fear",
+          "Doom of the Centimanes",
+          "Symphony of Despair",
+          "Ruthless"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "AU0622"
+    ],
+    "name": "Hermesian Pursuer",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "8",
+        "speed": "6*",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Toying",
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares"
+        ],
+        "traitsFullList": [
+          "Toying",
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "8",
+        "speed": "6*",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Mothwing Trance",
+          "-Toying"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "9",
+        "speed": "7*",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Roost Battle"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "9",
+        "speed": "7*",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Darkness Comes With Me"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "10",
+        "speed": "8*",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "10",
+        "speed": "8*",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Cackle"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me",
+          "Beginning of the End",
+          "Cackle"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "11",
+        "speed": "8*",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Nemesis Vow"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me",
+          "Beginning of the End",
+          "Cackle",
+          "Nemesis Vow"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "11",
+        "speed": "9*",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Head to Head"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me",
+          "Beginning of the End",
+          "Cackle",
+          "Nemesis Vow",
+          "Head to Head"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "12",
+        "speed": "9*",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Headhunter"
+        ],
+        "traitsFullList": [
+          "Winged Doom",
+          "Killjoy",
+          "End of Hope",
+          "Flares",
+          "Mothwing Trance",
+          "Roost Battle",
+          "Darkness Comes With Me",
+          "Beginning of the End",
+          "Cackle",
+          "Nemesis Vow",
+          "Head to Head",
+          "Ruthless",
+          "Headhunter"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BU0724"
+    ],
+    "name": "Cyclonus",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Danger Zone",
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "7",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Bred for War",
+          "The Strong Eat"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "7",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Eye for an Eye"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "8",
+        "speed": "7",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Unbeatable Guard"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "8",
+        "speed": "8",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Lesser Danger Sense"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Hyperaggression"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense",
+          "End of Hope",
+          "Hyperaggression"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Dreadnought"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense",
+          "End of Hope",
+          "Hyperaggression",
+          "Dreadnought"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "10",
+        "speed": "9",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Crimson Tide"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense",
+          "End of Hope",
+          "Hyperaggression",
+          "Dreadnought",
+          "Crimson Tide"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "10",
+        "speed": "9",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense",
+          "End of Hope",
+          "Hyperaggression",
+          "Dreadnought",
+          "Crimson Tide",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "11",
+        "speed": "9",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Leleges Spin"
+        ],
+        "traitsFullList": [
+          "Bred for War",
+          "The Strong Eat",
+          "Eye for an Eye",
+          "Unbeatable Guard",
+          "Lesser Danger Sense",
+          "End of Hope",
+          "Hyperaggression",
+          "Dreadnought",
+          "Crimson Tide",
+          "Beginning of the End",
+          "Ruthless",
+          "Leleges Spin"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BU0780"
+    ],
+    "name": "Chimera Metastasios",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "3x3",
+    "diagramEffects": [
+      "Lumbering"
+    ],
+    "vp": {
+      "vpCount": "2",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "8"
+      },
+      "holdOn": {
+        "test": "Endurance 6+",
+        "fail": "{Knockdown}. Displace onto a Rear space"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, each time you Wound, you deal an additional Single Wound that goes into the Secondary Wound Stack"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Cards in the Secondary Wound Stack count towards slaying the Chimera"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "6",
+        "speed": "5",
+        "wounds": "12",
+        "attributes": [],
+        "traitsChanges": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "6",
+        "speed": "5",
+        "wounds": "14",
+        "attributes": [],
+        "traitsChanges": [
+          "Critical Mass",
+          "Highly Toxic"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "7",
+        "speed": "5",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Digestive Acids"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "7",
+        "speed": "5",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Voracious Bog"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "18",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Black Rain"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog",
+          "End of Hope",
+          "Black Rain"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "8",
+        "speed": "6",
+        "wounds": "18",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Insatiable Pull"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog",
+          "End of Hope",
+          "Black Rain",
+          "Insatiable Pull"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "20",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Primordial Plasma"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog",
+          "End of Hope",
+          "Black Rain",
+          "Insatiable Pull",
+          "Primordial Plasma"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "9",
+        "speed": "7",
+        "wounds": "20",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Living Fortress"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog",
+          "End of Hope",
+          "Black Rain",
+          "Insatiable Pull",
+          "Primordial Plasma",
+          "Living Fortress"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "10",
+        "speed": "8",
+        "wounds": "22",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Three Point Six",
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Slime Trail",
+          "This Train",
+          "Metamorphosis",
+          "The Strong Eat",
+          "Critical Mass",
+          "Highly Toxic",
+          "Digestive Acids",
+          "Voracious Bog",
+          "End of Hope",
+          "Black Rain",
+          "Insatiable Pull",
+          "Primordial Plasma",
+          "Living Fortress",
+          "Ruthless",
+          "Three Point Six",
+          "Beginning of the End"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BU1051"
+    ],
+    "name": "The Nietzschean",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Lumbering",
+      "Danger Zone",
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "12",
+        "attributes": [],
+        "traitsChanges": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "9",
+        "speed": "8",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "10",
+        "speed": "8",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Flawless"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "10",
+        "speed": "9",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Dealbreaker Stance"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "11",
+        "speed": "9",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Fate of All Cowards",
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance",
+          "Fate of All Cowards",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "11",
+        "speed": "10",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "No Missed Chances"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance",
+          "Fate of All Cowards",
+          "Beginning of the End",
+          "No Missed Chances"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "12",
+        "speed": "10",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "No Quarter"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance",
+          "Fate of All Cowards",
+          "Beginning of the End",
+          "No Missed Chances",
+          "No Quarter"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "12",
+        "speed": "11",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance",
+          "Fate of All Cowards",
+          "Beginning of the End",
+          "No Missed Chances",
+          "No Quarter",
+          "Ruthless"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "13",
+        "speed": "11",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "9",
+            "name": "AT"
+          },
+          {
+            "count": "3",
+            "name": "d10"
+          },
+          {
+            "count": "4",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "God Among Men"
+        ],
+        "traitsFullList": [
+          "Stay Your Hand",
+          "Weapon Master",
+          "Danger Sense",
+          "End of Hope",
+          "The Strong Eat",
+          "Shadow and the Flame",
+          "All For One",
+          "Ticking Clock",
+          "Flawless",
+          "Dealbreaker Stance",
+          "Fate of All Cowards",
+          "Beginning of the End",
+          "No Missed Chances",
+          "No Quarter",
+          "Ruthless",
+          "God Among Men"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BU1149"
+    ],
+    "name": "The Burden",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "8",
+        "speed": "9",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "8",
+        "speed": "9",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Burden Hardest to Bear"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "9",
+        "speed": "10",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Ties That Bind Us"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "9",
+        "speed": "10",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Antisherpa"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "10",
+        "speed": "11",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Icecapade",
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa",
+          "Icecapade",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "10",
+        "speed": "11",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Slippery Slope"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa",
+          "Icecapade",
+          "Beginning of the End",
+          "Slippery Slope"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "11",
+        "speed": "12",
+        "wounds": "17",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Mountain of Madness"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa",
+          "Icecapade",
+          "Beginning of the End",
+          "Slippery Slope",
+          "Mountain of Madness"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "11",
+        "speed": "12",
+        "wounds": "18",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Timefront Beckons"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa",
+          "Icecapade",
+          "Beginning of the End",
+          "Slippery Slope",
+          "Mountain of Madness",
+          "Timefront Beckons"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "12",
+        "speed": "13",
+        "wounds": "18",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "The Game is Rigged"
+        ],
+        "traitsFullList": [
+          "Sisyphus's Spiral",
+          "End of Hope",
+          "Splash",
+          "Moirai Vault",
+          "Not Yet",
+          "Burden Hardest to Bear",
+          "Ties That Bind Us",
+          "Antisherpa",
+          "Icecapade",
+          "Beginning of the End",
+          "Slippery Slope",
+          "Mountain of Madness",
+          "Timefront Beckons",
+          "Ruthless",
+          "The Game is Rigged"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CU1384"
+    ],
+    "name": "Hypertime Oracle",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "8",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "8",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Once Upon a Time",
+          "Voracious Parasite"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger/Fate"
+          }
+        ],
+        "traitsChanges": [
+          "Quantum Eye",
+          "Hypertimefront"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger/Fate"
+          }
+        ],
+        "traitsChanges": [
+          "Omega Terminus"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger/Fate per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Layover"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus",
+          "End of Hope",
+          "Layover"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger/Fate per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Overclocked"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus",
+          "End of Hope",
+          "Layover",
+          "Overclocked"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger/Fate per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Gaze of the Void"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus",
+          "End of Hope",
+          "Layover",
+          "Overclocked",
+          "Gaze of the Void"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger/Fate per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Quantumfront"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus",
+          "End of Hope",
+          "Layover",
+          "Overclocked",
+          "Gaze of the Void",
+          "Quantumfront"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger/Fate per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Temporal Ruthlessness",
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "Timefront Beckons",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "Once Upon a Time",
+          "Voracious Parasite",
+          "Quantum Eye",
+          "Hypertimefront",
+          "Omega Terminus",
+          "End of Hope",
+          "Layover",
+          "Overclocked",
+          "Gaze of the Void",
+          "Quantumfront",
+          "Temporal Ruthlessness",
+          "Beginning of the End"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CU1678"
+    ],
+    "name": "Icarian Harpy",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "8",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "8",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          ""
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "8",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Deep Cut"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Devour Whole"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Tentacled Monstrosity"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole",
+          "End of Hope",
+          "Tentacled Monstrosity"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Bloodlost"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole",
+          "End of Hope",
+          "Tentacled Monstrosity",
+          "Bloodlost"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          ""
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole",
+          "End of Hope",
+          "Tentacled Monstrosity",
+          "Bloodlost"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Bleed Your Heart Out"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole",
+          "End of Hope",
+          "Tentacled Monstrosity",
+          "Bloodlost",
+          "Ruthless",
+          "Bleed Your Heart Out"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Rupture Veins",
+          "Perfection"
+        ],
+        "traitsFullList": [
+          "Rapid Adaptation",
+          "Predator",
+          "Regurgitate",
+          "Death by Fate",
+          "Deep Cut",
+          "Devour Whole",
+          "End of Hope",
+          "Tentacled Monstrosity",
+          "Bloodlost",
+          "Ruthless",
+          "Bleed Your Heart Out",
+          "Beginning of the End",
+          "Rupture Veins",
+          "Perfection"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CX1679"
+    ],
+    "name": "Sun Descendant VPs",
+    "cardType": "VP",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "",
+    "diagramEffects": [],
+    "vp": {
+      "vpCount": "3",
+      "climbTest": {
+        "stat": "Climb",
+        "difficulty": "("
+      },
+      "holdOn": {
+        "test": "Endurance 7+",
+        "fail": "Knockdown, gain @Danger equal to VP level, displace to any adjacent space"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on VP I and VP II: you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "WHen on VP III: you gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": []
+  },
+  {
+    "cardIDs": [
+      "CU1792"
+    ],
+    "name": "Sun Descendant",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "3x3",
+    "diagramEffects": [
+      "Lumbering"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "God Given Law"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Magnifying Glass"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Overclocked"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Trigger Happy"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked",
+          "Beginning of the End",
+          "Trigger Happy"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ice Age"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked",
+          "Beginning of the End",
+          "Trigger Happy",
+          "Ice Age"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Black Sun"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked",
+          "Beginning of the End",
+          "Trigger Happy",
+          "Ice Age",
+          "Black Sun"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Bow or Die"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked",
+          "Beginning of the End",
+          "Trigger Happy",
+          "Ice Age",
+          "Black Sun",
+          "Bow or Die"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "9",
+            "name": "AT"
+          },
+          {
+            "count": "3",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Total Eclipse"
+        ],
+        "traitsFullList": [
+          "Merciless Sun",
+          "Death by Fate",
+          "Extinguish Possibilities",
+          "End of Hope",
+          "God Given Law",
+          "Magnifying Glass",
+          "Overclocked",
+          "Beginning of the End",
+          "Trigger Happy",
+          "Ice Age",
+          "Black Sun",
+          "Bow or Die",
+          "Ruthless",
+          "Total Eclipse"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "DU2394"
     ],
     "name": "Midascore",
@@ -49,7 +3608,19 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Resolve these instead: Wound: Midas 1"
+              "value": "Resolve these instead:\\nWound: Midas 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "plainText",
+              "value": "Imperial Impetus"
             }
           ]
         },
@@ -57,23 +3628,23 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "WoO Imperial Impetus"
+              "value": "Fail:"
+            },
+            {
+              "type": "keyword",
+              "value": "Airburst 2"
             }
           ]
         },
         {
           "abilityText": [
             {
-              "type": "plainText",
-              "value": "Fail: Airburst 2"
-            }
-          ]
-        },
-        {
-          "abilityText": [
+              "type": "icon",
+              "value": "WoO"
+            },
             {
               "type": "plainText",
-              "value": "WoO Immediately perform the Hold On test"
+              "value": "Immediately perform the Hold On test"
             }
           ]
         }
@@ -179,6 +3750,1253 @@
           "Sunken Costs",
           "Unholy Inflation",
           "Weight of Greed"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Aggressive Expansion"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Unholy Inflation",
+          "Weight of Greed",
+          "End of Hope",
+          "Aggressive Expansion"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Loss of Liquidity"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Unholy Inflation",
+          "Weight of Greed",
+          "End of Hope",
+          "Aggressive Expansion",
+          "Loss of Liquidity"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Soundspeed Impetus"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Unholy Inflation",
+          "Weight of Greed",
+          "End of Hope",
+          "Aggressive Expansion",
+          "Loss of Liquidity",
+          "Soundspeed Impetus"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Debts of Succession"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Unholy Inflation",
+          "Weight of Greed",
+          "End of Hope",
+          "Aggressive Expansion",
+          "Loss of Liquidity",
+          "Soundspeed Impetus",
+          "Beginning of the End",
+          "Debts of Succession"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Refuse Credit"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Impetus",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Unholy Inflation",
+          "Weight of Greed",
+          "End of Hope",
+          "Aggressive Expansion",
+          "Loss of Liquidity",
+          "Soundspeed Impetus",
+          "Beginning of the End",
+          "Debts of Succession",
+          "Ruthless",
+          "Refuse Credit"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DU2434"
+    ],
+    "name": "Demidjinn",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Curse Carapace"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Endless Wish",
+          "Feedback Loop"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "The Last"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Djinnian Determination"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last",
+          "End of Hope",
+          "Djinnian Determination"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "11",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Endless Escalator",
+          "Imminent Destruction"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last",
+          "End of Hope",
+          "Djinnian Determination",
+          "Endless Escalator",
+          "Imminent Destruction"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Wishtanglement"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last",
+          "End of Hope",
+          "Djinnian Determination",
+          "Endless Escalator",
+          "Imminent Destruction",
+          "Wishtanglement"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Djinnian Precision"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last",
+          "End of Hope",
+          "Djinnian Determination",
+          "Endless Escalator",
+          "Imminent Destruction",
+          "Wishtanglement",
+          "Beginning of the End",
+          "Djinnian Precision"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Flickering Wishes"
+        ],
+        "traitsFullList": [
+          "Global Wish",
+          "Living Tornado",
+          "Wish Away",
+          "Sandstorm Spiral",
+          "Endless Staircase",
+          "Wish for a Wish",
+          "Curse Carapace",
+          "Endless Wish",
+          "Feedback Loop",
+          "The Last",
+          "End of Hope",
+          "Djinnian Determination",
+          "Endless Escalator",
+          "Imminent Destruction",
+          "Wishtanglement",
+          "Beginning of the End",
+          "Djinnian Precision",
+          "Ruthless",
+          "Flickering Wishes"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DU2475"
+    ],
+    "name": "Babelian Lunacy",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Lumbering"
+    ],
+    "vp": {
+      "vpCount": "3",
+      "climbTest": {},
+      "holdOn": {
+        "test": "Wisdom 10+",
+        "fail": "Knockdown. {Wish Away X} to the Endless Staircase, where X is half the number of Endless Staircase steps (rounding up)"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may perform a Combined Attack"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "10",
+        "speed": "-",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "-",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "-",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "One Fool at a Time"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "-",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Thread Lightly"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "-",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly",
+          "Beginning of the End"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "-",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Endless Escalator"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly",
+          "Beginning of the End",
+          "Endless Escalator"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "13",
+        "speed": "-",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Fate of a Debtor"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly",
+          "Beginning of the End",
+          "Endless Escalator",
+          "Fate of a Debtor"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "13",
+        "speed": "-",
+        "wounds": "16",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Built to Be Broken",
+          "Total Eclipse"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly",
+          "Beginning of the End",
+          "Endless Escalator",
+          "Fate of a Debtor",
+          "Built to Be Broken",
+          "Total Eclipse"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "14",
+        "speed": "-",
+        "wounds": "17",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "9",
+            "name": "AT"
+          },
+          {
+            "count": "3",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "God's Breath",
+          "Ruthless"
+        ],
+        "traitsFullList": [
+          "End of Hope",
+          "Tower of Madness",
+          "Wish Away",
+          "Heavenward",
+          "Moon Call",
+          "Amongst the Bleached Bones",
+          "Built for Eternity",
+          "True Babylon",
+          "One Fool at a Time",
+          "Thread Lightly",
+          "Beginning of the End",
+          "Endless Escalator",
+          "Fate of a Debtor",
+          "Built to Be Broken",
+          "Total Eclipse",
+          "God's Breath",
+          "Ruthless"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DU2514"
+    ],
+    "name": "Dahaka",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Shackles of Regret",
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X"
+        ],
+        "traitsFullList": [
+          "Shackles of Regret",
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X"
+        ]
+      },
+      {
+        "level": "2",
+        "toHit": "10",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Winnowing",
+          "-Shackles of Regret"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing"
+        ]
+      },
+      {
+        "level": "3",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "2",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Land That Knows Nothing of the Sea"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea"
+        ]
+      },
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "13",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "3",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger"
+          }
+        ],
+        "traitsChanges": [
+          "Forbidden Alchemy"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy"
+        ]
+      },
+      {
+        "level": "5",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "4",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Beginning of the End",
+          "Bane of Odysseus"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy",
+          "Beginning of the End",
+          "Bane of Odysseus"
+        ]
+      },
+      {
+        "level": "6",
+        "toHit": "12",
+        "speed": "Inf",
+        "wounds": "14",
+        "attributes": [
+          {
+            "count": "3",
+            "name": "Escalation"
+          },
+          {
+            "count": "5",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Contaminated Cuts"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy",
+          "Beginning of the End",
+          "Bane of Odysseus",
+          "Contaminated Cuts"
+        ]
+      },
+      {
+        "level": "7",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "6",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Shadow Backstep"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy",
+          "Beginning of the End",
+          "Bane of Odysseus",
+          "Contaminated Cuts",
+          "Shadow Backstep"
+        ]
+      },
+      {
+        "level": "8",
+        "toHit": "13",
+        "speed": "Inf",
+        "wounds": "15",
+        "attributes": [
+          {
+            "count": "4",
+            "name": "Escalation"
+          },
+          {
+            "count": "7",
+            "name": "AT"
+          },
+          {
+            "count": "1",
+            "name": "d10"
+          },
+          {
+            "count": "2",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "The Dragon Does Not Sleep"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy",
+          "Beginning of the End",
+          "Bane of Odysseus",
+          "Contaminated Cuts",
+          "Shadow Backstep",
+          "The Dragon Does Not Sleep"
+        ]
+      },
+      {
+        "level": "9",
+        "toHit": "14",
+        "speed": "Inf",
+        "wounds": "17",
+        "attributes": [
+          {
+            "count": "5",
+            "name": "Escalation"
+          },
+          {
+            "count": "8",
+            "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
+          }
+        ],
+        "traitsChanges": [
+          "Ruthless",
+          "Semicorporeal Wraith"
+        ],
+        "traitsFullList": [
+          "Drifter of Wastes",
+          "End of Hope",
+          "Soulrend",
+          "Semicorporeal Wraith",
+          "Shadowstep X",
+          "Winnowing",
+          "Land That Knows Nothing of the Sea",
+          "Forbidden Alchemy",
+          "Beginning of the End",
+          "Bane of Odysseus",
+          "Contaminated Cuts",
+          "Shadow Backstep",
+          "The Dragon Does Not Sleep",
+          "Ruthless",
+          "Semicorporeal Wraith"
         ]
       }
     ]
@@ -577,16 +5395,30 @@
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Scan Test:"
+            },
+            {
               "type": "plainText",
-              "value": "Scan Test: For Scan Test purposes, you may choose any Vent Terrain tile on the Battle Board"
+              "value": "For Scan Test purposes, you may choose any Vent Terrain tile on the Battle Board"
             }
           ]
         },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
+              "type": "bold",
+              "value": "Hard to See:"
+            },
+            {
               "type": "plainText",
-              "value": "Hard to See: If you are on a VP when he Primordial is outside of the Battle Board, you can be Targeted only if there are no other viable Targets"
+              "value": "If you are on a VP when the Primordial is outside of the Battle Board, you can be Targeted only if there are no other viable Targets"
             }
           ]
         }
@@ -1661,6 +6493,79 @@
   },
   {
     "cardIDs": [
+      "DU9960"
+    ],
+    "name": "The Last Endjinn",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [],
+    "levels": []
+  },
+  {
+    "cardIDs": [
+      ""
+    ],
+    "name": "Nosoi Dragon",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Leap",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Pollution Aura",
+          "Enriched Toxins"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Leap",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Pollution Aura",
+          "Enriched Toxins"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
       "CV1816"
     ],
     "name": "Pitiless",
@@ -2067,7 +6972,7 @@
         ],
         "traitsChanges": [
           "God Taken Law",
-          "Make the Sun Move and the Eath Stand Still"
+          "Make the Sun Move and the Earth Stand Still"
         ],
         "traitsFullList": [
           "Pitiless Sun",
@@ -2083,7 +6988,7 @@
           "Unworthy Will Die",
           "Cannot Hide from the Sun",
           "God Taken Law",
-          "Make the Sun Move and the Eath Stand Still"
+          "Make the Sun Move and the Earth Stand Still"
         ]
       },
       {
@@ -2126,8 +7031,68 @@
           "Unworthy Will Die",
           "Cannot Hide from the Sun",
           "God Taken Law",
-          "Make the Sun Move and the Eath Stand Still",
+          "Make the Sun Move and the Earth Stand Still",
           "Spontaneous Supernova"
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EX3142"
+    ],
+    "name": "Blackbeak",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Beta",
+    "faq": "",
+    "errata": "",
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "vp": {
+      "vpCount": "",
+      "climbTest": {},
+      "holdOn": {
+        "test": "",
+        "fail": ""
+      },
+      "effects": []
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "11",
+        "speed": "6*",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "By Any Other Name",
+          "Mimetic Darkness",
+          "Bloody Dalliance",
+          "Goes for the Head",
+          "Killjoy",
+          "Winged Doom",
+          "End of Hope",
+          "Flares"
+        ],
+        "traitsFullList": [
+          "By Any Other Name",
+          "Mimetic Darkness",
+          "Bloody Dalliance",
+          "Goes for the Head",
+          "Killjoy",
+          "Winged Doom",
+          "End of Hope",
+          "Flares"
         ]
       }
     ]
