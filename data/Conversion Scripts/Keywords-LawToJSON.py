@@ -3,29 +3,25 @@ import re
 
 # Input abilities as a string
 abilities_text = """
+Abysswalk. If the Primordial moves away from you because of a Response, move your Titan to become adjacent.
+
+Acrobatics. When you would receive Knockdown while adjacent to the Primordial, resolve Vault instead.
+
 Airburst X. Titans in Zone X suffer Knockdown and Knockback 1.
 
 Ambrosia Limit X/+X. Your Ambrosia Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers). Ambrosia Limit X does not stack, Ambrosia Limit +X does.
 
-Armor-piercing. During the Power Roll, ignore Hardened.
+Armor-Piercing. During the Power Roll, ignore Hardened.
 
-Armor Re-roll X. During the Armor Roll step of a Primordial Attack Sequence, you may reroll up to X Armor dice.
+Armor Reroll X. During the Armor Roll step of a Primordial Attack Sequence, you may reroll up to X Armor dice.
 
 Ascended. This Gear ignores Power Level penalties.
 
 Assist X. During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the AT value and you are within your weapon’s range, you may gain 1 Rage and a Combat Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.
 
-Attack Re-roll X. During an Attack Roll, you may re-roll up to X Attack dice with no cost.
+Attack Reroll X. During an Attack Roll, you may re-roll up to X Attack dice with no cost.
 
-Auto-black X. During the first ability window, place X Black tokens (X.1.9.6) in the Kratos Pool.
-
-Auto-break X. During the first ability window, place X Break tokens (X.1.9.1) in the Kratos Pool.
-
-Auto-hope X. During the first ability window, place X Hope tokens (X.1.9.7) in the Kratos Pool.
-
-Auto-inspire. You may stand up as a free action. You may use this ability while Knocked Down.
-
-Auto-rouse X. During the first ability window, place X Rouse tokens (X.1.9.6) in the Kratos Pool.
+Auto-inspire. You may stand up as a free action. You can use this ability while Knocked Down.
 
 Awakening Lock. You cannot Awaken.
 
@@ -42,23 +38,25 @@ Break X. During the second ability window, place X Break tokens (X.1.9.1) in the
 Burden X. During the First or second ability window, take X Condition, Despair, or Ambrosia tokens from the nearest Titan. (This does not count as gaining those tokens.)
 
 Burn. Gain 1 Danger for each Metal Gear card you have equipped and discard all Flammable Gear cards. If this is part of a Primordial Attack Sequence, add the Danger gained to the Danger gained from hits.
+Cycle V. In Cycle V, when you resolve Burn, first discard 1 Aether token, then proceed with the standard effects.
 
 Bypass. You may move through other Titans. You cannot end your voluntary movement on a space occupied by another Titan.
+Primordial Bypass. You can move through, but not end on, the Primordial.
 
-Carving X. When you wound the Primordial, test Wisdom (8+). On a success, you immediately gain X additional non-Core Primordial resources from that BP card. These resources are not multiplied by the Primordial level.
+Carving X. When you Wound the Primordial, test Wisdom (8+). On a success, you immediately gain X additional non-Core Primordial resources from that BP card. These resources are not multiplied by the Primordial level.
 
 Closing X. During the second ability window, place X Closing tokens (X.1.9.8) in the Kratos Pool.
 
 Clutch. During the Power Roll step, if, after applying bonuses, you have less total Power than the AT value by exactly 1, you may gain 1 Power. After you finish resolving this Attack Sequence, discard your active weapon.
 
-Combo-breaker: X spaces. When you would break a Combo, you may move X spaces before checking range. You may only use this ability if it would allow you to break a Combo. This ability is not stackable.
-Self Combo-breaker: X spaces. Identical to Combo-breaker, but you can only use the Gear card which this ability is on to break the Combo (you do not have to exhaust an additional card). This Gear must still possess a matching Weapon Trait.
+Combo-Breaker: X spaces. When you would break a Combo, you may move X spaces before checking range. You may only use this ability if it would allow you to break a Combo. This ability is not stackable.
+Self Combo-Breaker: X spaces. Identical to Combo-Breaker, but you can only use the Gear card which this ability is on to break the Combo (you do not have to exhaust an additional card). This Gear must still possess a matching Weapon Trait.
 
 Commit (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon (X.5.1). If…
 …no parentheses, you must gain 1 Fate to declare this weapon as your active weapon.
-…X is a Midas token, you must gain 1 Midas token to declare this weapon as your active weapon.
+…X is a negative token, you must gain 1 of that token type to declare this weapon as your active weapon.
+…X is a positive token, you must discard 1 of that  token type to declare this weapon as your active weapon.
 …X is a Charge token, you must discard 1 Charge token to declare this weapon as your active weapon.
-…X is a Fire token, you must discard 1 Fire token from the Kratos Pool to declare this weapon as your active weapon.
 
 Consume. Treat “consume” as an Instant Death effect.
 
@@ -70,13 +68,17 @@ Cumbersome. During the second ability window, if you successfully wounded with t
 
 Cursed. During your Titan Attack, you cannot re-roll d10s.
 
-Daze. During the first ability window, if you are adjacent to the Primordial, you may turn the Primordial so that you are in a Rear space.
+Dare. When you are about to draw an Obol, you may choose to resolve the opposite Obol than the one you draw.
+
+Daze. During either the first or second ability window, if you are adjacent to the Primordial, you may turn the Primordial so that you are in a Rear space.
 
 Deadly. During an Attack Roll, replace one of your regular Attack dice with an additional Crit die. If you roll only one Attack die, you gain a Crit Chance on a natural 9–10 result instead.
 
 Death X. Gain the Death Condition card (unless you already have it) and place X Condition tokens on it. If you already have the Death Condition card and X is lower than the number of Condition tokens you have, discard Condition tokens until you X matches.
 
 Defy X. While performing a Skill test caused by a Judgement, treat X successful hits as evaded.
+
+Deny. When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range, ignore that effect and perform an Attack. At the end of the Attack, gain a Combat Fatigue token and draw an Obol.
 
 Displace. Move to an empty space adjacent to its current position. If a Titan is displaced and there is no space it can be legally displaced to, it dies instead.
 
@@ -92,9 +94,13 @@ Elation X. During the second ability window, you may discard X Despair tokens or
 
 Escalate X. Escalate X times (X.5.10.6). Do not look at the removed cards.
 
+Evasion Spiral X. You may reroll up to X successful evasion dice to lose 1 Fate for each rerolled. If you re-roll a Crit die, you only resolve Crit Evade effects if you roll another ‘10’.
+
 Evolving. When you equip a Gear card with this keyword, write the Gear’s name on your Argonaut sheet in the Mnemos section. The Gear instructs you on what you need to do to evolve it. Track your progress on doing so by marking nodes on the Mnemos track. If this Gear card is equipped by another Argonaut, continue keeping track on the original sheet. If the Argonaut the original sheet belongs to dies, transfer the progress to another living Argonaut’s sheet. If you permanently lose the Gear card, erase it from the sheet; you lose all evolution progress on it.
 
 Fate Armor. This card’s Armor Dice may also be used to mitigate Fate dealt by Primordial Attacks. If you are dealt Fate and Danger, you may distribute the mitigation between the two.
+
+Fearless. Immune to Fear and Dread.
 
 Fire X. During the second ability window, place X Fire tokens (X.1.9.4) in the Kratos Pool.
 
@@ -109,6 +115,8 @@ Greater Pass X. During the Clear the Kratos Pool step, choose up to X Kratos tok
 
 Hardened. A BP card with this keyword has +2 AT. Ignore this ability if you have a Crit Chance.
 
+Harpooned. During a Titan Attack, if you have at least one hit and become adjacent to the Primordial, immediately move to the VP. Moving outside your effect range doesn’t cause a chain break.
+
 Heal. Take the top card from the Wound Stack and remove it from the Battle. It does not provide resources at the end of the Battle.
 
 Heartseeker. During the Draw BP card step of a Titan Attack Sequence (X.5.6), you may look at the top two BP cards and choose which one to attack. Shuffle the other card back into the deck.
@@ -120,7 +128,7 @@ Must Be Empty. The chosen Terrain tile space must be empty. When performing more
 Hermes Reflex. Perform one Hermes Move.
 Advanced Hermes Reflex. Perform up to two Hermes Moves instead.
 
-Hermes Resposition X. During the second ability window, you may resolve Hermes Move X.
+Hermes Reposition X. During the second ability window, you may resolve Hermes Move X.
 
 Hide. If you are not in front of the Primordial, you may activate this ability at the end of your turn to become Hidden. If you have the Priority Target token, pass it to the Titan with the highest Rage other than you. 
 Hidden. As long as you are Hidden, you have +1 Evasion and +1 Precision. You stop being Hidden if you move in front of the Primordial, gain the Priority Target token, after the second ability window of your Attack, or at the end of your next turn. (Place a generic token on the game element granting you Hide as a reminder.)
@@ -128,6 +136,8 @@ Hidden. As long as you are Hidden, you have +1 Evasion and +1 Precision. You sto
 Hope X. During the second ability window, place X Hope tokens (X.1.9.7) in the Kratos Pool.
 
 Incinerated. Treat “incinerated” as an Instant Death effect.
+
+Inkblot. Place an Inkblot Terrain tile under the Primordial.
 
 Inspire X. During the first ability window, choose up to X Knocked Down Titans, they may immediately stand up.
 
@@ -152,7 +162,11 @@ Laser Resistance X. Each Laser Attack hit deals X less Danger to you. In Cycle I
 
 Lifeline. When you are about to die from a Chasm space, Displace instead (in Cycle 4, you may instead place the Titan on the closest Irem Tower Terrain tile). Alternatively, when you are about to die from falling from a Boundless Board Edge, stop adjacent to it. This ability can be used even if Knocked Down or otherwise prohibited from using active abilities. 
 
-Light X. No effect in C4.
+Light X. Game elements on the Battle Board with this keyword emit light and are considered light sources. This ability is disabled on a game element owned by a Titan if that Titan cannot use abilities, the element is exhausted, or the element is Smothered (X.X.X). A game element is within ‘range of light’ if it is within X spaces of a light source. When counting from a Titan light source, only spaces in front of that Titan can be counted (see Titan Facing, X.X.X).
+
+Lightbend. If possible, place a Petrified Vent Terrain tile centered under the Primordial and the Primordial disappears.
+
+Liquid Edge. When checking your weapon’s effect range, you may count along diagonal spaces.
 
 Lumbering. Cannot be involuntarily moved.
 
@@ -170,17 +184,19 @@ Overbreak X.
 Umbral. (Cycles 1-3 only) During the second ability window, if your Total Power exceeds the AT value by at least 1, place X Break tokens in the Kratos Pool (X.1.9.1).
 Illuminated. (Cycles 4-5 only) Break X. Then, if your Total Power exceeds the AT value by at least 1, place up to X additional Break tokens but no more than the exceeded value.
 
+Pain X. Gain X Pain tokens.
+
 Pass X. During the Clear the Kratos Pool step, choose up to X Opening and/or Break tokens to remain in the Kratos Pool.
 
 Perishable. After you finish resolving a Titan Attack Sequence with this weapon, discard it. (If the sequence is interrupted, it is still considered resolved.)
 
+Pole Position. During either the First or second ability window, if you’re adjacent to the Primordial, you may place your Titan on any other empty space adjacent to the Primordial.
+
+Power Reroll X. During the Power Roll step of an Attack, you may re-roll up to X Power dice.
+
 Precise. During the Draw a BP card step (X.5.6), after drawing the card you may choose to draw the top card of the BP discard instead. If you do, place the first drawn card back into the BP deck and shuffle it.
 
 Provoke. During the first ability window, gain the Priority Target token and turn the Primordial to face you.
-
-Pole Position. During either the First or second ability window, if you’re adjacent to the Primordial, you may place your Titan on any other empty space adjacent to the Primordial.
-
-Power Re-roll X. During the Power Roll step of an Attack, you may re-roll up to X Power dice.
 
 Pull X. Move the affected miniature X spaces towards the source of the Pull, along the shortest possible path.
 Other miniatures. The affected miniature can move through spaces occupied by other miniatures. 
@@ -221,10 +237,17 @@ Superior Reflex. 3 spaces instead.
 Reinforce X. When you are about to resolve an Armor Roll, add X red dice to your Armor dice pool. 
 Advanced Reinforce X. Add X black dice instead.
 Superior Reinforce X. Add X white dice instead.
+Mortal Reinforce X. Add X mortal dice instead.
+
+Remote Scan. When you perform a Scan, you may do so from up to 3 spaces away.
 
 Reposition X. During the second ability window, you may move up to X spaces. 
 
+Rescan. When you perform a Scan, you may redraw the Major Trauma you just drew.
+
 Restricted (Trait). You can equip only one gear card with the list Trait.
+
+Retreat X. The Primordial moves X spaces directly away from the Target or the Attacker without turning. If the Target/Attacker is on a VP, choose the direction.
 
 Rewind. Place your Titan on your Time Anchor. If your Time Anchor is not on the Board, you are erased from existence instead.
 
@@ -246,6 +269,8 @@ Second Chance. After you draw a Trauma or Obol card, you may ignore its effect a
 
 Shaded. Until the start of the next Titan Round, treat your Titan as being on as shaded space.
 
+Skitter. The Primordial immediately moves X spaces in a straight line in a random direction, where X is its current level.
+
 Solace. Discard a Mind Condition card or a Despair token from yourself or an adjacent Titan.
 
 Spiral X. During the Attack Roll step, you may reroll up to X hits to lose 1 Fate for each. If you reroll a Crit die this way, the original result does not grant you a Crit Chance.
@@ -258,17 +283,23 @@ Startup X. When you are about to Attack, if there are no Kratos tokens in the Kr
 
 Strikeback X. If you fully evade a Primordial Attack, you may immediately move up to X spaces and perform a Combat Action, then gain a Combat Fatigue. This is an Interrupt Attack. If this Ability is used during the Primordial Round, gain 1 Power for the Attack.
 
+Stuck. When you initiate an attack with this Weapon, you cannot perform any more voluntary movements this turn.
+
 Succor. During another Titan’s Power Roll, if, after applying all bonuses, they have less total Power than the AT value by exactly 1 and you are within your weapon range of the Primordial, you may gain 1 Rage, a Combat Fatigue, and discard this weapon to add 1 Power to that Power Roll.
 
 Super Smart Delivery. A Titan with sufficient open hand slots may, as a Free Action or a WoO, equip a gear card with Super Smart Delivery from the Armory and gain 1 Rage.
 
 Superior Chance. Second Chance, but if drawing from Obols, first remove the You died horribly card from that deck for this draw only.
 
-Suppress. When you deal a wound5 (before responses)7, shuffle the discard pile denoted by the subtype into the appropriate deck. (This keyword does not exist without a subtype.)
+Suppress. When you deal a wound5 (before responses)7, shuffle the discard pile denoted by the subtype into the appropriate deck. You may only use this ability if there is at least one card in the corresponding discard pile10. (This keyword does not exist without a subtype.)
 BP Suppress. Shuffle the BP discard pile into the BP deck. 
 AI Suppress. Shuffle the AI discard pile into the AI deck. 
 
+Taint X. During the First Ability Window, you must turn X Break tokens in the Kratos Pool into Black tokens.
+
 Temporal  Reflex. When you are about to suffer CRASH, ignore it. If you would suffer Unavoidable Knockback, displace instead.
+
+Tilt. When you are about to draw a BP card during an Attack, first discard the top BP card.
 
 Time-Clocked. Gain the Time-Clocked Condition card, Departing side up and remove your miniature from the board. Follow the rules of the Condition card. 
 
@@ -284,6 +315,8 @@ Trauma Trick. You may immediately flip this card after you resolve a Trauma card
 Wound Trick. You may immediately flip this card after you Wound. 
 Fail Trick. You may immediately flip this card after you Fail to Wound. 
 
+Truth X. During the Second Ability Window, place X Break, Opening, Fire, Black, and/or Closing tokens in the Kratos Pool.
+
 Tumble. When you are about to suffer CRASH, roll a d10. On a 6+ ignore it.
 
 Unburden X. During the first or second ability window, give X Condition, Despair, or Ambrosia tokens to the closest Titan. (This does not count as gaining those tokens.)
@@ -293,8 +326,15 @@ Reverse Unholy Alchemy. Turn all of your Ambrosia tokens into Midas tokens. (Thi
 
 Unique. There can be no more than one instance of a unique card in play or in the Argo Armory at any given time.
 
+Unwieldy. When checking range with this weapon, you can only count spaces in straight lines from you. 
+
+Ur-Knockback X. Knockback X towards the closest short Board Edge. This is considered a regular Knockback.
+
+Ur-Pull X. Pull X towards the Ur-Fleece. This is considered a regular Pull.
+
 Vault. If you are adjacent to the Primordial, place your miniature on an empty space in a straight line from you, on the opposite side of the Primordial, adjacent to it. A Titan may use this ability in either the first or second ability window.
-Forced Vault. Same as Vault, but treat it as involuntary movement. If you would have to end this movement outside the Board Edge or on an Indestructible Obstacle Terrain tile, you die instead.
+Forced Vault. Vault, but treat it as involuntary movement. If you would have to end this movement outside the Board Edge or on an Indestructible Obstacle Terrain tile, you die instead.
+Terrain Vault. Vault, but check against an adjacent Terrain tile instead of the Primordial.
 
 Voluntary Knockdown. You may gain the Knockdown (standing up) Condition card as a free action.
 
@@ -310,7 +350,9 @@ Advanced Wish Dodge. +2 Evasion bonus instead.
 Wishrod.  During Targeting, if the Attack is a Wish Attack, you may become the Target instead. The Attack gains Doomed.
 """
 
-def parse_abilities(text):
+from lib.parseFunctions import parse_abilities
+
+def parse_keywords(text):
     abilities = {}
     entries = text.strip().split("\n\n")  # Split on double newlines (new keyword)
 
@@ -319,23 +361,26 @@ def parse_abilities(text):
         main_name, main_text = lines[0].split(". ", 1)  # Split on the first period
 
         if main_name not in abilities:
-            abilities[main_name] = []
+            abilities[main_name] = {}
 
         if len(lines) == 1:
             # No subtypes, just add the main ability
-            abilities[main_name].append({"text": main_text, "formatting": ""})
+            abilities[main_name]["mainDef"] = (parse_abilities(main_text)[0])
         else:
             # Process subtypes
-            abilities[main_name].append({"text": main_text, "formatting": ""})
+            abilities[main_name]["mainDef"] = (parse_abilities(main_text)[0])
+            x = 0
             for subtype in lines[1:]:
                 if subtype[0:1] == "…":
-                    abilities[main_name].append({"text": subtype, "formatting": ""})
+                    abilities[main_name]["subDef" + str(x)] = subtype
                 else:
                     subtype_name, subtype_text = subtype.split(". ", 1)
-                    abilities[main_name].append({"subtype": subtype_name, "text": subtype_text, "formatting": ""})
+                    abilities[main_name]["subName" + str(x)] = subtype_name
+                    abilities[main_name]["subDef" + str(x)] = parse_abilities(subtype_text)[0]
+                x += 1
 
     return abilities
 
 # Convert to JSON
-with open("src\data\JSON\keywords.json", "w", encoding="utf-8") as outfile:
-    json.dump(parse_abilities(abilities_text), outfile, indent=2)
+with open("./data/JSON/keywords.json", "w", encoding="utf-8") as outfile:
+    json.dump(parse_keywords(abilities_text), outfile, indent=2)

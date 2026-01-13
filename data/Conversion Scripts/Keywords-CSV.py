@@ -8,7 +8,8 @@ def csv_to_json(csv_file, json_file):
         reader = csv.DictReader(file, delimiter=',', quotechar='"')
         output = {}
         for row in reader:
-            output[row["Name"]] = parse_abilities(row["Effects"])[0]
+            output[row["Name"]] = {}
+            output[row["Name"]]["mainDef"] = parse_abilities(row["Effects"])[0]
     
     with open(json_file, "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=2)
