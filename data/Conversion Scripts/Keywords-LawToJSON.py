@@ -83,6 +83,8 @@ Defy X. While performing a Skill test caused by a Judgement, treat X successful 
 
 Deny. When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range, ignore that effect and perform an Attack. At the end of the Attack, gain a @CombatAction Fatigue token and draw an Obol.
 
+Despair Limit X/+X. The number of Despair tokens it takes to kill you becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers). Despair Limit X does not stack, Despair Limit +X does
+
 Displace. Move to an empty space adjacent to its current position. If a Titan is displaced and there is no space it can be legally displaced to, it dies instead.
 
 Diversion. During the second ability window, place a Diversion token in the Kratos Pool. 
@@ -262,7 +264,7 @@ Rewind. Place your Titan on your Time Anchor. If your Time Anchor is not on the 
 
 Rocksteady. When you are about to suffer Knockdown, you may use this ability to ignore it.
 
-Rollout. When you are about to suffer Knockdown while adjacent to the Primordial, suffer Knockback 4 instead.
+Roll Out. When you are about to suffer Knockdown while adjacent to the Primordial, suffer Knockback 4 instead.
 
 Rouse X. During the second ability window, place X Rouse tokens in the Kratos Pool.
 
@@ -289,7 +291,7 @@ Spotlight. During the first ability window, if you have the @PriorityTarget Prio
 Stalwart. When you are about to suffer Knockback, you may use this ability to ignore it.
 
 Stanch (X). When you are about to gain X, reduce that gain by 1 (to a minimum of 1).
-Full Stanch (X). When you are about to gain X, reduce that gain to 1.
+Superior Stanch (X). When you are about to gain X, reduce that gain to 1.
 
 Stand up. Discard the Knockdown Condition card. You may use this ability while knocked down.
 
@@ -365,7 +367,7 @@ Wishrod.  During Targeting, if the Attack is a Wish Attack, you may become the T
 
 Abyss. A Titan cannot voluntarily move through or ignore this tile in any way. Range cannot be measured through unoccupied spaces of this tile (but can be measured around the outside).
 
-Ambrosia: When a Titan ends its movement on this tile (voluntarily or not), it gains 1 Ambrosia token. If a Titan starts its turn on this tile and does not move until the end of this turn, it gains 1 Ambrosia token. If a Titan moves through this tile but does not end its movement on it, roll a d10. On a 5 or less, gain 1 Ambrosia token.
+Ambrosia. When a Titan ends its movement on this tile (voluntarily or not), it gains 1 Ambrosia token. If a Titan starts its turn on this tile and does not move until the end of this turn, it gains 1 Ambrosia token. If a Titan moves through this tile but does not end its movement on it, roll a d10. On a 5 or less, gain 1 Ambrosia token.
 
 Black Ice. If you suffer Crash on this tile, gain 1 Ambrosia.
 
