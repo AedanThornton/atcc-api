@@ -452,7 +452,11 @@ def titan_row(row):
     kratos_table = parse_kratos(row["Kratos Table"])
     trauma_table = parse_trauma(row["Trauma Table"])
 
-    abilites, gated_abilities = parse_abilities(row["Abilities"])
+    reformatted = ""
+    for keyword in row["Abilities"].split(". "):
+        reformatted += "{" + keyword + "}" + ". "
+    
+    abilities, gated_abilities = parse_abilities(reformatted[:-2])
     
     card_json = {
         "subtitle": row["Subtitle"] or None,
@@ -460,7 +464,7 @@ def titan_row(row):
         "speed": row["Speed"],
         "kratosTable": kratos_table,
         "traumaTable": trauma_table,
-        "abilities": abilites,
+        "abilities": abilities,
         "gatedAbilities": gated_abilities
     }
 
