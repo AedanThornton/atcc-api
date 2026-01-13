@@ -5,39 +5,40 @@ import re
 abilities_text = """
 Abysswalk. If the Primordial moves away from you because of a Response, move your Titan to become adjacent.
 
-Acrobatics. When you would receive Knockdown while adjacent to the Primordial, resolve Vault instead.
+Acrobatics. When you would receive Knockdown while adjacent to the Primordial, resolve {Vault} instead.
 
-Airburst X. Titans in Zone X suffer Knockdown and Knockback 1.
+Airburst X. Titans in Zone X suffer {Knockdown} and {Knockback 1}.
 
 Ambrosia Limit X/+X. Your Ambrosia Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers). Ambrosia Limit X does not stack, Ambrosia Limit +X does.
 
-Armor-Piercing. During the Power Roll, ignore Hardened.
+Armor-Piercing. During the Power Roll, ignore {Hardened}.
 
-Armor Reroll X. During the Armor Roll step of a Primordial Attack Sequence, you may reroll up to X Armor dice.
+Armor Re-roll X. During the Armor Roll step of a Primordial Attack Sequence, you may re-roll up to X Armor dice.
 
 Ascended. This Gear ignores Power Level penalties.
 
-Assist X. During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the AT value and you are within your weapon’s range, you may gain 1 Rage and a Combat Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.
+Assist X. During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the AT value and you are within your weapon’s range, you may gain 1 @Rage and a @CombatAction Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.
 
-Attack Reroll X. During an Attack Roll, you may re-roll up to X Attack dice with no cost.
+Attack Re-roll X. During an Attack Roll, you may re-roll up to X Attack dice with no cost.
 
 Auto-inspire. You may stand up as a free action. You can use this ability while Knocked Down.
 
-Awakening Lock. You cannot Awaken.
+Husk. You cannot Awaken.
+Awakening Lock. See Husk.
 
-Black X. During the second ability window, place X Black tokens (X.1.9.6) in the Kratos Pool.
+Black X. During the second ability window, place X Black tokens in the Kratos Pool.
 
-Bleeding X. Gain the Bleeding Condition card (unless you already have it) and place X Bleeding tokens on it.
+Bleeding X. Gain the [Bleeding|CL1283] Condition card (unless you already have it) and place X Bleeding tokens on it.
 
 Bleeding Limit X/+X. Your Bleeding Limit becomes X or is increased by X, respectively. If you have more than one instance of the former, then the one with the greatest X is used (before applying modifiers). Bleeding Limit X does not stack, Bleeding Limit +X does.
 
 Block X. After counting hits from an Evasion Roll, subtract X hits.
 
-Break X. During the second ability window, place X Break tokens (X.1.9.1) in the Kratos Pool.
+Break X. During the second ability window, place X Break tokens in the Kratos Pool.
 
 Burden X. During the First or second ability window, take X Condition, Despair, or Ambrosia tokens from the nearest Titan. (This does not count as gaining those tokens.)
 
-Burn. Gain 1 Danger for each Metal Gear card you have equipped and discard all Flammable Gear cards. If this is part of a Primordial Attack Sequence, add the Danger gained to the Danger gained from hits.
+Burn. Gain 1 Danger for each _Metal_ Gear card you have equipped and discard all Flammable Gear cards. If this is part of a Primordial Attack Sequence, add the @Danger gained to the @Danger gained from hits.
 Cycle V. In Cycle V, when you resolve Burn, first discard 1 Aether token, then proceed with the standard effects.
 
 Bypass. You may move through other Titans. You cannot end your voluntary movement on a space occupied by another Titan.
@@ -45,22 +46,22 @@ Primordial Bypass. You can move through, but not end on, the Primordial.
 
 Carving X. When you Wound the Primordial, test Wisdom (8+). On a success, you immediately gain X additional non-Core Primordial resources from that BP card. These resources are not multiplied by the Primordial level.
 
-Closing X. During the second ability window, place X Closing tokens (X.1.9.8) in the Kratos Pool.
+Closing X. During the second ability window, place X Closing tokens in the Kratos Pool.
 
-Clutch. During the Power Roll step, if, after applying bonuses, you have less total Power than the AT value by exactly 1, you may gain 1 Power. After you finish resolving this Attack Sequence, discard your active weapon.
+Clutch. During the Power Roll step, if, after applying bonuses, you have less total Power than the AT value by exactly 1, you may gain 1 @Power. After you finish resolving this Attack Sequence, discard your active weapon.
 
 Combo-Breaker: X spaces. When you would break a Combo, you may move X spaces before checking range. You may only use this ability if it would allow you to break a Combo. This ability is not stackable.
 Self Combo-Breaker: X spaces. Identical to Combo-Breaker, but you can only use the Gear card which this ability is on to break the Combo (you do not have to exhaust an additional card). This Gear must still possess a matching Weapon Trait.
 
-Commit (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon (X.5.1). If…
-…no parentheses, you must gain 1 Fate to declare this weapon as your active weapon.
+Commit (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon. If…
+…no parentheses, you must gain 1 @Fate to declare this weapon as your active weapon.
 …X is a negative token, you must gain 1 of that token type to declare this weapon as your active weapon.
 …X is a positive token, you must discard 1 of that  token type to declare this weapon as your active weapon.
 …X is a Charge token, you must discard 1 Charge token to declare this weapon as your active weapon.
 
 Consume. Treat “consume” as an Instant Death effect.
 
-Crash. Gain 1 Danger and Knockdown.
+Crash. Gain 1 @Danger and [Knockdown|AL0303].
 
 Cryptex Loathing. Treat your Cryptex gear card as blank.
 
@@ -74,52 +75,54 @@ Daze. During either the first or second ability window, if you are adjacent to t
 
 Deadly. During an Attack Roll, replace one of your regular Attack dice with an additional Crit die. If you roll only one Attack die, you gain a Crit Chance on a natural 9–10 result instead.
 
-Death X. Gain the Death Condition card (unless you already have it) and place X Condition tokens on it. If you already have the Death Condition card and X is lower than the number of Condition tokens you have, discard Condition tokens until you X matches.
+Death X. Gain the [Death|CL1287] Condition card (unless you already have it) and place X Condition tokens on it. If you already have the Death Condition card and X is lower than the number of Condition tokens you have, discard Condition tokens until you X matches.
+
+Deflate. Discard the Float Condition card. You may use this ability while floating.
 
 Defy X. While performing a Skill test caused by a Judgement, treat X successful hits as evaded.
 
-Deny. When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range, ignore that effect and perform an Attack. At the end of the Attack, gain a Combat Fatigue token and draw an Obol.
+Deny. When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range, ignore that effect and perform an Attack. At the end of the Attack, gain a @CombatAction Fatigue token and draw an Obol.
 
 Displace. Move to an empty space adjacent to its current position. If a Titan is displaced and there is no space it can be legally displaced to, it dies instead.
 
-Diversion. During the second ability window, place a Diversion token (X.1.9.3) in the Kratos Pool. 
+Diversion. During the second ability window, place a Diversion token in the Kratos Pool. 
 
 Dodge. When you are about to resolve an Evasion Roll, gain +1 Evasion for this roll.
 
-Doomed. During this effect, dice cannot be re-rolled using Fate.
+Doomed. During this effect, dice cannot be re-rolled using @Fate.
 
-Double Commit. You must gain 2 Fate to declare this weapon as your active weapon.
+Double Commit. You must gain 2 @Fate to declare this weapon as your active weapon.
 
-Elation X. During the second ability window, you may discard X Despair tokens or Ambrosia tokens to place X Opening tokens in the Kratos Pool (X.1.9.2).
+Elation X. During the second ability window, you may discard X Despair tokens or Ambrosia tokens to place X Opening tokens in the Kratos Pool.
 
-Escalate X. Escalate X times (X.5.10.6). Do not look at the removed cards.
+Escalate X. Escalate X times. Do not look at the removed cards.
 
-Evasion Spiral X. You may reroll up to X successful evasion dice to lose 1 Fate for each rerolled. If you re-roll a Crit die, you only resolve Crit Evade effects if you roll another ‘10’.
+Evasion Spiral X. You may re-roll up to X successful evasion dice to lose 1 @Fate for each re-rolled. If you re-roll a Crit die, you only resolve Crit Evade effects if you roll another ‘10’.
 
 Evolving. When you equip a Gear card with this keyword, write the Gear’s name on your Argonaut sheet in the Mnemos section. The Gear instructs you on what you need to do to evolve it. Track your progress on doing so by marking nodes on the Mnemos track. If this Gear card is equipped by another Argonaut, continue keeping track on the original sheet. If the Argonaut the original sheet belongs to dies, transfer the progress to another living Argonaut’s sheet. If you permanently lose the Gear card, erase it from the sheet; you lose all evolution progress on it.
 
-Fate Armor. This card’s Armor Dice may also be used to mitigate Fate dealt by Primordial Attacks. If you are dealt Fate and Danger, you may distribute the mitigation between the two.
+Fate Armor. This card’s Armor Dice may also be used to mitigate @Fate dealt by Primordial Attacks. If you are dealt @Fate and @Danger, you may distribute the mitigation between the two.
 
 Fearless. Immune to Fear and Dread.
 
-Fire X. During the second ability window, place X Fire tokens (X.1.9.4) in the Kratos Pool.
+Fire X. During the second ability window, place X Fire tokens in the Kratos Pool.
 
-Float. Gain the Float Condition card, Float (up) side up, and place your miniature on its side.
+Float. Gain the [Float|DL2023] Condition card, Float (up) side up, and place your miniature on its side.
 
 Frontlines. If your Titan is dead, at the End of Battle roll a d10. On a ‘1’, your Argonaut dies as well.
 
-Glaciate. To Glaciate a space, place a Black Iceberg Terrain tile there.
-Giant Glaciate. To Giant Glaciate a space, place a Giant Black Iceberg Terrain tile there.
+Glaciate. To Glaciate a space, place a [Black Iceberg|CI1313] Terrain tile there.
+Giant Glaciate. To Giant Glaciate a space, place a [Giant Black Iceberg|CI1314] Terrain tile there.
 
 Greater Pass X. During the Clear the Kratos Pool step, choose up to X Kratos tokens to remain in the pool.
 
-Hardened. A BP card with this keyword has +2 AT. Ignore this ability if you have a Crit Chance.
+Hardened. A BP card with this keyword has +2 @AT. Ignore this ability if you have a Crit Chance.
 
 Harpooned. During a Titan Attack, if you have at least one hit and become adjacent to the Primordial, immediately move to the VP. Moving outside your effect range doesn’t cause a chain break.
 
 Heal. Take the top card from the Wound Stack and remove it from the Battle. It does not provide resources at the end of the Battle.
 
-Heartseeker. During the Draw BP card step of a Titan Attack Sequence (X.5.6), you may look at the top two BP cards and choose which one to attack. Shuffle the other card back into the deck.
+Heartseeker. During the Draw BP card step of a Titan Attack Sequence, you may look at the top two BP cards and choose which one to attack. Shuffle the other card back into the deck.
 
 Hermes Move X. Perform up to X Hermes Moves. 
 Hermes Move. To perform a Hermes Move, draw a straight line in any cardinal direction from the Titan performing the action, stopping when you hit a Terrain tile. Then, choose an Elevated Terrain tile space, either the one the line ended on or one on a space adjacent to the spaces the drawn line went through, and place the Titan on that Terrain tile.
@@ -130,14 +133,14 @@ Advanced Hermes Reflex. Perform up to two Hermes Moves instead.
 
 Hermes Reposition X. During the second ability window, you may resolve Hermes Move X.
 
-Hide. If you are not in front of the Primordial, you may activate this ability at the end of your turn to become Hidden. If you have the Priority Target token, pass it to the Titan with the highest Rage other than you. 
-Hidden. As long as you are Hidden, you have +1 Evasion and +1 Precision. You stop being Hidden if you move in front of the Primordial, gain the Priority Target token, after the second ability window of your Attack, or at the end of your next turn. (Place a generic token on the game element granting you Hide as a reminder.)
+Hide. If you are not in front of the Primordial, you may activate this ability at the end of your turn to become Hidden. If you have the @PriorityTarget Priority Target token, pass it to the Titan with the highest Rage other than you. 
+Hidden. As long as you are Hidden, you have +1 @Evasion and +1 Precision. You stop being Hidden if you move in front of the Primordial, gain the @PriorityTarget Priority Target token, after the second ability window of your Attack, or at the end of your next turn. (Place a generic token on the game element granting you Hide as a reminder.)
 
-Hope X. During the second ability window, place X Hope tokens (X.1.9.7) in the Kratos Pool.
+Hope X. During the second ability window, place X Hope tokens in the Kratos Pool.
 
 Incinerated. Treat “incinerated” as an Instant Death effect.
 
-Inkblot. Place an Inkblot Terrain tile under the Primordial.
+Inkblot. Place an [Inkblot|EI2605] Terrain tile under the Primordial.
 
 Inspire X. During the first ability window, choose up to X Knocked Down Titans, they may immediately stand up.
 
@@ -149,40 +152,40 @@ From Attacks. If Knockback is caused by a Primordial Attack, it affects the Targ
 From Responses. If Knockback is caused by a Primordial Response, it affects the Attacker only if they are within adjacency. 
 Knocked Back Titans. 
 Ignore Terrain except Obstacles. Knocked back Titans ignore all Terrain tiles they move through except Obstacles. 
-Destructible Obstacles. If a Titan would be forced to move through a Destructible Obstacle Terrain tile, stop its movement, remove the Terrain tile from the Battle Board and place the Titan in its space, then the Titan suffers CRASH. 
-Indestructible Obstacles. If a Titan would be forced to move through an Indestructible Obstacle, it stops on an adjacent space right before the Obstacle instead, then suffers CRASH. 
-Knocked Back Primordials. Knocked Back Primordials can move through any Terrain tiles and miniatures without hindrance. They destroy any Terrain tiles (except Indestructible) they move through and cause CRASH and Unavoidable Knockback to Titans as normal. 
+Destructible Obstacles. If a Titan would be forced to move through a Destructible Obstacle Terrain tile, stop its movement, remove the Terrain tile from the Battle Board and place the Titan in its space, then the Titan suffers {Crash}. 
+Indestructible Obstacles. If a Titan would be forced to move through an Indestructible Obstacle, it stops on an adjacent space right before the Obstacle instead, then suffers {Crash}. 
+Knocked Back Primordials. Knocked Back Primordials can move through any Terrain tiles and miniatures without hindrance. They destroy any Terrain tiles (except Indestructible) they move through and cause {Crash} and Unavoidable Knockback to Titans as normal. 
 Board Edge. If the affected miniature is Knocked Back into a Board Edge, it continues to move along the edge, if possible, away from the source of Knockback. 
 
 Knockdown. Gain the Knockdown Condition card, “Falling down” side up, and tip your miniature on its side. Follow the rules of the Condition card. (Note: the definition of Knockdown used in the Learn to Play is incorrect)
 From Attacks. If Knockdown is caused by an Attack, it affects the Target only if it is within the Attack’s range. 
 From Responses. If Knockdown is caused by a Response, it affects the Attacker only if they are adjacent. 
 
-Laser Resistance X. Each Laser Attack hit deals X less Danger to you. In Cycle IV+, this loses its Keyword status and becomes a Defensive Statistic instead (V.2.2.4).
+Laser Resistance X. Each Laser Attack hit deals X less @Danger to you. In Cycle IV+, this loses its Keyword status and becomes a Defensive Statistic instead (V.2.2.4).
 
 Lifeline. When you are about to die from a Chasm space, Displace instead (in Cycle 4, you may instead place the Titan on the closest Irem Tower Terrain tile). Alternatively, when you are about to die from falling from a Boundless Board Edge, stop adjacent to it. This ability can be used even if Knocked Down or otherwise prohibited from using active abilities. 
 
 Light X. Game elements on the Battle Board with this keyword emit light and are considered light sources. This ability is disabled on a game element owned by a Titan if that Titan cannot use abilities, the element is exhausted, or the element is Smothered (X.X.X). A game element is within ‘range of light’ if it is within X spaces of a light source. When counting from a Titan light source, only spaces in front of that Titan can be counted (see Titan Facing, X.X.X).
 
-Lightbend. If possible, place a Petrified Vent Terrain tile centered under the Primordial and the Primordial disappears.
+Lightbend. If possible, place a [Petrified Vent|EI2606] Terrain tile centered under the Primordial and the Primordial disappears.
 
 Liquid Edge. When checking your weapon’s effect range, you may count along diagonal spaces.
 
 Lumbering. Cannot be involuntarily moved.
 
-Masterwork. During an Attack Roll, you may reroll 1s with no cost.
+Masterwork. During an Attack Roll, you may re-roll 1s with no cost.
 
-Midas X. Place X Midas tokens (X.7.16) on your gear cards.
+Midas X. Place X Midas tokens on your gear cards.
 
 Midas Immune. Ignore the effects of Midas tokens placed on this particular gear card.
 
 Motivate X. During the second ability window, choose another Titan. That Titan may move up to X spaces. This ability is not required to Stack (I.3.6.1).
 
-Opening X. During the second ability window, place X Opening tokens in the Kratos Pool (X.1.9.2). 
+Opening X. During the second ability window, place X Opening tokens in the Kratos Pool. 
 
 Overbreak X. 
-Umbral. (Cycles 1-3 only) During the second ability window, if your Total Power exceeds the AT value by at least 1, place X Break tokens in the Kratos Pool (X.1.9.1).
-Illuminated. (Cycles 4-5 only) Break X. Then, if your Total Power exceeds the AT value by at least 1, place up to X additional Break tokens but no more than the exceeded value.
+Umbral. (Cycles 1-3 only) During the second ability window, if your Total Power exceeds the @AT value by at least 1, place X Break tokens in the Kratos Pool.
+Illuminated. (Cycles 4-5 only) Break X. Then, if your Total Power exceeds the @AT value by at least 1, place up to X additional Break tokens but no more than the exceeded value.
 
 Pain X. Gain X Pain tokens.
 
@@ -190,19 +193,19 @@ Pass X. During the Clear the Kratos Pool step, choose up to X Opening and/or Bre
 
 Perishable. After you finish resolving a Titan Attack Sequence with this weapon, discard it. (If the sequence is interrupted, it is still considered resolved.)
 
-Pole Position. During either the First or second ability window, if you’re adjacent to the Primordial, you may place your Titan on any other empty space adjacent to the Primordial.
+Pole Position. During either the first or second ability window, if you’re adjacent to the Primordial, you may place your Titan on any other empty space adjacent to the Primordial.
 
-Power Reroll X. During the Power Roll step of an Attack, you may re-roll up to X Power dice.
+Power Re-roll X. During the Power Roll step of an Attack, you may re-roll up to X Power dice.
 
-Precise. During the Draw a BP card step (X.5.6), after drawing the card you may choose to draw the top card of the BP discard instead. If you do, place the first drawn card back into the BP deck and shuffle it.
+Precise. During the Draw a BP card step, after drawing the card you may choose to draw the top card of the BP discard instead. If you do, place the first drawn card back into the BP deck and shuffle it.
 
-Provoke. During the first ability window, gain the Priority Target token and turn the Primordial to face you.
+Provoke. During the first ability window, gain the @PriorityTarget Priority Target token and turn the Primordial to face you.
 
 Pull X. Move the affected miniature X spaces towards the source of the Pull, along the shortest possible path.
 Other miniatures. The affected miniature can move through spaces occupied by other miniatures. 
 Terrain. The affected miniature must resolve the effects of any Terrain tiles it moves through. 
-Destructible Obstacles. If a Titan is about to be pulled into a Destructible Obstacle (e.g. a Column), remove the Terrain tile from the Battle Board, the Titan suffers CRASH, then continue the Pull. 
-Indestructible Obstacles. If a Titan is about to be pulled into an Indestructible Obstacle, it suffers CRASH and continues to move along the Obstacle’s edge along the shortest possible path towards the Primordial. 
+Destructible Obstacles. If a Titan is about to be pulled into a Destructible Obstacle (e.g. a Column), remove the Terrain tile from the Battle Board, the Titan suffers {Crash}, then continue the Pull. 
+Indestructible Obstacles. If a Titan is about to be pulled into an Indestructible Obstacle, it suffers {Crash} and continues to move along the Obstacle’s edge along the shortest possible path towards the Primordial. 
 Adjacency. If the affected miniature is or becomes adjacent to the source, the Pull does not end. Instead, move the source directly away from the affected miniature the remaining number of spaces, then finish the Pull. The source’s movement is voluntary, the affected miniature’s movement is involuntary. 
 Titan Timing. Titans may use the Pull X keyword during either the first or second ability window. 
 
@@ -212,7 +215,7 @@ Pushback X. Turn the source towards the affected miniature. Then, move X spaces 
 Other miniatures. Pushed Titans can move through spaces occupied by other miniatures. If a Titan ends involuntary movement on a space with another miniature, the other miniature is Displaced. 
 Terrain. The affected miniature must resolve the effects of any Terrain tiles it moves through. 
 Shortest path. If the affected miniature is not adjacent, move the source in its direction along the shortest possible path.
-Destructible Obstacles. If a Titan is about to be pushed into a Destructible Obstacle, remove that Terrain tile from the Battle Board, the Titan suffers CRASH, then continue Pushback. 
+Destructible Obstacles. If a Titan is about to be pushed into a Destructible Obstacle, remove that Terrain tile from the Battle Board, the Titan suffers {Crash}, then continue Pushback. 
 Indestructible Obstacles. If a Titan is about to be pushed into an Indestructible Obstacle, displace it to an adjacent space that would allow the Primordial to continue movement onto a space previously occupied by the Titan, then continue Pushback. If the Titan dies from displacement, then once the Primordial has moved into the space formerly occupied by the Titan, the Pushback stops. 
 Board Edge. If a Titan or Primordial is about to be pushed into the Board Edge, it is displaced to an adjacent space in a way that would allow the source of Pushback to move onto a space previously occupied by the affected miniature, then continue Pushback.
 Titan Timing. Titans may resolve the Pushback X keyword during either the first or second ability window of their Attack or when specifically instructed to resolve it immediately.
@@ -241,7 +244,7 @@ Mortal Reinforce X. Add X mortal dice instead.
 
 Remote Scan. When you perform a Scan, you may do so from up to 3 spaces away.
 
-Renege (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon (X.5.1). If…
+Renege (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon. If…
 …no parentheses, you must lose 1 Fate to declare this weapon as your active weapon.
 …X is a negative token, you must discard 1 of that token type to declare this weapon as your active weapon.
 …X is a positive token, you must gain 1 of that  token type to declare this weapon as your active weapon.
@@ -251,7 +254,7 @@ Reposition X. During the second ability window, you may move up to X spaces.
 
 Rescan. When you perform a Scan, you may redraw the Major Trauma you just drew.
 
-Restricted (Trait). You can equip only one gear card with the list Trait.
+Restricted (Trait). You can equip only one gear card with the listed Trait.
 
 Retreat X. The Primordial moves X spaces directly away from the Target or the Attacker without turning. If the Target/Attacker is on a VP, choose the direction.
 
@@ -261,12 +264,12 @@ Rocksteady. When you are about to suffer Knockdown, you may use this ability to 
 
 Rollout. When you are about to suffer Knockdown while adjacent to the Primordial, suffer Knockback 4 instead.
 
-Rouse X. During the second ability window, place X Rouse tokens (X.1.9.6) in the Kratos Pool.
+Rouse X. During the second ability window, place X Rouse tokens in the Kratos Pool.
 
-Rush. Move with +1 Speed and perform a Melee/Reach Attack with Auto-break 1. You must move at least 3 spaces and reach your target via the shortest possible path.
-Improved Rush. +2 Speed instead and additionally gain +1 Precision on the Attack.
+Rush. Move with +1 @Speed and perform a Melee/Reach Attack with {Auto-break 1}. You must move at least 3 spaces and reach your target via the shortest possible path.
+Improved Rush. +2 @Speed instead and additionally gain +1 Precision on the Attack.
 
-Sacrifice. During the first ability window, you may gain 1 Danger to place one Break token in the Kratos Pool (X.1.9.1).
+Sacrifice. During the first ability window, you may gain 1 @Danger to place one Break token in the Kratos Pool.
 
 Scale. When you are about to perform a test to climb a Vantage Point or Elevated Terrain, automatically succeed at that test instead.
 Scale X. May be treated as Scale. Otherwise, during the first or second ability window, if you are adjacent to the Primordial, you may immediately climb a VP, move to another VP, or move X spaces up on the Endless Staircase.
@@ -279,40 +282,42 @@ Skitter. The Primordial immediately moves X spaces in a straight line in a rando
 
 Solace. Discard a Mind Condition card or a Despair token from yourself or an adjacent Titan.
 
-Spiral X. During the Attack Roll step, you may reroll up to X hits to lose 1 Fate for each. If you reroll a Crit die this way, the original result does not grant you a Crit Chance.
+Spiral X. During the Attack Roll step, you may re-roll up to X hits to lose 1 @Fate for each. If you re-roll a Crit die this way, the original result does not grant you a Crit Chance.
 
-Spotlight. During the first ability window, if you have the Priority Target token, gain 1 Red Power Die for this Attack.
+Spotlight. During the first ability window, if you have the @PriorityTarget Priority Target token, gain 1 @RedPowerDie for this Attack.
 
 Stalwart. When you are about to suffer Knockback, you may use this ability to ignore it.
 
-Stanch (X). When you are about to gain X, reduce that gain by 1 (to a minimum of 1)
-Full Stanch (X). When you are about to gain X, reduce that gain to 1
+Stanch (X). When you are about to gain X, reduce that gain by 1 (to a minimum of 1).
+Full Stanch (X). When you are about to gain X, reduce that gain to 1.
+
+Stand up. Discard the Knockdown Condition card. You may use this ability while knocked down.
 
 Startup X. When you are about to Attack, if there are no Kratos tokens in the Kratos Pool, place X Opening and/or Break tokens in the Kratos Pool.
 
-Strikeback X. If you fully evade a Primordial Attack, you may immediately move up to X spaces and perform a Combat Action, then gain a Combat Fatigue. This is an Interrupt Attack. If this Ability is used during the Primordial Round, gain 1 Power for the Attack.
+Strikeback X. If you fully evade a Primordial Attack, you may immediately move up to X spaces and perform a @CombatAction, then gain a @CombatAction Fatigue. This is an Interrupt Attack. If this Ability is used during the Primordial Round, gain 1 @Power for the Attack.
 
 Stuck. When you initiate an attack with this Weapon, you cannot perform any more voluntary movements this turn.
 
-Succor. During another Titan’s Power Roll, if, after applying all bonuses, they have less total Power than the AT value by exactly 1 and you are within your weapon range of the Primordial, you may gain 1 Rage, a Combat Fatigue, and discard this weapon to add 1 Power to that Power Roll.
+Succor. During another Titan’s Power Roll, if, after applying all bonuses, they have less total Power than the AT value by exactly 1 and you are within your weapon range of the Primordial, you may gain 1 @Rage, a @CombatAction Fatigue, and discard this weapon to add 1 @Power to that Power Roll.
 
-Super Smart Delivery. A Titan with sufficient open hand slots may, as a Free Action or a WoO, equip a gear card with Super Smart Delivery from the Armory and gain 1 Rage.
+Super Smart Delivery. A Titan with sufficient open hand slots may, as a Free Action or a @Reaction, equip a gear card with Super Smart Delivery from the Armory and gain 1 @Rage.
 
-Superior Chance. Second Chance, but if drawing from Obols, first remove the You died horribly card from that deck for this draw only.
+Superior Chance. {Second Chance}, but if drawing from Obols, first remove the You died horribly card from that deck for this draw only.
 
-Suppress. When you deal a wound5 (before responses)7, shuffle the discard pile denoted by the subtype into the appropriate deck. You may only use this ability if there is at least one card in the corresponding discard pile10. (This keyword does not exist without a subtype.)
+Suppress. When you deal a wound (before responses), shuffle the discard pile denoted by the subtype into the appropriate deck. You may only use this ability if there is at least one card in the corresponding discard pile10. (This keyword does not exist without a subtype.)
 BP Suppress. Shuffle the BP discard pile into the BP deck. 
 AI Suppress. Shuffle the AI discard pile into the AI deck. 
 
 Taint X. During the First Ability Window, you must turn X Break tokens in the Kratos Pool into Black tokens.
 
-Temporal  Reflex. When you are about to suffer CRASH, ignore it. If you would suffer Unavoidable Knockback, displace instead.
+Temporal  Reflex. When you are about to suffer {Crash}, ignore it. If you would suffer Unavoidable Knockback, displace instead.
 
 Tilt. When you are about to draw a BP card during an Attack, first discard the top BP card.
 
-Time-Clocked. Gain the Time-Clocked Condition card, Departing side up and remove your miniature from the board. Follow the rules of the Condition card. 
+Time-Clocked. Gain the [Time-clocked|CL1295] Condition card, Departing side up and remove your miniature from the board. Follow the rules of the Condition card. 
 
-Tireless. When you are about to activate the Cumbersome keyword, you may ignore it.
+Tireless. When you are about to activate the {Cumbersome} keyword, you may ignore it.
 
 Titan Possession. Once you equip this Gear card on a Titan, you have to equip it on this Titan for every subsequent Battle. You may, however, junction this Titan with a different Argonaut.
 Argonaut Possession. Once you equip this Gear card on an Argonaut, you have to equip it on that Argonaut’s Titan for every subsequent Battle. 
@@ -326,7 +331,7 @@ Fail Trick. You may immediately flip this card after you Fail to Wound.
 
 Truth X. During the Second Ability Window, place X Break, Opening, Fire, Black, and/or Closing tokens in the Kratos Pool.
 
-Tumble. When you are about to suffer CRASH, roll a d10. On a 6+ ignore it.
+Tumble. When you are about to suffer {Crash}, roll a d10. On a 6+ ignore it.
 
 Unburden X. During the first or second ability window, give X Condition, Despair, or Ambrosia tokens to the closest Titan. (This does not count as gaining those tokens.)
 
@@ -345,18 +350,84 @@ Vault. If you are adjacent to the Primordial, place your miniature on an empty s
 Forced Vault. Vault, but treat it as involuntary movement. If you would have to end this movement outside the Board Edge or on an Indestructible Obstacle Terrain tile, you die instead.
 Terrain Vault. Vault, but check against an adjacent Terrain tile instead of the Primordial.
 
-Voluntary Knockdown. You may gain the Knockdown (standing up) Condition card as a free action.
+Voluntary Knockdown. You may gain the [Knockdown (standing up)|AL0303] Condition card as a free action.
 
 Wish Armor. When you resolve a Wish Attack, you may perform Evasion Rolls and Armor Rolls as if it were a non-Wish Attack. If you exhausted or discarded the gear card that gave you this keyword, you may still use the defensive statistics of that card for this Attack.
 
 Wish Away X. Place the affected Titan on an Irem Tower Terrain tile in front of the Primordial at least X spaces away. If there is no such space, the Titan dies.
 
-Wishcursed. When you trigger Wish Armor, gain 1 Fate.
+Wishcursed. When you trigger Wish Armor, gain 1 @Fate.
 
-Wish Dodge. When you are about to resolve an Evasion Roll, gain +1 Evasion bonus for this roll if you used Wish Armor.
-Advanced Wish Dodge. +2 Evasion bonus instead.
+Wish Dodge. When you are about to resolve an Evasion Roll, gain +1 @Evasion bonus for this roll if you used Wish Armor.
+Advanced Wish Dodge. +2 @Evasion bonus instead.
 
-Wishrod.  During Targeting, if the Attack is a Wish Attack, you may become the Target instead. The Attack gains Doomed.
+Wishrod.  During Targeting, if the Attack is a Wish Attack, you may become the Target instead. The Attack gains {Doomed}.
+
+Abyss. A Titan cannot voluntarily move through or ignore this tile in any way. Range cannot be measured through unoccupied spaces of this tile (but can be measured around the outside).
+
+Ambrosia: When a Titan ends its movement on this tile (voluntarily or not), it gains 1 Ambrosia token. If a Titan starts its turn on this tile and does not move until the end of this turn, it gains 1 Ambrosia token. If a Titan moves through this tile but does not end its movement on it, roll a d10. On a 5 or less, gain 1 Ambrosia token.
+
+Black Ice. If you suffer Crash on this tile, gain 1 Ambrosia.
+
+Black Smoke. If you suffer Crash on this tile, gain 1 Ambrosia.
+
+Board Edge. This tile counts as a Board Edge.
+
+Boundless. You cannot voluntarily move onto this tile. If you would be forced to move onto or beyond this tile or Board Edge, you die.
+
+Chasm. Titans cannot voluntarily move through Chasm spaces. If a Titan ends involuntary movement on a Chasm space, it dies. If it is pushed back or pulled through a Chasm space, it dies. If a Chasm tile is placed under a Titan, it dies.
+
+Cloud. Titans on other Elevated spaces do not ignore this Terrain tile’s Obstacle or Obscuring Traits.
+
+Cover. Titans on this tile have +1 Evasion .
+
+Destructible. When the Primordial moves onto this tile or a Titan is involuntarily moved onto it, the tile is destroyed. 
+Reinforced Destructible. When this tile would be destroyed, instead flip it and the corresponding terrain card over. It then becomes Destructible.
+
+Elevated. When a Titan performs a move onto an Elevated space that ignores Terrain tiles, is on an Elevated  space, or is Knocked Back from an Elevated space, they ignore the Obscuring and Obstacle keywords of every Terrain tile on the Board (if in regards to movement, only for the duration of that movement).
+
+Exposed. If the Primordial is on this tile, it has -1 To-Hit.
+
+Indestructible. This Terrain tile cannot be destroyed in any way. It invalidates Terrain placement on top of it.
+
+Inhabited. Apply any bonuses and penalties listed on the Terrain card based on your Diplomacy Score with the Local Faction. If this Terrain tile is destroyed, lose 1 Diplomacy with the Local Faction.
+
+Light Void. This tile is never considered to be in range of light and a light source on this tile emits no light.
+
+Mobile. A Titan moving through or from any space of this tile may move this tile up to 2 spaces in the same direction.
+
+Monument to Progress. Treat this tile as a Titan for the purposes of Despair adjacency.
+
+Obscuring. This tile blocks Line of Sight except to or from Targets standing on any of its spaces.
+
+Obstacle. Titans cannot move through this tile.
+
+Omnilight. This tile projects light in all directions.
+
+Shifting. If the Primordial ends its movement on this Terrain tile, displace this tile to the closest empty space. If the space was occupied by a Titan, treat them as if the Primordial had ended movement on them. If this tile is moved in any other way, Titans on the tile move with it instead.
+
+Slippery. When a Titan voluntarily moves onto this tile, it must continue to move, and do so in the same cardinal direction for the rest of the movement as long as it is on this tile or until it cannot move further. If a Titan moved diagonally onto this tile, it must continue in a cardinal direction instead.
+
+Trap. This tile has special interactions with the Primordial, listed on the Terrain card.
+Triggering. Trap Terrain tiles trigger off of all involuntary movement, not just the ones listed.
+
+Treasure. This tile has special interactions with Titans, listed on the Terrain card.
+
+Break tokens. Attacking Titans may use any number of Break tokens during the Power Roll step to turn 1 @Potential into 1 @Power for each token used.
+
+Opening tokens. Attacking Titans may use any number of Opening tokens during the Attack Roll step to gain 1 Precision for each token used.
+
+Diversion tokens. If there is a Diversion token in the Kratos Pool, the attacking Titan may use it to ignore Fail Responses.
+
+Fire tokens. During the Power Roll step of a Titan Attack, the Attacking Titan must turn 1 @Potential into 1 @Power for each Fire token in the pool (other tokens may be used first). Remove used Fire tokens after the Power Roll step. Then, during the Clear the Kratos Pool step, remove only 1 Fire token and leave the rest in the Kratos Pool.
+
+Rouse tokens. For each Rouse token in the Kratos Pool, the attacking Titan may treat their @Rage as if it were 1 higher. (This does not cause you to die if you have to treat your @Rage as higher than 9.)
+
+Black tokens. Attacking Titans may use any number of Black tokens during the Power Roll step to re-roll a Power die and then may convert 1 @Potential on that die into 1 @Power for each token used.
+
+Hope tokens. Attacking Titans may use any number of Hope tokens during the Power Roll step to turn 1 @Potential or 1 @Dot into 1 @Power for each token used.
+
+Closing tokens. Attacking Titans may use any number of  Closing tokens to gain 1 Precision for each token used and then may re-roll 1 of their Attack dice with no additional cost for each token used.
 """
 
 from lib.parseFunctions import parse_abilities
