@@ -241,6 +241,12 @@ Mortal Reinforce X. Add X mortal dice instead.
 
 Remote Scan. When you perform a Scan, you may do so from up to 3 spaces away.
 
+Renege (X). This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon (X.5.1). If…
+…no parentheses, you must lose 1 Fate to declare this weapon as your active weapon.
+…X is a negative token, you must discard 1 of that token type to declare this weapon as your active weapon.
+…X is a positive token, you must gain 1 of that  token type to declare this weapon as your active weapon.
+…X is a Charge token, you must gain 1 Charge token to declare this weapon as your active weapon.
+
 Reposition X. During the second ability window, you may move up to X spaces. 
 
 Rescan. When you perform a Scan, you may redraw the Major Trauma you just drew.
@@ -278,6 +284,9 @@ Spiral X. During the Attack Roll step, you may reroll up to X hits to lose 1 Fat
 Spotlight. During the first ability window, if you have the Priority Target token, gain 1 Red Power Die for this Attack.
 
 Stalwart. When you are about to suffer Knockback, you may use this ability to ignore it.
+
+Stanch (X). When you are about to gain X, reduce that gain by 1 (to a minimum of 1)
+Full Stanch (X). When you are about to gain X, reduce that gain to 1
 
 Startup X. When you are about to Attack, if there are no Kratos tokens in the Kratos Pool, place X Opening and/or Break tokens in the Kratos Pool.
 

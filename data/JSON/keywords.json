@@ -2513,6 +2513,46 @@
       }
     ]
   },
+  "Renege (X)": {
+    "mainDef": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This Keyword forces a cost to pay in order to declare this Weapon as an Active Weapon (X"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "1)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If\u2026"
+          }
+        ]
+      }
+    ],
+    "subDef0": "\u2026no parentheses, you must lose 1 Fate to declare this weapon as your active weapon.",
+    "subDef1": "\u2026X is a negative token, you must discard 1 of that token type to declare this weapon as your active weapon.",
+    "subDef2": "\u2026X is a positive token, you must gain 1 of that  token type to declare this weapon as your active weapon.",
+    "subDef3": "\u2026X is a Charge token, you must gain 1 Charge token to declare this weapon as your active weapon."
+  },
   "Reposition X": {
     "mainDef": [
       {
@@ -2858,6 +2898,29 @@
           {
             "type": "plainText",
             "value": "When you are about to suffer Knockback, you may use this ability to ignore it"
+          }
+        ]
+      }
+    ]
+  },
+  "Stanch (X)": {
+    "mainDef": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are about to gain X, reduce that gain by 1 (to a minimum of 1)"
+          }
+        ]
+      }
+    ],
+    "subName0": "Full Stanch (X)",
+    "subDef0": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are about to gain X, reduce that gain to 1"
           }
         ]
       }
