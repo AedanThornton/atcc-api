@@ -338,7 +338,7 @@ def primordial_row(row):
                 "speed": details[1],
                 "wounds": details[2],
                 "attributes": attr_json,
-                "traitsChanges": traits,
+                "traitsChanges": traits if traits != [''] else [],
                 "traitsFullList": traits_list.copy()
             })
 
