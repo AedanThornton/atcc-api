@@ -308,6 +308,20 @@ def primordial_row(row):
             "effects": parse_abilities(row["VP Effects"])[0]
         }
 
+    if row["VP Name+"]:
+        card_json["vp+"] = {
+            "vpCount": row["# of VPs"],
+            "climbTest": {
+                "stat": row["VP Climb Test+"].split(" ")[0],
+                "difficulty": row["VP Climb Test+"].split(" ")[1][0]
+            } if row["VP Climb Test+"] else {},
+            "holdOn": {
+                "test": row["VP Hold On+"],
+                "fail": row["VP Hold On Fail+"]
+            },
+            "effects": parse_abilities(row["VP Effects+"])[0]
+        }
+
     levels_json = []
     traits_list = []
     for i in range(0, 10):

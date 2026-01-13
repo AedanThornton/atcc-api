@@ -339,6 +339,51 @@
         }
       ]
     },
+    "vp+": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "9"
+      },
+      "holdOn": {
+        "test": "Endurance 7+",
+        "fail": "Displace to a Rear space, {Knockdown}"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            },
+            {
+              "type": "plainText",
+              "value": ", you ignore normal Responses, resolve these instead:\\nWound: Gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": ", immediately perform a Hold On test"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Immediately resolve the failed effect of the Hold On test, then perform Signature against the Attacker"
+            }
+          ]
+        }
+      ]
+    },
     "levels": [
       {
         "level": "1",
@@ -573,11 +618,19 @@
           {
             "count": "6",
             "name": "AT"
+          },
+          {
+            "count": "2",
+            "name": "d10"
+          },
+          {
+            "count": "3",
+            "name": "Danger per hit"
           }
         ],
         "traitsChanges": [
-          "2 d10",
-          "3 Danger per hit"
+          "Ruthless",
+          "Beginning of the End"
         ],
         "traitsFullList": [
           "Mazesense",
@@ -590,8 +643,8 @@
           "Lightspeeder",
           "Extradimensional Trample",
           "Fissurebuilder",
-          "2 d10",
-          "3 Danger per hit"
+          "Ruthless",
+          "Beginning of the End"
         ]
       }
     ]
@@ -635,6 +688,51 @@
             {
               "type": "plainText",
               "value": ", you cannot gain Despair tokens and you ignore Responses other than Critical"
+            }
+          ]
+        }
+      ]
+    },
+    "vp+": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "8"
+      },
+      "holdOn": {
+        "test": "Endurance 7+",
+        "fail": "Displace to an adjacent space, {Knockdown}"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            },
+            {
+              "type": "plainText",
+              "value": ", you cannot gain Despair tokens and you ignore normal Responses, resolve these instead:\\nWound: Gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "plainText",
+              "value": ", immediately perform a Hold On test"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail: Immediately resolve the failed effect of the Hold On test, then perform Signature against the Attacker"
             }
           ]
         }
@@ -3644,6 +3742,83 @@
         }
       ]
     },
+    "vp+": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "1"
+      },
+      "holdOn": {
+        "test": "Endurance 10+",
+        "fail": "Knockdown. Displace onto the closest Irem Tower Terrain tile. "
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on the VP, you gain +2"
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore normal Primordial Responses"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Resolve these instead:\\nWound: Midas 3"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "plainText",
+              "value": "Imperial Impetus"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Fail:"
+            },
+            {
+              "type": "keyword",
+              "value": "Airburst 4"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "icon",
+              "value": "WoO"
+            },
+            {
+              "type": "plainText",
+              "value": "Immediately perform the Hold On test"
+            }
+          ]
+        }
+      ]
+    },
     "levels": [
       {
         "level": "1",
@@ -4313,6 +4488,24 @@
       "holdOn": {
         "test": "Wisdom 10+",
         "fail": "Knockdown. {Wish Away X} to the Endless Staircase, where X is half the number of Endless Staircase steps (rounding up)"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may perform a Combined Attack"
+            }
+          ]
+        }
+      ]
+    },
+    "vp+": {
+      "vpCount": "3",
+      "climbTest": {},
+      "holdOn": {
+        "test": "Wisdom 13+",
+        "fail": "Knockdown. {Wish Away X} to the Endless Staircase, where X is the number of Endless Staircase steps"
       },
       "effects": [
         {
