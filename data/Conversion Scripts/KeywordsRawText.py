@@ -17,7 +17,7 @@ Armor Re-roll X. During the Armor Roll step of a Primordial Attack Sequence, you
 
 Ascended. This Gear ignores Power Level penalties.
 
-Assist X. During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the AT value and you are within your weapon’s range, you may gain 1 @Rage and a @CombatAction Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.
+Assist X. During another Titan’s Power Roll, if, after applying all bonuses, their total Power is less than the @AT value and you are within your weapon’s range, you may gain 1 @Rage and a @CombatAction Fatigue to immediately add X Break tokens to the Kratos Pool. This ability can only be used if it allows the Attacker to Wound.
 
 Attack Re-roll X. During an Attack Roll, you may re-roll up to X Attack dice with no cost.
 
