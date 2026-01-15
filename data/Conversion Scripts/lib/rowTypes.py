@@ -286,6 +286,50 @@ def pattern_row(row):
 
     return card_json
 
+def payload_row(row):
+    abilities = []
+
+    if row["Ability 1"]: 
+        ability = {
+            "name": row["Ability 1 Name"],
+            "effects": parse_abilities(row["Ability 1"])[0]
+        }
+
+        if row["Ability 1 Cost"]:
+            ability["cost"] = row["Ability 1 Cost"]
+
+        abilities.append(ability)
+
+    if row["Ability 2"]: 
+        ability = {
+            "name": row["Ability 2 Name"],
+            "effects": parse_abilities(row["Ability 2"])[0]
+        }
+
+        if row["Ability 2 Cost"]:
+            ability["cost"] = row["Ability 2 Cost"]
+
+        abilities.append(ability)
+
+    if row["Ability 3"]: 
+        ability = {
+            "name": row["Ability 3 Name"],
+            "effects": parse_abilities(row["Ability 3"])[0]
+        }
+
+        if row["Ability 3 Cost"]:
+            ability["cost"] = row["Ability 3 Cost"]
+
+        abilities.append(ability)
+
+    card_json = {
+        "kintsukuroi": row["Kintsukuroi"] == "TRUE",
+        "abilities": abilities
+    }
+
+    return card_json
+
+
 def primordial_row(row):
     diagram = row["Diagram"].split(", ")
 
