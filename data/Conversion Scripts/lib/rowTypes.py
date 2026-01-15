@@ -32,7 +32,7 @@ def BP_row(row):
         "nonResponseText": row["Non-Response Text"],
         "responses": parse_responses(row["Responses"]),
         "critFlavor": row["Crit Lore"],
-        "critResponse": row["Crit Response"],
+        "critResponse": parse_abilities(row["Crit Response"])[0],
     }
     
     return card_json
@@ -328,7 +328,6 @@ def payload_row(row):
     }
 
     return card_json
-
 
 def primordial_row(row):
     diagram = row["Diagram"].split(", ")
