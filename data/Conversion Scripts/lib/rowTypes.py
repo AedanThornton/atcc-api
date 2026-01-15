@@ -536,6 +536,19 @@ def trait_row(row):
 
     return card_json
 
+def traitLike_row(row):
+    card_json = {
+        "actualCardType": row["Actual Type"]
+    }
+
+    if row["Reverse Name"]: card_json["name2"] = row["Reverse Name"]
+    if row["Flavor"]: card_json["flavor"] = row["Flavor"]
+    card_json["effects"] = parse_abilities(row["Effect Text"])[0]
+    card_json["usedFor"] = row["Used For"]
+    if row["Card Level"]: card_json["level"] = row["Card Level"]
+
+    return card_json
+
 def trauma_row(row):
     card_json = {
         "flavor": row["Flavor"],

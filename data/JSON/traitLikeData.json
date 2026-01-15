@@ -1,0 +1,2073 @@
+[
+  {
+    "cardIDs": [
+      "AR0413"
+    ],
+    "name": "Idle Hands",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Cow Toss",
+    "flavor": "Devil's playthings",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Argo loses -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hekaton",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0413"
+    ],
+    "name": "Cow Toss",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Idle Hands",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Furthest Titan suffers"
+          },
+          {
+            "type": "keyword",
+            "value": "Knockdown"
+          },
+          {
+            "type": "plainText",
+            "value": ", raise"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "to 9, and draws an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Hekaton moves adjacent to Closest Titan with Unlimited"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hekaton",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0483"
+    ],
+    "name": "The Call",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Home Run",
+    "flavor": "Labyrinthauros pauses to sing the song of surrender. Many listen",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Argo loses -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Labyrinthauros",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0541"
+    ],
+    "name": "Contract",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Contract Will",
+    "flavor": "Temenos's body contracts, becoming an impenetrable shell",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos gains 1 postiive"
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "plainText",
+            "value": "token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Discard this token after the next Temenos attack"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Alpha Temenos",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0541"
+    ],
+    "name": "Contract Will",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Contract",
+    "flavor": "Temenos's body contracts, becoming an impenetrable shell",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains 1 Despair token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos gains 1 postiive"
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "plainText",
+            "value": "token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Discard this token after the next Temenos attack"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Alpha Temenos",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0601"
+    ],
+    "name": "Eyes On The Prize",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Final Judgement",
+    "flavor": "The Pursuer remembers why it came here",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Pursuer moves to the center of the Board and turns to face the most Titans"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          },
+          {
+            "type": "plainText",
+            "value": "and -1"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hermesian Pursuer",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "AR0602"
+    ],
+    "name": "Ambrosia: Harrow",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Flare",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains as many"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "as they have Ambrosia tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hermesian Pursuer",
+    "level": "F"
+  },
+  {
+    "cardIDs": [
+      "AR0603"
+    ],
+    "name": "Ambrosia: Burnout",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Flare",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains as many"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "as they have Ambrosia tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hermesian Pursuer",
+    "level": "F"
+  },
+  {
+    "cardIDs": [
+      "AR0604"
+    ],
+    "name": "Ambrosia: Stain",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Flare",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan assigns all of their Ambrosia tokens to their Titan Sheet, Kratos Table, or to any of their"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "or Mnemos cards (up to 1 token on each element)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Treat these elements' ability text as blank"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "These Ambrosia tokens still count towards the Ambrosia Limit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this ability didn't trigger, the Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hermesian Pursuer",
+    "level": "F"
+  },
+  {
+    "cardIDs": [
+      "AR0605"
+    ],
+    "name": "Ambrosia: Drain",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Flare",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are 3+ Ambrosia tokens in total on all Titans, the Pursuer performs Heal"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this ability didn't trigger, Pursuer moves to the center of the Board, turns to face the most Titans, and performs Signature"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hermesian Pursuer",
+    "level": "F"
+  },
+  {
+    "cardIDs": [
+      "AS0503"
+    ],
+    "name": "Gaze Of Temenos",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Trap",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Test Endurance (8+)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fail: Gain +3"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": ", +3"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "and the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then remove this card from the deck and draw another BP card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The will beyond wills looks into your heart and finds only fear"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Labyrinthauros",
+    "level": "III"
+  },
+  {
+    "cardIDs": [
+      "BR0744"
+    ],
+    "name": "Infuriating Roar",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Infuriating Roar",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains +2"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and +1"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Refugees"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "plainText",
+            "value": "Cyclonus moves to center of the Board"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Cyclonus",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "BR0744"
+    ],
+    "name": "Infuriating Roar",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Infuriating Roar",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains +3"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "and +2"
+          },
+          {
+            "type": "icon",
+            "value": "Rage"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "WoO Cyclonus moves to center of the Board"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Cyclonus",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "BR0800"
+    ],
+    "name": "Terrorize",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Snakes And Ladders",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All Titans on Vantage Points suffer Displacement onto a Rear space and Knockdown"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1 Humanity"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Chimera Metastasios",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "BR1130"
+    ],
+    "name": "Imposter's Gaze",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Steal 1 Mnemos node from each Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Progress"
+          },
+          {
+            "type": "plainText",
+            "value": "token from the current Story card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are no"
+          },
+          {
+            "type": "icon",
+            "value": "Progress"
+          },
+          {
+            "type": "plainText",
+            "value": "tokens on the current Story card, gain +2"
+          },
+          {
+            "type": "icon",
+            "value": "Doom"
+          },
+          {
+            "type": "plainText",
+            "value": "instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "plainText",
+            "value": "Burden moves to the center of the Board"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Burden",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "BS0822"
+    ],
+    "name": "Absorbed",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Status",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you are Absorbed, place your Titan here"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as you are Absorbed, you cannot move (voluntarily or involuntarily) and you attack as if you were on a VP"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "bold",
+            "value": "Indigestion"
+          },
+          {
+            "type": "plainText",
+            "value": ": If there are any Absorbed Titans, when the Chimera suffers a Secondary Stack Wound, place 1 generic token under each Titan miniature here"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, if there are 2 or more generic tokens under a miniature, that Titan is regurgitated! Place their miniature on an empty space adjacent to the Chimera"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "timing",
+            "value": "End of Titan Round"
+          },
+          {
+            "type": "plainText",
+            "value": "Each Absorbed Titan gains 1 Ambrosia token and draws an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Discard all generic tokens under the Absorbed Titans"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "cardRef",
+            "value": "Zeus",
+            "refID": "AQ0386"
+          },
+          {
+            "type": "plainText",
+            "value": "Godform has +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          },
+          {
+            "type": "plainText",
+            "value": "when Absorbed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "If you are ever Absorbed while being Absorbed, you die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "Each still Absorbed Titan resolves the"
+          },
+          {
+            "type": "italics",
+            "value": "Bellynaut"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Chimera Metastasios",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "CR1343"
+    ],
+    "name": "In Media Res",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "This card cannot be chain broken",
+    "errata": "",
+    "actualCardType": "Attack",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Starting from the lowest"
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "plainText",
+            "value": "and continuing in ascending order, Titans must draw and resolve a Minor, Major, and Grave Trauma (one card per Titan)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then remove this card from the Battle and draw another AI card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This card never escalates"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hypertime Oracle",
+    "level": "0"
+  },
+  {
+    "cardIDs": [
+      "CR1364"
+    ],
+    "name": "Skip Timeline",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Oracle moves 4 spaces towards the Timefront (stop if adjacent)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Escalate 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Doom"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hypertime Oracle",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "CR1365"
+    ],
+    "name": "Omega Terminus",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Status",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "While on this card, during your turn, you can only unexhaust and/or attack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "If you deal a Wound, place your Titan on a space adjacent to the Timefront in a straight line from the Oracle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you fail to Wound, ignore responses"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "At the end of your turn, if you're still in the Omega Terminus, you are erased from existence"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Zeus Godform gains +1"
+          },
+          {
+            "type": "icon",
+            "value": "Power"
+          },
+          {
+            "type": "plainText",
+            "value": "here"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Hypertime Oracle",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "CR1714"
+    ],
+    "name": "Icarian Shriek",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan suffers"
+          },
+          {
+            "type": "keyword",
+            "value": "Bleeding 3"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Icarian Harpy",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "DR2414"
+    ],
+    "name": "Auric Storm",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan gains 2 Midas tokens and 2 Ambrosia tokens"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Midascore",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "DR2415"
+    ],
+    "name": "Impaled",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Status",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you become Impaled, place your miniature on this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During your turn you can either try to Get Free or attack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You can only use Melee Weapons"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you succeed, Displace"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "bold",
+            "value": "End of your turn:"
+          },
+          {
+            "type": "plainText",
+            "value": "If you start your turn Impaled,"
+          },
+          {
+            "type": "keyword",
+            "value": "Midas 2"
+          },
+          {
+            "type": "plainText",
+            "value": ", then gain X+5"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": ", where X is the number of Midas tokens you have, then resolve a Trauma Draw"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Midascore",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "DR2453"
+    ],
+    "name": "The Last Wish",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "True Wish",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All Titans die"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Demidjinn",
+    "level": "IV"
+  },
+  {
+    "cardIDs": [
+      "DR2455"
+    ],
+    "name": "Wish Dissonance",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          },
+          {
+            "type": "plainText",
+            "value": "and -1"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Random Titan dies"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Demidjinn",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "DR2456"
+    ],
+    "name": "The Last Wish",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "True Wish",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Start of Battle (Level 4+):"
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Place this card at the bottom of the AI deck and never shuffle or discard it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "All Titans die"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Demidjinn",
+    "level": "0"
+  },
+  {
+    "cardIDs": [
+      "DR2495"
+    ],
+    "name": "Total Lunacy",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Staircase:"
+          },
+          {
+            "type": "plainText",
+            "value": "Disappears!\\nRandom Titan dies"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Babelian Lunacy",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3042"
+    ],
+    "name": "Churning Black",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan discard 1 Oxygen token and a"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card with the highest Ligh tX keyword"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the Dragon of Phobos disappears (remove it from the Battle Board)"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Dragon of Phobos",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3081"
+    ],
+    "name": "Black Immolation",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan discards 1 Oxygen token, suffers"
+          },
+          {
+            "type": "keyword",
+            "value": "Burn"
+          },
+          {
+            "type": "plainText",
+            "value": ", and gains 1 Ambrosia token"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Meduketos",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3121"
+    ],
+    "name": "Argo Burns",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Coming of Darkness",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Move Ur-Fleece 6 spaces on the Abyss Track"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Ur-Fleece",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3121"
+    ],
+    "name": "Coming of Darkness",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Mnestis Theatre",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "name2": "Argo Burns",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All Titans gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Terror",
+            "refID": "EL2596"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Black March"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "plainText",
+            "value": "Black March"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Ur-Fleece",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3141"
+    ],
+    "name": "Aether Suck",
+    "cardType": "",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Beta",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Attack",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Remove all Aether tokens from each Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For every 4 tokens removed this way, perform Signature"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this ability didn't trigger, Blackbeak moves to the center of the Board, turns to face the most Titans, and performs AI"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Blackbeak",
+    "level": "F"
+  },
+  {
+    "cardIDs": [
+      "ER3165"
+    ],
+    "name": "Eyes on the Gleaming Prize",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Routine",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan X moves to the closest Board Edge; move all Titans 8 spaces in the opposite direction"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan X turns to face the most Titans"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
+          },
+          {
+            "type": "plainText",
+            "value": "and -1"
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3166"
+    ],
+    "name": "Unreadable",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as this Feint is in play, draw AI and BP cards form the bottom of the appropriate deck (and not the top)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you wound a BP III, after performing Escalation, shuffle the BP deck"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3167"
+    ],
+    "name": "Overstep (I)",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Overstep BP I",
+            "refID": "ES3194"
+          },
+          {
+            "type": "plainText",
+            "value": "into the BP deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, remove this card from the Feint deck"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3168"
+    ],
+    "name": "Overstep (II)",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Shuffle the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Overstep BP II",
+            "refID": "ES3195"
+          },
+          {
+            "type": "plainText",
+            "value": "into the BP deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, remove this card from the Feint deck"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3169"
+    ],
+    "name": "Riposte",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as this Feint is in play, all your Attacks gain: \""
+          },
+          {
+            "type": "bold",
+            "value": "Full Miss:"
+          },
+          {
+            "type": "plainText",
+            "value": "Titan X performs Signature against the Attacker\""
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3170"
+    ],
+    "name": "Met Your Match",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as this Feint is in play, all your Attacks gain: \""
+          },
+          {
+            "type": "bold",
+            "value": "Full Miss:"
+          },
+          {
+            "type": "keyword",
+            "value": "Pain X"
+          },
+          {
+            "type": "plainText",
+            "value": ", where X is the top BP card's level\""
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3171"
+    ],
+    "name": "No Rules",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as this Feint is in play, and you're in front of Titan X, ignore Opening and Closing tokens"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3172"
+    ],
+    "name": "Blinding Lights",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When this Feint is drawn, Titan goes for the"
+          },
+          {
+            "type": "italics",
+            "value": "Argo"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Immediately discard 1 random Argo Ability from the Battle"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3173"
+    ],
+    "name": "Mind Games",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When this Feint is drawn, clear the Kratos Pool and place this card in the Kratos Pool"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, the next time you would place tokens in the Kratos Pool, don't, but discard this card instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "If this card was drawn as an effect of the AI 0, discard it and draw again"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3174"
+    ],
+    "name": "Feint Injury",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When this Feint is drawn,"
+          },
+          {
+            "type": "keyword",
+            "value": "Heal 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then remove this card form the Feint deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If this card was drawn as an effect of the AI 0, discard it and draw again"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ER3175"
+    ],
+    "name": "Junction Seizure",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "Feint",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When this Feint is drawn, if all Titans have 10+ Pain tokens combined, discard those tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Every Titan gains as much"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "plainText",
+            "value": "as they discard Pain tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the Titans don't have 10+ Pain tokens, every Titan gains 2 Pain tokens instead"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "X"
+  },
+  {
+    "cardIDs": [
+      "ES3194"
+    ],
+    "name": "Overstep",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "BP",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you rolled a Crit Chance, immmediately end this Attack and discard this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, Chain Break"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, Titan X immediately performs AI against you"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, remove this card from the deck"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "I"
+  },
+  {
+    "cardIDs": [
+      "ES3195"
+    ],
+    "name": "Overstep",
+    "cardType": "Trait-like",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "actualCardType": "BP",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you rolled a Crit Chance, immmediately end this Attack and discard this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, Chain Break"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, Titan X immediately performs AI against you"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, remove this card from the deck"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Titan X",
+    "level": "II"
+  }
+]
