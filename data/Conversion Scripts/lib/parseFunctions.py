@@ -7,7 +7,7 @@ def parse_formatted_sentence(raw_sentence):
     if not raw_sentence: return None, None
 
     token_regex = re.compile(
-        r"(\\n)"
+        r"(<<NL>>)"
         r"|{([^}]+)}"            # {keyword}
         r"|<([^>]+)>"           # <timing>
         r"|\[([^\]]+)\]"        # [cardRef]
@@ -283,9 +283,9 @@ def parse_argo_abilities(raw_abilities):
 
         if len(name_split) > 1:
             ability_obj["name"] = name_split[0]
-            ability_obj["effects"] = parse_formatted_sentence(name_split[1])[0]
+            ability_obj["effects"] = parse_abilities(name_split[1])[0]
         else:
-            ability_obj["effects"] = parse_formatted_sentence(name_split[0])[0]
+            ability_obj["effects"] = parse_abilities(name_split[0])[0]
 
         ability_json.append(ability_obj)
 

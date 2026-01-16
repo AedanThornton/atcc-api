@@ -68,11 +68,12 @@
               "value": "Proceed to the first step of the Campaign Round"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "To progress through the story you must gather"
@@ -106,11 +107,12 @@
               "value": "token either on the current Story card or on the Inward Odyssey card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -176,11 +178,12 @@
               "value": "symbol"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If there are no unoccupied"
@@ -218,11 +221,12 @@
               "value": "symbol"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You cannot use"
@@ -244,11 +248,12 @@
               "value": "covered by the City of the Bull marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Finding the City:"
@@ -297,11 +302,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the four Story 2A Clue cards and shuffle the,"
@@ -337,13 +343,10 @@
             {
               "type": "plainText",
               "value": "Correctly match the clue from the card to the clue on the Map tile to find what to do next!"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can contineu placing"
@@ -441,11 +444,12 @@
               "value": "card with the remaining Clue cards to create the Pursuit deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Looking for the Flagship:"
@@ -511,21 +515,23 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the five Story 3A Clue cards and shuffle them to create the Temple deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -563,11 +569,12 @@
               "value": "Note searched Temples in the Map section of the Argo Sheet"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can collect"
@@ -597,11 +604,12 @@
               "value": "tokens on this card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2"
@@ -623,11 +631,12 @@
               "value": "This is not considered drawing a card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5"
@@ -649,11 +658,12 @@
               "value": "This is not considered drawing a card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "9"
@@ -667,11 +677,12 @@
               "value": ": Draw the top card from the Temple deck and resolve it"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you find the full set of coordinates of the Sepulcher Acropolis, turn this card to side 3B"
@@ -711,11 +722,12 @@
               "value": "Then, when you reveal the Map tile designated by the coordinates, immediately place the Sepulcher Acropolis marker on this tile"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Find the Sepulcher Acropolis:"
@@ -767,21 +779,23 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the Minoan Guide is with you, see 0089"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the Old Spinner is with you, immediately place 1"
@@ -795,11 +809,12 @@
               "value": "token on this card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Dog Days Are Over:"
@@ -818,21 +833,23 @@
               "value": "Exploration card from the Exploration deck (return it to the box)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You need to create the Ariadne's Anchor and rush back to Knossos"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Reach Knossos:"
@@ -866,11 +883,12 @@
               "value": ")"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Upgrade the Anchor:"
@@ -935,21 +953,23 @@
               "value": "Then, immediately go on an adventure from the Dreams Laid Bare hub (if you finished this hub already, choose another hub to go on an adventure from!)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "With the Ariadne's Anchor upgraded and operational, it is time to head to Knossos"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Reach Knossos:"
@@ -1026,11 +1046,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -1042,113 +1063,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "1: Endless Decks"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2: Phos Dance"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "23: Glitch in the Engine"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "4: A Distant Thunder"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5: Mark of the Maker"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "6: Of Dreams and Memories"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "7: Blood of the Mother"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "8: See the Forest"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "9: Days of Meaninglessness"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "10: Memory of a Distant Shore"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "After you resolve the last adventure from this list, flip this card"
@@ -1182,11 +1170,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -1198,103 +1187,73 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "11: Garden of Solitude"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "12: The Argonites"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "13: Children of the Earth"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "14: Remembrance"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "15: A Spy Among Us"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "16: Fire in the Depths"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "17: United"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "18: The Final Deterrent"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "19: Black Blood Cryptex"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "20: Echoes of Long-Lost Battles"
@@ -1391,11 +1350,12 @@
               "value": "Proceed to the first step of the Campaign Round"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -1498,11 +1458,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "From this point onward, you can freely traverse"
@@ -1532,11 +1493,12 @@
               "value": "Note this on your Argo Sheet"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Gain the"
@@ -1567,11 +1529,12 @@
               "value": ") denote possible locations of the Nietzschean"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the six 2A Clue cards and shuffle them"
@@ -1622,11 +1585,12 @@
               "value": "When you lose a Battle, shuffle all revealed Fortress cards back into the deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "icon",
               "value": "Progress"
@@ -1694,11 +1658,12 @@
               "value": "If no Fortress card is currently revealed, draw one now"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "icon",
               "value": "Progress"
@@ -1722,13 +1687,10 @@
             {
               "type": "plainText",
               "value": "on this card and you're on the correct tile with the Spartan Stronghold symbol, during the Story Step you may initiate the Siege of Sparta and see:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "10-14"
@@ -1742,11 +1704,12 @@
               "value": "Ragtag force: 0053"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "15-19"
@@ -1760,11 +1723,12 @@
               "value": "Sizeable force: 0054"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "20+"
@@ -1811,11 +1775,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the seven Story 3A Clue cards and shuffle them to create the"
@@ -1834,11 +1799,12 @@
               "value": "At the end of each Timeline Step, draw 1 card from this deck and resolve it"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Place the Blockade token on the top space of the Blockade diagram on this card"
@@ -1860,11 +1826,12 @@
               "value": "At the end of each Movement Step, move the token 1 space clockwise"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Eligible Resistance havens are"
@@ -1878,11 +1845,12 @@
               "value": "named in the 2B Story adventure (if you're not sure which, check the noted paragraph again and follow the instructions there)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the Argophylae deck runs out of cards, shuffle it"
@@ -1990,11 +1958,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Immediately reveal the Temple of Man tile (018)"
@@ -2048,11 +2017,12 @@
               "value": "tokens"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "icon",
               "value": "Progress"
@@ -2062,11 +2032,12 @@
               "value": "placed on this card represents the strength of the Resistance in the region"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are at least 10"
@@ -2080,11 +2051,12 @@
               "value": "tokens on this card and the Argo is on the Temple of Man tile, during the Story Step you may initiate the Siege of the Temple of Man and see 0201"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "("
@@ -2104,13 +2076,10 @@
             {
               "type": "plainText",
               "value": ", you won't be able to return to the Voyage Phase!)"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: The more"
@@ -2140,11 +2109,12 @@
               "value": "Place an Edge marker and a Time marker on the Battle track, on space '0' (unless the Edge marker has already been moved)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "During the Battle, move the Edge marker 1 space each time the Nietzschean is dealt a Wound (treat a Double Wound as two Wounds)"
@@ -2164,93 +2134,94 @@
             {
               "type": "plainText",
               "value": "When a marker reaches the indicated space or the event happens (in case of the 12th Wound), trigger the appropriate story paragraph (resolve it immediately):"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Time 1: see 0212"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Time 2: see 0213"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Edge 6: see 0214"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Time 3: see 0217"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Time 4: see 0220"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Edge 10: see 0222"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "12th Wound dealt, see 0224"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "bold",
               "value": "Darkest Hour"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "At the start of the Battle, if you gathered a Sizeable or Overwhelming Force, choose a space on the Battle track"
@@ -2280,21 +2251,19 @@
               "value": "tokens instead if you have Overwhelming Force)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "bold",
               "value": "The Sea of People"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "At the start of Battle, place a number of Support tokens (mark them with generic tokens) on this card equal to the number of your"
@@ -2312,21 +2281,19 @@
               "value": "During this Battle, when a Titan is about to attack, you may discard exactly 1 Support token to immediately place 1 Opening or Break token in the Kratos Pool"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "bold",
               "value": "Ties that Bind"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If Cyclopes: Allied, the first time a Titan is about to die from a normal Attack (i"
@@ -2348,41 +2315,41 @@
               "value": "without any additional Attack type), see 0243"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If Symmachy: Allied, the first time a Titan is about to die from a Judgement Attack, see 0245"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If Helots: Allied, the first time a Titan is about to die from a Zone Attack, see 0244"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "bold",
               "value": "The Battles commenses!"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you've read all the rules here and in the Storybook, see 0211"
@@ -2430,11 +2397,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -2446,113 +2414,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "21: Land of the Strong and Free"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "22: The Price of Difference"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "23: Scorned Smith"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "24: Chimeric War"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "25: The Nymph and the Engine"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "26: The Means the End"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "27: The Muse Kids"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "28: Way of Strength"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "29: A Titan's View"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "30: The Rule of the Blade"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "After you resolve the last adventure from this list, flip this card"
@@ -2586,11 +2521,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -2602,103 +2538,73 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "31: Blood of the Earth"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "32: The Fourth"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "33: As Above, So Below"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "34: Shadow Play"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "35:Argo-bred"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "36: Forsaken Aeons"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "37: Unyielding"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "38: Days of Aeons Past"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "39: Gen 1"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "40: Song of Life"
@@ -2777,11 +2683,12 @@
               "value": "Proceed to the first step of the Campaign Round"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -2795,11 +2702,12 @@
               "value": "on this card, see 0008"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "During the Story Step of the 6th day, see 0009"
@@ -2838,11 +2746,12 @@
               "value": "When you reveal the 5th Lighthouse, during the Story Step, see 0017"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Note:"
@@ -2861,11 +2770,12 @@
               "value": "Technology card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can place"
@@ -2877,13 +2787,10 @@
             {
               "type": "plainText",
               "value": "token on this card to study the unusual temporal phenomena and the fractured land of Delphi:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2"
@@ -2897,11 +2804,12 @@
               "value": ": You partially reconstruct the geographical map of Delphi, immediately see 0016"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5+"
@@ -2956,11 +2864,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the six Story 2A Clue cards and shuffle them to create the"
@@ -3035,11 +2944,12 @@
               "value": "You will only mark these in the Matrix once you see the paragraph below"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can collect"
@@ -3059,13 +2969,10 @@
             {
               "type": "plainText",
               "value": "They will come in handy later and will also have some immediate benefits, allowing you to choose from a wider variety of events:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "1"
@@ -3079,11 +2986,12 @@
               "value": ": Draw another event (you still need to change only 3 events)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "3"
@@ -3097,11 +3005,12 @@
               "value": ": Draw another event (you still need to change only 3 events)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5+"
@@ -3115,11 +3024,12 @@
               "value": ": Draw another event (you still need to change only 3 events)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "As soon as you change 3 events in a Single Time Loop, see 0059"
@@ -3198,11 +3108,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the three remaining Story 3A Clue cards and shuffle them to create the"
@@ -3213,11 +3124,12 @@
               "refID": ""
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You need to find a chariot piece depicted on any of the Maps you have acquired (including the one you already have)"
@@ -3231,11 +3143,12 @@
               "value": "Chariot pieces are represented on the Map tiles with the Chariot A and Chariot B symbols"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Note:"
@@ -3254,11 +3167,12 @@
               "value": "Technology card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can collect"
@@ -3270,13 +3184,10 @@
             {
               "type": "plainText",
               "value": "to gain additional Chariot Maps:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2+"
@@ -3288,13 +3199,10 @@
             {
               "type": "plainText",
               "value": ": Draw a card form the Chariot Map deck"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5+"
@@ -3306,13 +3214,10 @@
             {
               "type": "plainText",
               "value": ": Draw a card form the Chariot Map deck"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "9+"
@@ -3326,11 +3231,12 @@
               "value": ": Draw the last card form the Chariot Map deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Finding the Aspirant:"
@@ -3375,11 +3281,12 @@
               "value": "symbol"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Move all"
@@ -3415,13 +3322,10 @@
             {
               "type": "plainText",
               "value": "to gain additional Chariot Maps:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2+"
@@ -3433,13 +3337,10 @@
             {
               "type": "plainText",
               "value": ": Draw a card form the Chariot Map deck"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5+"
@@ -3451,13 +3352,10 @@
             {
               "type": "plainText",
               "value": ": Draw a card form the Chariot Map deck"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "9+"
@@ -3475,8 +3373,7 @@
         {
           "abilityText": [
             {
-              "type": "plainText",
-              "value": "\\"
+              "type": "newline"
             },
             {
               "type": "bold",
@@ -3508,15 +3405,18 @@
             },
             {
               "type": "plainText",
-              "value": "symboland this symbol matches the symbol on the first Chariot part you found, during the Story Step, see 0118"
+              "value": "symbol and this symbol matches the symbol on the first Chariot part you found, during the Story Step, see 0118"
             }
           ]
         },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "plainText",
-              "value": "\\When this story card is revealed erase your current Loop End from the timeline, then count X days from the current day and mark the last day as the Loop End"
+              "value": "When this story card is revealed erase your current Loop End from the timeline, then count X days from the current day and mark the last day as the Loop End"
             }
           ]
         },
@@ -3527,11 +3427,12 @@
               "value": "X is your Loop Length"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
@@ -3585,11 +3486,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -3611,71 +3513,74 @@
               "value": "During the Story Step of that day, see 0135"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "plainText",
               "value": "X is:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 85+: 1 day"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 80-84: 2 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 75-79: 3 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 70-74: 5 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 69 or earlier: 8 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
@@ -3718,13 +3623,10 @@
             {
               "type": "plainText",
               "value": "The Argo Works have built you a new, flying ship, a heavenly chariot of your own! Instead of a normal move, you may resolve one or both of these effects:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "--Place the"
@@ -3744,23 +3646,21 @@
             {
               "type": "plainText",
               "value": "symbol,"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "--Move up to 3 tiles (you must stop on the first unexplored Map tile); you only resolve the symbols and effects of the tile you stop on"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Reach the Sun's Domain:"
@@ -3778,11 +3678,12 @@
               "value": ")"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "An End to All Things: If, at any point, you reach the Loop End, you lose the game"
@@ -3846,11 +3747,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -3862,113 +3764,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "41: Throne of Heavens"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "42: Burden of Proof"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "43: In God's Name"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "44: Crisis of Faith"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "45: A Day Under the Sun"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "46: Mother Dark"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "47: To Grasp the Stars"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "48: Inherintence"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "49: Holy Murder"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "50: Unto Dawn"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "After you resolve the last adventure from this list, flip this card"
@@ -4002,11 +3871,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -4018,103 +3888,73 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "51: The First Junction"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "52: Shadow of the Mountain"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "53: Machina Ex Deus"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "54: The Iron Extinction"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "55: Sacred Weapons"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "56: The Typhon Comes"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "57: How the World Was Born"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "58: Trespassing Aeons"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "59: How the World Was Murdered"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "60: Perpetual Motion"
@@ -4183,11 +4023,12 @@
               "value": "Proceed to the first step of the Campaign Round"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Ceaseless Aggression:"
@@ -4197,11 +4038,12 @@
               "value": "As long as you are on Story 1A, at the start of each Timeline Battle add 1 random Cursed Trait"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Acclimation note!"
@@ -4243,11 +4085,12 @@
               "value": "Special Event"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you gain, you may place 1"
@@ -4326,11 +4169,12 @@
               "value": "When you reveal the 5th City this way, during the Story Step, see 0038"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can place"
@@ -4342,13 +4186,10 @@
             {
               "type": "plainText",
               "value": "tokens on this card to pay for bribes and bring the bablos to you:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2"
@@ -4366,11 +4207,12 @@
               "value": "City"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5"
@@ -4388,11 +4230,12 @@
               "value": "City"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "7+"
@@ -4408,13 +4251,10 @@
             {
               "type": "icon",
               "value": "City"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Ceaseless Aggression:"
@@ -4424,11 +4264,12 @@
               "value": "As long as you are on Story 1B, at the start of each Timeline Battle add 1 random Cursed Trait"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Acclimation note!"
@@ -4502,11 +4343,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Acclimation note!"
@@ -4516,11 +4358,12 @@
               "value": "If you have already advanced the Timeline past the first Acclimation, as soon as you reach Story 2A and read this, perform this Acclimation"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the six Story 2A Clue cards, shuffle them, then, without looking, remove one and return it to the box (you won't be using it)"
@@ -4550,11 +4393,12 @@
               "value": "You will place these tokens on the map"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you start the Story step on an empty"
@@ -4584,11 +4428,12 @@
               "value": "to denote it"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You can place"
@@ -4600,13 +4445,10 @@
             {
               "type": "plainText",
               "value": "tokens on this card to pay for bribes that will hasten your search:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "2"
@@ -4620,11 +4462,12 @@
               "value": ": Without looking at it, discard 1 Clue card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "4"
@@ -4638,11 +4481,12 @@
               "value": ": Without looking at it, discard 1 Clue card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "7+"
@@ -4687,33 +4531,32 @@
             {
               "type": "plainText",
               "value": "Keep the storybook open; you'll be referring to it often!"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you located the Hanging Gardens, place their marker on the indicated Map tile"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Travel to the Hanging Gardens"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -4760,11 +4603,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Check the following Map tiles in order and stop as soon as you arrive at a Map tile not already explored"
@@ -4898,11 +4742,12 @@
               "value": "If, for some reason, you have explored all of these Map tiles, you can choose which one of them has the Old Refinery City (do it now)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you gain"
@@ -4982,11 +4827,12 @@
               "value": "There are several on the Map, but some are exhausted, not eligible--if you're not sure which, check the aformentioned paragraph"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -5089,11 +4935,12 @@
               "value": "Immediately: See 3300"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Reach Pandora's Jar:"
@@ -5157,11 +5004,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -5173,113 +5021,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "61: Daybreak"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "62: Polyphemos"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "63: The Glassblower"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "64: The Glorious Climb"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "65: The King and the Philosopher"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "66: The Great Crime"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "67: The Last Lotus Eater"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "68: Cast to the Four"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "69: Long Voyage Home"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "70: Titanaktisos"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "After you resolve the last adventure from this list, flip this card"
@@ -5313,11 +5128,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -5329,103 +5145,73 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "71: The Island of Pigs"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "72: A Girl from Uruk"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "73: Smoke and Mirrors"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "74: The Sun Endures"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "75: Due Time"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "76: Gardens of the Moon"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "77: The Laestrygonian"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "78: Jason"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "79: Kiss of Mnemosyne"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "80: Nostos"
@@ -5507,11 +5293,12 @@
               "value": "Proceed to the first step of the Campaign Round"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "On reveal:"
@@ -5529,11 +5316,12 @@
               "value": "tokens on this card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you would gain"
@@ -5563,11 +5351,12 @@
               "value": "If there are no more tokens on this card, see 0028"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "You may discard tokens from this card only if the Last Visited City token is on the Map, on a surface City"
@@ -5623,11 +5412,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "On reveal:"
@@ -5645,11 +5435,12 @@
               "value": "tokens on this card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you would gain"
@@ -5671,21 +5462,23 @@
               "value": "token from this card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If there are no more tokens on this card, see 0039"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You may discard tokens from this card only if the Last Visited City token is on the Map, on a surface City"
@@ -5731,11 +5524,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you gian"
@@ -5800,11 +5594,12 @@
               "value": "tile that does not have the Last Visited Underwater City token or any other tokens on it, see 0577"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "During this Story card, if you wish, you may place additional"
@@ -5866,21 +5661,23 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Immediately: see 1399"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You now have a Phos Map that supposedly leads to the capital of Atlantis"
@@ -5894,11 +5691,12 @@
               "value": "You need to find the tile shown on that Map card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Each time you gain"
@@ -5926,13 +5724,10 @@
             {
               "type": "plainText",
               "value": "Then, if you have:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "3+"
@@ -5946,11 +5741,12 @@
               "value": ": Gain another, random Story 3A Clue card (cards 3AA-3AF)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "5+"
@@ -5964,21 +5760,23 @@
               "value": ": Check your Phos Map cards for deatils on new actions"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you start the Story Step on a tile you think is the correct one, match the clue form the card to the clue on the tile to find a paragraph number! If you are correct, place the Atlantean Capital marker on your tile and proceed to the appropriate paragraph"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Important: Be sure you're ready for what is to come"
@@ -6005,11 +5803,12 @@
               "value": "If the Doom card number is lower than the Story card number, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -6031,71 +5830,74 @@
               "value": "During the Story Step of that day, see 2407"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
             {
+              "type": "newline"
+            },
+            {
               "type": "plainText",
               "value": "X is:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 65+: 1 day"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 60+: 6 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 50+: 12 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 40+: 18 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If it's day 39 or earlier: 20 days"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "You don't need"
@@ -6165,11 +5967,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Immediately::"
@@ -6179,11 +5982,12 @@
               "value": "If the Doom card number is lower than 3, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Immediately:"
@@ -6193,11 +5997,12 @@
               "value": "See 2406"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "End of Hope:"
@@ -6216,11 +6021,12 @@
               "value": "Technology card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Take the seven 4A Clue cards and shuffle them"
@@ -6267,11 +6073,12 @@
               "value": ", during the Story Step, draw an Unknown Delos card and place a Generic token on the visited location to mark it as searched (you cannot gain any more Unknown Delos card from that tile)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "The Unknown Delos cards will reveal to you the place you need to go--a paragraph number"
@@ -6301,11 +6108,12 @@
               "value": "tag"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Warning:"
@@ -6338,11 +6146,12 @@
               "value": "If the Doom card number is lower than 3B, during the Doom Step, flip or archive the current Doom card, triggering any relevant paragraph"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "End of Hope:"
@@ -6455,11 +6264,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -6471,113 +6281,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "81: My Ship"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "82: All Great Truths"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "83: A Life Unfinished"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "84: I Am the Message"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "85: The Great Hierei"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "86: Dark"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "87: Favorite Son"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "88: Lies of Trismegistus"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "89: Creatures of Habit"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "90: The Silver Age"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "After you resolve the last adventure from this list, flip this card"
@@ -6611,11 +6388,12 @@
               "value": "ArgoKnowledge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When you reach a given"
@@ -6627,113 +6405,80 @@
             {
               "type": "plainText",
               "value": "level, during the Story Step, after all other Story events, resolve the corresponding Inward Odyssey adventure:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "91: A Heel Turn"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "92: The Cult of Telemachus"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "93: The Tortoise and the Hare"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "94: Speak Not of Ilion"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "95: Music of the Spheres"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "96: The Trojan"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "97: Worldcarers"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "98: Genesis"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "99: A Ship Named Argo"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "100: Kathairein"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "101: My Penelope"
@@ -6774,11 +6519,12 @@
               "value": "When this card is revealed, perform a Divine Surge"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Time is Ticking:"
@@ -6834,13 +6580,10 @@
             {
               "type": "plainText",
               "value": "tokens to the other side,"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Last One Out:"
@@ -6850,11 +6593,12 @@
               "value": "For the purposes of Adventure Hub selection, treat this card as if it was Story 4B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you start the Story Step on a tile that contains the"
@@ -6937,13 +6681,10 @@
             {
               "type": "plainText",
               "value": "tokens to the other side,"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Last One Out:"
@@ -6953,11 +6694,12 @@
               "value": "For the purposes of Adventure Hub selection, treat this card as if it was Story 4B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If you start the Story Step on the Atlantean Capital tile, any Unknown Delos tile, or any of the Wound Trench tiles (046, 057, or 068): If Z11 is marked, see 8659"

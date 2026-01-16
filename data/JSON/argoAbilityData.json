@@ -23,18 +23,28 @@
     "flavorTech": "Is it pain or elation?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may gain +1"
-            },
-            {
-              "type": "icon",
-              "value": "Rage"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may gain +1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -65,14 +75,24 @@
     "flavorTech": "A Titan springs back to their feet as if Hades himself compelled them",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a knocked down Titan. That Titan stands up"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a knocked down Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan stands up"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -102,18 +122,28 @@
     "flavorTech": "Whose life have we inrrevocably changed?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may lose -1"
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -144,14 +174,16 @@
     "flavorTech": "Ready volley!",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place 1 Break token or 2 Opening tokens in the Kratos Pool"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place 1 Break token or 2 Opening tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -181,18 +213,28 @@
     "flavorTech": "A new philsophical protocol allow sus to tap into the lingering lifeforce of Gaia and re-direct it to or from a Titan",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may gain or lose 2"
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may gain or lose 2"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -223,18 +265,28 @@
     "flavorTech": "Analysis of the Hermesian Pursuer's reflexes and the 'shadow' it casts on the Triskelion Junction enables us to momentarily boost a Titan's reaction time",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Reaction"
-            },
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may move 1 space"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Reaction"
+              },
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may move 1 space"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -266,18 +318,28 @@
     "flavorTech": "A well timed bolt can turn the tide of battle",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan performing a Power Roll. That Titan gains"
-            },
-            {
-              "type": "keyword",
-              "value": "Power Re-roll 1"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan performing a Power Roll"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan gains"
+              },
+              {
+                "type": "keyword",
+                "value": "Power Re-roll 1"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -309,18 +371,28 @@
     "flavorTech": "Is this Us exerting our strength, or something else entirely?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose an attacking Titan. That Titan gains"
-            },
-            {
-              "type": "keyword",
-              "value": "Pushback 2"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose an attacking Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan gains"
+              },
+              {
+                "type": "keyword",
+                "value": "Pushback 2"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -350,36 +422,48 @@
     "flavorTech": "Can you hear me now?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan that is about to gain involuntary"
-            },
-            {
-              "type": "icon",
-              "value": "Rage"
-            },
-            {
-              "type": "plainText",
-              "value": "to ignore that gain."
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan that is about to gain involuntary"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              },
+              {
+                "type": "plainText",
+                "value": "to ignore that gain"
+              }
+            ]
+          }
+        ]
       },
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan loses -1"
-            },
-            {
-              "type": "icon",
-              "value": "Rage"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan loses -1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -409,22 +493,24 @@
     "flavorTech": "Extended use of Reflex Priming leads some Titans to develop motor tics",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Unexhaust 2"
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "plainText",
-              "value": "cards among up to 2 Titans"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Unexhaust 2"
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "plainText",
+                "value": "cards among up to 2 Titans"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -456,64 +542,94 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Titan Round"
-            },
-            {
-              "type": "plainText",
-              "value": "You may choose an effect from the Payload card and roll a d10. On a 6+, the Cannon is primed. It remains primed until you fire, decide to prime a different effect, or the Battle ends."
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of Titan Round"
+              },
+              {
+                "type": "plainText",
+                "value": "You may choose an effect from the Payload card and roll a d10"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "On a 6+, the Cannon is primed"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "It remains primed until you fire, decide to prime a different effect, or the Battle ends"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Godkiller Shot",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When the Cannon is primed, discard 1"
-            },
-            {
-              "type": "icon",
-              "value": "Energy"
-            },
-            {
-              "type": "plainText",
-              "value": "and lose the indicated resource to fire."
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When the Cannon is primed, discard 1"
+              },
+              {
+                "type": "icon",
+                "value": "Energy"
+              },
+              {
+                "type": "plainText",
+                "value": "and lose the indicated resource to fire"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Emergency Priming",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "As a"
-            },
-            {
-              "type": "icon",
-              "value": "Reaction"
-            },
-            {
-              "type": "plainText",
-              "value": "or after drawing a BP card you may discard 1"
-            },
-            {
-              "type": "icon",
-              "value": "Energy"
-            },
-            {
-              "type": "plainText",
-              "value": "to perform an emergency priming. Immediately choose an effect from the Payload card and roll for priming as normal"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "As a"
+              },
+              {
+                "type": "icon",
+                "value": "Reaction"
+              },
+              {
+                "type": "plainText",
+                "value": "or after drawing a BP card you may discard 1"
+              },
+              {
+                "type": "icon",
+                "value": "Energy"
+              },
+              {
+                "type": "plainText",
+                "value": "to perform an emergency priming"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Immediately choose an effect from the Payload card and roll for priming as normal"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -545,22 +661,32 @@
     "abilities": [
       {
         "name": "Rearm",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon"
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "plainText",
-              "value": "card from the Armory. A spent Transport Trireme can still be moved as normal but loses the Rearm ability"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon"
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "plainText",
+                "value": "card from the Armory"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A spent Transport Trireme can still be moved as normal but loses the Rearm ability"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "",
@@ -590,14 +716,16 @@
     "flavorTech": "Specialized cleanup crews risk life and limb to minimize ambrosia exposure",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan that is about to gain Ambrosia tokens, lower this gain to 1"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -628,14 +756,85 @@
     "flavorTech": "",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Weapon from the Armory. Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:\\n1-5: It lands 3 spaces away from the chosen space in a random direction.\\n6-10: It lands on the chosen space. Mark this space with a generic token.\\nA Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon. If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body. Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool. A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Weapon from the Armory"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:"
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "1-5: It lands 3 spaces away from the chosen space in a random direction"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "6-10: It lands on the chosen space"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Mark this space with a generic token"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "A Titan on, adjacent to, or moving through the space with the token may discard it to equip the Weapon"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Weapon lands on a space occupied by the Primordial, it remains stuck in its body"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place a generic token on the Primordial Sheet and place 2 Break tokens and 1 Opening token in the Kratos Pool"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A Titan adjacent to the Primordial or on the Primordial VP may discard the generic token to equip the Weapon"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -665,14 +864,24 @@
     "flavorTech": "Is there a limit to the Titan's power?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan that is about to perform a voluntary movement. That Titan may move 4 more spaces during this movement"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan that is about to perform a voluntary movement"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may move 4 more spaces during this movement"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -702,18 +911,28 @@
     "flavorTech": "The wings of oppression overturned now lift you up",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Reaction"
-            },
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may move up to 2 spaces"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Reaction"
+              },
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may move up to 2 spaces"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -744,30 +963,48 @@
     "abilities": [
       {
         "name": "Housewarming Gift",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative"
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            },
-            {
-              "type": "plainText",
-              "value": "token in the Kratos Pool. If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10. On a 6+, place 1 negative"
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            },
-            {
-              "type": "plainText",
-              "value": "token in the Kratos Pool"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative"
+              },
+              {
+                "type": "icon",
+                "value": "AT"
+              },
+              {
+                "type": "plainText",
+                "value": "token in the Kratos Pool"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Primordial moves through a space with the Trireme token, discard the token, then roll a d10"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "On a 6+, place 1 negative"
+              },
+              {
+                "type": "icon",
+                "value": "AT"
+              },
+              {
+                "type": "plainText",
+                "value": "token in the Kratos Pool"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "",
@@ -799,26 +1036,36 @@
     "flavorTech": "Weaponized free will",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan loses -2"
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "plainText",
-              "value": "and gains +1"
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan loses -2"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "and gains +1"
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -851,14 +1098,24 @@
     "flavorTech": "Fast-tracked to victory",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan arrives from Time-clocked"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan arrives from Time-clocked"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -891,18 +1148,28 @@
     "flavorTech": "From the infinite pool of outcomes, survival requires just one",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place the top card of any Trauma deck on the bottom of that deck. You may use this ability as a free action or as a"
-            },
-            {
-              "type": "icon",
-              "value": "Reaction"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place the top card of any Trauma deck on the bottom of that deck"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may use this ability as a free action or as a"
+              },
+              {
+                "type": "icon",
+                "value": "Reaction"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -934,14 +1201,16 @@
     "flavorTech": "I see you, my children",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Discard up 2 to Bleeding tokens from a chosen Titan"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard up 2 to Bleeding tokens from a chosen Titan"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -971,26 +1240,44 @@
     "flavorTech": "Even death may die",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Lose -1 Titan from the"
-            },
-            {
-              "type": "italics",
-              "value": "Argo"
-            },
-            {
-              "type": "plainText",
-              "value": "to choose a dead Titan. That Titan comes back to life at their Time Anchor. You may use this ability as a free action or as a"
-            },
-            {
-              "type": "icon",
-              "value": "Reaction"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1 Titan from the"
+              },
+              {
+                "type": "italics",
+                "value": "Argo"
+              },
+              {
+                "type": "plainText",
+                "value": "to choose a dead Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan comes back to life at their Time Anchor"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may use this ability as a free action or as a"
+              },
+              {
+                "type": "icon",
+                "value": "Reaction"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -1020,18 +1307,36 @@
     "flavorTech": "For each task, the perfect tool",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Immediately equip 1 Weapon from the Argo Armory. You may swap it with one of your currently equipped Weapons (return it to the Argo Armory). You may use this ability as a free action or when you are about to perform a"
-            },
-            {
-              "type": "bold",
-              "value": "Bonus Attack"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Immediately equip 1 Weapon from the Argo Armory"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may swap it with one of your currently equipped Weapons (return it to the Argo Armory)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may use this ability as a free action or when you are about to perform a"
+              },
+              {
+                "type": "bold",
+                "value": "Bonus Attack"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1061,14 +1366,16 @@
     "flavorTech": "Everyone deserves a second chance",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When a Titan fully misses an Attack, do not clear the Kratos Pool"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When a Titan fully misses an Attack, do not clear the Kratos Pool"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1100,18 +1407,28 @@
     "flavorTech": "Forecast: Survival",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "icon",
-              "value": "Reaction"
-            },
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may move up to 3 spaces"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Reaction"
+              },
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may move up to 3 spaces"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1141,18 +1458,28 @@
     "flavorTech": "--Dovahzul text--",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During a Titan turn, even after you have used both of your actions, choose a Titan. That Titan may imediately perform an additional"
-            },
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During a Titan turn, even after you have used both of your actions, choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may imediately perform an additional"
+              },
+              {
+                "type": "icon",
+                "value": "CombatAction"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -1182,18 +1509,28 @@
     "flavorTech": "--Dovahzul text--",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During a Titan turn, even after you have used both of your actions, choose a Titan. That Titan may imediately perform an additional"
-            },
-            {
-              "type": "icon",
-              "value": "MovementAction"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During a Titan turn, even after you have used both of your actions, choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may imediately perform an additional"
+              },
+              {
+                "type": "icon",
+                "value": "MovementAction"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -1225,14 +1562,24 @@
     "flavorTech": "Action exigent: Emergy retraction",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Move an empty Irem Tower Terrain tile any number of spaces in a straight line. It cannot move through other Terrain tiles or the Primordial"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Move an empty Irem Tower Terrain tile any number of spaces in a straight line"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "It cannot move through other Terrain tiles or the Primordial"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -1263,18 +1610,28 @@
     "flavorTech": "Wishing you did not have to wish",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When a Titan becomes the Target of a Wish Attack, choose that Titan. That Titan gains"
-            },
-            {
-              "type": "keyword",
-              "value": "Wish Armor"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When a Titan becomes the Target of a Wish Attack, choose that Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan gains"
+              },
+              {
+                "type": "keyword",
+                "value": "Wish Armor"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1304,30 +1661,40 @@
     "flavorTech": "Like a million tiny wishes",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan and roll 2"
-            },
-            {
-              "type": "icon",
-              "value": "BlackPowerDie"
-            },
-            {
-              "type": "plainText",
-              "value": ". Count the number of"
-            },
-            {
-              "type": "icon",
-              "value": "Power"
-            },
-            {
-              "type": "plainText",
-              "value": ". Turn as many of that Titan's Midas tokens into Ambrosia tokens"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan and roll 2"
+              },
+              {
+                "type": "icon",
+                "value": "BlackPowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Count the number of"
+              },
+              {
+                "type": "icon",
+                "value": "Power"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Turn as many of that Titan's Midas tokens into Ambrosia tokens"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1357,14 +1724,16 @@
     "flavorTech": "Not a ballista at all",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place 3 Opening tokens or 2 Fire tokens in the Kratos Pool"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place 3 Opening tokens or 2 Fire tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1395,45 +1764,61 @@
     "flavorTech": "We have adapted the local \"cirrotrireme\" technology, though our cloud vessels remain inferior to the fleet of the Empire",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Elevated"
-            },
-            {
-              "type": "plainText",
-              "value": ". Place the Cirrotrireme token or move the Cirrotrireme token to any space on the Battle Board (even if occupied)"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Elevated"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place the Cirrotrireme token or move the Cirrotrireme token to any space on the Battle Board (even if occupied)"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Rearm",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "A Titan on, adjacent to, or moving through a space with the Cirrotrireme token may flip the token to the spent side to equip any 1 Weapon"
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "plainText",
-              "value": "card from the Armory. A spent Cirrotrieme can still be moved as normal but loses the"
-            },
-            {
-              "type": "bold",
-              "value": "Rearm"
-            },
-            {
-              "type": "plainText",
-              "value": "ability"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A Titan on, adjacent to, or moving through a space with the Cirrotrireme token may flip the token to the spent side to equip any 1 Weapon"
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "plainText",
+                "value": "card from the Armory"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A spent Cirrotrieme can still be moved as normal but loses the"
+              },
+              {
+                "type": "bold",
+                "value": "Rearm"
+              },
+              {
+                "type": "plainText",
+                "value": "ability"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -1466,22 +1851,32 @@
     "flavorTech": "Anemoi reflex",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "icon",
-              "value": "Reaction"
-            },
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan may perform"
-            },
-            {
-              "type": "keyword",
-              "value": "Hermes Move 1"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Reaction"
+              },
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan may perform"
+              },
+              {
+                "type": "keyword",
+                "value": "Hermes Move 1"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1511,14 +1906,32 @@
     "flavorTech": "Second generation cloudships, hemiolias of the skies",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan that is being Wished Away. Reduce that suffered Wish Away by up to -4. You may place that Titan on any Irem Tower within range (not necessarily in front of the Primordial)"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan that is being Wished Away"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Reduce that suffered Wish Away by up to -4"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may place that Titan on any Irem Tower within range (not necessarily in front of the Primordial)"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1548,14 +1961,24 @@
     "flavorTech": "Insider shortcuts",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan performing an Ascent check. Add +3 to the result"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan performing an Ascent check"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Add +3 to the result"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1586,27 +2009,43 @@
     "flavorTech": "By dividing the curse between several willing participants simultaneously, we weaken its effects",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. Either:"
-            },
-            {
-              "type": "plainText",
-              "value": "Flip one of that Titan's Condition cards."
-            },
-            {
-              "type": "plainText",
-              "value": "Discard one of that Titan's Condition cards"
-            }
-          ],
-          "costs": [
-            "Energy",
-            "Energy",
-            "Energy"
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Either:"
+              },
+              {
+                "type": "plainText",
+                "value": "Flip one of that Titan's Condition cards"
+              }
+            ],
+            "costs": [
+              "Energy"
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard one of that Titan's Condition cards"
+              }
+            ],
+            "costs": [
+              "Energy",
+              "Energy"
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1637,22 +2076,24 @@
     "flavorTech": "In the end, it defeats itself",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When the Primordial reveals an AI card or triggers a Signature that targets a specific Titan, change the Targeting to"
-            },
-            {
-              "type": "bold",
-              "value": "Target:"
-            },
-            {
-              "type": "plainText",
-              "value": "Most Midas tokens"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When the Primordial reveals an AI card or triggers a Signature that targets a specific Titan, change the Targeting to"
+              },
+              {
+                "type": "bold",
+                "value": "Target:"
+              },
+              {
+                "type": "plainText",
+                "value": "Most Midas tokens"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -1685,14 +2126,24 @@
     "flavorTech": "Chance of survival: bleak",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan uses the Truth Machine"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan uses the Truth Machine"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "3",
@@ -1724,18 +2175,28 @@
     "flavorTech": "There is value in mending broken things",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Battle"
-            },
-            {
-              "type": "plainText",
-              "value": "Choose one Kintsukuroi Pharos Payload and place it on this card. Until the end of Battle, the Payload becomes the effect of this Argo Ability"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of Battle"
+              },
+              {
+                "type": "plainText",
+                "value": "Choose one Kintsukuroi Pharos Payload and place it on this card"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Until the end of Battle, the Payload becomes the effect of this Argo Ability"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -1765,14 +2226,24 @@
     "flavorTech": "Time bought",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan flips 1 Aether token"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan flips 1 Aether token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1802,14 +2273,16 @@
     "flavorTech": "Fire forward harpoons!",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Titan closest to the Primordial immediately performs Pushback X or Pull X, where X is up to 3"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "The Titan closest to the Primordial immediately performs Pushback X or Pull X, where X is up to 3"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1839,52 +2312,66 @@
     "flavorTech": "A Galeos-class subreme, like the ones you use as harpoon tips...",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place the Subreme token on any space adjacent to the Board Edge and move it up to 5 spaces, or if the Subreme is already on the Board, move it up to 5 spaces (even if occupied). A spent Subreme can still be moved as normal but loses the"
-            },
-            {
-              "type": "bold",
-              "value": "Rearm"
-            },
-            {
-              "type": "plainText",
-              "value": "and"
-            },
-            {
-              "type": "bold",
-              "value": "Detect"
-            },
-            {
-              "type": "plainText",
-              "value": "abilities."
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place the Subreme token on any space adjacent to the Board Edge and move it up to 5 spaces, or if the Subreme is already on the Board, move it up to 5 spaces (even if occupied)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A spent Subreme can still be moved as normal but loses the"
+              },
+              {
+                "type": "bold",
+                "value": "Rearm"
+              },
+              {
+                "type": "plainText",
+                "value": "and"
+              },
+              {
+                "type": "bold",
+                "value": "Detect"
+              },
+              {
+                "type": "plainText",
+                "value": "abilities"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Rearm",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "A Titan on, adjacent to, or moving through the space with the Subreme token may flip the token to the spent side to equip any 1 Weapon card from the Armory or flip an Aether token."
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "A Titan on, adjacent to, or moving through the space with the Subreme token may flip the token to the spent side to equip any 1 Weapon card from the Armory or flip an Aether token"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Detect",
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Flip the Subreme token to the spent side to perform a Scan"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Flip the Subreme token to the spent side to perform a Scan"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "4",
@@ -1919,38 +2406,44 @@
     "flavorTech": "Is pain elation? Or are you projecting?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan when an adjacent Primordial performs"
-            },
-            {
-              "type": "keyword",
-              "value": "Flash Step"
-            },
-            {
-              "type": "plainText",
-              "value": ","
-            },
-            {
-              "type": "keyword",
-              "value": "Vanish"
-            },
-            {
-              "type": "plainText",
-              "value": ", or"
-            },
-            {
-              "type": "keyword",
-              "value": "Flicker"
-            },
-            {
-              "type": "plainText",
-              "value": ". Gain 1 Pain token to immediately move up to 9 spaces to remain adjacent"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan when an adjacent Primordial performs"
+              },
+              {
+                "type": "keyword",
+                "value": "Flash Step"
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "keyword",
+                "value": "Vanish"
+              },
+              {
+                "type": "plainText",
+                "value": ", or"
+              },
+              {
+                "type": "keyword",
+                "value": "Flicker"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Pain token to immediately move up to 9 spaces to remain adjacent"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -1980,14 +2473,24 @@
     "flavorTech": "A new philosophical protocol allows us to \"trick\" a Titan's nervous system",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. Either lower Pain and/or Bleed gain to 1, or ignore all Pain tokens this Round"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Either lower Pain and/or Bleed gain to 1, or ignore all Pain tokens this Round"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -2017,46 +2520,56 @@
     "flavorTech": "Is pushing them this far worth it?",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. Gain 3 Pain tokens to perform a"
-            },
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "icon",
-              "value": "MovementAction"
-            },
-            {
-              "type": "plainText",
-              "value": ", then gain a"
-            },
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "icon",
-              "value": "MovementAction"
-            },
-            {
-              "type": "plainText",
-              "value": "Fatigue token"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 3 Pain tokens to perform a"
+              },
+              {
+                "type": "icon",
+                "value": "CombatAction"
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "icon",
+                "value": "MovementAction"
+              },
+              {
+                "type": "plainText",
+                "value": ", then gain a"
+              },
+              {
+                "type": "icon",
+                "value": "CombatAction"
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "icon",
+                "value": "MovementAction"
+              },
+              {
+                "type": "plainText",
+                "value": "Fatigue token"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -2086,59 +2599,65 @@
     "flavorTech": "Let there be light",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan that is about to die from"
-            },
-            {
-              "type": "cardRef",
-              "value": "Disemboweled",
-              "refID": "AM0341"
-            },
-            {
-              "type": "plainText",
-              "value": ","
-            },
-            {
-              "type": "cardRef",
-              "value": "Fear",
-              "refID": "AL0299"
-            },
-            {
-              "type": "plainText",
-              "value": ","
-            },
-            {
-              "type": "cardRef",
-              "value": "Dread",
-              "refID": "AL0299"
-            },
-            {
-              "type": "plainText",
-              "value": ","
-            },
-            {
-              "type": "cardRef",
-              "value": "Terror",
-              "refID": "EL2596"
-            },
-            {
-              "type": "plainText",
-              "value": ", or"
-            },
-            {
-              "type": "cardRef",
-              "value": "Holy Terror",
-              "refID": "EL2596"
-            },
-            {
-              "type": "plainText",
-              "value": ". That Titan draws a Grave Trauma instead"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan that is about to die from"
+              },
+              {
+                "type": "cardRef",
+                "value": "Disemboweled",
+                "refID": "AM0341"
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "cardRef",
+                "value": "Fear",
+                "refID": "AL0299"
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "cardRef",
+                "value": "Dread",
+                "refID": "AL0299"
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": ", or"
+              },
+              {
+                "type": "cardRef",
+                "value": "Holy Terror",
+                "refID": "EL2596"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan draws a Grave Trauma instead"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "2",
@@ -2169,14 +2688,61 @@
     "flavorTech": "Prepare for Titan drop!",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If, during the first Primordial or Titan Round, a Titan dies, replace them with a new Titan from the Stoa. Choose a Battle Board space you want to Deply (see Cycle V, p. 11) the new Titan to and roll a d10:\\n1-5: It lands 3 spaces away from the chosen space in a random direction.\\n6-10: It lands on the chosen space.\\nIf it lands on the Primordial, place 2 Closing and 1 Hope tokens in the Kratos Pool and Deploy the Titan on any adjacent space"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If, during the first Primordial or Titan Round, a Titan dies, replace them with a new Titan from the Stoa"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Battle Board space you want to Deply (see Cycle V, p"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "11) the new Titan to and roll a d10:"
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "1-5: It lands 3 spaces away from the chosen space in a random direction"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "6-10: It lands on the chosen space"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "If it lands on the Primordial, place 2 Closing and 1 Hope tokens in the Kratos Pool and Deploy the Titan on any adjacent space"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",
@@ -2206,32 +2772,42 @@
     "flavorTech": "Can you hear me? You are not alone in this",
     "abilities": [
       {
-        "effects": {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Choose a Titan. That Titan discards all Despair tokens or a"
-            },
-            {
-              "type": "cardRef",
-              "value": "Fear",
-              "refID": "AL0299"
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "cardRef",
-              "value": "Terror",
-              "refID": "EL2596"
-            },
-            {
-              "type": "plainText",
-              "value": "Condition card"
-            }
-          ]
-        }
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose a Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan discards all Despair tokens or a"
+              },
+              {
+                "type": "cardRef",
+                "value": "Fear",
+                "refID": "AL0299"
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
       }
     ],
     "charges": "1",

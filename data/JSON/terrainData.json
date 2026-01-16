@@ -1534,7 +1534,14 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Roll a d10:\\n1: You devle too deep and get lost in time and space"
+              "value": "Roll a d10:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "1: You devle too deep and get lost in time and space"
             }
           ]
         },

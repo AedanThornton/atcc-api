@@ -14918,7 +14918,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "\"Come, I will only use my *left* hand!\"\\nArms akimbo, The Nietzschean thows his head *back* and laughs at you",
+    "flavor": "\"Come, I will only use my *left* hand!\"<<NL>>Arms akimbo, The Nietzschean thows his head *back* and laughs at you",
     "level": "0",
     "targeting": [
       {
@@ -17595,7 +17595,14 @@
               },
               {
                 "type": "plainText",
-                "value": "and either:\\nBlast Zone ("
+                "value": "and either:"
+              },
+              {
+                "type": "newline"
+              },
+              {
+                "type": "plainText",
+                "value": "Blast Zone ("
               },
               {
                 "type": "icon",

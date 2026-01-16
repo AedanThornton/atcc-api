@@ -304,7 +304,14 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "During this Battle, all Titans suffer the following penalty:\\nLevel 2-3:"
+              "value": "During this Battle, all Titans suffer the following penalty:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 2-3:"
             },
             {
               "type": "keyword",
@@ -741,7 +748,14 @@
             },
             {
               "type": "plainText",
-              "value": "and continuing in descending order, Titans suffer:\\nLevel 1:"
+              "value": "and continuing in descending order, Titans suffer:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 1:"
             },
             {
               "type": "keyword",
@@ -749,7 +763,31 @@
             },
             {
               "type": "plainText",
-              "value": ", Bleeding 1\\nLevel 2: Bleeding 2, Bleeding 2\\nLevel 3: Bleeding 2, Bleeding 2, Bleeding 1\\nLevel 4: Bleeding 3, Bleeding 2, Bleeding 2\\n"
+              "value": ", Bleeding 1"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 2: Bleeding 2, Bleeding 2"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 3: Bleeding 2, Bleeding 2, Bleeding 1"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Level 4: Bleeding 3, Bleeding 2, Bleeding 2"
+            },
+            {
+              "type": "newline"
             },
             {
               "type": "icon",
@@ -1407,7 +1445,10 @@
             },
             {
               "type": "plainText",
-              "value": "Move & Attack):\\n"
+              "value": "Move & Attack):"
+            },
+            {
+              "type": "newline"
             },
             {
               "type": "plainText",
@@ -1755,7 +1796,14 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "7):\\nChoose a"
+              "value": "7):"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Choose a"
             },
             {
               "type": "bold",
@@ -2304,7 +2352,14 @@
             },
             {
               "type": "plainText",
-              "value": "This does not count as a Wound!\\nThe next"
+              "value": "This does not count as a Wound!"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "The next"
             },
             {
               "type": "bold",
@@ -2371,7 +2426,14 @@
             },
             {
               "type": "plainText",
-              "value": "of the BP card, you finally deal a Wound!\\nIf any Titan attacks another BP card, erase the noted Power and ignore this effect"
+              "value": "of the BP card, you finally deal a Wound!"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "If any Titan attacks another BP card, erase the noted Power and ignore this effect"
             }
           ]
         },
@@ -2379,7 +2441,10 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!\\n"
+              "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!"
+            },
+            {
+              "type": "newline"
             },
             {
               "type": "plainText",

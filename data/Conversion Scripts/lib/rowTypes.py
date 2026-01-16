@@ -129,9 +129,9 @@ def doom_row(row):
     card_json = {
         "name2": row["Side B"] or row["Name"],
         "cardNumber": row["Doom Card"],
-        "flavor": row["Flavor A"].split("\\n"),
+        "flavor": row["Flavor A"].split("<<NL>>"),
         "rules": [parse_abilities(rule)[0] for rule in row["Rules A"].split("\\n")],
-        "flavor2": row["Flavor B"].split("\\n"),
+        "flavor2": row["Flavor B"].split("<<NL>>"),
         "rules2": [parse_abilities(rule)[0] for rule in row["Rules B"].split("\\n")]
     }
 
@@ -464,10 +464,10 @@ def story_row(row):
     card_json = {
         "name2": row["Reverse Side"] or row["Name"],
         "cardNumber": row["Story Card"],
-        "flavor": row["Flavor A"].split("\\n"),
+        "flavor": row["Flavor A"].split("<<NL>>"),
         "rulesTitle": row["Summary A"],
         "rules": [parse_abilities(rule)[0] for rule in row["Rules A"].split("\\n")],
-        "flavor2": row["Flavor B"].split("\\n"),
+        "flavor2": row["Flavor B"].split("<<NL>>"),
         "rulesTitle2": row["Summary B"],
         "rules2": [parse_abilities(rule)[0] for rule in row["Rules B"].split("\\n")]
     }

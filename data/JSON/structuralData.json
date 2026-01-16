@@ -427,35 +427,91 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "to exchange (up to 3 times):\\n3 Trireme"
+                  "value": "to exchange (up to 3 times):"
+                },
+                {
+                  "type": "newline"
                 },
                 {
                   "type": "plainText",
-                  "value": "1 Armament\\n 2 Trireme"
+                  "value": "3 Trireme"
                 },
                 {
                   "type": "plainText",
-                  "value": "1 Monument\\n1 Monument"
+                  "value": "1 Armament"
+                },
+                {
+                  "type": "newline"
                 },
                 {
                   "type": "plainText",
-                  "value": "2 Trireme\\n1 Armament"
+                  "value": "2 Trireme"
                 },
                 {
                   "type": "plainText",
-                  "value": "3 Trireme\\n1 Muscle Cluster or Infused Mechanism"
+                  "value": "1 Monument"
+                },
+                {
+                  "type": "newline"
                 },
                 {
                   "type": "plainText",
-                  "value": "3 Raw Ambrosia\\n1 Calcified Knuckle Bone or Fleshy Mantle"
+                  "value": "1 Monument"
                 },
                 {
                   "type": "plainText",
-                  "value": "4 Raw Ambrosia\\n3 Raw Ambrosia"
+                  "value": "2 Trireme"
+                },
+                {
+                  "type": "newline"
                 },
                 {
                   "type": "plainText",
-                  "value": "1 Muscle Cluster or Infused Mechanism\\n4 Raw Ambrosia"
+                  "value": "1 Armament"
+                },
+                {
+                  "type": "plainText",
+                  "value": "3 Trireme"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Muscle Cluster or Infused Mechanism"
+                },
+                {
+                  "type": "plainText",
+                  "value": "3 Raw Ambrosia"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Calcified Knuckle Bone or Fleshy Mantle"
+                },
+                {
+                  "type": "plainText",
+                  "value": "4 Raw Ambrosia"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "3 Raw Ambrosia"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Muscle Cluster or Infused Mechanism"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "4 Raw Ambrosia"
                 },
                 {
                   "type": "plainText",
@@ -2307,7 +2363,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for War Triremes (any number of times):\\n1 Maze Fragment"
+                  "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for War Triremes (any number of times):"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Maze Fragment"
                 },
                 {
                   "type": "timing",
@@ -2315,7 +2378,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "1 War Trireme\\n1 Fear Essence"
+                  "value": "1 War Trireme"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Fear Essence"
                 },
                 {
                   "type": "timing",
@@ -2369,7 +2439,14 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than II (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:\\n(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
+                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than II (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
                 }
               ]
             },
@@ -2422,7 +2499,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "on Armor Roll\\n-1 Evasion re-roll"
+                  "value": "on Armor Roll"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion re-roll"
                 },
                 {
                   "type": "icon",
@@ -2430,7 +2514,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "(to a minimum of 0)\\n-1 Evasion bonus"
+                  "value": "(to a minimum of 0)"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion bonus"
                 },
                 {
                   "type": "icon",
@@ -4758,7 +4849,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for Hyperborean Alloy (any number of times):\\n1 Living Abyss"
+                  "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for Hyperborean Alloy (any number of times):"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Living Abyss"
                 },
                 {
                   "type": "timing",
@@ -4766,7 +4864,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "1 Hyperborean Alloy\\n1 Skin of Malice"
+                  "value": "1 Hyperborean Alloy"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Skin of Malice"
                 },
                 {
                   "type": "timing",
@@ -4819,7 +4924,14 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than III (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:\\n(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
+                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than III (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
                 }
               ]
             },
@@ -4872,7 +4984,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "on Armor Roll\\n-1 Evasion re-roll"
+                  "value": "on Armor Roll"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion re-roll"
                 },
                 {
                   "type": "icon",
@@ -4880,7 +4999,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "(to a minimum of 0)\\n-1 Evasion bonus"
+                  "value": "(to a minimum of 0)"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion bonus"
                 },
                 {
                   "type": "icon",
@@ -7010,7 +7136,14 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "If you are on Story 2A or further, during the Advancement Phase, you may trade these resources for Cursed Derelict resources (any number of times):\\n1 Blackened Halo"
+                  "value": "If you are on Story 2A or further, during the Advancement Phase, you may trade these resources for Cursed Derelict resources (any number of times):"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Blackened Halo"
                 },
                 {
                   "type": "timing",
@@ -7018,7 +7151,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "1 Cursed Derelict\\n1 Burned-out Grace"
+                  "value": "1 Cursed Derelict"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "1 Burned-out Grace"
                 },
                 {
                   "type": "timing",
@@ -7069,7 +7209,14 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than IV (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:\\n(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
+                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than IV (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
                 }
               ]
             },
@@ -7122,7 +7269,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "on Armor Roll\\n-1 Evasion re-roll"
+                  "value": "on Armor Roll"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion re-roll"
                 },
                 {
                   "type": "icon",
@@ -7130,7 +7284,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "(to a minimum of 0)\\n-1 Evasion bonus"
+                  "value": "(to a minimum of 0)"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion bonus"
                 },
                 {
                   "type": "icon",
@@ -9351,7 +9512,14 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than V (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:\\n(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
+                  "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than V (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "(Weapons only) When you attack with this weapon, you cannot use any tokens from the Kratos Pool or place any tokens in the Kratos Pool"
                 }
               ]
             },
@@ -9404,7 +9572,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "on Armor Roll\\n-1 Evasion re-roll"
+                  "value": "on Armor Roll"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion re-roll"
                 },
                 {
                   "type": "icon",
@@ -9412,7 +9587,14 @@
                 },
                 {
                   "type": "plainText",
-                  "value": "(to a minimum of 0)\\n-1 Evasion bonus"
+                  "value": "(to a minimum of 0)"
+                },
+                {
+                  "type": "newline"
+                },
+                {
+                  "type": "plainText",
+                  "value": "-1 Evasion bonus"
                 },
                 {
                   "type": "icon",

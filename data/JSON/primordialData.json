@@ -362,7 +362,14 @@
             },
             {
               "type": "plainText",
-              "value": ", you ignore normal Responses, resolve these instead:\\nWound: Gain +2"
+              "value": ", you ignore normal Responses, resolve these instead:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Wound: Gain +2"
             },
             {
               "type": "icon",
@@ -716,7 +723,14 @@
             },
             {
               "type": "plainText",
-              "value": ", you cannot gain Despair tokens and you ignore normal Responses, resolve these instead:\\nWound: Gain +2"
+              "value": ", you cannot gain Despair tokens and you ignore normal Responses, resolve these instead:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Wound: Gain +2"
             },
             {
               "type": "icon",
@@ -3700,7 +3714,14 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Resolve these instead:\\nWound: Midas 1"
+              "value": "Resolve these instead:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Wound: Midas 1"
             }
           ]
         },
@@ -3777,7 +3798,14 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Resolve these instead:\\nWound: Midas 3"
+              "value": "Resolve these instead:"
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "plainText",
+              "value": "Wound: Midas 3"
             }
           ]
         },

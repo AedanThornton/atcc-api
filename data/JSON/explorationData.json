@@ -3988,7 +3988,10 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Depending on how many Violent Ambrosia resources you have:\\n"
+              "value": "Depending on how many Violent Ambrosia resources you have:"
+            },
+            {
+              "type": "newline"
             },
             {
               "type": "bold",

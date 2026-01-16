@@ -1315,7 +1315,14 @@
           },
           {
             "type": "plainText",
-            "value": "Disappears!\\nRandom Titan dies"
+            "value": "Disappears!"
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Random Titan dies"
           }
         ]
       }

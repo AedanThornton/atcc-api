@@ -32,11 +32,12 @@
               "value": "token on this card (once per campaign)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Gaining Doom makes your journey harder and brings it closer to a gruesome end"
@@ -114,11 +115,12 @@
               "value": "If J1 is marked, see 0050"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -133,11 +135,12 @@
               "value": "is with you, see 0022"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
@@ -167,11 +170,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
@@ -209,11 +213,12 @@
               "value": "covered by a Labyrinthian Temple marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Shuffle the"
@@ -236,11 +241,12 @@
               "value": "Random Argonaut gains 1 Despair token"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -324,11 +330,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -343,11 +350,12 @@
               "value": "Exploration card to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
@@ -385,11 +393,12 @@
               "value": "covered by a Labyrinthian Temple marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -462,11 +471,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -481,11 +491,12 @@
               "value": "Exploration card to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
@@ -523,11 +534,12 @@
               "value": "covered by a Labyrinthian Temple marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -611,11 +623,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
@@ -653,11 +666,12 @@
               "value": "covered by a Labyrinthian Temple marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -672,11 +686,12 @@
               "value": "Exploration card to the Exploration deck (unless it's already there)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -746,11 +761,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
@@ -788,11 +804,12 @@
               "value": "covered by a Labyrinthian Temple marker"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add the"
@@ -815,11 +832,12 @@
               "value": "Swap Map tiles 9, 13, 14, 18, 22, 23, and 35 with the Alternate versions (unless already swapped)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -894,21 +912,23 @@
               "value": "If your Sabotage deck runs out of cards, as long as it is empty, ignore all effects that instruct you to add Sabotage cards to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Add 2 random Sabotage cards to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -954,11 +974,12 @@
               "value": "Immediately add 2 Sabotage cards to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -1076,11 +1097,12 @@
               "value": "Do not show your card to the other players or discuss its contents"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "While this card is in play, each time you battle a Chimera Metastasios, gain +1 unavoidable"
@@ -1090,11 +1112,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -1158,11 +1181,12 @@
               "value": "Exploration cards to the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "While this card is in play, at the start of each Chimera Metastasios Battle, Escalate 1"
@@ -1180,11 +1204,12 @@
               "value": "Progress"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -1263,11 +1288,12 @@
               "value": "Immediately reveal the Temple of Man tile (018)"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "All"
@@ -1290,11 +1316,12 @@
               "value": "Technology card) suffer -1 penalty"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there is 1 or more"
@@ -1308,11 +1335,12 @@
               "value": "tokens on this card, see 0099"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5 or more"
@@ -1375,11 +1403,12 @@
               "value": "Technology card) suffer -2 penalty"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -1484,11 +1513,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -1566,11 +1596,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -1634,11 +1665,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -1747,11 +1779,12 @@
               "value": "value as 1 higher"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -1820,11 +1853,12 @@
               "value": "tokens on side 1B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -1865,13 +1899,10 @@
             {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)!"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
@@ -1919,11 +1950,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -1953,11 +1985,12 @@
               "value": "tokens aside, then, when the next Doom card is revealed, place them on the new Doom card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -1998,13 +2031,10 @@
             {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)!"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
@@ -2067,11 +2097,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -2101,11 +2132,12 @@
               "value": "token on side 2B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -2164,11 +2196,12 @@
               "value": "137"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
@@ -2217,11 +2250,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 7 or more"
@@ -2251,11 +2285,12 @@
               "value": "tokens aside, then, when the next Doom card is revealed, place them on the new Doom card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -2314,11 +2349,12 @@
               "value": "137"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
@@ -2371,11 +2407,12 @@
               "value": "Exploration card into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 6 or more"
@@ -2405,11 +2442,12 @@
               "value": "token on side 2B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -2468,11 +2506,12 @@
               "value": "137"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
@@ -2511,11 +2550,12 @@
               "value": "tokens on this card, see 2324"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Doomed Investment:"
@@ -2627,11 +2667,12 @@
               "value": "tokens aside, then when you flip this card, place them on side 1B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -2643,13 +2684,10 @@
             {
               "type": "plainText",
               "value": "has entered play:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -2687,11 +2725,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -2749,11 +2788,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
@@ -2865,11 +2905,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 5"
@@ -2899,11 +2940,12 @@
               "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "If the"
@@ -2915,13 +2957,10 @@
             {
               "type": "plainText",
               "value": "has entered play:"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "abilityText": [
+            },
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -2959,11 +2998,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -3021,11 +3061,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
@@ -3183,11 +3224,12 @@
               "value": "tokens aside, then when you flip this card, place them on side 2B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "On reveal:"
@@ -3225,11 +3267,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -3267,11 +3310,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -3329,11 +3373,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
@@ -3446,11 +3491,12 @@
               "value": "Exploration cards into the Exploration deck"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "plainText",
               "value": "When there are 4"
@@ -3480,11 +3526,12 @@
               "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -3522,11 +3569,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -3584,11 +3632,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
@@ -3747,11 +3796,12 @@
               "value": "tokens aside, then when you flip this card, place them on side 3B"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "On reveal:"
@@ -3789,11 +3839,12 @@
               "value": "Argo"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -3831,11 +3882,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -3893,11 +3945,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
@@ -4016,11 +4069,12 @@
               "value": "tokens aside, then when the next Doom card is revealed, place them on the new Doom card"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Path to Ruin:"
@@ -4058,11 +4112,12 @@
               "value": "Doom"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Your Nemesis:"
@@ -4120,11 +4175,12 @@
               "value": "12 of the Cycle V Storybook"
             }
           ]
-        }
-      ],
-      [
+        },
         {
           "abilityText": [
+            {
+              "type": "newline"
+            },
             {
               "type": "bold",
               "value": "Relentless:"
