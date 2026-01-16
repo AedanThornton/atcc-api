@@ -532,7 +532,7 @@ def trait_row(row):
         "effects": parse_abilities(row["Effects"]),
     }
 
-    if row["Primordial"]: card_json["primordial"] = row["Primordial"]
+    if row["Used For"]: card_json["usedFor"] = row["Used For"]
 
     return card_json
 
