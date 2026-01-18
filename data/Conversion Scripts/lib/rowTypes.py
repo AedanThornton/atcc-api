@@ -412,7 +412,7 @@ def primordialAttack_row(row):
         "level": row["Level"],
         "uber": "TRUE" in row["Uber?"],
         "targeting": parse_targeting(row["Targeting"]),
-        "preAction": row["Pre-Action Effects"],
+        "preAction": parse_consequences(row["Pre-Action Effects"]),
         "preActionWoO": "TRUE" in row["Pre-Action WoO?"],
         "moveType": row["Move Type"],
         "preAttack": row["Pre-Attack Effect"],

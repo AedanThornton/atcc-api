@@ -4674,7 +4674,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -4806,7 +4820,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -4951,7 +4979,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5080,7 +5122,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5184,7 +5240,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5305,7 +5375,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair tokens",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5469,7 +5553,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5602,7 +5700,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5710,7 +5822,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5814,7 +5940,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair tokens",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -5922,7 +6062,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6069,7 +6223,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -6195,7 +6363,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -6321,7 +6503,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6456,7 +6652,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -6560,7 +6770,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -6674,7 +6898,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair tokens",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -6790,7 +7028,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair tokens",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -23325,7 +23577,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -23716,7 +23981,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -24076,7 +24354,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -24481,7 +24772,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -24624,7 +24928,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Appear Behind",
     "preAttack": "Pushback 2",
@@ -24924,7 +25241,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -25207,7 +25537,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -25347,7 +25690,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Land on Top",
     "attackType": [
@@ -25485,7 +25841,20 @@
         ]
       }
     ],
-    "preAction": "{Regurgitate}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Regurgitate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "preAttack": "Pushback 2",
@@ -25649,7 +26018,28 @@
         ]
       }
     ],
-    "preAction": "{Rewind} the Titan with the highest @Fate",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Rewind"
+              },
+              {
+                "type": "plainText",
+                "value": "the Titan with the highest"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Sun Move",
     "attackType": [
@@ -26006,7 +26396,24 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} D12, J14, and H16",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "D12, J14, and H16"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Move Lateral",
     "attackType": [
@@ -26130,7 +26537,36 @@
         ]
       }
     ],
-    "preAction": "%%@Paradox 3+ or @Fate 5+: Ignore the @WoO",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Paradox"
+              },
+              {
+                "type": "plainText",
+                "value": "3+ or"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -26489,7 +26925,30 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} C15, I12, J9. %Fate 7+% Do not Glaciate. %%@Paradox 3+ or @Fate 5+: Ignore the @WoO%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "C15, I12, J9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -26918,7 +27377,27 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} D9, F13, and I7. %%@Paradox 3+ or @Fate 6+: Ignore the @WoO%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "D9, F13, and I7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Sun Move",
     "attackType": [
@@ -27061,7 +27540,24 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} D12, J14, and H16",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "D12, J14, and H16"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -27185,7 +27681,11 @@
         ]
       }
     ],
-    "preAction": "%%@Paradox 3+ or @Fate 6+: Ignore the @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -27368,7 +27868,27 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} C5, F8, and I12. %%@Fate 6+: Do not Glaciate%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "C5, F8, and I12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -27711,7 +28231,30 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} C16, F9, and J5. %%@Fate 7+: Do not Glaciate%%. %%@Paradox 2+ or @Fate 8+: Ignore the @WoO%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "C16, F9, and J5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -27989,7 +28532,27 @@
         ]
       }
     ],
-    "preAction": "{Glaciate} C5, F8, I12. %%@Fate 7+: Do not Glaciate%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Glaciate"
+              },
+              {
+                "type": "plainText",
+                "value": "C5, F8, I12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
     "attackType": [
@@ -28610,7 +29173,24 @@
         ]
       }
     ],
-    "preAction": "Rewind the Titan with the highest @Fate",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Rewind the Titan with the highest"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Sun Move",
     "attackType": [
@@ -33973,7 +34553,11 @@
         ]
       }
     ],
-    "preAction": "%%@Midas 2+ or @Fate 4+: Ignore @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -34875,7 +35459,11 @@
         ]
       }
     ],
-    "preAction": "%%@Fate 6+: Ignore @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -35424,7 +36012,11 @@
         ]
       }
     ],
-    "preAction": "%%@Midas 2+ or @Fate 4+: Ignore @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -35551,7 +36143,11 @@
         ]
       }
     ],
-    "preAction": "%%@Midas 2+ or @Fate 4+: Ignore @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -36273,7 +36869,11 @@
         ]
       }
     ],
-    "preAction": "%%@Midas 2+ or @Fate 4+: Ignore @WoO%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -36396,7 +36996,20 @@
         ]
       }
     ],
-    "preAction": "Gain 1 Despair token",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -36636,7 +37249,29 @@
         ]
       }
     ],
-    "preAction": "Gain the [Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -36756,7 +37391,20 @@
         ]
       }
     ],
-    "preAction": "Gain 1 Despair token",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -36914,7 +37562,20 @@
         ]
       }
     ],
-    "preAction": "{Inkblot}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Inkblot"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -37171,7 +37832,20 @@
         ]
       }
     ],
-    "preAction": "Gain 2 Despair tokens",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -37304,7 +37978,20 @@
         ]
       }
     ],
-    "preAction": "{Inkblot}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Inkblot"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -37867,7 +38554,29 @@
         ]
       }
     ],
-    "preAction": "Gain the [Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -38007,7 +38716,41 @@
         ]
       }
     ],
-    "preAction": "{Inkblot}. Gain the [Holy Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Inkblot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Holy Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -38134,7 +38877,41 @@
         ]
       }
     ],
-    "preAction": "{Inkblot}. Gain the [Holy Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Inkblot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Holy Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Move",
     "attackType": [
@@ -38275,7 +39052,29 @@
         ]
       }
     ],
-    "preAction": "Gain the [Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -38431,7 +39230,23 @@
         ]
       }
     ],
-    "preAction": "Gain 2 Despair tokens. %%@Fate 7+: You die instead%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair tokens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -38584,7 +39399,20 @@
         ]
       }
     ],
-    "preAction": "{Inkblot}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Inkblot"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Move",
     "attackType": [
@@ -38742,7 +39570,29 @@
         ]
       }
     ],
-    "preAction": "Gain the [Terror|EL2596] Condition card",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -41776,7 +42626,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Flicker",
@@ -41880,7 +42744,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -42029,7 +42907,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -42190,7 +43082,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -42340,7 +43246,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Flicker",
@@ -42514,7 +43434,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -42614,7 +43548,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Black March",
@@ -42718,7 +43666,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -42888,7 +43850,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -43049,7 +44025,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -43217,7 +44207,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Flicker",
@@ -43415,7 +44419,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -43552,7 +44570,33 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token. If you die from Despair, target next eligible Target",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you die from Despair, target next eligible Target"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Black March",
@@ -43702,7 +44746,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -43871,7 +44929,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -43988,7 +45060,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Fade In",
@@ -44132,7 +45218,45 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 2 Despair token. Take every Aether token from every Titan and place them on the Primordial Sheet. X is the number of Aether tokens on the Primordial Sheet",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 2 Despair token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Take every Aether token from every Titan and place them on the Primordial Sheet"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "X is the number of Aether tokens on the Primordial Sheet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "preAttack": "Flicker",
@@ -44249,7 +45373,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -44437,7 +45575,21 @@
         ]
       }
     ],
-    "preAction": "WoO Gain 1 Despair token",
+    "preAction": [
+      {
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 Despair token"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -44904,7 +46056,24 @@
         ]
       }
     ],
-    "preAction": "Lose -1 @Rage",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -45091,7 +46260,11 @@
         ]
       }
     ],
-    "preAction": "%%@Pain 2+: Discard 1 Argo Ability @Energy%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -45190,7 +46363,20 @@
         ]
       }
     ],
-    "preAction": "{Death 3}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Death 3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "None",
     "attackType": [
@@ -45347,7 +46533,24 @@
         ]
       }
     ],
-    "preAction": "Lose -1 @Rage",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -45674,7 +46877,24 @@
         ]
       }
     ],
-    "preAction": "Lose -1 @Rage",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -45824,7 +47044,11 @@
         ]
       }
     ],
-    "preAction": "%%@Pain 3+: Discard 1 Argo Ability @Energy%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -45910,7 +47134,20 @@
         ]
       }
     ],
-    "preAction": "{Death 2}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Death 2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -46088,7 +47325,24 @@
         ]
       }
     ],
-    "preAction": "Lose -2 @Rage",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -2"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -46249,7 +47503,11 @@
         ]
       }
     ],
-    "preAction": "%%@Pain 2+: Gain the [Fear|AL0299] Condition card%%",
+    "preAction": [
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -46336,7 +47594,20 @@
         ]
       }
     ],
-    "preAction": "{Pain 3}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Pain 3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Flash Step",
     "attackType": [
@@ -46451,7 +47722,24 @@
         ]
       }
     ],
-    "preAction": "Lose -2 @Rage",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -2"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "None",
     "attackType": [
@@ -46601,7 +47889,27 @@
         ]
       }
     ],
-    "preAction": "Lose -2 @Rage. %%@Pain 4+: This Titan can never Awaken (note it)%%",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -2"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "effect": []
+      }
+    ],
     "preActionWoO": true,
     "moveType": "Move",
     "attackType": [
@@ -46748,7 +48056,20 @@
         ]
       }
     ],
-    "preAction": "{Death 1}",
+    "preAction": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Death 1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "preActionWoO": false,
     "moveType": "Flash Step",
     "attackType": [

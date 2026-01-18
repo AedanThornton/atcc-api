@@ -4531,7 +4531,7 @@
     "movementArrows": {
       "north": [
         {
-          "lock": "Second Cataract",
+          "lock": "SecondCataract",
           "nextTile": "016"
         }
       ],
@@ -4572,7 +4572,7 @@
     "movementArrows": {
       "north": [
         {
-          "lock": "Second Cataract",
+          "lock": "SecondCataract",
           "nextTile": "017"
         }
       ],
@@ -4694,7 +4694,7 @@
     "movementArrows": {
       "north": [
         {
-          "lock": "Second Cataract",
+          "lock": "SecondCataract",
           "nextTile": "020"
         }
       ],
@@ -5643,11 +5643,11 @@
     "movementArrows": {
       "north": [
         {
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "044"
         },
         {
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "044"
         }
       ],
@@ -5695,7 +5695,7 @@
       "north": [
         {
           "split": "a",
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "045"
         }
       ],
@@ -5809,7 +5809,7 @@
         },
         {
           "split": "a",
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "047"
         }
       ],
@@ -5854,12 +5854,12 @@
       "north": [
         {
           "split": "a",
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "048"
         },
         {
           "split": "b",
-          "lock": "First Cataract",
+          "lock": "FirstCataract",
           "nextTile": "048"
         }
       ],
