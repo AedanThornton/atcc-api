@@ -14,6 +14,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44,6 +45,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -121,6 +123,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -151,6 +154,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -228,6 +232,7 @@
     "usedFor": "Hekaton",
     "flavor": "A fist jabs at you from the left, immediately followed by a right cross",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -258,6 +263,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -335,6 +341,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton rears on its hind arms and delivers a powerful downward blow",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -365,6 +372,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -422,6 +430,7 @@
     "usedFor": "Hekaton",
     "flavor": "It goes from zero to ten in a heartbeat and the punches keep on coming",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -452,6 +461,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -529,6 +539,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton smashes his front hands as if with frustration",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -572,6 +583,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -649,6 +661,7 @@
     "usedFor": "Hekaton",
     "flavor": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -679,6 +692,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -735,6 +749,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Primordial delivers a blow with its mighty armored fist",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -778,6 +793,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -837,6 +853,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -854,6 +871,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -924,6 +942,7 @@
     "usedFor": "Hekaton",
     "flavor": "The monster cartwheels into you like a giant ball of fists and pain",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -967,6 +986,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1052,6 +1072,7 @@
     "usedFor": "Hekaton",
     "flavor": "It knows where it hurts the most",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1082,6 +1103,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1155,6 +1177,7 @@
     "usedFor": "Hekaton",
     "flavor": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1198,6 +1221,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1297,6 +1321,7 @@
     "usedFor": "Hekaton",
     "flavor": "Mindless and unrelentless, it comes at you with all of its might. You may endure one, two, ten punches. One hundred is madness",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1340,6 +1365,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1423,6 +1449,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton winds around, almost turning to you with its side. Then the hook comes knocking",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1466,6 +1493,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1540,6 +1568,7 @@
     "flavor": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling. The other hands raise you in the air, then slam down",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1583,6 +1612,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1646,6 +1676,7 @@
     "usedFor": "Hekaton",
     "flavor": "It knows you're just controlling the Titan and it intends to break that connection - with flair",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1689,6 +1720,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1801,6 +1833,7 @@
     "usedFor": "Hekaton",
     "flavor": "The mighty hands of the monster clutch your helmeted head and squeeze. The screech of metal is deafening",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1831,6 +1864,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -1922,6 +1956,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1939,6 +1974,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -2034,6 +2070,7 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton does what it was made to do: SMASH!",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2064,6 +2101,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2141,6 +2179,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechancial bull charges at you",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2184,6 +2223,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2273,6 +2313,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Primordial tries to skewer you on one of its bronze horns",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2316,6 +2357,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2388,6 +2430,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Labyrinthauros rears its bronze hooves",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2431,6 +2474,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2487,6 +2531,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Head to head!",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2517,6 +2562,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2594,6 +2640,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Its lifeless glass eyes are fixed on you",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2637,6 +2684,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -2708,6 +2756,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical bull gallops forward, striking all in its path",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2751,6 +2800,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -2840,6 +2890,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical bull charges at you with unnatural speed",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2883,6 +2934,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -2992,6 +3044,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Maze rises from beneath its hooves, as if on command",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3035,6 +3088,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -3118,6 +3172,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The bull rages, attacking all that got too close",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3148,6 +3203,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -3219,6 +3275,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical jaw snaps shut with an audible smack",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3262,6 +3319,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -3321,6 +3379,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "For a second the bull becomes transparent, then it's upon you",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3364,6 +3423,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -3451,6 +3511,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Labyrinthauros disappears in a tear in spacetime and reappears right beside you",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3481,6 +3542,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -3586,6 +3648,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Labyrinthauros becomes a blur",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3629,6 +3692,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -3717,6 +3781,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "There is no escape from the Maze",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3760,6 +3825,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -3891,6 +3957,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "You feel an existential dread, uncomparable to any other",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3921,6 +3988,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -4034,6 +4102,7 @@
     "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4051,6 +4120,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -4138,6 +4208,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "For a brief moment there is only you and the creature",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4181,6 +4252,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -4270,6 +4342,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The creature rears its true head, its gaze pierces right through you",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4313,6 +4386,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -4397,6 +4471,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechancial bull charges at you",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4440,6 +4515,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -4529,6 +4605,7 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4559,6 +4636,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -4646,6 +4724,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos swipes at you with one of its innumerable tentacles",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4691,6 +4770,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -4792,6 +4872,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos swipes at you with one of its innumerable tentacles",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4837,6 +4918,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -4938,6 +5020,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The Primordial attacks you with one of the trunk-like tentacles",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4996,6 +5079,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -5081,6 +5165,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos uses one of its springy tentacles as a whip",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5139,6 +5224,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -5212,6 +5298,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos strikes the ground with a small maze pyramid",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5257,6 +5344,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -5334,6 +5422,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The air around you fills with despair",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5392,6 +5481,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -5499,6 +5589,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos grabs you with one of its tentacles and throws you across the battlefield",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5570,6 +5661,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -5646,6 +5738,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "One of the tentacles wraps around you like a giant snake",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5717,6 +5810,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -5794,6 +5888,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos pounds the ground with a maze pyramid",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5839,6 +5934,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -5912,6 +6008,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5957,6 +6054,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -6034,6 +6132,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6079,6 +6178,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -6195,6 +6295,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The giant maw looms over you, its light offers nothing but emptiness",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6240,6 +6341,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -6335,6 +6437,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The creature leans and crushes into you with the entirety of its cephalothorax",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6380,6 +6483,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -6475,6 +6579,7 @@
     "flavor": "Temenos emerges from the ground with a terrible wail, and the Maze emerges with it",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6520,6 +6625,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -6611,6 +6717,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos pounds the ground with its main maze pyramid",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6669,6 +6776,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -6742,6 +6850,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The earth screams and cracks, Temenos dives into the ground!",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6787,6 +6896,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -6870,6 +6980,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The creature rises from the ground, revealing the true extent of its vast size",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6915,6 +7026,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -6974,6 +7086,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "You are being pulled inside the endless maw, you feel your body dissolve into nothingness",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7045,6 +7158,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7130,6 +7244,7 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos strikes you with one of its innumerable tentacles",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7186,6 +7301,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7263,6 +7379,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The pincers have keen edges, as if they were sharpened",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7293,6 +7410,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7364,6 +7482,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The pincer comes down, trying to pin you to the ground",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7394,6 +7513,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7442,6 +7562,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "As the Pursuer makes the cross cut, its laugh is full of reverence",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7489,6 +7610,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7578,6 +7700,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The empty eyes of the creature spell your future",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7612,6 +7735,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -7727,6 +7851,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The thick black liquid pours from the creature's belly onto its long pincers",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7757,6 +7882,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7858,6 +7984,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "For a moment you see the demon this creature really is",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7892,6 +8019,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -7967,6 +8095,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer slashes with both of its long pincers in a semi-circular motion",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8001,6 +8130,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -8099,6 +8229,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The creature reveals its abdomen. Ambrosia spurts from the blackened belly",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8129,6 +8260,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -8237,6 +8369,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "It slashes and thrusts, giggling under its breath",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8254,6 +8387,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -8326,6 +8460,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer judges you and finds you wanting",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8360,6 +8495,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -8475,6 +8611,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Primordial wraps its arms around you and squeezes. You feel the black liquid burn through your armor",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8518,6 +8655,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -8627,6 +8765,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer wants to take you for a ride",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8674,6 +8813,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -8771,6 +8911,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer jabs at you with its proboscis, intent on sucking you dry",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8818,6 +8959,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -8917,6 +9059,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A jet of hot black ambrosia covers you from head to toe",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8964,6 +9107,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -9080,6 +9224,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A double thrust meant to gut you like fish",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9127,6 +9272,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -9199,6 +9345,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "It effortlessly floats into the air, then comes crashing down",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9229,6 +9376,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -9316,6 +9464,7 @@
     "flavor": "You trespass!",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9350,6 +9499,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -9459,6 +9609,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A mesmerizing display of beauty, finesse and carnage",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9476,6 +9627,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -9581,6 +9733,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "Precise and deadly",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9611,6 +9764,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -9688,6 +9842,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "This is the end of the road",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9718,6 +9873,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Simultaneous"
@@ -9807,6 +9963,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9824,6 +9981,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -9930,6 +10088,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9973,6 +10132,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10048,6 +10208,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10078,6 +10239,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10165,6 +10327,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10208,6 +10371,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10318,6 +10482,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10348,6 +10513,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -10446,6 +10612,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10489,6 +10656,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10562,6 +10730,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10605,6 +10774,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10715,6 +10885,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10745,6 +10916,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -10894,6 +11066,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10911,6 +11084,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -10987,6 +11161,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11017,6 +11192,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -11094,6 +11270,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11137,6 +11314,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -11262,6 +11440,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11292,6 +11471,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -11397,6 +11577,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11414,6 +11595,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -11546,6 +11728,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11576,6 +11759,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -11673,6 +11857,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11716,6 +11901,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -11822,6 +12008,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11869,6 +12056,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -11998,6 +12186,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12058,6 +12247,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -12247,6 +12437,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12277,6 +12468,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -12364,6 +12556,7 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12394,6 +12587,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -12466,6 +12660,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12509,6 +12704,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -12569,6 +12765,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12612,6 +12809,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -12703,6 +12901,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12720,6 +12919,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -12794,6 +12994,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12850,6 +13051,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -12948,6 +13150,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12991,6 +13194,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -13063,6 +13267,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13080,6 +13285,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Zone"
@@ -13164,6 +13370,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13207,6 +13414,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -13288,6 +13496,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13331,6 +13540,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -13449,6 +13659,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13505,6 +13716,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -13578,6 +13790,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13595,6 +13808,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -13677,6 +13891,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13733,6 +13948,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -13838,6 +14054,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13855,6 +14072,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Zone"
@@ -13956,6 +14174,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13999,6 +14218,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Regular"
@@ -14085,6 +14305,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14128,6 +14349,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -14249,6 +14471,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14305,6 +14528,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -14382,6 +14606,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14438,6 +14663,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Range"
@@ -14537,6 +14763,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14593,6 +14820,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -14690,6 +14918,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14707,6 +14936,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -14804,6 +15034,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14847,6 +15078,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Pushback",
     "attackType": [
       "Zone"
@@ -14923,6 +15155,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14953,6 +15186,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -15046,6 +15280,7 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15063,6 +15298,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -15172,6 +15408,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "\"Come, I will only use my *left* hand!\"<<NL>>Arms akimbo, The Nietzschean thows his head *back* and laughs at you",
     "level": "0",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15189,6 +15426,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -15296,6 +15534,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15326,6 +15565,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -15450,6 +15690,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean jumps high, momentarily blocking out the sun. Then he comes crashing like a comet",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15467,6 +15708,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Land on Top",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -15551,6 +15793,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean plunges his fist into the ground, causing a massive eruption!",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15568,6 +15811,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Turn to face the most Titans",
     "attackType": [
       "Zone"
@@ -15675,6 +15919,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15705,6 +15950,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -15797,6 +16043,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean grabs you with his might hands and tries to rip you limb from limb!",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15840,6 +16087,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -15974,6 +16222,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15991,6 +16240,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Turn to face the most Titans",
     "attackType": [
       "Zone"
@@ -16101,6 +16351,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean spins violently, slashing everyone around him!",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16131,6 +16382,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -16241,6 +16493,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean vanishes in a cloud of choking ash. He reappears *behind* you and stabs you in the *back*",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16258,6 +16511,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Appear Behind",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -16351,6 +16605,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Black Blade comes crashing down, its speed creates a vacuum around the impact zone",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16381,6 +16636,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -16489,6 +16745,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Black-blooded Spartan god grips you in his inhuman *right* hand, then crushes you until you hear your *back* break",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16532,6 +16789,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -16683,6 +16941,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean taps the ground with his sword. Clouds of black ash rise from the ground, obscuring everything",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16700,6 +16959,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -16808,6 +17068,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16825,6 +17086,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Turn to face the most Titans",
     "attackType": [
       "Zone"
@@ -16958,6 +17220,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean turns on the *spot*, the unseeing gaze of his skull-like face digs deep into your soul, *blind*ing you",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16988,6 +17251,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -17135,6 +17399,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean takes a step *back* and picks you off the ground with his *left* hand. For a moment, the billowing cloud of smoke and fire turns into a giant maw and takes a big bite out of you",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17178,6 +17443,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -17289,6 +17555,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17306,6 +17573,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -17396,6 +17664,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17447,6 +17716,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Appear in Front",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Zone"
@@ -17629,6 +17899,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean moves *forward*, sweeps you off the ground with his *right* hand and thrusts you into the blazing fire engulfing his body",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17672,6 +17943,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -17794,6 +18066,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17811,6 +18084,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -18006,6 +18280,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18036,6 +18311,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -18130,6 +18406,7 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18173,6 +18450,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -18253,6 +18531,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "0",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18274,6 +18553,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -18347,6 +18627,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18377,6 +18658,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -18465,6 +18747,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18495,6 +18778,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -18569,6 +18853,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18589,7 +18874,8 @@
       }
     ],
     "preActionWoO": true,
-    "moveType": "Move to LOCATION ",
+    "moveType": "Move to LOCATION",
+    "moveLocation": "Center",
     "attackType": [
       "Judgement"
     ],
@@ -18694,6 +18980,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18724,6 +19011,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Jump",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -18805,6 +19093,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18839,6 +19128,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -18938,6 +19228,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18955,6 +19246,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -19044,6 +19336,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19074,6 +19367,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -19162,6 +19456,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19192,6 +19487,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -19280,6 +19576,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19300,7 +19597,8 @@
       }
     ],
     "preActionWoO": true,
-    "moveType": "Move to LOCATION ",
+    "moveType": "Move to LOCATION",
+    "moveLocation": "Center",
     "attackType": [
       "Judgement"
     ],
@@ -19416,6 +19714,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19446,6 +19745,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Jump",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -19518,6 +19818,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19535,6 +19836,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -19614,6 +19916,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19648,6 +19951,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -19769,6 +20073,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19799,6 +20104,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -19896,6 +20202,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19930,6 +20237,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -20041,6 +20349,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20058,6 +20367,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move unlimited",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -20137,6 +20447,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20167,6 +20478,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Jump",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -20272,6 +20584,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20292,7 +20605,8 @@
       }
     ],
     "preActionWoO": true,
-    "moveType": "Move to LOCATION ",
+    "moveType": "Move to LOCATION",
+    "moveLocation": "Center",
     "attackType": [
       "Judgement"
     ],
@@ -20425,6 +20739,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20455,6 +20770,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -20580,6 +20896,7 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20610,6 +20927,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -20706,6 +21024,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20752,6 +21071,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -20811,6 +21131,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20849,6 +21170,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -20955,6 +21277,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21001,6 +21324,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -21082,6 +21406,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21128,6 +21453,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Teleport Titan",
     "attackType": [
       "Regular"
@@ -21193,6 +21519,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21244,6 +21571,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -21335,6 +21663,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21381,6 +21710,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -21492,6 +21822,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21538,6 +21869,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Teleport Titan",
     "attackType": [
       "Judgement"
@@ -21631,6 +21963,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21669,6 +22002,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -21771,6 +22105,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21801,6 +22136,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -21853,6 +22189,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21899,6 +22236,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -21980,6 +22318,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22031,6 +22370,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -22168,6 +22508,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22219,6 +22560,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -22330,6 +22672,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22376,6 +22719,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -22474,6 +22818,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22525,6 +22870,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -22578,6 +22924,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22595,6 +22942,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser",
       "Sequential"
@@ -22701,6 +23049,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22752,6 +23101,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -22885,6 +23235,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22915,6 +23266,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Teleport All Titans",
     "attackType": [
       "Simultaneous",
@@ -22983,9 +23335,11 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -23084,6 +23438,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23101,6 +23456,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -23202,6 +23558,7 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23248,6 +23605,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -23312,6 +23670,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23359,6 +23718,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -23411,6 +23771,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23458,6 +23819,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -23532,6 +23894,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23593,6 +23956,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -23696,6 +24060,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23739,6 +24104,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -23833,6 +24199,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23880,6 +24247,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Appear Behind",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -23936,6 +24304,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23997,6 +24366,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -24077,6 +24447,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24124,6 +24495,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -24176,6 +24548,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24223,6 +24596,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -24309,6 +24683,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24370,6 +24745,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -24477,6 +24853,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24520,6 +24897,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Appear Behind",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -24577,6 +24955,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24633,6 +25012,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -24727,6 +25107,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24788,6 +25169,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -24896,6 +25278,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24944,6 +25327,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Appear Behind",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -25021,6 +25405,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25068,6 +25453,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Appear Behind",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -25183,6 +25569,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25257,6 +25644,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -25372,6 +25760,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25419,6 +25808,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -25522,6 +25912,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25553,6 +25944,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -25662,6 +26054,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25706,6 +26099,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Land on Top",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -25796,6 +26190,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25857,6 +26252,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "preAttack": "Pushback 2",
     "attackType": [
       "Regular"
@@ -25926,6 +26322,7 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25943,6 +26340,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -26003,6 +26401,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26042,6 +26441,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Sun Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Sun"
@@ -26151,6 +26551,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26210,6 +26611,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -26339,6 +26741,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26416,6 +26819,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -26509,6 +26913,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26569,6 +26974,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Zone"
@@ -26682,6 +27088,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26758,6 +27165,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -26868,6 +27276,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26951,6 +27360,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -27024,6 +27434,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27083,6 +27494,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -27195,6 +27607,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27225,6 +27638,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -27362,6 +27776,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27400,6 +27815,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Sun Move",
+    "moveLocation": null,
     "attackType": [
       "Sun"
     ],
@@ -27483,6 +27899,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27560,6 +27977,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -27653,6 +28071,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27688,6 +28107,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Simultaneous",
@@ -27794,6 +28214,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27891,6 +28312,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -27964,6 +28386,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28023,6 +28446,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Zone",
       "Judgement"
@@ -28157,6 +28581,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28257,6 +28682,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -28306,6 +28732,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28336,6 +28763,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous",
       "Zone",
@@ -28475,6 +28903,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28555,6 +28984,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -28655,6 +29085,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28714,6 +29145,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -28807,6 +29239,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28824,6 +29257,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Sun Move",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -28883,6 +29317,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28900,6 +29335,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Sun Move",
+    "moveLocation": null,
     "attackType": [
       "Sun"
     ],
@@ -28992,6 +29428,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29051,6 +29488,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -29145,6 +29583,7 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29193,6 +29632,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Sun Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Zone"
@@ -29266,6 +29706,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29296,6 +29737,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -29406,6 +29848,7 @@
     "usedFor": "Midascore",
     "flavor": "The other hand taketh away",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29436,6 +29879,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -29542,6 +29986,7 @@
     "usedFor": "Midascore",
     "flavor": "One hand lends",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29572,6 +30017,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -29670,6 +30116,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29700,6 +30147,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -29835,6 +30283,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29869,6 +30318,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -29987,6 +30437,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30017,6 +30468,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -30152,6 +30604,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30182,6 +30635,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -30276,6 +30730,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30306,6 +30761,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -30404,6 +30860,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30434,6 +30891,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -30569,9 +31027,11 @@
     "usedFor": "Midascore",
     "flavor": "Impossibly complicated, completely mesmerizing",
     "level": "II",
+    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Dance",
     "attackType": [
       "Curse"
@@ -30680,6 +31140,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30714,6 +31175,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Jump",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -30832,6 +31294,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30849,6 +31312,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -30955,6 +31419,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30985,6 +31450,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -31054,6 +31520,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31084,6 +31551,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -31231,6 +31699,7 @@
     "usedFor": "Midascore",
     "flavor": "The Invisible Horn of the market bears down on you",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31261,6 +31730,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -31367,9 +31837,11 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Topple",
     "attackType": [
       "Curse"
@@ -31482,9 +31954,11 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Rain",
     "attackType": [
       "Curse"
@@ -31596,6 +32070,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31643,6 +32118,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -31748,6 +32224,7 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31778,6 +32255,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Sequential"
     ],
@@ -31884,6 +32362,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31914,6 +32393,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -31982,6 +32462,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32012,6 +32493,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -32088,6 +32570,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32118,6 +32601,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -32202,6 +32686,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32263,6 +32748,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -32340,6 +32826,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32405,6 +32892,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -32512,6 +33000,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32542,6 +33031,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -32632,6 +33122,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32662,6 +33153,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -32743,6 +33235,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32773,6 +33266,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -32859,6 +33353,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32933,6 +33428,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -33031,6 +33527,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33065,6 +33562,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -33160,6 +33658,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33234,6 +33733,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -33335,6 +33835,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33413,6 +33914,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -33532,6 +34034,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33610,6 +34113,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -33691,6 +34195,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33738,6 +34243,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -33852,6 +34358,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33882,6 +34389,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -33950,6 +34458,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33997,6 +34506,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -34096,6 +34606,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34174,6 +34685,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Wish"
     ],
@@ -34272,6 +34784,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34319,6 +34832,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -34405,6 +34919,7 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34435,6 +34950,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -34525,6 +35041,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "F10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -34560,6 +35094,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -34628,6 +35163,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "I10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -34658,6 +35211,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -34727,6 +35281,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "H9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -34783,6 +35355,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -34900,6 +35473,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "I11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -34943,6 +35534,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -35032,6 +35624,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "G12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -35075,6 +35685,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Wish",
       "Simultaneous"
@@ -35186,6 +35797,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "I",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "F11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -35203,6 +35832,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Wish",
@@ -35313,6 +35943,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "G15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -35343,6 +35991,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Wish"
@@ -35431,6 +36080,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "C6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -35466,6 +36133,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -35530,6 +36198,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "L6"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -35573,6 +36259,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Wish",
       "Simultaneous"
@@ -35684,6 +36371,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "L15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -35727,6 +36432,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Wish",
       "Simultaneous",
@@ -35878,9 +36584,28 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "C15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Wind",
     "attackType": [
       "Curse"
@@ -35984,6 +36709,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "II",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "I2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -36019,6 +36762,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -36115,6 +36859,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "III",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "A1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -36150,6 +36912,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -36246,6 +37009,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "III",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "N10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -36263,6 +37044,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -36410,6 +37192,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "III",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "F19"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -36440,6 +37240,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -36516,6 +37317,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "III",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "A20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Target:",
@@ -36559,6 +37378,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Wish",
       "Simultaneous"
@@ -36670,9 +37490,28 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "III",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "N20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Topple",
     "attackType": [
       "Curse"
@@ -36727,9 +37566,28 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "N10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Eclipse",
     "attackType": [
       "Curse"
@@ -36841,6 +37699,24 @@
     "usedFor": "Babelian Lunacy",
     "flavor": "",
     "level": "X",
+    "preTarget": [
+      {
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Staircase:"
+              },
+              {
+                "type": "plainText",
+                "value": "Doesn't move!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "targeting": [
       {
         "type": "Rotate:",
@@ -36876,6 +37752,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Eclipse"
     ],
@@ -36968,6 +37845,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37012,6 +37890,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37093,6 +37972,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37123,6 +38003,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37221,6 +38102,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37274,6 +38156,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37363,6 +38246,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37407,6 +38291,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -37534,6 +38419,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37578,6 +38464,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37674,6 +38561,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37704,6 +38592,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37800,6 +38689,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37848,6 +38738,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -37950,6 +38841,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37994,6 +38886,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -38099,6 +38992,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38129,6 +39023,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -38243,6 +39138,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38277,6 +39173,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -38388,6 +39285,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38418,6 +39316,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -38522,6 +39421,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38579,6 +39479,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -38684,6 +39585,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38753,6 +39655,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -38849,6 +39752,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -38914,6 +39818,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -39020,6 +39925,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39077,6 +39983,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -39198,6 +40105,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39249,6 +40157,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -39371,6 +40280,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39415,6 +40325,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -39538,6 +40449,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39595,6 +40507,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -39688,6 +40601,7 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39718,6 +40632,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -39825,6 +40740,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39859,6 +40775,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -39958,6 +40875,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -39992,6 +40910,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40070,6 +40989,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40117,6 +41037,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40228,6 +41149,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40275,6 +41197,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40374,6 +41297,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40421,6 +41345,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40507,6 +41432,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40554,6 +41480,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40645,6 +41572,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40692,6 +41620,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40803,6 +41732,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40837,6 +41767,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -40921,6 +41852,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40955,6 +41887,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -41065,6 +41998,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41099,6 +42033,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -41190,6 +42125,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41224,6 +42160,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -41362,6 +42299,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41409,6 +42347,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -41525,6 +42464,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41572,6 +42512,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -41671,6 +42612,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41688,6 +42630,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -41771,6 +42714,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41801,6 +42745,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone"
     ],
@@ -41891,6 +42836,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41951,6 +42897,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -42062,6 +43009,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42096,6 +43044,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -42199,6 +43148,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42233,6 +43183,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -42364,6 +43315,7 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42381,6 +43333,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Microwave"
     ],
@@ -42463,6 +43416,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "0",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42480,6 +43434,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -42598,6 +43553,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42643,6 +43599,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Flicker",
     "attackType": [
       "Regular"
@@ -42716,6 +43673,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42761,6 +43719,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Regular"
@@ -42875,6 +43834,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42924,6 +43884,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -43041,6 +44002,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43099,6 +44061,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -43205,6 +44168,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43263,6 +44227,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Flicker",
     "attackType": [
       "Judgement"
@@ -43406,6 +44371,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43451,6 +44417,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Regular"
@@ -43520,6 +44487,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43565,6 +44533,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Black March",
     "attackType": [
       "Regular"
@@ -43638,6 +44607,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43683,6 +44653,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Regular"
@@ -43818,6 +44789,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43867,6 +44839,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -43984,6 +44957,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44042,6 +45016,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Judgement"
@@ -44166,6 +45141,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44224,6 +45200,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Flicker",
     "attackType": [
       "Judgement"
@@ -44391,6 +45368,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44436,6 +45414,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Judgement"
@@ -44529,6 +45508,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44599,6 +45579,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Black March",
     "attackType": [
       "Judgement"
@@ -44714,6 +45695,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44763,6 +45745,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Regular"
@@ -44901,6 +45884,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44946,6 +45930,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Judgement"
@@ -45045,6 +46030,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45077,6 +46063,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Fade In",
     "attackType": [
       "Judgement",
@@ -45177,6 +46164,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45259,6 +46247,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Flicker",
     "attackType": [
       "Regular"
@@ -45358,6 +46347,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45390,6 +46380,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Zone"
@@ -45547,6 +46538,7 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45592,6 +46584,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -45648,9 +46641,11 @@
     "usedFor": "Titan X",
     "flavor": "The devil's in the details",
     "level": "0",
+    "preTarget": [],
     "targeting": [],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -45718,6 +46713,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45774,6 +46770,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -45842,6 +46839,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45859,6 +46857,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -45927,6 +46926,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45944,6 +46944,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -46037,6 +47038,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46076,6 +47078,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -46232,6 +47235,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46267,6 +47271,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -46335,6 +47340,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46379,6 +47385,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -46479,6 +47486,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46553,6 +47561,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -46630,6 +47639,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46647,6 +47657,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -46715,6 +47726,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46758,6 +47770,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -46858,6 +47871,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46897,6 +47911,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -47003,6 +48018,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47051,6 +48067,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -47119,6 +48136,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47150,6 +48168,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -47306,6 +48325,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47345,6 +48365,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -47475,6 +48496,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47510,6 +48532,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -47579,6 +48602,7 @@
     "flavor": "",
     "level": "III",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47610,6 +48634,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -47707,6 +48732,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47742,6 +48768,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -47835,6 +48862,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47912,6 +48940,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -48041,6 +49070,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48072,6 +49102,7 @@
     ],
     "preActionWoO": false,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -48184,6 +49215,7 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48214,6 +49246,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Flash Step",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -48266,6 +49299,7 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48296,6 +49330,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Range",
       "Simultaneous"
@@ -48354,6 +49389,7 @@
     "usedFor": "The Pitiless",
     "flavor": "You're nothing",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48371,6 +49407,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser",
       "Judgement"
@@ -48438,6 +49475,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Begone",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48455,6 +49493,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Sun"
@@ -48533,6 +49572,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Bask in the light of your god returned",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48550,6 +49590,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Zone"
@@ -48616,6 +49657,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Cease to be",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48633,6 +49675,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser",
       "Judgement"
@@ -48700,6 +49743,7 @@
     "usedFor": "The Pitiless",
     "flavor": "I forgive you",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48717,6 +49761,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move",
+    "moveLocation": null,
     "attackType": [
       "Regular"
     ],
@@ -48786,6 +49831,7 @@
     "usedFor": "The Pitiless",
     "flavor": "It is not for you, blasphemer",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48803,6 +49849,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone",
       "Judgement"
@@ -48869,6 +49916,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Let the impurities burn away",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48886,6 +49934,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Sun",
       "Judgement"
@@ -48953,6 +50002,7 @@
     "flavor": "Disappear",
     "level": "II",
     "uber": true,
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48970,6 +50020,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser",
       "Judgement"
@@ -49037,6 +50088,7 @@
     "usedFor": "The Pitiless",
     "flavor": "I am the life giver",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49054,6 +50106,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -49127,6 +50180,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Worship me",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49144,6 +50198,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -49209,6 +50264,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Fear me",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49239,6 +50295,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -49304,6 +50361,7 @@
     "usedFor": "The Pitiless",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49321,6 +50379,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Turn to face the most titans",
     "attackType": [
       "Sun"
@@ -49415,6 +50474,7 @@
     "usedFor": "Old Haunt",
     "flavor": "<SNAP>",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49432,6 +50492,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Range"
     ],
@@ -49486,6 +50547,7 @@
     "usedFor": "Old Haunt",
     "flavor": "My loving flock. My cattle",
     "level": "I",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49503,6 +50565,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone",
       "Judgement"
@@ -49569,6 +50632,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Love me, and you will be blessed in the next life",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49586,6 +50650,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Laser",
       "Judgement"
@@ -49653,6 +50718,7 @@
     "usedFor": "Old Haunt",
     "flavor": "And accept my love and judgement",
     "level": "II",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49670,6 +50736,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone",
       "Judgement"
@@ -49736,6 +50803,7 @@
     "usedFor": "Old Haunt",
     "flavor": "I am the life giver",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49753,6 +50821,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Simultaneous"
     ],
@@ -49814,6 +50883,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Bear witness",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49831,6 +50901,7 @@
     ],
     "preActionWoO": false,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Zone",
       "Judgement"
@@ -49897,6 +50968,7 @@
     "usedFor": "Old Haunt",
     "flavor": "You're already dead",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49918,6 +50990,7 @@
     ],
     "preActionWoO": true,
     "moveType": "Move Lateral",
+    "moveLocation": null,
     "attackType": [
       "Judgement",
       "Laser"
@@ -49997,6 +51070,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Leave My Grace and be doomed forever",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50014,6 +51088,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Judgement"
     ],
@@ -50079,6 +51154,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Starve",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50096,6 +51172,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -50149,6 +51226,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Bask",
     "level": "III",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50166,6 +51244,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "attackType": [
       "Laser"
     ],
@@ -50219,6 +51298,7 @@
     "usedFor": "Old Haunt",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
+    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50236,6 +51316,7 @@
     ],
     "preActionWoO": true,
     "moveType": "None",
+    "moveLocation": null,
     "preAttack": "Turn to face the most titans",
     "attackType": [
       "Sun"
