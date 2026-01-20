@@ -7,15 +7,15 @@ def parse_formatted_sentence(raw_sentence):
     if not raw_sentence: return None, None
 
     token_regex = re.compile(
-        r"(<<NL>>)"
-        r"|{([^}]+)}"            # {keyword}
-        r"|<([^>]+)>"           # <timing>
-        r"|\[([^\]]+)\]"        # [cardRef]
-        r"|%([^%]+)%"           # %gate%
-        r"|\*([^\*]+)\*"        # *bold*
-        r"|_([^_]+)_"           # _italics_
-        r"|@(\w+)"              # @icon
-        r"|\$(\w+)"             # $cost
+        r"(<<NL>>)"                 # Newline
+        r"|{([^}]+)}"               # {keyword}
+        r"|<([^>]+)>"               # <timing>
+        r"|\[([^\]]+)\]"            # [cardRef]
+        r"|%([^%]+)%"               # %gate%
+        r"|\*([^\*]+)\*"            # *bold*
+        r"|_([^_]+)_"               # _italics_
+        r"|@(\w+)"                  # @icon
+        r"|\$(\w+)"                 # $cost
         r"|([^{}<>%@$_\*\[\]]+)"    # plain text
     )
 
@@ -402,31 +402,58 @@ def parse_trauma(table):
     return parsed_table
 
 def parse_consequences(consequences):
-    """Parses the Attack Consequences."""
-    consequences_list = re.split(r"\.\s?", consequences)
-    new_json = []
-    gate_pattern = re.compile(r"(\w+) (\d\+) (.*)")
+    banner_regex = re.compile(r"%%([^%]+)%%")
 
-    for consequence in consequences_list:
-        if consequence == "": continue
-        consequence_json = {}
-        if consequence[:3] == "WoO":
-            consequence_json["WoO"] = True
-            consequence = consequence[3:]
+    results = []
+    segments = re.split(r"(WoO)", consequences)
+    next_is_WoO = False
 
-        gate_match = gate_pattern.match(consequence)
-        if gate_match:
-            gate_type, gate_value, effect = gate_match.groups()
-            if not gate_type == "If":
-                consequence_json["gate"] = {"gateType": gate_type, "gateValue": gate_value}
-            else:
-                effect = consequence
-        else:
-            effect = consequence
-        consequence_json["effect"] = parse_abilities(effect)[0]
-        new_json.append(consequence_json)
+    for seg in segments:
+        if seg == "WoO":
+            next_is_WoO = True
+            continue
 
-    return new_json
+        last_end = 0
+        for match in banner_regex.finditer(seg):
+            # Text before the banner
+            text_part = seg[last_end:match.start()].strip()
+            if text_part:
+                abilities = parse_abilities(text_part)
+                if abilities:
+                    results.append({
+                        "banner": False,
+                        "WoO": next_is_WoO,
+                        "effect": abilities[0]
+                    })
+                    next_is_WoO = False
+
+            # Banner itself
+            banner_text = match.group(1).strip()
+            if banner_text:
+                abilities = parse_abilities(banner_text)
+                if abilities:
+                    results.append({
+                        "banner": True,
+                        "WoO": next_is_WoO,
+                        "effect": abilities[0]
+                    })
+                    next_is_WoO = False
+
+            last_end = match.end()
+
+        # Any remaining text after last banner
+        remaining_text = seg[last_end:].strip()
+        if remaining_text:
+            abilities = parse_abilities(remaining_text)
+            if abilities:
+                results.append({
+                    "banner": False,
+                    "WoO": next_is_WoO,
+                    "effect": abilities[0]
+                })
+                next_is_WoO = False
+
+    return results
 
 def parse_targeting(targeting):
     """Parses the Attack Consequences."""

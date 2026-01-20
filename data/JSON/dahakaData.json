@@ -65,6 +65,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -77,11 +79,7 @@
                 "value": "Danger"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -93,13 +91,22 @@
         ]
       },
       {
+        "banner": true,
         "WoO": true,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 2+ Knockdown"
+                "value": "2+"
+              },
+              {
+                "type": "keyword",
+                "value": "Knockdown"
               }
             ]
           }
@@ -159,6 +166,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -238,6 +247,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -258,13 +269,22 @@
         ]
       },
       {
+        "banner": true,
         "WoO": true,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 3+ Knockdown"
+                "value": "3+"
+              },
+              {
+                "type": "keyword",
+                "value": "Knockdown"
               }
             ]
           }
@@ -324,6 +344,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -403,6 +425,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -431,24 +455,29 @@
         ]
       },
       {
+        "banner": true,
         "WoO": true,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 4+ Knockdown"
+                "value": "4+"
+              },
+              {
+                "type": "keyword",
+                "value": "Knockdown"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Knockback 10"
               }
             ]
@@ -509,6 +538,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -590,13 +621,19 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+"
+              },
               {
                 "type": "keyword",
                 "value": "Soulrend"
@@ -610,6 +647,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -618,11 +657,7 @@
                 "value": "Courage/Will"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -723,6 +758,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -786,16 +823,18 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "3+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "+1"
+                "value": "3+ +1"
               },
               {
                 "type": "icon",
@@ -810,6 +849,8 @@
     "AIdifficulty": "8",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -907,6 +948,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -998,6 +1041,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1010,11 +1055,7 @@
                 "value": "Danger"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -1026,24 +1067,29 @@
         ]
       },
       {
+        "banner": true,
         "WoO": true,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 4+ Knockdown"
+                "value": "4+"
+              },
+              {
+                "type": "keyword",
+                "value": "Knockdown"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Knockback 5"
               }
             ]
@@ -1104,6 +1150,8 @@
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1179,6 +1227,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1191,11 +1241,7 @@
                 "value": "Danger"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -1207,16 +1253,18 @@
         ]
       },
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": true,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Gain 1 negative Precision ("
+                "value": "5+ Gain 1 negative Precision ("
               },
               {
                 "type": "icon",
@@ -1305,6 +1353,8 @@
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1355,13 +1405,19 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+"
+              },
               {
                 "type": "keyword",
                 "value": "Soulrend"
@@ -1375,6 +1431,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1448,6 +1506,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1501,6 +1561,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1513,11 +1575,7 @@
                 "value": "Gear"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -1586,6 +1644,8 @@
     "AIafterFinal": true,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1667,13 +1727,19 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+"
+              },
               {
                 "type": "keyword",
                 "value": "Soulrend"
@@ -1687,6 +1753,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1695,11 +1763,7 @@
                 "value": "Courage/Will"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -1798,6 +1862,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1887,16 +1953,18 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "6+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "+2"
+                "value": "6+ +2"
               },
               {
                 "type": "icon",
@@ -1911,6 +1979,8 @@
     "AIdifficulty": "8",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -1919,11 +1989,7 @@
                 "value": "If the Attack hits, gain 3 Ambrosia tokens"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -1996,6 +2062,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2067,16 +2135,18 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "3+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "+1"
+                "value": "3+ +1"
               },
               {
                 "type": "icon",
@@ -2091,6 +2161,8 @@
     "AIdifficulty": "8",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2103,11 +2175,7 @@
                 "value": "Danger"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -2180,6 +2248,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2267,6 +2337,8 @@
     "AIdifficulty": "8",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2283,16 +2355,18 @@
         ]
       },
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "6+"
-        },
+        "banner": true,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "4"
+                "value": "6+ 4"
               },
               {
                 "type": "icon",
@@ -2307,12 +2381,22 @@
         ]
       },
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Lose -1 Rage and 1 Mnemos or Fated Mnemos node per hit"
+                "value": "Lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              },
+              {
+                "type": "plainText",
+                "value": "and 1 Mnemos or Fated Mnemos node per hit"
               }
             ]
           }
@@ -2376,6 +2460,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2426,13 +2512,19 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+"
+              },
               {
                 "type": "keyword",
                 "value": "Soulrend"
@@ -2446,6 +2538,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2527,6 +2621,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2628,13 +2724,19 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "5+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+"
+              },
               {
                 "type": "keyword",
                 "value": "Soulrend"
@@ -2648,6 +2750,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2656,11 +2760,7 @@
                 "value": "Soulrend"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -2737,6 +2837,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -2777,11 +2879,13 @@
     "AIdifficulty": "",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Heal 1"
               }
             ]
@@ -2932,16 +3036,18 @@
     ],
     "AIattackBanners": [
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "8+"
-        },
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "+1"
+                "value": "8+ +1"
               },
               {
                 "type": "icon",
@@ -2956,31 +3062,45 @@
     "AIdifficulty": "11",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Doomed"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Wisdom"
+              },
+              {
                 "type": "plainText",
-                "value": "Wisdom/Courage/Will"
+                "value": "Wisdom/"
+              },
+              {
+                "type": "icon",
+                "value": "Courage"
+              },
+              {
+                "type": "plainText",
+                "value": "Courage/"
+              },
+              {
+                "type": "icon",
+                "value": "Will"
+              },
+              {
+                "type": "plainText",
+                "value": "Will"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -3049,6 +3169,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -3103,6 +3225,8 @@
     "AIdifficulty": "9",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -3111,11 +3235,7 @@
                 "value": "Gain 1 Midas token for each hit and Ambrosia token you have"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -3131,13 +3251,19 @@
         ]
       },
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "7+"
-        },
+        "banner": true,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "7+"
+              },
               {
                 "type": "keyword",
                 "value": "Float"
@@ -3220,6 +3346,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -3299,6 +3427,8 @@
     "AIdifficulty": "10",
     "AIconsequences": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
@@ -3311,11 +3441,7 @@
                 "value": "Danger"
               }
             ]
-          }
-        ]
-      },
-      {
-        "effect": [
+          },
           {
             "abilityText": [
               {
@@ -3327,17 +3453,22 @@
         ]
       },
       {
-        "gate": {
-          "gateType": "Fate",
-          "gateValue": "2+"
-        },
+        "banner": true,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
-                "type": "cardRef",
-                "value": "Knockdown",
-                "refID": "AL0299"
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "2+"
+              },
+              {
+                "type": "keyword",
+                "value": "Knockdown"
               }
             ]
           }
@@ -3411,6 +3542,8 @@
     "AIafterFinal": false,
     "AIafterAttackEffects": [
       {
+        "banner": false,
+        "WoO": false,
         "effect": [
           {
             "abilityText": [
