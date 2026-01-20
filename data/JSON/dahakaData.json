@@ -161,7 +161,32 @@
       }
     ],
     "BPcritFlavor": "Where your weapon connects, the robe parts, like a wave crashing on a seawall!",
-    "BPcritResponse": "Gain the @PriorityTarget Priority Target token. You may perform a Bonus Attack!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -339,7 +364,24 @@
       }
     ],
     "BPcritFlavor": "As the needle rushes toward you like floodwater, you flow around it!",
-    "BPcritResponse": "Resolve a Fated Mnemos! Immediately resolve the _Memory of the Boiling Sea_ Special Event",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Resolve a Fated Mnemos! Immediately resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Memory of the Boiling Sea"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -533,7 +575,32 @@
       }
     ],
     "BPcritFlavor": "Somewhere in the cloud of sand and dust is the creature you staggered!",
-    "BPcritResponse": "Gain the @PriorityTarget Priority Target token. You may perform a Bonus Attack!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "icon",
+            "value": "PriorityTarget"
+          },
+          {
+            "type": "plainText",
+            "value": "Priority Target token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -753,7 +820,24 @@
       }
     ],
     "BPcritFlavor": "Under it you saw your futile future -- and seized it!",
-    "BPcritResponse": "Disable the {Soulrend} Trait!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disable the"
+          },
+          {
+            "type": "keyword",
+            "value": "Soulrend"
+          },
+          {
+            "type": "plainText",
+            "value": "Trait!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -943,7 +1027,24 @@
       }
     ],
     "BPcritFlavor": "As you strike, the Dahaka envelopes you. Things slither across your skin, neither solid, nor liquid!",
-    "BPcritResponse": "The Dahaka gains 1 negative To Hit @ToHit token",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Dahaka gains 1 negative To Hit"
+          },
+          {
+            "type": "icon",
+            "value": "ToHit"
+          },
+          {
+            "type": "plainText",
+            "value": "token"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -1145,7 +1246,16 @@
       }
     ],
     "BPcritFlavor": "As you frantically dispel the tentacled smoke, possible pasts flicker before your eyes",
-    "BPcritResponse": "Gain 1 Mnemos node for a chosen Mnemos",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Mnemos node for a chosen Mnemos"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": true,
     "AIafterAttackEffects": [
@@ -1348,7 +1458,32 @@
       }
     ],
     "BPcritFlavor": "It has waited for a paradox to cast off these bonds, and that hour has come at last!",
-    "BPcritResponse": "Disable the {Shackles of Regret} Trait. You may perform a Bonus Attack!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disable the"
+          },
+          {
+            "type": "keyword",
+            "value": "Shackles of Regret"
+          },
+          {
+            "type": "plainText",
+            "value": "Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": true,
     "AIafterAttackEffects": [
@@ -1501,7 +1636,20 @@
       }
     ],
     "BPcritFlavor": "Can one cripple a sandstorm? You just did!",
-    "BPcritResponse": "{Drift} becomes Move Unlimited",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Drift"
+          },
+          {
+            "type": "plainText",
+            "value": "becomes Move Unlimited"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -1639,7 +1787,16 @@
       }
     ],
     "BPcritFlavor": "Your weapon passes through the thick cloud unimpeded, yet you hear a bone-chilling crack!",
-    "BPcritResponse": "Another Titan may perform a Bonus Attack!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Another Titan may perform a Bonus Attack!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": true,
     "AIafterAttackEffects": [
@@ -1857,7 +2014,16 @@
       }
     ],
     "BPcritFlavor": "As you hit the djinn-like face, it collapses on itself with a lustrous glimmer",
-    "BPcritResponse": "Wish Attacks become normal Attacks!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Wish Attacks become normal Attacks!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2057,7 +2223,16 @@
       }
     ],
     "BPcritFlavor": "You fan the embers and embrace the flame that burns away ambrosia. Why does the fire feel wet?",
-    "BPcritResponse": "Remove all Ambrosia tokens from each Titan",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Remove all Ambrosia tokens from each Titan"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2243,7 +2418,29 @@
       }
     ],
     "BPcritFlavor": "You catch the Primordial mid-transformation and hack away the arm at the shoulder!",
-    "BPcritResponse": "Gain the [Shadowcleaver|DJ2366] @Gear card (Secret deck 11, card 197)!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Shadowcleaver",
+            "refID": "DJ2366"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card (Secret deck 11, card 197)!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2455,7 +2652,29 @@
       }
     ],
     "BPcritFlavor": "Your blow shatters the alien face into fine dust... Dust that you then inhale...",
-    "BPcritResponse": "Gain the [Dahaka Mask|DJ2365] @Gear card (Secret deck 11, card 196)!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dahaka Mask",
+            "refID": "DJ2365"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card (Secret deck 11, card 196)!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2616,7 +2835,24 @@
       }
     ],
     "BPcritFlavor": "Fathomless depths stare into you, but you do not blink!",
-    "BPcritResponse": "Deal an additional Single Wound! After the Battle, resolve the _Trench and the Cosmos_ Special Event",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Deal an additional Single Wound! After the Battle, resolve the"
+          },
+          {
+            "type": "italics",
+            "value": "Trench and the Cosmos"
+          },
+          {
+            "type": "plainText",
+            "value": "Special Event"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2832,7 +3068,16 @@
       }
     ],
     "BPcritFlavor": "You winnow through the creature of smog like an unstoppable wind, and suddenly arrive in a pocket of rarified, blessed air",
-    "BPcritResponse": "Permanently gain Ambrosia Limit 6 (once per Argonaut Lifetime)",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Permanently gain Ambrosia Limit 6 (once per Argonaut Lifetime)"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -2945,7 +3190,29 @@
       }
     ],
     "BPcritFlavor": "Your attack causes a cascade of implosions in the rumble heart, now more a maelstrom of inscrutable black. It stiffens suddenly, like a fresh corpse",
-    "BPcritResponse": "Gain the [Dahaka Blade|DJ2364] @Gear card (Secret deck 11, card 195)!"
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dahaka Blade",
+            "refID": "DJ2364"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card (Secret deck 11, card 195)!"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -3164,7 +3431,24 @@
       }
     ],
     "BPcritFlavor": "Your strike reaches further and further into the unknown, and suddenly it touches on the monster's master. It is not pleased",
-    "BPcritResponse": "Draw an Obol. Then the Dahaka dies!",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Draw an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the Dahaka dies!"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -3341,7 +3625,20 @@
       }
     ],
     "BPcritFlavor": "Each of your attacks leaves a bit of the Dahaka on the desert floor, and soon you are wading in ashen foam, as if you were emerging on some primordial shore",
-    "BPcritResponse": "Gain +1 @Progress",
+    "BPcritResponse": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Progress"
+          }
+        ]
+      }
+    ],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [
@@ -3537,7 +3834,7 @@
       }
     ],
     "BPcritFlavor": "",
-    "BPcritResponse": "",
+    "BPcritResponse": [],
     "AIpreAfterAttackWoO": true,
     "AIafterFinal": false,
     "AIafterAttackEffects": [

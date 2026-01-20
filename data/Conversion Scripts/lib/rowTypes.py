@@ -107,7 +107,7 @@ def dahaka_row(row):
         "BPnonResponseText": row["Non-Response Text"],
         "BPresponses": parse_responses(row["Responses"]),
         "BPcritFlavor": row["Crit Lore"],
-        "BPcritResponse": row["Crit Response"],
+        "BPcritResponse": parse_abilities(row["Crit Response"])[0],
     }
 
     after_attack_effects = parse_consequences(row["After Attack Effects"])
@@ -401,7 +401,6 @@ def primordial_row(row):
 
     card_json["levels"] = levels_json
 
-
     return card_json
 
 def primordialAttack_row(row):
@@ -434,10 +433,14 @@ def primordialAttack_row(row):
         card_json["afterFinal"] = "TRUE" in row["After Final?"]
         card_json["afterAttackEffects"] = after_attack_effects
 
+    if not card_json["preTarget"]:
+        card_json.pop("preTarget")    
     if not card_json["preAction"]:
         card_json.pop("preAction")
     if not card_json["preAttack"]:
         card_json.pop("preAttack")
+    if not card_json["attackBanners"]:
+        card_json.pop("attackBanners")    
     if not card_json["uber"]:
         card_json.pop("uber")
     if not card_json["rangeSize"]:

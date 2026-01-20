@@ -402,10 +402,10 @@ def parse_trauma(table):
     return parsed_table
 
 def parse_consequences(consequences):
-    banner_regex = re.compile(r"%%([^%]+)%%")
+    banner_regex = re.compile(r"%%([^%]+)%%\.?")
 
     results = []
-    segments = re.split(r"(WoO)", consequences)
+    segments = re.split(r"(?<!@)(WoO)", consequences)
     next_is_WoO = False
 
     for seg in segments:
@@ -418,40 +418,52 @@ def parse_consequences(consequences):
             # Text before the banner
             text_part = seg[last_end:match.start()].strip()
             if text_part:
+                effect = []
                 abilities = parse_abilities(text_part)
-                if abilities:
-                    results.append({
-                        "banner": False,
-                        "WoO": next_is_WoO,
-                        "effect": abilities[0]
-                    })
-                    next_is_WoO = False
+                if abilities[0] != []:
+                    effect = abilities[0]
+                elif abilities[1] != []:
+                    effect = abilities[1]
+                results.append({
+                    "banner": False,
+                    "WoO": next_is_WoO,
+                    "effect": effect
+                })
+                next_is_WoO = False
 
             # Banner itself
             banner_text = match.group(1).strip()
             if banner_text:
+                effect = []
                 abilities = parse_abilities(banner_text)
-                if abilities:
-                    results.append({
-                        "banner": True,
-                        "WoO": next_is_WoO,
-                        "effect": abilities[0]
-                    })
-                    next_is_WoO = False
+                if abilities[0] != []:
+                    effect = abilities[0]
+                elif abilities[1] != []:
+                    effect = abilities[1]
+                results.append({
+                    "banner": True,
+                    "WoO": next_is_WoO,
+                    "effect": effect
+                })
+                next_is_WoO = False
 
             last_end = match.end()
 
         # Any remaining text after last banner
         remaining_text = seg[last_end:].strip()
         if remaining_text:
+            effect = []
             abilities = parse_abilities(remaining_text)
-            if abilities:
-                results.append({
-                    "banner": False,
-                    "WoO": next_is_WoO,
-                    "effect": abilities[0]
-                })
-                next_is_WoO = False
+            if abilities[0] != []:
+                effect = abilities[0]
+            elif abilities[1] != []:
+                effect = abilities[1]
+            results.append({
+                "banner": False,
+                "WoO": next_is_WoO,
+                "effect": effect
+            })
+            next_is_WoO = False
 
     return results
 

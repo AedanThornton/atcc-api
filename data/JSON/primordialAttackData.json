@@ -14,7 +14,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -129,7 +128,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton clenches its mighty fist",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -244,7 +242,6 @@
     "usedFor": "Hekaton",
     "flavor": "A fist jabs at you from the left, immediately followed by a right cross",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -359,7 +356,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton rears on its hind arms and delivers a powerful downward blow",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -394,7 +390,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -470,7 +465,6 @@
     "usedFor": "Hekaton",
     "flavor": "It goes from zero to ten in a heartbeat and the punches keep on coming",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -585,7 +579,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton smashes his front hands as if with frustration",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -713,7 +706,6 @@
     "usedFor": "Hekaton",
     "flavor": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -748,7 +740,6 @@
     "attackType": [
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -798,11 +789,6 @@
       },
       {
         "banner": false,
-        "WoO": false,
-        "effect": []
-      },
-      {
-        "banner": false,
         "WoO": true,
         "effect": [
           {
@@ -832,7 +818,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Primordial delivers a blow with its mighty armored fist",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -880,7 +865,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "8",
     "consequences": [
@@ -963,7 +947,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -985,7 +968,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -1057,7 +1039,6 @@
     "usedFor": "Hekaton",
     "flavor": "The monster cartwheels into you like a giant ball of fists and pain",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1193,7 +1174,6 @@
     "usedFor": "Hekaton",
     "flavor": "It knows where it hurts the most",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1228,7 +1208,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "8",
     "consequences": [
@@ -1275,11 +1254,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       },
       {
         "banner": false,
@@ -1331,7 +1305,6 @@
     "usedFor": "Hekaton",
     "flavor": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1482,7 +1455,6 @@
     "usedFor": "Hekaton",
     "flavor": "Mindless and unrelentless, it comes at you with all of its might. You may endure one, two, ten punches. One hundred is madness",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1530,7 +1502,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "7",
     "consequences": [
@@ -1629,7 +1600,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton winds around, almost turning to you with its side. Then the hook comes knocking",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1677,7 +1647,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "8",
     "consequences": [
@@ -1724,11 +1693,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       },
       {
         "banner": false,
@@ -1781,7 +1745,6 @@
     "flavor": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling. The other hands raise you in the air, then slam down",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -1829,7 +1792,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -1908,7 +1870,6 @@
     "usedFor": "Hekaton",
     "flavor": "It knows you're just controlling the Titan and it intends to break that connection - with flair",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2073,7 +2034,6 @@
     "usedFor": "Hekaton",
     "flavor": "The mighty hands of the monster clutch your helmeted head and squeeze. The screech of metal is deafening",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2203,7 +2163,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2342,7 +2301,6 @@
     "usedFor": "Hekaton",
     "flavor": "The Hekaton does what it was made to do: SMASH!",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2457,7 +2415,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechancial bull charges at you",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2593,7 +2550,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Primordial tries to skewer you on one of its bronze horns",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2641,7 +2597,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -2688,11 +2643,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       },
       {
         "banner": false,
@@ -2743,7 +2693,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Labyrinthauros rears its bronze hooves",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2791,7 +2740,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -2841,11 +2789,6 @@
       },
       {
         "banner": false,
-        "WoO": false,
-        "effect": []
-      },
-      {
-        "banner": false,
         "WoO": true,
         "effect": [
           {
@@ -2875,7 +2818,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Head to head!",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -2990,7 +2932,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Its lifeless glass eyes are fixed on you",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3038,7 +2979,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -3129,7 +3069,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical bull gallops forward, striking all in its path",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3265,7 +3204,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical bull charges at you with unnatural speed",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3417,7 +3355,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The Maze rises from beneath its hooves, as if on command",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3465,7 +3402,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -3570,7 +3506,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The bull rages, attacking all that got too close",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3605,7 +3540,6 @@
     "attackType": [
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -3648,11 +3582,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       }
     ],
     "preAfterAttackWoO": true,
@@ -3697,7 +3626,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechanical jaw snaps shut with an audible smack",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3745,7 +3673,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -3820,7 +3747,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "For a second the bull becomes transparent, then it's upon you",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -3868,7 +3794,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -3967,7 +3892,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Labyrinthauros disappears in a tear in spacetime and reappears right beside you",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4098,7 +4022,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Labyrinthauros becomes a blur",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4146,7 +4069,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -4227,7 +4149,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "There is no escape from the Maze",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4398,7 +4319,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "You feel an existential dread, uncomparable to any other",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4433,7 +4353,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -4549,7 +4468,6 @@
     "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4571,7 +4489,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -4678,7 +4595,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "For a brief moment there is only you and the creature",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4814,7 +4730,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The creature rears its true head, its gaze pierces right through you",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -4862,7 +4777,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -4959,7 +4873,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "The mechancial bull charges at you",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5095,7 +5008,6 @@
     "usedFor": "Labyrinthauros",
     "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5130,7 +5042,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -5237,7 +5148,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos swipes at you with one of its innumerable tentacles",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5384,7 +5294,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos swipes at you with one of its innumerable tentacles",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5531,7 +5440,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The Primordial attacks you with one of the trunk-like tentacles",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5679,7 +5587,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos uses one of its springy tentacles as a whip",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5819,7 +5726,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos strikes the ground with a small maze pyramid",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -5950,7 +5856,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The air around you fills with despair",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6125,7 +6030,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos grabs you with one of its tentacles and throws you across the battlefield",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6304,7 +6208,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "One of the tentacles wraps around you like a giant snake",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6461,7 +6364,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos pounds the ground with a maze pyramid",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6588,7 +6490,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6719,7 +6620,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -6840,11 +6740,6 @@
       },
       {
         "banner": false,
-        "WoO": false,
-        "effect": []
-      },
-      {
-        "banner": false,
         "WoO": true,
         "effect": [
           {
@@ -6920,7 +6815,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The giant maw looms over you, its light offers nothing but emptiness",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7070,7 +6964,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The creature leans and crushes into you with the entirety of its cephalothorax",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7220,7 +7113,6 @@
     "flavor": "Temenos emerges from the ground with a terrible wail, and the Maze emerges with it",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7366,7 +7258,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos pounds the ground with its main maze pyramid",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7506,7 +7397,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The earth screams and cracks, Temenos dives into the ground!",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7558,7 +7448,6 @@
       "Range",
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -7643,7 +7532,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "The creature rises from the ground, revealing the true extent of its vast size",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7694,7 +7582,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -7777,7 +7664,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "You are being pulled inside the endless maw, you feel your body dissolve into nothingness",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -7854,7 +7740,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -7897,11 +7782,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       },
       {
         "banner": false,
@@ -7961,7 +7841,6 @@
     "usedFor": "Alpha Temenos",
     "flavor": "Temenos strikes you with one of its innumerable tentacles",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8102,7 +7981,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The pincers have keen edges, as if they were sharpened",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8137,7 +8015,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "10",
     "consequences": [
@@ -8218,7 +8095,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The pincer comes down, trying to pin you to the ground",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8253,7 +8129,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -8318,7 +8193,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "As the Pursuer makes the cross cut, its laugh is full of reverence",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8370,7 +8244,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -8455,7 +8328,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The empty eyes of the creature spell your future",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8608,7 +8480,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The thick black liquid pours from the creature's belly onto its long pincers",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8747,7 +8618,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "For a moment you see the demon this creature really is",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8786,7 +8656,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -8853,9 +8722,22 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
-        "effect": []
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+: Perform Signature"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8874,7 +8756,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer slashes with both of its long pincers in a semi-circular motion",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -8913,7 +8794,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWWWBBWWWWWWWWWW",
@@ -9008,7 +8888,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The creature reveals its abdomen. Ambrosia spurts from the blackened belly",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9150,7 +9029,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "It slashes and thrusts, giggling under its breath",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9172,7 +9050,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -9261,7 +9138,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer judges you and finds you wanting",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9414,7 +9290,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Primordial wraps its arms around you and squeezes. You feel the black liquid burn through your armor",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9570,7 +9445,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer wants to take you for a ride",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9722,7 +9596,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "The Pursuer jabs at you with its proboscis, intent on sucking you dry",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -9774,7 +9647,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "9",
     "consequences": [
@@ -9899,7 +9771,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A jet of hot black ambrosia covers you from head to toe",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10062,7 +9933,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A double thrust meant to gut you like fish",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10114,7 +9984,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -10205,7 +10074,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "It effortlessly floats into the air, then comes crashing down",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10325,7 +10193,6 @@
     "flavor": "You trespass!",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10468,7 +10335,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "A mesmerizing display of beauty, finesse and carnage",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10490,7 +10356,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "8",
     "consequences": [
@@ -10589,7 +10454,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "Precise and deadly",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10624,7 +10488,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -10697,7 +10560,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "This is the end of the road",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10733,7 +10595,6 @@
       "Judgement",
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -10814,7 +10675,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10946,7 +10806,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -10994,7 +10853,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -11089,7 +10947,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11124,7 +10981,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "8",
     "consequences": [
@@ -11227,7 +11083,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11385,7 +11240,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11521,7 +11375,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11663,7 +11516,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11821,7 +11673,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -11856,7 +11707,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -11987,7 +11837,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12009,7 +11858,6 @@
     "attackType": [
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -12104,7 +11952,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12234,7 +12081,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12406,7 +12252,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12495,9 +12340,6 @@
                 "value": "Danger"
               }
             ]
-          },
-          {
-            "abilityText": []
           }
         ]
       },
@@ -12508,7 +12350,7 @@
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Pushback 5"
               }
             ]
@@ -12550,7 +12392,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12718,7 +12559,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -12868,7 +12708,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13021,7 +12860,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13189,7 +13027,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13426,7 +13263,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13461,7 +13297,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -13560,7 +13395,6 @@
     "usedFor": "Cyclonus",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13595,7 +13429,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -13664,7 +13497,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13713,7 +13545,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWPPPBWWWWWWWWWW",
@@ -13767,7 +13598,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -13816,7 +13646,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWPPPBWWWWWWWWWW",
@@ -13922,7 +13751,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14015,7 +13843,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14169,7 +13996,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14218,7 +14044,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -14309,7 +14134,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14433,7 +14257,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14559,7 +14382,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14716,7 +14538,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14778,7 +14599,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "7",
     "consequences": [
@@ -14843,7 +14663,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -14865,7 +14684,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWAAAWWWWWWWWWWW",
       "WWWWWWWWWWWAAAWWWWWWWWWWW",
@@ -14967,7 +14785,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15029,7 +14846,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -15155,7 +14971,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15298,7 +15113,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15425,7 +15239,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15583,7 +15396,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15645,7 +15457,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWPPPBBBWWWWWWWWW",
@@ -15718,7 +15529,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -15873,7 +15683,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16030,7 +15839,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16148,7 +15956,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16197,7 +16004,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWPPPBWWWWWWWWWW",
@@ -16269,7 +16075,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16396,7 +16201,6 @@
     "usedFor": "Chimera Metastasios",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16418,7 +16222,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -16520,7 +16323,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "\"Come, I will only use my *left* hand!\"<<NL>>Arms akimbo, The Nietzschean thows his head *back* and laughs at you",
     "level": "0",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16542,7 +16344,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -16634,7 +16435,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16669,7 +16469,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWBWWWWWWWWWWWW",
       "WWWWWWWWWWWNBBWWWWWWWWWWW",
@@ -16808,7 +16607,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean jumps high, momentarily blocking out the sun. Then he comes crashing like a comet",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -16830,7 +16628,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "11",
     "consequences": [
@@ -16907,7 +16704,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean plunges his fist into the ground, causing a massive eruption!",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17030,7 +16826,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17065,7 +16860,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
@@ -17176,7 +16970,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean grabs you with his might hands and tries to rip you limb from limb!",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17349,7 +17142,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17372,7 +17164,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWBWWWWWWWWWWWWW",
       "WWWWWWWWWWWBWWWWWWWWWWWWW",
@@ -17471,7 +17262,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean spins violently, slashing everyone around him!",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17506,7 +17296,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWBBWWWWWWWWWWW",
       "WWWWWWWWWWWBBBBWWWWWWWWWW",
@@ -17635,7 +17424,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean vanishes in a cloud of choking ash. He reappears *behind* you and stabs you in the *back*",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17657,7 +17445,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -17742,7 +17529,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Black Blade comes crashing down, its speed creates a vacuum around the impact zone",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -17777,7 +17563,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWNWWWWWWWWWWWWW",
@@ -17912,7 +17697,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Black-blooded Spartan god grips you in his inhuman *right* hand, then crushes you until you hear your *back* break",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18106,7 +17890,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean taps the ground with his sword. Clouds of black ash rise from the ground, obscuring everything",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18128,7 +17911,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWBBWWWWWWWWWWW",
       "WWWWWWWWWWWBBBBWWWWWWWWWW",
@@ -18225,7 +18007,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18372,7 +18153,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean turns on the *spot*, the unseeing gaze of his skull-like face digs deep into your soul, *blind*ing you",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18545,7 +18325,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean takes a step *back* and picks you off the ground with his *left* hand. For a moment, the billowing cloud of smoke and fire turns into a giant maw and takes a big bite out of you",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18593,7 +18372,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -18708,7 +18486,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -18730,7 +18507,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWBBWWWWWWWWWWW",
       "WWWWWWWWWWWBBBBWWWWWWWWWW",
@@ -18835,7 +18611,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19060,7 +18835,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "The Nietzschean moves *forward*, sweeps you off the ground with his *right* hand and thrusts you into the blazing fire engulfing his body",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19221,7 +18995,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19243,7 +19016,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWRRRRRRRRWBBWRRRRRRRRWW",
       "WWWRRRRRRRWBBBBWRRRRRRRWW",
@@ -19421,7 +19193,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19456,7 +19227,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWNBWWWWWWWWWWW",
       "WWWWWWWWWWWPPBBWWWWWWWWWW",
@@ -19543,7 +19313,6 @@
     "usedFor": "The Nietzschean",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19591,7 +19360,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWBWWWWWWWWWWWW",
       "WWWWWWWWWWWNBBWWWWWWWWWWW",
@@ -19668,7 +19436,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "0",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19694,7 +19461,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -19764,7 +19530,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19799,7 +19564,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -19908,7 +19672,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -19943,7 +19706,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -19986,11 +19748,6 @@
             ]
           }
         ]
-      },
-      {
-        "banner": false,
-        "WoO": false,
-        "effect": []
       },
       {
         "banner": true,
@@ -20045,7 +19802,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20071,7 +19827,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -20128,7 +19883,7 @@
               },
               {
                 "type": "plainText",
-                "value": "Conditoin card; three hits, you die"
+                "value": "Condition card; three hits, you die"
               }
             ]
           }
@@ -20191,7 +19946,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20310,7 +20064,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20349,7 +20102,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -20456,7 +20208,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20480,7 +20231,6 @@
       "Simultaneous"
     ],
     "rangeSize": "Unlimited",
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -20575,7 +20325,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20610,7 +20359,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "10",
     "consequences": [
@@ -20719,7 +20467,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20852,7 +20599,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -20878,7 +20624,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -21030,7 +20775,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21065,7 +20809,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "8",
     "consequences": [
@@ -21134,7 +20877,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21156,7 +20898,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "8",
     "consequences": [
@@ -21255,7 +20996,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21406,7 +21146,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21548,7 +21287,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21587,7 +21325,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -21703,7 +21440,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21725,7 +21461,6 @@
     "attackType": [
       "Sequential"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "9",
     "consequences": [
@@ -21824,7 +21559,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -21959,7 +21693,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22156,7 +21889,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22279,6 +22011,20 @@
         ]
       },
       {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Sisyphean: Kickback 20 instead"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "banner": false,
         "WoO": true,
         "effect": [
@@ -22293,9 +22039,30 @@
         ]
       },
       {
-        "banner": false,
+        "banner": true,
         "WoO": true,
-        "effect": []
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "9+: Repeat"
+              },
+              {
+                "type": "italics",
+                "value": "Sisyphus's Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "(once)"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -22314,7 +22081,6 @@
     "usedFor": "The Burden",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22349,7 +22115,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -22461,7 +22226,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22512,7 +22276,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -22591,7 +22354,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22740,7 +22502,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22875,7 +22636,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -22927,7 +22687,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -22992,7 +22751,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23048,7 +22806,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -23159,7 +22916,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23210,7 +22966,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "1",
     "difficulty": "11",
     "consequences": [
@@ -23333,7 +23088,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23385,7 +23139,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -23496,7 +23249,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23641,7 +23393,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23676,7 +23427,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -23729,7 +23479,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23864,7 +23613,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -23920,7 +23668,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "9",
     "consequences": [
@@ -24051,7 +23798,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24107,7 +23853,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "1",
     "difficulty": "11",
     "consequences": [
@@ -24230,7 +23975,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24281,7 +24025,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "Omni",
     "dice": "3",
     "difficulty": "11",
@@ -24373,7 +24116,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24429,7 +24171,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "2",
     "dice": "3",
     "difficulty": "9",
@@ -24483,7 +24224,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24606,7 +24346,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24786,7 +24525,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -24823,7 +24561,6 @@
       "Simultaneous",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -24891,7 +24628,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [],
     "preActionWoO": false,
     "moveType": "None",
@@ -24899,7 +24635,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -24980,7 +24715,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25002,7 +24736,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -25101,7 +24834,6 @@
     "usedFor": "Hypertime Oracle",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25152,7 +24884,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "11",
     "consequences": [
@@ -25217,7 +24948,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25270,7 +25000,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -25331,7 +25060,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25384,7 +25112,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -25453,7 +25180,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25521,7 +25247,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -25650,7 +25375,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25785,7 +25509,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25837,7 +25560,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -25919,7 +25641,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -25988,7 +25709,6 @@
       "Range"
     ],
     "rangeSize": "7",
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -26073,7 +25793,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26126,7 +25845,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -26187,7 +25905,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26240,7 +25957,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -26317,7 +26033,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26385,7 +26100,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -26518,7 +26232,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26567,7 +26280,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -26649,7 +26361,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26797,7 +26508,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -26866,7 +26576,6 @@
       "Range"
     ],
     "rangeSize": "9",
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -26977,7 +26686,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27033,7 +26741,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "9",
     "consequences": [
@@ -27100,7 +26807,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27267,7 +26973,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27348,7 +27053,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -27491,7 +27195,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27641,7 +27344,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27681,7 +27383,6 @@
       "Simultaneous"
     ],
     "rangeSize": "10",
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "10",
     "consequences": [
@@ -27792,7 +27493,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -27937,7 +27637,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28006,7 +27705,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -28071,7 +27769,6 @@
     "usedFor": "Icarian Harpy",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28093,7 +27790,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -28118,16 +27814,11 @@
             ]
           },
           {
-            "abilityText": []
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "keyword",
                 "value": "Bleeding 1"
@@ -28153,7 +27844,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28200,7 +27890,6 @@
       "Judgement",
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -28301,7 +27990,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28489,7 +28177,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28665,7 +28352,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28696,7 +28382,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -28716,6 +28402,10 @@
               {
                 "type": "plainText",
                 "value": "5+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
           }
@@ -28729,7 +28419,6 @@
       "Judgement",
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -28830,7 +28519,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -28911,7 +28599,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWPPPBWWWWWWWWWW",
@@ -28989,6 +28676,24 @@
             ]
           }
         ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+: Do not Glaciate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -29007,7 +28712,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29081,7 +28785,27 @@
                 "value": "C15, I12, J9"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Fate 7+: Do not Glaciate"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
@@ -29099,17 +28823,12 @@
               {
                 "type": "plainText",
                 "value": "5+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -29120,7 +28839,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "3",
     "dice": "3",
     "difficulty": "9",
@@ -29190,7 +28908,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29254,7 +28971,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWPPPBBBWWWWWWWWW",
@@ -29355,7 +29071,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29518,7 +29233,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29550,7 +29264,13 @@
                 "value": "D9, F13, and I7"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
@@ -29568,17 +29288,12 @@
               {
                 "type": "plainText",
                 "value": "6+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -29589,7 +29304,6 @@
     "attackType": [
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "11",
     "consequences": [
@@ -29648,6 +29362,24 @@
             ]
           }
         ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+: Do not Glaciate"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -29666,7 +29398,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29842,7 +29573,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -29873,7 +29603,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -29893,17 +29623,12 @@
               {
                 "type": "plainText",
                 "value": "6+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -29916,7 +29641,6 @@
       "Simultaneous",
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "9",
     "consequences": [
@@ -30009,7 +29733,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30128,7 +29851,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "3",
     "dice": "2",
     "difficulty": "11",
@@ -30198,7 +29920,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30391,7 +30112,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30504,7 +30224,7 @@
         ]
       },
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -30524,17 +30244,12 @@
               {
                 "type": "plainText",
                 "value": "8+: Ignore the"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -30545,7 +30260,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "3",
     "dice": "",
     "difficulty": "",
@@ -30589,7 +30303,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30754,7 +30467,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -30856,7 +30568,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "3",
     "dice": "3",
     "difficulty": "11",
@@ -30942,7 +30653,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31006,7 +30716,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "3",
     "dice": "4",
     "difficulty": "11",
@@ -31036,16 +30745,11 @@
             ]
           },
           {
-            "abilityText": []
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
             "abilityText": [
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "keyword",
                 "value": "Time-clocked"
@@ -31094,7 +30798,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31116,7 +30819,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -31173,7 +30875,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31195,7 +30896,6 @@
     "attackType": [
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -31284,7 +30984,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31441,7 +31140,6 @@
     "usedFor": "Sun Descendent",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31497,7 +31195,6 @@
       "Judgement",
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -31564,7 +31261,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31709,7 +31405,6 @@
     "usedFor": "Midascore",
     "flavor": "The other hand taketh away",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31845,7 +31540,6 @@
     "usedFor": "Midascore",
     "flavor": "One hand lends",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -31978,7 +31672,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32149,7 +31842,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32302,7 +31994,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32359,17 +32050,11 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": [
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "plainText",
                 "value": "preceding Knockdown"
@@ -32474,7 +32159,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32602,7 +32286,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32739,7 +32422,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -32796,17 +32478,11 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": [
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "plainText",
                 "value": "preceding Knockdown"
@@ -32911,7 +32587,6 @@
     "usedFor": "Midascore",
     "flavor": "Impossibly complicated, completely mesmerizing",
     "level": "II",
-    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
@@ -33027,7 +32702,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33180,7 +32854,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33303,7 +32976,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33338,7 +33010,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "3",
     "difficulty": "11",
@@ -33402,7 +33073,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33459,17 +33129,11 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": [
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "plainText",
                 "value": "preceding Knockdown"
@@ -33582,7 +33246,6 @@
     "usedFor": "Midascore",
     "flavor": "The Invisible Horn of the market bears down on you",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -33617,7 +33280,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "X",
     "difficulty": "10",
     "consequences": [
@@ -33716,7 +33378,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
@@ -33831,7 +33492,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [],
     "preActionWoO": true,
     "moveType": "None",
@@ -33949,7 +33609,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34105,7 +33764,6 @@
     "usedFor": "Midascore",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34154,17 +33812,11 @@
               {
                 "type": "plainText",
                 "value": "7+: Ignore"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": [
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "plainText",
                 "value": "preceding Knockdown"
@@ -34252,7 +33904,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34287,7 +33938,6 @@
     "attackType": [
       "Wish"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -34352,7 +34002,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34387,7 +34036,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -34441,11 +34089,6 @@
       },
       {
         "banner": false,
-        "WoO": false,
-        "effect": []
-      },
-      {
-        "banner": false,
         "WoO": true,
         "effect": [
           {
@@ -34493,7 +34136,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34528,7 +34170,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -34631,7 +34272,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34777,7 +34417,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -34953,7 +34592,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35082,7 +34720,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35201,7 +34838,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35326,7 +34962,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35507,7 +35142,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35645,7 +35279,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -35824,7 +35457,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36021,7 +35653,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36104,7 +35735,6 @@
     "attackType": [
       "Wish"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -36205,7 +35835,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36257,7 +35886,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -36361,7 +35989,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36396,7 +36023,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "8",
     "consequences": [
@@ -36465,7 +36091,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36619,7 +36244,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36803,7 +36427,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -36939,7 +36562,6 @@
     "usedFor": "Demidjinn",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -37118,7 +36740,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -37138,17 +36760,12 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -37159,7 +36776,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "11",
     "consequences": [
@@ -37276,7 +36892,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "X",
     "difficulty": "10",
     "consequences": [
@@ -37337,7 +36952,7 @@
           {
             "abilityText": [
               {
-                "type": "plainText",
+                "type": "keyword",
                 "value": "Unholy Alchemy"
               }
             ]
@@ -37351,7 +36966,65 @@
       {
         "banner": false,
         "WoO": false,
-        "effect": []
+        "effect": [
+          {
+            "gate": "Ambrosia",
+            "value": "1+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Covetous",
+                "refID": "DL2007"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          },
+          {
+            "gate": "Ambrosia",
+            "value": "3+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Greed-crazed",
+                "refID": "DL2007"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          },
+          {
+            "gate": "Ambrosia",
+            "value": "5+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Greed-crazed",
+                "refID": "DL2007"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and the Goldthirst Curse Affliction"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -38251,7 +37924,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -38263,17 +37936,12 @@
               {
                 "type": "plainText",
                 "value": "6+: Ignore"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -38284,7 +37952,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -38923,7 +38590,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -38943,17 +38610,12 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -38964,7 +38626,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "11",
     "consequences": [
@@ -39107,7 +38768,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -39127,17 +38788,12 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -39148,7 +38804,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "11",
     "consequences": [
@@ -39304,17 +38959,11 @@
               {
                 "type": "plainText",
                 "value": "4+:"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": [
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
+              },
               {
                 "type": "keyword",
                 "value": "Knockdown"
@@ -39489,7 +39138,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -39768,7 +39416,6 @@
     "attackType": [
       "Curse"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -40009,7 +39656,7 @@
     ],
     "preAction": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
@@ -40029,17 +39676,12 @@
               {
                 "type": "plainText",
                 "value": "4+: Ignore"
+              },
+              {
+                "type": "icon",
+                "value": "WoO"
               }
             ]
-          }
-        ]
-      },
-      {
-        "banner": false,
-        "WoO": true,
-        "effect": [
-          {
-            "abilityText": []
           }
         ]
       }
@@ -40050,7 +39692,6 @@
     "attackType": [
       "Eclipse"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -40139,7 +39780,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40274,7 +39914,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40406,7 +40045,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40558,7 +40196,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40731,7 +40368,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -40782,7 +40418,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -40894,7 +40529,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41039,7 +40673,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41195,7 +40828,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41350,7 +40982,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41494,7 +41125,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41643,7 +41273,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41678,7 +41307,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "8",
     "consequences": [
@@ -41805,7 +41433,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -41969,7 +41596,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42165,7 +41791,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42339,7 +41964,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42403,7 +42027,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -42509,7 +42132,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42582,7 +42204,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "11",
     "consequences": [
@@ -42690,7 +42311,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -42859,7 +42479,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43015,7 +42634,6 @@
     "usedFor": "Dragon of Phobos",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43156,7 +42774,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43293,7 +42910,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43407,7 +43023,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43565,7 +43180,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43715,7 +43329,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43852,7 +43465,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -43988,7 +43600,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44146,7 +43757,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44185,7 +43795,6 @@
     "attackType": [
       "Microwave"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "3",
     "difficulty": "8",
@@ -44277,7 +43886,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44421,7 +44029,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44460,7 +44067,6 @@
     "attackType": [
       "Microwave"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "3",
     "difficulty": "11",
@@ -44548,7 +44154,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44716,7 +44321,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44879,7 +44483,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -44931,7 +44534,6 @@
     "attackType": [
       "Microwave"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "7",
     "difficulty": "7",
@@ -45023,7 +44625,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45045,7 +44646,6 @@
     "attackType": [
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -45136,7 +44736,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45254,7 +44853,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45425,7 +45023,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45464,7 +45061,6 @@
     "attackType": [
       "Microwave"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "6",
     "difficulty": "6",
@@ -45560,7 +45156,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45721,7 +45316,6 @@
     "usedFor": "Meduketos",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45743,7 +45337,6 @@
     "attackType": [
       "Microwave"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "3",
     "difficulty": "10",
@@ -45822,7 +45415,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "0",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45844,7 +45436,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -45947,7 +45538,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -45999,7 +45589,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -46068,7 +45657,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46224,7 +45812,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46387,7 +45974,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46438,7 +46024,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           }
@@ -46451,7 +46037,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -46550,7 +46135,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46601,7 +46185,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           }
@@ -46748,7 +46332,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46800,7 +46383,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -46865,7 +46447,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -46917,7 +46498,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -46986,7 +46566,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47159,7 +46738,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47322,7 +46900,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47373,7 +46950,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           }
@@ -47505,7 +47082,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47556,7 +47132,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           }
@@ -47719,7 +47295,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47771,7 +47346,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -47856,7 +47430,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -47907,7 +47480,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           },
@@ -47929,7 +47502,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -48036,7 +47608,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48195,6 +47766,28 @@
             ]
           }
         ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "plainText",
+                "value": "5+: Gain +1"
+              },
+              {
+                "type": "icon",
+                "value": "Doom"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -48213,7 +47806,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48362,7 +47954,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48387,7 +47978,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           }
@@ -48402,7 +47993,6 @@
       "Judgement",
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "10",
     "consequences": [
@@ -48493,7 +48083,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48544,7 +48133,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gain 2 Despair token"
+                "value": "Gain 2 Despair tokens"
               }
             ]
           },
@@ -48671,7 +48260,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48858,7 +48446,6 @@
     "usedFor": "Ur-Fleece",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -48909,7 +48496,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -48960,7 +48546,6 @@
     "usedFor": "Titan X",
     "flavor": "The devil's in the details",
     "level": "0",
-    "preTarget": [],
     "targeting": [],
     "preActionWoO": false,
     "moveType": "None",
@@ -48968,7 +48553,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -49032,7 +48616,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49177,7 +48760,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49283,7 +48865,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49401,7 +48982,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49598,7 +49178,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49741,7 +49320,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -49932,7 +49510,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50083,7 +49660,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50189,7 +49765,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50355,7 +49930,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50528,7 +50102,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50684,7 +50257,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -50871,7 +50443,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51043,7 +50614,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51192,7 +50762,6 @@
     "flavor": "",
     "level": "III",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51326,7 +50895,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51454,7 +51022,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51669,7 +51236,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51810,7 +51376,6 @@
     "usedFor": "Titan X",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51845,7 +51410,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "5",
     "difficulty": "10",
     "consequences": [
@@ -51892,7 +51456,6 @@
     "usedFor": "Hermesian Pursuer",
     "flavor": "",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -51929,7 +51492,6 @@
       "Simultaneous"
     ],
     "rangeSize": "3",
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -52005,7 +51567,6 @@
     "usedFor": "The Pitiless",
     "flavor": "You're nothing",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52028,7 +51589,6 @@
       "Laser",
       "Judgement"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "2",
     "difficulty": "11",
@@ -52091,7 +51651,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Begone",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52114,7 +51673,6 @@
       "Judgement",
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -52184,7 +51742,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Bask in the light of your god returned",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52207,7 +51764,6 @@
       "Judgement",
       "Zone"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "11",
     "consequences": [
@@ -52269,7 +51825,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Cease to be",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52292,7 +51847,6 @@
       "Laser",
       "Judgement"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "2",
     "difficulty": "11",
@@ -52355,7 +51909,6 @@
     "usedFor": "The Pitiless",
     "flavor": "I forgive you",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52377,7 +51930,6 @@
     "attackType": [
       "Regular"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "8",
     "consequences": [
@@ -52443,7 +51995,6 @@
     "usedFor": "The Pitiless",
     "flavor": "It is not for you, blasphemer",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52466,7 +52017,6 @@
       "Zone",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -52528,7 +52078,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Let the impurities burn away",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52551,7 +52100,6 @@
       "Sun",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "11",
     "consequences": [
@@ -52614,7 +52162,6 @@
     "flavor": "Disappear",
     "level": "II",
     "uber": true,
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52637,7 +52184,6 @@
       "Laser",
       "Judgement"
     ],
-    "attackBanners": [],
     "laserCount": "1",
     "dice": "2",
     "difficulty": "11",
@@ -52700,7 +52246,6 @@
     "usedFor": "The Pitiless",
     "flavor": "I am the life giver",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52722,7 +52267,6 @@
     "attackType": [
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -52782,7 +52326,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Worship me",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52804,7 +52347,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "11",
     "consequences": [
@@ -52866,7 +52408,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Fear me",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52901,7 +52442,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "11",
     "consequences": [
@@ -52963,7 +52503,6 @@
     "usedFor": "The Pitiless",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -52986,7 +52525,6 @@
     "attackType": [
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -53076,7 +52614,6 @@
     "usedFor": "Old Haunt",
     "flavor": "<SNAP>",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53099,7 +52636,6 @@
       "Range"
     ],
     "rangeSize": "Unlimited",
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -53153,7 +52689,6 @@
     "usedFor": "Old Haunt",
     "flavor": "My loving flock. My cattle",
     "level": "I",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53176,7 +52711,6 @@
       "Zone",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "10",
     "consequences": [
@@ -53238,7 +52772,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Love me, and you will be blessed in the next life",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53261,7 +52794,6 @@
       "Laser",
       "Judgement"
     ],
-    "attackBanners": [],
     "laserCount": "2",
     "dice": "2",
     "difficulty": "11",
@@ -53324,7 +52856,6 @@
     "usedFor": "Old Haunt",
     "flavor": "And accept my love and judgement",
     "level": "II",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53347,7 +52878,6 @@
       "Zone",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -53409,7 +52939,6 @@
     "usedFor": "Old Haunt",
     "flavor": "I am the life giver",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53431,7 +52960,6 @@
     "attackType": [
       "Simultaneous"
     ],
-    "attackBanners": [],
     "dice": "",
     "difficulty": "",
     "consequences": [
@@ -53483,7 +53011,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Bear witness",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53506,7 +53033,6 @@
       "Zone",
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
@@ -53568,7 +53094,6 @@
     "usedFor": "Old Haunt",
     "flavor": "You're already dead",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53595,7 +53120,6 @@
       "Judgement",
       "Laser"
     ],
-    "attackBanners": [],
     "laserCount": "Omni",
     "dice": "3",
     "difficulty": "11",
@@ -53666,7 +53190,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Leave My Grace and be doomed forever",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53688,7 +53211,6 @@
     "attackType": [
       "Judgement"
     ],
-    "attackBanners": [],
     "dice": "2",
     "difficulty": "10",
     "consequences": [
@@ -53750,7 +53272,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Starve",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53772,7 +53293,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -53826,7 +53346,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Bask",
     "level": "III",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53848,7 +53367,6 @@
     "attackType": [
       "Laser"
     ],
-    "attackBanners": [],
     "dice": "4",
     "difficulty": "9",
     "consequences": [
@@ -53902,7 +53420,6 @@
     "usedFor": "Old Haunt",
     "flavor": "Proceed... on your way to oblivion",
     "level": "X",
-    "preTarget": [],
     "targeting": [
       {
         "type": "Target:",
@@ -53925,7 +53442,6 @@
     "attackType": [
       "Sun"
     ],
-    "attackBanners": [],
     "dice": "3",
     "difficulty": "10",
     "consequences": [
