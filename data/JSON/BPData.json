@@ -2592,7 +2592,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Draw an Obol\\s"
+                    "value": "Draw an Obol"
                   }
                 ]
               }
@@ -2892,7 +2892,7 @@
         ]
       }
     ],
-    "critFlavor": "You cut off one of the long tentacles.\\sAs it wiggles on the ground, you are emboldened to push forward",
+    "critFlavor": "You cut off one of the long tentacles. As it wiggles on the ground, you are emboldened to push forward",
     "critResponse": [
       {
         "abilityText": [
@@ -4346,7 +4346,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Perform Signature against the Attacker\\s"
+                    "value": "Perform Signature against the Attacker"
                   }
                 ]
               }
@@ -7673,7 +7673,16 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Perform the Three-headed Monstrosity Special Attack against the Attacker"
+                    "value": "Perform the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Three-headed Monstrosity",
+                    "refID": "BR0801"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Special Attack against the Attacker"
                   }
                 ]
               }
@@ -8037,7 +8046,16 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Perform the Three-headed Monstrosity Special Attack against the Attacker"
+                    "value": "Perform the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Three-headed Monstrosity",
+                    "refID": "BR0801"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Special Attack against the Attacker"
                   }
                 ]
               }
@@ -8141,7 +8159,16 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Perform the Three-headed Monstrosity Special Attack against the Attacker"
+                    "value": "Perform the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Three-headed Monstrosity",
+                    "refID": "BR0801"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Special Attack against the Attacker"
                   }
                 ]
               }
@@ -8158,7 +8185,16 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "Gain the Bellerophonic Condition card"
+                    "value": "Gain the"
+                  },
+                  {
+                    "type": "cardRef",
+                    "value": "Bellerophonic",
+                    "refID": "BL0665"
+                  },
+                  {
+                    "type": "plainText",
+                    "value": "Condition card"
                   }
                 ]
               }
@@ -15652,24 +15688,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "All Titans in Zone 1"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "",
-        "effects": [
-          {
-            "effect": [
-              {
-                "abilityText": [
-                  {
-                    "type": "plainText",
-                    "value": "Gain +1"
+                    "value": "All Titans in Zone 1: Gain +1"
                   },
                   {
                     "type": "icon",
@@ -16140,24 +16159,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "All Titans in Zone 1"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "",
-        "effects": [
-          {
-            "effect": [
-              {
-                "abilityText": [
-                  {
-                    "type": "plainText",
-                    "value": "Gain +1"
+                    "value": "All Titans in Zone 1: Gain +1"
                   },
                   {
                     "type": "icon",
@@ -16435,24 +16437,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "All Titans in Zone 2"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "",
-        "effects": [
-          {
-            "effect": [
-              {
-                "abilityText": [
-                  {
-                    "type": "plainText",
-                    "value": "Gain +1"
+                    "value": "All Titans in Zone 2: Gain +1"
                   },
                   {
                     "type": "icon",
@@ -17003,24 +16988,7 @@
                 "abilityText": [
                   {
                     "type": "plainText",
-                    "value": "All Titans in Zone 2"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "",
-        "effects": [
-          {
-            "effect": [
-              {
-                "abilityText": [
-                  {
-                    "type": "plainText",
-                    "value": "Gain +1"
+                    "value": "All Titans in Zone 2: Gain +1"
                   },
                   {
                     "type": "icon",

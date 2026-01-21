@@ -313,10 +313,10 @@ def parse_resources(resources_string):
 
 def parse_responses(responses_string):
     parse_responses = []
-    responses_list = responses_string.split(":")
+    responses_list = responses_string.split(";")
 
     for response in responses_list:
-        response_type, response_effects_list = response.split(" ", 1)
+        response_type, response_effects_list = response.strip().split(" ", 1)
         if response_type == "Interrupt":
             response_type2, response_effects_list = response_effects_list.split(" ", 1)
             response_type = response_type + " " + response_type2
