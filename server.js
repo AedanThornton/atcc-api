@@ -133,7 +133,7 @@ app.get('/api/filter-options', (req, res) => {
     const cardTypes = [...new Set(allCards.map(card => card.cardType).filter(Boolean))].sort().filter(type => (type !== "AI | BP" && type !== "Sig | Rout"));
     const cycles = [...new Set(allCards.map(card => card.cycle).filter(Boolean))].sort();
     const cardSizes = [...new Set(allCards.map(card => card.cardSize).filter(Boolean))].sort();
-    const foundIns = ["Regular", "Promo", ...new Set(allCards.map(card => card.foundIn).filter((foundIn) => typeof foundIn === "string" && (foundIn.includes("Secret Deck") || foundIn.includes("Envelope"))))];
+    const foundIns = ["Regular", ...new Set(allCards.map(card => card.foundIn).filter((foundIn) => typeof foundIn === "string" && (foundIn !== ' ')))];
 
     res.json({
       cardTypes,
