@@ -542,14 +542,17 @@ def parse_tiles(raw_tiles):
     return tile_list
 
 def parse_attack_diagram(raw_data):
+    if not raw_data: return None
     new_rows = []
     rows = raw_data.split(";")
 
+    if len(rows) < 5 and rows[0] != ("W" * len(rows[0])): new_rows.append("W" * 25)
     for row in rows:
-        front = "W" * math.ceil((25 - len(row)) / 2)
-        back = "W" * math.floor((25 - len(row)) / 2)
+        front = row[0] * math.ceil((25 - len(row)) / 2)
+        back = row[-1] * math.floor((25 - len(row)) / 2)
 
         full_row = front + row + back
         new_rows.append(full_row)
+    if len(rows) < 5 and rows[-1] != ("W" * len(rows[-1])): new_rows.append("W" * 25)
 
     return new_rows if len(new_rows) > 1 else None

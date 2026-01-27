@@ -12,7 +12,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton clenches its mighty fist",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton clenches its mighty fist"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -126,7 +135,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton clenches its mighty fist",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton clenches its mighty fist"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -240,7 +258,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "A fist jabs at you from the left, immediately followed by a right cross",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "A fist jabs at you from the left, immediately followed by a right cross"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -354,7 +381,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton rears on its hind arms and delivers a powerful downward blow",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton rears on its hind arms and delivers a powerful downward blow"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -463,7 +499,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It goes from zero to ten in a heartbeat and the punches keep on coming",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It goes from zero to ten in a heartbeat and the punches keep on coming"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -577,7 +622,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton smashes his front hands as if with frustration",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton smashes his front hands as if with frustration"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -704,7 +758,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As if it was a sea urchin, the Primordial extends all of its limbs in every direction, punching everything at arms' length"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -816,7 +879,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Primordial delivers a blow with its mighty armored fist",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Primordial delivers a blow with its mighty armored fist"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -945,7 +1017,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton starts smashin the ground in a rhythmic fashion",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton starts smashin the ground in a rhythmic fashion"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -1037,7 +1118,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The monster cartwheels into you like a giant ball of fists and pain",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The monster cartwheels into you like a giant ball of fists and pain"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -1172,7 +1262,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It knows where it hurts the most",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It knows where it hurts the most"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -1303,7 +1402,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Somehow the creature understands your connection to the Titan and attacks the most vulnerable neural plexus"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -1453,7 +1561,32 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "Mindless and unrelentless, it comes at you with all of its might. You may endure one, two, ten punches. One hundred is madness",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Mindless and unrelentless, it comes at you with all of its might"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may endure one, two, ten punches"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One hundred is madness"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -1598,7 +1731,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton winds around, almost turning to you with its side. Then the hook comes knocking",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton winds around, almost turning to you with its side"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the hook comes knocking"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -1742,7 +1892,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling. The other hands raise you in the air, then slam down",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One of the mighty front hands bends inwards, almost as if the Hekaton was kneeling"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The other hands raise you in the air, then slam down"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -1868,7 +2035,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "It knows you're just controlling the Titan and it intends to break that connection - with flair",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It knows you're just controlling the Titan and it intends to break that connection - with flair"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -2032,7 +2208,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The mighty hands of the monster clutch your helmeted head and squeeze. The screech of metal is deafening",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mighty hands of the monster clutch your helmeted head and squeeze"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The screech of metal is deafening"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -2161,7 +2354,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hekaton",
-    "flavor": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Primordial moves all its weight onto one side and delivers the mother of all haymakers"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -2299,7 +2501,16 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Hekaton",
-    "flavor": "The Hekaton does what it was made to do: SMASH!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hekaton does what it was made to do: SMASH!"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -2413,7 +2624,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The mechancial bull charges at you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mechancial bull charges at you"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -2548,7 +2768,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The Primordial tries to skewer you on one of its bronze horns",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Primordial tries to skewer you on one of its bronze horns"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -2691,7 +2920,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The Labyrinthauros rears its bronze hooves",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Labyrinthauros rears its bronze hooves"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -2816,7 +3054,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "Head to head!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Head to head!"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -2930,7 +3177,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "Its lifeless glass eyes are fixed on you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Its lifeless glass eyes are fixed on you"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -3067,7 +3323,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The mechanical bull gallops forward, striking all in its path",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mechanical bull gallops forward, striking all in its path"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -3202,7 +3467,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The mechanical bull charges at you with unnatural speed",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mechanical bull charges at you with unnatural speed"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -3353,7 +3627,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The Maze rises from beneath its hooves, as if on command",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Maze rises from beneath its hooves, as if on command"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -3504,7 +3787,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The bull rages, attacking all that got too close",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The bull rages, attacking all that got too close"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -3624,7 +3916,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The mechanical jaw snaps shut with an audible smack",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mechanical jaw snaps shut with an audible smack"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -3745,7 +4046,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "For a second the bull becomes transparent, then it's upon you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For a second the bull becomes transparent, then it's upon you"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -3890,7 +4200,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "Labyrinthauros disappears in a tear in spacetime and reappears right beside you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Labyrinthauros disappears in a tear in spacetime and reappears right beside you"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -4020,7 +4339,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "Labyrinthauros becomes a blur",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Labyrinthauros becomes a blur"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -4147,7 +4475,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "There is no escape from the Maze",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "There is no escape from the Maze"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -4317,7 +4654,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "You feel an existential dread, uncomparable to any other",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You feel an existential dread, uncomparable to any other"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -4465,7 +4811,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -4593,7 +4948,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "For a brief moment there is only you and the creature",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For a brief moment there is only you and the creature"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -4728,7 +5092,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Labyrinthauros",
-    "flavor": "The creature rears its true head, its gaze pierces right through you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The creature rears its true head, its gaze pierces right through you"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -4871,7 +5244,16 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Labyrinthauros",
-    "flavor": "The mechancial bull charges at you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The mechancial bull charges at you"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -5006,7 +5388,16 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "Labyrinthauros",
-    "flavor": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Using the unseen paths of the Maze, the Labyrinthauros zigzags between you"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -5146,7 +5537,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos swipes at you with one of its innumerable tentacles",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos swipes at you with one of its innumerable tentacles"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -5292,7 +5692,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos swipes at you with one of its innumerable tentacles",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos swipes at you with one of its innumerable tentacles"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -5438,7 +5847,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The Primordial attacks you with one of the trunk-like tentacles",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Primordial attacks you with one of the trunk-like tentacles"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -5585,7 +6003,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos uses one of its springy tentacles as a whip",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos uses one of its springy tentacles as a whip"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -5724,7 +6151,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos strikes the ground with a small maze pyramid",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos strikes the ground with a small maze pyramid"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -5854,7 +6290,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The air around you fills with despair",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The air around you fills with despair"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -6028,7 +6473,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos grabs you with one of its tentacles and throws you across the battlefield",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos grabs you with one of its tentacles and throws you across the battlefield"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -6206,7 +6660,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "One of the tentacles wraps around you like a giant snake",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One of the tentacles wraps around you like a giant snake"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -6362,7 +6825,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos pounds the ground with a maze pyramid",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos pounds the ground with a maze pyramid"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -6488,7 +6960,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -6618,7 +7090,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -6813,7 +7285,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The giant maw looms over you, its light offers nothing but emptiness",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The giant maw looms over you, its light offers nothing but emptiness"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -6962,7 +7443,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The creature leans and crushes into you with the entirety of its cephalothorax",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The creature leans and crushes into you with the entirety of its cephalothorax"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -7110,7 +7600,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos emerges from the ground with a terrible wail, and the Maze emerges with it",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos emerges from the ground with a terrible wail, and the Maze emerges with it"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -7256,7 +7755,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos pounds the ground with its main maze pyramid",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos pounds the ground with its main maze pyramid"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -7395,7 +7903,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The earth screams and cracks, Temenos dives into the ground!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The earth screams and cracks, Temenos dives into the ground!"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -7530,7 +8047,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "The creature rises from the ground, revealing the true extent of its vast size",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The creature rises from the ground, revealing the true extent of its vast size"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -7662,7 +8188,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Alpha Temenos",
-    "flavor": "You are being pulled inside the endless maw, you feel your body dissolve into nothingness",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You are being pulled inside the endless maw, you feel your body dissolve into nothingness"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -7839,7 +8374,16 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Alpha Temenos",
-    "flavor": "Temenos strikes you with one of its innumerable tentacles",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Temenos strikes you with one of its innumerable tentacles"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -7979,7 +8523,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The pincers have keen edges, as if they were sharpened",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The pincers have keen edges, as if they were sharpened"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8093,7 +8646,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The pincer comes down, trying to pin you to the ground",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The pincer comes down, trying to pin you to the ground"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8191,7 +8753,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "As the Pursuer makes the cross cut, its laugh is full of reverence",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As the Pursuer makes the cross cut, its laugh is full of reverence"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8326,7 +8897,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The empty eyes of the creature spell your future",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The empty eyes of the creature spell your future"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8478,7 +9058,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The thick black liquid pours from the creature's belly onto its long pincers",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The thick black liquid pours from the creature's belly onto its long pincers"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8616,7 +9205,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "For a moment you see the demon this creature really is",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For a moment you see the demon this creature really is"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -8754,7 +9352,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The Pursuer slashes with both of its long pincers in a semi-circular motion",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pursuer slashes with both of its long pincers in a semi-circular motion"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -8886,7 +9493,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The creature reveals its abdomen. Ambrosia spurts from the blackened belly",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The creature reveals its abdomen"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ambrosia spurts from the blackened belly"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -9027,7 +9651,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "It slashes and thrusts, giggling under its breath",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It slashes and thrusts, giggling under its breath"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -9136,7 +9769,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The Pursuer judges you and finds you wanting",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pursuer judges you and finds you wanting"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -9288,7 +9930,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The Primordial wraps its arms around you and squeezes. You feel the black liquid burn through your armor",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Primordial wraps its arms around you and squeezes"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You feel the black liquid burn through your armor"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -9443,7 +10102,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The Pursuer wants to take you for a ride",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pursuer wants to take you for a ride"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -9594,7 +10262,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "The Pursuer jabs at you with its proboscis, intent on sucking you dry",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pursuer jabs at you with its proboscis, intent on sucking you dry"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -9769,7 +10446,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "A jet of hot black ambrosia covers you from head to toe",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "A jet of hot black ambrosia covers you from head to toe"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -9931,7 +10617,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "A double thrust meant to gut you like fish",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "A double thrust meant to gut you like fish"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -10072,7 +10767,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "It effortlessly floats into the air, then comes crashing down",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It effortlessly floats into the air, then comes crashing down"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -10190,7 +10894,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "You trespass!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You trespass!"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -10333,7 +11046,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "A mesmerizing display of beauty, finesse and carnage",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "A mesmerizing display of beauty, finesse and carnage"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -10452,7 +11174,16 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "Precise and deadly",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Precise and deadly"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -10558,7 +11289,16 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "This is the end of the road",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This is the end of the road"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -10673,7 +11413,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -10804,7 +11544,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -10945,7 +11685,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -11081,7 +11821,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -11238,7 +11978,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -11373,7 +12113,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -11514,7 +12254,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -11671,7 +12411,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -11835,7 +12575,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -11950,7 +12690,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -12079,7 +12819,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -12250,7 +12990,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -12390,7 +13130,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -12557,7 +13297,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -12706,7 +13446,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -12857,7 +13597,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -13025,7 +13765,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -13261,7 +14001,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -13393,7 +14133,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Cyclonus",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -13495,7 +14235,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -13596,7 +14336,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -13749,7 +14489,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -13841,7 +14581,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -13994,7 +14734,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -14132,7 +14872,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -14255,7 +14995,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -14380,7 +15120,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -14536,7 +15276,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -14661,7 +15401,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -14783,7 +15523,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -14969,7 +15709,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -15111,7 +15851,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -15237,7 +15977,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -15394,7 +16134,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -15526,7 +16266,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -15681,7 +16421,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -15837,7 +16577,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -15954,7 +16694,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -16073,7 +16813,7 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -16199,7 +16939,7 @@
     "errata": "",
     "subtype": "Special Attack",
     "usedFor": "Chimera Metastasios",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -16321,7 +17061,39 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "\"Come, I will only use my *left* hand!\"<<NL>>Arms akimbo, The Nietzschean thows his head *back* and laughs at you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "\"Come, I will only use my"
+          },
+          {
+            "type": "bold",
+            "value": "left"
+          },
+          {
+            "type": "plainText",
+            "value": "hand!\""
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Arms akimbo, The Nietzschean thows his head"
+          },
+          {
+            "type": "bold",
+            "value": "back"
+          },
+          {
+            "type": "plainText",
+            "value": "and laughs at you"
+          }
+        ]
+      }
+    ],
     "level": "0",
     "targeting": [
       {
@@ -16433,7 +17205,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -16605,7 +17377,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean jumps high, momentarily blocking out the sun. Then he comes crashing like a comet",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean jumps high, momentarily blocking out the sun"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then he comes crashing like a comet"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -16702,7 +17491,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean plunges his fist into the ground, causing a massive eruption!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean plunges his fist into the ground, causing a massive eruption!"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -16824,7 +17622,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -16968,7 +17766,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean grabs you with his might hands and tries to rip you limb from limb!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean grabs you with his might hands and tries to rip you limb from limb!"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -17140,7 +17947,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -17260,7 +18067,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean spins violently, slashing everyone around him!",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean spins violently, slashing everyone around him!"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -17422,7 +18238,36 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean vanishes in a cloud of choking ash. He reappears *behind* you and stabs you in the *back*",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean vanishes in a cloud of choking ash"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "He reappears"
+          },
+          {
+            "type": "bold",
+            "value": "behind"
+          },
+          {
+            "type": "plainText",
+            "value": "you and stabs you in the"
+          },
+          {
+            "type": "bold",
+            "value": "back"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -17527,7 +18372,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Black Blade comes crashing down, its speed creates a vacuum around the impact zone",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Black Blade comes crashing down, its speed creates a vacuum around the impact zone"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -17566,9 +18420,9 @@
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWNWWWWWWWWWWWWW",
-      "WWWWWWWWWWPPBBBBWWWWWWWWW",
-      "WWWWWWWWWWPPBBBBWWWWWWWWW",
-      "WWWWWWWWWWWWBBBBWWWWWWWWW",
+      "WWWWWWWWWWPPBBBBBBBBBBBBB",
+      "WWWWWWWWWWPPBBBBBBBBBBBBB",
+      "WWWWWWWWWWWWBBBBBBBBBBBBB",
       "WWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     "dice": "3",
@@ -17695,7 +18549,32 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Black-blooded Spartan god grips you in his inhuman *right* hand, then crushes you until you hear your *back* break",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Black-blooded Spartan god grips you in his inhuman"
+          },
+          {
+            "type": "bold",
+            "value": "right"
+          },
+          {
+            "type": "plainText",
+            "value": "hand, then crushes you until you hear your"
+          },
+          {
+            "type": "bold",
+            "value": "back"
+          },
+          {
+            "type": "plainText",
+            "value": "break"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -17888,7 +18767,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean taps the ground with his sword. Clouds of black ash rise from the ground, obscuring everything",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean taps the ground with his sword"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Clouds of black ash rise from the ground, obscuring everything"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -17916,7 +18812,7 @@
       "WWWWWWWWWWWBBBBWWWWWWWWWW",
       "WWWWWWWWWWBBBBBBWWWWWWWWW",
       "WWWWWWWWWBBBBBBBBWWWWWWWW",
-      "WWWWWWWWBBBBPPBBBBWWWWWWW",
+      "WWWWWWWWBBBBPPNBBBWWWWWWW",
       "WWWWWWWWBBBBPPBBBBWWWWWWW",
       "WWWWWWWWWBBBBBBBBWWWWWWWW",
       "WWWWWWWWWWBBBBBBWWWWWWWWW",
@@ -18005,7 +18901,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -18054,14 +18950,14 @@
       }
     ],
     "attackDiagram": [
-      "WWWWWWWWWWWBBWWWWWWWWWWWW",
-      "WWWWWWWWWWWBBWWWWWWWWWWWW",
-      "WWWWWWWWWBBBBBBBWWWWWWWWW",
-      "WWWWWWWWWWPPBBBBWWWWWWWWW",
-      "WWWWWWWWWNPPBBBBWWWWWWWWW",
-      "WWWWWWWWWBBBBBBBWWWWWWWWW",
-      "WWWWWWWWWWWBBWWWWWWWWWWWW",
-      "WWWWWWWWWWWBBWWWWWWWWWWWW"
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWBBBBBBBBBBBBBBB",
+      "WWWWWWWWWWWPPBBBBBBBBBBBB",
+      "WWWWWWWWWWNPPBBBBBBBBBBBB",
+      "WWWWWWWWWWBBBBBBBBBBBBBBB",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW",
+      "WWWWWWWWWWWWBBWWWWWWWWWWW"
     ],
     "dice": "4",
     "difficulty": "9",
@@ -18151,7 +19047,32 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean turns on the *spot*, the unseeing gaze of his skull-like face digs deep into your soul, *blind*ing you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean turns on the"
+          },
+          {
+            "type": "bold",
+            "value": "spot"
+          },
+          {
+            "type": "plainText",
+            "value": ", the unseeing gaze of his skull-like face digs deep into your soul,"
+          },
+          {
+            "type": "bold",
+            "value": "blind"
+          },
+          {
+            "type": "plainText",
+            "value": "ing you"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -18323,7 +19244,40 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean takes a step *back* and picks you off the ground with his *left* hand. For a moment, the billowing cloud of smoke and fire turns into a giant maw and takes a big bite out of you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean takes a step"
+          },
+          {
+            "type": "bold",
+            "value": "back"
+          },
+          {
+            "type": "plainText",
+            "value": "and picks you off the ground with his"
+          },
+          {
+            "type": "bold",
+            "value": "left"
+          },
+          {
+            "type": "plainText",
+            "value": "hand"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For a moment, the billowing cloud of smoke and fire turns into a giant maw and takes a big bite out of you"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -18484,7 +19438,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -18609,7 +19563,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -18693,10 +19647,10 @@
     ],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
-      "WWWWWWWWWWNWBBBBWWWWWWWWW",
-      "WWWWWWWWWWPPBBBBWWWWWWWWW",
-      "WWWWWWWWWWPPBBBBWWWWWWWWW",
-      "WWWWWWWWWWWWBBBBWWWWWWWWW",
+      "WWWWWWWWWWNWBBBBBBBBBBBBB",
+      "WWWWWWWWWWPPBBBBBBBBBBBBB",
+      "WWWWWWWWWWPPBBBBBBBBBBBBB",
+      "WWWWWWWWWWWWBBBBBBBBBBBBB",
       "WWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     "dice": "2",
@@ -18833,7 +19787,32 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "The Nietzschean moves *forward*, sweeps you off the ground with his *right* hand and thrusts you into the blazing fire engulfing his body",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Nietzschean moves"
+          },
+          {
+            "type": "bold",
+            "value": "forward"
+          },
+          {
+            "type": "plainText",
+            "value": ", sweeps you off the ground with his"
+          },
+          {
+            "type": "bold",
+            "value": "right"
+          },
+          {
+            "type": "plainText",
+            "value": "hand and thrusts you into the blazing fire engulfing his body"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -18992,7 +19971,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -19017,19 +19996,20 @@
       "Zone"
     ],
     "attackDiagram": [
-      "WWWRRRRRRRRWBBWRRRRRRRRWW",
-      "WWWRRRRRRRWBBBBWRRRRRRRWW",
-      "WWWRRRRRRWBBBBBBWRRRRRRWW",
-      "WWWRRRRRWBBBBBBBBWRRRRRWW",
-      "WWWRRRRWBBBBBBBBBBWRRRRWW",
-      "WWWRRRWBBBBBBBBBBBBWRRRWW",
-      "WWWRRWBBBBBBPPBBBBBBWRRWW",
-      "WWWRRWBBBBBBPPBBBBBBWRRWW",
-      "WWWRRRWBBBBBBBBBBBBWRRRWW",
-      "WWWRRRRWBBBBBBBBBBWRRRRWW",
-      "WWWRRRRRWBBBBBBBBWRRRRRWW",
-      "WWWRRRRRRRWBBBBWRRRRRRRWW",
-      "WWWRRRRRRRRWBBWRRRRRRRRWW"
+      "RRRRRRRRRRRWBBWRRRRRRRRRR",
+      "RRRRRRRRRRWBBBBWRRRRRRRRR",
+      "RRRRRRRRRWBBBBBBWRRRRRRRR",
+      "RRRRRRRRWBBBBBBBBWRRRRRRR",
+      "RRRRRRRWBBBBBBBBBBWRRRRRR",
+      "RRRRRRWBBBBBBBBBBBBWRRRRR",
+      "RRRRRWBBBBBBPPBBBBBBWRRRR",
+      "RRRRRWBBBBBBPPBBBBBBWRRRR",
+      "RRRRRRWBBBBBBBBBBBBWRRRRR",
+      "RRRRRRRWBBBBBBBBBBWRRRRRR",
+      "RRRRRRRRWBBBBBBBBWRRRRRRR",
+      "RRRRRRRRRWBBBBBBWRRRRRRRR",
+      "RRRRRRRRRRWBBBBWRRRRRRRRR",
+      "RRRRRRRRRRRWBBWRRRRRRRRRR"
     ],
     "dice": "6",
     "difficulty": "9",
@@ -19191,7 +20171,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -19228,10 +20208,12 @@
       "Zone"
     ],
     "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
       "WWWWWWWWWWWWNBWWWWWWWWWWW",
       "WWWWWWWWWWWPPBBWWWWWWWWWW",
       "WWWWWWWWWWWPPBBWWWWWWWWWW",
-      "WWWWWWWWWWWWWBWWWWWWWWWWW"
+      "WWWWWWWWWWWWWBWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     "dice": "3",
     "difficulty": "10",
@@ -19287,10 +20269,12 @@
         "WoO": false,
         "effect": [
           {
+            "gate": "Rage",
+            "value": "5+",
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Rage 5+ Perform Combo"
+                "value": "Perform Combo"
               }
             ]
           }
@@ -19311,7 +20295,7 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "The Nietzschean",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -19434,7 +20418,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "0",
     "targeting": [
       {
@@ -19528,7 +20512,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -19670,7 +20654,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -19800,7 +20784,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -19944,7 +20928,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -20062,7 +21046,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -20206,7 +21190,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -20323,7 +21307,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -20465,7 +21449,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -20597,7 +21581,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -20773,7 +21757,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -20875,7 +21859,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -20994,7 +21978,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -21144,7 +22128,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -21285,7 +22269,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -21437,7 +22421,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -21557,7 +22541,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -21691,7 +22675,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -21887,7 +22871,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -22079,7 +23063,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "The Burden",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -22224,7 +23208,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -22352,7 +23336,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -22500,7 +23484,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -22634,7 +23618,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -22749,7 +23733,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -22914,7 +23898,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -23086,7 +24070,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23247,7 +24231,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23391,7 +24375,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23477,7 +24461,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23611,7 +24595,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23796,7 +24780,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -23973,7 +24957,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -24114,7 +25098,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -24222,7 +25206,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -24344,7 +25328,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -24523,7 +25507,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -24625,7 +25609,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [],
@@ -24712,7 +25696,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -24832,7 +25816,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Hypertime Oracle",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -24946,7 +25930,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25058,7 +26042,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25178,7 +26162,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25373,7 +26357,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25507,7 +26491,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25639,7 +26623,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -25791,7 +26775,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -25903,7 +26887,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -26031,7 +27015,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -26230,7 +27214,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -26359,7 +27343,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -26506,7 +27490,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -26684,7 +27668,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -26805,7 +27789,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -26971,7 +27955,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -27193,7 +28177,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -27341,7 +28325,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -27491,7 +28475,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -27635,7 +28619,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -27767,7 +28751,7 @@
     "errata": "",
     "subtype": "Trait Attack",
     "usedFor": "Icarian Harpy",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -27842,7 +28826,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -27988,7 +28972,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -28175,7 +29159,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -28350,7 +29334,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -28517,7 +29501,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -28601,9 +29585,9 @@
     ],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
-      "WWWWWWWWWWWPPPBWWWWWWWWWW",
-      "WWWWWWWWWWWPPPBWWWWWWWWWW",
-      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBBBBBBBBBBB",
+      "WWWWWWWWWWWPPPBBBBBBBBBBB",
+      "WWWWWWWWWWWPPPBBBBBBBBBBB",
       "WWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     "dice": "3",
@@ -28710,7 +29694,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -28906,7 +29890,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29069,7 +30053,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29231,7 +30215,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29396,7 +30380,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29571,7 +30555,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29731,7 +30715,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -29918,7 +30902,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -30110,7 +31094,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -30301,7 +31285,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -30465,7 +31449,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -30651,7 +31635,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -30795,7 +31779,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -30873,7 +31857,7 @@
     "errata": "",
     "subtype": "Trait Attack",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -30982,7 +31966,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -31138,7 +32122,7 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "Sun Descendent",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -31259,7 +32243,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -31403,7 +32387,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "The other hand taketh away",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The other hand taketh away"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -31538,7 +32531,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "One hand lends",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "One hand lends"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -31670,7 +32672,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -31840,7 +32842,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -31992,7 +32994,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -32157,7 +33159,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -32284,7 +33286,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -32420,7 +33422,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -32585,7 +33587,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "Impossibly complicated, completely mesmerizing",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Impossibly complicated, completely mesmerizing"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [],
     "preActionWoO": true,
@@ -32700,7 +33711,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -32852,7 +33863,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -32974,7 +33985,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -33071,7 +34082,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -33244,7 +34255,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "The Invisible Horn of the market bears down on you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Invisible Horn of the market bears down on you"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -33376,7 +34396,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [],
     "preActionWoO": true,
@@ -33489,7 +34509,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [],
@@ -33607,7 +34627,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -33762,7 +34782,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Midascore",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -33902,7 +34922,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34000,7 +35020,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34134,7 +35154,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34270,7 +35290,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34415,7 +35435,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34590,7 +35610,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -34718,7 +35738,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -34836,7 +35856,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -34960,7 +35980,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -35140,7 +36160,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -35277,7 +36297,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -35455,7 +36475,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -35651,7 +36671,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -35833,7 +36853,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -35987,7 +37007,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -36089,7 +37109,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -36241,7 +37261,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -36425,7 +37445,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -36560,7 +37580,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Demidjinn",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -36688,7 +37708,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -36836,7 +37856,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -37041,7 +38061,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -37231,7 +38251,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -37390,7 +38410,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -37572,7 +38592,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "preTarget": [
       {
@@ -37727,7 +38747,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -37872,7 +38892,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -38014,7 +39034,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -38196,7 +39216,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -38409,7 +39429,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -38538,7 +39558,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "preTarget": [
       {
@@ -38716,7 +39736,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "preTarget": [
       {
@@ -38894,7 +39914,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "preTarget": [
       {
@@ -39082,7 +40102,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "preTarget": [
       {
@@ -39204,7 +40224,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "preTarget": [
       {
@@ -39386,7 +40406,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "preTarget": [
       {
@@ -39466,7 +40486,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "preTarget": [
@@ -39604,7 +40624,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Babelian Lunacy",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "preTarget": [
       {
@@ -39778,7 +40798,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -39912,7 +40932,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -40043,7 +41063,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -40194,7 +41214,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -40366,7 +41386,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -40527,7 +41547,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -40671,7 +41691,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -40826,7 +41846,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -40980,7 +42000,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -41123,7 +42143,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -41271,7 +42291,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -41431,7 +42451,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -41594,7 +42614,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -41789,7 +42809,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -41962,7 +42982,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -42129,7 +43149,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -42309,7 +43329,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -42477,7 +43497,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -42632,7 +43652,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Dragon of Phobos",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -42772,7 +43792,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -42908,7 +43928,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -43021,7 +44041,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -43178,7 +44198,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -43327,7 +44347,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -43463,7 +44483,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -43598,7 +44618,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -43755,7 +44775,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -43884,7 +44904,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -44027,7 +45047,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -44152,7 +45172,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -44319,7 +45339,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -44481,7 +45501,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -44622,7 +45642,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -44734,7 +45754,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -44851,7 +45871,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -45021,7 +46041,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -45154,7 +46174,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -45314,7 +46334,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Meduketos",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -45413,7 +46433,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "0",
     "targeting": [
       {
@@ -45536,7 +46556,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -45655,7 +46675,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -45810,7 +46830,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -45972,7 +46992,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -46133,7 +47153,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -46330,7 +47350,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -46445,7 +47465,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -46564,7 +47584,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -46736,7 +47756,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -46898,7 +47918,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -47080,7 +48100,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -47293,7 +48313,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -47428,7 +48448,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -47606,7 +48626,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -47804,7 +48824,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -47951,7 +48971,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -48081,7 +49101,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -48258,7 +49278,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -48444,7 +49464,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Ur-Fleece",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -48544,7 +49564,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "The devil's in the details",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The devil's in the details"
+          }
+        ]
+      }
+    ],
     "level": "0",
     "targeting": [],
     "preActionWoO": false,
@@ -48614,7 +49643,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -48758,7 +49787,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -48863,7 +49892,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -48980,7 +50009,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -49176,7 +50205,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -49318,7 +50347,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "I",
     "targeting": [
       {
@@ -49508,7 +50537,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -49658,7 +50687,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -49763,7 +50792,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -49928,7 +50957,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -50100,7 +51129,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -50255,7 +51284,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "II",
     "targeting": [
       {
@@ -50441,7 +51470,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -50612,7 +51641,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -50759,7 +51788,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "uber": true,
     "targeting": [
@@ -50893,7 +51922,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -51020,7 +52049,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -51234,7 +52263,7 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "III",
     "targeting": [
       {
@@ -51374,7 +52403,7 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Titan X",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -51448,13 +52477,13 @@
     "name": "Conqueror Strike",
     "cardType": "Attack",
     "game": "Odyssey",
-    "cycle": "Cycle V",
+    "cycle": "Promo",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
     "subtype": "Signature",
     "usedFor": "Hermesian Pursuer",
-    "flavor": "",
+    "flavor": [],
     "level": "X",
     "targeting": [
       {
@@ -51565,7 +52594,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "You're nothing",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You're nothing"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -51649,7 +52687,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "Begone",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Begone"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -51740,7 +52787,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "Bask in the light of your god returned",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bask in the light of your god returned"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -51823,7 +52879,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "Cease to be",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Cease to be"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -51907,7 +52972,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "I forgive you",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "I forgive you"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -51993,7 +53067,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "It is not for you, blasphemer",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "It is not for you, blasphemer"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -52076,7 +53159,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "Let the impurities burn away",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Let the impurities burn away"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -52159,7 +53251,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "Disappear",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disappear"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "uber": true,
     "targeting": [
@@ -52244,7 +53345,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "The Pitiless",
-    "flavor": "I am the life giver",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "I am the life giver"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -52324,7 +53434,16 @@
     "errata": "",
     "subtype": "Signature",
     "usedFor": "The Pitiless",
-    "flavor": "Worship me",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Worship me"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -52406,7 +53525,16 @@
     "errata": "",
     "subtype": "Routine",
     "usedFor": "The Pitiless",
-    "flavor": "Fear me",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Fear me"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -52501,7 +53629,24 @@
     "errata": "",
     "subtype": "Trait Attack",
     "usedFor": "The Pitiless",
-    "flavor": "Proceed... on your way to oblivion",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Proceed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "on your way to oblivion"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {
@@ -52612,7 +53757,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "<SNAP>",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "SNAP"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -52687,7 +53841,24 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "My loving flock. My cattle",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "My loving flock"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "My cattle"
+          }
+        ]
+      }
+    ],
     "level": "I",
     "targeting": [
       {
@@ -52770,7 +53941,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "Love me, and you will be blessed in the next life",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Love me, and you will be blessed in the next life"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -52854,7 +54034,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "And accept my love and judgement",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "And accept my love and judgement"
+          }
+        ]
+      }
+    ],
     "level": "II",
     "targeting": [
       {
@@ -52937,7 +54126,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "I am the life giver",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "I am the life giver"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53009,7 +54207,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "Bear witness",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bear witness"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53092,7 +54299,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "You're already dead",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You're already dead"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53188,7 +54404,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "Leave My Grace and be doomed forever",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Leave My Grace and be doomed forever"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53270,7 +54495,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "Starve",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Starve"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53344,7 +54578,16 @@
     "errata": "",
     "subtype": "AI",
     "usedFor": "Old Haunt",
-    "flavor": "Bask",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bask"
+          }
+        ]
+      }
+    ],
     "level": "III",
     "targeting": [
       {
@@ -53418,7 +54661,24 @@
     "errata": "",
     "subtype": "Trait Attack",
     "usedFor": "Old Haunt",
-    "flavor": "Proceed... on your way to oblivion",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Proceed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "on your way to oblivion"
+          }
+        ]
+      }
+    ],
     "level": "X",
     "targeting": [
       {

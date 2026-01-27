@@ -407,7 +407,7 @@ def primordialAttack_row(row):
     card_json = {
         "subtype": row["Subtype"],
         "usedFor": row["Used For"],
-        "flavor": row["Flavor"],
+        "flavor": parse_abilities(row["Flavor"])[0],
         "level": row["Level"],
         "uber": "TRUE" in row["Uber?"],
         "preTarget": parse_consequences(row["Pre-Target Effects"]),
