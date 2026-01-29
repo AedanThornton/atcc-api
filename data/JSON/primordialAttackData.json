@@ -7036,6 +7036,13 @@
         ]
       }
     ],
+    "attackDiagram": [
+      "WWWWWWWWWWWWWWWWWWWWWWWWW",
+      "WWWWWWWWWPPPWWWWWWWWWWWWW",
+      "WWWWWWWWWPPPBBBBWWWWWWWWW",
+      "WWWWWWWWWPPPWWWWWWWWWWWWW",
+      "WWWWWWWWWWWWWWWWWWWWWWWWW"
+    ],
     "dice": "3",
     "difficulty": "9",
     "consequences": [
@@ -29585,9 +29592,9 @@
     ],
     "attackDiagram": [
       "WWWWWWWWWWWWWWWWWWWWWWWWW",
-      "WWWWWWWWWWWPPPBBBBBBBBBBB",
-      "WWWWWWWWWWWPPPBBBBBBBBBBB",
-      "WWWWWWWWWWWPPPBBBBBBBBBBB",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
+      "WWWWWWWWWWWPPPBWWWWWWWWWW",
       "WWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     "dice": "3",
@@ -29779,8 +29786,12 @@
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 7+: Do not Glaciate"
+                "value": "7+: Do not Glaciate"
               }
             ]
           }

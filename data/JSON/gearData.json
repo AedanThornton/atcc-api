@@ -52436,9 +52436,79 @@
             "value": "MortalPowerDie"
           }
         ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reach 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Vault"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening X"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Abysswalk"
+          }
+        ],
+        "costs": [
+          "Ambrosia"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Miss"
+          },
+          {
+            "type": "plainText",
+            "value": "Your highest tier Power Die becomes"
+          },
+          {
+            "type": "icon",
+            "value": "MortalPowerDie"
+          }
+        ]
       }
     ],
-    "gatedAbilities": []
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "X is equal to the amount of Obol cards in the Obol deck"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
