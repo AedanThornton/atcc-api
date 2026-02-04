@@ -55,14 +55,24 @@ def condition_row(row):
         "name2": row["Reverse Name"],
         "subtitle2": row["Reverse Subtitle"],
         "side": {
-            "effect": row["Primary Effect A"],
-            "abilities": row["Abilities A"],
+            "effect": parse_abilities(row["Primary Effect A"])[0]
         },
         "side2": {
-            "effect": row["Primary Effect B"],
-            "abilities": row["Abilities B"],
+            "effect": parse_abilities(row["Primary Effect B"])[0]
         },
     }
+
+    if row["Abilities A"]: 
+        card_json["side"]["abilities"] = {
+            "title": row["Abilities A"].split(": ")[0],
+            "effects": parse_abilities(row["Abilities A"].split(": ")[1])[0]
+        }
+
+    if row["Abilities B"]: 
+        card_json["side2"]["abilities"] = {
+            "title": row["Abilities B"].split(": ")[0],
+            "effects": parse_abilities(row["Abilities B"].split(": ")[1])[0]
+        }
 
     if not card_json["subtitle"]: card_json.pop("subtitle")
     if not card_json["subtitle2"]: card_json.pop("subtitle2")

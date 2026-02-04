@@ -15,13 +15,79 @@
     "errata": "",
     "name2": "Dread",
     "side": {
-      "effect": "You have -2 Precision. If you gain this Condition card a second time or you gain the Dread Condition card, flip this card",
-      "abilities": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 1 positive Precision token",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have -2 Precision"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the Dread Condition card, flip this card"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Face Your Fear",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, discard this Condition card and gain 1 positive Precision token"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "You have -4 Precision. While on a Rear space, Weakspot, or VP, you have -2 Precision instead. If you gain this Condition card a second time or you gain the Fear Condition card, you die",
-      "abilities": "Face Your Fear: When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have -4 Precision"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While on a Rear space, Weakspot, or VP, you have -2 Precision instead"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the Fear Condition card, you die"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Face Your Fear",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -43,12 +109,89 @@
     "name2": "Knockdown",
     "subtitle2": "Standing Up",
     "side": {
-      "effect": "You are knocked down. Place your miniature on its side as a reminder. You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise. If this card is discarded by another effect, stand up (see the other side of the card). At the end of your next turn, flip this card",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You are knocked down"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place your miniature on its side as a reminder"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot move voluntarily, attack or use actions or abilities, unless stated otherwise"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is discarded by another effect, stand up (see the other side of the card)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of your next turn, flip this card"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "If you move voluntarily, attack, or use an action or ability, stand up. At the start of your turn, stand up. If this card is discarded by another effect, stand up",
-      "abilities": "Stand Up: Put your miniature in the normal position and discard this card"
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you move voluntarily, attack, or use an action or ability, stand up"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of your turn, stand up"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is discarded by another effect, stand up"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Stand Up",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Put your miniature in the normal position and discard this card"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -67,12 +210,80 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "You are paralyzed. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. When you are attack, do not perform the Evasion Roll. Instead you are automatically hit and you do not perform the Armor Roll",
-      "abilities": "Snap Out: <Start of your turn> You may test Endurance (@Danger+). *Success:* Discard this card"
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You are paralyzed"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are attack, do not perform the Evasion Roll"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Instead you are automatically hit and you do not perform the Armor Roll"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Snap Out",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of your turn"
+              },
+              {
+                "type": "plainText",
+                "value": "You may test Endurance ("
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "plainText",
+                "value": "+)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Success:"
+              },
+              {
+                "type": "plainText",
+                "value": "Discard this card"
+              }
+            ]
+          }
+        ]
+      }
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -91,13 +302,95 @@
     "errata": "",
     "name2": "Frenzy",
     "side": {
-      "effect": "You cannot break Combos or use abilities that place tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Frenzy_ Condition card, flip this card",
-      "abilities": "Calm Down: <End of your turn> If you did not attack this turn, discard this card and gain 1 positive Precision token",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot break Combos or use abilities that place tokens in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Frenzy"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, flip this card"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Calm Down",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "End of your turn"
+              },
+              {
+                "type": "plainText",
+                "value": "If you did not attack this turn, discard this card and gain 1 positive Precision token"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "You cannot break Combos, use Kratos tokens from the Kratos Pool, or use abilities that place tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Hatred_ Condition card, you die",
-      "abilities": "Calm Down: <End of your turn> If you did not attack this turn, discard this card and gain 2 positive Precision tokens",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot break Combos, use Kratos tokens from the Kratos Pool, or use abilities that place tokens in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Hatred"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, you die"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Calm Down",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "End of your turn"
+              },
+              {
+                "type": "plainText",
+                "value": "If you did not attack this turn, discard this card and gain 2 positive Precision tokens"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -117,12 +410,39 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "Add +2 to Climb and Hold on tests. If you gain this card again, automatically move to the VP (even if not adjacent!) or, if you are already on the VP, you may gain +1 @Fate to perform a *Bonus Attack!*",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Add +2 to Climb and Hold on tests"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this card again, automatically move to the VP (even if not adjacent!) or, if you are already on the VP, you may gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "plainText",
+              "value": "to perform a"
+            },
+            {
+              "type": "bold",
+              "value": "Bonus Attack!"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -141,12 +461,27 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "For the purposes of Kratos Table abilities treat your @Rage as 1 higher",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "For the purposes of Kratos Table abilities treat your"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "plainText",
+              "value": "as 1 higher"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -162,12 +497,95 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "You have -1 @Speed. Your cards cannot unexhaust. Ignore {Tireless}. When the Burden attacks a Titan with _Sisyphean_, apply the following additional effects: Attack gains +1 @d10, each hits deals +1 @Danger. When another Titan gains _Sisyphean_, and there are no more _Sisyphean_ cards in the game, pass this Condition card to that Titan",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have -1"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Your cards cannot unexhaust"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore"
+            },
+            {
+              "type": "keyword",
+              "value": "Tireless"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When the Burden attacks a Titan with"
+            },
+            {
+              "type": "italics",
+              "value": "Sisyphean"
+            },
+            {
+              "type": "plainText",
+              "value": ", apply the following additional effects: Attack gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "d10"
+            },
+            {
+              "type": "plainText",
+              "value": ", each hits deals +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When another Titan gains"
+            },
+            {
+              "type": "italics",
+              "value": "Sisyphean"
+            },
+            {
+              "type": "plainText",
+              "value": ", and there are no more"
+            },
+            {
+              "type": "italics",
+              "value": "Sisyphean"
+            },
+            {
+              "type": "plainText",
+              "value": "cards in the game, pass this Condition card to that Titan"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -186,12 +604,71 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "You have -1 @Speed. Your cards cannot unexhaust. Ignore {Tireless}. When the Burden attacks a Titan with _Sisyphean_, apply the following additional effects: Attack gains +1 @d10, each hits deals +1 @Danger",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have -1"
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Your cards cannot unexhaust"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Ignore"
+            },
+            {
+              "type": "keyword",
+              "value": "Tireless"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When the Burden attacks a Titan with"
+            },
+            {
+              "type": "italics",
+              "value": "Sisyphean"
+            },
+            {
+              "type": "plainText",
+              "value": ", apply the following additional effects: Attack gains +1"
+            },
+            {
+              "type": "icon",
+              "value": "d10"
+            },
+            {
+              "type": "plainText",
+              "value": ", each hits deals +1"
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -210,12 +687,52 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "<Start of your turn> Gain 1 Bleeding token, then draw as many cards from your Trauma level deck as you have Bleeding tokens. Remove all revealed positive cards from the Battle and return all the negative ones to the top of the deck in the same order",
-      "abilities": "Bleeding Limit 4: If there are 0 Bleeding tokens on this card, discard it. If Bleeding tokens on this card exceed your Bleeding Limit (default 4), you die; Stop Bleeding: @MovementAction or @CombatAction to discard up to 2 Bleeding tokens from yourself; Stop Bleeding Other: As a free action, discard up to 2 Bleeding tokens from an adjacent Titan"
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of your turn"
+            },
+            {
+              "type": "plainText",
+              "value": "Gain 1 Bleeding token, then draw as many cards from your Trauma level deck as you have Bleeding tokens"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remove all revealed positive cards from the Battle and return all the negative ones to the top of the deck in the same order"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Bleeding Limit 4",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If there are 0 Bleeding tokens on this card, discard it"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If Bleeding tokens on this card exceed your Bleeding Limit (default 4), you die; Stop Bleeding"
+              }
+            ]
+          }
+        ]
+      }
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -234,12 +751,39 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "Your death has been prophesized. <Start of your turn> Discard 1 Death token from this card. If you can't discard a token, you die",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Your death has been prophesized"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of your turn"
+            },
+            {
+              "type": "plainText",
+              "value": "Discard 1 Death token from this card"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you can't discard a token, you die"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -258,13 +802,123 @@
     "errata": "",
     "name2": "Sealed",
     "side": {
-      "effect": "You cannot voluntarily gain @Fate. If you gain this Condition a second time or you gain the _Sealed_ Condition card, flip this card instead",
-      "abilities": "Defy Fate: <Start of your turn> You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1 @Fate",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot voluntarily gain"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Sealed"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, flip this card instead"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Defy Fate",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of your turn"
+              },
+              {
+                "type": "plainText",
+                "value": "You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "You cannot voluntarily gain @Fate. You cannot gain @Rage. If you gain this Condition a second time or you gain the _Muffled_ Condition card, you die instead",
-      "abilities": "Defy Fate: <Start of your turn> You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2 @Fate",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot voluntarily gain"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot gain"
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Muffled"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, you die instead"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Defy Fate",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of your turn"
+              },
+              {
+                "type": "plainText",
+                "value": "You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2"
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -286,12 +940,97 @@
     "name2": "Time-clocked",
     "subtitle2": "Arriving",
     "side": {
-      "effect": "You have been punched into the future. Remove your miniature fro the Board. You cannot move voluntarily, attack or use actions or abilities or suffer Rewind or be Targeted unless stated otherwise. If this card is dsicard by another effect, arrive (see the other side of this card). At the end of your turn, flip this card",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have been punched into the future"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Remove your miniature fro the Board"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot move voluntarily, attack or use actions or abilities or suffer Rewind or be Targeted unless stated otherwise"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is dsicard by another effect, arrive (see the other side of this card)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of your turn, flip this card"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "If you move voluntarily, attack, or use an action or ability, arrive. At the start of your turn, arrive. If this card is discarded by another effect, arrive",
-      "abilities": "Arrive: Place your miniature on your Time Anchor and discard this card. If your Time Anchor is not on the Board at the moment of arrival, you are erased from existence instead"
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you move voluntarily, attack, or use an action or ability, arrive"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of your turn, arrive"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is discarded by another effect, arrive"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Arrive",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place your miniature on your Time Anchor and discard this card"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If your Time Anchor is not on the Board at the moment of arrival, you are erased from existence instead"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -308,12 +1047,23 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "During Battles, the player among you who takes charge the most (quarterbacks!) can speak during a Round only if they gain +1 @Fate",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During Battles, the player among you who takes charge the most (quarterbacks!) can speak during a Round only if they gain +1"
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -332,13 +1082,113 @@
     "errata": "",
     "name2": "Greed-crazed",
     "side": {
-      "effect": "When you place tokens in the Kratos Pool, you may only place half (rounding down). If you gain this Condition card a second time or you gain the _Greed-crazed_ Condition card, flip this card",
-      "abilities": "Giveaway: When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the [Enriched|DL2015] Condition card and 1 positive Precision token",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you place tokens in the Kratos Pool, you may only place half (rounding down)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Greed-crazed"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, flip this card"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Giveaway",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Enriched",
+                "refID": "DL2015"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and 1 positive Precision token"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "When you place tokens in the Kratos Pool, you may only place half (rounding down). You may only use half (rounding down) of the tokens in the Kratos Pool. If you gain this Condition card a second time or you gain the _Covetous_ Condition card, you die",
-      "abilities": "Giveaway: When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the [Enlightened|DL2015] Condition card and 2 positive Precision tokens",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you place tokens in the Kratos Pool, you may only place half (rounding down)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may only use half (rounding down) of the tokens in the Kratos Pool"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Covetous"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, you die"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Giveaway",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Enlightened",
+                "refID": "DL2015"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and 2 positive Precision tokens"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -358,13 +1208,185 @@
     "errata": "",
     "name2": "Wishagog",
     "side": {
-      "effect": "You ignore {Wish Armor}. +1 to all Wish Aways you suffer. If you gain this Condition card a second time or you gain the _Wishagog_ Condition card, flip this card",
-      "abilities": "What you wish for: During your turn, you may choose for the Primordial to immediately perform Signature against you. You cannot gain the _Wishkeen_ Condition card from this Signature. If you survive the Attack, discard this Condition card and gain the [Enriched|DL2015] Condition card and 1 positive Precision token",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You ignore"
+            },
+            {
+              "type": "keyword",
+              "value": "Wish Armor"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "+1 to all Wish Aways you suffer"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Wishagog"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, flip this card"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "What you wish for",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During your turn, you may choose for the Primordial to immediately perform Signature against you"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot gain the"
+              },
+              {
+                "type": "italics",
+                "value": "Wishkeen"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card from this Signature"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you survive the Attack, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Enriched",
+                "refID": "DL2015"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and 1 positive Precision token"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
-      "effect": "You ignore {Wish Armor}. +2 to all Wish Aways you suffer. If you gain this Condition card a second time or you gain the _Wishkeen_ Condition card, you die",
-      "abilities": "What you wish for: During your turn, you may choose for the Primordial to immediately perform an AI card against you. You cannot gain the _Wishkeen_ or _Wishagog_ Condition card from this Attack. If you survive the Attack, discard this Condition card and gain the [Enlightened|DL2015] Condition card and 3 positive Precision tokens",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You ignore"
+            },
+            {
+              "type": "keyword",
+              "value": "Wish Armor"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "+2 to all Wish Aways you suffer"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or you gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Wishkeen"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, you die"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "What you wish for",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During your turn, you may choose for the Primordial to immediately perform an AI card against you"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot gain the"
+              },
+              {
+                "type": "italics",
+                "value": "Wishkeen"
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "italics",
+                "value": "Wishagog"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card from this Attack"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you survive the Attack, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Enlightened",
+                "refID": "DL2015"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and 3 positive Precision tokens"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -384,12 +1406,52 @@
     "errata": "",
     "name2": "Enlightened",
     "side": {
-      "effect": "You cannot involuntarily gain tokens or Condition cards (exlcuding Ambrosia and Trespass). Discard this card at the end of the next Primordial Round",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot involuntarily gain tokens or Condition cards (exlcuding Ambrosia and Trespass)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard this card at the end of the next Primordial Round"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "You may discard any tokens and Condition cards (excluding Ambrosia). You cannot involuntarily gain tokens or Condition cards (excluding Ambrosia and Trespass). DIscard this card at the end of the next Primordial Round",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may discard any tokens and Condition cards (excluding Ambrosia)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot involuntarily gain tokens or Condition cards (excluding Ambrosia and Trespass)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "DIscard this card at the end of the next Primordial Round"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -408,12 +1470,39 @@
     "errata": "",
     "name2": "",
     "side": {
-      "effect": "When on a VP, you cannot suffer a Falling Down effect, Knockdown, Knockback, Pushback, Kickback, Wish Away, or Float. When on a VP, you cannot be moved to the Endless Staircase. <Start of your turn> Discard this card",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you cannot suffer a Falling Down effect, Knockdown, Knockback, Pushback, Kickback, Wish Away, or Float"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When on a VP, you cannot be moved to the Endless Staircase"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "timing",
+              "value": "Start of your turn"
+            },
+            {
+              "type": "plainText",
+              "value": "Discard this card"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "",
-      "abilities": ""
+      "effect": []
     }
   },
   {
@@ -434,12 +1523,97 @@
     "name2": "Float",
     "subtitle2": "Down",
     "side": {
-      "effect": "You are floating. Place your Titan on its die as a reminder. You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise. If you gain this Condition card a second time, you die. If this card is discarded by another effect, deflate (see the other side of the card). At the end of your next turn, flip this card",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You are floating"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place your Titan on its die as a reminder"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You cannot move voluntarily, attack, or use actions or abilities, unless stated otherwise"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time, you die"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is discarded by another effect, deflate (see the other side of the card)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the end of your next turn, flip this card"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "If you move voluntarily, attack, or use an action or ability, deflate. At the start of your turn, deflate. If this card is discarded by another effect, deflate",
-      "abilities": "Deflate: Put your miniature in the normal position and discard this card"
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you move voluntarily, attack, or use an action or ability, deflate"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "At the start of your turn, deflate"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If this card is discarded by another effect, deflate"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Deflate",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Put your miniature in the normal position and discard this card"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -458,13 +1632,145 @@
     "errata": "",
     "name2": "Holy Terror",
     "side": {
-      "effect": "{Awakening Lock}. You don't benefit from Precision Bonuses (expect for Kratos tokens). During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss. If you gain this Condition card a second time or gain the _Holy Terror_ Condition card, flip this card",
-      "abilities": "Calm as the Sea: When you deal a Wound, discard this Condition card and gain the [Bravery|EL2600] Condition card",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Awakening Lock"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You don't benefit from Precision Bonuses (expect for Kratos tokens)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Holy Terror"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, flip this card"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Calm as the Sea",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Bravery",
+                "refID": "EL2600"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
     },
     "side2": {
-      "effect": "{Awakening Lock}. You don't benefit from Precision Bonuses (expect for Kratos tokens). During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss. After you perform the Attack Roll, if you didn't get a Crit Chance, discard 1 hit. If you gain this Condition card a second time or gain the _Terror_ Condition card, you die",
-      "abilities": "Calm as the Sea: When you deal a Wound, discard this Condition card and gain the [Bravery|EL2600] Condition card",
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "keyword",
+              "value": "Awakening Lock"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You don't benefit from Precision Bonuses (expect for Kratos tokens)"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During an Attack Roll, if you roll at least one '1', your Attack immediately ends with a full miss"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "After you perform the Attack Roll, if you didn't get a Crit Chance, discard 1 hit"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you gain this Condition card a second time or gain the"
+            },
+            {
+              "type": "italics",
+              "value": "Terror"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, you die"
+            }
+          ]
+        }
+      ],
+      "abilities": {
+        "title": "Calm as the Sea",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, discard this Condition card and gain the"
+              },
+              {
+                "type": "cardRef",
+                "value": "Bravery",
+                "refID": "EL2600"
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      },
       "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
     }
   },
@@ -484,12 +1790,100 @@
     "errata": "",
     "name2": "Resolve",
     "side": {
-      "effect": "When you gain this card, discard any [Fear|AL0299], [Dread|AL0299], [Terror|EL2596], or [Holy Terror|EL2596] Condition cards. If you would gain a _Terror_ or _Holy Terror_ Condition card, ignore that gain and discard this card instead",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you gain this card, discard any"
+            },
+            {
+              "type": "cardRef",
+              "value": "Fear",
+              "refID": "AL0299"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "Dread",
+              "refID": "AL0299"
+            },
+            {
+              "type": "plainText",
+              "value": ","
+            },
+            {
+              "type": "cardRef",
+              "value": "Terror",
+              "refID": "EL2596"
+            },
+            {
+              "type": "plainText",
+              "value": ", or"
+            },
+            {
+              "type": "cardRef",
+              "value": "Holy Terror",
+              "refID": "EL2596"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition cards"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "If you would gain a"
+            },
+            {
+              "type": "italics",
+              "value": "Terror"
+            },
+            {
+              "type": "plainText",
+              "value": "or"
+            },
+            {
+              "type": "italics",
+              "value": "Holy Terror"
+            },
+            {
+              "type": "plainText",
+              "value": "Condition card, ignore that gain and discard this card instead"
+            }
+          ]
+        }
+      ]
     },
     "side2": {
-      "effect": "You have +2 Precision and {Auto-break 1}. Discard this card if you fully miss an Attack or Fail to wound",
-      "abilities": ""
+      "effect": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You have +2 Precision and"
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Discard this card if you fully miss an Attack or Fail to wound"
+            }
+          ]
+        }
+      ]
     }
   }
 ]

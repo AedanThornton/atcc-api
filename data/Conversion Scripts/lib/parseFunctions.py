@@ -257,7 +257,7 @@ def parse_recipes(recipes_string):
                     count, name = ingredient_match.groups()
                     new_ingredient = {"count": int(count), "name": name}
 
-                    unique_match = re.compile(r'\[\[(.*)\]\]').match(name)
+                    unique_match = re.compile(r'\[\[([^\]]*)\]\]').match(name)
                     if unique_match:
                         card_info = unique_match.groups()[0].split("#")
                         new_ingredient["name"] = card_info[0]
