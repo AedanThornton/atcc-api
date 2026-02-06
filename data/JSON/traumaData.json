@@ -4,6 +4,7 @@
       "AM0307"
     ],
     "name": "Kratos Whisper",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -36,6 +37,7 @@
       "AM0308"
     ],
     "name": "Insulted",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -66,7 +68,15 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately stand up and gain 1 positive"
+            "value": "Condition card, immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "and gain 1 positive"
           },
           {
             "type": "icon",
@@ -89,6 +99,7 @@
       "AM0309"
     ],
     "name": "Gash",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -129,6 +140,7 @@
       "AM0310"
     ],
     "name": "Thrown Off-Balance",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -177,6 +189,7 @@
       "AM0311"
     ],
     "name": "Feign Death",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -199,7 +212,15 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately stand up instead"
+            "value": "Condition card, immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "instead"
           }
         ]
       }
@@ -214,6 +235,7 @@
       "AM0312"
     ],
     "name": "Feint",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -242,6 +264,7 @@
       "AM0313"
     ],
     "name": "Marked For Glory",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -302,6 +325,7 @@
       "AM0314"
     ],
     "name": "Battle Cry",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -315,7 +339,11 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Another Titan may move up to 2 spaces or stand up"
+            "value": "Another Titan may move up to 2 spaces or"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
           }
         ]
       }
@@ -330,6 +358,7 @@
       "AM0315"
     ],
     "name": "Unexpected Help",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -366,6 +395,7 @@
       "AM0316"
     ],
     "name": "Glimpse Weak Spot",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -402,6 +432,7 @@
       "AM0317"
     ],
     "name": "Fateful Wound",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -454,6 +485,7 @@
       "AM0318"
     ],
     "name": "Fear",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -491,6 +523,7 @@
       "AM0319"
     ],
     "name": "Maze Emergence",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -519,6 +552,7 @@
       "AM0320"
     ],
     "name": "Maze Emergence",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -547,6 +581,7 @@
       "AM0321"
     ],
     "name": "Seed Of Despair",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -575,6 +610,7 @@
       "AM0322"
     ],
     "name": "Kratos Glimpse",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -607,6 +643,7 @@
       "AM0323"
     ],
     "name": "Marked For Death",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -651,6 +688,7 @@
       "AM0324"
     ],
     "name": "Call To Arms",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -664,7 +702,11 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Another Titan may move up to 3 spaces or stand up"
+            "value": "Another Titan may move up to 3 spaces or"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
           }
         ]
       }
@@ -679,6 +721,7 @@
       "AM0325"
     ],
     "name": "Giant Gash",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -719,6 +762,7 @@
       "AM0326"
     ],
     "name": "Inner Strength",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -740,7 +784,11 @@
           },
           {
             "type": "plainText",
-            "value": "and stand up"
+            "value": "and"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
           }
         ]
       },
@@ -763,6 +811,7 @@
       "AM0327"
     ],
     "name": "Show Of Willpower",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -795,6 +844,7 @@
       "AM0328"
     ],
     "name": "Counterattack",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -817,7 +867,15 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately stand up instead"
+            "value": "Condition card, immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "instead"
           }
         ]
       }
@@ -832,6 +890,7 @@
       "AM0329"
     ],
     "name": "Flood Of Memories",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -868,6 +927,7 @@
       "AM0330"
     ],
     "name": "Predict Moves",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -904,6 +964,7 @@
       "AM0331"
     ],
     "name": "Dolos Cunning",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -932,6 +993,7 @@
       "AM0332"
     ],
     "name": "Heroic Death",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -970,7 +1032,15 @@
           },
           {
             "type": "plainText",
-            "value": ": You die, but you won't sell your life cheap! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! Then, shuffle this card back into the Trauma deck and die"
+            "value": ": You die, but you won't sell your life cheap! Immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": ", move up to 3 spaces, and perform a Bonus Attack! Then, shuffle this card back into the Trauma deck and die"
           }
         ]
       },
@@ -1014,6 +1084,7 @@
       "AM0333"
     ],
     "name": "Dread",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1051,6 +1122,7 @@
       "AM0334"
     ],
     "name": "Maze Eruption",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1083,6 +1155,7 @@
       "AM0335"
     ],
     "name": "Maze Eruption",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1115,6 +1188,7 @@
       "AM0336"
     ],
     "name": "Pall Of Despair",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1143,6 +1217,7 @@
       "AM0337"
     ],
     "name": "Deluge Of Memories",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1179,6 +1254,7 @@
       "AM0338"
     ],
     "name": "There Will Be A Reckoning",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1216,6 +1292,7 @@
       "AM0339"
     ],
     "name": "Fused Souls",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1276,6 +1353,7 @@
       "AM0340"
     ],
     "name": "Heroic Life",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1289,7 +1367,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You will probably die - but until then, you will fight the Primordial with all your being! Immediately stand up, move up to 3 spaces, and perform a Bonus Attack! If you deal a Wound to the Primordial, you live! And you feel a new zest for life! Lose -2"
+            "value": "You will probably die - but until then, you will fight the Primordial with all your being! Immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": ", move up to 3 spaces, and perform a Bonus Attack! If you deal a Wound to the Primordial, you live! And you feel a new zest for life! Lose -2"
           },
           {
             "type": "icon",
@@ -1363,6 +1449,7 @@
       "AM0348"
     ],
     "name": "Disemboweled",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1399,6 +1486,7 @@
       "AM0343"
     ],
     "name": "Burning Heart",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1411,7 +1499,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ]
@@ -1455,6 +1543,7 @@
       "AM0344"
     ],
     "name": "Godly Resolve",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1495,6 +1584,7 @@
       "AM0345"
     ],
     "name": "Push The Limit!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1525,7 +1615,15 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately stand up and gain 1 positive"
+            "value": "Condition card, immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "and gain 1 positive"
           },
           {
             "type": "icon",
@@ -1548,6 +1646,7 @@
       "AM0346"
     ],
     "name": "Fate Worse Than Death",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1621,6 +1720,7 @@
       "AM0347"
     ],
     "name": "See Pattern",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1661,6 +1761,7 @@
       "AM0350"
     ],
     "name": "Theseus Logic",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1689,6 +1790,7 @@
       "AM0351"
     ],
     "name": "Ariadne's Logic",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1725,6 +1827,7 @@
       "AM0352"
     ],
     "name": "Mazetouched",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1753,6 +1856,7 @@
       "AM0353"
     ],
     "name": "You Live!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1772,6 +1876,7 @@
       "AM0354"
     ],
     "name": "You Died",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1791,6 +1896,7 @@
       "AM0356"
     ],
     "name": "You Live!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1823,6 +1929,7 @@
       "AM0357"
     ],
     "name": "You Died Horribly",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1883,6 +1990,7 @@
       "AM0358"
     ],
     "name": "Your Gruesome Death Becomes Legend",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1951,6 +2059,7 @@
       "AM0359"
     ],
     "name": "Your Death Transcends Reality",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1987,6 +2096,7 @@
       "BM0678"
     ],
     "name": "Hatred",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2024,6 +2134,7 @@
       "BM0679"
     ],
     "name": "Bloodlust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2064,6 +2175,7 @@
       "BM0680"
     ],
     "name": "Bloodlust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2104,6 +2216,7 @@
       "BM0681"
     ],
     "name": "Bloodlust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2144,6 +2257,7 @@
       "BM0682"
     ],
     "name": "Frenzy",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2181,6 +2295,7 @@
       "BM0683"
     ],
     "name": "Bloodrage",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2221,6 +2336,7 @@
       "BM0684"
     ],
     "name": "Bloodrage",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2261,6 +2377,7 @@
       "BM0685"
     ],
     "name": "Disarmed",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2297,6 +2414,7 @@
       "BM0686"
     ],
     "name": "Bloodmadness",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2337,6 +2455,7 @@
       "BM0687"
     ],
     "name": "Achilles's Counter",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2401,6 +2520,7 @@
       "BM0688"
     ],
     "name": "The Touch",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2413,7 +2533,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ]
@@ -2465,6 +2585,7 @@
       "CM1299"
     ],
     "name": "Muffled",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2502,6 +2623,7 @@
       "CM1300"
     ],
     "name": "Time-Clocked",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2547,6 +2669,7 @@
       "CM1301"
     ],
     "name": "Moirai Edict",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2579,6 +2702,7 @@
       "CM1302"
     ],
     "name": "Fateful Paradox",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2611,6 +2735,7 @@
       "CM1303"
     ],
     "name": "Sealed",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2648,6 +2773,7 @@
       "CM1304"
     ],
     "name": "Moirai Verdict",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2680,6 +2806,7 @@
       "CM1305"
     ],
     "name": "Moirai Verdict",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2712,6 +2839,7 @@
       "CM1306"
     ],
     "name": "Fateful Paradox",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2744,6 +2872,7 @@
       "CM1307"
     ],
     "name": "Moirai Law",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2776,6 +2905,7 @@
       "CM1308"
     ],
     "name": "At Death's Door",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2808,6 +2938,7 @@
       "CM1309"
     ],
     "name": "Break The Wheel",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2820,7 +2951,7 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ]
@@ -2864,6 +2995,7 @@
       "DM2044"
     ],
     "name": "Covetous",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2901,6 +3033,7 @@
       "DM2045"
     ],
     "name": "Aurified",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2929,6 +3062,7 @@
       "DM2046"
     ],
     "name": "Wishing for a Wish",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2966,6 +3100,7 @@
       "DM2047"
     ],
     "name": "Sunward Gust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2994,6 +3129,7 @@
       "DM2560"
     ],
     "name": "Greed-Crazed",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3031,6 +3167,7 @@
       "DM2561"
     ],
     "name": "Severely Aurified",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3059,6 +3196,7 @@
       "DM2562"
     ],
     "name": "Yearning for a Wish",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3096,6 +3234,7 @@
       "DM2563"
     ],
     "name": "Moonward Gust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3128,6 +3267,7 @@
       "DM2564"
     ],
     "name": "Cursed Land",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3156,6 +3296,7 @@
       "DM2565"
     ],
     "name": "Gravely Aurified",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3184,6 +3325,7 @@
       "DM2566"
     ],
     "name": "Earthward Gust",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3205,7 +3347,11 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "If not, stand up"
+            "value": "If not,"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
           }
         ]
       },
@@ -3248,6 +3394,7 @@
       "EM2620"
     ],
     "name": "Primal Fear",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3285,6 +3432,7 @@
       "EM2621"
     ],
     "name": "It Burns",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3321,6 +3469,7 @@
       "EM2622"
     ],
     "name": "A Slit of Mind",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3358,6 +3507,7 @@
       "EM2623"
     ],
     "name": "Doubts",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3386,6 +3536,7 @@
       "EM2624"
     ],
     "name": "Pain of Dying",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3414,6 +3565,7 @@
       "EM2625"
     ],
     "name": "Primal Dread",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3451,6 +3603,7 @@
       "EM2626"
     ],
     "name": "It Sears",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3487,6 +3640,7 @@
       "EM2627"
     ],
     "name": "A Gap of Heart",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3524,6 +3678,7 @@
       "EM2628"
     ],
     "name": "Crisis of Hope",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3552,6 +3707,7 @@
       "EM2629"
     ],
     "name": "Pain of Living",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3580,6 +3736,7 @@
       "EM2630"
     ],
     "name": "Immolation",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3616,6 +3773,7 @@
       "EM2631"
     ],
     "name": "A Tear of Soul",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3653,6 +3811,7 @@
       "EM2632"
     ],
     "name": "Light in the Black",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3665,17 +3824,8 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
-            "value": "Stand up and gain the"
-          },
-          {
-            "type": "cardRef",
-            "value": "Bravery",
-            "refID": "EL2600"
-          },
-          {
-            "type": "plainText",
-            "value": "Condition card"
+            "type": "keyword",
+            "value": "Stand up"
           }
         ]
       },
@@ -3683,11 +3833,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may gain +1"
+            "value": "Roll a d10, adding +X, where X is the number of"
           },
           {
             "type": "icon",
-            "value": "Rage"
+            "value": "Paradox"
+          },
+          {
+            "type": "plainText",
+            "value": "you have"
           }
         ]
       },
@@ -3695,7 +3849,11 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may immediately move up to 5 spaces and perform a Bonus Attack!"
+            "value": "On a 10+, you Awaken,"
+          },
+          {
+            "type": "icon",
+            "value": "Adversary"
           }
         ]
       }
@@ -3710,6 +3868,7 @@
       "EM2633"
     ],
     "name": "Pain of Being",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3738,6 +3897,7 @@
       "AM0349"
     ],
     "name": "Awakening",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3779,6 +3939,7 @@
       "AM0355"
     ],
     "name": "You died",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3824,6 +3985,7 @@
       "BM0689"
     ],
     "name": "You Live!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3857,6 +4019,7 @@
       "BM0690"
     ],
     "name": "You live!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3898,6 +4061,7 @@
       "DM2567"
     ],
     "name": "You died a beggar!",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3963,6 +4127,7 @@
       "AM9969"
     ],
     "name": "Punctured",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -4017,6 +4182,7 @@
       "ZM9982"
     ],
     "name": "Formidable Gut",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4071,6 +4237,7 @@
       ""
     ],
     "name": "Windswept",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -4091,6 +4258,7 @@
       "BM9973"
     ],
     "name": "Deathtouched",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4143,6 +4311,7 @@
       "AM0360"
     ],
     "name": "Your Death Transcends Reality",
+    "renderType": "Trauma",
     "cardType": "Trauma",
     "game": "Odyssey",
     "cycle": "Cycle I",

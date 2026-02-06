@@ -415,7 +415,7 @@ def primordial_row(row):
 
 def primordialAttack_row(row):
     card_json = {
-        "subtype": row["Subtype"],
+        "cardType": row["Card Type"],
         "usedFor": row["Used For"],
         "flavor": parse_abilities(row["Flavor"])[0],
         "level": row["Level"],
@@ -552,9 +552,7 @@ def trait_row(row):
     return card_json
 
 def traitLike_row(row):
-    card_json = {
-        "actualCardType": row["Actual Type"]
-    }
+    card_json = {}
 
     if row["Reverse Name"]: card_json["name2"] = row["Reverse Name"]
     if row["Flavor"]: card_json["flavor"] = row["Flavor"]

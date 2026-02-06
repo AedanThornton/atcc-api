@@ -9,6 +9,7 @@ def copyRawCSV(old_name, new_name):
 		print(f"File does not exist. 	Skipping. - '{old_name}' ")
 
 copyRawCSV("data/Raw CSV/ATO Data - A_Tech (AA).csv", "data/CSV/argoAbilityData.csv")
+copyRawCSV("data/Raw CSV/ATO Data - A_Tech (Production).csv", "data/CSV/productionFacilityData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - A_Tech (Structural).csv", "data/CSV/structuralData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - B_Exploration.csv", "data/CSV/explorationData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - C_Clue.csv", "data/CSV/clueData.csv")

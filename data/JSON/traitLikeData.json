@@ -4,13 +4,13 @@
       "AR0413"
     ],
     "name": "Idle Hands",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Cow Toss",
     "flavor": "Devil's playthings",
     "effects": [
@@ -35,13 +35,13 @@
       "AR0413"
     ],
     "name": "Cow Toss",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Idle Hands",
     "effects": [
       {
@@ -89,13 +89,13 @@
       "AR0483"
     ],
     "name": "The Call",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Home Run",
     "flavor": "Labyrinthauros pauses to sing the song of surrender. Many listen",
     "effects": [
@@ -120,13 +120,13 @@
       "AR0541"
     ],
     "name": "Contract",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Contract Will",
     "flavor": "Temenos's body contracts, becoming an impenetrable shell",
     "effects": [
@@ -163,13 +163,13 @@
       "AR0541"
     ],
     "name": "Contract Will",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Contract",
     "flavor": "Temenos's body contracts, becoming an impenetrable shell",
     "effects": [
@@ -214,13 +214,13 @@
       "AR0601"
     ],
     "name": "Eyes On The Prize",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Final Judgement",
     "flavor": "The Pursuer remembers why it came here",
     "effects": [
@@ -261,13 +261,13 @@
       "AR0602"
     ],
     "name": "Ambrosia: Harrow",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Flare",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Flare",
     "effects": [
       {
         "abilityText": [
@@ -302,13 +302,13 @@
       "AR0603"
     ],
     "name": "Ambrosia: Burnout",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Flare",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Flare",
     "effects": [
       {
         "abilityText": [
@@ -343,13 +343,13 @@
       "AR0604"
     ],
     "name": "Ambrosia: Stain",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Flare",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Flare",
     "effects": [
       {
         "abilityText": [
@@ -400,13 +400,13 @@
       "AR0605"
     ],
     "name": "Ambrosia: Drain",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Flare",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Flare",
     "effects": [
       {
         "abilityText": [
@@ -433,13 +433,13 @@
       "AS0503"
     ],
     "name": "Gaze Of Temenos",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Trap",
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Trap",
     "effects": [
       {
         "abilityText": [
@@ -507,13 +507,13 @@
       "BR0744"
     ],
     "name": "Infuriating Roar",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Infuriating Roar",
     "effects": [
       {
@@ -569,13 +569,13 @@
       "BR0744"
     ],
     "name": "Infuriating Roar",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Infuriating Roar",
     "effects": [
       {
@@ -601,8 +601,12 @@
       {
         "abilityText": [
           {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
             "type": "plainText",
-            "value": "WoO Cyclonus moves to center of the Board"
+            "value": "Cyclonus moves to center of the Board"
           }
         ]
       }
@@ -615,13 +619,13 @@
       "BR0800"
     ],
     "name": "Terrorize",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Snakes And Ladders",
     "effects": [
       {
@@ -649,13 +653,13 @@
       "BR1130"
     ],
     "name": "Imposter's Gaze",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -732,13 +736,13 @@
       "BS0822"
     ],
     "name": "Absorbed",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Status",
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Status",
     "effects": [
       {
         "abilityText": [
@@ -869,13 +873,13 @@
       "CR1343"
     ],
     "name": "In Media Res",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "AI",
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "This card cannot be chain broken",
     "errata": "",
-    "actualCardType": "Attack",
     "effects": [
       {
         "abilityText": [
@@ -918,13 +922,13 @@
       "CR1364"
     ],
     "name": "Skip Timeline",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -963,13 +967,13 @@
       "CR1365"
     ],
     "name": "Omega Terminus",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Status",
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Status",
     "effects": [
       {
         "abilityText": [
@@ -1037,13 +1041,13 @@
       "CR1714"
     ],
     "name": "Icarian Shriek",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1066,13 +1070,13 @@
       "DR2414"
     ],
     "name": "Auric Storm",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1103,13 +1107,13 @@
       "DR2415"
     ],
     "name": "Impaled",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Status",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Status",
     "effects": [
       {
         "abilityText": [
@@ -1183,13 +1187,13 @@
       "DR2453"
     ],
     "name": "The Last Wish",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "True Wish",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "True Wish",
     "effects": [
       {
         "abilityText": [
@@ -1208,13 +1212,13 @@
       "DR2455"
     ],
     "name": "Wish Dissonance",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1253,13 +1257,13 @@
       "DR2456"
     ],
     "name": "The Last Wish",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "True Wish",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "True Wish",
     "effects": [
       {
         "abilityText": [
@@ -1299,13 +1303,13 @@
       "DR2495"
     ],
     "name": "Total Lunacy",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1335,13 +1339,13 @@
       "ER3042"
     ],
     "name": "Churning Black",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1355,7 +1359,7 @@
           },
           {
             "type": "plainText",
-            "value": "card with the highest Ligh tX keyword"
+            "value": "card with the highest Light X keyword"
           }
         ]
       },
@@ -1376,13 +1380,13 @@
       "ER3081"
     ],
     "name": "Black Immolation",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1409,13 +1413,13 @@
       "ER3121"
     ],
     "name": "Argo Burns",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Coming of Darkness",
     "effects": [
       {
@@ -1447,13 +1451,13 @@
       "ER3121"
     ],
     "name": "Coming of Darkness",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "name2": "Argo Burns",
     "effects": [
       {
@@ -1502,14 +1506,14 @@
       "ER3141"
     ],
     "name": "Aether Suck",
-    "cardType": "",
+    "renderType": "Trait-like",
+    "cardType": "Flare",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "foundIn": "Envelope Beta",
     "faq": "",
     "errata": "",
-    "actualCardType": "Attack",
     "effects": [
       {
         "abilityText": [
@@ -1544,13 +1548,13 @@
       "ER3165"
     ],
     "name": "Eyes on the Gleaming Prize",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Routine",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Routine",
     "effects": [
       {
         "abilityText": [
@@ -1597,13 +1601,13 @@
       "ER3166"
     ],
     "name": "Unreadable",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1630,13 +1634,13 @@
       "ER3167"
     ],
     "name": "Overstep (I)",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1672,13 +1676,13 @@
       "ER3168"
     ],
     "name": "Overstep (II)",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1714,13 +1718,13 @@
       "ER3169"
     ],
     "name": "Riposte",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1747,13 +1751,13 @@
       "ER3170"
     ],
     "name": "Met Your Match",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1784,13 +1788,13 @@
       "ER3171"
     ],
     "name": "No Rules",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1809,13 +1813,13 @@
       "ER3172"
     ],
     "name": "Blinding Lights",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1846,13 +1850,13 @@
       "ER3173"
     ],
     "name": "Mind Games",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1890,13 +1894,13 @@
       "ER3174"
     ],
     "name": "Feint Injury",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1935,13 +1939,13 @@
       "ER3175"
     ],
     "name": "Junction Seizure",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "Feint",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "Feint",
     "effects": [
       {
         "abilityText": [
@@ -1984,13 +1988,13 @@
       "ES3194"
     ],
     "name": "Overstep",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "BP",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "BP",
     "effects": [
       {
         "abilityText": [
@@ -2033,13 +2037,13 @@
       "ES3195"
     ],
     "name": "Overstep",
-    "cardType": "Trait-like",
+    "renderType": "Trait-like",
+    "cardType": "BP",
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
     "errata": "",
-    "actualCardType": "BP",
     "effects": [
       {
         "abilityText": [

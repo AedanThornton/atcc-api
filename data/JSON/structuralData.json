@@ -4,6 +4,7 @@
       "AA0001"
     ],
     "name": "Last Tome",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -51,18 +52,16 @@
                   "value": "node on the Timeline, research one of the available Technology cards from the corresponding Projects Deck"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Information: Reference"
-                }
-              ],
-              "costs": [
-                "Gather"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Gather Information",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -118,6 +117,7 @@
       "AA0002"
     ],
     "name": "Primordial Dawn",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -157,18 +157,16 @@
                   "value": "If needed, place the tile, then move the Argo and proceed to the Timeline Step"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": ": Reference"
-                }
-              ],
-              "costs": [
-                "Adventure"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Adventure",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -184,18 +182,16 @@
                   "value": "symbol, go to the Adventure Hubs table in your current Cycle's Storybook"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Resources: Reference"
-                }
-              ],
-              "costs": [
-                "Gather"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Gather Resources",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -215,6 +211,7 @@
       "AA0021"
     ],
     "name": "Antikratos Project",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -259,6 +256,7 @@
       "AA0028"
     ],
     "name": "Argo Works",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -310,6 +308,7 @@
       "AA0029"
     ],
     "name": "Titanogenesis",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -369,6 +368,7 @@
       "AA0030"
     ],
     "name": "Trading Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -403,18 +403,16 @@
                   "value": "Add the Theban Trader Exploration card to the Exploration deck"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Trading: City Negotiation"
-                }
-              ],
-              "costs": [
-                "Port"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Port Trading",
+        "type": "City Negotiation",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -530,6 +528,7 @@
       "AA0031"
     ],
     "name": "Intelligence Gathering",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -583,6 +582,7 @@
       "AA0032"
     ],
     "name": "Shallows Navigation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -644,6 +644,7 @@
       "AA0033"
     ],
     "name": "Rhetoric",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -713,18 +714,16 @@
                   "value": "gain by 1 (to a minimum of 0)"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": ": City Negotiation"
-                }
-              ],
-              "costs": [
-                "Diatribe"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Diatribe",
+        "type": "City Negotiation",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -756,6 +755,7 @@
       "AA0034"
     ],
     "name": "Diplomatic Relations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -808,6 +808,7 @@
       "AA0035"
     ],
     "name": "Pursuer Problem",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -867,6 +868,7 @@
       "AA0036"
     ],
     "name": "Peace",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -920,6 +922,7 @@
       "AA0037"
     ],
     "name": "Anti-Indoctrination Philosophy",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -967,16 +970,21 @@
                   "value": "Success: Chosen Argonaut discards a Despair token"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Maze Exorcism",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Exorcism: Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction"
+                  "value": "Lose -1 Priest to make one Argonaut lose the Mazetouched Affliction"
                 }
-              ],
-              "costs": [
-                "Maze"
               ]
             }
           ],
@@ -990,6 +998,7 @@
       "AA0038"
     ],
     "name": "Hope Logic",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1072,6 +1081,7 @@
       "AA0039"
     ],
     "name": "Argo Onboarding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1109,18 +1119,16 @@
                   "value": "Hull"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Workshop: Permanent"
-                }
-              ],
-              "costs": [
-                "Daedalus"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Daedalus Workshop",
+        "type": "Permanent",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -1148,18 +1156,16 @@
                   "value": "Hull"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Repairs: Save"
-                }
-              ],
-              "costs": [
-                "Emergency"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Emergency Repairs",
+        "type": "Save",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -1226,6 +1232,7 @@
       "AA0040"
     ],
     "name": "Deeply Embedded Spies",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1313,6 +1320,7 @@
       "AA0041"
     ],
     "name": "Excursion Propylon II",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1356,6 +1364,7 @@
       "AA0042"
     ],
     "name": "Mnestis Thesis",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1423,6 +1432,7 @@
       "AA0043"
     ],
     "name": "Minoan Investigations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1466,6 +1476,7 @@
       "AA0044"
     ],
     "name": "Titan Hunting",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1507,12 +1518,20 @@
                   "value": "Exploration card to the Exploration deck"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Expedition",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": ": Gain +1"
+                  "value": "Gain +1"
                 },
                 {
                   "type": "icon",
@@ -1530,9 +1549,6 @@
                   "type": "plainText",
                   "value": "symbol to test Diplomacy (7+)"
                 }
-              ],
-              "costs": [
-                "Expedition"
               ]
             },
             {
@@ -1554,6 +1570,7 @@
       "AA0045"
     ],
     "name": "Titan Rearing",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1585,12 +1602,20 @@
                   "value": "Titan Limit: 15"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Comeback",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": ": If you win a Battle that you started with less than 4 Titans, after the Battle gain +X"
+                  "value": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X"
                 },
                 {
                   "type": "icon",
@@ -1600,9 +1625,6 @@
                   "type": "plainText",
                   "value": "to gain as many Dreamwalker Titans as to have a total of 4 Titans in the Stoa"
                 }
-              ],
-              "costs": [
-                "Comeback"
               ]
             },
             {
@@ -1624,6 +1646,7 @@
       "AA0046"
     ],
     "name": "Archeolinguistics",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1711,6 +1734,7 @@
       "AA0047"
     ],
     "name": "Advanced Trading Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1762,6 +1786,7 @@
       "AA0048"
     ],
     "name": "Crew Expansion",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1825,6 +1850,7 @@
       "AA0049"
     ],
     "name": "Advanced Crew Expansion",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1907,6 +1933,7 @@
       "AA0050"
     ],
     "name": "Superior Trading Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1949,6 +1976,7 @@
       "AA0051"
     ],
     "name": "Spark of the Dead Gods",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1986,23 +2014,28 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "When you gain a Godform, note it on the Argo Sheet in hte Godforms section"
+                  "value": "When you gain a Godform, note it on the Argo Sheet in the Godforms section"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Bend Fate",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Fate: Lose -1 Priest to lose -1"
+                  "value": "Lose -1 Priest to lose -1"
                 },
                 {
                   "type": "icon",
                   "value": "ArgoFate"
                 }
-              ],
-              "costs": [
-                "Bend"
               ]
             }
           ],
@@ -2016,6 +2049,7 @@
       "AA0052"
     ],
     "name": "Strange Alliance",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2056,12 +2090,20 @@
                   "value": "Summon Limit: 1"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Hymn of the New",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "of the New: Gain +1"
+                  "value": "Gain +1"
                 },
                 {
                   "type": "icon",
@@ -2071,39 +2113,16 @@
                   "type": "plainText",
                   "value": "and lose -2 Priests to regain a spent Summon Charge"
                 }
-              ],
-              "costs": [
-                "Hymn"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "+2"
-                },
-                {
-                  "type": "icon",
-                  "value": "ArgoFate"
-                },
-                {
-                  "type": "plainText",
-                  "value": "and +2"
-                },
-                {
-                  "type": "icon",
-                  "value": "Doom"
-                },
-                {
-                  "type": "plainText",
-                  "value": "to regain a spent Summon Charge"
-                }
-              ],
-              "costs": [
-                "Gain"
               ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "Gain +2 @ArgoFate and +2 @Doom to regain a spent Summon Charge",
+        "effects": [
+          [],
           []
         ]
       }
@@ -2114,6 +2133,7 @@
       "BA0982"
     ],
     "name": "Forgotten Knowledge",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2222,6 +2242,7 @@
       "BA0983"
     ],
     "name": "Argo's Mission",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2265,6 +2286,7 @@
       "BA1003"
     ],
     "name": "Nietzschean Sighting",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2316,6 +2338,7 @@
       "BA1007"
     ],
     "name": "Temenos Project",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2408,6 +2431,7 @@
       "BA1019"
     ],
     "name": "Argo Works II",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2544,6 +2568,7 @@
       "BA1020"
     ],
     "name": "Titanomorphosis",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2578,18 +2603,16 @@
                   "value": "Unlike Fused Titans, Titans created through Titan Breeding don't require a Primordial Core, unless it is specifically stated"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Stoa Capacity II: Permanent"
-                }
-              ],
-              "costs": [
-                "Titan"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titan Stoa Capacity II",
+        "type": "Permanent",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -2609,6 +2632,7 @@
       "BA1021"
     ],
     "name": "Mnestis Theater",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2653,6 +2677,7 @@
       "BA1022"
     ],
     "name": "Nymph Studies",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2696,6 +2721,7 @@
       "BA1023"
     ],
     "name": "Political Protection",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2743,16 +2769,21 @@
                   "value": "Gain +1 Defector"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Subterfuge",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": ": Lose -1 Defector when you are about to perform a Diplomacy test or any test or roll in the Adventure Phase to add +3 to the result"
+                  "value": "Lose -1 Defector when you are about to perform a Diplomacy test or any test or roll in the Adventure Phase to add +3 to the result"
                 }
-              ],
-              "costs": [
-                "Subterfuge"
               ]
             }
           ],
@@ -2766,6 +2797,7 @@
       "BA1024"
     ],
     "name": "Refugee Relief Effort",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2821,17 +2853,6 @@
                   "value": "to gain +1 Humanity and +1 Diplomacy with the Local Faction"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Breath Cure: Lose -1 Priest to make one Argonaut lose the Black Breath Affliction"
-                }
-              ],
-              "costs": [
-                "Black"
-              ]
             }
           ],
           [
@@ -2855,6 +2876,22 @@
             }
           ]
         ]
+      },
+      {
+        "name": "Black Breath Cure",
+        "effects": [
+          [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Lose -1 Priest to make one Argonaut lose the Black Breath Affliction"
+                }
+              ]
+            }
+          ],
+          []
+        ]
       }
     ]
   },
@@ -2863,6 +2900,7 @@
       "BA1025"
     ],
     "name": "Recruitment Programs",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2937,6 +2975,7 @@
       "BA1026"
     ],
     "name": "Refugee Integration",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3028,6 +3067,7 @@
       "BA1027"
     ],
     "name": "Spartan Investigations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3072,6 +3112,7 @@
       "BA1028"
     ],
     "name": "Theseus Method",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3124,6 +3165,7 @@
       "BA1029"
     ],
     "name": "Grassroot Support",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3197,16 +3239,21 @@
                   "value": "Progress"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Allied Intelligence",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Intelligence: City Negotation"
+                  "value": "City Negotation"
                 }
-              ],
-              "costs": [
-                "Allied"
               ]
             },
             {
@@ -3240,6 +3287,7 @@
       "BA1030"
     ],
     "name": "Mobile Trade Fleet Dock",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3292,6 +3340,7 @@
       "BA1031"
     ],
     "name": "Alliance Contacts",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3338,12 +3387,20 @@
                   "value": "X is your current Diplomacy value with this Faction"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Recruitment",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": ": Gain +1"
+                  "value": "Gain +1"
                 },
                 {
                   "type": "icon",
@@ -3362,9 +3419,6 @@
                   "type": "plainText",
                   "value": "Exploration card to the Exploration deck"
                 }
-              ],
-              "costs": [
-                "Recruitment"
               ]
             }
           ],
@@ -3378,6 +3432,7 @@
       "BA1032"
     ],
     "name": "Mobile Trade Fleet Hub",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3428,6 +3483,7 @@
       "BA1033"
     ],
     "name": "Canal Reconnaissance",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3467,20 +3523,25 @@
                   "value": "This is the Hemiolia token"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Scout Ship",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Ship: If the Hemiolia token is on this card, choose an unexplored Map tile number adjacent to the"
+                  "value": "If the Hemiolia token is on this card, choose an unexplored Map tile number adjacent to the"
                 },
                 {
                   "type": "italics",
                   "value": "Argo"
                 }
-              ],
-              "costs": [
-                "Scout"
               ]
             },
             {
@@ -3596,6 +3657,7 @@
       "BA1034"
     ],
     "name": "Up-stream Navigation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3644,42 +3706,15 @@
                   "value": "waterway with the Up-stream symbol"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "+1"
-                },
-                {
-                  "type": "icon",
-                  "value": "ArgoFate"
-                },
-                {
-                  "type": "plainText",
-                  "value": "during the Movement Step to test (8+)"
-                }
-              ],
-              "costs": [
-                "Gain"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "newline"
-                },
-                {
-                  "type": "bold",
-                  "value": "Success:"
-                },
-                {
-                  "type": "plainText",
-                  "value": "Ignore Blockades and Ambrosia Sludge"
-                }
-              ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "Gain +1 @ArgoFate during the Movement Step to test (8+).<<NL>>*Success",
+        "effects": [
+          [],
           []
         ]
       }
@@ -3690,6 +3725,7 @@
       "BA1035"
     ],
     "name": "Sluice Gate System Integration",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3767,6 +3803,7 @@
       "BA1036"
     ],
     "name": "Argo Security",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3850,6 +3887,7 @@
       "BA1037"
     ],
     "name": "War Recruitment",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3914,6 +3952,7 @@
       "BA1038"
     ],
     "name": "War Propylon",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -3958,6 +3997,7 @@
       "BA1039"
     ],
     "name": "Wartime Protocols",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4030,6 +4070,7 @@
       "BA1040"
     ],
     "name": "Argo Maintenance",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4092,6 +4133,7 @@
       "BA1041"
     ],
     "name": "Titan Breeding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4150,12 +4192,20 @@
                   "value": "You cannot use this ability again until you resolve the event"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Accelerated Cretan Breeding",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Cretan Breeding: You may gain +1"
+                  "value": "You may gain +1"
                 },
                 {
                   "type": "icon",
@@ -4165,9 +4215,6 @@
                   "type": "plainText",
                   "value": "to use Cretan Strains Breeding with Cooldown: 12 days"
                 }
-              ],
-              "costs": [
-                "Accelerated"
               ]
             },
             {
@@ -4189,6 +4236,7 @@
       "BA1042"
     ],
     "name": "Grand Stoa",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4220,12 +4268,20 @@
                   "value": "Titan Limit: 20"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Dreamwalker Breeding",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Breeding: Note the"
+                  "value": "Note the"
                 },
                 {
                   "type": "italics",
@@ -4235,9 +4291,6 @@
                   "type": "plainText",
                   "value": "Event on the Timeline, 9 days from now"
                 }
-              ],
-              "costs": [
-                "Dreamwalker"
               ]
             },
             {
@@ -4267,6 +4320,7 @@
       "BA1043"
     ],
     "name": "Titan Training",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4298,51 +4352,15 @@
                   "value": "Form the Gymnasion deck: Find all Cycle I and Cycle II Pattern cards and all Pattern cards that you gained in Cycle III (except the ones currently assigned to Titans)"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "+1"
-                },
-                {
-                  "type": "icon",
-                  "value": "ArgoFate"
-                },
-                {
-                  "type": "plainText",
-                  "value": "to note a"
-                },
-                {
-                  "type": "italics",
-                  "value": "Titan's name (Training)"
-                },
-                {
-                  "type": "plainText",
-                  "value": "Event on the Timeline, 7 days from now"
-                }
-              ],
-              "costs": [
-                "Gain"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you resolve this event, that Titan may gain one of the Pattern (Training) or Pattern (Conditioning) cards from the Gymnasion deck"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot use this ability again until you resolve this event"
-                }
-              ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "Gain +1 @ArgoFate to note a _Titan's name (Training)_ Event on the Timeline, 7 days from now. When you resolve this event, that Titan may gain one of the Pattern (Training) or Pattern (Conditioning) cards from the Gymnasion deck. You cannot use this ability again until you resolve this event",
+        "effects": [
+          [],
           []
         ]
       }
@@ -4353,6 +4371,7 @@
       "BA1044"
     ],
     "name": "Old Transportation System",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4420,6 +4439,7 @@
       "BA1045"
     ],
     "name": "Counterintelligence",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4489,6 +4509,7 @@
       "BA1046"
     ],
     "name": "Trauma Growth",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4552,16 +4573,21 @@
                   "value": "You cannot use this ability again until you resolve this event"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Counseling",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": ": Lose -1 Priest"
+                  "value": "Lose -1 Priest"
                 }
-              ],
-              "costs": [
-                "Counseling"
               ]
             },
             {
@@ -4583,6 +4609,7 @@
       "BA1047"
     ],
     "name": "Ambrosia Spill Solution",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -4651,6 +4678,7 @@
       "CA1568"
     ],
     "name": "First Tome",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -4759,6 +4787,7 @@
       "CA1569"
     ],
     "name": "Argo's Destiny",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -4802,6 +4831,7 @@
       "CA1596"
     ],
     "name": "Abyss Expedition",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -4894,6 +4924,7 @@
       "CA1607"
     ],
     "name": "Argo Works III",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5029,6 +5060,7 @@
       "CA1608"
     ],
     "name": "Titanoaristia",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5113,18 +5145,16 @@
                   "value": "Obol cards"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": ": Reference"
-                }
-              ],
-              "costs": [
-                "Titanomorphosis"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titanomorphosis",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -5132,18 +5162,16 @@
                   "value": "Unliked Fused Titans, Titans created through Titan Breeding don't require a Primordial Core, unless it is specifically stated"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Stoa Capacity III: Permanent"
-                }
-              ],
-              "costs": [
-                "Titan"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titan Stoa Capacity III",
+        "type": "Permanent",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -5163,6 +5191,7 @@
       "CA1609"
     ],
     "name": "Surviving The Loop",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5216,6 +5245,7 @@
       "CA1610"
     ],
     "name": "Chronosail",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5267,6 +5297,7 @@
       "CA1611"
     ],
     "name": "Trespass Protocol",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5302,6 +5333,7 @@
       "CA1612"
     ],
     "name": "Icebreaker Protocol",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5336,6 +5368,7 @@
       "CA1613"
     ],
     "name": "Time Wounds",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5394,6 +5427,7 @@
       "CA1614"
     ],
     "name": "Time Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5440,16 +5474,21 @@
                   "value": "3 (You cannot gain Frozen Time if it would exceed your Time Silo limit)"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Extend the Loop",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "the Loop: Lose -1 Frozen Time to extend your current Loop by 1"
+                  "value": "Lose -1 Frozen Time to extend your current Loop by 1"
                 }
-              ],
-              "costs": [
-                "Extend"
               ]
             }
           ],
@@ -5463,6 +5502,7 @@
       "CA1615"
     ],
     "name": "Advanced Time Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5509,20 +5549,15 @@
                   "value": "to extend your current Loop by 1"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "bold",
-                  "value": "Time Silo:"
-                },
-                {
-                  "type": "plainText",
-                  "value": "5"
-                }
-              ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "*Time Silo",
+        "effects": [
+          [],
           []
         ]
       }
@@ -5533,6 +5568,7 @@
       "CA1616"
     ],
     "name": "Temporal Aegis",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5605,16 +5641,21 @@
                   "value": "gain by 1 (to a minimum of 0)"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Realign Timeline",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Timeline: City Negotation"
+                  "value": "City Negotation"
                 }
-              ],
-              "costs": [
-                "Realign"
               ]
             },
             {
@@ -5648,6 +5689,7 @@
       "CA1617"
     ],
     "name": "Stasis Theory",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5711,7 +5753,7 @@
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "This loss or gai nis then"
+                  "value": "This loss or gain is then"
                 },
                 {
                   "type": "bold",
@@ -5754,6 +5796,7 @@
       "CA1618"
     ],
     "name": "Moirai Operation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5824,6 +5867,7 @@
       "CA1619"
     ],
     "name": "Extinction Contingency",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5886,6 +5930,7 @@
       "CA1620"
     ],
     "name": "Argo Timeline Security",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -5968,6 +6013,7 @@
       "CA1621"
     ],
     "name": "Extinction Protocols",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6040,6 +6086,7 @@
       "CA1622"
     ],
     "name": "Delphian Diplomatic Relations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6091,6 +6138,7 @@
       "CA1623"
     ],
     "name": "Chronopolitics",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6152,6 +6200,7 @@
       "CA1624"
     ],
     "name": "Delphian Investigations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6195,6 +6244,7 @@
       "CA1625"
     ],
     "name": "Ultimate Trading Solutions",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6233,18 +6283,16 @@
                   "value": "Trading"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Contacts: Immediate"
-                }
-              ],
-              "costs": [
-                "Nubian"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Nubian Contacts",
+        "type": "Immediate",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -6273,6 +6321,7 @@
       "CA1626"
     ],
     "name": "Intelligence Gathering",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6327,6 +6376,7 @@
       "CA1627"
     ],
     "name": "Delphi Peoples' Support",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6413,6 +6463,7 @@
       "CA1628"
     ],
     "name": "Advanced Titan Breeding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6475,12 +6526,20 @@
                   "value": "You cannot use this ability again until you resolve the event"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Accelerated Spartan Breeding",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Spartan Breeding: You may gain +1"
+                  "value": "You may gain +1"
                 },
                 {
                   "type": "icon",
@@ -6490,9 +6549,6 @@
                   "type": "plainText",
                   "value": "to use Spartan Strains Breeding with Cooldown: 12 days"
                 }
-              ],
-              "costs": [
-                "Accelerated"
               ]
             },
             {
@@ -6514,6 +6570,7 @@
       "CA1629"
     ],
     "name": "Titan Care",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6580,6 +6637,7 @@
       "CA1630"
     ],
     "name": "Titan Genetic Memory",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6611,51 +6669,15 @@
                   "value": "Add all Pattern cards you gain in Cycle III to the Gymnasion deck or form the Gymnasion deck if you haven't already: Find all Cycle I and Cycle II Pattern cards and all Pattern cards that you gained in Cycle III (except the ones currently assigned to Titans)"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "+1"
-                },
-                {
-                  "type": "icon",
-                  "value": "ArgoFate"
-                },
-                {
-                  "type": "plainText",
-                  "value": "to note a"
-                },
-                {
-                  "type": "italics",
-                  "value": "Titan's name (Grafting)"
-                },
-                {
-                  "type": "plainText",
-                  "value": "Event on the Timeline, 7 days from now"
-                }
-              ],
-              "costs": [
-                "Gain"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you resolve this event, that Titan may gain one of the Pattern (Strain) cards from the Gymnasion deck"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot use this ability again until you resolve this event"
-                }
-              ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "Gain +1 @ArgoFate to note a _Titan's name (Grafting)_ Event on the Timeline, 7 days from now. When you resolve this event, that Titan may gain one of the Pattern (Strain) cards from the Gymnasion deck. You cannot use this ability again until you resolve this event",
+        "effects": [
+          [],
           []
         ]
       }
@@ -6666,6 +6688,7 @@
       "CA1631"
     ],
     "name": "Sun Shielding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6729,12 +6752,20 @@
                   "value": "On 4+, ignore this loss or gain"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Sun Shield",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Shield: When you draw the"
+                  "value": "When you draw the"
                 },
                 {
                   "type": "cardRef",
@@ -6769,9 +6800,6 @@
                   "type": "plainText",
                   "value": "instead"
                 }
-              ],
-              "costs": [
-                "Sun"
               ]
             }
           ],
@@ -6785,6 +6813,7 @@
       "CA1632"
     ],
     "name": "Quantum Propylon",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6835,6 +6864,7 @@
       "CA1633"
     ],
     "name": "Awakening Studies",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6866,16 +6896,21 @@
                   "value": "You can Go Beyond (see Cycle III Storybook rules)"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Fate-breaking",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "-breaking: Lose 1 Priest to make a chosen Argonaut lose the Moirai Mistake Affliction"
+                  "value": "Lose 1 Priest to make a chosen Argonaut lose the Moirai Mistake Affliction"
                 }
-              ],
-              "costs": [
-                "Fate"
               ]
             }
           ],
@@ -6889,6 +6924,7 @@
       "CA1634"
     ],
     "name": "Adyton Completion",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -6921,16 +6957,21 @@
                   "value": "Summon Limit: 3"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Soul-Mending",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "-Mending: Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction"
+                  "value": "Lose 1 Priest to make a chosen Argonaut lose the Fractured Affliction"
                 }
-              ],
-              "costs": [
-                "Soul"
               ]
             }
           ],
@@ -6944,6 +6985,7 @@
       "DA2160"
     ],
     "name": "Argo Academy",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7051,6 +7093,7 @@
       "DA2161"
     ],
     "name": "Argo's Curse",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7093,6 +7136,7 @@
       "DA2187"
     ],
     "name": "Mortal Mapmakers",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7181,6 +7225,7 @@
       "DA2197"
     ],
     "name": "Argo Wonders",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7314,6 +7359,7 @@
       "DA2198"
     ],
     "name": "Titanosyntrofia",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7397,18 +7443,16 @@
                   "value": "Obol cards"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": ": Reference"
-                }
-              ],
-              "costs": [
-                "Titanomorphosis"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titanomorphosis",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -7416,18 +7460,16 @@
                   "value": "Unliked Fused Titans, Titans created through Titan Breeding don't require a Primordial Core, unless it is specifically stated"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Stoa Capacity III: Permanent"
-                }
-              ],
-              "costs": [
-                "Titan"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titan Stoa Capacity III",
+        "type": "Permanent",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -7447,6 +7489,7 @@
       "DA2199"
     ],
     "name": "Law Mora",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7531,6 +7574,7 @@
       "DA2200"
     ],
     "name": "Curse Economy Basics",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7571,16 +7615,21 @@
                   "value": "to add a random Cursed Trait to the next Battle"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Recovery Procedure",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Procedure: Lose -2 Priests to make one Argonaut lose any Curse Affliction"
+                  "value": "Lose -2 Priests to make one Argonaut lose any Curse Affliction"
                 }
-              ],
-              "costs": [
-                "Recovery"
               ]
             }
           ],
@@ -7594,6 +7643,7 @@
       "DA2201"
     ],
     "name": "True Value of Life",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7645,6 +7695,7 @@
       "DA2202"
     ],
     "name": "Persian Investigations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7704,6 +7755,7 @@
       "DA2203"
     ],
     "name": "Sustainable Oasis",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7809,6 +7861,7 @@
       "DA2204"
     ],
     "name": "Archeohistorians",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -7900,6 +7953,7 @@
       "DA2205"
     ],
     "name": "Curse Exchange",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8017,6 +8071,7 @@
       "DA2206"
     ],
     "name": "Plutocratic Diplomacy",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8081,6 +8136,7 @@
       "DA2207"
     ],
     "name": "Plutocratic Agents",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8136,6 +8192,7 @@
       "DA2208"
     ],
     "name": "Imperial Bargain",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8199,6 +8256,7 @@
       "DA2209"
     ],
     "name": "Imperial Contact",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8279,6 +8337,7 @@
       "DA2210"
     ],
     "name": "Divine Deals",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8337,6 +8396,7 @@
       "DA2211"
     ],
     "name": "Sandstorm Navigation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8398,6 +8458,7 @@
       "DA2212"
     ],
     "name": "Sandstorm Sailing",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8485,6 +8546,7 @@
       "DA2213"
     ],
     "name": "Odyssey Training",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8557,6 +8619,7 @@
       "DA2214"
     ],
     "name": "Merchants of the Waste",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8597,59 +8660,15 @@
                   "value": "Exploration card to the Exploration deck"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Negotiation"
-                }
-              ],
-              "costs": [
-                "City"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Gain +1"
-                },
-                {
-                  "type": "icon",
-                  "value": "BabelianDebt"
-                },
-                {
-                  "type": "plainText",
-                  "value": "to draw two Exploration cards"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Choose one, discard the other"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "If the card gives you resources or Titans, resolve it"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Otherwise, discard it without effect"
-                }
-              ]
             }
           ],
+          []
+        ]
+      },
+      {
+        "name": "City Negotiation. Gain +1 @BabelianDebt to draw two Exploration cards. Choose one, discard the other. If the card gives you resources or Titans, resolve it. Otherwise, discard it without effect",
+        "effects": [
+          [],
           []
         ]
       }
@@ -8660,6 +8679,7 @@
       "DA2215"
     ],
     "name": "Bankers of the Waste",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8750,6 +8770,7 @@
       "DA2216"
     ],
     "name": "Argo Cloud Operations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8794,6 +8815,7 @@
       "DA2217"
     ],
     "name": "Superior Titan Breeding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8856,12 +8878,20 @@
                   "value": "You cannot use this ability again until you resolve the event"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Accelerated Delphian Breeding",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Delphian Breeding: You may gain +1"
+                  "value": "You may gain +1"
                 },
                 {
                   "type": "icon",
@@ -8871,9 +8901,6 @@
                   "type": "plainText",
                   "value": "to use Delphian Strains Breeding with Cooldown: 12 days"
                 }
-              ],
-              "costs": [
-                "Accelerated"
               ]
             },
             {
@@ -8895,6 +8922,7 @@
       "DA2218"
     ],
     "name": "Kiss of Mnemosyne",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -8954,6 +8982,7 @@
       "DA2219"
     ],
     "name": "Salvage Operations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -9020,6 +9049,7 @@
       "DA2220"
     ],
     "name": "The Dreamed Torus",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -9118,6 +9148,7 @@
       "DA2224"
     ],
     "name": "The Work is Never Done",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -9198,6 +9229,7 @@
       "EA2722"
     ],
     "name": "Sharing the Knowledge",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9307,6 +9339,7 @@
       "EA2723"
     ],
     "name": "Voyage Home",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9373,6 +9406,7 @@
       "EA2749"
     ],
     "name": "The Last Wish",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9420,12 +9454,20 @@
                   "value": "If oyu are on Story 2A or further, during the Advancement Phase, you may trade these resources for Atlantean Tekne resources (any number of times): Trading"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Nereidan Move",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Move: Argo Oxygen Limit: 1("
+                  "value": "Argo Oxygen Limit: 1("
                 },
                 {
                   "type": "italics",
@@ -9435,9 +9477,6 @@
                   "type": "plainText",
                   "value": "gains 1 Oxygen token)"
                 }
-              ],
-              "costs": [
-                "Nereidan"
               ]
             },
             {
@@ -9453,7 +9492,14 @@
         ]
       },
       {
-        "name": "if you canont, either immediately surface or lose -1 @Hull instead. If you're surfaced at the start of the Voyage Phase, flip 1 Aether token. During each Movement Step, before moving, you may surface or gain +1 @ArgoFate to submerge.$Emergency Submersion",
+        "name": "if you canont, either immediately surface or lose -1 @Hull instead. If you're surfaced at the start of the Voyage Phase, flip 1 Aether token. During each Movement Step, before moving, you may surface or gain +1 @ArgoFate to submerge.",
+        "effects": [
+          [],
+          []
+        ]
+      },
+      {
+        "name": "Emergency Submersion",
         "effects": [
           [
             {
@@ -9483,6 +9529,7 @@
       "EA2761"
     ],
     "name": "The Future of the Argo",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9617,6 +9664,7 @@
       "EA2762"
     ],
     "name": "Shared Fates",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9701,18 +9749,16 @@
                   "value": "Obol cards"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": ": Reference"
-                }
-              ],
-              "costs": [
-                "Titanomorphosis"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titanomorphosis",
+        "type": "Reference",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -9720,18 +9766,16 @@
                   "value": "Unliked Fused Titans, Titans created through Titan Breeding don't require a Primordial Core, unless it is specifically stated"
                 }
               ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Stoa Capacity III: Permanent"
-                }
-              ],
-              "costs": [
-                "Titan"
-              ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Titan Stoa Capacity III",
+        "type": "Permanent",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
@@ -9751,6 +9795,7 @@
       "EA2763"
     ],
     "name": "Argo Crew Rebuilding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9814,6 +9859,7 @@
       "EA2764"
     ],
     "name": "Argo Philosophy",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9897,6 +9943,7 @@
       "EA2765"
     ],
     "name": "Argo Initiative",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -9948,6 +9995,7 @@
       "EA2766"
     ],
     "name": "Atlantean Investigations",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10007,6 +10055,7 @@
       "EA2767"
     ],
     "name": "Pattern Deciphering",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10147,6 +10196,7 @@
       "EA2768"
     ],
     "name": "Scientific Debunking",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10259,6 +10309,7 @@
       "EA2769"
     ],
     "name": "The Peace Mission",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10312,6 +10363,7 @@
       "EA2770"
     ],
     "name": "Cyclades Intelligence",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10364,6 +10416,7 @@
       "EA2771"
     ],
     "name": "Spiral Theory",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10448,6 +10501,7 @@
       "EA2772"
     ],
     "name": "Fresher Start",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10519,6 +10573,7 @@
       "EA2773"
     ],
     "name": "Grassroots Diplomacy",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10580,6 +10635,7 @@
       "EA2774"
     ],
     "name": "Cyclades Commerce",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10657,6 +10713,7 @@
       "EA2775"
     ],
     "name": "Cyclades Information Circulation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10720,6 +10777,7 @@
       "EA2776"
     ],
     "name": "Underwater Scouting",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10785,7 +10843,8 @@
     "cardIDs": [
       "EA2777"
     ],
-    "name": "Impoved Submergence",
+    "name": "Improved Submergence",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10839,6 +10898,7 @@
       "EA2778"
     ],
     "name": "Tight-Spaces Navigation",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10924,6 +10984,7 @@
       "EA2779"
     ],
     "name": "Superior Submergence",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -10964,16 +11025,21 @@
                   "value": "gains an additional Oxygen token)"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Depths Nymph's Blessing",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Nymph's Blessing: Use your Depths Nymph Summoning Charge to immediately flip 1 Aether token"
+                  "value": "Use your Depths Nymph Summoning Charge to immediately flip 1 Aether token"
                 }
-              ],
-              "costs": [
-                "Depths"
               ]
             }
           ],
@@ -10987,6 +11053,7 @@
       "EA2780"
     ],
     "name": "Moirai Rebellion",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11042,6 +11109,7 @@
       "EA2781"
     ],
     "name": "Phobian Psychology",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11101,6 +11169,7 @@
       "EA2782"
     ],
     "name": "Atlantean Docking Procedures",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11155,6 +11224,7 @@
       "EA2783"
     ],
     "name": "Mortal Alliance",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11231,6 +11301,7 @@
       "EA2784"
     ],
     "name": "Atlantean Maintenance Procedures",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11286,6 +11357,7 @@
       "EA2785"
     ],
     "name": "Ultimate Titan Breeding",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11356,12 +11428,20 @@
                   "value": "You cannot use this ability again until you resolve the event"
                 }
               ]
-            },
+            }
+          ],
+          []
+        ]
+      },
+      {
+        "name": "Accelerated Persian Breeding",
+        "effects": [
+          [
             {
               "abilityText": [
                 {
                   "type": "plainText",
-                  "value": "Persian Breeding: You may gain +1"
+                  "value": "You may gain +1"
                 },
                 {
                   "type": "icon",
@@ -11371,9 +11451,6 @@
                   "type": "plainText",
                   "value": "to use Persian Strains Breeding with Cooldown: 12 days"
                 }
-              ],
-              "costs": [
-                "Accelerated"
               ]
             },
             {
@@ -11395,6 +11472,7 @@
       "EA2786"
     ],
     "name": "New Oikos",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11472,6 +11550,7 @@
       "EA2787"
     ],
     "name": "Gaia's Stepchildren",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -11540,6 +11619,7 @@
       "EA2788"
     ],
     "name": "Mnestis Training",
+    "renderType": "Technology",
     "cardType": "Technology",
     "game": "Odyssey",
     "cycle": "Cycle V",

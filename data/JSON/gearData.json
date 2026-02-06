@@ -7,6 +7,7 @@
       "AJ0159"
     ],
     "name": "Fists",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -67,6 +68,7 @@
       "AJ0162"
     ],
     "name": "Sail Spolas",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -117,6 +119,7 @@
       "AJ0164"
     ],
     "name": "Shipwrecker Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -183,6 +186,7 @@
       "AJ0166"
     ],
     "name": "Siren Panoply Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -230,6 +234,7 @@
       "AJ0168"
     ],
     "name": "Siren Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -294,6 +299,7 @@
       "AJ0170"
     ],
     "name": "Sirenteeth",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -350,6 +356,7 @@
       "AJ0172"
     ],
     "name": "Boatmace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -400,6 +407,7 @@
       "AJ0174"
     ],
     "name": "Sirenblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -459,6 +467,7 @@
       "AJ0176"
     ],
     "name": "Kratos Kopis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -515,6 +524,7 @@
       "AJ0178"
     ],
     "name": "Whale Knives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -594,6 +604,7 @@
       "AJ0180"
     ],
     "name": "Great Tree Club",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -675,6 +686,7 @@
       "AJ0182"
     ],
     "name": "Teeth Khopesh",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -715,6 +727,7 @@
       "AJ0184"
     ],
     "name": "Naval Ram",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -819,6 +832,7 @@
       "AJ0186"
     ],
     "name": "Heavy Kopis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -920,6 +934,7 @@
       "AJ0188"
     ],
     "name": "Jawbone Axe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -979,6 +994,7 @@
       "AJ0190"
     ],
     "name": "Ballista Gun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1054,6 +1070,7 @@
       "AJ0192"
     ],
     "name": "Petrified Javelin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1112,6 +1129,7 @@
       "AJ0194"
     ],
     "name": "Liontail Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1193,6 +1211,7 @@
       "AJ0196"
     ],
     "name": "Whalebone Bident",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1265,6 +1284,7 @@
       "AJ0198"
     ],
     "name": "Longmast Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1334,6 +1354,7 @@
       "AJ0201"
     ],
     "name": "Iapetus Lifeguard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1381,6 +1402,7 @@
       "AJ0203"
     ],
     "name": "Ares Aulos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1432,6 +1454,7 @@
       "AJ0205"
     ],
     "name": "Makesheath",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1489,6 +1512,7 @@
       "AJ0208"
     ],
     "name": "Spring Harness",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1524,14 +1548,6 @@
           "Fate",
           "Exhaust"
         ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You can use this ability while knocked down"
-          }
-        ]
       }
     ],
     "gatedAbilities": []
@@ -1542,6 +1558,7 @@
       "AJ0210"
     ],
     "name": "Smelted Breastplate",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1622,6 +1639,7 @@
       "AJ0212"
     ],
     "name": "Smelted Aspis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1718,6 +1736,7 @@
       "AJ0214"
     ],
     "name": "Smelted Xiphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1780,6 +1799,7 @@
       "AJ0216"
     ],
     "name": "Impetus Breakers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1823,6 +1843,7 @@
       "AJ0218"
     ],
     "name": "Analyticos Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1880,6 +1901,7 @@
       "AJ0219"
     ],
     "name": "Primordial Lure",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1930,6 +1952,7 @@
       "AJ0221"
     ],
     "name": "Hekaton Panoply Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2020,6 +2043,7 @@
       "AJ0223"
     ],
     "name": "Knuckle Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2138,6 +2162,7 @@
       "AJ0225"
     ],
     "name": "Pillarmace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2221,6 +2246,7 @@
       "AJ0227"
     ],
     "name": "Hekatomb",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2297,6 +2323,7 @@
       "AJ0229"
     ],
     "name": "Rebound Hammer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2393,6 +2420,7 @@
       "AJ0230"
     ],
     "name": "Gigan",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2507,6 +2535,7 @@
       "AJ0232"
     ],
     "name": "Sail Camo",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2585,6 +2614,7 @@
       "AJ0234"
     ],
     "name": "Tackle Sheath",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2695,6 +2725,7 @@
       "AJ0236"
     ],
     "name": "Aeolipile Engine",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2757,14 +2788,6 @@
           "Fate",
           "Exhaust"
         ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You can use this ability while knocked down"
-          }
-        ]
       }
     ],
     "gatedAbilities": [
@@ -2794,6 +2817,7 @@
       "AJ0238"
     ],
     "name": "Stabilizers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2870,6 +2894,7 @@
       "AJ0240"
     ],
     "name": "Grappling Hook",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2915,6 +2940,7 @@
       "AJ0242"
     ],
     "name": "Safety Rope",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -2959,6 +2985,7 @@
       "AJ0244"
     ],
     "name": "Instinct Linothorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3021,6 +3048,7 @@
       "AJ0246"
     ],
     "name": "Bull Aspis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3074,15 +3102,7 @@
           },
           {
             "type": "plainText",
-            "value": "Place 1"
-          },
-          {
-            "type": "keyword",
-            "value": "Diversion"
-          },
-          {
-            "type": "plainText",
-            "value": "token in the Kratos Pool"
+            "value": "Place 1 Diversion token in the Kratos Pool"
           }
         ]
       }
@@ -3106,6 +3126,7 @@
       "AJ0248"
     ],
     "name": "Maze Rake",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3197,6 +3218,7 @@
       "AJ0250"
     ],
     "name": "Whaler Javelin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3281,6 +3303,7 @@
       "AJ0252"
     ],
     "name": "Hullbow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3372,6 +3395,7 @@
       "AJ0253"
     ],
     "name": "Ariadne's Hello",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3466,6 +3490,7 @@
       "AJ0254"
     ],
     "name": "Gigas",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3595,6 +3620,7 @@
       "AJ0255"
     ],
     "name": "Mazemmer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3700,6 +3726,7 @@
       "AJ0256"
     ],
     "name": "Ariadne's Goodbye",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3802,6 +3829,7 @@
       "AJ0257"
     ],
     "name": "Shieldblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -3878,7 +3906,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Knockback Resistance 1"
+            "value": "Knockback Reduction 1"
           }
         ]
       },
@@ -3914,6 +3942,7 @@
       "AJ0258"
     ],
     "name": "The Promise",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4024,6 +4053,7 @@
       "AJ0259"
     ],
     "name": "Mazemace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4104,6 +4134,7 @@
       "AJ0260"
     ],
     "name": "Glimmer Shroud",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4189,6 +4220,7 @@
       "AJ0261"
     ],
     "name": "Pursuer Imperative",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4253,6 +4285,7 @@
       "AJ0263"
     ],
     "name": "Mothlame",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4308,6 +4341,7 @@
       "AJ0264"
     ],
     "name": "Hermes Tatters",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4397,6 +4431,7 @@
       "AJ0267"
     ],
     "name": "Trireme Breastplate",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4458,6 +4493,7 @@
       "AJ0268"
     ],
     "name": "Theseus's Razor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4562,6 +4598,7 @@
       "AJ0269"
     ],
     "name": "Minohead",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4648,6 +4685,7 @@
       "AJ0270"
     ],
     "name": "Medusalem",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4754,6 +4792,7 @@
       "AJ0272"
     ],
     "name": "Ancient Siren Panoply Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4809,6 +4848,7 @@
       "AJ0273"
     ],
     "name": "Nail Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -4926,6 +4966,7 @@
       "AJ0274"
     ],
     "name": "Unsolved Enigma",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5008,6 +5049,7 @@
       "AJ0276"
     ],
     "name": "Morpheus Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5112,6 +5154,7 @@
       "AJ0278"
     ],
     "name": "Ambrosia Trocar",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5176,6 +5219,7 @@
       "AJ0279"
     ],
     "name": "Vulture Mask",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5268,6 +5312,7 @@
       "AJ0280"
     ],
     "name": "Manos Discus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5358,6 +5403,7 @@
       "AJ0281"
     ],
     "name": "Yarn Talisman",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5418,6 +5464,7 @@
       "AJ0282"
     ],
     "name": "Mazey, the Labyrinthian Dog",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5522,6 +5569,7 @@
       "AJ0283"
     ],
     "name": "Eschaton Stones",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -5593,7 +5641,35 @@
           },
           {
             "type": "plainText",
-            "value": "Gain +1 The Law of AT:O v0"
+            "value": "Gain +1"
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Stone Threshold:"
+          },
+          {
+            "type": "plainText",
+            "value": "When you gain this card, the threshold is 0 (note it on your Argonaut Sheet)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Battle"
+          },
+          {
+            "type": "plainText",
+            "value": "Roll a die, if it's above the Stone Threshold, raise the Stone Threshold by 1"
           }
         ]
       },
@@ -5601,15 +5677,18 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "9"
+            "value": "If it's equal or below, pass the Stones (remove them from the game) and gain 1 Mnemos node"
           }
         ]
       },
       {
         "abilityText": [
           {
+            "type": "newline"
+          },
+          {
             "type": "plainText",
-            "value": "11"
+            "value": "If you experience a Dream of Pharos while you have the Eschaton Stones, see Dream 11 (Cycle I Storybook)"
           }
         ]
       }
@@ -5622,6 +5701,7 @@
       "BJ0828"
     ],
     "name": "Labyrinth Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -5726,6 +5806,7 @@
       "BJ0834"
     ],
     "name": "Labyrinthization",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -5843,6 +5924,7 @@
       "BJ0835"
     ],
     "name": "Labyrinth Mauler",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -5957,6 +6039,7 @@
       "BJ0838"
     ],
     "name": "Puzzle Axe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6069,6 +6152,7 @@
       "BJ0843"
     ],
     "name": "Amphoras Belt",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6148,6 +6232,7 @@
       "BJ0844"
     ],
     "name": "Stepping Stone",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6272,6 +6357,7 @@
       "BJ0846"
     ],
     "name": "Isokratos Limiter",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6350,6 +6436,7 @@
       "BJ0848"
     ],
     "name": "Asklepios Node",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6411,6 +6498,7 @@
       "BJ0850"
     ],
     "name": "Lethe Guard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6489,6 +6577,7 @@
       "BJ0851"
     ],
     "name": "Covenant",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6624,6 +6713,7 @@
       "BJ0853"
     ],
     "name": "Temple Camo",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6744,6 +6834,7 @@
       "BJ0855"
     ],
     "name": "Medusa Extract",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6816,6 +6907,7 @@
       "BJ0857"
     ],
     "name": "Ambrostilts",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6873,6 +6965,7 @@
       "BJ0858"
     ],
     "name": "Pyramidion",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -6926,56 +7019,80 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
-            "value": "Mount"
+            "type": "keyword",
+            "value": "Evolving"
           }
         ]
       },
       {
         "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Weighty"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "-1"
-          },
-          {
-            "type": "icon",
-            "value": "Speed"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may reduce suffered Knockbacks and Pushbacks by 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You cannot"
-          },
           {
             "type": "keyword",
-            "value": "Jump"
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
           },
           {
             "type": "plainText",
-            "value": "or"
+            "value": "Gain the"
           },
           {
-            "type": "keyword",
-            "value": "Vault"
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you gain negative Precision tokens, you may gain the"
+          },
+          {
+            "type": "cardRef",
+            "value": "Fear",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "(1 token) or"
+          },
+          {
+            "type": "cardRef",
+            "value": "Dread",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": "(2 tokens) Conditon card instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Miss"
+          },
+          {
+            "type": "plainText",
+            "value": "Place a Labyrinth tile under your Titan,"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": ""
           }
         ]
       }
@@ -6983,31 +7100,12 @@
     "gatedAbilities": [
       {
         "gate": "Danger",
-        "value": "5+",
+        "value": "7+",
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When a Titan successfully climbs a Primordial VP from the"
-          },
-          {
-            "type": "italics",
-            "value": "Stepping Stone"
-          },
-          {
-            "type": "plainText",
-            "value": ", that Titan gains +1"
-          },
-          {
-            "type": "icon",
-            "value": "Power"
-          },
-          {
-            "type": "plainText",
-            "value": "for their next Attack"
+            "value": "If you would die from an Instant Death effect of a Judgement, draw an Obol instead"
           }
-        ],
-        "costs": [
-          "Discard"
         ]
       }
     ]
@@ -7017,6 +7115,7 @@
       "BJ0859"
     ],
     "name": "Pyrasklepios",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7141,7 +7240,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "WHen you resolve the"
+            "value": "When you resolve the"
           },
           {
             "type": "italics",
@@ -7191,6 +7290,7 @@
       "BJ0863"
     ],
     "name": "Mazed Cestus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7291,6 +7391,7 @@
       "BJ0865"
     ],
     "name": "Scale Chakram",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7387,6 +7488,7 @@
       "BJ0867"
     ],
     "name": "Mazechute",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7459,7 +7561,15 @@
           },
           {
             "type": "plainText",
-            "value": ", you may immediately stand up and move up to 2 spaces"
+            "value": ", you may immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "and move up to 2 spaces"
           }
         ]
       }
@@ -7470,6 +7580,7 @@
       "BJ0900"
     ],
     "name": "Spartan War Axe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7610,6 +7721,7 @@
       "BJ0868"
     ],
     "name": "Mazegma",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7716,6 +7828,7 @@
       "BJ0870"
     ],
     "name": "Stonewall",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7782,6 +7895,7 @@
       "BJ0872"
     ],
     "name": "Eviscerators",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7874,6 +7988,7 @@
       "BJ0874"
     ],
     "name": "Chain Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -7969,6 +8084,7 @@
       "BJ0876"
     ],
     "name": "Fireboat",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8036,6 +8152,7 @@
       "BJ0878"
     ],
     "name": "Stone Relief Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8108,6 +8225,7 @@
       "BJ0880"
     ],
     "name": "Great Breaker",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8212,6 +8330,7 @@
       "BJ0882"
     ],
     "name": "Relief Cestus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8288,6 +8407,7 @@
       "BJ0886"
     ],
     "name": "Vaulting Rope",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8354,6 +8474,7 @@
       "BJ0888"
     ],
     "name": "Watchtower Pauldron",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8453,6 +8574,7 @@
       "BJ0890"
     ],
     "name": "Siegetower Pauldron",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8557,6 +8679,7 @@
       "BJ0893"
     ],
     "name": "Iapetus Lifesaver",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8604,6 +8727,7 @@
       "BJ0895"
     ],
     "name": "Boost Kothornos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8674,6 +8798,7 @@
       "BJ0897"
     ],
     "name": "Achillean Hectors",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8741,6 +8866,7 @@
       "BJ0899"
     ],
     "name": "Control Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8821,6 +8947,7 @@
       "BJ0901"
     ],
     "name": "Heavy Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -8923,6 +9050,7 @@
       "BJ0902"
     ],
     "name": "Spartan Kopis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9052,6 +9180,7 @@
       "BJ0903"
     ],
     "name": "Gastraphetes",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9166,6 +9295,7 @@
       "BJ0904"
     ],
     "name": "Carver Kopis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9283,6 +9413,7 @@
       "BJ0905"
     ],
     "name": "Cyclopean Khopesh",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9344,6 +9475,7 @@
       "BJ0906"
     ],
     "name": "Cyclopean Linothorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9438,6 +9570,7 @@
       "BJ0907"
     ],
     "name": "Cyclopean Knives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9533,6 +9666,7 @@
       "BJ0908"
     ],
     "name": "Cyclopean Visor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9624,6 +9758,7 @@
       "BJ0909"
     ],
     "name": "Cyclopean Totem",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9721,6 +9856,7 @@
       "BJ0910"
     ],
     "name": "Cyclopean Forge Hammer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9844,6 +9980,7 @@
       "BJ0912"
     ],
     "name": "Impact Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -9928,6 +10065,7 @@
       "BJ0914"
     ],
     "name": "Collision Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10027,6 +10165,7 @@
       "BJ0918"
     ],
     "name": "Ambramat Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10109,6 +10248,7 @@
       "BJ0920"
     ],
     "name": "Muck Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10227,6 +10367,7 @@
       "BJ0922"
     ],
     "name": "Needle Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10338,6 +10479,7 @@
       "BJ0924"
     ],
     "name": "Vaulting Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10403,6 +10545,7 @@
       "BJ0926"
     ],
     "name": "Katarus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10500,6 +10643,7 @@
       "BJ0927"
     ],
     "name": "Maulmace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10619,6 +10763,7 @@
       "BJ0931"
     ],
     "name": "Dragon Bellow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10766,6 +10911,7 @@
       "BJ0933"
     ],
     "name": "Grand Ramaxe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -10904,6 +11050,7 @@
       "BJ0935"
     ],
     "name": "Chimeric Xiphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11022,6 +11169,7 @@
       "BJ0936"
     ],
     "name": "Muck Bludgeon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11135,6 +11283,7 @@
       "BJ0937"
     ],
     "name": "Muckbane",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11279,6 +11428,7 @@
       "BJ0938"
     ],
     "name": "Cyclostus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11438,6 +11588,7 @@
       "BJ0939"
     ],
     "name": "Bellerophon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11600,6 +11751,7 @@
       "BJ0940"
     ],
     "name": "Right Maulfist",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11702,6 +11854,7 @@
       "BJ0941"
     ],
     "name": "Left Maulfist",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11804,6 +11957,7 @@
       "BJ0942"
     ],
     "name": "Rememberance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -11958,6 +12112,7 @@
       "BJ0943"
     ],
     "name": "Muck Virus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12053,6 +12208,7 @@
       "BJ0944"
     ],
     "name": "Jaws of the Lion",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12131,6 +12287,7 @@
       "BJ0947"
     ],
     "name": "Faceshield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12262,6 +12419,7 @@
       "BJ0949"
     ],
     "name": "Roll Breakers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12340,6 +12498,7 @@
       "BJ0951"
     ],
     "name": "Pithos Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12373,47 +12532,32 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Ascended"
+            "value": "Lifeline"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Discard"
         ]
       },
       {
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Kickback Reduction 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
+            "value": "After you use"
+          },
           {
             "type": "keyword",
-            "value": "Roll Out"
-          }
-        ],
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Stand up"
-          }
-        ],
-        "costs": [
-          "Fate",
-          "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
+            "value": "Lifeline"
+          },
           {
             "type": "plainText",
-            "value": "You can use this ability while knocked down"
+            "value": ", place an L Labyrinth under your Titan and suffer"
+          },
+          {
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": "AL0299"
           }
         ]
       }
@@ -12425,11 +12569,24 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "DiscardCost Lose -2"
+            "value": "When this card causes you to suffer"
           },
           {
-            "type": "icon",
-            "value": "Fate"
+            "type": "cardRef",
+            "value": "Knockdown",
+            "refID": "AL0299"
+          },
+          {
+            "type": "plainText",
+            "value": ", you may immediately"
+          },
+          {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
+            "type": "plainText",
+            "value": "and move up to 2 spaces"
           }
         ]
       }
@@ -12441,6 +12598,7 @@
       "BJ0953"
     ],
     "name": "Squat Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12494,8 +12652,8 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
-            "value": "You may reduce suffered Kickbacks by 1"
+            "type": "keyword",
+            "value": "Kickback Reduction 1"
           }
         ]
       },
@@ -12531,7 +12689,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "gain +1"
+            "value": "Gain +1"
           },
           {
             "type": "icon",
@@ -12546,6 +12704,7 @@
       "BJ0955"
     ],
     "name": "Elephantine Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12676,6 +12835,7 @@
       "BJ0956"
     ],
     "name": "Cowl of Char",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12792,6 +12952,7 @@
       "BJ0959"
     ],
     "name": "The End",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -12962,6 +13123,7 @@
       "BJ0960"
     ],
     "name": "Red Polis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13155,6 +13317,7 @@
       "BJ0961"
     ],
     "name": "Context",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13327,6 +13490,7 @@
       "BJ0962"
     ],
     "name": "Immeasurable Weight",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13513,6 +13677,7 @@
       "BJ0964"
     ],
     "name": "Maw of Byzantion",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13672,6 +13837,7 @@
       "BJ0965"
     ],
     "name": "Pursuer Ultimatum",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13735,6 +13901,7 @@
       "BJ0966"
     ],
     "name": "Hermes Cape",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13836,6 +14003,7 @@
       "BJ0967"
     ],
     "name": "Repurposed Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -13959,6 +14127,7 @@
       "BJ0968"
     ],
     "name": "Conqueror Nail",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -14108,6 +14277,7 @@
       "BJ0969"
     ],
     "name": "Archon Pauldron",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -14213,6 +14383,7 @@
       "BJ0970"
     ],
     "name": "Sisyphus's Burden",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -14406,6 +14577,7 @@
       "BJ0971"
     ],
     "name": "Sisyphus's Triumph",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -14594,6 +14766,7 @@
       "CJ1402"
     ],
     "name": "Excavated",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -14714,6 +14887,7 @@
       "ZJ1239"
     ],
     "name": "Horizon's Edge",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -14836,6 +15010,7 @@
       "ZJ1240"
     ],
     "name": "Skyreach",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -14908,6 +15083,7 @@
       "CJ1390"
     ],
     "name": "Black Xiphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15020,6 +15196,7 @@
       "CJ1392"
     ],
     "name": "Smoldering Mace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15128,6 +15305,7 @@
       "CJ1394"
     ],
     "name": "Abyssal Watchers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15316,6 +15494,7 @@
       "CJ1396"
     ],
     "name": "Hardened Cestus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15470,6 +15649,7 @@
       "CJ1398"
     ],
     "name": "Abyssal Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15593,6 +15773,7 @@
       "CJ1400"
     ],
     "name": "Black Javelin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15736,6 +15917,7 @@
       "CJ1404"
     ],
     "name": "Abyss Linothorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15823,6 +16005,7 @@
       "CJ1406"
     ],
     "name": "Abyss Thorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -15936,6 +16119,7 @@
       "CJ1408"
     ],
     "name": "Abyss Mirror",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16060,6 +16244,7 @@
       "CJ1410"
     ],
     "name": "Hourglass Necklace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16139,6 +16324,7 @@
       "CJ1412"
     ],
     "name": "Paradox Guard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16227,6 +16413,7 @@
       "CJ1414"
     ],
     "name": "Paradox Scanner",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16281,6 +16468,7 @@
       "CJ1416"
     ],
     "name": "Fatesafe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16347,6 +16535,7 @@
       "CJ1418"
     ],
     "name": "Siren Coral Panoply",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16426,6 +16615,7 @@
       "CJ1420"
     ],
     "name": "Siren Cataphract",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16512,6 +16702,7 @@
       "CJ1422"
     ],
     "name": "Spiral Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16613,6 +16804,7 @@
       "CJ1428"
     ],
     "name": "Sun Disc",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16739,6 +16931,7 @@
       "CJ1428"
     ],
     "name": "Sun Cutter",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16845,6 +17038,7 @@
       "CJ1430"
     ],
     "name": "Spiral Spada",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -16947,6 +17141,7 @@
       "CJ1432"
     ],
     "name": "Sirentusks",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17031,6 +17226,7 @@
       "CJ1434"
     ],
     "name": "Spiradiscus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17136,6 +17332,7 @@
       "CJ1436"
     ],
     "name": "True Sirenblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17256,6 +17453,7 @@
       "CJ1438"
     ],
     "name": "Siren Mask",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17351,6 +17549,7 @@
       "CJ1440"
     ],
     "name": "Recall Shell",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17437,6 +17636,7 @@
       "CJ1442"
     ],
     "name": "Fatesafer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17503,6 +17703,7 @@
       "CJ1444"
     ],
     "name": "Looper Guard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17591,6 +17792,7 @@
       "CJ1446"
     ],
     "name": "Ontological Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17672,6 +17874,7 @@
       "CJ1447"
     ],
     "name": "Prototype Trespass Device",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17752,6 +17955,7 @@
       "CJ1449"
     ],
     "name": "Time Booster",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17833,6 +18037,7 @@
       "CJ1451"
     ],
     "name": "Sun Guard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17907,6 +18112,7 @@
       "CJ1453"
     ],
     "name": "Glacial Fabric",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -17980,6 +18186,7 @@
       "CJ1455"
     ],
     "name": "Timeline Synchronizer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18040,6 +18247,7 @@
       "CJ1457"
     ],
     "name": "Parallel Anchor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18107,6 +18315,7 @@
       "CJ1459"
     ],
     "name": "Icelixir",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18173,6 +18382,7 @@
       "CJ1461"
     ],
     "name": "Spike Breakers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18257,6 +18467,7 @@
       "CJ1463"
     ],
     "name": "Regression Agent",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18312,6 +18523,7 @@
       "CJ1465"
     ],
     "name": "Black Ice Kothornos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18418,6 +18630,7 @@
       "CJ1467"
     ],
     "name": "Iceblock Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18500,6 +18713,7 @@
       "CJ1469"
     ],
     "name": "Polished Ice Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18592,6 +18806,7 @@
       "CJ1471"
     ],
     "name": "Ignition Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18713,6 +18928,7 @@
       "CJ1476"
     ],
     "name": "Scaling Gear Prototype",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18796,6 +19012,7 @@
       "CJ1477"
     ],
     "name": "Homeric Engine",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18893,6 +19110,7 @@
       "CJ1478"
     ],
     "name": "Agathos Agitator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -18986,6 +19204,7 @@
       "CJ1479"
     ],
     "name": "Kakos Implant",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19071,6 +19290,7 @@
       "CJ1480"
     ],
     "name": "Aristeia Inducer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19152,6 +19372,7 @@
       "CJ1481"
     ],
     "name": "Lightsword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19305,6 +19526,7 @@
       "CJ1482"
     ],
     "name": "Erratic Insignator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19436,6 +19658,7 @@
       "CJ1483"
     ],
     "name": "Arc Light Thrower",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19602,6 +19825,7 @@
       "CJ1484"
     ],
     "name": "Sunlight Gun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19760,6 +19984,7 @@
       "CJ1485"
     ],
     "name": "Believer Vestment",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19871,6 +20096,7 @@
       "CJ1486"
     ],
     "name": "Probability Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -19989,6 +20215,7 @@
       "CJ1487"
     ],
     "name": "Shade Mace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20101,6 +20328,7 @@
       "CJ1488"
     ],
     "name": "Shade Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20188,6 +20416,7 @@
       "CJ1490"
     ],
     "name": "Exiles Garb",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20282,6 +20511,7 @@
       "CJ1491"
     ],
     "name": "Shade Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20431,6 +20661,7 @@
       "CJ1493"
     ],
     "name": "Oracowl",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20526,6 +20757,7 @@
       "CJ1495"
     ],
     "name": "Feather Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20646,6 +20878,7 @@
       "CJ1497"
     ],
     "name": "Time's Arrow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20734,6 +20967,7 @@
       "CJ1499"
     ],
     "name": "Echo Eaters",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20842,6 +21076,7 @@
       "CJ1501"
     ],
     "name": "Beholder Fists",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -20975,6 +21210,7 @@
       "CJ1502"
     ],
     "name": "Eye of the Watcher",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21070,6 +21306,7 @@
       "CJ1503"
     ],
     "name": "Paradox",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21198,6 +21435,7 @@
       "CJ1504"
     ],
     "name": "Paradont",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21325,6 +21563,7 @@
       "CJ1505"
     ],
     "name": "Skyfall",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21453,6 +21692,7 @@
       "CJ1507"
     ],
     "name": "Exobone Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21494,8 +21734,24 @@
       {
         "abilityText": [
           {
+            "type": "bold",
+            "value": "Stem:"
+          },
+          {
             "type": "keyword",
-            "value": "Stem"
+            "value": "Stanch"
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "icon",
+            "value": "Bleeding"
+          },
+          {
+            "type": "plainText",
+            "value": ")"
           }
         ],
         "costs": [
@@ -21522,6 +21778,7 @@
       "CJ1509"
     ],
     "name": "Feather Linothorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21601,6 +21858,7 @@
       "CJ1515"
     ],
     "name": "Descender",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21718,6 +21976,7 @@
       "CJ1515"
     ],
     "name": "Devolver",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -21853,6 +22112,7 @@
       "CJ1518"
     ],
     "name": "Sunreach",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22003,6 +22263,7 @@
       "CJ1520"
     ],
     "name": "Enigma Of Transformation",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22088,6 +22349,7 @@
       "CJ1522"
     ],
     "name": "Horseskull Pauldron",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22218,6 +22480,7 @@
       "CJ1524"
     ],
     "name": "Extinction Cestus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22317,6 +22580,7 @@
       "CJ1526"
     ],
     "name": "Black Ice Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22448,6 +22712,7 @@
       "CJ1527"
     ],
     "name": "Icarus Lot",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22522,6 +22787,7 @@
       "CJ1528"
     ],
     "name": "Icarus's Fall",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22614,6 +22880,7 @@
       "CJ1529"
     ],
     "name": "Daedalus's Flight",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22689,6 +22956,7 @@
       "CJ1530"
     ],
     "name": "Future Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22796,6 +23064,7 @@
       "CJ1531"
     ],
     "name": "Atlantean Oscillator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22879,6 +23148,7 @@
       "CJ1532"
     ],
     "name": "Phoenixiphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -22993,6 +23263,7 @@
       "CJ1533"
     ],
     "name": "Cyclopean Hand Mirror",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23078,6 +23349,7 @@
       "CJ1534"
     ],
     "name": "Grandfather's",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23158,6 +23430,7 @@
       "CJ1535"
     ],
     "name": "Shellusalem",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23293,6 +23566,7 @@
       "CJ1536"
     ],
     "name": "Argocryptex Alpha",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23444,6 +23718,7 @@
       "CJ1537"
     ],
     "name": "Argocryptex Beta",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23578,6 +23853,7 @@
       "CJ1538"
     ],
     "name": "Argocryptex Gamma",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23695,6 +23971,7 @@
       "CJ1539"
     ],
     "name": "Visage",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23841,6 +24118,7 @@
       "CJ1541"
     ],
     "name": "Icebreakers",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23936,6 +24214,7 @@
       "CJ1543"
     ],
     "name": "Pithos Linothorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -23989,21 +24268,13 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
         "costs": [
           "Fate",
           "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
         ]
       },
       {
@@ -24057,6 +24328,7 @@
       "CJ1545"
     ],
     "name": "Spherical Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -24186,6 +24458,7 @@
       "CJ1546"
     ],
     "name": "Theogonias",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -24333,6 +24606,7 @@
       "ZJ1824"
     ],
     "name": "Helm of Hermes",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -24453,6 +24727,7 @@
       "ZJ1825"
     ],
     "name": "Gigantas",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -24644,6 +24919,7 @@
       "ZJ1826"
     ],
     "name": "Ariande's Reunion",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -24835,6 +25111,7 @@
       "ZJ1827"
     ],
     "name": "Promise Fulfilled",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25002,6 +25279,7 @@
       "ZJ1828"
     ],
     "name": "Bow of Artemis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25155,6 +25433,7 @@
       "ZJ1829"
     ],
     "name": "First Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25301,6 +25580,7 @@
       "ZJ1830"
     ],
     "name": "Blue State",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25465,6 +25745,7 @@
       "ZJ1831"
     ],
     "name": "Rod of Pharos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25611,6 +25892,7 @@
       "ZJ1832"
     ],
     "name": "Hammer Origin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -25785,6 +26067,7 @@
       "ZJ1833"
     ],
     "name": "Slushbane",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26014,6 +26297,7 @@
       "ZJ1834"
     ],
     "name": "Damocles Crown",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26204,6 +26488,7 @@
       "ZJ1835"
     ],
     "name": "Feint Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26402,6 +26687,7 @@
       "ZJ1836"
     ],
     "name": "Out of Context",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26562,6 +26848,7 @@
       "ZJ1837"
     ],
     "name": "Scythe of Demeter",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26783,6 +27070,7 @@
       "ZJ1838"
     ],
     "name": "Fortress Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -26950,6 +27238,7 @@
       "ZJ1839"
     ],
     "name": "Abdicates",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -27148,6 +27437,7 @@
       "ZJ1841"
     ],
     "name": "Ship of Theseus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -27306,6 +27596,7 @@
       "ZJ1842"
     ],
     "name": "Poseidonis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -27496,6 +27787,7 @@
       "ZJ1843"
     ],
     "name": "Gaia's Root",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -27657,6 +27949,7 @@
       "ZJ1844"
     ],
     "name": "Midashield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -27811,6 +28104,7 @@
       "ZJ0692"
     ],
     "name": "Pantheon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -28028,6 +28322,7 @@
       "ZJ1846"
     ],
     "name": "Voice of the Silenced",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -28193,6 +28488,7 @@
       "ZJ1847"
     ],
     "name": "Gaiaegis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -28392,6 +28688,7 @@
       "ZJ1848"
     ],
     "name": "Blades of Rage",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -28592,6 +28889,7 @@
       "ZJ1849"
     ],
     "name": "Lightbringer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -28767,6 +29065,7 @@
       "AJ1998"
     ],
     "name": "Unseen Scar",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -28794,6 +29093,7 @@
       "DJ2230"
     ],
     "name": "Eclipse Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -28887,6 +29187,7 @@
       "DJ2232"
     ],
     "name": "Feathermace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -28978,6 +29279,7 @@
       "DJ2234"
     ],
     "name": "Burnout Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29098,6 +29400,7 @@
       "DJ2236"
     ],
     "name": "Descentaxe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29208,6 +29511,7 @@
       "DJ2238"
     ],
     "name": "Duskedges",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29316,6 +29620,7 @@
       "DJ2240"
     ],
     "name": "Ember Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29439,6 +29744,7 @@
       "DJ2242"
     ],
     "name": "Withered Javelin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29540,6 +29846,7 @@
       "DJ2244"
     ],
     "name": "Corona Discus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29660,6 +29967,7 @@
       "DJ2248"
     ],
     "name": "Accursed",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29825,6 +30133,7 @@
       "DJ2250"
     ],
     "name": "Sunkissed Kalasiris",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -29916,6 +30225,7 @@
       "DJ2252"
     ],
     "name": "Feather Cataphract",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30022,6 +30332,7 @@
       "DJ2254"
     ],
     "name": "Eclipse Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30125,6 +30436,7 @@
       "DJ2256"
     ],
     "name": "Refracted Light Elixir",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30192,6 +30504,7 @@
       "DJ2258"
     ],
     "name": "Hermes Guard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30241,6 +30554,7 @@
       "DJ2260"
     ],
     "name": "Kaleidoscope Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30299,6 +30613,7 @@
       "DJ2264"
     ],
     "name": "Hermes Grappling Hook",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30385,6 +30700,7 @@
       "DJ2266"
     ],
     "name": "Lamellar Preemptive Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30436,21 +30752,13 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
         "costs": [
           "Fate",
           "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
         ]
       }
     ],
@@ -30477,6 +30785,7 @@
       "DJ2268"
     ],
     "name": "Strikeback Dagger",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30599,6 +30908,7 @@
       "DJ2270"
     ],
     "name": "Persian Pillarmace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30712,6 +31022,7 @@
       "DJ2271"
     ],
     "name": "Hunger Longknives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30855,6 +31166,7 @@
       "DJ2273"
     ],
     "name": "Imperial Bow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -30962,6 +31274,7 @@
       "DJ2275"
     ],
     "name": "Paraguard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31038,6 +31351,7 @@
       "DJ2277"
     ],
     "name": "Alchemic Catalyst",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31107,6 +31421,7 @@
       "DJ2279"
     ],
     "name": "Greed Limiter",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31191,6 +31506,7 @@
       "DJ2281"
     ],
     "name": "Glass Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31255,6 +31571,7 @@
       "DJ2283"
     ],
     "name": "Golden Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31325,6 +31642,7 @@
       "DJ2285"
     ],
     "name": "Golden Discus Buckler",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31460,6 +31778,7 @@
       "DJ2287"
     ],
     "name": "Statue Anchor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31534,6 +31853,7 @@
       "DJ2289"
     ],
     "name": "Hermes Gear Prototype",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31620,6 +31940,7 @@
       "DJ2291"
     ],
     "name": "Auric Bank",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31690,6 +32011,7 @@
       "DJ2293"
     ],
     "name": "Lampward",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31764,6 +32086,7 @@
       "DJ2295"
     ],
     "name": "Wish Dampener",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31841,6 +32164,7 @@
       "DJ2297"
     ],
     "name": "Curse Mediator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -31917,6 +32241,7 @@
       "DJ2299"
     ],
     "name": "Igniter Sling",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32040,6 +32365,7 @@
       "DJ2301"
     ],
     "name": "Stillsuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32128,6 +32454,7 @@
       "DJ2303"
     ],
     "name": "Solidifier",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32193,6 +32520,7 @@
       "DJ2305"
     ],
     "name": "Glassword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32298,6 +32626,7 @@
       "DJ2307"
     ],
     "name": "Golden Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32385,6 +32714,7 @@
       "DJ2308"
     ],
     "name": "Gilded Axe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32528,6 +32858,7 @@
       "DJ2310"
     ],
     "name": "Hermes Ballista Gun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32645,6 +32976,7 @@
       "DJ2312"
     ],
     "name": "Silk Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32709,6 +33041,7 @@
       "DJ2314"
     ],
     "name": "Alchemist Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32786,6 +33119,7 @@
       "DJ2316"
     ],
     "name": "Curse Translation Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32850,6 +33184,7 @@
       "DJ2318"
     ],
     "name": "Bloatpack",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -32952,6 +33287,7 @@
       "DJ2320"
     ],
     "name": "Hermes Gear Mk. I",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33037,6 +33373,7 @@
       "DJ2321"
     ],
     "name": "Djinn Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33148,6 +33485,7 @@
       "DJ2322"
     ],
     "name": "Liability Flail",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33295,6 +33633,7 @@
       "DJ2323"
     ],
     "name": "Debtguard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33435,6 +33774,7 @@
       "DJ2324"
     ],
     "name": "Walking Tools",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33576,6 +33916,7 @@
       "DJ2325"
     ],
     "name": "Golden Dawn",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33712,6 +34053,7 @@
       "DJ2326"
     ],
     "name": "Gnostic Pneumas",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -33890,6 +34232,7 @@
       "DJ2327"
     ],
     "name": "Anemoi Bladeshield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34055,6 +34398,7 @@
       "DJ2328"
     ],
     "name": "Nabuchobulldozer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34182,6 +34526,7 @@
       "DJ2329"
     ],
     "name": "Sword of Molten Wealth",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34328,6 +34673,7 @@
       "DJ2330"
     ],
     "name": "Scales Great Bow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34472,6 +34818,7 @@
       "DJ2332"
     ],
     "name": "Antiwish Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34573,6 +34920,7 @@
       "DJ2334"
     ],
     "name": "Tornado Cape",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34669,6 +35017,7 @@
       "DJ2335"
     ],
     "name": "Basilisk Belcher",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34821,6 +35170,7 @@
       "DJ2336"
     ],
     "name": "Bahamut Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -34956,6 +35306,7 @@
       "DJ2337"
     ],
     "name": "Sarcophagus Greatrod",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35121,6 +35472,7 @@
       "DJ2338"
     ],
     "name": "Wingblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35256,6 +35608,7 @@
       "DJ2339"
     ],
     "name": "Alchemic Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35410,6 +35763,7 @@
       "DJ2340"
     ],
     "name": "Midagun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35558,6 +35912,7 @@
       "DJ2342"
     ],
     "name": "Garden Activator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35623,6 +35978,7 @@
       "DJ2344"
     ],
     "name": "Hermes Gear Mk. II",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35708,6 +36064,7 @@
       "DJ2346"
     ],
     "name": "Seeds of Tomorrow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35814,6 +36171,7 @@
       "DJ2347"
     ],
     "name": "Pandoran Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -35927,6 +36285,7 @@
       "DJ2348"
     ],
     "name": "Everchanging Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36086,6 +36445,7 @@
       "DJ2349"
     ],
     "name": "Wondertide Gauntlets",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36221,6 +36581,7 @@
       "DJ2350"
     ],
     "name": "Neverending Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36378,6 +36739,7 @@
       "DJ2352"
     ],
     "name": "Jarmor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36484,6 +36846,7 @@
       "DJ2354"
     ],
     "name": "Anticurse Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36601,6 +36964,7 @@
       "DJ2355"
     ],
     "name": "Salt Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36730,6 +37094,7 @@
       "DJ2356"
     ],
     "name": "The Open Wound",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -36896,6 +37261,7 @@
       "DJ2357"
     ],
     "name": "Babelian Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37032,6 +37398,7 @@
       "DJ2358"
     ],
     "name": "Auric Cloak",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37113,6 +37480,7 @@
       "DJ2359"
     ],
     "name": "Golden Harp",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37196,6 +37564,7 @@
       "DJ2360"
     ],
     "name": "Bihorn Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37342,6 +37711,7 @@
       "DJ2361"
     ],
     "name": "Wishblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37487,6 +37857,7 @@
       "DJ2362"
     ],
     "name": "Djinn Cloak",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37607,6 +37978,7 @@
       "DJ2363"
     ],
     "name": "Pocket Wishlamp",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37734,6 +38106,7 @@
       "DJ2365"
     ],
     "name": "Dahaka Mask",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37842,6 +38215,7 @@
       "DJ2366"
     ],
     "name": "Shadowcleaver",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -37972,6 +38346,7 @@
       "DJ2367"
     ],
     "name": "Molten Gold Kalasiris",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38067,6 +38442,7 @@
       "DJ2368"
     ],
     "name": "Outrigger Bodysuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38162,6 +38538,7 @@
       "DJ2369"
     ],
     "name": "Bailout",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38338,6 +38715,7 @@
       "DJ2370"
     ],
     "name": "Auric Kalaharis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38442,6 +38820,7 @@
       "DJ2371"
     ],
     "name": "Trihorn Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38587,6 +38966,7 @@
       "DJ2372"
     ],
     "name": "Curseblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38739,6 +39119,7 @@
       "DJ2373"
     ],
     "name": "Djinn Exoskeleton",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38834,6 +39215,7 @@
       "DJ2374"
     ],
     "name": "Dahakandys",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -38924,6 +39306,7 @@
       "DJ2375"
     ],
     "name": "Immortal Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39010,6 +39393,7 @@
       "DJ2376"
     ],
     "name": "Immortal Cestus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39143,6 +39527,7 @@
       "DJ2377"
     ],
     "name": "Dahaka Predestinator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39222,6 +39607,7 @@
       "DJ2378"
     ],
     "name": "Willblade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39371,6 +39757,7 @@
       "DJ2379"
     ],
     "name": "Cursebreaker",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39544,6 +39931,7 @@
       "DJ2380"
     ],
     "name": "Regret",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39664,6 +40052,7 @@
       "DJ2381"
     ],
     "name": "The Capital",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39803,6 +40192,7 @@
       "DJ2382"
     ],
     "name": "Godhand",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -39978,6 +40368,7 @@
       "DJ2383"
     ],
     "name": "Luminous Beacon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40059,6 +40450,7 @@
       "DJ2384"
     ],
     "name": "Divine Lure",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40139,6 +40531,7 @@
       "DJ2385"
     ],
     "name": "Airsac Mine",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40228,6 +40621,7 @@
       "EJ2391"
     ],
     "name": "Oxygen Destroyer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -40340,6 +40734,7 @@
       "EJ2534"
     ],
     "name": "Heir Apparent",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -40438,6 +40833,7 @@
       "ZJ2570"
     ],
     "name": "First Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40575,6 +40971,7 @@
       "ZJ2571"
     ],
     "name": "Slushbane",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40778,6 +41175,7 @@
       "ZJ2572"
     ],
     "name": "Midashield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -40912,6 +41310,7 @@
       "ZJ2573"
     ],
     "name": "Gaiaegis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -41105,6 +41504,7 @@
       "ZJ2574"
     ],
     "name": "Blades of Rage",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -41298,6 +41698,7 @@
       "EJ2796"
     ],
     "name": "Ambrosia Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41388,6 +41789,7 @@
       "EJ2798"
     ],
     "name": "Towerclub",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41507,6 +41909,7 @@
       "EJ2800"
     ],
     "name": "Ambrosia Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41636,6 +42039,7 @@
       "EJ2802"
     ],
     "name": "Lunar Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41765,6 +42169,7 @@
       "EJ2804"
     ],
     "name": "Slabspear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41876,6 +42281,7 @@
       "EJ2806"
     ],
     "name": "Liquid Bow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -41998,6 +42404,7 @@
       "EJ2808"
     ],
     "name": "Congealed Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42115,6 +42522,7 @@
       "EJ2810"
     ],
     "name": "Splinterdarts",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42235,6 +42643,7 @@
       "EJ2814"
     ],
     "name": "Blackburned",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42416,6 +42825,7 @@
       "EJ2816"
     ],
     "name": "Lunaticape",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42511,6 +42921,7 @@
       "EJ2818"
     ],
     "name": "Spire Panoply",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42600,6 +43011,7 @@
       "EJ2820"
     ],
     "name": "Panoptic Buckler",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42718,6 +43130,7 @@
       "EJ2822"
     ],
     "name": "Trapped Moonlight",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42789,6 +43202,7 @@
       "EJ2824"
     ],
     "name": "Moonflame",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42867,6 +43281,7 @@
       "EJ2826"
     ],
     "name": "Restart Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -42912,14 +43327,6 @@
           "Fate",
           "Exhaust"
         ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
-        ]
       }
     ],
     "gatedAbilities": [
@@ -42928,7 +43335,7 @@
         "value": "5+",
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
@@ -42945,6 +43352,7 @@
       "EJ2828"
     ],
     "name": "Bloatank",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43005,6 +43413,7 @@
       "EJ2830"
     ],
     "name": "Abyss Wetsuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43096,6 +43505,7 @@
       "EJ2832"
     ],
     "name": "Babel Hardsuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43163,6 +43573,7 @@
       "EJ2834"
     ],
     "name": "Turtle Pavise",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43284,6 +43695,7 @@
       "EJ2836"
     ],
     "name": "Abyssaxe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43380,6 +43792,7 @@
       "EJ2837"
     ],
     "name": "Gutting Skewer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43515,6 +43928,7 @@
       "EJ2839"
     ],
     "name": "Shard Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43631,6 +44045,7 @@
       "EJ2841"
     ],
     "name": "Iapetus Warning System",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43694,6 +44109,7 @@
       "EJ2843"
     ],
     "name": "Water-Resistant Beacon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43785,6 +44201,7 @@
       "EJ2845"
     ],
     "name": "Argotorch",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43851,6 +44268,7 @@
       "EJ2847"
     ],
     "name": "Phos-Conductive Depthsuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43919,6 +44337,7 @@
       "EJ2849"
     ],
     "name": "Heavy Reclaimed Depthsuit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -43990,6 +44409,7 @@
       "EJ2851"
     ],
     "name": "Refractor Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44085,6 +44505,7 @@
       "EJ2853"
     ],
     "name": "Wrist Harpoon Chaser",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44152,6 +44573,7 @@
       "EJ2855"
     ],
     "name": "Eyes of the Argo",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44244,6 +44666,7 @@
       "EJ2857"
     ],
     "name": "Anxiety Regulator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44370,6 +44793,7 @@
       "EJ2859"
     ],
     "name": "Magnesium Flashbang",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44450,6 +44874,7 @@
       "EJ2861"
     ],
     "name": "Nereidan Sonar",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44539,6 +44964,7 @@
       "EJ2863"
     ],
     "name": "Aether Extinguisher",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44622,6 +45048,7 @@
       "EJ2865"
     ],
     "name": "Ambrosia Filter",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44681,6 +45108,7 @@
       "EJ2867"
     ],
     "name": "Eggtank",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44707,21 +45135,13 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
         "costs": [
           "Fate",
           "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
         ]
       },
       {
@@ -44760,6 +45180,7 @@
       "EJ2869"
     ],
     "name": "X-iphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44862,6 +45283,7 @@
       "EJ2871"
     ],
     "name": "Needleknives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -44979,6 +45401,7 @@
       "EJ2873"
     ],
     "name": "Bladedance Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45078,6 +45501,7 @@
       "EJ2875"
     ],
     "name": "Pain Fuse",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45134,6 +45558,7 @@
       "EJ2877"
     ],
     "name": "Atlantean Spada",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45254,6 +45679,7 @@
       "EJ2879"
     ],
     "name": "Oscillating Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45374,6 +45800,7 @@
       "EJ2881"
     ],
     "name": "Lightwall Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45501,6 +45928,7 @@
       "EJ2883"
     ],
     "name": "Subreme Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45623,6 +46051,7 @@
       "EJ2885"
     ],
     "name": "Skylight Breastplate",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45698,6 +46127,7 @@
       "EJ2887"
     ],
     "name": "Black Vent Camouflage",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45805,6 +46235,7 @@
       "EJ2889"
     ],
     "name": "Coral Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45910,6 +46341,7 @@
       "EJ2891"
     ],
     "name": "Anxiety Ventilator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -45953,6 +46385,7 @@
       "EJ2893"
     ],
     "name": "Atlantean Rebreather",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46012,6 +46445,7 @@
       "EJ2895"
     ],
     "name": "Portable Hardlight Generator",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46063,11 +46497,12 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Discard Place a 1x1 Lightwall Terrain tile on an adjacent space"
+            "value": "Place a 1x1 Lightwall Terrain tile on an adjacent space"
           }
         ],
         "costs": [
-          "Fate"
+          "Fate",
+          "Discard"
         ]
       }
     ]
@@ -46078,6 +46513,7 @@
       "EJ2897"
     ],
     "name": "Phos Helm",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46155,6 +46591,7 @@
       "EJ2899"
     ],
     "name": "Darklight Wiring",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46235,6 +46672,7 @@
       "EJ2901"
     ],
     "name": "Fire-Resistant Suit",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46298,6 +46736,7 @@
       "EJ2903"
     ],
     "name": "Protomachus Diving Amphora",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46387,6 +46826,7 @@
       "EJ2905"
     ],
     "name": "Infrared Module",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46474,6 +46914,7 @@
       "EJ2907"
     ],
     "name": "Eys-Onmes",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46550,6 +46991,7 @@
       "EJ2909"
     ],
     "name": "Chain Kusarigama",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46674,6 +47116,7 @@
       "EJ2911"
     ],
     "name": "Transcendance Wreath",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46740,6 +47183,7 @@
       "EJ2913"
     ],
     "name": "Penitent Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46850,6 +47294,7 @@
       "EJ2915"
     ],
     "name": "Faith Kopis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -46976,6 +47421,7 @@
       "EJ2917"
     ],
     "name": "Cowl of Shame",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47066,6 +47512,7 @@
       "EJ2919"
     ],
     "name": "Consecrated Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47197,6 +47644,7 @@
       "EJ2921"
     ],
     "name": "Illuminating Blinder",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47281,6 +47729,7 @@
       "EJ2923"
     ],
     "name": "Veristus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47405,6 +47854,7 @@
       "EJ2925"
     ],
     "name": "Olympian Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47566,6 +48016,7 @@
       "EJ2927"
     ],
     "name": "Pearlstalk Mace",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47703,6 +48154,7 @@
       "EJ2929"
     ],
     "name": "Quicksilver Bow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47857,6 +48309,7 @@
       "EJ2931"
     ],
     "name": "Squirming Knives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -47981,6 +48434,7 @@
       "EJ2933"
     ],
     "name": "Trench Khopesh",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48068,6 +48522,7 @@
       "EJ2935"
     ],
     "name": "Trench Kusarigama",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48202,6 +48657,7 @@
       "EJ2937"
     ],
     "name": "Clawhorn Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48322,6 +48778,7 @@
       "EJ2939"
     ],
     "name": "Spiral Visor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48411,6 +48868,7 @@
       "EJ2941"
     ],
     "name": "Silver Rebreather",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48481,6 +48939,7 @@
       "EJ2943"
     ],
     "name": "Ephemeral Pearl",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48554,6 +49013,7 @@
       "EJ2945"
     ],
     "name": "Silverlight Amulet",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48633,6 +49093,7 @@
       "EJ2947"
     ],
     "name": "Medusian Wavegun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48745,6 +49206,7 @@
       "EJ2949"
     ],
     "name": "Heatsword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -48876,6 +49338,7 @@
       "EJ2951"
     ],
     "name": "Fireraiser Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49006,6 +49469,7 @@
       "EJ2953"
     ],
     "name": "Infrared Signaler",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49082,6 +49546,7 @@
       "EJ2955"
     ],
     "name": "Future Spirathorax",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49154,21 +49619,13 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
         "costs": [
           "Fate",
           "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
         ]
       }
     ],
@@ -49179,11 +49636,8 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "all Ambrosia tokens"
+            "value": "Discard all Ambrosia tokens"
           }
-        ],
-        "costs": [
-          "Discard"
         ]
       }
     ]
@@ -49194,6 +49648,7 @@
       "EJ2957"
     ],
     "name": "Silverskin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49300,6 +49755,7 @@
       "EJ2958"
     ],
     "name": "Mercurial Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49423,6 +49879,7 @@
       "EJ2960"
     ],
     "name": "Moonlung",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49501,6 +49958,7 @@
       "EJ2961"
     ],
     "name": "Argocryptex Delta",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49619,6 +50077,7 @@
       "EJ2962"
     ],
     "name": "Self-Inflicted",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49767,6 +50226,7 @@
       "EJ2963"
     ],
     "name": "Light of Eos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -49893,6 +50353,7 @@
       "EJ2964"
     ],
     "name": "Eternal Vow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50024,6 +50485,7 @@
       "EJ2965"
     ],
     "name": "Will Anthropos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50162,6 +50624,7 @@
       "EJ2966"
     ],
     "name": "Claw Cracker",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50245,21 +50708,13 @@
       {
         "abilityText": [
           {
-            "type": "plainText",
+            "type": "keyword",
             "value": "Stand up"
           }
         ],
         "costs": [
           "Fate",
           "Exhaust"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You may use this ability while knocked down"
-          }
         ]
       }
     ],
@@ -50289,6 +50744,7 @@
       "EJ2967"
     ],
     "name": "Phobos Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50407,6 +50863,7 @@
       "EJ2968"
     ],
     "name": "Grinmask",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50498,6 +50955,7 @@
       "EJ2969"
     ],
     "name": "Oculus Headlamp",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50554,6 +51012,7 @@
       "EJ2970"
     ],
     "name": "Veilwrappings",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50651,6 +51110,7 @@
       "EJ2971"
     ],
     "name": "Microwave Shieldscale",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50755,6 +51215,7 @@
       "EJ2972"
     ],
     "name": "Pilfered Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50885,6 +51346,7 @@
       "EJ2973"
     ],
     "name": "Synergic Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -50998,6 +51460,7 @@
       "EJ2974"
     ],
     "name": "Iapetus Helm",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51091,6 +51554,7 @@
       "EJ2975"
     ],
     "name": "Flame-Hardened Plate",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51169,6 +51633,7 @@
       "EJ2976"
     ],
     "name": "Strungstring",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51275,6 +51740,7 @@
       "EJ2977"
     ],
     "name": "Headdress of the Deep",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51354,6 +51820,7 @@
       "EJ2978"
     ],
     "name": "Dark Exemplar",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51463,6 +51930,7 @@
       "EJ2979"
     ],
     "name": "Phobos Urumi",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51578,6 +52046,7 @@
       "EJ2980"
     ],
     "name": "Oculus Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51726,6 +52195,7 @@
       "EJ2981"
     ],
     "name": "Crown of the Trench",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51833,6 +52303,7 @@
       "EJ2983"
     ],
     "name": "Hermes Highway",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51900,6 +52371,7 @@
       "EJ2985"
     ],
     "name": "Executioner Armor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -51995,6 +52467,7 @@
       "EJ2987"
     ],
     "name": "Executioner Shortswords",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52116,6 +52589,7 @@
       "EJ2989"
     ],
     "name": "Executioner Helm",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52204,6 +52678,7 @@
       "EJ2990"
     ],
     "name": "Oculus Lighthouse",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52331,6 +52806,7 @@
       "EJ2991"
     ],
     "name": "Deadalive Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52436,65 +52912,6 @@
             "value": "MortalPowerDie"
           }
         ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reach 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Vault"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening X"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Abysswalk"
-          }
-        ],
-        "costs": [
-          "Ambrosia"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Crit Miss"
-          },
-          {
-            "type": "plainText",
-            "value": "Your highest tier Power Die becomes"
-          },
-          {
-            "type": "icon",
-            "value": "MortalPowerDie"
-          }
-        ]
       }
     ],
     "gatedAbilities": [
@@ -52515,6 +52932,7 @@
       "EJ2992"
     ],
     "name": "Typhonic Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52660,6 +53078,7 @@
       "EJ2993"
     ],
     "name": "Dodona Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52799,6 +53218,7 @@
       "EJ2994"
     ],
     "name": "Hunter Killer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -52917,6 +53337,7 @@
       "EJ2995"
     ],
     "name": "Big Boy Mazey",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -53021,6 +53442,7 @@
       "ZJ2996"
     ],
     "name": "Bow of Artemis (Generated)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -53174,6 +53596,7 @@
       "ZJ2997"
     ],
     "name": "Damocles Crown (Generated)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -53369,6 +53792,7 @@
       "ZJ2999"
     ],
     "name": "Poseidonis (Generated)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -53541,6 +53965,7 @@
       "ZJ3122"
     ],
     "name": "Pantheon (Generated)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -53722,6 +54147,7 @@
       "ZJ3001"
     ],
     "name": "Recycled Wishhoard",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -53888,6 +54314,7 @@
       "ZJ3002"
     ],
     "name": "Carpet of the Anemoi",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -53993,6 +54420,7 @@
       "ZJ3003"
     ],
     "name": "The Manticore",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -54201,6 +54629,7 @@
       "ZJ3004"
     ],
     "name": "Midas Catcher",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -54401,8 +54830,16 @@
         "value": "3+",
         "abilityText": [
           {
+            "type": "keyword",
+            "value": "Stand up"
+          },
+          {
             "type": "plainText",
-            "value": "Stand up and deflate"
+            "value": "and"
+          },
+          {
+            "type": "keyword",
+            "value": "deflate"
           }
         ],
         "costs": [
@@ -54416,6 +54853,7 @@
       "ZJ3005"
     ],
     "name": "Panopticon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -54564,6 +55002,7 @@
       "ZJ3006"
     ],
     "name": "Hermes Multitool",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -54674,6 +55113,7 @@
       "ZJ3007"
     ],
     "name": "Ephemeral Dragons",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -54890,6 +55330,7 @@
       "ZJ3008"
     ],
     "name": "The Unsleeping",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55062,6 +55503,7 @@
       "ZJ3009"
     ],
     "name": "Lyreshield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55230,6 +55672,7 @@
       "ZJ3010"
     ],
     "name": "Good Ending",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55422,6 +55865,7 @@
       "ZJ3011"
     ],
     "name": "Will of Poseidon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55640,6 +56084,7 @@
       "ZJ3012"
     ],
     "name": "Armor of Phobos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55769,6 +56214,7 @@
       "ZJ3013"
     ],
     "name": "Cleavershield of Perseus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -55946,6 +56392,7 @@
       "ZJ3014"
     ],
     "name": "Ur-Head",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -56048,6 +56495,7 @@
       "ZJ3015"
     ],
     "name": "Colchian Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -56213,6 +56661,7 @@
       "ZJ3016"
     ],
     "name": "Khalkoarmor",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -56385,6 +56834,7 @@
       "ZJ3017"
     ],
     "name": "The Pinnacle",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -56482,6 +56932,7 @@
       "ZJ3018"
     ],
     "name": "Black Fleece",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -56596,6 +57047,7 @@
       "DJ9929"
     ],
     "name": "Boreas Mask",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -56681,6 +57133,7 @@
       "DJ9930"
     ],
     "name": "Dragon Tongue Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -56796,6 +57249,7 @@
       "DJ9931"
     ],
     "name": "Nosoi Backpack",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -56904,6 +57358,7 @@
       "CJ9947"
     ],
     "name": "Discobolus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -56987,6 +57442,7 @@
       "CJ9948"
     ],
     "name": "Spiral Javelin",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -57096,6 +57552,7 @@
       "CJ9949"
     ],
     "name": "Sunset",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -57200,6 +57657,7 @@
       "CJ9950"
     ],
     "name": "Black Ice Pickaxe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -57298,6 +57756,7 @@
       "EJ9965"
     ],
     "name": "Bleeding Vulture Beak",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -57410,6 +57869,7 @@
       "EJ9966"
     ],
     "name": "Tainted Nailbone",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -57571,6 +58031,7 @@
       "CJ9970"
     ],
     "name": "Sunlight Bow",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -57730,6 +58191,7 @@
       "CJ9971"
     ],
     "name": "Primal Engine",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -57824,6 +58286,7 @@
       "BJ9972"
     ],
     "name": "Mended Humanity",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -57908,6 +58371,7 @@
       "BJ9974"
     ],
     "name": "Hoplite Aspis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -58003,6 +58467,7 @@
       "BJ9975"
     ],
     "name": "Xiphos Knives",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -58117,6 +58582,7 @@
       "BJ9976"
     ],
     "name": "Relief Hammer",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -58217,6 +58683,7 @@
       "BJ9977"
     ],
     "name": "Dory-Like Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -58306,6 +58773,7 @@
       "EJ9978"
     ],
     "name": "Ember of Guilt",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -58426,6 +58894,7 @@
       "EJ9979"
     ],
     "name": "Baleen Cloak",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -58525,6 +58994,7 @@
       "EJ9980"
     ],
     "name": "Nemesis Harpoon",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -58657,6 +59127,7 @@
       "EJ9981"
     ],
     "name": "Harpoon Ballista Gun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -58790,6 +59261,7 @@
       "AJ9983"
     ],
     "name": "MWE-4 \"Keelbow\"",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -58901,6 +59373,7 @@
       "AJ9984"
     ],
     "name": "MWE-109A \"Hermes Winch\"",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -58972,6 +59445,7 @@
       "AJ9985"
     ],
     "name": "MWE-33U \"Gardeners\"",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -59066,6 +59540,7 @@
       "AJ9987"
     ],
     "name": "MWE-33B \"Chainblade\"",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -59150,6 +59625,7 @@
       "AJ9989"
     ],
     "name": "MWE-6D \"Sharkscourge\"",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -59241,6 +59717,7 @@
       "DJ9991"
     ],
     "name": "A Head of Time",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -59328,6 +59805,7 @@
       "DJ9992"
     ],
     "name": "Doomsday Clock",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -59378,13 +59856,13 @@
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
-    "ascended": false,
+    "ascended": true,
     "abilities": [
       {
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Mnestis"
+            "value": "Ascended"
           }
         ]
       },
@@ -59399,62 +59877,61 @@
       {
         "abilityText": [
           {
-            "type": "keyword",
-            "value": "Fearless"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Midas Immune"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Ambrosia Limit +3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Start of Battle"
-          },
-          {
             "type": "plainText",
-            "value": "Gain the Wise Providence Boon and 2 Aether tokens"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "bold",
-            "value": "Authority:"
-          },
-          {
-            "type": "plainText",
-            "value": "All other Titans gain the"
+            "value": "Your Titan uses the"
           },
           {
             "type": "cardRef",
-            "value": "Knockdown (standing up)",
-            "refID": "AL0303"
+            "value": "Time's Woe Momentum",
+            "refID": ""
           },
           {
             "type": "plainText",
-            "value": "Condition card and become shaded until they stand up"
+            "value": "Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Rewind"
           }
         ],
         "costs": [
-          "Pain",
-          "Exhaust"
+          "Fate",
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may use this ability as a"
+          },
+          {
+            "type": "icon",
+            "value": "Reaction"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Reestablish your Time Anchor"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may use this ability as a free action or at the end of your turn"
+          }
         ]
       }
     ],
@@ -59465,6 +59942,7 @@
       "CJ9993"
     ],
     "name": "Damocles Weight",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -59561,6 +60039,7 @@
       "ZJ9995"
     ],
     "name": "Jump-Drift Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -59676,6 +60155,7 @@
       "ZJ9996"
     ],
     "name": "E-Drift Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -59798,6 +60278,7 @@
       "ZJ9997"
     ],
     "name": "Link-Drift Cryptex",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -59896,7 +60377,7 @@
             "value": "Reaction"
           },
           {
-            "type": "timing",
+            "type": "keyword",
             "value": "Advanced Reflex"
           }
         ],
@@ -59913,6 +60394,7 @@
       "DJ9943"
     ],
     "name": "Hands of Midas",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60039,6 +60521,7 @@
       "DJ9944"
     ],
     "name": "Alchemic Incendiaries",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60171,6 +60654,7 @@
       "DJ9945"
     ],
     "name": "Prismshield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60313,6 +60797,7 @@
       "DJ9946"
     ],
     "name": "Tusk Lance",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60432,6 +60917,7 @@
       "DJ9957"
     ],
     "name": "Sword of the Unbranded",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60550,6 +61036,7 @@
       "DJ9962"
     ],
     "name": "Nimbutrireme",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60576,6 +61063,7 @@
       "DJ9963"
     ],
     "name": "Cirrotrireme",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60658,6 +61146,7 @@
       ""
     ],
     "name": "Endjinn Metastoma",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -60735,6 +61224,7 @@
       "BJ0830"
     ],
     "name": "Temenos Scale Shield",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -60856,6 +61346,7 @@
       "BJ0830"
     ],
     "name2": "Temenos Scale Umbrella",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -60935,6 +61426,7 @@
       "BJ0840"
     ],
     "name": "Temenos Xiphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61024,6 +61516,7 @@
       "BJ0840"
     ],
     "name2": "Temenos Whip",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -61112,6 +61605,7 @@
       "BJ0861"
     ],
     "name": "Longinus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61198,6 +61692,7 @@
       "BJ0861"
     ],
     "name2": "Pseudomidion",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -61282,6 +61777,7 @@
       "BJ0884"
     ],
     "name": "Metasword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61361,6 +61857,7 @@
       "BJ0884"
     ],
     "name2": "Metabow",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -61458,6 +61955,7 @@
       "BJ0916"
     ],
     "name": "Ladder Buckler",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61557,6 +62055,7 @@
       "BJ0916"
     ],
     "name2": "Ladder Mode",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -61635,6 +62134,7 @@
       "BJ0929"
     ],
     "name": "Boom Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61742,6 +62242,7 @@
       "BJ0929"
     ],
     "name2": "Boom Pole",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -61753,7 +62254,8 @@
     "slot2": "2 Hands",
     "transformsInto2": "Boom Spear",
     "traits2": [
-      "Fire Argotech",
+      "Fire",
+      "Argotech",
       "Pole",
       "Spear"
     ],
@@ -61834,6 +62336,7 @@
       "BJ0945"
     ],
     "name": "Leg Khopesh",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -61921,6 +62424,7 @@
       "BJ0945"
     ],
     "name2": "Leg Spear",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -62036,6 +62540,7 @@
       "BJ0954"
     ],
     "name": "Umbral Virus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -62126,6 +62631,7 @@
       "BJ0954"
     ],
     "name2": "Umbral Carapace",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -62228,6 +62734,7 @@
       "BJ0957"
     ],
     "name": "Necrotic Virus",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -62321,6 +62828,7 @@
       "BJ0957"
     ],
     "name2": "Necroxiphos",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -62436,6 +62944,7 @@
       "BJ0958"
     ],
     "name": "Fumeblade (Hidden)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -62574,6 +63083,7 @@
       "BJ0958"
     ],
     "name2": "Fumeblade (Barred)",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -62714,6 +63224,7 @@
       "BJ0963"
     ],
     "name": "Voice of the People",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -62811,6 +63322,7 @@
       "BJ0963"
     ],
     "name2": "Peaceful Transition",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle II",
@@ -62891,6 +63403,7 @@
       "CJ1424"
     ],
     "name": "Exoaegis",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -62984,15 +63497,7 @@
           },
           {
             "type": "plainText",
-            "value": "("
-          },
-          {
-            "type": "icon",
-            "value": "Bleeding"
-          },
-          {
-            "type": "plainText",
-            "value": ")"
+            "value": "(Bleeding)"
           }
         ]
       }
@@ -63018,6 +63523,7 @@
       "CJ1424"
     ],
     "name2": "Razorbow",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -63138,6 +63644,7 @@
       "CJ1426"
     ],
     "name": "Sun Axe",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -63225,6 +63732,7 @@
       "CJ1426"
     ],
     "name2": "Sun Spear",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -63336,6 +63844,7 @@
       "CJ1473"
     ],
     "name": "Hammer-Sword",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -63436,6 +63945,7 @@
       "CJ1473"
     ],
     "name2": "Hidden Xiphos",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -63548,6 +64058,7 @@
       "CJ1475"
     ],
     "name": "Barbed Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -63661,6 +64172,7 @@
       "CJ1475"
     ],
     "name2": "Barbed Saw",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -63789,6 +64301,7 @@
       "CJ1511"
     ],
     "name": "Spiral Whip",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -63925,6 +64438,7 @@
       "CJ1511"
     ],
     "name2": "Spiral Buckler",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -64058,6 +64572,7 @@
       "CJ1513"
     ],
     "name": "Spiral Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -64180,6 +64695,7 @@
       "CJ1513"
     ],
     "name2": "Spiral Mace",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -64299,6 +64815,7 @@
       "CJ1516"
     ],
     "name": "Right Talon of Doom",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -64412,6 +64929,7 @@
       "CJ1516"
     ],
     "name2": "Icarian Katar",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -64521,6 +65039,7 @@
       "CJ1517"
     ],
     "name": "Searing Pillar",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -64634,6 +65153,7 @@
       "CJ1517"
     ],
     "name2": "Spherecast",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle III",
@@ -64757,6 +65277,7 @@
       "ZJ1840"
     ],
     "name": "Atlantean Gun",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
@@ -64916,6 +65437,7 @@
       "ZJ1840"
     ],
     "name2": "Atlantean Lance",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Mnestis Theatre",
@@ -65074,6 +65596,7 @@
       "DJ2228"
     ],
     "name": "Suntanned Fists",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -65133,6 +65656,7 @@
       "DJ2228"
     ],
     "name2": "Stock Cryptex",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle IV",
@@ -65198,6 +65722,7 @@
       "DJ2298"
     ],
     "name": "Phantom Spear",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -65317,6 +65842,7 @@
       "DJ2298"
     ],
     "name2": "Phantom Spear (Strikeback)",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle IV",
@@ -65430,6 +65956,7 @@
       "DJ2364"
     ],
     "name": "Dahaka Blade",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -65572,6 +66099,7 @@
       "DJ2364"
     ],
     "name2": "Dahaka Blade (Blindspot/Cloud)",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle IV",
@@ -65727,6 +66255,7 @@
       "DJ2386"
     ],
     "name": "Lesser Saphos",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -65862,6 +66391,7 @@
       "DJ2386"
     ],
     "name2": "Greater Saphos",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle IV",
@@ -65971,6 +66501,7 @@
       "ZJ2998"
     ],
     "name": "Atlantean Gun (Generated)",
+    "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -66126,6 +66657,7 @@
       "ZJ2998"
     ],
     "name2": "Atlantean Lance (Generated)",
+    "renderType2": "Gear",
     "cardType2": "Gear",
     "game2": "Odyssey",
     "cycle2": "Cycle V",

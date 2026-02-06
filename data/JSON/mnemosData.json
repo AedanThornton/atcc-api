@@ -4,6 +4,7 @@
       "AG0134"
     ],
     "name": "Siren Survivor",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -95,6 +96,7 @@
       "AG0135"
     ],
     "name": "Someone Waiting",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -112,20 +114,12 @@
         {
           "abilityText": [
             {
-              "type": "plainText",
+              "type": "keyword",
               "value": "Stand up"
             }
           ],
           "costs": [
             "Exhaust"
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "You can use this ability while knocked down"
-            }
           ]
         }
       ],
@@ -136,7 +130,11 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "Another Titan may stand up"
+              "value": "Another Titan may"
+            },
+            {
+              "type": "keyword",
+              "value": "Stand up"
             }
           ],
           "costs": [
@@ -175,6 +173,7 @@
       "AG0136"
     ],
     "name": "A Dream You Hold",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -240,6 +239,7 @@
       "AG0137"
     ],
     "name": "Family Feud",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -308,6 +308,7 @@
       "AG0138"
     ],
     "name": "Imprisonment",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -366,6 +367,7 @@
       "AG0139"
     ],
     "name": "Haunted",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -427,6 +429,7 @@
       "AG0140"
     ],
     "name": "A Broken Promise",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -493,6 +496,7 @@
       "AG0141"
     ],
     "name": "A Night To Remember",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -575,6 +579,7 @@
       "AG0142"
     ],
     "name": "Death Follows",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -666,6 +671,7 @@
       "AG0143"
     ],
     "name": "Minoan Heritage",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -805,6 +811,7 @@
       "AG0144"
     ],
     "name": "Blood On Your Hands",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -923,6 +930,7 @@
       "AG0145"
     ],
     "name": "A Familiar Curse",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -995,6 +1003,7 @@
       "AG0146"
     ],
     "name": "Curse Of The Gods",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1085,6 +1094,7 @@
       "BG0645"
     ],
     "name": "Runt Of The Litter",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1164,6 +1174,7 @@
       "BG0646"
     ],
     "name": "M\u00e9salliance",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1229,6 +1240,7 @@
       "BG0647"
     ],
     "name": "Left For Dead",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1305,6 +1317,7 @@
       "BG0648"
     ],
     "name": "Spewed By The Abyss",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1375,6 +1388,7 @@
       "BG0649"
     ],
     "name": "Coward's Way",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1467,6 +1481,7 @@
       "BG0650"
     ],
     "name": "Castoff",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1522,7 +1537,15 @@
             },
             {
               "type": "plainText",
-              "value": ", +1 Precision and Auto-break 1 until the end of your turn"
+              "value": ", +1 Precision and"
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            },
+            {
+              "type": "plainText",
+              "value": "until the end of your turn"
             }
           ]
         }
@@ -1556,6 +1579,7 @@
       "BG0651"
     ],
     "name": "Death Precedes",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1626,6 +1650,7 @@
       "BG0652"
     ],
     "name": "Forbidden Love",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1693,6 +1718,7 @@
       "BG0653"
     ],
     "name": "Scorned Champion",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1765,6 +1791,7 @@
       "CG1270"
     ],
     "name": "A Fall From Eden",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -1832,6 +1859,7 @@
       "CG1271"
     ],
     "name": "Unearned Life",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -1903,6 +1931,7 @@
       "CG1272"
     ],
     "name": "Life Of Regret",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -1979,6 +2008,7 @@
       "CG1273"
     ],
     "name": "Time-Crossed Lovers",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2049,6 +2079,7 @@
       "CG1274"
     ],
     "name": "Timekeeper's Child",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2127,6 +2158,7 @@
       "CG1275"
     ],
     "name": "Disgraceful Parent",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2195,6 +2227,7 @@
       "CG1276"
     ],
     "name": "Hero By Mistake",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2276,6 +2309,7 @@
       "CG1277"
     ],
     "name": "The Returned",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2351,6 +2385,7 @@
       "DG2054"
     ],
     "name": "Seed of Paradise",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2430,6 +2465,7 @@
       "DG2055"
     ],
     "name": "The Third Wish",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2538,6 +2574,7 @@
       "DG2056"
     ],
     "name": "The Beggar and the Prince",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2605,6 +2642,7 @@
       "DG2057"
     ],
     "name": "Updraft",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2676,6 +2714,7 @@
       "DG2058"
     ],
     "name": "Peddler of Misery",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2754,6 +2793,7 @@
       "DG2059"
     ],
     "name": "Too Big to Fail",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2829,6 +2869,7 @@
       "DG2060"
     ],
     "name": "The Thousandth Night",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -2934,6 +2975,7 @@
       "DG2061"
     ],
     "name": "The Mule",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -3010,6 +3052,7 @@
       "EG2640"
     ],
     "name": "Vanishing Point",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3090,6 +3133,7 @@
       "EG2641"
     ],
     "name": "In Your Image",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3160,6 +3204,7 @@
       "EG2642"
     ],
     "name": "Shelter",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3228,6 +3273,7 @@
       "EG2643"
     ],
     "name": "Dogma",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3275,7 +3321,7 @@
       ],
       [
         {
-          "gate": "Dagner",
+          "gate": "Danger",
           "value": "8+",
           "abilityText": [
             {
@@ -3300,6 +3346,7 @@
       "EG2644"
     ],
     "name": "Last Crusader",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3377,6 +3424,7 @@
       "EG2645"
     ],
     "name": "Words and Deeds",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3488,6 +3536,7 @@
       "EG2646"
     ],
     "name": "Twilight",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -3577,6 +3626,7 @@
       "EG2647"
     ],
     "name": "He Spoke the Truth",
+    "renderType": "Mnemos",
     "cardType": "Mnemos",
     "game": "Odyssey",
     "cycle": "Cycle V",

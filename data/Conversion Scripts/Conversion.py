@@ -14,7 +14,8 @@ def default_row(row):
     card_json = {
         "cardIDs": row["Card ID"].split(", "),
         "name": row["Name"],
-        "cardType": row["Card Type"],
+        "renderType": row["Render Type"],
+        "cardType": row["Card Type"] if "Card Type" in row else row["Render Type"],
         "game": row["Game"],
         "cycle": row["Cycle"],
         "cardSize": row["Card Size"],

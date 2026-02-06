@@ -4,6 +4,7 @@
       "AD0120"
     ],
     "name": "The Absent Rule",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -280,6 +281,7 @@
       "AD0121"
     ],
     "name": "A Fateful Randezvous",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -492,6 +494,7 @@
       "AD0122"
     ],
     "name": "A Phantom Thread",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -754,6 +757,7 @@
       "AD0123"
     ],
     "name": "Unappealable Egress",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1012,6 +1016,7 @@
       "AD0124"
     ],
     "name": "Inward Odyssey: Truth Of The Labyrinth",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle I",
@@ -1083,7 +1088,7 @@
             },
             {
               "type": "plainText",
-              "value": "23: Glitch in the Engine"
+              "value": "3: Glitch in the Engine"
             },
             {
               "type": "newline"
@@ -1268,6 +1273,7 @@
       "BD0631"
     ],
     "name": "A Nietzschean Welcome",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1434,6 +1440,7 @@
       "BD0632"
     ],
     "name": "To Win The War",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1751,6 +1758,7 @@
       "BD0633"
     ],
     "name": "Argophylae",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -1929,6 +1937,7 @@
       "BD0634"
     ],
     "name": "Stand Together",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2364,6 +2373,7 @@
       "BD0635"
     ],
     "name": "Inward Odyssey: Abysswatchers",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle II",
@@ -2619,6 +2629,7 @@
       "CD1257"
     ],
     "name": "Icarus's Plea",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -2840,6 +2851,7 @@
       "CD1258"
     ],
     "name": "To Those Long Dead",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -3085,6 +3097,7 @@
       "CD1259"
     ],
     "name": "Box Of Black",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -3463,6 +3476,7 @@
       "CD1850"
     ],
     "name": "Trespassing",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -3714,6 +3728,7 @@
       "CD1851"
     ],
     "name": "Inward Odyssey: Pitiless Of The Sun",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle III",
@@ -3969,6 +3984,7 @@
       "DD2079"
     ],
     "name": "Law of Bargains",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -4320,6 +4336,7 @@
       "DD2080"
     ],
     "name": "Splendor That Beggars Belief",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -4579,6 +4596,7 @@
       "DD2081"
     ],
     "name": "The Rope Sellers",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -4855,6 +4873,7 @@
       "DD2082"
     ],
     "name": "A Mortal's Reach",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -4933,11 +4952,7 @@
             {
               "type": "bold",
               "value": "Immediately: See 3300"
-            }
-          ]
-        },
-        {
-          "abilityText": [
+            },
             {
               "type": "newline"
             },
@@ -4971,6 +4986,7 @@
       "DD2568"
     ],
     "name": "Inward Odyssey: Gardens of Infinite Growth",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle IV",
@@ -5226,6 +5242,7 @@
       "ED2657"
     ],
     "name": "What Remains?",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -5501,6 +5518,7 @@
       "ED2658"
     ],
     "name": "The Enemy of My Enemy",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -5638,6 +5656,7 @@
       "ED2659"
     ],
     "name": "Quietly Into the Night",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -5670,11 +5689,7 @@
             {
               "type": "bold",
               "value": "Immediately: see 1399"
-            }
-          ]
-        },
-        {
-          "abilityText": [
+            },
             {
               "type": "newline"
             },
@@ -5944,6 +5959,7 @@
       "ED2660"
     ],
     "name": "The Sleep of Reason",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -6231,6 +6247,7 @@
       "ED2662"
     ],
     "name": "Inward Odyssey: Truthsayer",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
@@ -6493,6 +6510,7 @@
       "ED2661"
     ],
     "name": "Have it",
+    "renderType": "Story",
     "cardType": "Story",
     "game": "Odyssey",
     "cycle": "Cycle V",
