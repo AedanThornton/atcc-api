@@ -20,6 +20,9 @@ def argoAbility_row(row):
         "trireme": row["Trireme"],
     }
 
+    if row["Tech Sub-Type"]:
+        card_json["cardType"] = row["Tech Sub-Type"]
+
     return card_json
 
 def BP_row(row):
@@ -473,6 +476,9 @@ def productionFacility_row(row):
         "recipes": parse_recipes(row["Recipes"]),
     }
 
+    if row["Tech Sub-Type"]:
+        card_json["cardType"] = row["Tech Sub-Type"]
+
     return card_json
 
 def story_row(row):
@@ -501,6 +507,11 @@ def structural_row(row):
         "flavorTech": row["Flavor (Tech)"],
         "abilities": parse_abilities_block(row["Abilities"]),
     }
+
+    if row["Tech Sub-Type"]:
+        card_json["cardType"] = row["Tech Sub-Type"]
+    elif row["Tech Type"]:
+        card_json["cardType"] = row["Tech Type"]
 
     return card_json
 

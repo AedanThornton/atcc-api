@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { parseSearch } = require("./lib/SearchParser");
 const { sortCards } = require("./lib/CardSort");
+const { convertTypesToTree } = require("./lib/cardTypesTree");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -130,7 +131,7 @@ app.get('/api/cards', (req, res) => {
 app.get('/api/filter-options', (req, res) => {
   try {
     // Calculate unique values from the already loaded allCards array
-    const cardTypes = [...new Set(allCards.map(card => card.cardType).filter(Boolean))].sort().filter(type => (type !== "AI | BP" && type !== "Sig | Rout"));
+    const cardTypes = convertTypesToTree([...new Set(allCards.map(card => card.cardType).filter(Boolean).filter(type => (type !== "AI | BP" && type !== "Sig | Rout")))].sort());
     const cycles = [...new Set(allCards.map(card => card.cycle).filter(Boolean))].sort();
     const cardSizes = [...new Set(allCards.map(card => card.cardSize).filter(Boolean))].sort();
     const foundIns = ["Regular", ...new Set(allCards.map(card => card.foundIn).filter((foundIn) => typeof foundIn === "string" && (foundIn !== ' ')))];
