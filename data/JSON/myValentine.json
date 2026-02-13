@@ -1,0 +1,261 @@
+[
+  {
+    "cardIDs": [
+      "AE1289"
+    ],
+    "name": "A Story in the Making",
+    "renderType": "Mnemos",
+    "cardType": "Valentine",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "secrets": [
+      "There is nothing I find hotter than your desire"
+    ],
+    "flavor": "Writing ours together has been my life's greatest blessing",
+    "traits": [
+      "Voyage",
+      "Dream",
+      "Family"
+    ],
+    "abilities": [
+      [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "I could tell very early in our relationship that it was going to be something special, that you were something special in a way that I was unaware of previously."
+            },
+            {
+              "type": "plainText",
+              "value": "I was immediately in a space of safety, comfort, and belonging, a space that I graciously continue to be in, a space that we get to share together"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Fate",
+          "value": "3+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Even now that we've settled into a regular routine, I still long to be with you and I am immensely grateful that I get to love you every day."
+            },
+            {
+              "type": "plainText",
+              "value": "You bring me a stable peace and joy, and I rejoice in getting to do life with you"
+            }
+          ],
+          "costs": [
+            "Exhaust"
+          ]
+        }
+      ],
+      [
+        {
+          "gate": "Fate",
+          "value": "4+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "And our future, which I've come to love to think about, has some marvelous things on the horizon."
+            },
+            {
+              "type": "plainText",
+              "value": "We'll (hopefully) have a house soon, and after that... well, I'd like to make you mine forever, because home is incomplete without you there"
+            }
+          ],
+          "costs": [
+            "Fate"
+          ]
+        }
+      ]
+    ],
+    "stats": [
+      "Love",
+      "Hope"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AE1289"
+    ],
+    "name": "Learning and Building",
+    "renderType": "Fated Mnemos",
+    "cardType": "Valentine",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "The person I've become because of you is better than he was before, more aware, more worldly, more caring. I don't think I could adequately express the depth of my appreciation for you in a single paragraph, page, or letter. You have changed me irrevocably, and I thank you for it",
+    "errata": "I hope that we continue to push each other and bring out the best in each other",
+    "flavor": "Our forging of each other is apparent and brings with it a strong sense of fulfillment",
+    "secrets": [
+      "I don't think I have kissed enough of you",
+      "It is very difficult to keep my thoughts clean around you. You make me want to make you feel things you've never felt and worship you as the powerful woman that you are"
+    ],
+    "traits": [
+      "Life",
+      "Future",
+      "Home"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "I love how we work together. I know we (mostly I) struggle to make it feel like teamwork, but when it does it feels amazing and worth striving for"
+        }
+      ]
+    },
+    "growthName": "Companionship",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "Sharing the"
+        },
+        {
+          "type": "icon",
+          "value": "Burden"
+        },
+        {
+          "type": "plainText",
+          "value": "and growing together into a place where we both thrive in love and the world. I'd like to make that our reality"
+        }
+      ]
+    },
+    "stats": [
+      "Effort"
+    ]
+  },
+  {
+    "cardIDs": [
+      "AE1289"
+    ],
+    "name": "Silly Goosin'",
+    "renderType": "Attack",
+    "cardType": "Valentine",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "faq": "",
+    "errata": "",
+    "secrets": [
+      "Netflix and Dice+Difficulty?"
+    ],
+    "usedFor": "The Goose",
+    "flavor": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "From one goose to another"
+          }
+        ]
+      }
+    ],
+    "level": "III",
+    "targeting": [
+      {
+        "type": "Target:",
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "plainText",
+                "value": "Cutest in sight"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Target:",
+        "target": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Cutie booty boo"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "preActionWoO": true,
+    "moveType": "Move",
+    "moveLocation": null,
+    "attackType": [
+      "Affection"
+    ],
+    "attackDiagram": [
+      "WWWWWWWWWRRRWRRRWWWWWWWWW",
+      "WWWWWWWWRRRRRRRRRWWWWWWWW",
+      "WWWWWWWWRRRRRRRRRWWWWWWWW",
+      "WWWWWWWWWRRRRRRRWWWWWWWWW",
+      "WWWWWWWWWWRRRRRWWWWWWWWWW",
+      "WWWWWWWWWWWRRRWWWWWWWWWWW",
+      "WWWWWWWWWWWWRWWWWWWWWWWWW"
+    ],
+    "dice": "6",
+    "difficulty": "9",
+    "consequences": [
+      {
+        "banner": false,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You are so beautiful and I see how much work you are putting into yourself to make that so."
+              },
+              {
+                "type": "plainText",
+                "value": "You look fine as fuck--your fitness, your self-care, your self-made outfits--impeccable, an icon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may say I have a nicer face, but you are blowing me (and most people imo) out of the water in every other regard. You are stunning"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "banner": false,
+        "WoO": true,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "(And don't mistake me, you have a very nice face)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

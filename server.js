@@ -91,6 +91,16 @@ app.get('/api/cards', (req, res) => {
 
   if (filters.cardType.includes("Attack") || filters.cardType.includes("BP")) filters.cardType = [...filters.cardType, "AI | BP", "Sig | Rout"]
 
+
+  if (searchInput === "id:AE1289" || searchInput === "id: AE1289") {
+    filteredCards = filteredCards.filter((card) => {
+      if (card.cardIDs[0] === "AE1289") return true;
+      return false
+    })
+    res.json({cards: filteredCards, currentPage: 1, totalCards: 3, totalPages: 1, perPageLimit: 30})
+    return
+  }
+
   // --- Apply Filters ---
   filteredCards = filteredCards.filter((card) => {
     if (req.query.cardType === "" || req.query.cycle === "" || req.query.cardSize === "") return false
@@ -102,6 +112,8 @@ app.get('/api/cards', (req, res) => {
     if (filters.cycle.length > 0 && !filters.cycle.includes(card.cycle)) return false;
     if (filters.cardSize.length > 0 && !filters.cardSize.includes(card.cardSize)) return false;
     if (filters.foundIn.length > 0 && !filters.foundIn.includes((card.foundIn === undefined || card.foundIn === "") ? "Regular" : card.foundIn)) return false;
+
+    if (card.cardIDs[0] === "AE1289") return false;
 
     return true
   });
@@ -131,7 +143,11 @@ app.get('/api/cards', (req, res) => {
 app.get('/api/filter-options', (req, res) => {
   try {
     // Calculate unique values from the already loaded allCards array
-    const cardTypes = convertTypesToTree([...new Set(allCards.map(card => card.cardType).filter(Boolean).filter(type => (type !== "AI | BP" && type !== "Sig | Rout")))].sort());
+    const cardTypes = convertTypesToTree([...new Set(allCards.map(card => card.cardType).filter(Boolean).filter(type => (
+                                                                                                                      type !== "AI | BP" && 
+                                                                                                                      type !== "Sig | Rout" && 
+                                                                                                                      type !== "Valentine"
+                                                                                                                    )))].sort());
     const cycles = [...new Set(allCards.map(card => card.cycle).filter(Boolean))].sort();
     const cardSizes = [...new Set(allCards.map(card => card.cardSize).filter(Boolean))].sort();
     const foundIns = ["Regular", ...new Set(allCards.map(card => card.foundIn).filter((foundIn) => typeof foundIn === "string" && (foundIn !== ' ')))];
