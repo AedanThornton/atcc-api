@@ -289,8 +289,9 @@ def pattern_row(row):
     abilites, gated_abilities = parse_abilities(row["Ability"])
     
     card_json = {
+        "flavor": row["Flavor"],
         "patternType": table_type,
-        "patternTrait": row["Trait"],
+        "traits": [table_type] + row["Trait"].split(", "),
         "kratosTable": kratos_table,
         "traumaTable": trauma_table,
         "abilities": abilites,
