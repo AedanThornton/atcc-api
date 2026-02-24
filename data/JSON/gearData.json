@@ -12254,12 +12254,8 @@
             "value": "Motivate 1"
           }
         ]
-      }
-    ],
-    "gatedAbilities": [
+      },
       {
-        "gate": "Danger",
-        "value": "5+",
         "abilityText": [
           {
             "type": "plainText",
@@ -12272,7 +12268,15 @@
           {
             "type": "plainText",
             "value": "is dealt to you, place 1 Opening or 1 Break token in the Kratos Pool"
-          },
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilityText": [
           {
             "type": "plainText",
             "value": "Place 2 tokens instead"
@@ -29074,17 +29078,64 @@
     "faq": "",
     "errata": "",
     "acquisition": "Other",
-    "flavor": "",
+    "flavor": "Those who have endured the maze and found their way home share a kinship",
     "slot": "Attachment",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Labyrinth",
+      "Stone",
+      "Badge",
+      "Primordial"
+    ],
     "offensiveStatistics": {},
-    "defensiveStatistics": [],
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Despair"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
-    "unique": false,
+    "unique": true,
     "ascended": false,
-    "abilities": [],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Badge"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan Attachment"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail"
+          },
+          {
+            "type": "plainText",
+            "value": "Discard this card and place a Z Labyrinth tile under your Titan"
+          }
+        ]
+      }
+    ],
     "gatedAbilities": []
   },
   {
@@ -60403,7 +60454,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "Greed is an infectious disease of the mind--but it spreads quickest through direct contact",
     "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
@@ -60530,7 +60581,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "Once, the artificeries of Persia could produce true wonders",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -60663,7 +60714,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "Sand to silica, such terrible power",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -60806,7 +60857,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "All that remains of the Great Woodland Mastodon",
     "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
@@ -60926,7 +60977,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crit Loot",
-    "flavor": "",
+    "flavor": "Made for the Baktrian campaigns",
     "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
@@ -60955,7 +61006,12 @@
         }
       ]
     },
-    "defensiveStatistics": [],
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": true,
@@ -61045,17 +61101,99 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "The fastest trireme in the Four Winds",
     "slot": "Support",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Wood",
+      "Flesh",
+      "Primordial",
+      "Flammable",
+      "Windcurse",
+      "Trireme"
+    ],
     "offensiveStatistics": {},
-    "defensiveStatistics": [],
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Energy"
+      }
+    ],
     "asteriskEffect": null,
     "wished": false,
     "unique": false,
     "ascended": false,
-    "abilities": [],
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unqiue"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "+1"
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore Chasms"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot perform Hermes Moves"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you suffer Crash, discard this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Rearm:"
+          },
+          {
+            "type": "plainText",
+            "value": "Equip any 1 Weapon"
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "plainText",
+            "value": "card from the Armory"
+          }
+        ],
+        "costs": [
+          "Energy",
+          "Fate",
+          "Fate"
+        ]
+      }
+    ],
     "gatedAbilities": []
   },
   {
@@ -61072,7 +61210,7 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crafting",
-    "flavor": "",
+    "flavor": "Such beautiful sights, even if in desolation",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -61143,7 +61281,7 @@
   },
   {
     "cardIDs": [
-      ""
+      "DJ9956"
     ],
     "name": "Endjinn Metastoma",
     "renderType": "Gear",
@@ -61155,10 +61293,15 @@
     "faq": "",
     "errata": "",
     "acquisition": "Crit Loot",
-    "flavor": "",
+    "flavor": "This Persian club comes with a twist",
     "slot": "2 Hands",
     "transformsInto": null,
-    "traits": [],
+    "traits": [
+      "Primordial",
+      "Flesh",
+      "Djinn",
+      "Club"
+    ],
     "offensiveStatistics": {
       "attackDice": "6",
       "precision": "+0",
@@ -61214,9 +61357,39 @@
         "costs": [
           "Fate"
         ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Each Miss"
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
       }
     ],
-    "gatedAbilities": []
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "keyword",
+            "value": "AI Suppress"
+          }
+        ],
+        "costs": [
+          "Exhaust"
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [

@@ -4234,7 +4234,7 @@
   },
   {
     "cardIDs": [
-      ""
+      "ZM9964"
     ],
     "name": "Windswept",
     "renderType": "Trauma",
@@ -4247,11 +4247,47 @@
     "errata": "",
     "flavor": "",
     "subtype": "Major",
-    "effects": [],
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you're in Cycle IV, add this card to the Trauma deck (only for the duration of Battles!)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "plainText",
+            "value": "Immediately perform a"
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          },
+          {
+            "type": "plainText",
+            "value": ", ignoring Obstacle Terrain tiles"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot end your move on an Obstacle"
+          }
+        ]
+      }
+    ],
     "isCondition": "",
     "arrow": "",
-    "number": "",
-    "sign": ""
+    "number": "0",
+    "sign": "+"
   },
   {
     "cardIDs": [
