@@ -66,16 +66,22 @@ def condition_row(row):
     }
 
     if row["Abilities A"]: 
-        card_json["side"]["abilities"] = {
-            "title": row["Abilities A"].split(": ")[0],
-            "effects": parse_abilities(row["Abilities A"].split(": ")[1])[0]
-        }
+        abilities = []
+        for ability in row["Abilities A"].split("; "):
+            abilities.append({
+                "title": ability.split(": ")[0],
+                "effects": parse_abilities(ability.split(": ")[1])[0]
+            })
+        card_json["side"]["abilities"] = abilities
 
     if row["Abilities B"]: 
-        card_json["side2"]["abilities"] = {
-            "title": row["Abilities B"].split(": ")[0],
-            "effects": parse_abilities(row["Abilities B"].split(": ")[1])[0]
-        }
+        abilities = []
+        for ability in row["Abilities B"].split("; "):
+            abilities.append({
+                "title": ability.split(": ")[0],
+                "effects": parse_abilities(ability.split(": ")[1])[0]
+            })
+        card_json["side2"]["abilities"] = abilities
 
     if not card_json["subtitle"]: card_json.pop("subtitle")
     if not card_json["subtitle2"]: card_json.pop("subtitle2")

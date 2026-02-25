@@ -34,19 +34,21 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Face Your Fear",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you deal a Wound, discard this Condition card and gain 1 positive Precision token"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Face Your Fear",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, discard this Condition card and gain 1 positive Precision token"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
@@ -76,19 +78,21 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Face Your Fear",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Face Your Fear",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, discard this Condition card and gain 2 positive Precision tokens"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -181,19 +185,21 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Stand Up",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Put your miniature in the normal position and discard this card"
-              }
-            ]
-          }
-        ]
-      }
+      "abilities": [
+        {
+          "title": "Stand Up",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Put your miniature in the normal position and discard this card"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -247,43 +253,45 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Snap Out",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "Start of your turn"
-              },
-              {
-                "type": "plainText",
-                "value": "You may test Endurance ("
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "plainText",
-                "value": "+)"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "bold",
-                "value": "Success:"
-              },
-              {
-                "type": "plainText",
-                "value": "Discard this card"
-              }
-            ]
-          }
-        ]
-      }
+      "abilities": [
+        {
+          "title": "Snap Out",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "Start of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "You may test Endurance ("
+                },
+                {
+                  "type": "icon",
+                  "value": "Danger"
+                },
+                {
+                  "type": "plainText",
+                  "value": "+)"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "bold",
+                  "value": "Success:"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Discard this card"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "side2": {
       "effect": []
@@ -332,23 +340,25 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Calm Down",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "End of your turn"
-              },
-              {
-                "type": "plainText",
-                "value": "If you did not attack this turn, discard this card and gain 1 positive Precision token"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Calm Down",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "End of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "If you did not attack this turn, discard this card and gain 1 positive Precision token"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
@@ -378,23 +388,25 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Calm Down",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "End of your turn"
-              },
-              {
-                "type": "plainText",
-                "value": "If you did not attack this turn, discard this card and gain 2 positive Precision tokens"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Calm Down",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "End of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "If you did not attack this turn, discard this card and gain 2 positive Precision tokens"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -718,27 +730,67 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Bleeding Limit 4",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "If there are 0 Bleeding tokens on this card, discard it"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "If Bleeding tokens on this card exceed your Bleeding Limit (default 4), you die; Stop Bleeding"
-              }
-            ]
-          }
-        ]
-      }
+      "abilities": [
+        {
+          "title": "Bleeding Limit 4",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If there are 0 Bleeding tokens on this card, discard it"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If Bleeding tokens on this card exceed your Bleeding Limit (default 4), you die"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stop Bleeding",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "icon",
+                  "value": "MovementAction"
+                },
+                {
+                  "type": "plainText",
+                  "value": "or"
+                },
+                {
+                  "type": "icon",
+                  "value": "CombatAction"
+                },
+                {
+                  "type": "plainText",
+                  "value": "to discard up to 2 Bleeding tokens from yourself"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stop Bleeding Other",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "As a free action, discard up to 2 Bleeding tokens from an adjacent Titan"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "side2": {
       "effect": []
@@ -843,27 +895,29 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Defy Fate",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "Start of your turn"
-              },
-              {
-                "type": "plainText",
-                "value": "You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1"
-              },
-              {
-                "type": "icon",
-                "value": "Fate"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Defy Fate",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "Start of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1"
+                },
+                {
+                  "type": "icon",
+                  "value": "Fate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
@@ -909,27 +963,29 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Defy Fate",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "Start of your turn"
-              },
-              {
-                "type": "plainText",
-                "value": "You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2"
-              },
-              {
-                "type": "icon",
-                "value": "Fate"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Defy Fate",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "timing",
+                  "value": "Start of your turn"
+                },
+                {
+                  "type": "plainText",
+                  "value": "You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2"
+                },
+                {
+                  "type": "icon",
+                  "value": "Fate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -1022,27 +1078,29 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Arrive",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Place your miniature on your Time Anchor and discard this card"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "If your Time Anchor is not on the Board at the moment of arrival, you are erased from existence instead"
-              }
-            ]
-          }
-        ]
-      }
+      "abilities": [
+        {
+          "title": "Arrive",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Place your miniature on your Time Anchor and discard this card"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If your Time Anchor is not on the Board at the moment of arrival, you are erased from existence instead"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1122,28 +1180,30 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Giveaway",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Enriched",
-                "refID": "DL2015"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card and 1 positive Precision token"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Giveaway",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Enriched",
+                  "refID": "DL2015"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card and 1 positive Precision token"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
@@ -1181,28 +1241,30 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Giveaway",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Enlightened",
-                "refID": "DL2015"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card and 2 positive Precision tokens"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Giveaway",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Enlightened",
+                  "refID": "DL2015"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card and 2 positive Precision tokens"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -1261,52 +1323,54 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "What you wish for",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "During your turn, you may choose for the Primordial to immediately perform Signature against you"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "You cannot gain the"
-              },
-              {
-                "type": "italics",
-                "value": "Wishkeen"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card from this Signature"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "If you survive the Attack, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Enriched",
-                "refID": "DL2015"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card and 1 positive Precision token"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "What you wish for",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During your turn, you may choose for the Primordial to immediately perform Signature against you"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot gain the"
+                },
+                {
+                  "type": "italics",
+                  "value": "Wishkeen"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card from this Signature"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If you survive the Attack, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Enriched",
+                  "refID": "DL2015"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card and 1 positive Precision token"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     },
     "side2": {
@@ -1348,60 +1412,62 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "What you wish for",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "During your turn, you may choose for the Primordial to immediately perform an AI card against you"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "You cannot gain the"
-              },
-              {
-                "type": "italics",
-                "value": "Wishkeen"
-              },
-              {
-                "type": "plainText",
-                "value": "or"
-              },
-              {
-                "type": "italics",
-                "value": "Wishagog"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card from this Attack"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "If you survive the Attack, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Enlightened",
-                "refID": "DL2015"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card and 3 positive Precision tokens"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "What you wish for",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "During your turn, you may choose for the Primordial to immediately perform an AI card against you"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "You cannot gain the"
+                },
+                {
+                  "type": "italics",
+                  "value": "Wishkeen"
+                },
+                {
+                  "type": "plainText",
+                  "value": "or"
+                },
+                {
+                  "type": "italics",
+                  "value": "Wishagog"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card from this Attack"
+                }
+              ]
+            },
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "If you survive the Attack, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Enlightened",
+                  "refID": "DL2015"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card and 3 positive Precision tokens"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, draw a Fated Mnemos card"
     }
   },
@@ -1619,19 +1685,21 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Deflate",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Put your miniature in the normal position and discard this card"
-              }
-            ]
-          }
-        ]
-      }
+      "abilities": [
+        {
+          "title": "Deflate",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "Put your miniature in the normal position and discard this card"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1693,28 +1761,30 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Calm as the Sea",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you deal a Wound, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Bravery",
-                "refID": "EL2600"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Calm as the Sea",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Bravery",
+                  "refID": "EL2600"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
     },
     "side2": {
@@ -1768,28 +1838,30 @@
           ]
         }
       ],
-      "abilities": {
-        "title": "Calm as the Sea",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you deal a Wound, discard this Condition card and gain the"
-              },
-              {
-                "type": "cardRef",
-                "value": "Bravery",
-                "refID": "EL2600"
-              },
-              {
-                "type": "plainText",
-                "value": "Condition card"
-              }
-            ]
-          }
-        ]
-      },
+      "abilities": [
+        {
+          "title": "Calm as the Sea",
+          "effects": [
+            {
+              "abilityText": [
+                {
+                  "type": "plainText",
+                  "value": "When you deal a Wound, discard this Condition card and gain the"
+                },
+                {
+                  "type": "cardRef",
+                  "value": "Bravery",
+                  "refID": "EL2600"
+                },
+                {
+                  "type": "plainText",
+                  "value": "Condition card"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "endOfBattle": "If you still have this Condition card, do not discard it during the Battle Aftermath"
     }
   },
