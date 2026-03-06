@@ -24,8 +24,16 @@
           "value": "During the Trauma Draw, treat your"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Danger"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -39,6 +47,10 @@
         {
           "type": "plainText",
           "value": "If you fully evade an attack, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -84,6 +96,10 @@
           "value": "If you start and end your turn adjacent to a Titan, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -118,8 +134,16 @@
           "value": "Start of your turn"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "If you're more than 5 spaces from all other Titans, gain +2"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -135,8 +159,16 @@
           "value": "Start of your turn"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "If all Titans are within 4 spaces of you, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -182,6 +214,10 @@
           "value": "If you take your turn last during the Titan Round, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -223,6 +259,10 @@
         {
           "type": "plainText",
           "value": "When you are about to attack, if there are 3+ Opening tokens in the Kratos Pool, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -268,6 +308,10 @@
           "value": "If you take your turn first during the Titan Round, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -309,6 +353,10 @@
         {
           "type": "plainText",
           "value": "When you are about to attack, if you are on a Rear space, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -354,8 +402,16 @@
           "value": "End of your turn"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "If you did not attack this turn, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -401,6 +457,10 @@
           "value": "When you are about to attack, if the Kratos Pool is empty, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -444,6 +504,10 @@
           "value": "When you fail a test, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -478,13 +542,25 @@
           "value": "Start of Battle"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "Gain the"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "cardRef",
           "value": "Marked for Death",
           "refID": "AM0323"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -498,6 +574,10 @@
         {
           "type": "plainText",
           "value": "When you gain the Priority Target token, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -543,6 +623,10 @@
           "value": "When you survive an Obol, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -586,6 +670,10 @@
           "value": "End of your turn: If you are in front and adjacent to the Primordial, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -620,12 +708,24 @@
           "value": "You cannot use"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "cards with the following traits:"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "italics",
@@ -639,6 +739,10 @@
         {
           "type": "plainText",
           "value": "When you deal a Wound, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -675,8 +779,16 @@
           "value": "You must always use your"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "MovementAction"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -690,6 +802,10 @@
         {
           "type": "plainText",
           "value": "End of your turn: If you didn't voluntarily move this turn, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -735,6 +851,10 @@
           "value": "When you discard at least 1 Ambrosia token, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -769,8 +889,16 @@
           "value": "You can use your"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "CombatAction"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -784,6 +912,10 @@
         {
           "type": "plainText",
           "value": "End of your turn: If you didn't attack this turn, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -820,8 +952,16 @@
           "value": "You cannot unexhaust your"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -837,12 +977,24 @@
           "value": "When you involuntarily exhaust a"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "card, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -888,6 +1040,10 @@
           "value": "When you draw a negative Trauma card, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -922,8 +1078,16 @@
           "value": "You cannot use"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -978,6 +1142,10 @@
           "value": "When you gain a Crit Chance, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1012,12 +1180,24 @@
           "value": "When you gain the"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "PriorityTarget"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "Priority Target token, gain +1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1031,6 +1211,10 @@
         {
           "type": "plainText",
           "value": "When you lsoe the Priority Target token, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1067,20 +1251,40 @@
           "value": "Start of Battle"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "Gain 1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
           "value": "CombatAction"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "or"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "MovementAction"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -1096,20 +1300,40 @@
           "value": "When you gain a"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "CombatAction"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
           "value": "or"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "MovementAction"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "Fatigue token,, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1155,6 +1379,10 @@
           "value": "If you re-draw a Trauma card or otherwise ignore its effect, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1196,6 +1424,10 @@
         {
           "type": "plainText",
           "value": "When you gain at least 1 Bleeding token, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1241,6 +1473,10 @@
           "value": "When you take your turn second or third during the Titan Round, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1284,6 +1520,10 @@
           "value": "When you place 5+ Kratos tokens in the Kratos Pool in a single ability window, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1318,6 +1558,10 @@
           "value": "Gain the Goldthirst Curse Affliction. When you gain at least 1 Midas token, gain +1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1329,6 +1573,10 @@
         {
           "type": "plainText",
           "value": "When you discard or turn (into another token) at least 1 Midas token, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1365,6 +1613,10 @@
           "value": "Gain the Windblight Curse Affliction. When you suffer involuntary movement, Knockdown, or Float, gain +1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1376,6 +1628,10 @@
         {
           "type": "plainText",
           "value": "When you stand up, deflate, or arrive form Time-clocked, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1412,12 +1668,24 @@
           "value": "At the end of your turn, if you didn't move your full"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Speed"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "value or use all of your available Hermes Moves, gain +1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1433,12 +1701,24 @@
           "value": "When you move your full"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Speed"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "value or use all of your available Hermes Moves, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1475,12 +1755,28 @@
           "value": "When on an Elevated space or a VP, you gain -1 Precision and"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "bold",
           "value": "Crit Fail:"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "keyword",
           "value": "Knockdown"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -1494,6 +1790,10 @@
         {
           "type": "plainText",
           "value": "When you successfully perform a Climb test, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1539,6 +1839,10 @@
           "value": "When you take your turn last during the Titan Round, if you shuffle the BP deck, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1580,6 +1884,10 @@
         {
           "type": "plainText",
           "value": "When you Awaken or Summon during your turn, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1625,12 +1933,24 @@
           "value": "When you discard a"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "card, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1676,6 +1996,10 @@
           "value": "When you gain at least 3 Condition tokens or Ambrosia tokens from a single source, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1719,6 +2043,10 @@
           "value": "If you draw an Obol and don't re-draw it, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1753,8 +2081,16 @@
           "value": "You cannot equip"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -1770,12 +2106,24 @@
           "value": "When you place Ambrosia tokens on your"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Gear"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "cards, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1812,8 +2160,16 @@
           "value": "When your Attack hits, but before revealing the BP card, guess the"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "AT"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -1829,12 +2185,24 @@
           "value": "When your Attack hits, but before revealing the BP card, guess the"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "AT"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": ". If you guess correctly, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1880,6 +2248,10 @@
           "value": "When you use Aether tokens, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -1923,12 +2295,24 @@
           "value": "When you move away from the Primordial with a"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "MovementAction"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": ", lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -1965,6 +2349,10 @@
           "value": "Start of your turn"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "plainText",
           "value": "Gain 1 Despair token"
         }
@@ -1976,6 +2364,10 @@
         {
           "type": "plainText",
           "value": "When you gain 2+ Despair tokens from one source, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -2021,6 +2413,10 @@
           "value": "When you discard or spend Oxygen tokens (but not flip them!), lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -2062,6 +2458,10 @@
         {
           "type": "plainText",
           "value": "When you gain 2+ Pain tokens from one source, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -2107,6 +2507,10 @@
           "value": "When you gain a Mind Condition card, lose -1"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
         }
@@ -2141,8 +2545,16 @@
           "value": "When you are about to draw an Obol, add an additional"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "italics",
           "value": "You died"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -2156,6 +2568,10 @@
         {
           "type": "plainText",
           "value": "When you survive an Obol Draw from 3 or more Obol cards, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "icon",
@@ -2193,8 +2609,16 @@
           "value": "Conqueror Nail and Repurposed Cryptex gain the"
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "keyword",
           "value": "Argonaut Possession"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",

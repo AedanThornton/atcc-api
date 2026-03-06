@@ -264,12 +264,24 @@
                   "value": "Start of your turn"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You may test Endurance ("
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Danger"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -282,6 +294,10 @@
                 {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -330,8 +346,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Frenzy"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -349,6 +373,10 @@
                 {
                   "type": "timing",
                   "value": "End of your turn"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -378,8 +406,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Hatred"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -397,6 +433,10 @@
                 {
                   "type": "timing",
                   "value": "End of your turn"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -443,12 +483,24 @@
               "value": "If you gain this card again, automatically move to the VP (even if not adjacent!) or, if you are already on the VP, you may gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "to perform a"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
@@ -487,8 +539,16 @@
               "value": "For the purposes of Kratos Table abilities treat your"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -524,6 +584,10 @@
               "value": "You have -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
             }
@@ -544,6 +608,10 @@
               "value": "Ignore"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Tireless"
             }
@@ -556,20 +624,40 @@
               "value": "When the Burden attacks a Titan with"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Sisyphean"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", apply the following additional effects: Attack gains +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "d10"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", each hits deals +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -584,16 +672,32 @@
               "value": "When another Titan gains"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Sisyphean"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", and there are no more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Sisyphean"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -632,6 +736,10 @@
               "value": "You have -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
             }
@@ -652,6 +760,10 @@
               "value": "Ignore"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Tireless"
             }
@@ -664,20 +776,40 @@
               "value": "When the Burden attacks a Titan with"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Sisyphean"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", apply the following additional effects: Attack gains +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "d10"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", each hits deals +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -714,6 +846,10 @@
             {
               "type": "timing",
               "value": "Start of your turn"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -762,12 +898,24 @@
                   "value": "MovementAction"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "CombatAction"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -829,6 +977,10 @@
               "value": "Start of your turn"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Discard 1 Death token from this card"
             }
@@ -873,6 +1025,10 @@
               "value": "You cannot voluntarily gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
             }
@@ -885,8 +1041,16 @@
               "value": "If you gain this Condition a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Sealed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -906,8 +1070,16 @@
                   "value": "Start of your turn"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You may draw and resolve a Major Trauma, If you do, discard this Condition card and lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -929,6 +1101,10 @@
               "value": "You cannot voluntarily gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
             }
@@ -939,6 +1115,10 @@
             {
               "type": "plainText",
               "value": "You cannot gain"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -953,8 +1133,16 @@
               "value": "If you gain this Condition a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Muffled"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -974,8 +1162,16 @@
                   "value": "Start of your turn"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You may draw and resolve a Grave Trauma, If you do, discard this Condition card and lose -2"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -1126,6 +1322,10 @@
               "value": "During Battles, the player among you who takes charge the most (quarterbacks!) can speak during a Round only if they gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
             }
@@ -1170,8 +1370,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Greed-crazed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1191,9 +1399,17 @@
                   "value": "When you remove (discard, turn) 2+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Enriched",
                   "refID": "DL2015"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1231,8 +1447,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Covetous"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1252,9 +1476,17 @@
                   "value": "When you remove (discard, turn) 4+ Midas tokens as a result of any single effect, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Enlightened",
                   "refID": "DL2015"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1293,6 +1525,10 @@
               "value": "You ignore"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Wish Armor"
             }
@@ -1313,8 +1549,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Wishagog"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1342,8 +1586,16 @@
                   "value": "You cannot gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Wishkeen"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1358,9 +1610,17 @@
                   "value": "If you survive the Attack, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Enriched",
                   "refID": "DL2015"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1380,6 +1640,10 @@
             {
               "type": "plainText",
               "value": "You ignore"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -1402,8 +1666,16 @@
               "value": "If you gain this Condition card a second time or you gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Wishkeen"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1431,16 +1703,32 @@
                   "value": "You cannot gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Wishkeen"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Wishagog"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1455,9 +1743,17 @@
                   "value": "If you survive the Attack, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Enlightened",
                   "refID": "DL2015"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1575,6 +1871,10 @@
             {
               "type": "timing",
               "value": "Start of your turn"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1751,8 +2051,16 @@
               "value": "If you gain this Condition card a second time or gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Holy Terror"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1772,9 +2080,17 @@
                   "value": "When you deal a Wound, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Bravery",
                   "refID": "EL2600"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1828,8 +2144,16 @@
               "value": "If you gain this Condition card a second time or gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Terror"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1849,9 +2173,17 @@
                   "value": "When you deal a Wound, discard this Condition card and gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Bravery",
                   "refID": "EL2600"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1890,13 +2222,25 @@
               "value": "When you gain this card, discard any"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Fear",
               "refID": "AL0299"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ","
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -1904,8 +2248,16 @@
               "refID": "AL0299"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ","
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -1913,13 +2265,25 @@
               "refID": "EL2596"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Holy Terror",
               "refID": "EL2596"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1934,16 +2298,32 @@
               "value": "If you would gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Terror"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Holy Terror"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1960,6 +2340,10 @@
             {
               "type": "plainText",
               "value": "You have +2 Precision and"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",

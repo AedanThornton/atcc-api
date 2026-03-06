@@ -53,8 +53,16 @@
           "value": "You may test Courage ("
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -92,6 +100,10 @@
             "value": "Fail"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "You die"
           }
@@ -119,6 +131,10 @@
           {
             "type": "plainText",
             "value": "Gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -157,16 +173,32 @@
             "value": "On your turn, you must use your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "MovementAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "to move towards the closest Target (Titan or Primordial) along the shortest possible path, then use your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -189,12 +221,24 @@
             "value": "If you attack a Titan, do not resolve the Attack Sequence, instead that Titan gains +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and suffers"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -209,8 +253,16 @@
             "value": "Start of your turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Unexhaust 1 Weapon"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -223,6 +275,10 @@
           {
             "type": "timing",
             "value": "End of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -261,12 +317,24 @@
             "value": "Gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "equal to your"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -281,8 +349,16 @@
             "value": "Reduce your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -314,12 +390,24 @@
             "value": "Gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "equal to your"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -359,8 +447,16 @@
             "value": "On your turn, you must use your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "MovementAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -400,8 +496,16 @@
           "value": "You may test Courage ("
         },
         {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
           "type": "icon",
           "value": "Fate"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
         },
         {
           "type": "plainText",
@@ -432,8 +536,16 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -446,6 +558,10 @@
           {
             "type": "plainText",
             "value": "If you do,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -476,6 +592,10 @@
           {
             "type": "plainText",
             "value": "Awaken, then"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",

@@ -19,17 +19,33 @@
             "value": "Gain this card and the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Priority Target token (even if someone has the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Marked for Death",
             "refID": "AM0323"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -52,12 +68,24 @@
             "value": "End of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If your Titan is dead, resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -87,12 +115,24 @@
             "value": "Immediately gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -122,28 +162,56 @@
             "value": "Another random Titan gains +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", +3"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", +3"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Fate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", and suffers"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -204,6 +272,10 @@
             "value": "Immediately lose 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Hull"
           }
@@ -231,8 +303,16 @@
             "value": "Reduce your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -247,8 +327,16 @@
             "value": "After Battle, resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Fateful Visitant"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -286,6 +374,10 @@
             "value": "If it is already on the Voyage Map, instead resolve 2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
           }
@@ -311,6 +403,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -341,8 +437,16 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -355,6 +459,10 @@
           {
             "type": "plainText",
             "value": "If you do,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -385,8 +493,16 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -401,6 +517,10 @@
             "value": "If you do,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
           }
@@ -413,8 +533,16 @@
             "value": "Reduce your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",

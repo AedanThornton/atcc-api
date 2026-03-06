@@ -211,6 +211,10 @@
                 "value": "When the Timefront advances, lower the advance by 1 +"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "RedPowerDie"
               }
@@ -243,8 +247,16 @@
                 "value": "Place 1 negative"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -289,8 +301,16 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Second Chance"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -310,8 +330,16 @@
                 "value": "When a Titan dies, regain 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -355,8 +383,16 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Heartseeker"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -376,8 +412,16 @@
                 "value": "When a Titan dies, regain 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -421,16 +465,32 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Block 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "or"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Defy 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -450,8 +510,16 @@
                 "value": "When a Titan dies, regain 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -500,8 +568,16 @@
                 "value": "When a Titan dies, regain 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",

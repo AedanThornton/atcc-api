@@ -25,8 +25,16 @@
               "value": "When an Argonaut gains the Mazetouched Affliction, place 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -38,6 +46,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -52,16 +64,32 @@
               "value": "Each time you gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", you must place 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -76,8 +104,16 @@
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -92,8 +128,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -123,13 +167,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Old Spinner",
               "refID": "AC0073"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -143,8 +199,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -159,12 +223,24 @@
               "value": "If there are no unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -178,12 +254,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -198,16 +286,32 @@
               "value": "You cannot use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Negotatiation"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "abilities on a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -221,13 +325,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Shuffle the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Hekatrap",
               "refID": "AB0109"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -249,12 +365,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -269,8 +397,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -308,6 +444,10 @@
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             }
@@ -320,12 +460,24 @@
               "value": "If there are no unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -339,13 +491,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Maze Pilgrim",
               "refID": "AB0112"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -359,12 +523,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -379,16 +555,32 @@
               "value": "You cannot use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Negotatiation"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "abilities on a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -402,12 +594,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -422,8 +626,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -449,6 +661,10 @@
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             }
@@ -461,12 +677,24 @@
               "value": "If there are no unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -480,13 +708,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Maze Storm",
               "refID": "AB0113"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -500,12 +740,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -520,16 +772,32 @@
               "value": "You cannot use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Negotatiation"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "abilities on a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -543,12 +811,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -563,8 +843,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -602,6 +890,10 @@
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             }
@@ -614,12 +906,24 @@
               "value": "If there are no unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -633,12 +937,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -653,16 +969,32 @@
               "value": "You cannot use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Negotatiation"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "abilities on a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -676,13 +1008,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Hekatrap",
               "refID": "AB0109"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -696,12 +1040,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -716,8 +1072,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -740,6 +1104,10 @@
               "value": "Place a Labyrinthian Temple marker on the closest unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             }
@@ -752,12 +1120,24 @@
               "value": "If there are no unoccupied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "symbols on the Map, place the token on a Map tile adjacent to the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -771,12 +1151,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Treat Labyrinthian Temple markers as"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -791,16 +1183,32 @@
               "value": "You cannot use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Negotatiation"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "abilities on a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -814,13 +1222,25 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Heart of the Maze",
               "refID": "AB0116"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -842,12 +1262,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -887,6 +1319,10 @@
               "value": "Find the Exploration cards numbered 33-36 and shuffle them to create the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Sabotage deck",
               "refID": ""
@@ -923,6 +1359,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add 2 random Sabotage cards to the Exploration deck"
             }
@@ -934,12 +1374,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -954,8 +1406,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -985,12 +1445,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1005,8 +1477,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1044,18 +1524,34 @@
               "value": "Immediately add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Krypteia Assassin Attempt",
               "refID": "BB1248"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Moral Erosion",
               "refID": "BB1249"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1109,8 +1605,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "While this card is in play, each time you battle a Chimera Metastasios, gain +1 unavoidable"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1124,12 +1628,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1144,8 +1660,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1168,18 +1692,34 @@
               "value": "Immediately add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Black Sludge",
               "refID": "BB1250"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Ambrosia Spill",
               "refID": "BB1251"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1191,6 +1731,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1205,6 +1749,10 @@
               "value": "Each time you battle a Chimera Metastasios, gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             }
@@ -1216,12 +1764,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1236,8 +1796,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1277,9 +1845,17 @@
               "value": "Immediately add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Private Lesson",
               "refID": "BB1252"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1301,21 +1877,41 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "All"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "Save"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "ability rolls except for Font Infinite ("
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Hope Logic",
               "refID": ""
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1329,12 +1925,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there is 1 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1348,12 +1956,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1368,8 +1988,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1392,17 +2020,33 @@
               "value": "All"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Save"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "ability rolls except for Font Infinite ("
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Hope Logic",
               "refID": "AA0038"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1416,12 +2060,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1461,8 +2117,16 @@
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1477,8 +2141,16 @@
               "value": "Put excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1502,18 +2174,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Tomorrow's Edge",
               "refID": "CB1652"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Rewound",
               "refID": "CB1653"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1527,12 +2215,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1547,8 +2247,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1586,18 +2294,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Fast-forwarded",
               "refID": "CB1654"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Tightening the Loop",
               "refID": "CB1655"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1611,12 +2335,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1631,8 +2367,16 @@
               "value": "Put excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1655,18 +2399,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Entropy's Embrace",
               "refID": "CB1656"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Checkov's Sun",
               "refID": "CB1657"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1680,12 +2440,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1700,8 +2472,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1739,8 +2519,16 @@
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1755,8 +2543,16 @@
               "value": "Put excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1780,8 +2576,16 @@
               "value": "For the purposes of all effects treat your"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Paradox"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1795,12 +2599,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1839,8 +2655,16 @@
               "value": "When there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1855,8 +2679,16 @@
               "value": "Place excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1870,16 +2702,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1894,12 +2742,24 @@
               "value": "When there are 3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -1907,19 +2767,39 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)!"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1942,18 +2822,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Curselenders",
               "refID": "DB2151"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "String Wish",
               "refID": "DB2152"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1967,12 +2863,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1987,8 +2895,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2002,16 +2918,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2026,12 +2958,24 @@
               "value": "When there are 4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2039,19 +2983,39 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)!"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2090,18 +3054,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Season of Curses",
               "refID": "DB2153"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "The Storm Worsens",
               "refID": "DB2154"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2115,12 +3095,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2135,8 +3127,16 @@
               "value": "Put excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2150,16 +3150,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2174,12 +3190,24 @@
               "value": "When there are 5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2187,12 +3215,24 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Son of Dusk"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2214,12 +3254,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2243,18 +3295,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Imperial Dues",
               "refID": "DB2155"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Diminishing Returns",
               "refID": "DB2156"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2268,12 +3336,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 7 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2288,8 +3368,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2303,16 +3391,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2327,12 +3431,24 @@
               "value": "When there are 6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2340,12 +3456,24 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Son of Dusk"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2367,12 +3495,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2410,9 +3550,17 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Babelian Fata Morgana",
               "refID": "DB2158"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2426,12 +3574,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 6 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2446,8 +3606,16 @@
               "value": "When you flip this Doom card, put excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2461,16 +3629,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2485,12 +3669,24 @@
               "value": "When there are 7"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2498,12 +3694,24 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Son of Dusk"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2525,12 +3733,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Note: If you flip this card, all the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2554,8 +3774,16 @@
               "value": "When there are 5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2569,16 +3797,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Doomed Investment:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Each time you gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2593,12 +3837,24 @@
               "value": "When there are 8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tokens on this card, make 1 Doomed Investment tally mark and draw a random"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2606,12 +3862,24 @@
               "refID": ""
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "card (Secret deck 11, cards 208-212)! If you have 3 Doomed Investment tally marks, see the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Son of Dusk"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2656,8 +3924,16 @@
               "value": "When there are 5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2672,8 +3948,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2687,39 +3971,79 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "has entered play:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "Path to Ruin:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2734,6 +4058,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -2745,16 +4073,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2769,8 +4113,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2785,8 +4137,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2808,28 +4168,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -2844,16 +4232,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2868,16 +4272,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2900,18 +4320,34 @@
               "value": "Immediately shuffle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "The Hidden Truth",
               "refID": "EB2674"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Long Range Bombardment",
               "refID": "EB2675"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2925,12 +4361,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2945,8 +4393,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2960,39 +4416,79 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "has entered play:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "Path to Ruin:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3007,6 +4503,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -3018,16 +4518,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3042,8 +4558,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3058,8 +4582,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3081,28 +4613,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -3117,16 +4677,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3141,16 +4717,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3188,18 +4780,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Depths Charges",
               "refID": "EB2714"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Drown in Fear",
               "refID": "EB2715"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3214,8 +4822,16 @@
               "value": "When there are 5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3230,8 +4846,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3245,36 +4869,72 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "On reveal:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "has not yet entered play, place the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "miniature on the closest"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tile not occupied by the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -3288,24 +4948,48 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Path to Ruin:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3320,6 +5004,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -3331,16 +5019,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3355,8 +5059,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3371,8 +5083,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3394,28 +5114,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -3430,16 +5178,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3454,16 +5218,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3487,18 +5267,34 @@
               "value": "Immediately shuffle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Nemesis Blockade",
               "refID": "EB2716"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Doom Scrolls",
               "refID": "EB2717"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3512,12 +5308,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When there are 4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3532,8 +5340,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3547,24 +5363,48 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Path to Ruin:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3579,6 +5419,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -3590,16 +5434,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3614,8 +5474,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3630,8 +5498,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3653,28 +5529,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -3689,16 +5593,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3713,16 +5633,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3761,18 +5697,34 @@
               "value": "Immediately shuffle the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "The Noose Tightens",
               "refID": "EB2718"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Panic Spreads",
               "refID": "EB2719"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3787,8 +5739,16 @@
               "value": "When there are 4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3803,8 +5763,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3818,36 +5786,72 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "On reveal:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "has not yet entered play, place the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "miniature on the closest"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "tile not occupied by the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -3861,24 +5865,48 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Path to Ruin:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3893,6 +5921,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -3904,16 +5936,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3928,8 +5976,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3944,8 +6000,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3967,28 +6031,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -4003,16 +6095,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4027,16 +6135,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4060,8 +6184,16 @@
               "value": "When there are 6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4076,8 +6208,16 @@
               "value": "Set excess"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4091,24 +6231,48 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Path to Ruin:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "move through or ends its movement on a tile with a City"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4123,6 +6287,10 @@
               "value": "If that City symbol had the Last Visited City token on it, additionally gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -4134,16 +6302,32 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Your Nemesis:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4158,8 +6342,16 @@
               "value": "If, for whatever reason, you occupy the same tile as the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4174,8 +6366,16 @@
               "value": "For full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4197,28 +6397,56 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relentless:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is surfaced, at the end of the Exploration Step, move the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "X spaces twoards the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "italics",
@@ -4233,16 +6461,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 5-7 spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4257,16 +6501,32 @@
               "value": "If the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Nemesis"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is 8+ spaces away from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Argo"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",

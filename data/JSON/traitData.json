@@ -70,6 +70,10 @@
               "value": "2+ tokens: You cannot use exhaustable"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
             }
@@ -80,6 +84,10 @@
             {
               "type": "plainText",
               "value": "3+ tokens: You cannot perform"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -137,6 +145,10 @@
               "value": "Otherwise, they gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
             }
@@ -184,9 +196,17 @@
               "value": "After the Chimera ends its movement, place an"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Ambrosia Trail",
               "refID": "BI0693"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -220,12 +240,24 @@
               "value": "The Chimera always moves its full"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "value and that movement is considered a"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -255,8 +287,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Titanwall:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -270,8 +310,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Nobody Stops:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -313,11 +361,23 @@
               "value": "During this Battle, all Titans suffer the following penalty:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Level 2-3:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -331,6 +391,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Level 4-6: Ambrosia Limit -2"
             }
@@ -340,6 +404,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -373,9 +441,17 @@
               "value": "Remove the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Sisyphean Task",
               "refID": "BR1110"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -390,9 +466,17 @@
               "value": "Add the 3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Sisyphean (Special)",
               "refID": "BL0674"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -407,9 +491,17 @@
               "value": "When you deal a Wound, discard a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Sisyphean",
               "refID": "BL0673"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -485,16 +577,32 @@
               "value": "When a Primordial Attack deals"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", it triggers a Trauma Draw (just like dealing"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -509,16 +617,32 @@
               "value": "If an Attack deals both"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -533,8 +657,16 @@
               "value": "Being dealt"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -549,16 +681,32 @@
               "value": "Whenever a Titan resolves a Trauma Draw, consult their Trauma Table and draw a Trauma card of a severity corresponding with their current"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -591,6 +739,10 @@
               "value": "The track on this sheet represents the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Icarian Adaptation Board"
             }
@@ -600,6 +752,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -621,6 +777,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Any attempt to Wound with a Weapon class listed on a space covered with an Adaptation token will automatically Fail"
             }
@@ -631,6 +791,10 @@
             {
               "type": "plainText",
               "value": "During attempts with a Weapon class listed on a space adjacent to an Adaptation token, the Icarian Harpy gains +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -652,8 +816,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Additional Setup:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -675,6 +847,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Level 1: 1 token"
             }
@@ -684,6 +860,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -697,6 +877,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Level 3-4: 3 tokens"
             }
@@ -708,6 +892,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Level 5-6: 4 tokens"
             }
@@ -717,6 +905,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -750,63 +942,135 @@
               "value": "Start of Battle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Starting from the highest"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
               "value": "Danger"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "and continuing in descending order, Titans suffer:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Level 1:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Bleeding 2"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", Bleeding 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Level 2: Bleeding 2, Bleeding 2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Level 3: Bleeding 2, Bleeding 2, Bleeding 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Level 4: Bleeding 3, Bleeding 2, Bleeding 2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
               "value": "WoO"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "timing",
               "value": "End of Primordial Round"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -848,16 +1112,32 @@
               "value": "If you reveal a BP card with a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "symbol as a result of a card or an ability effect (not during a normal BP Draw), gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -869,6 +1149,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
@@ -927,13 +1211,25 @@
               "value": "Battle Setup"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Add the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "You died a beggar!",
               "refID": "DM2567"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -972,6 +1268,10 @@
             {
               "type": "plainText",
               "value": "If you roll a Crit Miss during the Attack Roll, during thie Attack, ignore"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1030,12 +1330,24 @@
               "value": "Start of Battle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Discard 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Energy"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1068,8 +1380,16 @@
               "value": "Unless Titans have at least one free"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "OneHanded"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1102,8 +1422,16 @@
               "value": "Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Chasm"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1222,6 +1550,10 @@
               "value": "Start of Primordial Round"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If there are no Irem Tower Terrain tiles on the Battle Board, the Babelian Lunacy immediately wins the Battle"
             }
@@ -1288,6 +1620,10 @@
               "value": "Start of Primordial Round"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Pull 3 all Titans in Zone 6"
             }
@@ -1306,6 +1642,10 @@
             {
               "type": "timing",
               "value": "End of Primordial Round"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1339,8 +1679,16 @@
               "value": "When you gain Ambrosia tokens, if possible, place them on a single game element ("
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1413,6 +1761,10 @@
               "value": "End of your turn"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Flip 1 Oxygen token"
             }
@@ -1451,8 +1803,16 @@
               "value": "If the Dragon of Phobos is outside of the Battle Board when drawing AI or performing Signature, instead of normal Targeting, use"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Target:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1467,15 +1827,31 @@
               "value": "Instead of performing any movement instructions (like"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "WoO"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Move & Attack):"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1489,6 +1865,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "if that space is occupied, appear to the side, then front (even if occupied, stand Crash rules apply)"
             }
@@ -1498,6 +1878,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1620,9 +2004,17 @@
               "value": "This replaces the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "A Truth for a Truth",
               "refID": "EX3212"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1703,12 +2095,24 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When the Meduketos attacks while outside of the Battle Board, it does so from the closest Board Edge to the Target, ignoring the initial"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "WoO"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1722,8 +2126,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Lightbend:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1738,9 +2150,17 @@
               "value": "If able, place a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Petrified Vent",
               "refID": "EI2606"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1790,8 +2210,16 @@
               "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens, then"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Lightbend"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1833,23 +2261,47 @@
               "value": "7):"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Choose a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Titan"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and an"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "adjacent Petrified Vent"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1879,52 +2331,108 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "total"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "of"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "every scanned card"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "and the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "Light X value"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "of the currently scanning Titan is"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "equal to or higher"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "than"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
               "value": "the Scan Difficulty"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", you have found the Meduketos! Immediately replace that Vent with the Meduketos (in any way), then perform"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "WoO"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -1936,6 +2444,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1958,6 +2470,10 @@
               "value": "End of Titan Round"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Shuffle all Major Trauma cards back into the deck"
             }
@@ -1967,6 +2483,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2047,8 +2567,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Relight:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2082,16 +2610,32 @@
               "value": "Apply the following modifiers to all Titan X Attacks: -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "d10"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2106,8 +2650,16 @@
               "value": "As long as this Trait is active, the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Death of Hope"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2139,6 +2691,10 @@
             {
               "type": "plainText",
               "value": "Ur-Fleece has -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -2173,8 +2729,16 @@
               "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Danger Sense"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2187,6 +2751,10 @@
             {
               "type": "icon",
               "value": "CombatAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2245,8 +2813,16 @@
               "value": "Disable the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Stay Your Hand"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2295,6 +2871,10 @@
             {
               "type": "timing",
               "value": "Start of Battle"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2361,6 +2941,10 @@
               "value": "Instead, Ur-Fleece"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Flickers"
             }
@@ -2388,31 +2972,63 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Note:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "This does not count as a Wound!"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "The next"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "two"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Titan attacks targeting this BP Ill will similarly add half of their Total Power to this growing"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Ultimate Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2427,8 +3043,16 @@
               "value": "The final,"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "fourth"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2450,27 +3074,55 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If, during any of the four Attacks the Ultimate Power matches or beats the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
               "value": "GT"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
               "value": "AT"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "of the BP card, you finally deal a Wound!"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2485,7 +3137,15 @@
               "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2543,8 +3203,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Each Titan X has their own Wound Stack with 12"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -2556,6 +3224,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2583,6 +3255,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2633,9 +3309,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Punctured",
               "refID": "AM9969"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2650,9 +3334,17 @@
               "value": "Replace the Signature with the new"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Conquerer Strike",
               "refID": "AR9967"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2703,6 +3395,10 @@
               "value": "Start of Battle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Assign a Time Anchor token to your Titan"
             }
@@ -2723,6 +3419,10 @@
               "value": "Start of your tunr"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Move the Time Anchor 5 spaces in a random direction"
             }
@@ -2735,8 +3435,16 @@
               "value": "If you draw a card with"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "ChooseDirection"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2848,6 +3556,10 @@
             {
               "type": "plainText",
               "value": "At the start of each Pitiless's Round, perform"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2995,6 +3707,10 @@
               "value": "At the start of each Old Haunt's Round, perform"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Merciless Sun",
               "refID": "DV2569"
@@ -3116,12 +3832,24 @@
               "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", after resolving the Attack, immediately"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -3134,6 +3862,10 @@
             {
               "type": "plainText",
               "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "bold",
@@ -3156,24 +3888,48 @@
               "value": "Goes For the Head:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "timing",
               "value": "Crit Evade Fail"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Exhaust your Cryptex and gain a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "CombatAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",

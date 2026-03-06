@@ -63,6 +63,10 @@
               "value": "Titans on this tile have +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -74,6 +78,10 @@
             {
               "type": "plainText",
               "value": "Treat this tile as an"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -100,6 +108,10 @@
               "value": "Titans on this tile have +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -111,6 +123,10 @@
             {
               "type": "plainText",
               "value": "Treat this tile as an"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -358,8 +374,16 @@
               "value": "On a 6+, the plating holds, otherwise, lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -596,8 +620,16 @@
               "value": "Cannot be ignored using the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Jump"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -740,8 +772,16 @@
               "value": "The Primordial has -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -809,8 +849,16 @@
               "value": "You may attack the Krypteia Outpost with a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "CombatAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -924,8 +972,16 @@
               "value": "You may attack the Krypteia Outpost with a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "CombatAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1050,8 +1106,16 @@
               "value": "Allied"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Titans on this tile have +1 Precision and +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1064,6 +1128,10 @@
             {
               "type": "plainText",
               "value": "If this tile is destroyed, immediately lose -1 Humanity and gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1167,12 +1235,24 @@
               "value": "CombatAction"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Thaw Time: Once per Battle, when adjacent or on this tile, lose -1 Frozen Time and test ("
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "ArgoFate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1231,16 +1311,32 @@
               "value": "Titans treat this tile as having"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Boundless"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Board Edge"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1293,8 +1389,16 @@
               "value": "3-8: Place 1 negative"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1309,8 +1413,16 @@
               "value": "9-10: Place 2 negative"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1363,8 +1475,16 @@
               "value": "3-8: Place 1 negative"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1379,8 +1499,16 @@
               "value": "9-10: Place 2 negative"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "AT"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1548,8 +1676,20 @@
               "value": "CombatAction"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Treasure:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1564,7 +1704,15 @@
               "value": "Roll a d10:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1586,6 +1734,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "2-5: Unknown dangers still lurk in the ruins"
             }
@@ -1598,6 +1750,10 @@
               "value": "Suffer"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Bleeding 1"
             }
@@ -1607,6 +1763,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1628,6 +1788,10 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "10: Among the rubble, you find a forgotten treasure"
             }
@@ -1640,13 +1804,29 @@
               "value": "Gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Exiles Garb",
               "refID": "CJ1490"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1778,6 +1958,10 @@
               "value": "Titans on this tile have +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -1800,12 +1984,24 @@
               "value": "When you move onto this tile, gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "and +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1819,6 +2015,10 @@
             {
               "type": "plainText",
               "value": "Treat this tile as an"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -1932,20 +2132,40 @@
               "value": "Mobile:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "If you start your"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "on this tile, or more through it during a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1960,12 +2180,24 @@
               "value": "Camouflage:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "When you are on this tile, pass the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2045,6 +2277,10 @@
             {
               "type": "bold",
               "value": "Abyss:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2144,6 +2380,10 @@
               "value": "Omnilight:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "This tile projects light in all cardinal directions"
             }
@@ -2159,6 +2399,10 @@
               "value": "Titans on this tile have +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -2170,6 +2414,10 @@
             {
               "type": "plainText",
               "value": "Treat this tile as an"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -2203,6 +2451,10 @@
               "value": "Omnilight:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "This tile projects light in all cardinal directions"
             }
@@ -2218,6 +2470,10 @@
               "value": "Titans on this tile have +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -2229,6 +2485,10 @@
             {
               "type": "plainText",
               "value": "Treat this tile as an"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -2372,6 +2632,10 @@
               "value": "Monument to Progress:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "For the purposes of Despair adjacency, treat this tile as a Titan"
             }
@@ -2382,6 +2646,10 @@
             {
               "type": "bold",
               "value": "Omnilight:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",

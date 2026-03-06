@@ -36,16 +36,32 @@
                   "value": "When you reach a Combat"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "CombatTech"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or Structural"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "StructuralTech"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -69,12 +85,24 @@
                   "value": "During the Exploration Step, if the Argo is on an unexplored Map Tile with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "symbol, gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -89,16 +117,32 @@
                   "value": "For each"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "you gain, place 1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -174,8 +218,16 @@
                   "value": "During the Adventure Step, if the Argo is on an unexplored Map tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "AdventureHub"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -288,8 +340,16 @@
                   "value": "During the Advancement Step, you can use available resources to craft"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Gear"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -340,8 +400,16 @@
                   "value": "During the Exploration Step, if the Argo is on an unexplored Map Tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Titan"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -420,96 +488,200 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to exchange (up to 3 times):"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "3 Trireme"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "1 Armament"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "2 Trireme"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "1 Monument"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "1 Monument"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "2 Trireme"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Armament"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "3 Trireme"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Muscle Cluster or Infused Mechanism"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "3 Raw Ambrosia"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Calcified Knuckle Bone or Fleshy Mantle"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "4 Raw Ambrosia"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "3 Raw Ambrosia"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "1 Muscle Cluster or Infused Mechanism"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "4 Raw Ambrosia"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -561,9 +733,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Informant Network",
                   "refID": "AB0110"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -616,16 +796,32 @@
                   "value": "You can move through"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "waterways with the River"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "River"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -678,16 +874,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Strangers"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -702,12 +914,24 @@
                   "value": "Success"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": ": Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Strangers"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -731,12 +955,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -788,8 +1024,16 @@
                   "value": "Lose 4 Mortal resources of your choosing and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -840,8 +1084,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -954,8 +1206,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1030,16 +1290,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1053,16 +1329,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1115,6 +1407,10 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
                 }
@@ -1136,20 +1432,40 @@
                   "value": "During the Exploration Step, if the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an unexplored Map tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "DaedalusWorkshop"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "symbol, gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -1173,24 +1489,48 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "during the Voyage or Adventure Phase to test (X+), where X is 3 plus your current"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1204,16 +1544,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1265,24 +1621,48 @@
                   "value": "Gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored Map tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1296,12 +1676,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -1396,8 +1788,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1509,9 +1909,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Untamed Titan",
                   "refID": "AB0108"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1534,16 +1942,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the Argo is on a Map tile with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Titan"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1618,8 +2042,16 @@
                   "value": "If you win a Battle that you started with less than 4 Titans, after the Battle gain +X"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1679,6 +2111,10 @@
                   "value": "CentimanesOne"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "is 'one'"
                 }
@@ -1688,6 +2124,10 @@
               "abilityText": [
                 {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1702,8 +2142,16 @@
                   "value": "These will be denoted by a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ThumbsUp"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1716,6 +2164,10 @@
                 {
                   "type": "plainText",
                   "value": "If the paragraph doesn't show this symbol, you must've made a mistake in your decoding -- don't read it! If that's the case, gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -1766,8 +2218,16 @@
                   "value": "First time you use a Negotiation Ability each day, you may ignore its associated"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1818,20 +2278,40 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Strangers"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -1882,16 +2362,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -1905,16 +2401,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2033,6 +2545,10 @@
                   "value": "Lose -1 Priest to lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 }
@@ -2106,8 +2622,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2206,16 +2730,32 @@
                   "value": "(You cannot gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2385,34 +2925,70 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for War Triremes (any number of times):"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Maze Fragment"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 War Trireme"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Fear Essence"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2466,7 +3042,15 @@
                   "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than II (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2480,8 +3064,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You do not benefit from"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "keyword",
@@ -2495,12 +3087,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Increase all"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Fate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2514,42 +3118,86 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "(Armor and Shield only) -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "Potential"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "on Armor Roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion re-roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "EvasionReroll"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(to a minimum of 0)"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion bonus"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Evasion"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2837,16 +3485,32 @@
                   "value": "Gain +X"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Refugees"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2931,8 +3595,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -2947,16 +3619,32 @@
                   "value": "Success"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": ": You may lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "Refugees"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -3007,16 +3695,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3031,12 +3735,24 @@
                   "value": "Success"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": ": Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3049,6 +3765,10 @@
                 {
                   "type": "plainText",
                   "value": "If you roll a '1', lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -3144,9 +3864,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Spy Network",
                   "refID": "BB1242"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3196,24 +3924,48 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3227,12 +3979,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -3263,12 +4027,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -3319,9 +4095,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Smugglers",
                   "refID": "BB1253"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3403,17 +4187,33 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and lose 4 Relief resources to add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Recruitment Drive",
                   "refID": "BB1241"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3539,6 +4339,10 @@
                   "value": "If the Hemiolia token is on this card, choose an unexplored Map tile number adjacent to the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
                 }
@@ -3566,8 +4370,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Recall Scout Ship:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3582,6 +4394,10 @@
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Place the Hemiolia token on this card"
                 }
@@ -3592,6 +4408,10 @@
                 {
                   "type": "bold",
                   "value": "Fail:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3613,24 +4433,48 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Create Scout Ship:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "If the Hemiolia token is discarded, lose 5 Trireme or 2 War Trireme resources and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Vanguard Hemiolia"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3690,16 +4534,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to move through a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3758,9 +4618,17 @@
                   "value": "Gain the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Second Cataract Fortification Line",
                   "refID": "BC1177"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3783,8 +4651,16 @@
                   "value": "You can move through"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3836,16 +4712,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lsoe"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3859,16 +4751,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -3928,12 +4836,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -4030,12 +4950,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "and +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -4109,12 +5041,24 @@
                   "value": "Gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -4164,12 +5108,24 @@
                   "value": "Lose 1 Dreamwalker Titan to note a Mazerunner, Earthshaker,"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": " or "
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Logicbreaker"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4208,8 +5164,16 @@
                   "value": "You may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4284,8 +5248,16 @@
                   "value": "Note the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Dreamwalker"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4403,16 +5375,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to travel through a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4489,8 +5477,16 @@
                   "value": "For the purpose of Sabotage card effects, treat your"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Refugees"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4549,8 +5545,16 @@
                   "value": "Note a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Titan's name (Rehabilitation)"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4640,12 +5644,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "when you draw the"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "cardRef",
@@ -4653,13 +5669,25 @@
                   "refID": "BB1251"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "or"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "cardRef",
                   "value": "Black Sludge",
                   "refID": "BB1250"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4751,16 +5779,32 @@
                   "value": "(You cannot gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4878,34 +5922,70 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "If you are on Story 2A or further, during Advancement Steop you may trade these resources for Hyperborean Alloy (any number of times):"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Living Abyss"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Hyperborean Alloy"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Skin of Malice"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4958,7 +6038,15 @@
                   "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than III (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -4972,8 +6060,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You do not benefit from"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "keyword",
@@ -4987,12 +6083,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Increase all"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Fate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5006,42 +6114,86 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "(Armor and Shield only) -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "Potential"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "on Armor Roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion re-roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "EvasionReroll"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(to a minimum of 0)"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion bonus"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Evasion"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5093,8 +6245,16 @@
                   "value": "Resolve"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Inwards Odyssey 40: Song of Life"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5117,6 +6277,10 @@
                   "value": "Each time a Titan dies in Battle, other Titans may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
                 }
@@ -5129,16 +6293,32 @@
                   "value": "In addition, when a Titan survives an Obol Draw, they may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(as noted on the new"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "You Live!"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5225,8 +6405,16 @@
                   "value": "During the Exploration Step, if the Argo is on a Map tile with a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lighthouse"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5277,8 +6465,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5399,16 +6595,32 @@
                   "value": "Gain +1 ArgoFate to travel through a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "waterway with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "TimeWound"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5466,8 +6678,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Time Silo:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5533,16 +6753,32 @@
                   "value": "Gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paradox"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5602,16 +6838,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paradox"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5625,16 +6877,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paradox"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5665,12 +6933,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -5720,28 +7000,56 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to stop any loss or gain of"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": ","
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": ", Titan, Frozen Time, or"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -5754,6 +7062,10 @@
                 {
                   "type": "plainText",
                   "value": "This loss or gain is then"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "bold",
@@ -5776,8 +7088,16 @@
                   "value": "During each following Timeline Step you must gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5843,12 +7163,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Lose -3"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -5898,20 +7230,40 @@
                   "value": "Lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to lose -2"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -5962,16 +7314,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -5985,16 +7353,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lose this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6046,12 +7430,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "and +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -6118,8 +7514,16 @@
                   "value": "Lose 4 Mortal resources and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6300,9 +7704,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Nubian Traders",
                   "refID": "CB1677"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6355,9 +7767,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Spy Network",
                   "refID": "CB1650"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6408,24 +7828,48 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored tile with the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6439,12 +7883,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -6494,16 +7950,32 @@
                   "value": "Lose 1 Dreamwalker Titan to note a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Firestarter, Warkeeper,"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Abysswatcher"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6542,8 +8014,16 @@
                   "value": "You may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6602,8 +8082,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6617,8 +8105,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6720,24 +8216,48 @@
                   "value": "Lose -1 Frozen Time when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": ", lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": ", or gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -6768,33 +8288,65 @@
                   "value": "When you draw the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Chekov's Sun",
                   "refID": "CB1657"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Exploration card, gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and lose -1 Frozen Time to ignore its effect and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7057,16 +8609,32 @@
                   "value": "(You cannot gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7183,30 +8751,62 @@
                   "value": "If you are on Story 2A or further, during the Advancement Phase, you may trade these resources for Cursed Derelict resources (any number of times):"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Blackened Halo"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Cursed Derelict"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "1 Burned-out Grace"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "timing",
                   "value": "<"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7257,7 +8857,15 @@
                   "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than IV (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7271,8 +8879,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You do not benefit from"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "keyword",
@@ -7286,12 +8902,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Increase all"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Fate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7305,42 +8933,86 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "(Armor and Shield only) -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "Potential"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "on Armor Roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion re-roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "EvasionReroll"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(to a minimum of 0)"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion bonus"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Evasion"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7391,8 +9063,16 @@
                   "value": "Resolve"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Inwards Odyssey 40: Song of Life"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7415,6 +9095,10 @@
                   "value": "Each time a Titan dies in Battle, other Titans may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
                 }
@@ -7427,16 +9111,32 @@
                   "value": "In addition, when a Titan survives an Obol Draw, they may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(as noted on the new"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "You Live!"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7523,16 +9223,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7546,16 +9262,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7607,8 +9339,16 @@
                   "value": "Lose -2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7675,8 +9415,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7727,16 +9475,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to re-roll your Adventure Hub's Table roll or gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7794,6 +9558,10 @@
                   "value": "Lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 }
@@ -7806,16 +9574,32 @@
                   "value": "Alternatively, gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to lose -2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7827,6 +9611,10 @@
               "abilityText": [
                 {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7841,8 +9629,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7894,24 +9690,48 @@
                   "value": "Gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored Map tile with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7925,16 +9745,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -7988,12 +9824,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8008,28 +9856,56 @@
                   "value": "Alternatively, gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "or +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8043,16 +9919,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Sow marks 10+:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "You may use this ability on"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Oasis"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8104,8 +9996,16 @@
                   "value": "Lose 6 Cycle IV Mortal resources of your choosing and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8118,6 +10018,10 @@
                 {
                   "type": "plainText",
                   "value": "Instead of losing Mortal resources, you may gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8168,12 +10072,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "and lose -1 Diplomacy with any other Faction to gain +1 Diplomacy with the Local Faction and lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8230,6 +10146,10 @@
                 {
                   "type": "plainText",
                   "value": "Lose -3 Diplomacy with any other Faction, and gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8289,9 +10209,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Whispers on the Wind",
                   "refID": "DB2150"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8305,20 +10233,40 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Whenever you have to pay with"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8368,16 +10316,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8429,17 +10393,33 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to ignore the effects of the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Wrath of the Anemoi",
                   "refID": "DB2116"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8490,24 +10470,48 @@
                   "value": "When you are about to move the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": ", gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to move the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8528,6 +10532,10 @@
                 {
                   "type": "plainText",
                   "value": "Then,"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8578,17 +10586,33 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to ignore the effects of"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Odysseus's Curse",
                   "refID": "DB2114"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8601,6 +10625,10 @@
                 {
                   "type": "plainText",
                   "value": "If you still follow the randomly chosen direction, lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -8651,9 +10679,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Persian Trader",
                   "refID": "DB2157"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8711,24 +10747,48 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "BabelianDebt"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8742,16 +10802,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8846,16 +10922,32 @@
                   "value": "Lose 1 Dreamwalker Titan to note a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Returner, Ascender,"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Dawnburner"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8894,8 +10986,16 @@
                   "value": "You may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -8954,16 +11054,32 @@
                   "value": "When you activate a new Argonaut, gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to choose a Mnemos card from the Mnemos Vault instead, or if, you have 4+ Alpha adventures marked, gain +3"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9013,8 +11129,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9089,6 +11213,10 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Oasis Negotiation"
                 }
@@ -9099,6 +11227,10 @@
                 {
                   "type": "plainText",
                   "value": "Lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -9112,8 +11244,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Sow marks 8+:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9128,8 +11268,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9181,6 +11329,10 @@
                   "value": "You may use this as a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Sisyphus Tear"
                 }
@@ -9193,8 +11345,16 @@
                   "value": "If you do, discard this card and note a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Final Tear"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9303,16 +11463,32 @@
                   "value": "(You cannot gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9371,8 +11547,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9386,8 +11570,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Cooldown:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9470,8 +11662,16 @@
                   "value": "Argo Oxygen Limit: 1("
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9509,8 +11709,16 @@
                   "value": "Lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Hull"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9562,7 +11770,15 @@
                   "value": "When instructed to apply Ascendency rules, all Gear cards with a Power Level lower than V (and without the Ascended keyword) incur the following penalties for the remainder of the Cycle:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9576,8 +11792,16 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "You do not benefit from"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "keyword",
@@ -9591,12 +11815,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Increase all"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Fate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9610,42 +11846,86 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "(Armor and Shield only) -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
                   "value": "Potential"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "on Armor Roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion re-roll"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "EvasionReroll"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(to a minimum of 0)"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "-1 Evasion bonus"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Evasion"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9697,8 +11977,16 @@
                   "value": "Resolve"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Inwards Odyssey 40: Song of Life"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9721,6 +12009,10 @@
                   "value": "Each time a Titan dies in Battle, other Titans may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
                 }
@@ -9733,16 +12025,32 @@
                   "value": "In addition, when a Titan survives an Obol Draw, they may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Rage"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "(as noted on the new"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "You Live!"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9827,20 +12135,40 @@
                   "value": "Gian +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "and +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -9892,16 +12220,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to lose"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9915,16 +12259,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Crew"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -9974,9 +12334,17 @@
                   "value": "Lose 8 Atlantean Tekne resources to add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Cyclades Recruitment Drive",
                   "refID": "EB2721"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10027,8 +12395,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10087,24 +12463,48 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored Map tile with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Progress"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10118,12 +12518,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -10135,30 +12547,58 @@
               "abilityText": [
                 {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Gain +2"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "is on an explored Map tile with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "SilverRemnant"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10172,12 +12612,24 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "Gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -10230,16 +12682,32 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "when you are about to gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paranoia"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10253,16 +12721,32 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Success:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Lower this"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paranoia"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10285,12 +12769,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to lose -1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -10342,9 +12838,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Peace Emissaries",
                   "refID": "EB2713"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10395,9 +12899,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Symmachy Liaisons",
                   "refID": "EB2712"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10458,6 +12970,10 @@
                   "value": "Lose -1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 }
@@ -10469,20 +12985,40 @@
                   "type": "newline"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "bold",
                   "value": "Fleeting Truth:"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "When you gain"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoKnowledge"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": ", instead of gaining it, you may lose -2"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -10534,8 +13070,16 @@
                   "value": "Gian +1 Unavoidable"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Doom"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10555,6 +13099,10 @@
               "abilityText": [
                 {
                   "type": "newline"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10607,16 +13155,32 @@
                   "value": "Lose 4 Cycle V Mortal resources of your choosing and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "to gain +1 Diplomacy with the Local Faction, or 12 Mortal resources of your choosing and gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10692,9 +13256,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Familiar Theban Trader",
                   "refID": "EB2720"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10745,20 +13317,40 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "and +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Paranoia"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -10809,8 +13401,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10878,8 +13478,16 @@
                   "value": "Argo Oxygen Limit: 2 (the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10932,16 +13540,32 @@
                   "value": "You can move through"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "Lock"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "waterways with"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "UnderwaterCave"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -10964,8 +13588,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11017,8 +13649,16 @@
                   "value": "Argo Oxygen Limit: 3 (the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Argo"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11091,6 +13731,10 @@
                 {
                   "type": "plainText",
                   "value": "Lose -2"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -11204,8 +13848,16 @@
                   "value": "As long as the Local Faction is not Aligned With Nemesis, each"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11257,16 +13909,32 @@
                   "value": "When on a tile adjacent to a Map tile with a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "City"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": ", you may use a single"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "City"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11281,8 +13949,16 @@
                   "value": "Place the Last Visited City token on that"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "City"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11333,12 +14009,24 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "plainText",
                   "value": "to gain +1"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "icon",
@@ -11388,24 +14076,48 @@
                   "value": "Lose 1 Dreamwalker Titan to note a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Cloudsoarer, Wishender,"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Lunarlander"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "Event on the Timeline, 10 days from now, or a"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "italics",
                   "value": "Shadowdancer"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11444,8 +14156,16 @@
                   "value": "You may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11505,8 +14225,16 @@
                   "value": "Gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11529,9 +14257,17 @@
                   "value": "Add the"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "cardRef",
                   "value": "Reclaimed Titan",
                   "refID": "EB2681"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11583,16 +14319,32 @@
                   "value": "You may use"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "City"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
                   "value": "or underwater"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "UnderwaterCity"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",
@@ -11652,8 +14404,16 @@
                   "value": "You may gain +1"
                 },
                 {
+                  "type": "whitespace",
+                  "value": " "
+                },
+                {
                   "type": "icon",
                   "value": "ArgoFate"
+                },
+                {
+                  "type": "whitespace",
+                  "value": " "
                 },
                 {
                   "type": "plainText",

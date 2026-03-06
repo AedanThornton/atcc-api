@@ -26,8 +26,16 @@
               "value": "Discard a Condition token or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Discard"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -49,8 +57,16 @@
               "value": "Discard a Condition token from another Titan or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Discard"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -131,6 +147,10 @@
             {
               "type": "plainText",
               "value": "Another Titan may"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -350,6 +370,10 @@
               "value": "When you suffer Knockback, you may lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
             }
@@ -463,6 +487,10 @@
               "value": "When you are on a Rear space, you gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Power Re-roll 1"
             }
@@ -477,6 +505,10 @@
             {
               "type": "plainText",
               "value": "When you are on a Rear space, you gain"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -518,8 +550,16 @@
               "value": "Unexhaust a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -541,8 +581,16 @@
               "value": "Another Titan may unexhaust a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -601,8 +649,16 @@
               "value": "When you are about to perform a Power Roll, add 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "RedPowerDie"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -624,8 +680,16 @@
               "value": "When you are about to perform a Power Roll, add 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "BlackPowerDie"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -647,8 +711,16 @@
               "value": "When you are about to perform a Power Roll, add 2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -693,16 +765,32 @@
               "value": "During"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -724,24 +812,48 @@
               "value": "During"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Bypass"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -763,32 +875,64 @@
               "value": "During"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MovementAction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", gain +3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Bypass"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "for this movement and gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Vault"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -833,40 +977,80 @@
               "value": "After you raise you"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "for any reason, if your"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "is equal to current"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Priority Target's"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", you may gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -885,8 +1069,16 @@
               "value": "If you are the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -905,12 +1097,24 @@
               "value": "If you are the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Priority Target, you gain"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -1053,8 +1257,16 @@
               "value": "WHen another Titan is about to gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1073,8 +1285,16 @@
               "value": "If this"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1131,8 +1351,16 @@
               "value": "Gain 1 temporary positive"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Evasion"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1152,6 +1380,10 @@
             {
               "type": "plainText",
               "value": "Gain or lose up to 2"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1208,6 +1440,10 @@
               "value": "When you break a Combo, you may lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
             }
@@ -1262,12 +1498,24 @@
               "value": "When you survive an Obol, lose up to -3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "and up to -2"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1298,6 +1546,10 @@
             {
               "type": "plainText",
               "value": "If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1410,8 +1662,16 @@
               "value": "Before performing a Power Roll, gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1503,8 +1763,16 @@
               "value": "When you are about to resolve a Trauma Draw, treat your"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1532,16 +1800,32 @@
               "value": "When you stand up, gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", +1 Precision and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Auto-break 1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1601,6 +1885,10 @@
               "value": "Start of Battle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "You may move 1 space towards the Primordial"
             }
@@ -1615,8 +1903,16 @@
               "value": "Start of Battle"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "You may gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1631,6 +1927,10 @@
             {
               "type": "timing",
               "value": "Start of Battle"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1753,6 +2053,30 @@
             {
               "type": "timing",
               "value": "Reaction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -1911,6 +2235,10 @@
               "value": "Succor"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", then, immediately after current Attack ends, draw an Obol"
             }
@@ -1983,9 +2311,17 @@
               "value": "When you are about to Discard a positive Trauma card due to the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Bleeding",
               "refID": "CL1283"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2129,16 +2465,32 @@
               "value": "When you arrive from Time-clocked, gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "and"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Auto-black 1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2249,8 +2601,16 @@
               "value": "Gain the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "PriorityTarget"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2273,6 +2633,10 @@
               "value": "If you are the Priority Target, gain"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Rouse 1"
             }
@@ -2290,6 +2654,10 @@
             {
               "type": "plainText",
               "value": "If you are the Priority Target, gain"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -2329,6 +2697,10 @@
             {
               "type": "timing",
               "value": "Start of your turn"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2522,13 +2894,25 @@
               "value": "Discard a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Wishkeen",
               "refID": "DL2011"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2536,8 +2920,16 @@
               "refID": "DL2011"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Condition card and gained the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -2545,13 +2937,25 @@
               "refID": "DL2015"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
               "value": "Lander",
               "refID": "DL2019"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2677,6 +3081,22 @@
             {
               "type": "timing",
               "value": "Reaction"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -2893,16 +3313,32 @@
               "value": "Gain +X"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "to gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Evasion"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2943,6 +3379,10 @@
             {
               "type": "timing",
               "value": "End of Battle"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3027,9 +3467,17 @@
               "value": "Place an"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Irem Tower",
               "refID": "DI2028"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3108,8 +3556,16 @@
               "value": "Pull 3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "For the purposes of this Pull, ignore"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -3226,6 +3682,10 @@
             {
               "type": "plainText",
               "value": "When another Titan dies, immediately perform"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3399,8 +3859,16 @@
               "value": "Block 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "keyword",
@@ -3448,13 +3916,25 @@
               "value": "Take a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Fear",
               "refID": "AL0299"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -3462,8 +3942,16 @@
               "refID": "AL0299"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Condition card of an adjacent Titan and gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3486,18 +3974,34 @@
               "value": "Take a"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Terror",
               "refID": "EL2596"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Holy Terror",
               "refID": "EL2596"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3576,8 +4080,16 @@
               "value": "Ignore an Aether or Oxygen"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Gear"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3600,8 +4112,16 @@
               "value": "When you are about to perform a Power Roll, add 1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "WhitePowerDie"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3682,8 +4202,16 @@
               "value": "You Titan's Power die becomes"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "MortalPowerDie"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",

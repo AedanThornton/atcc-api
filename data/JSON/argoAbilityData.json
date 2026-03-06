@@ -40,6 +40,10 @@
                 "value": "That Titan may gain +1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Rage"
               }
@@ -141,6 +145,10 @@
                 "value": "That Titan may lose -1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Fate"
               }
@@ -234,6 +242,10 @@
                 "value": "That Titan may gain or lose 2"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -277,6 +289,10 @@
               {
                 "type": "timing",
                 "value": "Reaction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -341,6 +357,10 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Power Re-roll 1"
               }
@@ -395,6 +415,10 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Pushback 2"
               }
@@ -439,8 +463,16 @@
                 "value": "Choose a Titan that is about to gain involuntary"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Rage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -465,6 +497,10 @@
               {
                 "type": "plainText",
                 "value": "That Titan loses -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -511,8 +547,16 @@
                 "value": "Unexhaust 2"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -561,6 +605,10 @@
                 "value": "Start of Titan Round"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "You may choose an effect from the Payload card and roll a d10"
               }
@@ -594,8 +642,16 @@
                 "value": "When the Cannon is primed, discard 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -615,16 +671,32 @@
                 "value": "As a"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Reaction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "or after drawing a BP card you may discard 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Energy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -681,8 +753,16 @@
                 "value": "A Titan on, adjacent to, or moving through a space with the Trireme token may flip the Trireme token to the spent side to equip any 1 Support or Weapon"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -786,7 +866,15 @@
                 "value": "Then choose a Battle Board space you want to deploy the Weapon to and roll a d10:"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -798,6 +886,10 @@
             "abilityText": [
               {
                 "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -817,6 +909,10 @@
             "abilityText": [
               {
                 "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -935,6 +1031,10 @@
                 "value": "Reaction"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Choose a Titan"
               }
@@ -988,8 +1088,16 @@
                 "value": "If you push the Primordial on to a space with the Trireme token, discard the token and place 1 negative"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1012,8 +1120,16 @@
                 "value": "On a 6+, place 1 negative"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1070,12 +1186,24 @@
                 "value": "That Titan loses -2"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "and gains +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -1184,6 +1312,10 @@
                 "value": "You may use this ability as a free action or as a"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Reaction"
               }
@@ -1270,8 +1402,16 @@
                 "value": "Lose -1 Titan from the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "italics",
                 "value": "Argo"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1292,6 +1432,10 @@
               {
                 "type": "plainText",
                 "value": "You may use this ability as a free action or as a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -1352,6 +1496,10 @@
               {
                 "type": "plainText",
                 "value": "You may use this ability as a free action or when you are about to perform a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "bold",
@@ -1440,6 +1588,10 @@
                 "value": "Reaction"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Choose a Titan"
               }
@@ -1500,6 +1652,10 @@
                 "value": "That Titan may imediately perform an additional"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "CombatAction"
               }
@@ -1550,6 +1706,10 @@
               {
                 "type": "plainText",
                 "value": "That Titan may imediately perform an additional"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -1655,6 +1815,10 @@
                 "value": "That Titan gains"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Wish Armor"
               }
@@ -1699,6 +1863,10 @@
                 "value": "Choose a Titan and roll 2"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "BlackPowerDie"
               }
@@ -1709,6 +1877,10 @@
               {
                 "type": "plainText",
                 "value": "Count the number of"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -1825,8 +1997,16 @@
                 "value": "A Titan on, adjacent to, or moving through a space with the Cirrotrireme token may flip the token to the spent side to equip any 1 Weapon"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1841,8 +2021,16 @@
                 "value": "A spent Cirrotrieme can still be moved as normal but loses the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "bold",
                 "value": "Rearm"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1892,6 +2080,10 @@
                 "value": "Reaction"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Choose a Titan"
               }
@@ -1902,6 +2094,10 @@
               {
                 "type": "plainText",
                 "value": "That Titan may perform"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -2061,6 +2257,14 @@
                 "value": "Either:"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Flip one of that Titan's Condition cards"
               }
@@ -2121,8 +2325,16 @@
                 "value": "When the Primordial reveals an AI card or triggers a Signature that targets a specific Titan, change the Targeting to"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "bold",
                 "value": "Target:"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2220,6 +2432,10 @@
               {
                 "type": "timing",
                 "value": "Start of Battle"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2370,16 +2586,32 @@
                 "value": "A spent Subreme can still be moved as normal but loses the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "bold",
                 "value": "Rearm"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "and"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "bold",
                 "value": "Detect"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2457,20 +2689,40 @@
                 "value": "Choose a Titan when an adjacent Primordial performs"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Flash Step"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": ","
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Vanish"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": ", or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -2581,32 +2833,64 @@
                 "value": "Gain 3 Pain tokens to perform a"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "CombatAction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "or"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "MovementAction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": ", then gain a"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "CombatAction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "or"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "MovementAction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2653,13 +2937,25 @@
                 "value": "Choose a Titan that is about to die from"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "cardRef",
                 "value": "Disemboweled",
                 "refID": "AM0341"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "cardRef",
@@ -2667,8 +2963,16 @@
                 "refID": "AL0299"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "cardRef",
@@ -2676,8 +2980,16 @@
                 "refID": "AL0299"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "cardRef",
@@ -2685,8 +2997,16 @@
                 "refID": "EL2596"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": ", or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "cardRef",
@@ -2759,7 +3079,15 @@
                 "value": "11) the new Titan to and roll a d10:"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2773,6 +3101,10 @@
                 "type": "newline"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "6-10: It lands on the chosen space"
               }
@@ -2782,6 +3114,10 @@
             "abilityText": [
               {
                 "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2836,18 +3172,34 @@
                 "value": "That Titan discards all Despair tokens or a"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "cardRef",
                 "value": "Fear",
                 "refID": "AL0299"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "or"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "cardRef",
                 "value": "Terror",
                 "refID": "EL2596"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",

@@ -330,8 +330,16 @@
               "value": "When on a VP, you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -359,23 +367,47 @@
               "value": "When on a VP, you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", you ignore normal Responses, resolve these instead:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Wound: Gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -692,8 +724,16 @@
               "value": "When on a VP, you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -721,23 +761,47 @@
               "value": "When on a VP, you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": ", you cannot gain Despair tokens and you ignore normal Responses, resolve these instead:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Wound: Gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3325,6 +3389,10 @@
               "value": "When on VP I and VP II: you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -3336,8 +3404,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "WHen on VP III: you gain +2"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3710,6 +3786,10 @@
               "value": "When on the VP, you gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -3730,7 +3810,15 @@
               "value": "Resolve these instead:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3745,6 +3833,10 @@
               "value": "WoO"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Imperial Impetus"
             }
@@ -3757,6 +3849,10 @@
               "value": "Fail:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Airburst 2"
             }
@@ -3767,6 +3863,10 @@
             {
               "type": "icon",
               "value": "WoO"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3794,6 +3894,10 @@
               "value": "When on the VP, you gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -3814,7 +3918,15 @@
               "value": "Resolve these instead:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3829,6 +3941,10 @@
               "value": "WoO"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Imperial Impetus"
             }
@@ -3841,6 +3957,10 @@
               "value": "Fail:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "keyword",
               "value": "Airburst 4"
             }
@@ -3851,6 +3971,10 @@
             {
               "type": "icon",
               "value": "WoO"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -5604,6 +5728,10 @@
               "value": "When on a VP, you gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Power"
             }
@@ -5631,8 +5759,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Scan Test:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -5646,8 +5782,16 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Hard to See:"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -6923,6 +7067,10 @@
             {
               "type": "plainText",
               "value": "While on the VP, gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",

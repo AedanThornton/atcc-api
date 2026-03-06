@@ -25,11 +25,23 @@
               "value": "6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -67,11 +79,23 @@
               "value": "4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -109,11 +133,23 @@
               "value": "1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -151,11 +187,23 @@
               "value": "2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -286,6 +334,10 @@
               "value": "Lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
             }
@@ -387,6 +439,10 @@
               "value": "Gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Strangers"
             }
@@ -422,6 +478,10 @@
               "value": "Gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
             }
@@ -455,6 +515,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -570,8 +634,16 @@
               "value": "Discarding"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ": If you are told to discard this card by the Story 3A effect, discard another card from the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -634,8 +706,16 @@
               "value": "Discarding"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ": If you are told to discard this card by the Story 3A effect, discard another card from the"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "cardRef",
@@ -682,6 +762,10 @@
               "value": "No coordinates here! Gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Strangers"
             }
@@ -715,6 +799,10 @@
             {
               "type": "plainText",
               "value": "No coordinates here! Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -752,8 +840,16 @@
               "value": "Write 'Acacallis' in the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "italics",
               "value": "Boons, Afflictions, and Notes"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -884,19 +980,39 @@
               "value": "1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Cyclopes"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -934,19 +1050,39 @@
               "value": "2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Symmachy"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -984,20 +1120,40 @@
               "value": "6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "When you have this card, add +1 to all"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Hope Logic",
               "refID": "AA0038"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1035,19 +1191,39 @@
               "value": "4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "When you have this card, add +1 to all tests during the Adventure Phase on"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Helot"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1284,6 +1460,10 @@
               "value": "Lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
             }
@@ -1335,6 +1515,10 @@
               "value": "Lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Crew"
             }
@@ -1384,6 +1568,10 @@
             {
               "type": "plainText",
               "value": "Gain +2"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1468,12 +1656,24 @@
               "value": "Lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "or -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -1558,8 +1758,16 @@
               "value": "At the end of the current Step, resolve a regular Cyclonus Battle but"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "do not"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1621,9 +1829,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Gerusia Delegate",
               "refID": "BC1193"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1669,9 +1885,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Gerusia Delegate",
               "refID": "BC1193"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1717,9 +1941,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Krypteia Spymaster",
               "refID": "BC1195"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1765,16 +1997,32 @@
               "value": "When you have this card, the first"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "Negotation ability you use during the day costs you -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "ArgoFate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1820,9 +2068,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Hermes Hoplites Commander",
               "refID": "BC1197"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1868,9 +2124,17 @@
               "value": "When you have this card, each time you use the Expedition ability from the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Titan Hunting",
               "refID": "AA0044"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -1916,9 +2180,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Ambrosia Processing Overseer",
               "refID": "BC1199"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2003,9 +2275,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Ephor",
               "refID": "BC1202"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2051,9 +2331,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "Ephor",
               "refID": "BC1202"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2099,8 +2387,16 @@
               "value": "When you have this card, add +1 to all save tests that allow you to mitigate"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2115,9 +2411,17 @@
               "value": "Add the"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "cardRef",
               "value": "High Preist of Man",
               "refID": "BC1203"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2163,8 +2467,16 @@
               "value": "When you have this card, add +1 to all save tests that allow you to mitigate"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2203,16 +2515,32 @@
               "value": "When in Sparta, gain +1 to save tests that allow you to mitigate either"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Crew"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "or"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2257,6 +2585,10 @@
             {
               "type": "bold",
               "value": "You are not one of them"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2327,6 +2659,10 @@
               "value": "You are not the traitor"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
             }
@@ -2395,6 +2731,10 @@
               "value": "You are loyal to the Argo"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": ", but the evidence suggests there is a spy among you, posing as an Argonaut"
             }
@@ -2461,6 +2801,10 @@
             {
               "type": "bold",
               "value": "You did not betray your comrades"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2544,8 +2888,16 @@
               "value": "When you are on tile 32, during the Story Step, lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Hull"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2591,8 +2943,16 @@
               "value": "When you are on tile 46, during the Story Step, gain +1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Doom"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2638,8 +2998,16 @@
               "value": "When you are on tile 42, during the Story Step, lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Crew"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -2685,8 +3053,16 @@
               "value": "When you are on tile 37, during the Story Step, gain +2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Paradox"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3084,6 +3460,10 @@
               "value": "If this is the 5th+ Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card once, if possible"
             }
@@ -3093,6 +3473,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3105,6 +3489,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3142,6 +3530,10 @@
               "value": "If this is the 6th+ Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card once, if possible"
             }
@@ -3151,6 +3543,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3163,6 +3559,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3200,6 +3600,10 @@
               "value": "If this is the 7th+ Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card once, if possible"
             }
@@ -3209,6 +3613,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3221,6 +3629,10 @@
             {
               "type": "plainText",
               "value": "Loses -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3258,6 +3670,10 @@
               "value": "If this is the 8th+ Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again"
             }
@@ -3267,6 +3683,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3279,6 +3699,10 @@
             {
               "type": "plainText",
               "value": "Lose -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3316,6 +3740,10 @@
               "value": "If this is the 9th+ Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again"
             }
@@ -3325,6 +3753,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3337,6 +3769,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3374,6 +3810,10 @@
               "value": "If this is the last Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again, then, if possible, repeat it for a third and final time"
             }
@@ -3383,6 +3823,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3395,6 +3839,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3432,6 +3880,10 @@
               "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card once, if possible"
             }
@@ -3441,6 +3893,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3453,6 +3909,10 @@
             {
               "type": "plainText",
               "value": "Lose -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3490,6 +3950,10 @@
               "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again"
             }
@@ -3499,6 +3963,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3511,6 +3979,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3548,6 +4020,10 @@
               "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again"
             }
@@ -3557,6 +4033,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3569,6 +4049,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3606,6 +4090,10 @@
               "value": "If this Cloud Chase card would go over a tile with a Cloud Chase card:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "plainText",
               "value": "Repeat this card, if possible, then, if possible, repeat it again, then, if possible, repeat it for a third and final time"
             }
@@ -3615,6 +4103,10 @@
           "abilityText": [
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3627,6 +4119,10 @@
             {
               "type": "plainText",
               "value": "Gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -3718,7 +4214,15 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3763,7 +4267,15 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3816,7 +4328,15 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3854,10 +4374,22 @@
               "value": "They are not one of, but the wonder of the World, a symbol of the wealth and power generated by the --Babelian Text--nfinite Growth of Persia's system, and a promise that each and every one of its citizens can either aspire to one day walk its fabulous halls, or simply wait for its opulence to trickle down"
             },
             {
-              "type": "newline"
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3902,7 +4434,15 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -3972,6 +4512,10 @@
               "value": "At any time you may cross out 1 Stolen Clouds tally mark to lose -1"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "ArgoFate"
             }
@@ -4006,6 +4550,10 @@
             {
               "type": "plainText",
               "value": "At any time you may cross out 1 Unbestowed tally mark to lose -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "icon",
@@ -4236,6 +4784,10 @@
               "value": "Sadly, as the Empire chases Infinite Growth, time grows shorter:"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "Immediately lose 1 Grip and 1 round"
             }
@@ -4287,8 +4839,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4334,8 +4894,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4381,8 +4949,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4428,8 +5004,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4475,8 +5059,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4522,8 +5114,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4569,8 +5169,16 @@
               "value": "If you start the Story Step on one of these underwater"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "City"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4615,7 +5223,15 @@
               "type": "newline"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4669,19 +5285,39 @@
               "value": "6"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4719,19 +5355,39 @@
               "value": "4"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "3"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4769,19 +5425,39 @@
               "value": "7"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4819,19 +5495,39 @@
               "value": "9"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4869,19 +5565,39 @@
               "value": "8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "8"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
@@ -4919,19 +5635,39 @@
               "value": "5"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "bold",
               "value": "2"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "newline"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",
               "value": "If there are 5 or more"
             },
             {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
               "type": "icon",
               "value": "Progress"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
             },
             {
               "type": "plainText",

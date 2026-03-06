@@ -25,6 +25,9 @@ def parse_formatted_sentence(raw_sentence):
     for match in token_regex.finditer(raw_sentence):
         newline, keyword, timing, cardRef, gate, bold, italics, icon, cost, text = match.groups()
 
+        if len(tokens) > 0:
+            tokens.append({"type": "whitespace", "value": " "})
+
         if newline:
             tokens.append({"type": "newline"})
         elif keyword:

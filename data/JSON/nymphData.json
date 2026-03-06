@@ -21,8 +21,16 @@
             "value": "3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Hull"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -149,8 +157,16 @@
             "value": "Treat the Titan as if they drew a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "You Live!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -165,12 +181,24 @@
             "value": "Additionally, they lose -3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and -3"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -236,6 +264,10 @@
             "value": "The first Titan Attack this Round performed from a Labyrinth tile gains +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
           }
@@ -273,8 +305,16 @@
             "value": "Gain +6"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -316,8 +356,16 @@
             "value": "Be on a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "City"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -342,8 +390,16 @@
             "value": "Lower"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -393,8 +449,16 @@
             "value": "That Titan immediately Awakens, then discards 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Trespass"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -436,8 +500,16 @@
             "value": "Resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Forging a Masterpiece"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -452,24 +524,48 @@
             "value": "Give the acquired"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "card to one of the Argonauts, that"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "card gains the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Argonaut Possession"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -484,8 +580,16 @@
             "value": "After the next Battle: Lose that"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -500,9 +604,17 @@
             "value": "The Argonaut gains the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Apathy",
             "refID": "CF1261"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -552,6 +664,10 @@
             "value": "As long as you have this card, you have +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
           }
@@ -586,6 +702,10 @@
           {
             "type": "timing",
             "value": "Start of your turn:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -625,8 +745,16 @@
             "value": "Be on a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "City"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -651,16 +779,32 @@
             "value": "Immediately research 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "CombatTech"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "StructuralTech"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -735,6 +879,10 @@
             "value": "ArgoFate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "6+"
           }
@@ -757,12 +905,24 @@
             "value": "Immediately gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Progress"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "or +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -775,6 +935,10 @@
           {
             "type": "plainText",
             "value": "Gain +1 unavoidable"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -942,12 +1106,24 @@
             "value": "Until the end of Battle, the last Titan can perform an additional"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "MovementAction"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -962,24 +1138,48 @@
             "value": "They cannot suffer"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Knockdown"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Time-clocked"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "and cannot gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1029,8 +1229,16 @@
             "value": "Unexhaust all"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1045,8 +1253,16 @@
             "value": "Each prepared Argo Ability regains 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Energy"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1088,9 +1304,17 @@
             "value": "Immediately create 6 Glass"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Irem Tower",
             "refID": "DI2028"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1105,16 +1329,32 @@
             "value": "A Glass Irem Tower loses the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Shifting"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "keyword and gains the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Destructible"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1189,8 +1429,16 @@
             "value": "When an Argonaut is about to die and either"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "During Battle:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1205,8 +1453,20 @@
             "value": "During Voyage:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",

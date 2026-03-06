@@ -76,6 +76,10 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -102,8 +106,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "2+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -170,8 +182,16 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -284,8 +304,16 @@
                 "value": "If the Attack hits, it deals 8"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -306,8 +334,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "3+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -374,8 +410,16 @@
             "value": "Resolve a Fated Mnemos! Immediately resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Memory of the Boiling Sea"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -480,16 +524,32 @@
                 "value": "One hit deals 5"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "and 1 Ambrosia token; two or more hits deal 9"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -510,8 +570,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "4+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -586,8 +654,16 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -663,6 +739,10 @@
                 "value": "PriorityTarget"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Priority Target in sight"
               }
@@ -702,8 +782,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -736,18 +824,34 @@
                 "value": "One hit, gain the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "cardRef",
                 "value": "Covetous",
                 "refID": "DL2007"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "Condition card; two hits, gain the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "cardRef",
                 "value": "Greed-crazed",
                 "refID": "DL2007"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -782,9 +886,17 @@
                     "value": "Gain the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "cardRef",
                     "value": "Fear",
                     "refID": "AL0299"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -808,9 +920,17 @@
                     "value": "Gain the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "cardRef",
                     "value": "Wishkeen",
                     "refID": "DL2011"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -832,8 +952,16 @@
             "value": "Disable the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Soulrend"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -922,8 +1050,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "3+ +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -948,8 +1084,16 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1040,8 +1184,16 @@
             "value": "The Dahaka gains 1 negative To Hit"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ToHit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1096,8 +1248,16 @@
                 "value": "Mnemos with the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "italics",
                 "value": "Voyage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1115,6 +1275,10 @@
               {
                 "type": "icon",
                 "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1158,6 +1322,10 @@
                 "value": "Each hit deals 4"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -1184,8 +1352,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "4+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -1321,8 +1497,16 @@
                 "value": "Highest"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1354,6 +1538,10 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -1380,12 +1568,24 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+ Gain 1 negative Precision ("
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Precision"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1420,9 +1620,17 @@
                     "value": "Gain the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "cardRef",
                     "value": "Covetous",
                     "refID": "DL2007"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -1473,8 +1681,16 @@
             "value": "Disable the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Shackles of Regret"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1558,8 +1774,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -1584,8 +1808,16 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1650,6 +1882,10 @@
           {
             "type": "keyword",
             "value": "Drift"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1728,6 +1964,10 @@
                 "value": "Each hit discard 1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Gear"
               }
@@ -1738,6 +1978,10 @@
               {
                 "type": "plainText",
                 "value": "Each hit deals 3"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -1865,6 +2109,10 @@
                 "value": "PriorityTarget"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Priority Target in sight"
               }
@@ -1904,8 +2152,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -1938,16 +2194,32 @@
                 "value": "One Hit,"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Death 2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
                 "value": "; two hits,"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "keyword",
                 "value": "Death 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -1982,9 +2254,17 @@
                     "value": "Gain the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "cardRef",
                     "value": "Dread",
                     "refID": "AL0299"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -2008,9 +2288,17 @@
                     "value": "Gain the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "cardRef",
                     "value": "Wishagog",
                     "refID": "DL2011"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -2140,8 +2428,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "6+ +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -2174,8 +2470,16 @@
                 "value": "Then, gain +3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2303,8 +2607,16 @@
                 "value": "Highest"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2332,8 +2644,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "3+ +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -2358,6 +2678,10 @@
                 "value": "Each hit deals 4"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -2370,8 +2694,16 @@
                 "value": "If you gain 10+"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2438,13 +2770,29 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Shadowcleaver",
             "refID": "DJ2366"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2512,8 +2860,16 @@
                 "value": "Highest"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2557,6 +2913,10 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -2575,12 +2935,24 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "6+ 4"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2601,8 +2973,16 @@
                 "value": "Lose -1"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Rage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2673,13 +3053,29 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Dahaka Mask",
             "refID": "DJ2365"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2755,8 +3151,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -2781,8 +3185,16 @@
                 "value": "Each hit deals 4"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2817,8 +3229,16 @@
                     "value": "Raise"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "icon",
                     "value": "Danger"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -2857,8 +3277,16 @@
             "value": "Deal an additional Single Wound! After the Battle, resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Trench and the Cosmos"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2926,8 +3354,16 @@
                 "value": "Mnemos with the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "italics",
                 "value": "Voyage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2945,6 +3381,10 @@
               {
                 "type": "icon",
                 "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -2985,8 +3425,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "5+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -3019,8 +3467,16 @@
                 "value": "One hit, raise"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -3214,13 +3670,29 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Dahaka Blade",
             "refID": "DJ2364"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3258,8 +3730,16 @@
                 "value": "Mnemos with the"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "italics",
                 "value": "Voyage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -3290,6 +3770,10 @@
               {
                 "type": "icon",
                 "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -3330,8 +3814,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "8+ +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -3364,20 +3856,40 @@
                 "value": "Wisdom"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Wisdom/"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
                 "value": "Courage"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "Courage/"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Will"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "plainText",
@@ -3390,6 +3902,10 @@
               {
                 "type": "plainText",
                 "value": "If the Attack hits, the Titan and the Argonaut die; gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "icon",
@@ -3545,6 +4061,10 @@
                 "value": "Each hit deals 5"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -3563,8 +4083,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "7+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -3603,8 +4131,16 @@
                     "value": "Disable the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "keyword",
                     "value": "Shackles of Regret"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -3628,8 +4164,16 @@
                     "value": "Disable the"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "keyword",
                     "value": "Shackles of Regret"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "plainText",
@@ -3649,6 +4193,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -3753,6 +4301,10 @@
                 "value": "Each hit deals 3"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "icon",
                 "value": "Danger"
               }
@@ -3779,8 +4331,16 @@
                 "value": "Fate"
               },
               {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "2+"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
               },
               {
                 "type": "keyword",
@@ -3822,12 +4382,24 @@
                     "value": "Lose -1"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "icon",
                     "value": "Crew"
                   },
                   {
+                    "type": "whitespace",
+                    "value": " "
+                  },
+                  {
                     "type": "plainText",
                     "value": "and -1"
+                  },
+                  {
+                    "type": "whitespace",
+                    "value": " "
                   },
                   {
                     "type": "icon",

@@ -21,6 +21,10 @@
             "value": "Argo loses -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
           }
@@ -51,16 +55,32 @@
             "value": "Furthest Titan suffers"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Knockdown"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", raise"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -73,6 +93,10 @@
           {
             "type": "plainText",
             "value": "Hekaton moves adjacent to Closest Titan with Unlimited"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -106,6 +130,10 @@
             "value": "Argo loses -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
           }
@@ -137,8 +165,16 @@
             "value": "Temenos gains 1 postiive"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -188,8 +224,16 @@
             "value": "Temenos gains 1 postiive"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -239,12 +283,24 @@
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -276,8 +332,16 @@
             "value": "Each Titan gains as many"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -317,8 +381,16 @@
             "value": "Each Titan gains as many"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -358,8 +430,16 @@
             "value": "Each Titan assigns all of their Ambrosia tokens to their Titan Sheet, Kratos Table, or to any of their"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -456,25 +536,49 @@
             "value": "Fail: Gain +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "and the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Dread",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -523,12 +627,24 @@
             "value": "Each Titan gains +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -543,6 +659,10 @@
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Refugees"
           }
@@ -553,6 +673,10 @@
           {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -585,12 +709,24 @@
             "value": "Each Titan gains +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -603,6 +739,10 @@
           {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -675,12 +815,24 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Progress"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -695,16 +847,32 @@
             "value": "If there are no"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Progress"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "tokens on the current Story card, gain +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Doom"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -718,8 +886,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -766,8 +942,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Indigestion"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -789,8 +973,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "timing",
             "value": "End of Titan Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -812,17 +1004,33 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Zeus",
             "refID": "AQ0386"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Godform has +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -836,6 +1044,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If you are ever Absorbed while being Absorbed, you die"
           }
@@ -847,16 +1059,32 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "timing",
             "value": "End of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Each still Absorbed Titan resolves the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Bellynaut"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -888,8 +1116,16 @@
             "value": "Starting from the lowest"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -953,6 +1189,10 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Doom"
           }
@@ -989,6 +1229,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If you deal a Wound, place your Titan on a space adjacent to the Timefront in a straight line from the Oracle"
           }
@@ -1008,6 +1252,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "At the end of your turn, if you're still in the Omega Terminus, you are erased from existence"
           }
@@ -1019,12 +1267,24 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Zeus Godform gains +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1056,6 +1316,10 @@
             "value": "Each Titan suffers"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Bleeding 3"
           }
@@ -1083,6 +1347,10 @@
           {
             "type": "plainText",
             "value": "Lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1153,24 +1421,48 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "End of your turn:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "If you start your turn Impaled,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Midas 2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", then gain X+5"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1227,12 +1519,24 @@
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1272,7 +1576,15 @@
             "value": "Start of Battle (Level 4+):"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1286,7 +1598,15 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1318,11 +1638,23 @@
             "value": "Staircase:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Disappears!"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1354,8 +1686,16 @@
             "value": "Each Titan discard 1 Oxygen token and a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1395,8 +1735,16 @@
             "value": "Each Titan discards 1 Oxygen token, suffers"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Burn"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1427,6 +1775,10 @@
           {
             "type": "plainText",
             "value": "Lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1467,9 +1819,17 @@
             "value": "All Titans gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Terror",
             "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1490,6 +1850,10 @@
           {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1579,12 +1943,24 @@
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Crew"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1649,9 +2025,17 @@
             "value": "Shuffle the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Overstep BP I",
             "refID": "ES3194"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1691,9 +2075,17 @@
             "value": "Shuffle the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Overstep BP II",
             "refID": "ES3195"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1733,8 +2125,16 @@
             "value": "As long as this Feint is in play, all your Attacks gain: \""
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Full Miss:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1766,12 +2166,28 @@
             "value": "As long as this Feint is in play, all your Attacks gain: \""
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Full Miss:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Pain X"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1828,6 +2244,10 @@
             "value": "When this Feint is drawn, Titan goes for the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Argo"
           }
@@ -1880,6 +2300,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If this card was drawn as an effect of the AI 0, discard it and draw again"
           }
@@ -1907,6 +2331,10 @@
           {
             "type": "plainText",
             "value": "When this Feint is drawn,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -1962,8 +2390,16 @@
             "value": "Every Titan gains as much"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",

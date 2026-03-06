@@ -21,6 +21,10 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           }
@@ -54,12 +58,24 @@
             "value": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "! If you have the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -67,20 +83,40 @@
             "refID": "AL0303"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Condition card, immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
             "value": "Stand up"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and gain 1 positive"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Evasion"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -114,6 +150,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -157,6 +197,10 @@
             "value": "Exhaust all your exhaustible"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
           }
@@ -169,8 +213,16 @@
             "value": "If no"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -206,17 +258,33 @@
             "value": "You may immediately perform a Bonus Attack! If you have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Knockdown (falling down)",
             "refID": "AL0303"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Condition card, immediately"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -281,8 +349,16 @@
             "value": "You may gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -305,8 +381,16 @@
             "value": "If you already have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -342,6 +426,10 @@
             "value": "Another Titan may move up to 2 spaces or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
           }
@@ -375,8 +463,16 @@
             "value": "You may immediately place 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Energy"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -449,16 +545,32 @@
             "value": "All your Attacks gain: \""
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Crit Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ": Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -502,9 +614,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Fear",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -627,6 +747,10 @@
             "value": "Gain +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           }
@@ -660,8 +784,16 @@
             "value": "Gain this card and the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -705,6 +837,10 @@
             "value": "Another Titan may move up to 3 spaces or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
           }
@@ -736,6 +872,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -779,12 +919,24 @@
             "value": "Lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -828,6 +980,10 @@
             "value": "You may discard 2 Condition tokens, a tokenless Condition card, or an Ambrosia token, or lose -2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -861,17 +1017,33 @@
             "value": "You may immediately move up to 3 spaces and perform a Bonus Attack! If you have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Knockdown (falling down)",
             "refID": "AL0303"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Condition card, immediately"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1010,13 +1182,25 @@
             "value": "First Round Only"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ": Ignore this card, find and resolve the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Feign Death",
             "refID": "AM0311"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1031,12 +1215,24 @@
             "value": "Any Other Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ": You die, but you won't sell your life cheap! Immediately"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1051,9 +1247,17 @@
             "value": "If you have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Spark of the Dead Gods",
             "refID": "AA0051"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1066,6 +1270,10 @@
           {
             "type": "plainText",
             "value": "On a '10' you Awaken,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1101,9 +1309,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Dread",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1139,6 +1355,10 @@
             "value": "Place an O Labyrinth tile under your Titan and suffer"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Knockdown"
           }
@@ -1170,6 +1390,10 @@
           {
             "type": "plainText",
             "value": "Place an Z Labyrinth tile under your Titan and suffer"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -1271,9 +1495,17 @@
             "value": "Add the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "You died horribly",
             "refID": "AM0357"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1317,8 +1549,16 @@
             "value": "Resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Rude Awakening"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1333,8 +1573,16 @@
             "value": "If it lives, resolves the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "The Other"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1370,20 +1618,40 @@
             "value": "You will probably die - but until then, you will fight the Primordial with all your being! Immediately"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", move up to 3 spaces, and perform a Bonus Attack! If you deal a Wound to the Primordial, you live! And you feel a new zest for life! Lose -2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and -2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1406,9 +1674,17 @@
             "value": "If you have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Spark of the Dead Gods",
             "refID": "AA0051"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1421,6 +1697,10 @@
           {
             "type": "plainText",
             "value": "On a '10' you Awaken,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1511,12 +1791,24 @@
             "value": "You may lose -2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and/or gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1568,6 +1860,10 @@
             "value": "and Ambrosia tokens or lose -3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -1601,12 +1897,24 @@
             "value": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Power"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "! If you have the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -1614,20 +1922,40 @@
             "refID": "AL0303"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Condition card, immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
             "value": "Stand up"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and gain 1 positive"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Evasion"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1663,17 +1991,33 @@
             "value": "Gain this card and the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Priority Target token (even if someone has a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Marked for Death",
             "refID": "AM0323"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1696,12 +2040,24 @@
             "value": "End of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If your Titan is dead, resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1743,6 +2099,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1807,8 +2167,16 @@
             "value": "Until the end of Battle, if you attack from a Labyrinth tile, the Primordial has -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1913,6 +2281,10 @@
             "value": "You may lose -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -1954,24 +2326,48 @@
             "value": "On a '10', you Awaken instead,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "! If you die,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "End of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ": Roll on the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Fate Worse Than Death"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2015,16 +2411,32 @@
             "value": "On a '9-10', you Awaken instead,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "! If you die,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "End of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2039,8 +2451,16 @@
             "value": "Resolve the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Rude Awakening"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2076,8 +2496,16 @@
             "value": "See the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Your Death Transcend Reality"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2113,9 +2541,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Hatred",
             "refID": "BL0661"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2151,12 +2587,24 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2192,12 +2640,24 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2233,12 +2693,24 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2274,9 +2746,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Frenzy",
             "refID": "BL0661"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2312,12 +2792,24 @@
             "value": "Gain +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2353,12 +2845,24 @@
             "value": "Gain +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2394,8 +2898,16 @@
             "value": "Discard 1 Weapon"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2431,12 +2943,24 @@
             "value": "Gain +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2480,8 +3004,16 @@
             "value": "It becomes a Weakspot ("
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Weakspot"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2496,12 +3028,24 @@
             "value": "Until the end of Battle, when attacked from the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Weakspot"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", the Primordial has -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2545,6 +3089,10 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           }
@@ -2557,16 +3105,32 @@
             "value": "You may immediately move up to your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "and perform a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Bonus Attack!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2602,9 +3166,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Muffled",
             "refID": "CL1291"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2648,9 +3220,17 @@
             "value": "Then gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Time-clocked",
             "refID": "CL1295"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2686,6 +3266,10 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -2717,6 +3301,10 @@
           {
             "type": "plainText",
             "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2752,9 +3340,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Sealed",
             "refID": "CL1291"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2790,6 +3386,10 @@
             "value": "Gain +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -2821,6 +3421,10 @@
           {
             "type": "plainText",
             "value": "Gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2856,6 +3460,10 @@
             "value": "Gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Paradox"
           }
@@ -2889,6 +3497,10 @@
             "value": "Gain +3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           }
@@ -2920,6 +3532,10 @@
           {
             "type": "plainText",
             "value": "Suffer"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -2963,8 +3579,16 @@
             "value": "Roll a d10, adding +X, where X is the number of"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Paradox"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2977,6 +3601,10 @@
           {
             "type": "plainText",
             "value": "On a 10+, you Awaken,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -3012,9 +3640,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Covetous",
             "refID": "DL2007"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3079,9 +3715,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Wishkeen",
             "refID": "DL2011"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3146,9 +3790,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Greed-crazed",
             "refID": "DL2007"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3213,9 +3865,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Wishagog",
             "refID": "DL2011"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3249,6 +3909,10 @@
           {
             "type": "plainText",
             "value": "Zone 3 (originating from the Titan, including them):"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -3350,6 +4014,10 @@
             "value": "If not,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Stand up"
           }
@@ -3362,20 +4030,40 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", immediately perform"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Hermes Move 3"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
@@ -3411,9 +4099,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Fear",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3486,9 +4182,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Terror",
             "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3582,9 +4286,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Dread",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3657,9 +4369,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Holy Terror",
             "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3790,9 +4510,17 @@
             "value": "Gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Holy Terror",
             "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3836,8 +4564,16 @@
             "value": "Roll a d10, adding +X, where X is the number of"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Paradox"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3850,6 +4586,10 @@
           {
             "type": "plainText",
             "value": "On a 10+, you Awaken,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -3915,12 +4655,24 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "ArgoFate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "to Awaken,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -3965,8 +4717,16 @@
             "value": "On a 10, you Awaken instead,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4003,6 +4763,10 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           }
@@ -4037,12 +4801,24 @@
             "value": "You may gain +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and/or lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -4087,8 +4863,16 @@
             "value": "On a 10, you Awaken instead,"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Adversary"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4103,12 +4887,24 @@
             "value": "End of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Permanently lose 1 equipped Unique Weapon"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4145,9 +4941,17 @@
             "value": "If you're using the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Scarred",
             "refID": "AX9968"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4162,8 +4966,16 @@
             "value": "Gain as much"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4200,9 +5012,17 @@
             "value": "If you're controlling the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Firestarter",
             "refID": "BK0655"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4262,12 +5082,24 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Immediately perform a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "MovementAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4319,16 +5151,32 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -4365,13 +5213,25 @@
             "value": "Awaken into the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Hades",
             "refID": "AQ0629"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Godform if it is available,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
