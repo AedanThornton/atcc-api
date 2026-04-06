@@ -147,7 +147,7 @@ def parse_power(power_str):
     return powers
 
 def parse_armor(armor_str):
-    base_pattern = r"(\+?\w)\s*(.+)"
+    base_pattern = r"(\+?\w\*?)\s*(.+)"
     die_types = ["Red", "Black", "White", "Mortal"]
 
     armor_dice = []
