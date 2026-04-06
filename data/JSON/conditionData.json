@@ -13,7 +13,9 @@
     "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Dread",
     "side": {
       "effect": [
@@ -110,7 +112,9 @@
     "cycle": "Cycle I",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "subtitle": "Falling",
     "name2": "Knockdown",
     "subtitle2": "Standing Up",
@@ -216,7 +220,26 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Each card appropriately has its own ID now"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "First printing had 4 copies with the same ID (BL0657)"
+            }
+          ]
+        }
+      ]
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -327,7 +350,9 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Frenzy",
     "side": {
       "effect": [
@@ -464,7 +489,9 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -528,7 +555,9 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -573,7 +602,9 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -725,7 +756,9 @@
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 08",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -837,7 +870,9 @@
     "cycle": "Cycle III",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -958,7 +993,9 @@
     "cycle": "Cycle III",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -1014,7 +1051,9 @@
     "cycle": "Cycle III",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Sealed",
     "side": {
       "effect": [
@@ -1199,7 +1238,9 @@
     "cycle": "Cycle III",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "subtitle": "Departing",
     "name2": "Time-clocked",
     "subtitle2": "Arriving",
@@ -1233,7 +1274,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "If this card is dsicard by another effect, arrive (see the other side of this card)"
+              "value": "If this card is discarded by another effect, arrive (see the other side of this card)"
             }
           ]
         },
@@ -1311,7 +1352,9 @@
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 10",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -1351,7 +1394,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Greed-crazed",
     "side": {
       "effect": [
@@ -1514,7 +1559,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Wishagog",
     "side": {
       "effect": [
@@ -1781,7 +1828,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Enlightened",
     "side": {
       "effect": [
@@ -1846,7 +1895,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "",
     "side": {
       "effect": [
@@ -1902,7 +1953,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "subtitle": "Up",
     "name2": "Float",
     "subtitle2": "Down",
@@ -2016,7 +2069,9 @@
     "cycle": "Cycle V",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Holy Terror",
     "side": {
       "effect": [
@@ -2211,7 +2266,9 @@
     "cycle": "Cycle V",
     "cardSize": "Mini American",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Resolve",
     "side": {
       "effect": [

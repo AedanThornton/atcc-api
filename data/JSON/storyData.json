@@ -10,7 +10,18 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated side 1A rules: \"28-31\" to \"28-32\""
+            }
+          ]
+        }
+      ]
+    },
     "name2": "The Absent Rule",
     "cardNumber": "1",
     "flavor": [
@@ -419,7 +430,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "A Fateful Randezvous",
     "cardNumber": "2",
     "flavor": [
@@ -724,7 +737,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "A Phantom Thread",
     "cardNumber": "3",
     "flavor": [
@@ -1079,7 +1094,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Unappealable Egress",
     "cardNumber": "4",
     "flavor": [
@@ -1466,7 +1483,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Inward Odyssey: Truth Of The Labyrinth",
     "cardNumber": "IO",
     "flavor": [
@@ -1939,7 +1958,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Gatecrashing",
     "cardNumber": "1",
     "flavor": [
@@ -2146,7 +2167,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Black Nadir",
     "cardNumber": "2",
     "flavor": [
@@ -2592,7 +2615,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Bearing Gifts",
     "cardNumber": "3",
     "flavor": [
@@ -2811,7 +2836,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "What Are You?",
     "cardNumber": "4",
     "flavor": [
@@ -3443,7 +3470,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Inward Odyssey: Abysswatchers",
     "cardNumber": "IO",
     "flavor": [
@@ -3915,7 +3944,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Oracles' Sentence",
     "cardNumber": "1",
     "flavor": [
@@ -4217,7 +4248,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "To Those Yet Unborn",
     "cardNumber": "2",
     "flavor": [
@@ -4543,7 +4576,50 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated 3A lore grammar"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated 3B lore text \"through is a one\" to \"through is one\""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Added \"When this story card is revealed erase your current Loop End from the timeline, then count X days from the current day and mark the last day as the Loop End"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "X is your Loop Length"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "\" to 3B rules text"
+            }
+          ]
+        }
+      ]
+    },
     "name2": "The Eschaton Solution",
     "cardNumber": "3",
     "flavor": [
@@ -4799,7 +4875,7 @@
       ]
     ],
     "flavor2": [
-      "You have met with Icarus, but not the one from before. Not the merciful broken angel constantly failing to live up to expectations, but a creature strong, and cold, and calculating, one that went to the sun and came back transformed.",
+      "You have met with Icarus, but not the one from before. Not the merciful broken angel constantly failing to live up to expectations, but a creature strong, and cold, and calculating, one that went to the sun and came back, transformed.",
       "Uncaring and callous, this \"perfected\" Icarus wants to ascend to Helios's throne, to godhood, and so finally surpass his father. So it seems he is still the old Icarus: living in Daedalus's shadow, measuring his worth through the Great Inventor's pitiless eyes.",
       "Icarus told you one more thing: The desolate Delphi you have been voyaging through is one untouched by the Eschaton. This is the future you wanted to bring back all this time. So now you know: The only way is forward.",
       "The chase after the self-styled Sun's descendant to the Domain of Helios hidden high above Delphi, in the clouds, you will need a heaven-worthy vessel. A Chariot of your own"
@@ -5158,7 +5234,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Aeons' End",
     "cardNumber": "4",
     "flavor": [
@@ -5526,7 +5604,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Inward Odyssey: Pitiless Of The Sun",
     "cardNumber": "IO",
     "flavor": [
@@ -5998,7 +6078,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Debts Are Forever",
     "cardNumber": "1",
     "flavor": [
@@ -6510,7 +6592,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Beyond the Wish-Veil",
     "cardNumber": "2",
     "flavor": [
@@ -6878,7 +6962,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Grave of Empires",
     "cardNumber": "3",
     "flavor": [
@@ -7299,7 +7385,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Exceeds Your Grasp",
     "cardNumber": "4",
     "flavor": [
@@ -7460,7 +7548,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Inward Odyssey: Gardens of Infinite Growth",
     "cardNumber": "IO",
     "flavor": [
@@ -7932,7 +8022,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "The Face of the Enemy",
     "cardNumber": "1",
     "flavor": [
@@ -8356,7 +8448,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "White Haven",
     "cardNumber": "2",
     "flavor": [
@@ -8550,7 +8644,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Place of No Return",
     "cardNumber": "3",
     "flavor": [
@@ -8993,7 +9089,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Odyssey's End",
     "cardNumber": "4",
     "flavor": [
@@ -9409,7 +9507,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Inward Odyssey: Truthsayer",
     "cardNumber": "IO",
     "flavor": [
@@ -9897,7 +9997,9 @@
     "cardSize": "Full-Page",
     "foundIn": "Envelope Z",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "name2": "Meet Your Maker",
     "cardNumber": "5",
     "flavor": [

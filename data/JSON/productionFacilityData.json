@@ -10,7 +10,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "We do not yet have facilities capable of creating armor that can withstand a Primordial attack. But we have access to war triremes",
@@ -72,7 +74,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Experimentation leads us to suspect that the hardened AE-siren shells will make a great stop-gap defensive solution",
@@ -156,7 +160,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The bronze statues and reliefs of our gods and heroes, now gone and lost forever, retain a whif of their resolve and power",
@@ -245,7 +251,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Triskelion Junction is more malleable than we first thought. We may be able to tinker with the Antikratos Helms to spur specific reactions",
@@ -336,10 +344,21 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated project-side flavor text from \"Hekaton\" to \"Labyrinthauros\""
+            }
+          ]
+        }
+      ]
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
-    "flavorProject": "It is time to put what we have learned from our dealings withe Labyrinthauros into practice",
+    "flavorProject": "It is time to put what we have learned from our dealings with the Labyrinthauros into practice",
     "requirements": [
       "Labyrinthauros Autopsy"
     ],
@@ -415,7 +434,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Conventional mortal-scale weapons cannot penetrate the Primordials' AT fields. We need to think bigger",
@@ -509,7 +530,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "We need to hit harder and faster, Poseidon's bounty should serve us well",
@@ -589,7 +612,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "State of the art improvised weaponry and our first foray into relief remelting",
@@ -664,7 +689,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Close-quarters combat with Primordials continues to carry a high mortality rate for the Titans, maybe we could put some of that war trireme equipment to better use",
@@ -723,7 +750,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "As reports of larger and more aggressive Primordials keep coming in, we need to think of ways to hold them at arm's length",
@@ -856,7 +885,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The apex predator of the Cretan countryside. It is said to bear the mark of the Labyrinth on its massive prime arms",
@@ -952,7 +983,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "We've been able to recover a mostly intact Hekaton carcass. The philosophers of the Last Academy think that by studying it we may find its weakness",
@@ -1038,7 +1071,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "A scout team has been following a Hekaton for a fortnight. The beast does not tire, sleep, or eat - though it tries to imitate the latter. It adorns itself with crude 'jewelry', which suggests some form of intelligence",
@@ -1156,7 +1191,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Mechanical sentry, purportedly of Daedalus's design. It appears without warning and vanishes without a trace, suggesting some kind of supernatural force at work",
@@ -1247,7 +1284,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Argo Works artificers managed to break this thing apart. It's no automaton. Behind the rusted machinery, an amorphous body hides, not unlike a snail. The priests believe it's some kind of worm",
@@ -1322,7 +1361,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The creature does not travel through the earthly realm, nor does it adhere to the laws of the gods. It can materialize and dematerialize, seemingly at will, using some kind of portal reminiscent of the maze pattern. Does the Labyrinth extend to the unseen world?",
@@ -1445,7 +1486,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "An unholy union of stone and flesh, this gargantuan Primordial it the Truth of the Labyrinth made manifest",
@@ -1587,7 +1630,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Why does it hunt us so? Where it take the prisoners? And why does it laugh?",
@@ -1690,7 +1735,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Temenos's mazeflesh is some kind of coral composite, harder than stone. It'll do",
@@ -1763,7 +1810,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "With the proper emotional stimulation, Temenos's remains still contract and expand. We can weaponize this",
@@ -1841,7 +1890,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Thanks to reconnaissance, we know what we'll be up against. The Last Academy has prepared some equipment that will extend Titan survivability",
@@ -1914,7 +1965,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "As we tinker with the transformative properties of Temenos's flesh, new, more intricate weapon designs become available",
@@ -1994,7 +2047,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Last Academy scholars have devised plans for utility equipment employing more intricate maze designs",
@@ -2072,7 +2127,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Chimera's temple shell has some peculiar properties. There may be some latent divine power lingering there. Power we could harness",
@@ -2152,7 +2209,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Argo Works are sure they can reverse-engineer the Spartan smelting process",
@@ -2284,7 +2343,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Our Helot allies have provided us with plans for Leleges-Spartan hybrid weapons",
@@ -2389,7 +2450,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Palamedes of the Last Academy has blended Titan, mortal, and Primordial designs and came up with some interesting offensive and defensive solutions",
@@ -2451,7 +2514,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Hidden within the Helot plans were the seeds for the next generation Cyclonus weapons",
@@ -2513,7 +2578,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "New Antikratos Helm designs and rough terrain footwear will greatly increase the Titans' mobility",
@@ -2608,7 +2675,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Our Cyclopean allies have provided us with plans for some intricate designs we can repurpose for combat",
@@ -2717,7 +2786,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Though war goes against the Cyclopes basic principles, they do possess some devastating heavy-duty gear",
@@ -2805,7 +2876,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Cyclonus are Cyclopes conditioned into merciless killing machines. We need to ensure the Triskelion Junction doesn't have an averse effect on our Titans",
@@ -2885,7 +2958,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "On close inspection, a body of a Cyclonus shows signs of severe mutilation and torture conditioning. Some of the augmentations go all the way to the central nervous system",
@@ -2975,7 +3050,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "When left to its own devices, a Cyclonus shows a degree of intelligence and autonomy. There are signs the Nietzschean's conditioning is only temporary",
@@ -3090,7 +3167,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "A colossal heap of condensed ambrosia, dead monster tissue, and temple ruins. The Chimera shows no signs of intelligence, though, thanks to its relief shell, it has a remarkable camouflage ability",
@@ -3170,7 +3249,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Chimera leaves a faint shadow in the Triskelion, which has our scholars convinced the ambrosia creates some sort of neural network. The larger the ambrosia mass, the more activity we register",
@@ -3297,7 +3378,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Chimera is driven by two instincts: to consume living matter and to merge with other Chimeras. The largest specimen exhibit basic animal intelligence. Is the Chimera evolving into something different?",
@@ -3425,7 +3508,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Nietzschean man and the Nietzschean monster share the same mind, but seem to operate independently. What exactly is the connection here?",
@@ -3533,7 +3618,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Nature - or some other malevalent force - has bred this creature with a singular purpose. To hunt Titans. The cryptex found inside seems to work in an eerily similar way to the Triskelion Junction",
@@ -3657,7 +3744,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The black rock of Ephyra. The bane of Sisyphus. It does not allow us to ascend",
@@ -3746,7 +3835,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "In death, the Nietzschean will serve one last purpose",
@@ -3836,7 +3927,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Nietzschean abhored ranged weapons. Forge them to spite him",
@@ -3910,7 +4003,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "What is left of the Nietzschean's Shadow will become your shield",
@@ -3984,7 +4079,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Delphi is stuck in some kind of temporal anomaly. Combating its effects is of top priority",
@@ -4074,7 +4171,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Before the Eschaton, the Sirens were not the viscious beasts they are now. This armor is proof",
@@ -4184,7 +4283,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Some of these weapons were fashioned from Siren shells, others come from pre-Eschaton Siren caches",
@@ -4295,7 +4396,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Palamedian advanced transforming weaponry is becoming a necessity",
@@ -4400,7 +4503,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Last Academy needs to find advanced solutions against the more esoteric temporal effects of the Delphian Anomaly",
@@ -4473,7 +4578,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Ambrosia-tainted ice has remarkable anti-entropy properties",
@@ -4556,7 +4663,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "State of the art anti-Primordial weaponry. The best mortals have to offer",
@@ -4675,7 +4784,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Our study of the Repurposed Cryptex has finally yielded results. We can replicate that design",
@@ -4755,7 +4866,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "This is the gear of the Hyperborean zealots who embraced Helios's toxic love",
@@ -4812,7 +4925,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Helios bestowed many gifts onto His chosen, weapon harnessing light among them",
@@ -4910,7 +5025,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "This armor was worn by those Hyperboreans who rejected Helios's incinerating love",
@@ -5002,7 +5119,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Denied the light, the Hyperborean Apostates thrived in the shade",
@@ -5069,7 +5188,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Even observing the Hypertime Oracle has a profound impact on the observer",
@@ -5147,7 +5268,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The autopsy of the Oracle has revealed some disturbing truths: this Primordial was a mortal once",
@@ -5212,7 +5335,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Oracle uses the Delphi time loop to prune timelines and evolve",
@@ -5333,7 +5458,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Its adaptation abilities are far beyond anything in Hellas",
@@ -5410,7 +5537,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "A product of forced evolution, the Icarian Harpy is technically a Primordial-mortal hybrid",
@@ -5487,7 +5616,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Harpy lives to evolve and evolves to become a perfect species",
@@ -5586,7 +5717,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "We need to find a way to shield the Titans from the pitiless Sun",
@@ -5677,7 +5810,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The partial autopsy on the Primordial's fragment reveals troubling divine connection",
@@ -5751,7 +5886,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Primordial descends from a black spot near the Sun. Helios's Domain",
@@ -5958,7 +6095,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Stuff of legends. Yet know that those legends failed",
@@ -6048,7 +6187,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Save for ambrosia, the Burden is empty and incredibly light",
@@ -6183,7 +6324,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "From the cinders of the old world, we will make a better one",
@@ -6277,7 +6420,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Weapons capable of chasing the Sun across the horizon",
@@ -6367,7 +6512,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Once the source of light was known, it stopped providing warmth",
@@ -6462,7 +6609,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "What knowledge we could gleam from the lies of light and the truths of aid",
@@ -6547,7 +6696,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Even on their back foot, the Empire was always the aggressor",
@@ -6612,7 +6763,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "In the past, the Empire employed the Deprived in warfare",
@@ -6693,7 +6846,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Empire has developed many wonderous technologies to exploit its citizens",
@@ -6767,7 +6922,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Who inhabited Old Irem, and when?",
@@ -6841,7 +6998,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Empire erases their history well, but evidence suggests the Deprived once rose against it, wielding the arms of Old Irem",
@@ -6937,7 +7096,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Of Old Irem culture, next to nothing remains. Yet their crooked spires have inspired this research",
@@ -7039,7 +7200,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Deprived have devised many ways of fighting injustice and climbing the illusory ladder",
@@ -7132,7 +7295,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Aristotelians have \"liberated\" many a treasury but had no use for these indivisible tools of the system they so desired",
@@ -7225,7 +7390,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "This tekne could have changed the world, and they hid it. Not viable economically, they said. Disruptive",
@@ -7313,7 +7480,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Severely maligned, it spreads the Midas Touch and other, more exotic curses",
@@ -7398,7 +7567,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The autopsy shows the Midascore has been made a slave of the Empire via a carefully foged chain of obligations",
@@ -7515,7 +7686,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "It lives to multiply wealth, which is ironic, for it devalues all it touches. The contradiction drives it mad",
@@ -7632,7 +7805,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Its driven to mortal settlements. It drowns them in a deluge of wishes, until nothing remains",
@@ -7707,7 +7882,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "In essence, these are two beings forcibly conjoined, though the specificities of the process elude our scholars",
@@ -7815,7 +7992,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Demidjinn's wishes are real, in as much as they influence the waking world. The energy needed is atronomical. Where do they draw it from?",
@@ -7933,7 +8112,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Come, let us build ourselves a city and a tower with its top in the heavens, and a staircase anyone could climb",
@@ -8069,7 +8250,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "On the stele, the important part was left out. But we finally see it",
@@ -8173,7 +8356,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "After careful analysis, the stele's true purpose might have been revealed: to preserve against, not destroy",
@@ -8236,7 +8421,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Studying the Pandoran Phos stele has yielded many useful horrors. Tread lightly",
@@ -8322,7 +8509,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Those who turn from their God and sow to please their sinful nature will reap destruction and despair",
@@ -8469,7 +8658,18 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "Original card says \"Still Life Battle Victory\", which does not exist",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Original card says \"Still Life Battle Victory\", which does not exist"
+            }
+          ]
+        }
+      ]
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "A curse made manifest. Empty, like its threats and promises, it leaves one final clue: the divine nature of its puppet master",
@@ -8683,7 +8883,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Our study of the Repurposed Cryptex has finally yielded results. We can replicate that design",
@@ -8757,7 +8959,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Stuff of legends. Yet know that those legends failed",
@@ -8846,7 +9050,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Deep blood-stone from the bowels of the Lunacy",
@@ -8941,7 +9147,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The oldest reclaimed part of the tower show a surprising connection to Selene",
@@ -9051,7 +9259,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Forged in a place where greeds met the sky",
@@ -9125,7 +9335,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Natural, manufactured, stolen--light is light",
@@ -9220,7 +9432,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Crude but effective diving gear",
@@ -9299,7 +9513,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Sharpened within the deepest trenches",
@@ -9390,7 +9606,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The only hope in the abyss is the one you bring along with you",
@@ -9465,7 +9683,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Your academicians are having trouble dating these disparate Silver Ones relics",
@@ -9553,7 +9773,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Rhodian curatos swear by the authenticity of these Silver Ones relics",
@@ -9677,7 +9899,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "You would be forgiven for thinking these Silver Ones artifacts were crafted by one of the Bronze Peoples. Curious",
@@ -9760,7 +9984,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Shipbreakers were able to salvage most of these early Silver Ones artifacts",
@@ -9840,7 +10066,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Much was lost with the fall of Atlantis, but what you can find, you can repurpose",
@@ -9964,7 +10192,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Atlanteans were decades, maybe a century ahead of other mortal peoples. And yet their society failed...",
@@ -10062,7 +10292,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The Dragon is oddly timid and keeps to the dark--but the light of distant pearls draws it out",
@@ -10173,7 +10405,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Its whole body is full of amygdalas. Prolonged exposure to them elicits strong anxiety",
@@ -10305,7 +10539,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "It lives in the deepest trenches, on a diet of fear and aether",
@@ -10443,7 +10679,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "It skitters across the seabed, prefering to stay within the obscuring vapors of the black smoke vents",
@@ -10549,7 +10787,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Though possessing many eyes, it is effectively blind, relying on echolocation and heatsense",
@@ -10682,7 +10922,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Thanks to its heat generation and retention properties, the Meduketos could surivve the icy cold voids of Kokytos itself",
@@ -10836,7 +11078,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "By applying a current to the orichalcum chunks, the academicians were able to change their matter state",
@@ -10933,7 +11177,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Liquid Orichalcum sticks to organic surfaces",
@@ -11087,7 +11333,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Orichalcum seems to be an inert form of the compound",
@@ -11191,7 +11439,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "It comes when the Truth Machine is spun; it does not want us to know something",
@@ -11361,7 +11611,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "There is no question about it, this Titan is piloted. Who stalks you?",
@@ -11523,7 +11775,18 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "Original card says \"Titan X Battle Victory\"",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Original card says \"Titan X Battle Victory\""
+            }
+          ]
+        }
+      ]
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "The tekne and cryptex are unmistakably Nemesistech, though more advanced than you have thus far seen",
@@ -11665,7 +11928,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Our study of the Repurposed Cryptex has finally yielded results. We can replicate that design",
@@ -11739,7 +12004,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Production Facility",
     "flavorProject": "Stuff of legends. Yet know that those legends failed",

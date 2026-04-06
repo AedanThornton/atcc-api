@@ -10,7 +10,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -66,7 +68,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -115,7 +119,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -171,7 +177,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -212,7 +220,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -268,7 +278,9 @@
     "cycle": "Cycle I",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -325,7 +337,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -383,7 +397,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -441,7 +457,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -525,7 +543,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -582,7 +602,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -729,7 +751,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -795,7 +819,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -835,7 +861,26 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated spacing of text"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated text from \"may discard the generic token to equip it\" to \"may discard the generic token to equip the Weapon\""
+            }
+          ]
+        }
+      ]
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -961,7 +1006,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1009,7 +1056,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1065,7 +1114,9 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1154,7 +1205,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1228,7 +1281,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1279,7 +1334,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1338,7 +1395,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1380,7 +1439,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "TRUE",
@@ -1460,7 +1521,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1524,7 +1587,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1564,7 +1629,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1622,7 +1689,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1678,7 +1747,9 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1734,7 +1805,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1784,7 +1857,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1841,7 +1916,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1913,7 +1990,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -1953,7 +2032,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2055,7 +2136,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2122,7 +2205,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2178,7 +2263,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2226,7 +2313,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2303,7 +2392,9 @@
     "cardSize": "Standard",
     "foundIn": "Secret Deck 13",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2359,7 +2450,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2410,7 +2503,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2468,7 +2563,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2516,7 +2613,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2556,7 +2655,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2662,7 +2763,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2755,7 +2858,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2803,7 +2908,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -2915,7 +3022,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -3040,7 +3149,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",
@@ -3142,7 +3253,9 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "techType": "Combat",
     "techSubType": "Argo Ability",
     "locked": "FALSE",

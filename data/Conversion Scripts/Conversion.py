@@ -21,8 +21,13 @@ def default_row(row):
         "cardSize": row["Card Size"],
         "foundIn": row["Found In"] if "Found In" in row else "",
         "faq": row["FAQ"],
-        "errata": row["Errata"]
+        "errata": {}
     }
+
+    if "V 1.1 Updates" in row:
+        card_json["errata"]["v1.1"] = parse_abilities(row["V 1.1 Updates"])[0]
+    if "V 1.2 Updates" in row:
+        card_json["errata"]["v1.2"] = parse_abilities(row["V 1.2 Updates"])[0]
 
     if card_json["foundIn"] == "":
         card_json.pop("foundIn")

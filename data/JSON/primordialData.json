@@ -10,7 +10,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -307,7 +309,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Weakspot"
@@ -701,7 +705,42 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "VP header: Updated text \"VP POINT EFFECTS\" to \"VP EFFECTS\""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Changed VP Effects from \"ignore Primordial Responses\" to \"ignore Primordial Responses other than Critical\""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Worm of the Labyrinth: Updated from \"from the white spaces\" to \"from the white spaces, or from the VP\""
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Maze Reconfiguration: Removed \"standing\""
+            }
+          ]
+        }
+      ]
+    },
     "figure_size": "3x3",
     "diagramEffects": [
       "Lumbering"
@@ -1136,7 +1175,9 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -1451,7 +1492,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Danger Zone",
@@ -1737,7 +1780,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "3x3",
     "diagramEffects": [
       "Lumbering"
@@ -2082,7 +2127,18 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated Danger Sense text from \"through the Danger Zone\" to \"through or into the Danger Zone\""
+            }
+          ]
+        }
+      ]
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Lumbering",
@@ -2432,7 +2488,9 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -2763,7 +2821,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -3073,7 +3133,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -3368,7 +3430,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "",
     "diagramEffects": [],
     "vp": {
@@ -3436,7 +3500,9 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "3x3",
     "diagramEffects": [
       "Lumbering"
@@ -3763,7 +3829,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "3x3",
     "diagramEffects": [
       "Blindspot"
@@ -4303,7 +4371,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -4644,7 +4714,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Lumbering"
@@ -5031,7 +5103,9 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -5367,7 +5441,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -5707,7 +5783,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "3x3",
     "diagramEffects": [],
     "vp": {
@@ -6138,7 +6216,9 @@
     "cycle": "Cycle V",
     "cardSize": "Full-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot",
@@ -6505,7 +6585,9 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "1x1",
     "diagramEffects": [
       "Blindspot"
@@ -6882,7 +6964,9 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": []
@@ -6899,7 +6983,9 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -6957,7 +7043,9 @@
     "cardSize": "Standard",
     "foundIn": "Envelope S",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -6996,7 +7084,9 @@
     "cardSize": "Standard",
     "foundIn": "Envelope Y",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7040,7 +7130,9 @@
     "cardSize": "Standard",
     "foundIn": "Envelope Y",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "",
     "diagramEffects": [],
     "vp": {
@@ -7102,7 +7194,9 @@
     "cardSize": "Half-Page",
     "foundIn": "Ultra-secret",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7438,7 +7532,9 @@
     "cardSize": "Standard",
     "foundIn": "Envelope Beta",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"

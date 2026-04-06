@@ -51,15 +51,33 @@ def parse_formatted_sentence(raw_sentence):
             tokens.append({"type": "plainText", "value": text.strip()})
 
         elif gate:
-            pattern = re.compile(r'(\w+)\s(\d\+?)')
-            gate_match = re.match(pattern, gate)
+            gates = gate.split("/")
+            pattern = re.compile(r'([\w&]+)\s(\d\+?)')
+            gate_match = re.match(pattern, gates[0])
 
             if gate_match:
                 gateType, gateValue = gate_match.groups()
-                ability["gate"] = gateType
+                gateCheck = gateType.split("&")
+
+                ability["gate"] = gateCheck[0]
                 ability["value"] = gateValue
+
+                if len(gateCheck) > 1:
+                    ability["gate2"] = gateCheck[1]
+                    ability["comboGate"] = "&"
             else:
                 ability["gate"] = gate
+
+            if len(gates) > 1:
+                gate_match2 = re.match(pattern, gates[1])
+
+                if gate_match2:
+                    gateType, gateValue = gate_match2.groups()
+                    ability["gate2"] = gateType
+                    ability["value2"] = gateValue
+                    ability["comboGate"] = "OR"
+                else:
+                    ability["gate2"] = gate
         elif cost:
             costs.append(cost)
 
@@ -105,7 +123,14 @@ def parse_power(power_str):
 
         power = {"type": dice_list}
         if (gate_match):
-            power["gate"] = {"type": gate_type.split()[0], "value": gate_type.split()[1]}
+            gate = gate_type.split()[0]
+            gateCheck = gate.split("&")
+
+            power["gate"] = {"type": gateCheck[0], "value": gate_type.split()[1]}
+
+            if len(gateCheck) > 1:
+                power["gate"]["type2"] = gateCheck[1]
+                power["gate"]["comboGate"] = "&"
         if (hits_match): 
             if (hits):
                 power["gate"] = {"type": "Hits", "value": hits}

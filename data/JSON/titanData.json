@@ -10,7 +10,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -105,17 +108,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -128,7 +137,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -223,17 +235,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -246,7 +264,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -341,17 +362,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -364,7 +391,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -459,17 +489,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -482,7 +518,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -608,7 +647,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "6",
@@ -726,17 +768,24 @@
             "value": "Maze Awareness"
           }
         ]
-      },
+      }
+    ],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "3+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Improved Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -749,7 +798,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -872,6 +924,9 @@
             "type": "keyword",
             "value": "Logicbreak"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -880,6 +935,9 @@
             "type": "keyword",
             "value": "Theseus Logic"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       }
     ],
@@ -896,7 +954,10 @@
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -1011,6 +1072,10 @@
             "type": "keyword",
             "value": "Advanced Reflex"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Exhaust"
         ]
       },
       {
@@ -1051,7 +1116,10 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -1211,7 +1279,10 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "4",
@@ -1359,7 +1430,10 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -1555,7 +1629,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -1668,17 +1745,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -1692,7 +1775,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -1805,17 +1891,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -1829,7 +1921,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -1942,17 +2037,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -1966,7 +2067,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -2079,17 +2183,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -2102,7 +2212,10 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -2245,7 +2358,10 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "6",
@@ -2427,7 +2543,10 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -2566,6 +2685,10 @@
             "type": "keyword",
             "value": "Advanced Jump"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Exhaust"
         ]
       },
       {
@@ -2574,6 +2697,9 @@
             "type": "keyword",
             "value": "Scale"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -2598,6 +2724,9 @@
             "type": "keyword",
             "value": "Fall and Soar"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -2606,6 +2735,9 @@
             "type": "keyword",
             "value": "Lifeline"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       }
     ],
@@ -2622,7 +2754,19 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated Burden X keyword definition on back of sheet"
+            }
+          ]
+        }
+      ],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -2827,10 +2971,143 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Updated Seer Sense text: \"Wound\" to \"Trauma\""
+            }
+          ]
+        }
+      ],
+      "v1.2": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Removed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "keyword",
+              "value": "Auto-break 1"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Nerfed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Speed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "from 7 to 5"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Nerfed Fly ability by adding additional"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Danger"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "to cost"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Removed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "keyword",
+              "value": "Opening 1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "from Kratos table"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "8 and"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Rage"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "9"
+            }
+          ]
+        }
+      ]
+    },
     "subtitle": null,
     "titanPower": "Red",
-    "speed": "7",
+    "speed": "5",
     "kratosTable": [
       [
         [
@@ -2906,7 +3183,7 @@
       [
         [
           {
-            "name": " Red"
+            "name": "Red"
           },
           {
             "name": "Reroll",
@@ -2917,10 +3194,6 @@
       [
         [
           {
-            "name": "Opening",
-            "x_value": "1"
-          },
-          {
             "name": "Hope",
             "x_value": "1"
           }
@@ -2928,10 +3201,6 @@
       ],
       [
         [
-          {
-            "name": "Opening",
-            "x_value": "1"
-          },
           {
             "name": "Hope",
             "x_value": "1"
@@ -2962,14 +3231,6 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Auto-break 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
             "value": "Kreios Strain"
           }
         ]
@@ -2980,6 +3241,11 @@
             "type": "keyword",
             "value": "Fly"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Danger",
+          "Exhaust"
         ]
       },
       {
@@ -2988,6 +3254,10 @@
             "type": "keyword",
             "value": "Scale"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Exhaust"
         ]
       },
       {
@@ -3004,18 +3274,28 @@
             "type": "keyword",
             "value": "Fall and Soar"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
-      },
+      }
+    ],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "8+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Lifeline"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Exhaust"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -3029,7 +3309,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3142,17 +3425,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -3166,7 +3455,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3279,17 +3571,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -3303,7 +3601,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3416,17 +3717,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -3440,7 +3747,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3553,17 +3863,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -3577,7 +3893,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -3743,6 +4062,10 @@
             "type": "keyword",
             "value": "Persian Deal"
           }
+        ],
+        "costs": [
+          "Fate",
+          "Exhaust"
         ]
       }
     ],
@@ -3759,7 +4082,10 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -3916,10 +4242,13 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red + Power",
-    "speed": "5",
+    "speed": "6",
     "kratosTable": [
       [
         [
@@ -4055,6 +4384,9 @@
             "type": "keyword",
             "value": "Levitate"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -4063,6 +4395,28 @@
             "type": "keyword",
             "value": "Fall and Soar"
           }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "and Knockdown to"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Lifeline"
+          }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -4087,7 +4441,10 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -4260,7 +4617,10 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -4450,6 +4810,9 @@
             "type": "keyword",
             "value": "Grey Alchemy"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -4474,7 +4837,10 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -4688,7 +5054,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -4862,7 +5231,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -4983,17 +5355,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -5007,7 +5385,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5128,17 +5509,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -5152,7 +5539,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5273,17 +5663,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -5297,7 +5693,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5418,17 +5817,23 @@
         "range": "10+"
       }
     ],
-    "abilities": [
+    "abilities": [],
+    "gatedAbilities": [
       {
+        "gate": "Danger",
+        "value": "2+",
         "abilityText": [
           {
             "type": "keyword",
             "value": "Rush"
           }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
         ]
       }
-    ],
-    "gatedAbilities": []
+    ]
   },
   {
     "cardIDs": [
@@ -5441,7 +5846,10 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Red + Power",
     "speed": "5",
@@ -5616,7 +6024,10 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -5820,7 +6231,10 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -6004,14 +6418,6 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Rage 8+ Deny"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
             "value": "Silver Strain"
           }
         ]
@@ -6033,7 +6439,18 @@
         ]
       }
     ],
-    "gatedAbilities": []
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "8+",
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Deny"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -6046,7 +6463,10 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -6207,6 +6627,10 @@
             "type": "keyword",
             "value": "Finish Him"
           }
+        ],
+        "costs": [
+          "Oxygen",
+          "Fate"
         ]
       },
       {
@@ -6240,7 +6664,10 @@
     "cardSize": "Half-Page",
     "foundIn": "Promo",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [],
+      "v1.2": []
+    },
     "subtitle": null,
     "titanPower": "Mortal",
     "speed": "4",

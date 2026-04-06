@@ -1,4 +1,4 @@
-Card ID,Name,Game,Render Type,Cycle,Card Size,Faction,Prog/Doom,Symbols,Movement,Other Features,Secrets,Submerged?,FAQ,Errata
+Card ID,Name,Game,Render Type,Cycle,Card Size,Faction,Prog/Doom,Symbols,Movement,Other Features,Secrets,Submerged?,FAQ,V 1.1 Updates
 A001,001,Odyssey,Map,Cycle I,Square,Hornsworn,,R&R,"E 002, S 006",,,FALSE,,
 A002,002,Odyssey,Map,Cycle I,Square,Hornsworn,,AdventureHub,"W 001, E 003",,,FALSE,,
 A003,003,Odyssey,Map,Cycle I,Square,Hornsworn,Progress,City,"W 002, E 004, S 008",,,FALSE,,
@@ -30,7 +30,7 @@ A028,028,Odyssey,Map,Cycle I,Square,Minoans,Progress,,"E 029, S 033",,,FALSE,,
 A029,029,Odyssey,Map,Cycle I,Square,Labyrinthians,,AdventureHub,"W 028, S 034",,,FALSE,,
 A030,030,Odyssey,Map,Cycle I,Square,Labyrinthians,,Titan,"NL(River) 025, E 066, S 035",Map Clue *4*7,,FALSE,,
 A031,031,Odyssey,Map,Cycle I,Square,Hornsworn,Progress,,"N 026, E 032, S 036",,,FALSE,,
-A032,032,Odyssey,Map,Cycle I,Square,Hornsworn,,,"W 031, N 027, E 033, S 037",,,FALSE,,
+A032,032,Odyssey,Map,Cycle I,Square,Minoans,,,"W 031, N 027, E 033, S 037",,,FALSE,,Updated incorrect diplomacy symbol on front from @Hornsworn to @Minoans
 A033,033,Odyssey,Map,Cycle I,Square,Minoans,Doom,,"W 032, N 028, E 034, S 038",,,FALSE,,
 A034,034,Odyssey,Map,Cycle I,Square,Minoans,Progress,Titan,"W 033, N 029, E 035, S 039",,,FALSE,,
 A035,035,Odyssey,Map,Cycle I,Square,Labyrinthians,Doom,AdventureHub,"W 034, N 030, E 071, S 040",,,FALSE,,

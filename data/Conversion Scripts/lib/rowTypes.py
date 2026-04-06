@@ -541,12 +541,8 @@ def terrain_row(row):
 def titan_row(row):
     kratos_table = parse_kratos(row["Kratos Table"])
     trauma_table = parse_trauma(row["Trauma Table"])
-
-    reformatted = ""
-    for keyword in row["Abilities"].split(". "):
-        reformatted += "{" + keyword + "}" + ". "
     
-    abilities, gated_abilities = parse_abilities(reformatted[:-2])
+    abilities, gated_abilities = parse_abilities(row["Abilities"])
     
     card_json = {
         "subtitle": row["Subtitle"] or None,

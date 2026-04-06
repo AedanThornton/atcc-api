@@ -40,8 +40,24 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -60,8 +76,16 @@
             "value": "Titans in columns 1-7 are dealt +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -76,8 +100,16 @@
             "value": "Titans in columns 8-15 are dealt +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -96,6 +128,10 @@
             "value": "When attacked from a Labyrinth tiles, Temenos has -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
           }
@@ -112,9 +148,17 @@
             "value": "If you don't pass the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Trojan Ire",
             "refID": "DZ2589"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -127,6 +171,10 @@
           {
             "type": "plainText",
             "value": "Then, random Titan gains the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
@@ -145,12 +193,24 @@
             "value": "End of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Before"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "End of Hope"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -169,12 +229,24 @@
             "value": "Start of Titan turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If you are in front of the Chimera, unless you have an Umbrella"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -205,8 +277,16 @@
             "value": "If you are hit by"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Merciless Sun"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -225,8 +305,16 @@
             "value": "When the Primordial performs"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Vanish X"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -243,6 +331,10 @@
           {
             "type": "plainText",
             "value": "Each Bleeding token gives you -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -281,20 +373,40 @@
             "value": "Start of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Starting from the highest"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and continuing in descending order, Titans suffer:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Bleeding 4"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -309,9 +421,17 @@
             "value": "This Trait overrides the Start of Battle effect of the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Predator",
             "refID": "CX1681"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -342,6 +462,10 @@
             "value": "Additional Setp:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place a Combo token on the Maul space of the Combo track"
           }
@@ -361,20 +485,44 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Combo:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "After resolving the first AI card in a Round, perform"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Combo:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -388,32 +536,72 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "timing",
             "value": "Reaction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "Combo Break:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "A Titan who is"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "not the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Priority Target, and has"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -436,8 +624,16 @@
             "value": "It gains the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriortyTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -451,20 +647,44 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Note:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "gain doesn't trigger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -523,17 +743,33 @@
             "value": "The"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Toying",
             "refID": "EX3219"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "and"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Tease"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -548,9 +784,17 @@
             "value": "Permanently remove the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Black-blood Cryptex",
             "refID": "AS0581"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -569,9 +813,17 @@
             "value": "When a Titan becomes adjacent to the Hermesian Pursuer, they gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Fear",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -590,6 +842,10 @@
             "value": "If your Light X is lower than the Primordial level divided by 2 (rounding up), Skitter loses"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
           }
@@ -606,8 +862,16 @@
             "value": "Titan with the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -666,12 +930,24 @@
             "value": "End of Titan turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -690,6 +966,10 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Perform Routine"
           }
@@ -706,16 +986,32 @@
             "value": "Each time the Chimera gains a Wound on the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Secondary Wound Stack"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "or you"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "OoR evade"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -742,12 +1038,24 @@
             "value": "The Demidjinn gains +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "for every"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -755,13 +1063,25 @@
             "refID": "DL2011"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Wishagog",
             "refID": "DL2011"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -888,9 +1208,17 @@
             "value": "When a Titan dies, after placing half of their Midas tokens on"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Incremental Painment",
             "refID": "DX3222"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -909,12 +1237,24 @@
             "value": "End of Titan Turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -945,8 +1285,20 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Consume"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -965,12 +1317,24 @@
             "value": "End of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Each Titan gains as many"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -989,9 +1353,17 @@
             "value": "Move the Dahaka to the closest"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Ambrosia Cloud",
             "refID": "DI2031"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1034,8 +1406,16 @@
             "value": "If you're not adjacent to another Titan, you cannot use"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1154,12 +1534,24 @@
             "value": "The Dahaka has the following unique movement abilities:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Drift"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ","
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -1262,6 +1654,10 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Look at the top Trauma card from each deck"
           }
@@ -1294,8 +1690,16 @@
             "value": "Ignore"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1366,8 +1770,16 @@
             "value": "Start of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Chosen Titan gains the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -1375,13 +1787,25 @@
             "refID": "AL0299"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Condition card, another Titan gains the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Terror",
             "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1400,17 +1824,33 @@
             "value": "Each time you use"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Wish Armor"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "against an AI Attack, place 1 token on the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Wish for a Wish",
             "refID": "DX3223"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1441,6 +1881,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Alternate Battle Diagram"
           }
@@ -1465,8 +1909,16 @@
             "value": "Disable the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "All for One"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1533,6 +1985,10 @@
             "value": "Start of Primordial Round (except 1st)"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "All Titans in front of the Oracle die"
           }
@@ -1549,6 +2005,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Take all Global Wish cards with a level that is equal to or lower than the current Demidjinn level, shuffle them, and place them face up on the Global Wish stack"
           }
@@ -1559,6 +2019,10 @@
           {
             "type": "timing",
             "value": "Start of Primordial Round (ignore during the first round)"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1613,12 +2077,24 @@
             "value": "Ignore"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "preceding"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
@@ -1637,17 +2113,33 @@
             "value": "When an"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Irem Tower",
             "refID": "DI2028"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "is destroyed, each Titan adjacent to it is dealt X"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1678,28 +2170,56 @@
             "value": "Argonauts with the Goldthirst Curse Affliction must apply all"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "+ or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Midas"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "+ effects regardless of their actual"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -1750,9 +2270,17 @@
             "value": "Primordial doesn't destroy"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Petrified Vent",
             "refID": "EI2606"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1784,6 +2312,10 @@
         "abilityText": [
           {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1821,6 +2353,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Level 4+: When the Timefront moves, it moves 5 spaces forward instead"
           }
@@ -1837,8 +2373,16 @@
             "value": "Treat every Battle Board space as if it had the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Slippery"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1873,6 +2417,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Alternate Battle Diagram"
           }
@@ -1889,6 +2437,10 @@
             "value": "End of Titan turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If you didn't Attack this turn, resolve the top AI card"
           }
@@ -1903,6 +2455,10 @@
           {
             "type": "bold",
             "value": "Imperial Impetus:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1953,16 +2509,32 @@
             "value": "This Trait replaces the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Imperial Impetus"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Trait and the effects of the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Imperial Impetus"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1977,13 +2549,25 @@
             "value": "Imperial Impetus"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ": Place an"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Ambrosia Cloud",
             "refID": "DI2031"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -1998,9 +2582,17 @@
             "value": "The Nosoi Dragon moves onto the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Irem Tower",
             "refID": "DI2028"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2051,8 +2643,16 @@
             "value": "Always use the higher"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2069,6 +2669,10 @@
           {
             "type": "timing",
             "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2107,6 +2711,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place a Labyrinth token on the topmost space of the Labyrinth track"
           }
@@ -2118,17 +2726,33 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Labyrinth X:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Place X"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Labyrinth",
             "refID": "AI0364"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2155,9 +2779,17 @@
             "value": "When you gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "The Oar",
             "refID": "DZ2585"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2176,16 +2808,32 @@
             "value": "Start of Titan Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "The Titan with the most"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Fate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "is moved to the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -2203,6 +2851,10 @@
           {
             "type": "timing",
             "value": "Start of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2229,8 +2881,16 @@
             "value": "If you don't have any"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Light X"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2249,8 +2909,16 @@
             "value": "Ignore"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2301,16 +2969,32 @@
             "value": "Each Midas token on a non-Weapon"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "lowers your"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2369,8 +3053,20 @@
             "value": "All BP cards without a Wound Response gain: Wound:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -2387,6 +3083,10 @@
           {
             "type": "plainText",
             "value": "All BP cards without a Fail Response gain: Fail: Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2445,12 +3145,24 @@
             "value": "Argonauts with the Mazetouched Affliction must apply all"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "X+ banner effects, regardless of their actual"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2481,8 +3193,16 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -2525,30 +3245,58 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Gelatinous:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "If attacked with a Weapon other than"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Club, Cestus, Slabsword"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Shield"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", the Chimera has +1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
           }
@@ -2558,30 +3306,58 @@
         "abilityText": [
           {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "Supersolid:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If attacked with a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
             "value": "Club, Cestus, Slabsword"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
             "value": "Shield"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Weapon, the Chimera has +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2595,12 +3371,24 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Level 4+: +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2614,32 +3402,64 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Corrosive:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "After you resolve a successful Attack (at least 1 hit), if your Weapon is not"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Stone, Relief, Divine, Hephaestum, Cyclopean, Mythic"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "Electrum"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", exhaust it and gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2670,16 +3490,32 @@
             "value": "Place stolen"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": ", Mnemos cards, and"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Progress"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2708,6 +3544,10 @@
           {
             "type": "plainText",
             "value": "Then discard the BP card and gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -2750,9 +3590,17 @@
             "value": "Primordial destroys"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Petrified Vent",
             "refID": "EI2606"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2783,8 +3631,16 @@
             "value": "When a Titan performs a Full Evade or reduces all"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2835,13 +3691,25 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Omega Terminus",
             "refID": "CR1365"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2900,8 +3768,16 @@
             "value": "Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Chasm"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2914,6 +3790,10 @@
           {
             "type": "plainText",
             "value": "All other Terrain is considered"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "keyword",
@@ -2932,8 +3812,16 @@
             "value": "Ignore"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -2982,6 +3870,10 @@
           {
             "type": "timing",
             "value": "End of Titan Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3044,39 +3936,79 @@
             "value": "From now on, if there are no Wound cards in the Wound Stack or the last card is a Single of Double Wound, the Chimera's state is"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Plasmous"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "Plasmous:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If attacked with a Weapon other than"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
             "value": "Primordial, DIvine, Mythic"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "italics",
             "value": "Eldertech"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": ", the Chimera has +2"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3107,8 +4039,16 @@
             "value": "If you reveal a BP card with this open-eyed symbol as a result of a card or an ability effect (not during a normal BP Draw), gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3147,8 +4087,16 @@
             "value": "Disable all"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3167,8 +4115,16 @@
             "value": "Disable the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Shifting"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3195,13 +4151,25 @@
             "value": "Regurgitate:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place an"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "Ambrosia Pool",
             "refID": "AI0371"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3215,8 +4183,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Level 2+: Treat all Ambrosia Pools as"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -3292,6 +4268,10 @@
             "value": "Sandstorm Spiral:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If adjacent to a Target, the Demidjinn moves clockwise around the Target, so that it ends up on four spaces directly across the Target"
           }
@@ -3316,8 +4296,16 @@
             "value": "All BP cards without a Wound Response gain: Wound:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3344,8 +4332,16 @@
             "value": "When the special"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "GoldWoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3360,8 +4356,16 @@
             "value": "If they do, they gain a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3384,6 +4388,10 @@
             "value": "Chain Break doesn't disable the special"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "GoldWoO"
           }
@@ -3400,16 +4408,32 @@
             "value": "Apply the following modifiers to all Dahaka Attacks: -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "d10"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "and -1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3448,6 +4472,10 @@
             "value": "When the Dahaka Shadowsteps through the Board Edge, the Dahaka performs"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Heal"
           }
@@ -3469,7 +4497,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "During movement it does not destroyt Terrain tiles, unless stated otherwise"
+            "value": "During movement it does not destroy Terrain tiles, unless stated otherwise"
           }
         ]
       }
@@ -3552,8 +4580,16 @@
             "value": "Each time Temenos gains a Wound, it gains 1 positive"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3568,24 +4604,48 @@
             "value": "Next time you resolve an AI card, discard all of the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "tokens and add that many"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "to the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3604,9 +4664,17 @@
             "value": "Each time you gain a Despair token, you also gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Fear",
             "refID": "AL0299"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3673,6 +4741,10 @@
             "value": "Start of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If the Hekaton is adjacent to 2 or more Titans, all of those Titans suffer Knockback 5"
           }
@@ -3689,8 +4761,16 @@
             "value": "Each Nietzschean Attack does 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3709,12 +4789,24 @@
             "value": "End of Primordial Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Gain"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3741,6 +4833,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Alternate Battle Diagram, see Mnestis Battle Diagrams in the Rulebook"
           }
@@ -3755,6 +4851,10 @@
           {
             "type": "timing",
             "value": "Start of Titan Turn"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3797,6 +4897,10 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place a Combo token on the Cleaver space of the Combo track"
           }
@@ -3816,8 +4920,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Combo:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3831,28 +4943,60 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "Combo Break:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "A Titan who is not the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "PriorityTarget"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "PriorityTarget and has a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3875,8 +5019,16 @@
             "value": "They gain the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3891,16 +5043,36 @@
             "value": "Note:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Rage"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "gain doesn't trigger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3919,9 +5091,17 @@
             "value": "If a Titan ends their turn with the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Sisyphean",
             "refID": "BL0673"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3934,6 +5114,10 @@
           {
             "type": "timing",
             "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3952,13 +5136,25 @@
             "value": "Battle Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place the special"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "AI 0",
             "refID": "DR2456"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -3981,6 +5177,10 @@
             "value": "After Escalation:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If the top AI card is not an AI IV or AI 0, discard it (once per Escalation)"
           }
@@ -3997,12 +5197,24 @@
             "value": "Additional Setup:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Add 1"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "italics",
             "value": "You died"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4061,8 +5273,16 @@
             "value": "Ignore"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4113,6 +5333,10 @@
             "value": "Start of Battle"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place the Timefront tiles on the bottom column (1)"
           }
@@ -4125,8 +5349,20 @@
             "value": "End of Titan Round"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4169,8 +5405,16 @@
             "value": "Treat every Battle Board space as if it had the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Chasm"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4212,6 +5456,10 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "You can only wound a BP III card from a VP"
           }
@@ -4228,12 +5476,24 @@
             "value": "Trample:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Labyrinthauros moves forward in a straight line at full"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4260,9 +5520,17 @@
             "value": "The Signature becomes"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Trigger Finger",
             "refID": "CV1800"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4279,6 +5547,10 @@
           {
             "type": "timing",
             "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4299,6 +5571,10 @@
           {
             "type": "plainText",
             "value": "For each word spoken in a different language, they gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -4377,6 +5653,10 @@
             "value": "At the end of the Primordial Round, the Old Haunt destroys the closest"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Irem Tower",
             "refID": "DI2028"
@@ -4422,8 +5702,16 @@
             "value": "During the Primordial Round, Ambrosia Pools and Ambrosia Trails have the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
             "value": "Chasm"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4470,6 +5758,10 @@
             "value": "Additional Setp:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "Place a Combo token on the Sword space of the Combo track"
           }
@@ -4489,20 +5781,44 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Combo:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "After resolving the first AI card in a Round, perform"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "WoO"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Combo:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4516,32 +5832,72 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "timing",
             "value": "Reaction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "Combo Break:"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "A Titan who is"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "bold",
             "value": "not the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "Priority Target, and has"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4564,8 +5920,16 @@
             "value": "It gains the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriortyTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4579,8 +5943,16 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Inevitable:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4602,20 +5974,44 @@
             "type": "newline"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "bold",
             "value": "Note:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Rage"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "gain doesn't trigger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "icon",
             "value": "PriorityTarget"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4634,9 +6030,17 @@
             "value": "When a Titan with Midas tokens dies, place half of their Midas tokens (rounding up) on the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Incremental Painment",
             "refID": "DX3222"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4655,16 +6059,32 @@
             "value": "Start of Titan Turn"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "If you're not adjacent to another Titan, gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
             "value": "Danger"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "icon",
@@ -4683,13 +6103,25 @@
             "value": "Remove the"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Fearful Hospitality",
             "refID": "DZ2584"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "card and add the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
@@ -4697,13 +6129,25 @@
             "refID": "DZ2589"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
             "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "cardRef",
             "value": "The Oar",
             "refID": "DZ2585"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4750,18 +6194,34 @@
             "value": "When you gain a"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Wishkeen",
             "refID": "DL2011"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
             "value": "or"
           },
           {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "cardRef",
             "value": "Wishagog",
             "refID": "DL2011"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
           },
           {
             "type": "plainText",
@@ -4782,5 +6242,50 @@
         ]
       }
     ]
+  },
+  "Killjoy": {
+    "mainDef": []
+  },
+  "Death of Hope": {
+    "mainDef": []
+  },
+  "Faster Than Thought": {
+    "mainDef": []
+  },
+  "Man Among Sheep": {
+    "mainDef": []
+  },
+  "Unholy Halo": {
+    "mainDef": []
+  },
+  "Flash Step": {
+    "mainDef": []
+  },
+  "Feints": {
+    "mainDef": []
+  },
+  "Critical Strikes": {
+    "mainDef": []
+  },
+  "No Obstacles": {
+    "mainDef": []
+  },
+  "Race Through Dark Places": {
+    "mainDef": []
+  },
+  "It Spreads": {
+    "mainDef": []
+  },
+  "Always There": {
+    "mainDef": []
+  },
+  "No Other Gods Before Me": {
+    "mainDef": []
+  },
+  "Winged Doom": {
+    "mainDef": []
+  },
+  "Flares": {
+    "mainDef": []
   }
 }

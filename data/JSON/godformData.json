@@ -11,7 +11,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+2",
     "stats": "+2 Precision",
@@ -185,7 +187,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+1",
     "stats": "+2 Evasion",
@@ -264,7 +268,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+0",
     "stats": "+1 @BlackArmorDie",
@@ -335,7 +341,34 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Nerfed Hephaestum Skin: Added \"Each time you draw a You died Obol, lose -1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Trespass"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "plainText",
+              "value": "\""
+            }
+          ]
+        }
+      ]
+    },
     "power": "Black",
     "speed": "+0",
     "stats": "",
@@ -422,7 +455,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "*",
     "stats": "+1 Evasion",
@@ -525,7 +560,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "White",
     "speed": "+0",
     "stats": "",
@@ -652,7 +689,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+2",
     "stats": "+3 Precision",
@@ -762,7 +801,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+1",
     "stats": "",
@@ -833,7 +874,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "*",
     "speed": "-1",
     "stats": "",
@@ -1113,7 +1156,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Red",
     "speed": "+0",
     "stats": "+2 Evasion, +2 Evasion Reroll",
@@ -1234,7 +1279,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+0",
     "stats": "+3 Precision",
@@ -1418,7 +1465,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "White",
     "speed": "+0",
     "stats": "",
@@ -1554,7 +1603,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+3",
     "stats": "+2 Precision, +3 Evasion",
@@ -1653,7 +1704,9 @@
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+3",
     "stats": "+4 Precision",
@@ -1849,7 +1902,9 @@
     "cardSize": "Tarot",
     "foundIn": "Envelope H",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "+0",
     "stats": "",
@@ -2057,7 +2112,9 @@
     "cardSize": "Tarot",
     "foundIn": "Ultra-secret",
     "faq": "",
-    "errata": "",
+    "errata": {
+      "v1.1": []
+    },
     "power": "Black",
     "speed": "*",
     "stats": "+2 Precision, +2 Evasion",
