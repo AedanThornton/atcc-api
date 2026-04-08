@@ -9,10 +9,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Cow Toss",
     "flavor": "Devil's playthings",
     "effects": [
@@ -46,10 +44,8 @@
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Idle Hands",
     "effects": [
       {
@@ -122,10 +118,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Home Run",
     "flavor": "Labyrinthauros pauses to sing the song of surrender. Many listen",
     "effects": [
@@ -159,10 +153,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Contract Will",
     "flavor": "Temenos's body contracts, becoming an impenetrable shell",
     "effects": [
@@ -212,10 +204,8 @@
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Contract",
     "flavor": "Temenos's body contracts, becoming an impenetrable shell",
     "effects": [
@@ -273,10 +263,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Final Judgement",
     "flavor": "The Pursuer remembers why it came here",
     "effects": [
@@ -334,10 +322,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -385,10 +371,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -436,10 +420,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -503,10 +485,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -538,10 +518,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -638,10 +616,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Infuriating Roar",
     "effects": [
       {
@@ -722,10 +698,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Infuriating Roar",
     "effects": [
       {
@@ -790,10 +764,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Snakes And Ladders",
     "effects": [
       {
@@ -826,10 +798,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -947,10 +917,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1138,10 +1106,17 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "This card cannot be chain broken",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This card cannot be chain broken"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1197,10 +1172,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1248,10 +1221,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1344,10 +1315,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1379,10 +1348,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1422,10 +1389,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1528,10 +1493,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1555,10 +1518,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1614,10 +1575,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1678,10 +1637,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1728,10 +1685,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1779,10 +1734,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1822,10 +1775,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Coming of Darkness",
     "effects": [
       {
@@ -1866,10 +1817,8 @@
     "game": "Odyssey",
     "cycle": "Mnestis Theatre",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Argo Burns",
     "effects": [
       {
@@ -1936,10 +1885,8 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "foundIn": "Envelope Beta",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -1979,10 +1926,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2046,10 +1991,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2081,10 +2024,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2133,10 +2074,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2185,10 +2124,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2228,10 +2165,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2283,10 +2218,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2310,10 +2243,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2353,10 +2284,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2403,10 +2332,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2454,10 +2381,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2513,10 +2438,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2564,10 +2487,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2615,10 +2536,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2683,10 +2602,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2726,10 +2643,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2753,10 +2668,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [
@@ -2846,10 +2759,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "effects": [
       {
         "abilityText": [

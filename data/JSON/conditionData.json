@@ -12,10 +12,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Dread",
     "side": {
       "effect": [
@@ -111,10 +109,25 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When an effect instructs you to \u201cstand up\u201d, discard the Knockdown condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Knockdown only prevents a Titan from using abilities owned by it"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": "Falling",
     "name2": "Knockdown",
     "subtitle2": "Standing Up",
@@ -219,7 +232,7 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -349,10 +362,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Frenzy",
     "side": {
       "effect": [
@@ -488,10 +499,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -554,10 +563,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -601,10 +608,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -755,10 +760,8 @@
     "cycle": "Cycle II",
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 08",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -869,10 +872,41 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you ever get to \u201cIgnore Bleeding Buildup\u201d, skip all of the Start of Turn effects on the Bleeding Condition card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Any Titan may use the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Stop Bleeding Other"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "ability as long as any Titan has the Bleeding Condition"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -992,10 +1026,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -1050,10 +1082,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Sealed",
     "side": {
       "effect": [
@@ -1237,10 +1267,17 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Time-clocked follows all of the rules and clarifications of Knockdown, except that you also cannot be targeted by anything"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": "Departing",
     "name2": "Time-clocked",
     "subtitle2": "Arriving",
@@ -1351,10 +1388,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 10",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -1393,10 +1428,25 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The primary effects on this card should say: \u201cFor each relevant window, after resolving all Kratos Token placing abilities, remove half of the just-placed tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "\u201d"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "Greed-crazed",
     "side": {
       "effect": [
@@ -1558,10 +1608,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Wishagog",
     "side": {
       "effect": [
@@ -1827,10 +1875,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Enlightened",
     "side": {
       "effect": [
@@ -1894,10 +1940,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "side": {
       "effect": [
@@ -1952,10 +1996,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Up",
     "name2": "Float",
     "subtitle2": "Down",
@@ -2068,10 +2110,17 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This condition card is not discarded at the end of battle"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "Holy Terror",
     "side": {
       "effect": [
@@ -2265,10 +2314,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Mini American",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Resolve",
     "side": {
       "effect": [

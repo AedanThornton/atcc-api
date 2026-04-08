@@ -9,10 +9,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Last Academy",
     "techType": "Structural",
     "techSubType": "Core",
@@ -168,10 +166,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Bridge Tholos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -272,10 +268,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Excursion Propylon",
     "techType": "Structural",
     "techSubType": "Core",
@@ -319,10 +313,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Grand Agora",
     "techType": "Structural",
     "techSubType": "Core",
@@ -381,10 +373,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Titan Stoa",
     "techType": "Structural",
     "techSubType": "Core",
@@ -451,10 +441,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Trade Fleet Dock",
     "techType": "Structural",
     "techSubType": "",
@@ -717,10 +705,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -781,10 +767,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -861,10 +845,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1014,10 +996,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1077,10 +1057,25 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Stealth Drive"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can be used to mitigate Nemesis movement or Titan X track movement"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1147,10 +1142,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1203,10 +1196,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1289,10 +1280,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1406,7 +1395,7 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -1631,10 +1620,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1757,10 +1744,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1804,10 +1789,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 01",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Argonaut Mausoleum",
     "techType": "Structural",
     "techSubType": "",
@@ -1881,10 +1864,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -1927,10 +1908,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2047,10 +2026,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2134,10 +2111,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 01",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Centimanes Glyphs",
     "techType": "Structural",
     "techSubType": "",
@@ -2243,10 +2218,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2305,10 +2278,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2391,10 +2362,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2508,10 +2477,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -2554,10 +2521,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 01",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Forlorn Naos",
     "techType": "Structural",
     "techSubType": "",
@@ -2633,10 +2598,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 01",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Nymph Adyton",
     "techType": "Structural",
     "techSubType": "",
@@ -2727,10 +2690,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Last Academy",
     "techType": "Structural",
     "techSubType": "Core",
@@ -2854,10 +2815,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Bridge Tholos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -2899,10 +2858,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Combat",
     "techSubType": "",
@@ -2954,10 +2911,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Labyrinthian Mine",
     "techType": "Structural",
     "techSubType": "Core",
@@ -3085,10 +3040,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Grand Agora",
     "techType": "Structural",
     "techSubType": "Core",
@@ -3296,10 +3249,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Titan Stoa",
     "techType": "Structural",
     "techSubType": "Core",
@@ -3362,10 +3313,8 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 04",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3408,10 +3357,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3454,10 +3401,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3532,10 +3477,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3653,10 +3596,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3754,10 +3695,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3880,10 +3819,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3927,10 +3864,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -3990,10 +3925,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4162,10 +4095,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4225,10 +4156,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4335,10 +4264,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4388,10 +4315,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4608,10 +4533,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4694,10 +4617,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4790,10 +4711,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4908,10 +4827,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -4987,10 +4904,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5034,10 +4949,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5121,10 +5034,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5198,10 +5109,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5323,10 +5232,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5417,10 +5324,57 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Titan Training Train technology ability can only be used to add a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Training"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Conditioning"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "pattern card to a Titan, not a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Strain"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5471,10 +5425,57 @@
     "cycle": "Cycle II",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 04",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Titan Genetic Memory Genesium technology ability can only be used to add a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Strain"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "pattern card to a Titan, not a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Training"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "Conditioning"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5556,10 +5557,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5636,10 +5635,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5746,10 +5743,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -5842,10 +5837,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Last Academy",
     "techType": "Structural",
     "techSubType": "Core",
@@ -5969,10 +5962,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Bridge Tholos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -6015,10 +6006,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Abyss Pharos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -6146,10 +6135,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Grand Agora",
     "techType": "Structural",
     "techSubType": "Core",
@@ -6356,10 +6343,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Titan Stoa",
     "techType": "Structural",
     "techSubType": "Core",
@@ -6517,10 +6502,8 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 07",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6580,10 +6563,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6642,10 +6623,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6680,10 +6659,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6717,10 +6694,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6794,10 +6769,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6879,10 +6852,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -6963,7 +6934,7 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -7147,10 +7118,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7296,10 +7265,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7381,10 +7348,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7466,10 +7431,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7583,10 +7546,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7670,10 +7631,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7732,10 +7691,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7796,10 +7753,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7842,10 +7797,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7929,10 +7882,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -7994,10 +7945,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8119,10 +8068,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8252,10 +8199,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8337,10 +8282,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8390,10 +8333,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8573,10 +8514,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8626,10 +8565,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8689,10 +8626,8 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 07",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -8751,10 +8686,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Last Academy",
     "techType": "Structural",
     "techSubType": "Core",
@@ -8877,10 +8810,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Bridge Tholos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -8922,10 +8853,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Tower of Folly",
     "techType": "Structural",
     "techSubType": "Core",
@@ -9045,10 +8974,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Grand Agora",
     "techType": "Structural",
     "techSubType": "Core",
@@ -9253,10 +9180,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Titan Stoa",
     "techType": "Structural",
     "techSubType": "Core",
@@ -9413,10 +9338,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -9532,10 +9455,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -9611,10 +9532,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -9673,10 +9592,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -9751,10 +9668,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -9891,10 +9806,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10025,10 +9938,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10201,10 +10112,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10280,10 +10189,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10350,10 +10257,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10420,10 +10325,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10531,10 +10434,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10608,10 +10509,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10688,10 +10587,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10806,10 +10703,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10901,10 +10796,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -10971,10 +10864,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11104,10 +10995,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11151,10 +11040,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11285,10 +11172,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 13",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11362,10 +11247,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11439,10 +11322,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11565,10 +11446,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 13",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -11660,10 +11539,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Last Academy",
     "techType": "Structural",
     "techSubType": "Core",
@@ -11788,10 +11665,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Damaged Bridge Tholos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -11873,10 +11748,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Nereidan Shell",
     "techType": "Structural",
     "techSubType": "Core",
@@ -12014,10 +11887,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Half-Lit Agora",
     "techType": "Structural",
     "techSubType": "Core",
@@ -12223,10 +12094,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "Titan Oikos",
     "techType": "Structural",
     "techSubType": "Core",
@@ -12383,10 +12252,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -12469,10 +12336,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -12587,10 +12452,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -12649,10 +12512,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -12719,10 +12580,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -12938,10 +12797,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13097,10 +12954,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13161,10 +13016,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13224,10 +13077,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13335,10 +13186,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13421,10 +13270,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13501,10 +13348,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13589,10 +13434,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13675,10 +13518,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13752,10 +13593,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13816,10 +13655,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -13928,10 +13765,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14007,10 +13842,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14069,10 +13902,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14131,10 +13962,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14196,10 +14025,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14299,10 +14126,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14369,10 +14194,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14518,10 +14341,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14614,10 +14435,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Standard",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",
@@ -14702,10 +14521,8 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "foundIn": "Secret Deck 15",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "name2": "",
     "techType": "Structural",
     "techSubType": "",

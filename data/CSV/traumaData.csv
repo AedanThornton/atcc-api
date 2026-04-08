@@ -1,7 +1,7 @@
 Card ID,Name,Game,Render Type,Cycle,Used For,Card Size,Found In,Flavor,Sub-Type,Effects,Condition?,Minor Direction,Major Number,Sign,FAQ,V 1.1 Updates
 AM0307,Kratos Whisper,Odyssey,Trauma,Cycle I,,Mini American,,The Moirai are watching,Minor,Gain +1 @Rage,,Down,,+,,
 AM0308,Insulted,Odyssey,Trauma,Cycle I,,Mini American,,,Minor,"You may immediately perform a Bonus Attack! If you have the [Knockdown (falling down)|AL0303] Condition card, immediately stand up instead",,Left,,+,,
-AM0309,Gash,Odyssey,Trauma,Cycle I,,Mini American,,,Minor,"Gain +1 @Danger. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",,Right,,-,,
+AM0309,Gash,Odyssey,Trauma,Cycle I,,Mini American,,,Minor,"Gain +1 @Danger. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",,Right,,-,"Regardless of how many cards are drawn from one Trauma Draw trigger, you are only considered to have drawn and resolved one Trauma card for the purposes of other effects",
 AM0310,Thrown Off-Balance,Odyssey,Trauma,Cycle I,,Mini American,,,Minor,"Exhaust all your exhaustible @Gear. If no @Gear was exhausted by this card, Knockdown",,Down,,-,,
 AM0311,Feign Death,Odyssey,Trauma,Cycle I,,Mini American,,,Minor,"Immediately Chain Break the Primordial Attack, gain the [Knockdown (standing up)|AL0303] Condition card",,Up,,+,,
 AM0312,Feint,Odyssey,Trauma,Cycle I,,Mini American,,"Look, a three-headed goat!",Minor,Place up to 2 Opening and/or Break tokens in the Kratos Pool,,Left,,+,,
@@ -17,7 +17,7 @@ AM0321,Seed Of Despair,Odyssey,Trauma,Cycle I,Cycle I,Mini American,,,Minor,Gain
 AM0322,Kratos Glimpse,Odyssey,Trauma,Cycle I,,Mini American,,Your fate is beckoning,Major,Gain +2 @Rage,,,1,+,,
 AM0323,Marked For Death,Odyssey,Trauma,Cycle I,,Mini American,,,Major,"Gain this card and the @PriorityTarget Priority Target token. While you have this card, you cannot lose this token",Fate,,2,-,,
 AM0324,Call To Arms,Odyssey,Trauma,Cycle I,,Mini American,,,Major,Another Titan may move up to 3 spaces or {Stand up},,,3,+,,
-AM0325,Giant Gash,Odyssey,Trauma,Cycle I,,Mini American,,,Major,"Gain +1 @Danger. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",,,4,-,,
+AM0325,Giant Gash,Odyssey,Trauma,Cycle I,,Mini American,,,Major,"Gain +1 @Danger. Shuffle this card back into the Trauma deck, then resolve the Trauma Draw again",,,4,-,"Regardless of how many cards are drawn from one Trauma Draw trigger, you are only considered to have drawn and resolved one Trauma card for the purposes of other effects",
 AM0326,Inner Strength,Odyssey,Trauma,Cycle I,,Mini American,,,Major,Lose -1 @Danger and {Stand up}. You may immediately perform a Bonus Attack!,,,5,+,,
 AM0327,Show Of Willpower,Odyssey,Trauma,Cycle I,,Mini American,,,Major,"You may discard 2 Condition tokens, a tokenless Condition card, or an Ambrosia token, or lose -2 @Fate",,,6,+,,
 AM0328,Counterattack,Odyssey,Trauma,Cycle I,,Mini American,,,Major,"You may immediately move up to 3 spaces and perform a Bonus Attack! If you have the [Knockdown (falling down)|AL0303] Condition card, immediately {Stand up} instead",,,7,+,,

@@ -9,11 +9,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -136,11 +133,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -263,11 +257,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -390,11 +381,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -517,11 +505,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -646,11 +631,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "6",
@@ -797,11 +779,53 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Logicbreak's"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "must be spent immediately, can be used for anything a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can normally be used for, and first Chain Breaks if used to perform a Titan Attack"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -953,11 +977,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -1115,11 +1136,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -1278,11 +1296,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "4",
@@ -1429,11 +1444,57 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Dual-wielding"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can only copy keywords, not any related variable text"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For example, a gear with \"Break X"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "X is the number of dice you hit with\""
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Dual-wielding"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can only copy the \"Break X\" and not the second sentence, so you would be copying \"Break 0\" in this case"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -1628,11 +1689,8 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -1774,11 +1832,8 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -1920,11 +1975,8 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -2066,11 +2118,8 @@
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Spartan Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -2211,11 +2260,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -2357,11 +2403,25 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Cheat Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "is unaffected by modifications to the Obol Deck during the Battle"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "6",
@@ -2542,11 +2602,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -2753,7 +2810,7 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -2764,8 +2821,7 @@
             }
           ]
         }
-      ],
-      "v1.2": []
+      ]
     },
     "subtitle": null,
     "titanPower": "Black",
@@ -2970,7 +3026,7 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -3308,11 +3364,8 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3454,11 +3507,8 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3600,11 +3650,8 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3746,11 +3793,8 @@
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Delphian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -3892,11 +3936,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -4081,11 +4122,49 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Shadowdance"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can only be used after"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "italics",
+            "value": "fully"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "resolving a Primordial Attack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the Attack does not fully resolve for any reason, you cannot use this ability"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -4241,11 +4320,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red + Power",
     "speed": "6",
@@ -4440,11 +4516,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -4616,11 +4689,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red",
     "speed": "5",
@@ -4836,11 +4906,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -5053,11 +5120,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -5230,11 +5294,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5384,11 +5445,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5538,11 +5596,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5692,11 +5747,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": "Persian Dreamwalker",
     "titanPower": "Red",
     "speed": "5",
@@ -5845,11 +5897,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Red + Power",
     "speed": "5",
@@ -6023,11 +6072,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "4",
@@ -6230,11 +6276,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -6462,11 +6505,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Black",
     "speed": "5",
@@ -6663,11 +6703,57 @@
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": [],
-      "v1.2": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Dual-wielding"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can only copy keywords, not any related variable text"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For example, a gear with \"Break X"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "X is the number of dice you hit with\""
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Dual-wielding"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "can only copy the \"Break X\" and not the second sentence, so you would be copying \"Break 0\" in this case"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "subtitle": null,
     "titanPower": "Mortal",
     "speed": "4",

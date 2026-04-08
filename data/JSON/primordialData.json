@@ -9,10 +9,41 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Friendly Warning"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait is still used for Level 1 Hekaton"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Remember that it does not affect Unavoidable Knockback"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -308,10 +339,8 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Weakspot"
@@ -704,7 +733,24 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Maze Reconfiguration"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "should say \"When Temenos resolves Labyrinth X, for each Titan on a Labyrinth Terrain tile, if the Labyrinth tile from Labyrinth X could have been placed under that Titan were the tile it's on not there, that Titan draws an Obol\""
+          }
+        ]
+      }
+    ],
     "errata": {
       "v1.1": [
         {
@@ -1174,10 +1220,33 @@
     "game": "Odyssey",
     "cycle": "Cycle I",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When resolving Hermesian Pursuer\u2019s Flare cards, if it says \u201cPerform Signature\u201d, resolve it after the current action"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, if it says \u201cPerform Heal\u201d, resolve it after the Wound step"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "In all other cases, resolve it immediately"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -1491,10 +1560,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Danger Zone",
@@ -1779,10 +1846,41 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Chimera Metastasios movement is considered Pushback X, where X is the Chimera\u2019s Speed value, but only to Titans that either were adjacent to it at the start of the Attack Action or were the Target of the Attack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All other Titans treat Chimera\u2019s movement as normal"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pushback only applies to Titans in the path of movement"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "VP Titans and Titans adjacent but not in the path are unaffected"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "figure_size": "3x3",
     "diagramEffects": [
       "Lumbering"
@@ -2126,7 +2224,7 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -2487,10 +2585,8 @@
     "game": "Odyssey",
     "cycle": "Cycle II",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -2820,10 +2916,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": [
@@ -3132,10 +3226,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -3429,10 +3521,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "",
     "diagramEffects": [],
     "vp": {
@@ -3499,10 +3589,8 @@
     "game": "Odyssey",
     "cycle": "Cycle III",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "3x3",
     "diagramEffects": [
       "Lumbering"
@@ -3828,10 +3916,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "3x3",
     "diagramEffects": [
       "Blindspot"
@@ -4370,10 +4456,8 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -4713,10 +4797,33 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When the Endless Staircase Entrance tile moves, a Titan standing on it stays on the origin space (i"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "e"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "does not move with the tile) and suffers any effects of leaving that tile/entering that space"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Lumbering"
@@ -5102,10 +5209,34 @@
     "game": "Odyssey",
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Fearful Hospitality",
+            "refID": "DZ2584"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card grants the Precise keyword to the Titan that has it"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -5440,10 +5571,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -5782,10 +5911,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "3x3",
     "diagramEffects": [],
     "vp": {
@@ -6215,10 +6342,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Full-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot",
@@ -6584,10 +6709,8 @@
     "game": "Odyssey",
     "cycle": "Cycle V",
     "cardSize": "Half-Page",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "1x1",
     "diagramEffects": [
       "Blindspot"
@@ -6963,10 +7086,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": []
@@ -6982,10 +7103,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Promo",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7042,10 +7161,8 @@
     "cycle": "Cycle III",
     "cardSize": "Standard",
     "foundIn": "Envelope S",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7083,10 +7200,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "foundIn": "Envelope Y",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7129,10 +7244,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Standard",
     "foundIn": "Envelope Y",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "",
     "diagramEffects": [],
     "vp": {
@@ -7193,10 +7306,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Half-Page",
     "foundIn": "Ultra-secret",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"
@@ -7531,10 +7642,8 @@
     "cycle": "Cycle V",
     "cardSize": "Standard",
     "foundIn": "Envelope Beta",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "figure_size": "2x2",
     "diagramEffects": [
       "Blindspot"

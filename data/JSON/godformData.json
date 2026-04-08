@@ -10,10 +10,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+2",
     "stats": "+2 Precision",
@@ -186,10 +184,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+1",
     "stats": "+2 Evasion",
@@ -267,10 +263,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 03",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+0",
     "stats": "+1 @BlackArmorDie",
@@ -340,7 +334,7 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
+    "faq": [],
     "errata": {
       "v1.1": [
         {
@@ -454,10 +448,17 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hermes Godform Speed modifier can be applied before or after any other Speed modifiers"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "power": "Black",
     "speed": "*",
     "stats": "+1 Evasion",
@@ -559,10 +560,8 @@
     "cycle": "Cycle II",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 06",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "White",
     "speed": "+0",
     "stats": "",
@@ -688,10 +687,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+2",
     "stats": "+3 Precision",
@@ -800,10 +797,8 @@
     "cycle": "Cycle III",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 09",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+1",
     "stats": "",
@@ -873,10 +868,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "*",
     "speed": "-1",
     "stats": "",
@@ -1155,10 +1148,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Red",
     "speed": "+0",
     "stats": "+2 Evasion, +2 Evasion Reroll",
@@ -1278,10 +1269,8 @@
     "cycle": "Cycle IV",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 14",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+0",
     "stats": "+3 Precision",
@@ -1464,10 +1453,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "White",
     "speed": "+0",
     "stats": "",
@@ -1602,10 +1589,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+3",
     "stats": "+2 Precision, +3 Evasion",
@@ -1703,10 +1688,8 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Secret Deck 16",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+3",
     "stats": "+4 Precision",
@@ -1901,10 +1884,8 @@
     "cycle": "Cycle I",
     "cardSize": "Tarot",
     "foundIn": "Envelope H",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [],
+    "errata": {},
     "power": "Black",
     "speed": "+0",
     "stats": "",
@@ -2111,10 +2092,17 @@
     "cycle": "Cycle V",
     "cardSize": "Tarot",
     "foundIn": "Ultra-secret",
-    "faq": "",
-    "errata": {
-      "v1.1": []
-    },
+    "faq": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Hermes Exalted Godform Speed modifier can be applied before or after any other Speed modifiers"
+          }
+        ]
+      }
+    ],
+    "errata": {},
     "power": "Black",
     "speed": "*",
     "stats": "+2 Precision, +2 Evasion",
