@@ -59,23 +59,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may immediately move up to 4 spaces and perform a Bonus Attack with +1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Power"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "! If you have the"
+            "value": "You may immediately perform a Bonus Attack! If you have the"
           },
           {
             "type": "whitespace",
@@ -92,39 +76,7 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Stand up"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "and gain 1 positive"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Evasion"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "token instead"
+            "value": "Condition card, immediately stand up instead"
           }
         ]
       }
@@ -265,7 +217,7 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "You may immediately perform a Bonus Attack! If you have the"
+            "value": "Immediately Chain Break the Primordial Attack, gain the"
           },
           {
             "type": "whitespace",
@@ -273,7 +225,7 @@
           },
           {
             "type": "cardRef",
-            "value": "Knockdown (falling down)",
+            "value": "Knockdown (standing up)",
             "refID": "AL0303"
           },
           {
@@ -282,23 +234,7 @@
           },
           {
             "type": "plainText",
-            "value": "Condition card, immediately"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Stand up"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "instead"
+            "value": "Condition card"
           }
         ]
       }
@@ -1384,7 +1320,7 @@
     ],
     "isCondition": "",
     "arrow": "",
-    "number": "",
+    "number": "5",
     "sign": "-"
   },
   {
@@ -1423,7 +1359,7 @@
     ],
     "isCondition": "",
     "arrow": "",
-    "number": "",
+    "number": "6",
     "sign": "-"
   },
   {
@@ -1462,7 +1398,7 @@
     ],
     "isCondition": "",
     "arrow": "",
-    "number": "",
+    "number": "7",
     "sign": "-"
   },
   {
@@ -1493,7 +1429,7 @@
     ],
     "isCondition": "",
     "arrow": "",
-    "number": "",
+    "number": "8",
     "sign": "-"
   },
   {

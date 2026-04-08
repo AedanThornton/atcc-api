@@ -157,8 +157,12 @@ def doom_row(row):
     return card_json
 
 def exploration_row(row):
+    prim_effects, prim_effects2 = parse_abilities(row["Primary Effects"])
+    sec_effects, sec_effects2 = parse_abilities(row["Secondary Effects"])
+
     card_json = {
-        "effects": parse_abilities(row["Effects"]),
+        "effects": prim_effects + prim_effects2,
+        "effects2": sec_effects + sec_effects2,
         "number": int(row["Number"]) if row["Number"] else "",
         "adversaryTriggers": row["Adversary Triggers"],
         "stackType": row["Stack Type"],
@@ -170,6 +174,8 @@ def exploration_row(row):
         card_json.pop("number")
     if not row["Adversary Triggers"]:
         card_json.pop("adversaryTriggers")
+    if not row["Secondary Effects"]:
+        card_json.pop("effects2")
 
     return card_json
 
