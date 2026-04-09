@@ -89,14 +89,6 @@
       ],
       [
         {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "On a 6+, ignore this gain"
-            }
-          ]
-        },
-        {
           "gate": "Danger",
           "value": "4+",
           "abilityText": [
@@ -107,6 +99,14 @@
           ],
           "costs": [
             "Exhaust"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 6+, ignore this gain"
+            }
           ]
         }
       ]
@@ -173,20 +173,20 @@
       ],
       [
         {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "On a 6+, ignore this Knockdown"
-            }
-          ]
-        },
-        {
           "gate": "Danger",
           "value": "4+",
           "abilityText": [
             {
               "type": "plainText",
               "value": "When you are about to suffer Knockdown, you may roll a d10"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "On a 6+, ignore this Knockdown"
             }
           ]
         }
@@ -1718,14 +1718,6 @@
       ],
       [
         {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "That Titan becomes the Target instead"
-            }
-          ]
-        },
-        {
           "gate": "Danger",
           "value": "5+",
           "abilityText": [
@@ -1736,6 +1728,14 @@
           ],
           "costs": [
             "Discard"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "That Titan becomes the Target instead"
+            }
           ]
         }
       ]
@@ -2813,14 +2813,6 @@
       ],
       [
         {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During the Second Ability Window, move them to the Kratos Pool"
-            }
-          ]
-        },
-        {
           "gate": "Danger",
           "value": "3+",
           "abilityText": [
@@ -2832,6 +2824,14 @@
           "costs": [
             "Fate",
             "Exhaust"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "During the Second Ability Window, move them to the Kratos Pool"
+            }
           ]
         }
       ]
@@ -3190,14 +3190,6 @@
       ],
       [
         {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned"
-            }
-          ]
-        },
-        {
           "gate": "Danger",
           "value": "3+",
           "abilityText": [
@@ -3208,6 +3200,14 @@
           ],
           "costs": [
             "Discard"
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned"
+            }
           ]
         }
       ]
@@ -3376,6 +3376,19 @@
       ],
       [
         {
+          "gate": "Danger",
+          "value": "9+",
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "When you are about to die, postpone the death until the end of your next turn"
+            }
+          ],
+          "costs": [
+            "Discard"
+          ]
+        },
+        {
           "abilityText": [
             {
               "type": "plainText",
@@ -3397,19 +3410,6 @@
               "type": "plainText",
               "value": "Gain a random Curse Affliction"
             }
-          ]
-        },
-        {
-          "gate": "Danger",
-          "value": "9+",
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you are about to die, postpone the death until the end of your next turn"
-            }
-          ],
-          "costs": [
-            "Discard"
           ]
         }
       ]

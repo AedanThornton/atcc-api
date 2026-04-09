@@ -23308,16 +23308,22 @@
     "afterFinal": true,
     "afterAttackEffects": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
-            "gate": "Rage",
-            "value": "5+",
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Rage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Perform Combo"
+                "value": "5+: Perform Combo"
               }
             ]
           }
@@ -25690,7 +25696,51 @@
                 "value": "and 1 Ambrosia token"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "8+: 4"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "banner": false,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
@@ -36856,6 +36906,16 @@
                 "value": "K3-L4"
               }
             ]
+          },
+          {
+            "gate": "Fate",
+            "value": "5+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Do not Glaciate"
+              }
+            ]
           }
         ]
       }
@@ -37032,6 +37092,16 @@
                 "value": "D12, J14, H16"
               }
             ]
+          },
+          {
+            "gate": "Fate",
+            "value": "7+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Do not Glaciate"
+              }
+            ]
           }
         ]
       }
@@ -37112,6 +37182,16 @@
               {
                 "type": "plainText",
                 "value": "C3-D4"
+              }
+            ]
+          },
+          {
+            "gate": "ArgoFate",
+            "value": "5+",
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Do not Glaciate"
               }
             ]
           }

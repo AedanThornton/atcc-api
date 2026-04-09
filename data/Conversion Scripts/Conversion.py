@@ -25,12 +25,12 @@ def default_row(row):
     }
 
     for faq in row["FAQ"].split("; "):
-        card_json["faq"] = card_json["faq"] + parse_abilities(faq)[0]
+        card_json["faq"] = card_json["faq"] + parse_abilities(faq)
 
     if "V 1.1 Updates" in row and row["V 1.1 Updates"] != "":
-        card_json["errata"]["v1.1"] = parse_abilities(row["V 1.1 Updates"])[0]
+        card_json["errata"]["v1.1"] = parse_abilities(row["V 1.1 Updates"])
     if "V 1.2 Updates" in row and row["V 1.2 Updates"] != "":
-        card_json["errata"]["v1.2"] = parse_abilities(row["V 1.2 Updates"])[0]
+        card_json["errata"]["v1.2"] = parse_abilities(row["V 1.2 Updates"])
 
     if card_json["foundIn"] == "":
         card_json.pop("foundIn")

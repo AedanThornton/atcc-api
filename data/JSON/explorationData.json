@@ -1873,6 +1873,15 @@
     ],
     "effects2": [
       {
+        "gate": "Allied",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",
@@ -1885,15 +1894,6 @@
           {
             "type": "icon",
             "value": "ArgoKnowledge"
-          }
-        ]
-      },
-      {
-        "gate": "Allied",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Roll a d10"
           }
         ]
       }
@@ -2035,22 +2035,6 @@
     ],
     "effects2": [
       {
-        "abilityText": [
-          {
-            "type": "icon",
-            "value": "ArgoFate"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "7+ Random Argonaut gains 1 Despair token"
-          }
-        ]
-      },
-      {
         "gate": "ArgoFate",
         "value": "5+",
         "abilityText": [
@@ -2065,6 +2049,22 @@
           {
             "type": "icon",
             "value": "Strangers"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "ArgoFate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "7+ Random Argonaut gains 1 Despair token"
           }
         ]
       }
@@ -3928,6 +3928,15 @@
     ],
     "effects2": [
       {
+        "gate": "Allied",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",
@@ -3940,15 +3949,6 @@
           {
             "type": "icon",
             "value": "ArgoKnowledge"
-          }
-        ]
-      },
-      {
-        "gate": "Allied",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Roll a d10"
           }
         ]
       }
@@ -5178,26 +5178,11 @@
     ],
     "effects2": [
       {
+        "gate": "Denounced-",
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain as many"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Danger"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "as a group as you have total"
+            "value": "Gain +1"
           },
           {
             "type": "whitespace",
@@ -5218,11 +5203,26 @@
         ]
       },
       {
-        "gate": "Denounced-",
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain +1"
+            "value": "Gain as many"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "as a group as you have total"
           },
           {
             "type": "whitespace",
@@ -5799,6 +5799,15 @@
     ],
     "effects2": [
       {
+        "gate": "Allied",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",
@@ -5811,15 +5820,6 @@
           {
             "type": "icon",
             "value": "ArgoKnowledge"
-          }
-        ]
-      },
-      {
-        "gate": "Allied",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Roll a d10"
           }
         ]
       }
@@ -6296,22 +6296,6 @@
     "errata": {},
     "effects": [
       {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If this ability didn't trigger, gain +1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Paradox"
-          }
-        ]
-      },
-      {
         "gate": "Paradox",
         "value": "3+",
         "abilityText": [
@@ -6344,17 +6328,25 @@
             "value": "Hull"
           }
         ]
-      }
-    ],
-    "effects2": [
+      },
       {
         "abilityText": [
           {
             "type": "plainText",
-            "value": "In the following Story Phase resolve any Mnemos Breakthroughs caused by this effect"
+            "value": "If this ability didn't trigger, gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Paradox"
           }
         ]
-      },
+      }
+    ],
+    "effects2": [
       {
         "gate": "Paradox",
         "value": "4+",
@@ -6362,6 +6354,14 @@
           {
             "type": "plainText",
             "value": "The Argonaut with two Mnemos cards and most Mnemos nodes swaps the number of Mnemos nodes on his Mnemoses"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "In the following Story Phase resolve any Mnemos Breakthroughs caused by this effect"
           }
         ]
       }
@@ -9937,6 +9937,15 @@
     ],
     "effects2": [
       {
+        "gate": "Allied",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",
@@ -9949,15 +9958,6 @@
           {
             "type": "icon",
             "value": "ArgoKnowledge"
-          }
-        ]
-      },
-      {
-        "gate": "Allied",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Roll a d10"
           }
         ]
       }
@@ -10569,6 +10569,16 @@
         ]
       },
       {
+        "gate": "BabelianDebt",
+        "value": "3+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose 5 Cursed Derelict, 3 Imperial Scroll, or 2 Babylonian Contraption resources instead"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",
@@ -10583,19 +10593,27 @@
             "value": "Doom"
           }
         ]
-      },
-      {
-        "gate": "BabelianDebt",
-        "value": "3+",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Lose 5 Cursed Derelict, 3 Imperial Scroll, or 2 Babylonian Contraption resources instead"
-          }
-        ]
       }
     ],
     "effects2": [
+      {
+        "gate": "ArgoFate",
+        "value": "7+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Hull"
+          }
+        ]
+      },
       {
         "abilityText": [
           {
@@ -10624,24 +10642,6 @@
           {
             "type": "plainText",
             "value": "after resolving this card, remove this card from the deck permanently"
-          }
-        ]
-      },
-      {
-        "gate": "ArgoFate",
-        "value": "7+",
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Lose -1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Hull"
           }
         ]
       }

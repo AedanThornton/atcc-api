@@ -15,148 +15,139 @@
     "power": "Black",
     "speed": "+2",
     "stats": "+2 Precision",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Instant Transmission",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you deal a Wound, if your Total Power surpassed"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "AT"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "by 3 or more, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to ignore Responses, resolve the rest of the attack sequence, then"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Pushback 5"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ","
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Vault"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", and perform a"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "bold",
-                  "value": "Bonus Attack!"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, if your Total Power surpassed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "by 3 or more, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to ignore Responses, resolve the rest of the attack sequence, then"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Pushback 5"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Vault"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", and perform a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "bold",
+                "value": "Bonus Attack!"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "God of Thunder",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Perform an Attack with your Lightning!"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Ranged 3-9"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ","
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Pushback X"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", where X is your Total Power during this Attack"
-                }
-              ],
-              "costs": [
-                "ComplicatedAction"
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Perform an Attack with your Lightning!"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Ranged 3-9"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Pushback X"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", where X is your Total Power during this Attack"
+              }
+            ],
+            "costs": [
+              "ComplicatedAction"
+            ]
+          }
         ],
         "attack": {
           "attackDice": "2",
@@ -189,65 +180,56 @@
     "power": "Black",
     "speed": "+1",
     "stats": "+2 Evasion",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Everocean",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Discard all Ambrosia tokens from your Titan Sheet"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot gain Ambrosia tokens"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard all Ambrosia tokens from your Titan Sheet"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot gain Ambrosia tokens"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Water Finds a Way",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Furing movement, ignore Obstacle and Chasm Terrain tiles"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot end voluntary movement on an Obstacle or Chasm"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "If you end involuntary movement on an Obstacle or Chasm, place your Titan on the closest empty space instead"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Furing movement, ignore Obstacle and Chasm Terrain tiles"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot end voluntary movement on an Obstacle or Chasm"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you end involuntary movement on an Obstacle or Chasm, place your Titan on the closest empty space instead"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -268,57 +250,48 @@
     "power": "Black",
     "speed": "+0",
     "stats": "+1 @BlackArmorDie",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Roots of the Earth",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot be involuntarily moved or suffer Knockdown (you can still be displaced)"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot be involuntarily moved or suffer Knockdown (you can still be displaced)"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "She of the Grain",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "timing",
-                  "value": "Start of your turn"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "You may lose up to -2"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Start of your turn"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "You may lose up to -2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -366,73 +339,64 @@
     "power": "Black",
     "speed": "+0",
     "stats": "",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Crippled Savior",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When your Attack hits, but before revealing the BP card, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to gain a Crit Chance"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When your Attack hits, but before revealing the BP card, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to gain a Crit Chance"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Hephaestum Skin",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform, you cannot die from Obols"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Each time you draw a You died Obol, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform, you cannot die from Obols"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each time you draw a You died Obol, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -462,89 +426,80 @@
     "power": "Black",
     "speed": "*",
     "stats": "+1 Evasion",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "The Messenger",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform, double your Titan's"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Speed"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "value"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform, double your Titan's"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "value"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Rearm",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Gear"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform your"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Gear"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "cards cannot be exhausted"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "cards cannot be exhausted"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -565,113 +520,104 @@
     "power": "White",
     "speed": "+0",
     "stats": "",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "God of War",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot die by raising your"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Rage"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "over 9"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you are about to gain"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Rage"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "above 9, ignore the gain"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot die by raising your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "over 9"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are about to gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "above 9, ignore the gain"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Eschatonic Fuse",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you are about to perform a Power Roll, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to gain +1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Power"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to this roll"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are about to perform a Power Roll, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Power"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to this roll"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -692,84 +638,75 @@
     "power": "Black",
     "speed": "+2",
     "stats": "+3 Precision",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Hunter of Mortals",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Treat this die as an automatic hit"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are about to perform an Attack Roll, you may set aside one non-Crit die from your Attack Dice pool"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Treat this die as an automatic hit"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Critical Shot",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to perform an Attack with your Heavenly Bow! Range 3-9,"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Pushback X"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", where X is your Total Power during this Attack"
-                }
-              ],
-              "costs": [
-                "ComplicatedAction"
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to perform an Attack with your Heavenly Bow! Range 3-9,"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Pushback X"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", where X is your Total Power during this Attack"
+              }
+            ],
+            "costs": [
+              "ComplicatedAction"
+            ]
+          }
         ],
         "attack": {
           "attackDice": "3",
@@ -802,57 +739,48 @@
     "power": "Black",
     "speed": "+1",
     "stats": "",
-    "keywords": [
-      [],
-      []
-    ],
+    "keywords": [],
     "abilities": [
       {
         "name": "Poisoned Wisdom",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you Awaken into this Godform, immediately choose either the AI or BP deck"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform, keep the top card from the chosen deck revealed at all times"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you Awaken into this Godform, immediately choose either the AI or BP deck"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform, keep the top card from the chosen deck revealed at all times"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Moirai Favor",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Start of your turn: You amy lose up to -2"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Fate"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Start of your turn: You amy lose up to -2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -874,265 +802,256 @@
     "speed": "-1",
     "stats": "",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Roll Out"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Bypass"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Auto-inspire"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Lifeline"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Voluntary Knockdown"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Roll Out"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Bypass"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Auto-inspire"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Lifeline"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Voluntary Knockdown"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Drunken Enlightenment",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you Awaken into this Godform and at the start of each of your turns, roll a d10"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "1-3: Your Power die becomes"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "RedPowerDie"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You gain +3"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Evasion"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "4-5: Your Power die becomes"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "BlackPowerDie"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You gain +2"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Evasion"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "6-7: Your Power die becomes"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "RedPowerDie"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "RedPowerDie"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You gain +1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Evasion"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "8-9: Your Power die becomes"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "WhitePowerDie"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "10: Your Power die becomes"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "WhitePowerDie"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "WhitePowerDie"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You gain -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Evasion"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you Awaken into this Godform and at the start of each of your turns, roll a d10"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "1-3: Your Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "RedPowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You gain +3"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Evasion"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "4-5: Your Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "BlackPowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You gain +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Evasion"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "6-7: Your Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "RedPowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "RedPowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Evasion"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "8-9: Your Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "WhitePowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "10: Your Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "WhitePowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "WhitePowerDie"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You gain -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Evasion"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Godly Comforter",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When any Titan is about to die from crossing a Despair, Ambrosia, Bleeding, Midas, or Pain Limit, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to ignore that death and discard as many of the corresponding tokens as to have exactly 1 less than the limit"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -1154,106 +1073,97 @@
     "speed": "+0",
     "stats": "+2 Evasion, +2 Evasion Reroll",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Vault"
-            }
-          ],
-          "costs": [
-            "Fate"
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Vault"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Unearthly Beauty",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "If the Primordial Attack has a singular Target, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to change that Target to you"
-                }
-              ],
-              "costs": [
-                "Fate"
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Primordial Attack has a singular Target, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to change that Target to you"
+              }
+            ],
+            "costs": [
+              "Fate"
+            ]
+          }
         ]
       },
       {
         "name": "Irresistible Call",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to make the Primordial move to you via the shortest path"
-                }
-              ],
-              "costs": [
-                "MovementAction"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Use the Primordial's"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Speed"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to make the Primordial move to you via the shortest path"
+              }
+            ],
+            "costs": [
+              "MovementAction"
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Use the Primordial's"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -1275,156 +1185,144 @@
     "speed": "+0",
     "stats": "+3 Precision",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Bonus Action"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Light 4"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Cryptex Loathing"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Bonus Action"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Light 4"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cryptex Loathing"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Fly",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Use during voluntary movement to ignore all Terrain tiles during this movement"
-                }
-              ],
-              "costs": [
-                "Fate",
-                "Exhaust"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot end your movement on an Obstacle or Chasm"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you are about to perform a Climb test, automatically succeed at that test instead"
-                }
-              ],
-              "costs": [
-                "Fate",
-                "Exhaust"
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Use during voluntary movement to ignore all Terrain tiles during this movement"
+              }
+            ],
+            "costs": [
+              "Fate",
+              "Exhaust"
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot end your movement on an Obstacle or Chasm"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are about to perform a Climb test, automatically succeed at that test instead"
+              }
+            ],
+            "costs": [
+              "Fate",
+              "Exhaust"
+            ]
+          }
         ]
       },
       {
         "name": "Pitiful as the Sun",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot die from any Curse"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot die from any Curse"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Trigger Finger",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to perform an Attack with your Finger!"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Range 3-10"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ","
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "keyword",
-                  "value": "Fire X"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", where X is your Total Power during this Attack"
-                }
-              ],
-              "costs": [
-                "CombatAction"
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to perform an Attack with your Finger!"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Range 3-10"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Fire X"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", where X is your Total Power during this Attack"
+              }
+            ],
+            "costs": [
+              "CombatAction"
+            ]
+          }
         ],
         "attack": {
           "attackDice": "3",
@@ -1432,9 +1330,7 @@
           "power": [
             {
               "type": [
-                [
-                  "White"
-                ]
+                "White"
               ]
             }
           ]
@@ -1459,121 +1355,112 @@
     "speed": "+0",
     "stats": "",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Light 1"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Light 1"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Till Death Do Us",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Choose another Titan"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "That Titan gains the"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "PriorityTarget"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "Priority Target token (you cannot gain the"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "PriorityTarget"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "token)"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "As long as you are alive, that Titan cannot die from an Obol Draw"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Each that Titan is forced to draw an Obol, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose another Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan gains the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target token (you cannot gain the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "token)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "As long as you are alive, that Titan cannot die from an Obol Draw"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Each that Titan is forced to draw an Obol, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Scorned Mother",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Power"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When fighting against The Nietzschean, the Pitiless, Ur-Fleece, Ur-Father, the Nekron, Zalmoksis, Ur-To-Ev, the Veiled Being, or The Watchress, gain +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Power"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -1595,84 +1482,75 @@
     "speed": "+3",
     "stats": "+2 Precision, +3 Evasion",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Bonus Action"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Cryptex Loathing"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Bonus Action"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cryptex Loathing"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Trench of the Soul",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot die from Ambrosia tokens or losing (discarding or flipping) Oxygen tokens"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Source and Sacrifice",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to perform a Bonus Attack (once per Battle)"
-                }
-              ],
-              "costs": [
-                "Oxygen"
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "After that, a random Titan on the Argo dies"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to perform a Bonus Attack (once per Battle)"
+              }
+            ],
+            "costs": [
+              "Oxygen"
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "After that, a random Titan on the Argo dies"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -1694,181 +1572,172 @@
     "speed": "+3",
     "stats": "+4 Precision",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Bonus Action"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Light 2"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Cryptex Loathing"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Bonus Action"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Light 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cryptex Loathing"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "Father of it All",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You canont die from"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "cardRef",
-                  "value": "Fear",
-                  "refID": "AL0299"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ","
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "cardRef",
-                  "value": "Dread",
-                  "refID": "AL0299"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ","
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "cardRef",
-                  "value": "Terror",
-                  "refID": "EL2596"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", or"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "cardRef",
-                  "value": "Holy Terror",
-                  "refID": "EL2596"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "Condition cards or Despair tokens"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You canont die from"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Fear",
+                "refID": "AL0299"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Dread",
+                "refID": "AL0299"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Holy Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Condition cards or Despair tokens"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Childeater",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you deal a Wound, lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "and lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Crew"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to ignore Responses and perform a"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "bold",
-                  "value": "Bonus Attack"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "If you fail to Wound, you die"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Crew"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to ignore Responses and perform a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "bold",
+                "value": "Bonus Attack"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you fail to Wound, you die"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -1890,193 +1759,184 @@
     "speed": "+0",
     "stats": "",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Auto-break 1"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Auto-break 1"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "All Things End",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you deal a Wound, you may lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to place 1 negative"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "AT"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "token in the Kratos Pool"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, you may lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to place 1 negative"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "token in the Kratos Pool"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Inverted Death",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you would gain any"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", you lose the same amount of"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "instead (if it was dealt, you still resolve a Trauma Draw)"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "Once you reach 0"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": ", you begin to gain"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "as normal (including the remaining"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "from the effect that lowered your"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Danger"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "value to 0)"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When it happens, place a generic token on this ability as a reminder"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you would gain any"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", you lose the same amount of"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead (if it was dealt, you still resolve a Trauma Draw)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Once you reach 0"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", you begin to gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "as normal (including the remaining"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "from the effect that lowered your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "value to 0)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When it happens, place a generic token on this ability as a reminder"
+              }
+            ]
+          }
         ]
       }
     ]
@@ -2107,169 +1967,157 @@
     "speed": "*",
     "stats": "+2 Precision, +2 Evasion",
     "keywords": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Bonus Action"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Superior Bypass"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "keyword",
-              "value": "Cryptex Loathing"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Bonus Action"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Superior Bypass"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cryptex Loathing"
+          }
+        ]
+      }
     ],
     "abilities": [
       {
         "name": "The Message",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform, triple your Titan's"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Speed"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "value"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform, triple your Titan's"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "value"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Rearm",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Gear"
-                }
-              ]
-            },
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "For the duration of this Godform, your"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Gear"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "cards cannot be exhausted"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you Awaken into this Godform, immediately unexhaust all your exhausted"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the duration of this Godform, your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "cards cannot be exhausted"
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Scion of Hermes",
         "effects": [
-          [
-            {
-              "abilityText": [
-                {
-                  "type": "plainText",
-                  "value": "You may lose -1"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "Trespass"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "to gain d5 Pain and perform an additional"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "MovementAction"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "plainText",
-                  "value": "or"
-                },
-                {
-                  "type": "whitespace",
-                  "value": " "
-                },
-                {
-                  "type": "icon",
-                  "value": "CombatAction"
-                }
-              ]
-            }
-          ],
-          []
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to gain d5 Pain and perform an additional"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "MovementAction"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "CombatAction"
+              }
+            ]
+          }
         ]
       }
     ]

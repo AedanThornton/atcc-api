@@ -11,7 +11,7 @@ def parse_formatted_sentence(raw_sentence):
         r"|{([^}]+)}"               # {keyword}
         r"|<([^>]+)>"               # <timing>
         r"|\[([^\]]+)\]"            # [cardRef]
-        r"|%([^%]+)%"               # %gate%
+        r"|%([^%]+)%"               # %inline gate%
         r"|\*([^\*]+)\*"            # *bold*
         r"|_([^_]+)_"               # _italics_
         r"|@(\w+)"                  # @icon
@@ -201,7 +201,6 @@ def parse_armor(armor_str):
 def parse_abilities(raw_data):
     sentences = [s.strip() for s in re.split(r"\.\s*", raw_data) if s.strip()]
     parsed_abilities = []
-    parsed_gated_abilities = []
 
     for sentence in sentences:
         ability, gated_ability = parse_formatted_sentence(sentence)
@@ -209,9 +208,49 @@ def parse_abilities(raw_data):
         if ability:
             parsed_abilities.append(ability)
         if gated_ability:
-            parsed_gated_abilities.append(gated_ability)
+            parsed_abilities.append(gated_ability)
 
-    return parsed_abilities, parsed_gated_abilities
+    return parsed_abilities
+
+def parse_gated_abilities(raw_data):
+    parsed_gate_groups = []
+
+    for group in raw_data.split("; "):
+        gateGroup = {}
+        group_list = group.split(": ")
+        gate = group_list[0]
+        raw_abilities = ": ".join(group_list[1:])
+
+        gates = gate.split("/")
+        pattern = re.compile(r'([\w&]+)\s(\d\+?)')
+        gate_match = re.match(pattern, gates[0])
+
+        if gate_match:
+            gateType, gateValue = gate_match.groups()
+            gateCheck = gateType.split("&")
+
+            gateGroup["gate"] = gateCheck[0]
+            gateGroup["value"] = gateValue
+
+            if len(gateCheck) > 1:
+                gateGroup["gate2"] = gateCheck[1]
+                gateGroup["comboGate"] = "&"
+        else:
+            gateGroup["gate"] = gate
+
+        if len(gates) > 1:
+            gate_match2 = re.match(pattern, gates[1])
+
+            if gate_match2:
+                gateType, gateValue = gate_match2.groups()
+                gateGroup["gate2"] = gateType
+                gateGroup["value2"] = gateValue
+                gateGroup["comboGate"] = "OR"
+                
+        gateGroup["abilities"] = parse_abilities(raw_abilities)
+        parsed_gate_groups.append(gateGroup)
+
+    return parsed_gate_groups
 
 def parse_abilities_block(raw_abilities):
     abilities = raw_abilities.split("; ")
@@ -229,7 +268,7 @@ def parse_abilities_block(raw_abilities):
             if len(power_spread) == 2:
                 power_dice = int(power_spread[0]) * [power_spread[1]]
             else: 
-                power_dice = [power_spread]
+                power_dice = [power_spread[0]]
 
         ability_type = ability_def.split(". ")[0]
         if ability_type in STRUCTURAL_TYPES:
@@ -311,9 +350,9 @@ def parse_argo_abilities(raw_abilities):
 
         if len(name_split) > 1:
             ability_obj["name"] = name_split[0]
-            ability_obj["effects"] = parse_abilities(name_split[1])[0]
+            ability_obj["effects"] = parse_abilities(name_split[1])
         else:
-            ability_obj["effects"] = parse_abilities(name_split[0])[0]
+            ability_obj["effects"] = parse_abilities(name_split[0])
 
         ability_json.append(ability_obj)
 
@@ -357,12 +396,12 @@ def parse_responses(responses_string):
             
             if effect.startswith("WoO"):
                 response_effects.append({
-                    "effect": parse_abilities(" ".join(effect.split(" ")[1:]))[0],
+                    "effect": parse_abilities(" ".join(effect.split(" ")[1:])),
                     "WoO": True
                 })
             else:
               response_effects.append({
-                    "effect": parse_abilities(effect)[0]
+                    "effect": parse_abilities(effect)
                 })
               
         parse_responses.append({
@@ -446,32 +485,20 @@ def parse_consequences(consequences):
             # Text before the banner
             text_part = seg[last_end:match.start()].strip()
             if text_part:
-                effect = []
-                abilities = parse_abilities(text_part)
-                if abilities[0] != []:
-                    effect = abilities[0]
-                elif abilities[1] != []:
-                    effect = abilities[1]
                 results.append({
                     "banner": False,
                     "WoO": next_is_WoO,
-                    "effect": effect
+                    "effect": parse_abilities(text_part)
                 })
                 next_is_WoO = False
 
             # Banner itself
             banner_text = match.group(1).strip()
             if banner_text:
-                effect = []
-                abilities = parse_abilities(banner_text)
-                if abilities[0] != []:
-                    effect = abilities[0]
-                elif abilities[1] != []:
-                    effect = abilities[1]
                 results.append({
                     "banner": True,
                     "WoO": next_is_WoO,
-                    "effect": effect
+                    "effect": parse_abilities(banner_text)
                 })
                 next_is_WoO = False
 
@@ -480,16 +507,10 @@ def parse_consequences(consequences):
         # Any remaining text after last banner
         remaining_text = seg[last_end:].strip()
         if remaining_text:
-            effect = []
-            abilities = parse_abilities(remaining_text)
-            if abilities[0] != []:
-                effect = abilities[0]
-            elif abilities[1] != []:
-                effect = abilities[1]
             results.append({
                 "banner": False,
                 "WoO": next_is_WoO,
-                "effect": effect
+                "effect": parse_abilities(remaining_text)
             })
             next_is_WoO = False
 

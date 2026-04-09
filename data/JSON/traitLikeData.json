@@ -1417,6 +1417,82 @@
         ]
       },
       {
+        "gate": "Wound",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you deal a Wound, in addition to normal responses, create a VP (you stay Impaled)!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Get Free!:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Test"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Endurance"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Endurance or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fury"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Fury (9+)"
+          }
+        ]
+      },
+      {
         "abilityText": [
           {
             "type": "plainText",

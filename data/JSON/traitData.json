@@ -12,33 +12,30 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "For targeting purposes, treat Inhabited terrain tiles as if they were Titans"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If a terrain tile is attacked, it is immediately destroyed"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Do not resolve an Evasion Roll"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For targeting purposes, treat Inhabited terrain tiles as if they were Titans"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If a terrain tile is attacked, it is immediately destroyed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Do not resolve an Evasion Roll"
+          }
+        ]
+      }
     ]
   },
   {
@@ -54,49 +51,46 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "2+ tokens: You cannot use exhaustable"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "3+ tokens: You cannot perform"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "MovementAction"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "2+ tokens: You cannot use exhaustable"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "3+ tokens: You cannot perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          }
+        ]
+      }
     ],
     "usedFor": "Temenos"
   },
@@ -124,57 +118,54 @@
       ]
     },
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The D letters on the Primordial Diagram mark the Danger Zone spaces"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If a Titan moves through or into the Danger Zone during the Titan Round, roll a d10"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "On a 7+, they manage to get through"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Otherwise, they gain +2"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Ignore this Trait during a Cyclonus Attack"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The D letters on the Primordial Diagram mark the Danger Zone spaces"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If a Titan moves through or into the Danger Zone during the Titan Round, roll a d10"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "On a 7+, they manage to get through"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, they gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore this Trait during a Cyclonus Attack"
+          }
+        ]
+      }
     ],
     "usedFor": "Cyclonus"
   },
@@ -191,42 +182,39 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "As the Chimera moves, it leaves behind a trail of black Ambrosia"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After the Chimera ends its movement, place an"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Ambrosia Trail",
-              "refID": "BI0693"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "tile directly behind it"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As the Chimera moves, it leaves behind a trail of black Ambrosia"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After the Chimera ends its movement, place an"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Ambrosia Trail",
+            "refID": "BI0693"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "tile directly behind it"
+          }
+        ]
+      }
     ],
     "usedFor": "Chimera Metastasios"
   },
@@ -243,103 +231,100 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Chimera always moves its full"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Speed"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "value and that movement is considered a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Pushback"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Pushback applies to the Target, as well as every Titan adjacent to the Chimera at the start of the move"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If the Target is on the VP, the Chimera still moves in the direction it is currently facing"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Titanwall:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "All Titans affected by Pushback can collectively use all effects that mitigate it"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Nobody Stops:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If the Pushback value is reduced below 3, the Chimera gains a positive Speed token"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Chimera always moves its full"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "value and that movement is considered a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Pushback"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pushback applies to the Target, as well as every Titan adjacent to the Chimera at the start of the move"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the Target is on the VP, the Chimera still moves in the direction it is currently facing"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Titanwall:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "All Titans affected by Pushback can collectively use all effects that mitigate it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Nobody Stops:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If the Pushback value is reduced below 3, the Chimera gains a positive Speed token"
+          }
+        ]
+      }
     ],
     "usedFor": "Chimera Metastasios"
   },
@@ -356,78 +341,75 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Chimera's Ambrosia is highly toxic and volatile"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During this Battle, all Titans suffer the following penalty:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 2-3:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Ambrosia Limit -1"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 4-6: Ambrosia Limit -2"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 7+: Ambrosia Limit -3"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Chimera's Ambrosia is highly toxic and volatile"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During this Battle, all Titans suffer the following penalty:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 2-3:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Ambrosia Limit -1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 4-6: Ambrosia Limit -2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 7+: Ambrosia Limit -3"
+          }
+        ]
+      }
     ],
     "usedFor": "Chimera Metastasios"
   },
@@ -444,92 +426,89 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Remove the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Sisyphean Task",
-              "refID": "BR1110"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "AI card from the Battle"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Add the 3"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Sisyphean (Special)",
-              "refID": "BL0674"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Condition cards (Secret deck 8, cards 144-146) to the game"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you deal a Wound, discard a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Sisyphean",
-              "refID": "BL0673"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Condition card from your Titan"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Additional Setup: Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Remove the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Sisyphean Task",
+            "refID": "BR1110"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "AI card from the Battle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add the 3"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Sisyphean (Special)",
+            "refID": "BL0674"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Condition cards (Secret deck 8, cards 144-146) to the game"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you deal a Wound, discard a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Sisyphean",
+            "refID": "BL0673"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card from your Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Additional Setup: Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)"
+          }
+        ]
+      }
     ],
     "usedFor": "The Burden"
   },
@@ -546,25 +525,22 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "At the start of a Titan's turn, they must place their Time Anchor on their space"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Move it from its previous location if necessary"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At the start of a Titan's turn, they must place their Time Anchor on their space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Move it from its previous location if necessary"
+          }
+        ]
+      }
     ]
   },
   {
@@ -580,153 +556,150 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When a Primordial Attack deals"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", it triggers a Trauma Draw (just like dealing"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "would)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If an Attack deals both"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", resolve only one Trauma Draw"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Being dealt"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "over 9 does not cause a Moiros draw (it causes an Obol draw instead)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Whenever a Titan resolves a Trauma Draw, consult their Trauma Table and draw a Trauma card of a severity corresponding with their current"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "value (whichever is higher)"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When a Primordial Attack deals"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", it triggers a Trauma Draw (just like dealing"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "would)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If an Attack deals both"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", resolve only one Trauma Draw"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Being dealt"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "over 9 does not cause a Moiros draw (it causes an Obol draw instead)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Whenever a Titan resolves a Trauma Draw, consult their Trauma Table and draw a Trauma card of a severity corresponding with their current"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "value (whichever is higher)"
+          }
+        ]
+      }
     ]
   },
   {
@@ -742,193 +715,190 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The track on this sheet represents the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Icarian Adaptation Board"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If you Wound the Icarian Harpy, after resolving Responses, place an Adaptation token on the Icarian Adaptation Board, on a space corresponding to your Weapon class"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If there are no more Adaptation tokens outside of the Adaptation Board, move one of the tokens form the Adaptation Board onto this space"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Any attempt to Wound with a Weapon class listed on a space covered with an Adaptation token will automatically Fail"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During attempts with a Weapon class listed on a space adjacent to an Adaptation token, the Icarian Harpy gains +1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This bonus can stack if a space is adjacent to two Adaptation tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Additional Setup:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Place a designated number of generic tokens near the Icarian Adaptation Board"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "These are the Adaptation tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 1: 1 token"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 2: 2 tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 3-4: 3 tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 5-6: 4 tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 7+: 5 tokens"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The track on this sheet represents the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Icarian Adaptation Board"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If you Wound the Icarian Harpy, after resolving Responses, place an Adaptation token on the Icarian Adaptation Board, on a space corresponding to your Weapon class"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are no more Adaptation tokens outside of the Adaptation Board, move one of the tokens form the Adaptation Board onto this space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Any attempt to Wound with a Weapon class listed on a space covered with an Adaptation token will automatically Fail"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During attempts with a Weapon class listed on a space adjacent to an Adaptation token, the Icarian Harpy gains +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This bonus can stack if a space is adjacent to two Adaptation tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Additional Setup:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Place a designated number of generic tokens near the Icarian Adaptation Board"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "These are the Adaptation tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 1: 1 token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 2: 2 tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 3-4: 3 tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 5-6: 4 tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 7+: 5 tokens"
+          }
+        ]
+      }
     ],
     "usedFor": "Icarian Harpy"
   },
@@ -945,160 +915,157 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Battle"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Starting from the highest"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and continuing in descending order, Titans suffer:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 1:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Bleeding 2"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", Bleeding 1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 2: Bleeding 2, Bleeding 2"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 3: Bleeding 2, Bleeding 2, Bleeding 1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Level 4: Bleeding 3, Bleeding 2, Bleeding 2"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "WoO"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "timing",
-              "value": "End of Primordial Round"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Titan with the most Bleeding tokens in Sight that has not been Attacked this Round becomes the Target of Predation"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If there is no eligible Target, Predation doesn't trigger"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Starting from the highest"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and continuing in descending order, Titans suffer:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 1:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Bleeding 2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", Bleeding 1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 2: Bleeding 2, Bleeding 2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 3: Bleeding 2, Bleeding 2, Bleeding 1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Level 4: Bleeding 3, Bleeding 2, Bleeding 2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "timing",
+            "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Titan with the most Bleeding tokens in Sight that has not been Attacked this Round becomes the Target of Predation"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there is no eligible Target, Predation doesn't trigger"
+          }
+        ]
+      }
     ],
     "usedFor": "Icarian Harpy"
   },
@@ -1115,64 +1082,61 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you reveal a BP card with a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "symbol as a result of a card or an ability effect (not during a normal BP Draw), gain"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "equal to the BP card's level"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Remember: This Trait is added to every Battle in the game, regardless of the Primordial"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you reveal a BP card with a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "symbol as a result of a card or an ability effect (not during a normal BP Draw), gain"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "equal to the BP card's level"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Remember: This Trait is added to every Battle in the game, regardless of the Primordial"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1188,17 +1152,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During this Battle, you cannot use Hope tokens"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During this Battle, you cannot use Hope tokens"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1214,50 +1175,47 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Battle Setup"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Add the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "You died a beggar!",
-              "refID": "DM2567"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Obol (Secret deck 10, card 185) to the Obol deck"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Remove it after the Battle concludes"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Battle Setup"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Add the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "You died a beggar!",
+            "refID": "DM2567"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Obol (Secret deck 10, card 185) to the Obol deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Remove it after the Battle concludes"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1273,25 +1231,22 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you roll a Crit Miss during the Attack Roll, during thie Attack, ignore"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Potential"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you roll a Crit Miss during the Attack Roll, during thie Attack, ignore"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Potential"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1307,17 +1262,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During Battle Aftermath, for the purposes of gaining resources, treat the Primordial as 1 level lower (to a minimum of 1)"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During Battle Aftermath, for the purposes of gaining resources, treat the Primordial as 1 level lower (to a minimum of 1)"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1333,41 +1285,38 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Battle"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Discard 1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Energy"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "token from every Argo Ability"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Discard 1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Energy"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "token from every Argo Ability"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1383,33 +1332,30 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Unless Titans have at least one free"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "OneHanded"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "slot, whenever they would suffer Knockdown, they fall into the abyss and die instead"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unless Titans have at least one free"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "OneHanded"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "slot, whenever they would suffer Knockdown, they fall into the abyss and die instead"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1425,33 +1371,30 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Chasm"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "keyword"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Normal (not Terrain) Battle Board spaces are considered Terrain tiles with the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Chasm"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "keyword"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1467,33 +1410,30 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time Midascore gains Wound (a Double Wound counts as 2 Wounds), place a Midas token on this card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time a Titan discard Midas tokens, place them here"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After resolving the current action, if there are 5 or more Midas tokens on this card, discard 5 of those tokens and perform Signature"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time Midascore gains Wound (a Double Wound counts as 2 Wounds), place a Midas token on this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time a Titan discard Midas tokens, place them here"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After resolving the current action, if there are 5 or more Midas tokens on this card, discard 5 of those tokens and perform Signature"
+          }
+        ]
+      }
     ],
     "usedFor": "Midascore"
   },
@@ -1510,25 +1450,22 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time Demdjinn gains Wound (a Double Wound counts as 2 Wounds), place a token on this card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After resolving the current action, if there are 3 or more Midas tokens on this card, discard all tokens, then perform Signature"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time Demdjinn gains Wound (a Double Wound counts as 2 Wounds), place a token on this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After resolving the current action, if there are 3 or more Midas tokens on this card, discard all tokens, then perform Signature"
+          }
+        ]
+      }
     ],
     "usedFor": "Demidjinn"
   },
@@ -1545,41 +1482,38 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When instructed to remove an Irem Towre and there are no empty Irem Tower Terrain tiles, remove an Irem Tower with a Titan on it instead"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Primordial Round"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If there are no Irem Tower Terrain tiles on the Battle Board, the Babelian Lunacy immediately wins the Battle"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Otherwise, remove 4 Irem Tower Terrain tiles"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When instructed to remove an Irem Towre and there are no empty Irem Tower Terrain tiles, remove an Irem Tower with a Titan on it instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If there are no Irem Tower Terrain tiles on the Battle Board, the Babelian Lunacy immediately wins the Battle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Otherwise, remove 4 Irem Tower Terrain tiles"
+          }
+        ]
+      }
     ],
     "usedFor": "Babelian Lunacy"
   },
@@ -1596,17 +1530,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Eclipse Attacks are additionally measured from an imaginary line drawn along th Rear spaces of the Babelian Lunacy"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Eclipse Attacks are additionally measured from an imaginary line drawn along th Rear spaces of the Babelian Lunacy"
+          }
+        ]
+      }
     ],
     "usedFor": "Babelian Lunacy"
   },
@@ -1623,49 +1554,46 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Primordial Round"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Pull 3 all Titans in Zone 6"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Babelian Lunacy does not move as a result of that Pull"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "End of Primordial Round"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Knockback 6 all Titans in Zone 3 away from the Babelian Lunacy"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Pull 3 all Titans in Zone 6"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Babelian Lunacy does not move as a result of that Pull"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Knockback 6 all Titans in Zone 3 away from the Babelian Lunacy"
+          }
+        ]
+      }
     ],
     "usedFor": "Babelian Lunacy"
   },
@@ -1682,65 +1610,62 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you gain Ambrosia tokens, if possible, place them on a single game element ("
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Gear"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", Mnemos, etc"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": ") with the Light X keyword that does not already have Ambrosia tokens on it"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Those Ambrosia tokens still count toward your Ambrosia Limit"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If a game element with Ambrosia tokens is discard for any reason, move the tokens to your Titan Sheet"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Disable all Light X keywords on a game element with Ambrosia tokens on it"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you gain Ambrosia tokens, if possible, place them on a single game element ("
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", Mnemos, etc"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": ") with the Light X keyword that does not already have Ambrosia tokens on it"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Those Ambrosia tokens still count toward your Ambrosia Limit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If a game element with Ambrosia tokens is discard for any reason, move the tokens to your Titan Sheet"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disable all Light X keywords on a game element with Ambrosia tokens on it"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1756,41 +1681,38 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each Titan starts the Battle with 2 Oxygen tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "End of your turn"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Flip 1 Oxygen token"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If at any point you must flip or discard an Oxygen token and you don't have any, you die"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan starts the Battle with 2 Oxygen tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of your turn"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Flip 1 Oxygen token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If at any point you must flip or discard an Oxygen token and you don't have any, you die"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1806,102 +1728,99 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If the Dragon of Phobos is outside of the Battle Board when drawing AI or performing Signature, instead of normal Targeting, use"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Target:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Hierarchy"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Instead of performing any movement instructions (like"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "WoO"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Move & Attack):"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "if the space directly behind the Target is empty, appear behind the Target, if able"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "if that space is occupied, appear to the side, then front (even if occupied, stand Crash rules apply)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Finally, without moving, continue resolving the AI or Signature"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the Dragon of Phobos is outside of the Battle Board when drawing AI or performing Signature, instead of normal Targeting, use"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Target:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Hierarchy"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Instead of performing any movement instructions (like"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Move & Attack):"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "if the space directly behind the Target is empty, appear behind the Target, if able"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "if that space is occupied, appear to the side, then front (even if occupied, stand Crash rules apply)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Finally, without moving, continue resolving the AI or Signature"
+          }
+        ]
+      }
     ],
     "usedFor": "Dragon of Phobos"
   },
@@ -1918,25 +1837,22 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After resolving the current action, if there are 4 or more tokens on this Trait, discard all tokens, then draw and resolve the top AI card"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After resolving the current action, if there are 4 or more tokens on this Trait, discard all tokens, then draw and resolve the top AI card"
+          }
+        ]
+      }
     ],
     "usedFor": "Dragon of Phobos"
   },
@@ -1953,17 +1869,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "For each dead Titan, reduce Vanish by 1"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For each dead Titan, reduce Vanish by 1"
+          }
+        ]
+      }
     ],
     "usedFor": "Dragon of Phobos"
   },
@@ -1980,17 +1893,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "For each dead Titan, lower Scan Difficulty by 1"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "For each dead Titan, lower Scan Difficulty by 1"
+          }
+        ]
+      }
     ],
     "usedFor": "Meduketos"
   },
@@ -2007,66 +1917,63 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This replaces the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "A Truth for a Truth",
-              "refID": "EX3212"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Trait"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Dragon of Phobos disappears"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Then, draw and resolve the top AI card"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This replaces the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "A Truth for a Truth",
+            "refID": "EX3212"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time the Dragon of Phobos disappears or gains a Wound (a Double Wound is treated as 2 Wounds), place a token on this Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Dragon of Phobos disappears"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, draw and resolve the top AI card"
+          }
+        ]
+      }
     ],
     "usedFor": "Dragon of Phobos"
   },
@@ -2083,112 +1990,109 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Meduketos starts the Battle outside of the Battle Board"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When the Meduketos is outside of the Battle Board, it cannot be Targeted, unless from a VP"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "When the Meduketos attacks while outside of the Battle Board, it does so from the closest Board Edge to the Target, ignoring the initial"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "WoO"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and any Move commands (in other words, the Meduketos stays outside of the Battle Board)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Lightbend:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "The Meduketos disappears (remove the Primordial from the Battle Board)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If able, place a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Petrified Vent",
-              "refID": "EI2606"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Terrain tile on the center of its previous space"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Triggers when prompted"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Meduketos starts the Battle outside of the Battle Board"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When the Meduketos is outside of the Battle Board, it cannot be Targeted, unless from a VP"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "When the Meduketos attacks while outside of the Battle Board, it does so from the closest Board Edge to the Target, ignoring the initial"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and any Move commands (in other words, the Meduketos stays outside of the Battle Board)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Lightbend:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "The Meduketos disappears (remove the Primordial from the Battle Board)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If able, place a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Petrified Vent",
+            "refID": "EI2606"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Terrain tile on the center of its previous space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Triggers when prompted"
+          }
+        ]
+      }
     ],
     "usedFor": "Meduketos"
   },
@@ -2205,41 +2109,38 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each time the Meduketos gains a Wound (a Double Wound is treated as 2 Wounds), unless it was dealt from a VP, place a token on this Trait"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens, then"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Lightbend"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and create 1 Vantage Point, then draw and resolve the top AI card"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each time the Meduketos gains a Wound (a Double Wound is treated as 2 Wounds), unless it was dealt from a VP, place a token on this Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After resolving the current action, if there are 3 or more tokens on this Trait, discard all tokens, then"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Lightbend"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and create 1 Vantage Point, then draw and resolve the top AI card"
+          }
+        ]
+      }
     ],
     "usedFor": "Meduketos"
   },
@@ -2256,265 +2157,262 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Once per Titan Round, Titans may perform a Scane (see Cycle V Storybook, p"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "7):"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Choose a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Titan"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and an"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "adjacent Petrified Vent"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Terrain tile, then reveal the top Major Trauma card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This is called scanning a card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Instead of resolving the card, check the number in the lower left corner"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "total"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "of"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "every scanned card"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Light X value"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "of the currently scanning Titan is"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "equal to or higher"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "than"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "the Scan Difficulty"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", you have found the Meduketos! Immediately replace that Vent with the Meduketos (in any way), then perform"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "WoO"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Skitter"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If the total is lower, leave the Trauma card revealed and proceed to the next scanning Titan"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Each Titan and each Vent may be chosen for a Scan only once per Round"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "End of Titan Round"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Shuffle all Major Trauma cards back into the deck"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "The Scan Difficulty is equal to 8 + the Primordial level"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "At level IX, instead the Scan Difficulty is 18"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Once per Titan Round, Titans may perform a Scane (see Cycle V Storybook, p"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "7):"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Choose a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Titan"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and an"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "adjacent Petrified Vent"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Terrain tile, then reveal the top Major Trauma card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This is called scanning a card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Instead of resolving the card, check the number in the lower left corner"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "total"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "of"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "every scanned card"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Light X value"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "of the currently scanning Titan is"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "equal to or higher"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "than"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "the Scan Difficulty"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", you have found the Meduketos! Immediately replace that Vent with the Meduketos (in any way), then perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "WoO"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Skitter"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If the total is lower, leave the Trauma card revealed and proceed to the next scanning Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Each Titan and each Vent may be chosen for a Scan only once per Round"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Titan Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Shuffle all Major Trauma cards back into the deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "The Scan Difficulty is equal to 8 + the Primordial level"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At level IX, instead the Scan Difficulty is 18"
+          }
+        ]
+      }
     ],
     "usedFor": "Meduketos"
   },
@@ -2531,72 +2429,69 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you have the Light X keyword, during a single movement, you may move through X spaces of a Black Abyss Terrain tile"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "In this way, you may end your movement on a Black Abyss space"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you move through or onto a Black Abyss tile, gain 1 Ambrosia token at the end of that movement"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If a Titan starts its turn on a Black Abyss tile and doesn't move until the end of this turn, they gain 1 Ambrosia token"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If at any point you do not have the Light X keyword while on a Black Abyss tile, you die"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Relight:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "When you deal a Wound, move X Ambrosia tokens from a game element with Light X to your Sheet, where X is the BP level"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you have the Light X keyword, during a single movement, you may move through X spaces of a Black Abyss Terrain tile"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "In this way, you may end your movement on a Black Abyss space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you move through or onto a Black Abyss tile, gain 1 Ambrosia token at the end of that movement"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If a Titan starts its turn on a Black Abyss tile and doesn't move until the end of this turn, they gain 1 Ambrosia token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If at any point you do not have the Light X keyword while on a Black Abyss tile, you die"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Relight:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "When you deal a Wound, move X Ambrosia tokens from a game element with Light X to your Sheet, where X is the BP level"
+          }
+        ]
+      }
     ],
     "usedFor": "Ur-Fleece"
   },
@@ -2613,73 +2508,70 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Apply the following modifiers to all Titan X Attacks: -1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "d10"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "and -1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Danger"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "per hit (minimum 1)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "As long as this Trait is active, the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Death of Hope"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Trait is disabled"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Apply the following modifiers to all Titan X Attacks: -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "d10"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "and -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "per hit (minimum 1)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "As long as this Trait is active, the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Death of Hope"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait is disabled"
+          }
+        ]
+      }
     ],
     "usedFor": "Titan X"
   },
@@ -2696,25 +2588,22 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Ur-Fleece has -1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ur-Fleece has -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          }
+        ]
+      }
     ],
     "usedFor": "Ur-Fleece"
   },
@@ -2732,73 +2621,70 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Danger Sense"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Trait when moving into the Weakspot space"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Next time any Titan Attacks, it adds the Power you noted to its Total Power"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Danger Sense"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait when moving into the Weakspot space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Next time any Titan Attacks, it adds the Power you noted to its Total Power"
+          }
+        ]
+      }
     ],
     "usedFor": "The Nietzschean"
   },
@@ -2816,49 +2702,46 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Disable the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Stay Your Hand"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Trait"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "End of Primordial Round: Titan with the lowest Danger gains X Danger"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "X is the current position of the Time marker"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disable the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Stay Your Hand"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "End of Primordial Round: Titan with the lowest Danger gains X Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "X is the current position of the Time marker"
+          }
+        ]
+      }
     ],
     "usedFor": "The Nietzschean"
   },
@@ -2876,33 +2759,30 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Battle"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Place this card in the Wound Stack"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This card counts as X Wounds, where X is equal to 89 - Primordial level"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Place this card in the Wound Stack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This card counts as X Wounds, where X is equal to 89 - Primordial level"
+          }
+        ]
+      }
     ],
     "usedFor": "Ur-Fleece"
   },
@@ -2920,260 +2800,257 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "bold",
-              "value": "Reference"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you attack a BP Ill (and only a BP Ill), proceed to resolve it as a normal Attack, but after performing the Power Roll, divide your Total Power by 2 (rounding up), add +1 if you had a Crit Chance, and then note the result"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "bold",
-              "value": "Do not Escalate and do not resolve any responses"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Instead, Ur-Fleece"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Flickers"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Then, clear the Kratos Pool and continue to your second ability window"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Finally, place the BP card on top of the BP deck"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Note:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "This does not count as a Wound!"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "The next"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "two"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Titan attacks targeting this BP Ill will similarly add half of their Total Power to this growing"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "Ultimate Power"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", following the above rules"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The final,"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "fourth"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Attack should be performed as a normal Attack, but add their full Total Power to this Ultimate Power"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This means each subsequent Titan Attack is stronger than the last"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If, during any of the four Attacks the Ultimate Power matches or beats the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "GT"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "of the BP card, you finally deal a Wound!"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "If any Titan attacks another BP card, erase the noted Power and ignore this effect"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Important: During the White Lie Battle see paragraph 8677, on p"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "70 for additional rules"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Reference"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you attack a BP Ill (and only a BP Ill), proceed to resolve it as a normal Attack, but after performing the Power Roll, divide your Total Power by 2 (rounding up), add +1 if you had a Crit Chance, and then note the result"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Do not Escalate and do not resolve any responses"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Instead, Ur-Fleece"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Flickers"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, clear the Kratos Pool and continue to your second ability window"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Finally, place the BP card on top of the BP deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Note:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "This does not count as a Wound!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "The next"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "two"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Titan attacks targeting this BP Ill will similarly add half of their Total Power to this growing"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Ultimate Power"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", following the above rules"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The final,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "fourth"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Attack should be performed as a normal Attack, but add their full Total Power to this Ultimate Power"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This means each subsequent Titan Attack is stronger than the last"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If, during any of the four Attacks the Ultimate Power matches or beats the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "GT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "of the BP card, you finally deal a Wound!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "If any Titan attacks another BP card, erase the noted Power and ignore this effect"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you do not Wound the BP card with the fourth Attack in a row, do not note your Power, erase the noted Power and suffer the Fail or Instinct response instead!"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Important: During the White Lie Battle see paragraph 8677, on p"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "70 for additional rules"
+          }
+        ]
+      }
     ],
     "usedFor": "Ur-Fleece"
   },
@@ -3191,102 +3068,99 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Assign a Facing Indicator to each Titan X"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "During Titan X's turn, draw 3 AI cards and resolve them in order"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Each Titan X has their own Wound Stack with 12"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Wounds"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Escalation happens every 3 Wounds"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When you deal a Wound, place a Generic token on this card and a Generic Wound in the corresponding Titan X's Wound Stack"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If there are already 2 tokens on this card, discard them, perform a normal Escalation, and place the BP on the corresponding Wound Stack instead"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "newline"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "For full Setup and rules, see 7539 in Cycle V Storybook (p"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "63)"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Assign a Facing Indicator to each Titan X"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "During Titan X's turn, draw 3 AI cards and resolve them in order"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Each Titan X has their own Wound Stack with 12"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Wounds"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Escalation happens every 3 Wounds"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you deal a Wound, place a Generic token on this card and a Generic Wound in the corresponding Titan X's Wound Stack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are already 2 tokens on this card, discard them, perform a normal Escalation, and place the BP on the corresponding Wound Stack instead"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "For full Setup and rules, see 7539 in Cycle V Storybook (p"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "63)"
+          }
+        ]
+      }
     ],
     "usedFor": "Titan X"
   },
@@ -3304,83 +3178,80 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "You may add this card to any Hermesian Pursuer Battle to test yourself"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Add the"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Punctured",
-              "refID": "AM9969"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Trauma card to the Major Trauma deck"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Replace the Signature with the new"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Conquerer Strike",
-              "refID": "AR9967"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "card"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "All Regular (non-Zone, non-Judgement, etc"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": ") Attacks become Sequential Attacks with \"Move and Attack All Titan in Path\" and their \"After Attack\" becomes \"After Final Attack\""
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may add this card to any Hermesian Pursuer Battle to test yourself"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Punctured",
+            "refID": "AM9969"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trauma card to the Major Trauma deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Replace the Signature with the new"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Conquerer Strike",
+            "refID": "AR9967"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "All Regular (non-Zone, non-Judgement, etc"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": ") Attacks become Sequential Attacks with \"Move and Attack All Titan in Path\" and their \"After Attack\" becomes \"After Final Attack\""
+          }
+        ]
+      }
     ],
     "usedFor": "Hermesian Pursuer"
   },
@@ -3398,73 +3269,70 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of Battle"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Assign a Time Anchor token to your Titan"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Place it under your Titan"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "timing",
-              "value": "Start of your tunr"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Move the Time Anchor 5 spaces in a random direction"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you draw a card with"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "ChooseDirection"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", place the Time Anchor under your Titan instead of choosing a direction"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Assign a Time Anchor token to your Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Place it under your Titan"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of your tunr"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Move the Time Anchor 5 spaces in a random direction"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you draw a card with"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "ChooseDirection"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", place the Time Anchor under your Titan instead of choosing a direction"
+          }
+        ]
+      }
     ]
   },
   {
@@ -3480,10 +3348,7 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "effects": [
-      [],
-      []
-    ]
+    "effects": []
   },
   {
     "cardIDs": [
@@ -3498,10 +3363,7 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "effects": [
-      [],
-      []
-    ]
+    "effects": []
   },
   {
     "cardIDs": [
@@ -3517,17 +3379,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you start the Primordial Round or your Titan turn adjacent to the Pitiless, you are incinerated"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you start the Primordial Round or your Titan turn adjacent to the Pitiless, you are incinerated"
+          }
+        ]
+      }
     ],
     "usedFor": "The Pitiless"
   },
@@ -3545,42 +3404,39 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Pitiless performs his Round after 2 Titan turns"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Then the other 2 Titans go, then the Pitiless, then the players can re-arrange their playing order"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "At the start of each Pitiless's Round, perform"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Merciless Sun",
-              "refID": "CV1804"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pitiless performs his Round after 2 Titan turns"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the other 2 Titans go, then the Pitiless, then the players can re-arrange their playing order"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At the start of each Pitiless's Round, perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Merciless Sun",
+            "refID": "CV1804"
+          }
+        ]
+      }
     ],
     "usedFor": "The Pitiless"
   },
@@ -3598,57 +3454,54 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If M11 is marked, see 0198"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If R7 is marked, see 0199"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "When the first Titan dies, see 0200"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After you deal the 3rd Wound, see 0201"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "After you deal the 6th Wound, see 0202"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If all Titans die, see 0205"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If M11 is marked, see 0198"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If R7 is marked, see 0199"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When the first Titan dies, see 0200"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After you deal the 3rd Wound, see 0201"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After you deal the 6th Wound, see 0202"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If all Titans die, see 0205"
+          }
+        ]
+      }
     ],
     "usedFor": "The Pitiless"
   },
@@ -3666,17 +3519,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you start the Primordial Round or your Titan turn adjacent to the Old Haunt, you are incinerated"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you start the Primordial Round or your Titan turn adjacent to the Old Haunt, you are incinerated"
+          }
+        ]
+      }
     ],
     "usedFor": "Old Haunt"
   },
@@ -3694,42 +3544,39 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "The Old Haunt performs his Round after 2 Titan turns"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Then the other 2 Titans go, then the Old Haunt, then the players can re-arrange their playing order"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "At the start of each Old Haunt's Round, perform"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "cardRef",
-              "value": "Merciless Sun",
-              "refID": "DV2569"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Old Haunt performs his Round after 2 Titan turns"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the other 2 Titans go, then the Old Haunt, then the players can re-arrange their playing order"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At the start of each Old Haunt's Round, perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Merciless Sun",
+            "refID": "DV2569"
+          }
+        ]
+      }
     ],
     "usedFor": "Old Haunt"
   },
@@ -3747,17 +3594,14 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If you were on a Shaded space during any Sun Attack, destroy the Terrain tile that shaded that space, even if Indestructible"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you were on a Shaded space during any Sun Attack, destroy the Terrain tile that shaded that space, even if Indestructible"
+          }
+        ]
+      }
     ],
     "usedFor": "Old Haunt"
   },
@@ -3775,41 +3619,38 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Add the new cards to the AI and BP I and II decks"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Replace the AI and BP III Decks"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Ignore the \"do not escalate\" rules of BP cards"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If the text refers to the Pitiless, it applies to the Old Haunt"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add the new cards to the AI and BP I and II decks"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Replace the AI and BP III Decks"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore the \"do not escalate\" rules of BP cards"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the text refers to the Pitiless, it applies to the Old Haunt"
+          }
+        ]
+      }
     ],
     "usedFor": "Old Haunt"
   },
@@ -3827,129 +3668,126 @@
     "faq": [],
     "errata": {},
     "effects": [
-      [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Mimetic Darkness: Draw AI cards from the bottom of the AI deck"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "AT"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": ", after resolving the Attack, immediately"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Heal 1"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "bold",
-              "value": "even if Blackbeak was techincally killed (ignore the Mercy Rule)"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "If there are no BP cards in the Escalation decks, you lose the Battle"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Goes For the Head:"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "timing",
-              "value": "Crit Evade Fail"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Exhaust your Cryptex and gain a"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "CombatAction"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "or"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "MovementAction"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "plainText",
-              "value": "Fatigue token"
-            }
-          ]
-        }
-      ],
-      []
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Mimetic Darkness: Draw AI cards from the bottom of the AI deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", after resolving the Attack, immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Heal 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "even if Blackbeak was techincally killed (ignore the Mercy Rule)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are no BP cards in the Escalation decks, you lose the Battle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Goes For the Head:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Exhaust your Cryptex and gain a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Fatigue token"
+          }
+        ]
+      }
     ],
     "usedFor": "Blackbeak"
   }

@@ -430,6 +430,8 @@ Black tokens. Attacking Titans may use any number of Black tokens during the Pow
 Hope tokens. Attacking Titans may use any number of Hope tokens during the Power Roll step to turn 1 @Potential or 1 @Dot into 1 @Power for each token used.
 
 Closing tokens. Attacking Titans may use any number of  Closing tokens to gain 1 Precision for each token used and then may re-roll 1 of their Attack dice with no additional cost for each token used.
+
+Soak. Reduce each @Danger gain by 1 (to a minimum of 1).
 """
 
 from lib.parseFunctions import parse_abilities
@@ -447,10 +449,10 @@ def parse_keywords(text):
 
         if len(lines) == 1:
             # No subtypes, just add the main ability
-            abilities[main_name]["mainDef"] = (parse_abilities(main_text)[0])
+            abilities[main_name]["mainDef"] = (parse_abilities(main_text))
         else:
             # Process subtypes
-            abilities[main_name]["mainDef"] = (parse_abilities(main_text)[0])
+            abilities[main_name]["mainDef"] = (parse_abilities(main_text))
             x = 0
             for subtype in lines[1:]:
                 if subtype[0:1] == "…":
@@ -458,7 +460,7 @@ def parse_keywords(text):
                 else:
                     subtype_name, subtype_text = subtype.split(". ", 1)
                     abilities[main_name]["subName" + str(x)] = subtype_name
-                    abilities[main_name]["subDef" + str(x)] = parse_abilities(subtype_text)[0]
+                    abilities[main_name]["subDef" + str(x)] = parse_abilities(subtype_text)
                 x += 1
 
     return abilities

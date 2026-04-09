@@ -46,30 +46,32 @@
         ]
       }
     ],
-    "rally": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You may test Courage ("
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "icon",
-          "value": "Fate"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "+)"
-        }
-      ]
-    }
+    "rally": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may test Courage ("
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "+)"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -110,7 +112,7 @@
         ]
       }
     ],
-    "rally": null
+    "rally": []
   },
   {
     "cardIDs": [
@@ -287,14 +289,16 @@
         ]
       }
     ],
-    "rally": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You may test Courage or Will (10+)"
-        }
-      ]
-    }
+    "rally": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may test Courage or Will (10+)"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -367,7 +371,7 @@
         ]
       }
     ],
-    "rally": null
+    "rally": []
   },
   {
     "cardIDs": [
@@ -416,7 +420,7 @@
         ]
       }
     ],
-    "rally": null
+    "rally": []
   },
   {
     "cardIDs": [
@@ -489,30 +493,32 @@
         ]
       }
     ],
-    "rally": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "You may test Courage ("
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "icon",
-          "value": "Fate"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "+)"
-        }
-      ]
-    }
+    "rally": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You may test Courage ("
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "+)"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -570,7 +576,7 @@
         ]
       }
     ],
-    "rally": null
+    "rally": []
   },
   {
     "cardIDs": [
@@ -620,6 +626,6 @@
         ]
       }
     ],
-    "rally": null
+    "rally": []
   }
 ]

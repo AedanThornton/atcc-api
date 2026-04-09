@@ -35,7 +35,7 @@ def BP_row(row):
         "nonResponseText": row["Non-Response Text"],
         "responses": parse_responses(row["Responses"]),
         "critFlavor": row["Crit Lore"],
-        "critResponse": parse_abilities(row["Crit Response"])[0],
+        "critResponse": parse_abilities(row["Crit Response"]),
     }
     
     return card_json
@@ -58,10 +58,10 @@ def condition_row(row):
         "name2": row["Reverse Name"],
         "subtitle2": row["Reverse Subtitle"],
         "side": {
-            "effect": parse_abilities(row["Primary Effect A"])[0]
+            "effect": parse_abilities(row["Primary Effect A"])
         },
         "side2": {
-            "effect": parse_abilities(row["Primary Effect B"])[0]
+            "effect": parse_abilities(row["Primary Effect B"])
         },
     }
 
@@ -70,7 +70,7 @@ def condition_row(row):
         for ability in row["Abilities A"].split("; "):
             abilities.append({
                 "title": ability.split(": ")[0],
-                "effects": parse_abilities(ability.split(": ")[1])[0]
+                "effects": parse_abilities(ability.split(": ")[1])
             })
         card_json["side"]["abilities"] = abilities
 
@@ -79,7 +79,7 @@ def condition_row(row):
         for ability in row["Abilities B"].split("; "):
             abilities.append({
                 "title": ability.split(": ")[0],
-                "effects": parse_abilities(ability.split(": ")[1])[0]
+                "effects": parse_abilities(ability.split(": ")[1])
             })
         card_json["side2"]["abilities"] = abilities
 
@@ -126,7 +126,7 @@ def dahaka_row(row):
         "BPnonResponseText": row["Non-Response Text"],
         "BPresponses": parse_responses(row["Responses"]),
         "BPcritFlavor": row["Crit Lore"],
-        "BPcritResponse": parse_abilities(row["Crit Response"])[0],
+        "BPcritResponse": parse_abilities(row["Crit Response"]),
     }
 
     after_attack_effects = parse_consequences(row["After Attack Effects"])
@@ -149,20 +149,20 @@ def doom_row(row):
         "name2": row["Side B"] or row["Name"],
         "cardNumber": row["Doom Card"],
         "flavor": row["Flavor A"].split("<<NL>>"),
-        "rules": [parse_abilities(rule)[0] for rule in row["Rules A"].split("\\n")],
+        "rules": [parse_abilities(rule) for rule in row["Rules A"].split("\\n")],
         "flavor2": row["Flavor B"].split("<<NL>>"),
-        "rules2": [parse_abilities(rule)[0] for rule in row["Rules B"].split("\\n")]
+        "rules2": [parse_abilities(rule) for rule in row["Rules B"].split("\\n")]
     }
 
     return card_json
 
 def exploration_row(row):
-    prim_effects, prim_effects2 = parse_abilities(row["Primary Effects"])
-    sec_effects, sec_effects2 = parse_abilities(row["Secondary Effects"])
+    prim_effects = parse_abilities(row["Primary Effects"])
+    sec_effects = parse_abilities(row["Secondary Effects"])
 
     card_json = {
-        "effects": prim_effects + prim_effects2,
-        "effects2": sec_effects + sec_effects2,
+        "effects": prim_effects,
+        "effects2": sec_effects,
         "number": int(row["Number"]) if row["Number"] else "",
         "adversaryTriggers": row["Adversary Triggers"],
         "stackType": row["Stack Type"],
@@ -200,8 +200,6 @@ def gear_row(row):
             "power": parse_power(row["Power"])
         }
 
-    abilities, gated_abilities = parse_abilities(row["AB for Parsing"])    
-    
     card_json = {
         "name": row["Name"].replace(" (Wished)", ""),
         "acquisition": row["Acquisition"],
@@ -213,10 +211,10 @@ def gear_row(row):
         "defensiveStatistics": [parse_armor(line) for line in row["Defensive Statistics"].split(". ")] if row["Defensive Statistics"] else [],
         "asteriskEffect": parse_formatted_sentence(row["Asterisk Effect"])[0],
         "wished": "(Wished)" in row["Name"],
-        "unique": "Unique. " in row["AB for Parsing"],
-        "ascended": "Ascended. " in row["AB for Parsing"],
-        "abilities": abilities,
-        "gatedAbilities": gated_abilities,
+        "unique": "Unique. " in row["Abilities"],
+        "ascended": "Ascended. " in row["Abilities"],
+        "abilities": parse_abilities(row["Abilities"]) ,
+        "gatedAbilities": parse_gated_abilities(row["Gated Abilities"]) if row["Gated Abilities"] else [],
     }
 
     return card_json
@@ -235,8 +233,8 @@ def godform_row(row):
 def kratos_row(row):
     card_json = {
         "flavor": row["Flavor"],
-        "effects": parse_abilities(row["Effects"])[0],
-        "rally": parse_formatted_sentence(row["Rally"])[0],
+        "effects": parse_abilities(row["Effects"]),
+        "rally": parse_abilities(row["Rally"]) if row["Rally"] else [],
     }
 
     return card_json
@@ -259,12 +257,9 @@ def map_row(row):
     return card_json
 
 def mnemos_row(row):
-    ability1_a, ability1_b = parse_abilities(row["Ability 1"])
-    ability1 = ability1_a + ability1_b
-    ability2_a, ability2_b = parse_abilities(row["Ability 2"])
-    ability2 = ability2_a + ability2_b
-    ability3_a, ability3_b = parse_abilities(row["Ability 3"])
-    ability3 = ability3_a + ability3_b
+    ability1 = parse_abilities(row["Ability 1"])
+    ability2 = parse_abilities(row["Ability 2"])
+    ability3 = parse_abilities(row["Ability 3"])
 
     card_json = {
         "flavor": row["Flavor"],
@@ -277,7 +272,7 @@ def mnemos_row(row):
 
 def moiros_row(row):
     card_json = {
-        "effects": parse_abilities(row["Effects"])[0],
+        "effects": parse_abilities(row["Effects"]),
     }
 
     return card_json
@@ -285,8 +280,8 @@ def moiros_row(row):
 def nymph_row(row):
     card_json = {
         "title": row["Title"],
-        "requirements": parse_abilities(row["Requirements"])[0],
-        "effects": parse_abilities(row["Effects"])[0],
+        "requirements": parse_abilities(row["Requirements"]),
+        "effects": parse_abilities(row["Effects"]),
     }
 
     return card_json
@@ -298,7 +293,7 @@ def pattern_row(row):
     if kratos_table: table_type = "Kratos"
     elif trauma_table: table_type = "Trauma"
 
-    abilites, gated_abilities = parse_abilities(row["Ability"])
+    abilities = parse_abilities(row["Ability"])
     
     card_json = {
         "flavor": row["Flavor"],
@@ -306,8 +301,7 @@ def pattern_row(row):
         "traits": [table_type] + row["Trait"].split(", "),
         "kratosTable": kratos_table,
         "traumaTable": trauma_table,
-        "abilities": abilites,
-        "gatedAbilities": gated_abilities
+        "abilities": abilities
     }
 
     return card_json
@@ -318,7 +312,7 @@ def payload_row(row):
     if row["Ability 1"]: 
         ability = {
             "name": row["Ability 1 Name"],
-            "effects": parse_abilities(row["Ability 1"])[0]
+            "effects": parse_abilities(row["Ability 1"])
         }
 
         if row["Ability 1 Cost"]:
@@ -329,7 +323,7 @@ def payload_row(row):
     if row["Ability 2"]: 
         ability = {
             "name": row["Ability 2 Name"],
-            "effects": parse_abilities(row["Ability 2"])[0]
+            "effects": parse_abilities(row["Ability 2"])
         }
 
         if row["Ability 2 Cost"]:
@@ -340,7 +334,7 @@ def payload_row(row):
     if row["Ability 3"]: 
         ability = {
             "name": row["Ability 3 Name"],
-            "effects": parse_abilities(row["Ability 3"])[0]
+            "effects": parse_abilities(row["Ability 3"])
         }
 
         if row["Ability 3 Cost"]:
@@ -374,7 +368,7 @@ def primordial_row(row):
                 "test": row["VP Hold On"],
                 "fail": row["VP Hold On Fail"]
             },
-            "effects": parse_abilities(row["VP Effects"])[0]
+            "effects": parse_abilities(row["VP Effects"])
         }
 
     if row["VP Name+"]:
@@ -388,7 +382,7 @@ def primordial_row(row):
                 "test": row["VP Hold On+"],
                 "fail": row["VP Hold On Fail+"]
             },
-            "effects": parse_abilities(row["VP Effects+"])[0]
+            "effects": parse_abilities(row["VP Effects+"])
         }
 
     levels_json = []
@@ -433,7 +427,7 @@ def primordialAttack_row(row):
     card_json = {
         "cardType": row["Card Type"],
         "usedFor": row["Used For"],
-        "flavor": parse_abilities(row["Flavor"])[0],
+        "flavor": parse_abilities(row["Flavor"]),
         "level": row["Level"],
         "uber": "TRUE" in row["Uber?"],
         "preTarget": parse_consequences(row["Pre-Target Effects"]),
@@ -500,10 +494,10 @@ def story_row(row):
         "cardNumber": row["Story Card"],
         "flavor": row["Flavor A"].split("<<NL>>"),
         "rulesTitle": row["Summary A"],
-        "rules": [parse_abilities(rule)[0] for rule in row["Rules A"].split("\\n")],
+        "rules": [parse_abilities(rule) for rule in row["Rules A"].split("\\n")],
         "flavor2": row["Flavor B"].split("<<NL>>"),
         "rulesTitle2": row["Summary B"],
-        "rules2": [parse_abilities(rule)[0] for rule in row["Rules B"].split("\\n")]
+        "rules2": [parse_abilities(rule) for rule in row["Rules B"].split("\\n")]
     }
 
     return card_json
@@ -548,7 +542,7 @@ def titan_row(row):
     kratos_table = parse_kratos(row["Kratos Table"])
     trauma_table = parse_trauma(row["Trauma Table"])
     
-    abilities, gated_abilities = parse_abilities(row["Abilities"])
+    abilities = parse_abilities(row["Abilities"])
     
     card_json = {
         "subtitle": row["Subtitle"] or None,
@@ -557,7 +551,6 @@ def titan_row(row):
         "kratosTable": kratos_table,
         "traumaTable": trauma_table,
         "abilities": abilities,
-        "gatedAbilities": gated_abilities
     }
 
     return card_json
@@ -576,7 +569,7 @@ def traitLike_row(row):
 
     if row["Reverse Name"]: card_json["name2"] = row["Reverse Name"]
     if row["Flavor"]: card_json["flavor"] = row["Flavor"]
-    card_json["effects"] = parse_abilities(row["Effect Text"])[0]
+    card_json["effects"] = parse_abilities(row["Effect Text"])
     card_json["usedFor"] = row["Used For"]
     if row["Card Level"]: card_json["level"] = row["Card Level"]
 
@@ -586,7 +579,7 @@ def trauma_row(row):
     card_json = {
         "flavor": row["Flavor"],
         "subtype": row["Sub-Type"],
-        "effects": parse_abilities(row["Effects"])[0],
+        "effects": parse_abilities(row["Effects"]),
         "isCondition": row["Condition?"],
         "arrow": row["Minor Direction"],
         "number": row["Major Number"],
