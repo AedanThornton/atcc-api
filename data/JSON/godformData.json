@@ -210,7 +210,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Furing movement, ignore Obstacle and Chasm Terrain tiles"
+                "value": "During movement, ignore Obstacle and Chasm Terrain tiles"
               }
             ]
           },
@@ -662,10 +662,34 @@
         ]
       },
       {
-        "name": "Critical Shot",
+        "name": "",
         "effects": [
           {
             "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Critical Shot:"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "3, +0, 2 Red"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
               {
                 "type": "plainText",
                 "value": "Lose -1"
@@ -707,19 +731,7 @@
               "ComplicatedAction"
             ]
           }
-        ],
-        "attack": {
-          "attackDice": "3",
-          "precision": "+0",
-          "power": [
-            {
-              "type": [
-                "Red",
-                "Red"
-              ]
-            }
-          ]
-        }
+        ]
       }
     ]
   },
@@ -769,7 +781,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Start of your turn: You amy lose up to -2"
+                "value": "Start of your turn: You may lose up to -2"
               },
               {
                 "type": "whitespace",
@@ -858,6 +870,13 @@
           {
             "abilityText": [
               {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "1-3: Your Power die becomes"
               },
@@ -890,6 +909,13 @@
           {
             "abilityText": [
               {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "4-5: Your Power die becomes"
               },
@@ -921,6 +947,13 @@
           },
           {
             "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
               {
                 "type": "plainText",
                 "value": "6-7: Your Power die becomes"
@@ -966,6 +999,13 @@
           {
             "abilityText": [
               {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
                 "value": "8-9: Your Power die becomes"
               },
@@ -981,6 +1021,13 @@
           },
           {
             "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
               {
                 "type": "plainText",
                 "value": "10: Your Power die becomes"

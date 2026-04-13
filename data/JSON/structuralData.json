@@ -399,7 +399,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Titan Stoa Capacity: Titan Limit: 10"
+                "value": "Titan Stoa Capacity:: Titan Limit: 10"
               }
             ]
           }
@@ -2551,8 +2551,49 @@
         ]
       },
       {
-        "name": "Gain +2 @ArgoFate and +2 @Doom to regain a spent Summon Charge",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Doom"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to regain a spent Summon Charge"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2590,7 +2631,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "When you start a new Cycle II campaign, tak eall of the Combat and Structural Technology cards you have researched and remove all that have the 'Cycle I only' tag"
+                "value": "When you start a new Cycle II campaign, take all of the Combat and Structural Technology cards you have researched and remove all that have the 'Cycle I only' tag"
               }
             ]
           },
@@ -2609,15 +2650,13 @@
                 "value": "Note that you will also have a very limited use of Cycle I Production Facilities, so you may remove these cards too"
               }
             ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Permanent"
-              }
-            ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "",
+        "type": "Permanent",
+        "effects": [
           {
             "abilityText": [
               {
@@ -4397,8 +4436,56 @@
         ]
       },
       {
-        "name": "Gain +1 @ArgoFate during the Movement Step to test (8+).<<NL>>*Success",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "during the Movement Step to test (8+)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "newline"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "bold",
+                "value": "Success:"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Ignore Blockades and Ambrosia Sludge"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5168,8 +5255,65 @@
         ]
       },
       {
-        "name": "Gain +1 @ArgoFate to note a _Titan's name (Training)_ Event on the Timeline, 7 days from now. When you resolve this event, that Titan may gain one of the Pattern (Training) or Pattern (Conditioning) cards from the Gymnasion deck. You cannot use this ability again until you resolve this event",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to note a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "italics",
+                "value": "Titan's name (Training)"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Event on the Timeline, 7 days from now"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you resolve this event, that Titan may gain one of the Pattern (Training) or Pattern (Conditioning) cards from the Gymnasion deck"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot use this ability again until you resolve this event"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5623,15 +5767,13 @@
                 "value": "Note that you will also have a very limited use of Cycle I Production Facilities, so you may remove these cards too"
               }
             ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Permanent"
-              }
-            ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "",
+        "type": "Permanent",
+        "effects": [
           {
             "abilityText": [
               {
@@ -6358,8 +6500,50 @@
     "flavorTech": "A breaker capable of punching through the fabric of spacetime",
     "abilities": [
       {
-        "name": "Permanent. You can move through @Lock waterways with the @PastPortal symbol",
-        "effects": []
+        "name": "",
+        "type": "Permanent",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You can move through"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Lock"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "waterways with the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PastPortal"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "symbol"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6390,8 +6574,50 @@
     "flavorTech": "A reinforced breaker that will take you to the very end of time",
     "abilities": [
       {
-        "name": "Permanent. You can move through @Lock waterways with the @FuturePortal symbol",
-        "effects": []
+        "name": "",
+        "type": "Permanent",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You can move through"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Lock"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "waterways with the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "FuturePortal"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "symbol"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6615,8 +6841,25 @@
         ]
       },
       {
-        "name": "*Time Silo",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "bold",
+                "value": "Time Silo:"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "5"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7957,8 +8200,65 @@
         ]
       },
       {
-        "name": "Gain +1 @ArgoFate to note a _Titan's name (Grafting)_ Event on the Timeline, 7 days from now. When you resolve this event, that Titan may gain one of the Pattern (Strain) cards from the Gymnasion deck. You cannot use this ability again until you resolve this event",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to note a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "italics",
+                "value": "Titan's name (Grafting)"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Event on the Timeline, 7 days from now"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you resolve this event, that Titan may gain one of the Pattern (Strain) cards from the Gymnasion deck"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot use this ability again until you resolve this event"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10392,8 +10692,58 @@
         ]
       },
       {
-        "name": "City Negotiation. Gain +1 @BabelianDebt to draw two Exploration cards. Choose one, discard the other. If the card gives you resources or Titans, resolve it. Otherwise, discard it without effect",
-        "effects": []
+        "name": "",
+        "type": "City Negotiation",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "BabelianDebt"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to draw two Exploration cards"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Choose one, discard the other"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the card gives you resources or Titans, resolve it"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Otherwise, discard it without effect"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11299,7 +11649,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "If oyu are on Story 2A or further, during the Advancement Phase, you may trade these resources for Atlantean Tekne resources (any number of times): Trading"
+                "value": "If you are on Story 2A or further, during the Advancement Phase, you may trade these resources for Atlantean Tekne resources (any number of times): Trading"
               }
             ]
           }
@@ -11343,8 +11693,65 @@
         ]
       },
       {
-        "name": "if you canont, either immediately surface or lose -1 @Hull instead. If you're surfaced at the start of the Voyage Phase, flip 1 Aether token. During each Movement Step, before moving, you may surface or gain +1 @ArgoFate to submerge.",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "if you cannot, either immediately surface or lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Hull"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you're surfaced at the start of the Voyage Phase, flip 1 Aether token"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During each Movement Step, before moving, you may surface or gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to submerge"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Emergency Submersion",
@@ -11764,7 +12171,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "Gian +1"
+                "value": "Gain +1"
               },
               {
                 "type": "whitespace",
@@ -13022,8 +13429,17 @@
         ]
       },
       {
-        "name": "on a 6+, see the underwater side of your current or adjacent Map tile",
-        "effects": []
+        "name": "",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "on a 6+, see the underwater side of your current or adjacent Map tile"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

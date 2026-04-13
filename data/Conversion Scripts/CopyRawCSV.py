@@ -42,3 +42,5 @@ copyRawCSV("data/Raw CSV/ATO Data - Primordial Traits.csv", "data/CSV/primordial
 copyRawCSV("data/Raw CSV/ATO Data - Titan Abilities.csv", "data/CSV/titanAbilityData.csv")
 
 #copyRawCSV("data/Raw CSV/ATO Data - Envelopes (SPOILERS).csv", "")
+
+exec(open("data/Conversion Scripts/Conversion.py").read())

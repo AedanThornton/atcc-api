@@ -257,8 +257,9 @@ def parse_abilities_block(raw_abilities):
     ability_json = []
 
     for ability in abilities:
-        name = ability.split(":")[0]
-        ability_def = ": ".join(ability.split(": ")[1:])
+        name_check = ability.split(":: ")
+        name = name_check[0] if len(name_check) > 1 else ""
+        ability_def = ":: ".join(name_check[1:]) if len(name_check) > 1 else ability
 
         attack_ability_match = re.match(r'{(\w),\s?(\+\d),\s?([^\}]+)}\s*(.*)', ability_def)
         dice, precision, power_dice = "", "", ""
@@ -275,7 +276,7 @@ def parse_abilities_block(raw_abilities):
             effects = ". ".join(ability_def.split(". ")[1:])
         else:
             ability_type = ""
-            effects = ability_def      
+            effects = ability_def
 
         new_json = {
             "name": name,
