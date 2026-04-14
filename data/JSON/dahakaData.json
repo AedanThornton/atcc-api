@@ -128,8 +128,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "6/7",
+    "BPdefense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -356,8 +360,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "7/8",
+    "BPdefense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -600,8 +608,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "6/7",
+    "BPdefense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -864,8 +876,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "7/8",
+    "BPdefense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -1106,8 +1122,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "6/7",
+    "BPdefense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -1382,8 +1402,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "I",
-    "BPtype": "Interrupt",
-    "BPvalue": "6/7",
+    "BPdefense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -1598,8 +1622,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "10/12",
+    "BPdefense": {
+      "type": "AT",
+      "value": "10",
+      "value2": "12",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -1830,8 +1858,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "11/13",
+    "BPdefense": {
+      "type": "AT",
+      "value": "11",
+      "value2": "13",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -1994,8 +2026,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "11/13",
+    "BPdefense": {
+      "type": "AT",
+      "value": "11",
+      "value2": "13",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -2232,8 +2268,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "9/11",
+    "BPdefense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "11",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -2492,8 +2532,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "10/12",
+    "BPdefense": {
+      "type": "AT",
+      "value": "10",
+      "value2": "12",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -2716,8 +2760,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "II",
-    "BPtype": "Interrupt",
-    "BPvalue": "9/11",
+    "BPdefense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "11",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -2995,8 +3043,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "13/16",
+    "BPdefense": {
+      "type": "AT",
+      "value": "13",
+      "value2": "16",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "2",
@@ -3207,8 +3259,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "14/17",
+    "BPdefense": {
+      "type": "AT",
+      "value": "14",
+      "value2": "17",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "3",
@@ -3489,8 +3545,12 @@
     ],
     "interruptEffect": "",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "12/15",
+    "BPdefense": {
+      "type": "AT",
+      "value": "12",
+      "value2": "15",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "2",
@@ -3612,8 +3672,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, shuffle this card and the discard pile into the deck, then draw another AI card",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "14/17",
+    "BPdefense": {
+      "type": "AT",
+      "value": "14",
+      "value2": "17",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "1",
@@ -3918,8 +3982,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "12/15",
+    "BPdefense": {
+      "type": "AT",
+      "value": "12",
+      "value2": "15",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "3",
@@ -4105,8 +4173,12 @@
     ],
     "interruptEffect": "If no Interrupt Attack, perform next AI",
     "BPlevel": "III",
-    "BPtype": "Interrupt",
-    "BPvalue": "12/15",
+    "BPdefense": {
+      "type": "AT",
+      "value": "12",
+      "value2": "15",
+      "comboType": "Interrupt"
+    },
     "BPresources": [
       {
         "count": "2",
@@ -4353,8 +4425,10 @@
     ],
     "interruptEffect": "",
     "BPlevel": "",
-    "BPtype": "Interrupt",
-    "BPvalue": "",
+    "BPdefense": {
+      "type": "",
+      "value": ""
+    },
     "BPresources": [],
     "BPnonResponseText": "",
     "BPresponses": [

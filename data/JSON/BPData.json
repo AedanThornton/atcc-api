@@ -13,8 +13,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "2",
+    "defense": {
+      "type": "AT",
+      "value": "2"
+    },
     "resources": [
       {
         "count": "1",
@@ -75,8 +77,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "2",
+    "defense": {
+      "type": "AT",
+      "value": "2"
+    },
     "resources": [
       {
         "count": "1",
@@ -129,8 +133,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -232,8 +238,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -335,8 +343,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -418,8 +428,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -517,8 +529,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -604,8 +618,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -691,8 +707,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -806,8 +824,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -900,8 +920,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -1003,8 +1025,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "II",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -1106,8 +1130,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -1197,8 +1223,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -1308,8 +1336,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -1423,8 +1453,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -1522,8 +1554,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -1633,8 +1667,10 @@
     "errata": {},
     "usedFor": "Hekaton",
     "level": "III",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -1796,8 +1832,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -1868,8 +1906,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT",
-    "value": "2",
+    "defense": {
+      "type": "AT",
+      "value": "2"
+    },
     "resources": [
       {
         "count": "1",
@@ -1947,8 +1987,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -2026,8 +2068,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT-Q",
-    "value": "2",
+    "defense": {
+      "type": "AT-Q",
+      "value": "2"
+    },
     "resources": [
       {
         "count": "1",
@@ -2107,8 +2151,10 @@
     },
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -2208,8 +2254,10 @@
     },
     "usedFor": "Labyrinthauros",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -2298,8 +2346,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -2377,8 +2427,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -2467,8 +2519,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -2587,8 +2641,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -2658,8 +2714,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -2728,8 +2786,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "II",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -2828,8 +2888,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -2910,8 +2972,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -2980,8 +3044,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -3079,8 +3145,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -3146,8 +3214,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -3204,8 +3274,10 @@
     "errata": {},
     "usedFor": "Labyrinthauros",
     "level": "III",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -3274,8 +3346,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -3369,8 +3443,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -3439,8 +3515,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -3531,8 +3609,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -3630,8 +3710,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -3713,8 +3795,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -3784,8 +3868,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -3936,8 +4022,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -4006,8 +4094,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -4072,8 +4162,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -4147,8 +4239,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -4234,8 +4328,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -4313,8 +4409,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -4371,8 +4469,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -4429,8 +4529,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -4544,8 +4646,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -4643,8 +4747,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -4741,8 +4847,10 @@
     "errata": {},
     "usedFor": "Alpha Temenos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -4850,8 +4958,10 @@
     },
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -4940,8 +5050,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -5011,8 +5123,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -5091,8 +5205,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -5191,8 +5307,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -5303,8 +5421,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -5386,8 +5506,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "4",
@@ -5457,8 +5579,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "4",
@@ -5577,8 +5701,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -5669,8 +5795,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "4",
@@ -5723,8 +5851,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -5798,8 +5928,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "4",
@@ -5892,8 +6024,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "4",
@@ -5995,8 +6129,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT-Q",
-    "value": "11",
+    "defense": {
+      "type": "AT-Q",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "4",
@@ -6070,8 +6206,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "4",
@@ -6141,8 +6279,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -6232,8 +6372,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -6307,8 +6449,10 @@
     "errata": {},
     "usedFor": "Hermesian Pursuer",
     "level": "III",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -6385,8 +6529,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -6480,8 +6626,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -6559,8 +6707,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -6613,8 +6763,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT-Q",
-    "value": "3",
+    "defense": {
+      "type": "AT-Q",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -6712,8 +6864,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -6791,8 +6945,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -6874,8 +7030,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -7019,8 +7177,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -7093,8 +7253,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -7200,8 +7362,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -7254,8 +7418,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -7324,8 +7490,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "II",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -7439,8 +7607,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -7550,8 +7720,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -7715,8 +7887,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -7878,8 +8052,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -7948,8 +8124,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -8059,8 +8237,10 @@
     "errata": {},
     "usedFor": "Cyclonus",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -8133,8 +8313,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -8268,8 +8450,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "1",
@@ -8363,8 +8547,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -8507,8 +8693,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -8650,8 +8838,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -8803,8 +8993,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -8962,8 +9154,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -9090,8 +9284,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -9240,8 +9436,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -9402,8 +9600,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -9473,8 +9673,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -9616,8 +9818,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -9743,8 +9947,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -9826,8 +10032,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -9921,8 +10129,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -10048,8 +10258,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -10106,8 +10318,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -10209,8 +10423,10 @@
     "errata": {},
     "usedFor": "Chimera Metastasios",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -10287,8 +10503,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -10402,8 +10620,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT",
-    "value": "3",
+    "defense": {
+      "type": "AT",
+      "value": "3"
+    },
     "resources": [
       {
         "count": "2",
@@ -10509,8 +10729,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -10599,8 +10821,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -10686,8 +10910,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "2",
@@ -10785,8 +11011,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "I",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -10867,8 +11095,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -11001,8 +11231,10 @@
     },
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -11170,8 +11402,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -11341,8 +11575,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -11481,8 +11717,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -11613,8 +11851,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -11784,8 +12024,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT-Q",
-    "value": "17",
+    "defense": {
+      "type": "AT-Q",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "1",
@@ -11871,8 +12113,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT",
-    "value": "17",
+    "defense": {
+      "type": "AT",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "1",
@@ -11978,8 +12222,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT-Q",
-    "value": "18",
+    "defense": {
+      "type": "AT-Q",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "1",
@@ -12089,8 +12335,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT",
-    "value": "16",
+    "defense": {
+      "type": "AT",
+      "value": "16"
+    },
     "resources": [
       {
         "count": "1",
@@ -12196,8 +12444,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT-Q",
-    "value": "16",
+    "defense": {
+      "type": "AT-Q",
+      "value": "16"
+    },
     "resources": [
       {
         "count": "1",
@@ -12290,8 +12540,10 @@
     "errata": {},
     "usedFor": "The Nietzschean",
     "level": "III",
-    "type": "AT-Q",
-    "value": "17",
+    "defense": {
+      "type": "AT-Q",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "1",
@@ -12364,8 +12616,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -12476,8 +12730,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -12596,8 +12852,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -12682,8 +12940,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "2",
@@ -12793,8 +13053,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -12872,8 +13134,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "2",
@@ -12963,8 +13227,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "4",
@@ -13082,8 +13348,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "4",
@@ -13209,8 +13477,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -13275,8 +13545,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "4",
@@ -13357,8 +13629,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -13501,8 +13775,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "4",
@@ -13604,8 +13880,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT-Q",
-    "value": "13",
+    "defense": {
+      "type": "AT-Q",
+      "value": "13"
+    },
     "resources": [
       {
         "count": "4",
@@ -13707,8 +13985,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT",
-    "value": "15",
+    "defense": {
+      "type": "AT",
+      "value": "15"
+    },
     "resources": [
       {
         "count": "2",
@@ -13802,8 +14082,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT",
-    "value": "12",
+    "defense": {
+      "type": "AT",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "2",
@@ -13893,8 +14175,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT-Q",
-    "value": "14",
+    "defense": {
+      "type": "AT-Q",
+      "value": "14"
+    },
     "resources": [
       {
         "count": "4",
@@ -14000,8 +14284,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "2",
@@ -14075,8 +14361,10 @@
     "errata": {},
     "usedFor": "The Burden",
     "level": "III",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "4",
@@ -14163,8 +14451,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -14246,8 +14536,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -14357,8 +14649,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -14411,8 +14705,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT-Q",
-    "value": "4",
+    "defense": {
+      "type": "AT-Q",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -14481,8 +14777,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -14576,8 +14874,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -14688,8 +14988,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -14760,8 +15062,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -14900,8 +15204,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -14990,8 +15296,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -15044,8 +15352,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -15143,8 +15453,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -15258,8 +15570,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -15369,8 +15683,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -15472,8 +15788,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -15595,8 +15913,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -15690,8 +16010,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -15777,8 +16099,10 @@
     "errata": {},
     "usedFor": "Hypertime Oracle",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -15860,8 +16184,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -15971,8 +16297,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -16066,8 +16394,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -16184,8 +16514,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "4",
+    "defense": {
+      "type": "AT",
+      "value": "4"
+    },
     "resources": [
       {
         "count": "1",
@@ -16295,8 +16627,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -16386,8 +16720,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -16485,8 +16821,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -16557,8 +16895,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT-Q",
-    "value": "5",
+    "defense": {
+      "type": "AT-Q",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -16640,8 +16980,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -16731,8 +17073,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -16793,8 +17137,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -16889,8 +17235,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "II",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -17030,8 +17378,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -17108,8 +17458,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -17240,8 +17592,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -17327,8 +17681,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -17410,8 +17766,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -17498,8 +17856,10 @@
     "errata": {},
     "usedFor": "Icarian Harpy",
     "level": "III",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -17573,8 +17933,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -17668,8 +18030,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -17788,8 +18152,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -17863,8 +18229,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -17974,8 +18342,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -18077,8 +18447,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -18156,8 +18528,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "2",
@@ -18316,8 +18690,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -18428,8 +18804,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -18506,8 +18884,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -18621,8 +19001,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -18720,8 +19102,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "II",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "2",
@@ -18847,8 +19231,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT-Q",
-    "value": "17",
+    "defense": {
+      "type": "AT-Q",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "2",
@@ -18917,8 +19303,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT",
-    "value": "18",
+    "defense": {
+      "type": "AT",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "2",
@@ -18975,8 +19363,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT",
-    "value": "17",
+    "defense": {
+      "type": "AT",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "2",
@@ -19107,8 +19497,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT-Q",
-    "value": "17",
+    "defense": {
+      "type": "AT-Q",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "2",
@@ -19234,8 +19626,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT",
-    "value": "18",
+    "defense": {
+      "type": "AT",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "2",
@@ -19308,8 +19702,10 @@
     "errata": {},
     "usedFor": "Sun Descendent",
     "level": "III",
-    "type": "AT-Q",
-    "value": "18",
+    "defense": {
+      "type": "AT-Q",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "2",
@@ -19400,8 +19796,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -19472,8 +19870,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -19576,8 +19976,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -19713,8 +20115,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -19800,8 +20204,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "5",
+    "defense": {
+      "type": "AT",
+      "value": "5"
+    },
     "resources": [
       {
         "count": "1",
@@ -19881,8 +20287,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -19970,8 +20378,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -20095,8 +20505,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT-Q",
-    "value": "6",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -20191,8 +20603,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -20262,8 +20676,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -20400,8 +20816,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -20472,8 +20890,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "II",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -20568,8 +20988,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -20680,8 +21102,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT-Q",
-    "value": "11",
+    "defense": {
+      "type": "AT-Q",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -20793,8 +21217,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -20855,8 +21281,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -21000,8 +21428,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -21178,8 +21608,10 @@
     "errata": {},
     "usedFor": "Midascore",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -21307,8 +21739,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "7/8",
+    "defense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21379,8 +21815,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "6/7",
+    "defense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21495,8 +21935,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "6/7",
+    "defense": {
+      "type": "AT",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21611,8 +22055,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "5/6",
+    "defense": {
+      "type": "AT",
+      "value": "5",
+      "value2": "6",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21719,8 +22167,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "5/6",
+    "defense": {
+      "type": "AT",
+      "value": "5",
+      "value2": "6",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21844,8 +22296,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "I",
-    "type": "Staircase",
-    "value": "7/8",
+    "defense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -21951,8 +22407,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase",
-    "value": "8/9",
+    "defense": {
+      "type": "AT",
+      "value": "8",
+      "value2": "9",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22060,8 +22520,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase-Q",
-    "value": "6/7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "6",
+      "value2": "7",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22160,8 +22624,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase",
-    "value": "9/10",
+    "defense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22268,8 +22736,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase",
-    "value": "7/8",
+    "defense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22376,8 +22848,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase-Q",
-    "value": "9/10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22496,8 +22972,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "II",
-    "type": "Staircase",
-    "value": "7/8",
+    "defense": {
+      "type": "AT",
+      "value": "7",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22661,8 +23141,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase",
-    "value": "9/10",
+    "defense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22798,8 +23282,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase",
-    "value": "8/9",
+    "defense": {
+      "type": "AT",
+      "value": "8",
+      "value2": "9",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -22941,8 +23429,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase-Q",
-    "value": "9/10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -23024,8 +23516,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase-Q",
-    "value": "11/12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "11",
+      "value2": "12",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -23169,8 +23665,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase-Q",
-    "value": "8/9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8",
+      "value2": "9",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -23285,8 +23785,12 @@
     "errata": {},
     "usedFor": "Demidjinn",
     "level": "III",
-    "type": "Staircase",
-    "value": "10/11",
+    "defense": {
+      "type": "AT",
+      "value": "10",
+      "value2": "11",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -23415,8 +23919,12 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "Staircase",
-    "value": "9/8",
+    "defense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -23507,8 +24015,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -23607,8 +24117,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -23699,8 +24211,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "2",
@@ -23807,8 +24321,12 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "Staircase",
-    "value": "9/8",
+    "defense": {
+      "type": "AT",
+      "value": "9",
+      "value2": "8",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "2",
@@ -23885,8 +24403,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "I",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "2",
@@ -24009,8 +24529,12 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "Staircase",
-    "value": "11/10",
+    "defense": {
+      "type": "AT",
+      "value": "11",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -24101,8 +24625,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -24225,8 +24751,12 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "Staircase",
-    "value": "11/10",
+    "defense": {
+      "type": "AT",
+      "value": "11",
+      "value2": "10",
+      "comboType": "Staircase"
+    },
     "resources": [
       {
         "count": "1",
@@ -24381,8 +24911,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "2",
@@ -24501,8 +25033,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -24633,8 +25167,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "II",
-    "type": "AT-Q",
-    "value": "9",
+    "defense": {
+      "type": "AT-Q",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "2",
@@ -24763,8 +25299,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT-Q",
-    "value": "20",
+    "defense": {
+      "type": "AT-Q",
+      "value": "20"
+    },
     "resources": [
       {
         "count": "2",
@@ -24842,8 +25380,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT",
-    "value": "19",
+    "defense": {
+      "type": "AT",
+      "value": "19"
+    },
     "resources": [
       {
         "count": "2",
@@ -24999,8 +25539,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT",
-    "value": "18",
+    "defense": {
+      "type": "AT",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "2",
@@ -25085,8 +25627,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT-Q",
-    "value": "18",
+    "defense": {
+      "type": "AT-Q",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "2",
@@ -25243,8 +25787,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT",
-    "value": "19",
+    "defense": {
+      "type": "AT",
+      "value": "19"
+    },
     "resources": [
       {
         "count": "2",
@@ -25338,8 +25884,10 @@
     "errata": {},
     "usedFor": "Babelian Lunacy",
     "level": "III",
-    "type": "AT-Q",
-    "value": "19",
+    "defense": {
+      "type": "AT-Q",
+      "value": "19"
+    },
     "resources": [
       {
         "count": "1",
@@ -25422,8 +25970,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -25519,8 +26069,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -25599,8 +26151,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -25691,8 +26245,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -25778,8 +26334,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -25862,8 +26420,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -25933,8 +26493,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -26094,8 +26656,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -26213,8 +26777,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -26308,8 +26874,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -26378,8 +26946,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -26510,8 +27080,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -26610,8 +27182,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -26697,8 +27271,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT",
-    "value": "11",
+    "defense": {
+      "type": "AT",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -26829,8 +27405,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -26985,8 +27563,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "11",
+    "defense": {
+      "type": "AT-Q",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -27116,8 +27696,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -27187,8 +27769,10 @@
     "errata": {},
     "usedFor": "Dragon of Phobos",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -27253,8 +27837,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -27325,8 +27911,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -27429,8 +28017,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -27541,8 +28131,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -27650,8 +28242,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -27792,8 +28386,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -27864,8 +28460,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -28009,8 +28607,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "7",
+    "defense": {
+      "type": "AT-Q",
+      "value": "7"
+    },
     "resources": [
       {
         "count": "1",
@@ -28093,8 +28693,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -28205,8 +28807,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -28260,8 +28864,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -28356,8 +28962,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -28480,8 +29088,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -28685,8 +29295,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT",
-    "value": "11",
+    "defense": {
+      "type": "AT",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -28739,8 +29351,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -28839,8 +29453,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "11",
+    "defense": {
+      "type": "AT-Q",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -28909,8 +29525,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -29022,8 +29640,10 @@
     "errata": {},
     "usedFor": "Meduketos",
     "level": "III",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "1",
@@ -29114,8 +29734,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -29234,8 +29856,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -29341,8 +29965,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "2",
@@ -29449,8 +30075,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -29549,8 +30177,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "GT",
-    "value": "10",
+    "defense": {
+      "type": "GT",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -29656,8 +30286,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "I",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -29756,8 +30388,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "GT",
-    "value": "12",
+    "defense": {
+      "type": "GT",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -29901,8 +30535,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "AT",
-    "value": "11",
+    "defense": {
+      "type": "AT",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -30069,8 +30705,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "GT",
-    "value": "12",
+    "defense": {
+      "type": "GT",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -30205,8 +30843,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -30311,8 +30951,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "AT",
-    "value": "11",
+    "defense": {
+      "type": "AT",
+      "value": "11"
+    },
     "resources": [
       {
         "count": "1",
@@ -30422,8 +31064,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "II",
-    "type": "AT-Q",
-    "value": "10",
+    "defense": {
+      "type": "AT-Q",
+      "value": "10"
+    },
     "resources": [
       {
         "count": "2",
@@ -30533,8 +31177,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "GT",
-    "value": "42",
+    "defense": {
+      "type": "GT",
+      "value": "42"
+    },
     "resources": [
       {
         "count": "2",
@@ -30628,8 +31274,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "AT",
-    "value": "40",
+    "defense": {
+      "type": "AT",
+      "value": "40"
+    },
     "resources": [
       {
         "count": "2",
@@ -30762,8 +31410,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "AT",
-    "value": "38",
+    "defense": {
+      "type": "AT",
+      "value": "38"
+    },
     "resources": [
       {
         "count": "1",
@@ -30891,8 +31541,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "AT-Q",
-    "value": "38",
+    "defense": {
+      "type": "AT-Q",
+      "value": "38"
+    },
     "resources": [
       {
         "count": "2",
@@ -31063,8 +31715,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "AT",
-    "value": "41",
+    "defense": {
+      "type": "AT",
+      "value": "41"
+    },
     "resources": [
       {
         "count": "2",
@@ -31206,8 +31860,10 @@
     "errata": {},
     "usedFor": "Ur-Fleece",
     "level": "III",
-    "type": "AT-Q",
-    "value": "39",
+    "defense": {
+      "type": "AT-Q",
+      "value": "39"
+    },
     "resources": [
       {
         "count": "2",
@@ -31301,8 +31957,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -31375,8 +32033,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT",
-    "value": "6",
+    "defense": {
+      "type": "AT",
+      "value": "6"
+    },
     "resources": [
       {
         "count": "1",
@@ -31446,8 +32106,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -31537,8 +32199,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -31608,8 +32272,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [
       {
         "count": "1",
@@ -31712,8 +32378,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "I",
-    "type": "AT-Q",
-    "value": "8",
+    "defense": {
+      "type": "AT-Q",
+      "value": "8"
+    },
     "resources": [
       {
         "count": "1",
@@ -31832,8 +32500,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -31894,8 +32564,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT",
-    "value": "14",
+    "defense": {
+      "type": "AT",
+      "value": "14"
+    },
     "resources": [
       {
         "count": "1",
@@ -32006,8 +32678,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT-Q",
-    "value": "13",
+    "defense": {
+      "type": "AT-Q",
+      "value": "13"
+    },
     "resources": [
       {
         "count": "1",
@@ -32130,8 +32804,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT",
-    "value": "14",
+    "defense": {
+      "type": "AT",
+      "value": "14"
+    },
     "resources": [
       {
         "count": "1",
@@ -32184,8 +32860,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT",
-    "value": "13",
+    "defense": {
+      "type": "AT",
+      "value": "13"
+    },
     "resources": [
       {
         "count": "1",
@@ -32267,8 +32945,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "II",
-    "type": "AT-Q",
-    "value": "12",
+    "defense": {
+      "type": "AT-Q",
+      "value": "12"
+    },
     "resources": [
       {
         "count": "1",
@@ -32354,8 +33034,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT",
-    "value": "17",
+    "defense": {
+      "type": "AT",
+      "value": "17"
+    },
     "resources": [
       {
         "count": "1",
@@ -32495,8 +33177,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT",
-    "value": "16",
+    "defense": {
+      "type": "AT",
+      "value": "16"
+    },
     "resources": [
       {
         "count": "3",
@@ -32574,8 +33258,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT-Q",
-    "value": "16",
+    "defense": {
+      "type": "AT-Q",
+      "value": "16"
+    },
     "resources": [
       {
         "count": "2",
@@ -32670,8 +33356,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT-Q",
-    "value": "18",
+    "defense": {
+      "type": "AT-Q",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "1",
@@ -32766,8 +33454,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT-Q",
-    "value": "18",
+    "defense": {
+      "type": "AT-Q",
+      "value": "18"
+    },
     "resources": [
       {
         "count": "3",
@@ -32862,8 +33552,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "III",
-    "type": "AT-Q",
-    "value": "16",
+    "defense": {
+      "type": "AT-Q",
+      "value": "16"
+    },
     "resources": [
       {
         "count": "2",
@@ -32970,8 +33662,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33037,8 +33731,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33104,8 +33800,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33171,8 +33869,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "I",
-    "type": "AT",
-    "value": "7",
+    "defense": {
+      "type": "AT",
+      "value": "7"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33238,8 +33938,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "II",
-    "type": "AT",
-    "value": "9",
+    "defense": {
+      "type": "AT",
+      "value": "9"
+    },
     "resources": [],
     "nonResponseText": "Do not escalate. If this BP has been Wounded and there are no cards in the deck, see 0203",
     "responses": [
@@ -33305,8 +34007,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "II",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [],
     "nonResponseText": "Do not escalate. If this BP has been Wounded and there are no cards in the deck, see 0203",
     "responses": [
@@ -33372,8 +34076,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [],
     "nonResponseText": "Do not escalate. If this BP has been Wounded and there are no cards in the deck, see 0203",
     "responses": [
@@ -33455,8 +34161,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "II",
-    "type": "AT",
-    "value": "11",
+    "defense": {
+      "type": "AT",
+      "value": "11"
+    },
     "resources": [],
     "nonResponseText": "Do not escalate. If this BP has been Wounded and there are no cards in the deck, see 0203",
     "responses": [
@@ -33538,8 +34246,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "III",
-    "type": "AT",
-    "value": "40",
+    "defense": {
+      "type": "AT",
+      "value": "40"
+    },
     "resources": [],
     "nonResponseText": "For the Aeons: Total Powe rof all failed Attacks against this BP stacks and carries over (note it). See 0203 for details",
     "responses": [
@@ -33579,8 +34289,10 @@
     "errata": {},
     "usedFor": "The Pitiless",
     "level": "X",
-    "type": "AT",
-    "value": "15",
+    "defense": {
+      "type": "AT",
+      "value": "15"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33646,8 +34358,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33721,8 +34435,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "I",
-    "type": "AT",
-    "value": "8",
+    "defense": {
+      "type": "AT",
+      "value": "8"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33804,8 +34520,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "II",
-    "type": "AT",
-    "value": "10",
+    "defense": {
+      "type": "AT",
+      "value": "10"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -33903,8 +34621,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "II",
-    "type": "GT",
-    "value": "11",
+    "defense": {
+      "type": "GT",
+      "value": "11"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34022,8 +34742,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "AT",
-    "value": "21",
+    "defense": {
+      "type": "AT",
+      "value": "21"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34072,8 +34794,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "GT",
-    "value": "20",
+    "defense": {
+      "type": "GT",
+      "value": "20"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34167,8 +34891,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "GT",
-    "value": "19",
+    "defense": {
+      "type": "GT",
+      "value": "19"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34258,8 +34984,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "GT",
-    "value": "19",
+    "defense": {
+      "type": "GT",
+      "value": "19"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34341,8 +35069,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "GT",
-    "value": "20",
+    "defense": {
+      "type": "GT",
+      "value": "20"
+    },
     "resources": [],
     "nonResponseText": "",
     "responses": [
@@ -34432,8 +35162,10 @@
     "errata": {},
     "usedFor": "Old Haunt",
     "level": "III",
-    "type": "GT",
-    "value": "20",
+    "defense": {
+      "type": "GT",
+      "value": "20"
+    },
     "resources": [],
     "nonResponseText": "You cannot use Hope tokens",
     "responses": [
@@ -34490,8 +35222,10 @@
     "errata": {},
     "usedFor": "Titan X",
     "level": "X",
-    "type": "AT-Q",
-    "value": "20",
+    "defense": {
+      "type": "AT-Q",
+      "value": "20"
+    },
     "resources": [],
     "nonResponseText": "Scion of Hermes: Titan X draws and performs an AI after every Titan turn. This replaces the Man Among Sheep} Trait. When Titan X performs Flash Step, it moves an additional 4 spaces",
     "responses": [

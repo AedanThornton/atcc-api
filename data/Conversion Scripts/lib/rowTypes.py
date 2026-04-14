@@ -29,14 +29,23 @@ def BP_row(row):
     card_json = {
         "usedFor": row["Used For"],
         "level": row["BP Level"],
-        "type": row["AT/GT?"],
-        "value": row["AT/GT"],
+        "defense": {
+            "type": row["AT/GT?"],
+            "value": row["AT/GT"],
+        },
         "resources": parse_resources(row["Resources"]),
         "nonResponseText": row["Non-Response Text"],
         "responses": parse_responses(row["Responses"]),
         "critFlavor": row["Crit Lore"],
         "critResponse": parse_abilities(row["Crit Response"]),
     }
+
+    if row["AT/GT?"].startswith("Staircase") or row["AT/GT?"].startswith("Interrupt"):
+        ATs = row["AT/GT"].split("/")
+        card_json["defense"]["type"] = row["AT/GT?"].replace("Staircase", "AT").replace("Interrupt", "AT")
+        card_json["defense"]["value"] = ATs[0]
+        card_json["defense"]["value2"] = ATs[1]
+        card_json["defense"]["comboType"] = row["AT/GT?"].replace("-Q", "")
     
     return card_json
 
@@ -120,8 +129,10 @@ def dahaka_row(row):
 
         ## BP
         "BPlevel": row["BP Level"],
-        "BPtype": row["AT/GT?"],
-        "BPvalue": row["AT/GT"],
+        "BPdefense": {
+            "type": row["AT/GT?"],
+            "value": row["AT/GT"],
+        },
         "BPresources": parse_resources(row["Resources"]),
         "BPnonResponseText": row["Non-Response Text"],
         "BPresponses": parse_responses(row["Responses"]),
@@ -141,6 +152,13 @@ def dahaka_row(row):
         card_json.pop("AIpreAttack")
     if not card_json["uber"]:
         card_json.pop("uber")
+
+    if row["AT/GT?"].startswith("Staircase") or row["AT/GT?"].startswith("Interrupt"):
+        ATs = row["AT/GT"].split("/")
+        card_json["BPdefense"]["type"] = row["AT/GT?"].replace("Staircase", "AT").replace("Interrupt", "AT")
+        card_json["BPdefense"]["value"] = ATs[0]
+        card_json["BPdefense"]["value2"] = ATs[1]
+        card_json["BPdefense"]["comboType"] = row["AT/GT?"].replace("-Q", "")
     
     return card_json
 
