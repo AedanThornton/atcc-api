@@ -106,59 +106,17 @@ def dahaka_row(row):
     AI_name, BP_name = row["Name"].split(" | ")
 
     card_json = {
-        "ai_name": AI_name,
-        "bp_name": BP_name,
         "usedFor": row["Used For"],
         "uber": "TRUE" in row["Uber?"],
-        
-        ## AI
-        "AIlevel": row["Atk Level"],
-        "AItargeting": parse_targeting(row["Targeting"]),
-        "AIpreAction": row["Pre-Action Effects"],
-        "AIpreActionWoO": "TRUE" in row["Pre-Action WoO?"],
-        "AImoveType": row["Move Type"],
-        "AIpreAttack": row["Pre-Attack Effect"],
-        "AIattackType": row["Attack Type"].split(", "),
-        "AIattackBanners": parse_consequences(row["Attack Banners"]),
-        "AIdice": row["Dice"],
-        "AIdifficulty": row["Difficulty"],
-        "AIconsequences": parse_consequences(row["Attack Consequences"]),
-
-        ## Interrupt
-        "interruptEffect": row["Interrupt Effect"],
-
-        ## BP
-        "BPlevel": row["BP Level"],
-        "BPdefense": {
-            "type": row["AT/GT?"],
-            "value": row["AT/GT"],
-        },
-        "BPresources": parse_resources(row["Resources"]),
-        "BPnonResponseText": row["Non-Response Text"],
-        "BPresponses": parse_responses(row["Responses"]),
-        "BPcritFlavor": row["Crit Lore"],
-        "BPcritResponse": parse_abilities(row["Crit Response"]),
+        "Attack": primordialAttack_row(row),
+        "BP": BP_row(row)
     }
 
-    after_attack_effects = parse_consequences(row["After Attack Effects"])
-    if after_attack_effects:
-        card_json["AIpreAfterAttackWoO"] = "TRUE" in row["Pre-After Attack WoO?"]
-        card_json["AIafterFinal"] = "TRUE" in row["After Final?"]
-        card_json["AIafterAttackEffects"] = after_attack_effects
+    card_json["Attack"]["name"] = AI_name
+    card_json["BP"]["name"] = BP_name
 
-    if not card_json["AIpreAction"]:
-        card_json.pop("AIpreAction")
-    if not card_json["AIpreAttack"]:
-        card_json.pop("AIpreAttack")
-    if not card_json["uber"]:
-        card_json.pop("uber")
-
-    if row["AT/GT?"].startswith("Staircase") or row["AT/GT?"].startswith("Interrupt"):
-        ATs = row["AT/GT"].split("/")
-        card_json["BPdefense"]["type"] = row["AT/GT?"].replace("Staircase", "AT").replace("Interrupt", "AT")
-        card_json["BPdefense"]["value"] = ATs[0]
-        card_json["BPdefense"]["value2"] = ATs[1]
-        card_json["BPdefense"]["comboType"] = row["AT/GT?"].replace("-Q", "")
+    if row["Interrupt Effect"]:
+        card_json["Attack"]["interruptEffect"] = row["Interrupt Effect"]
     
     return card_json
 
@@ -443,23 +401,23 @@ def primordial_row(row):
 
 def primordialAttack_row(row):
     card_json = {
-        "cardType": row["Card Type"],
+        "cardType": row["Card Type"] if "Card Type" in row else row["Render Type"],
         "usedFor": row["Used For"],
-        "flavor": parse_abilities(row["Flavor"]),
-        "level": row["Level"],
+        "flavor": parse_abilities(row["Flavor"]) if "Flavor" in row else [],
+        "level": row["Atk Level"],
         "uber": "TRUE" in row["Uber?"],
-        "preTarget": parse_consequences(row["Pre-Target Effects"]),
+        "preTarget": parse_consequences(row["Pre-Target Effects"]) if "Pre-Target Effects" in row else [],
         "targeting": parse_targeting(row["Targeting"]),
         "preAction": parse_consequences(row["Pre-Action Effects"]),
         "preActionWoO": "TRUE" in row["Pre-Action WoO?"],
         "moveType": row["Move Type"],
-        "moveLocation": row["Move-to Location"] or None,
+        "moveLocation": row["Move-to Location"] if "Move-to Location" in row else None,
         "preAttack": row["Pre-Attack Effect"],
         "attackType": row["Attack Type"].split(", "),
-        "rangeSize": row["Range Size"] or None,
+        "rangeSize": row["Range Size"] if "Range Size" in row else None,
         "attackBanners": parse_consequences(row["Attack Banners"]),
-        "attackDiagram": parse_attack_diagram(row["Attack Diagram"]) or None,
-        "laserCount": row["Laser Count"] or None,
+        "attackDiagram": parse_attack_diagram(row["Attack Diagram"]) if "Attack Diagram" in row else None,
+        "laserCount": row["Laser Count"] if "Laser Count" in row else None,
         "dice": row["Dice"],
         "difficulty": row["Difficulty"],
         "consequences": parse_consequences(row["Attack Consequences"]),
