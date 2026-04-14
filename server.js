@@ -89,7 +89,8 @@ app.get('/api/cards', (req, res) => {
   if (req.query.p) page = req.query.p
   if (req.query.limit) perPageLimit = req.query.limit
 
-  if (filters.cardType.includes("Attack") || filters.cardType.includes("BP")) filters.cardType = [...filters.cardType, "AI | BP", "Sig | Rout"]
+  if (filters.cardType.includes("AI") || filters.cardType.includes("BP")) filters.cardType = [...filters.cardType, "AI | BP"]
+  if (filters.cardType.includes("Signature") || filters.cardType.includes("Routine")) filters.cardType = [...filters.cardType, "Sig | Rout"]
 
 
   if (searchInput === "id:AE1289" || searchInput === "id: AE1289") {
