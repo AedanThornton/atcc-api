@@ -5,12 +5,14 @@ const path = require('path');
 const { parseSearch } = require("./lib/SearchParser");
 const { sortCards } = require("./lib/CardSort");
 const { convertTypesToTree } = require("./lib/cardTypesTree");
+const { buildDeckFilters } = require('./lib/PreBuiltDecks')
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Load Card Data from JSON files
 let allCards = [];
+let primordials = []
 const dataDirectory = path.join(__dirname, 'data/JSON');
 
 try {
@@ -27,6 +29,8 @@ try {
         console.log(` -> Loading file: ${filename}`);
         const jsonData = fs.readFileSync(filePath, 'utf8');
         const cardsFromFile = JSON.parse(jsonData);
+
+        if (filename === "primordialData.json") primordials = cardsFromFile
 
         // IMPORTANT: Ensure the file contained an array
         if (Array.isArray(cardsFromFile)) {
@@ -180,6 +184,44 @@ app.get('/api/card/:cardID', (req, res) => {
   } else {
     console.log(`Card ID ${requestedID} not found.`);
     res.status(404).json({ message: `Card with ID ${requestedID} not found.` });
+  }
+});
+
+// --- Get specific card by ID ---
+app.get('/api/decks', (req, res) => {
+  console.log('Received request to /api/decks');
+  console.log('Query parameters:', req.query);
+
+  let filteredCards = [...allCards]; // Start with a copy of ALL cards
+
+  let deckType = ""
+  let deckName = ""
+  let deckVariant = ""
+  let deckLevel = 0
+
+  // --- Update Filters based on request ---
+  if (req.query.type) deckType = req.query.type.toLowerCase()
+  if (req.query.name) deckName = req.query.name.toLowerCase()
+  if (req.query.variant) deckVariant = req.query.variant.toLowerCase()
+  if (req.query.level) deckLevel = req.query.level.toLowerCase()
+
+  //Validate if Primordial
+  if (deckType === "primordial" && !primordials.some(p => p.name.toLowerCase() === deckName)) {
+    console.log(`Primordial ${deckName} is invalid.`);
+    res.status(404).json({ message: `Primordial ${deckName} is invalid.` });
+    return
+  }
+
+  const deckFilters = buildDeckFilters({deckType, deckName, deckVariant, deckLevel});
+
+  const generatedDeck = deckFilters && filteredCards.filter(card => deckFilters(card))
+
+  if (generatedDeck) {
+    console.log(`Returning deck: ${deckName}`);
+    res.json(generatedDeck);
+  } else {
+    console.log(`Deck ${deckName} not found.`);
+    res.status(404).json({ message: `Deck with name ${deckName} not found.` });
   }
 });
 
