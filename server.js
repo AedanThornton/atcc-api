@@ -98,7 +98,7 @@ app.get('/api/cards', (req, res) => {
       if (card.cardIDs[0] === "AE1289") return true;
       return false
     })
-    res.json({cards: filteredCards, currentPage: 1, totalCards: 3, totalPages: 1, perPageLimit: 30})
+    res.json({cards: filteredCards, currentPage: 1, totalCards: 3, totalPages: 1, perPageLimit: 20})
     return
   }
 
