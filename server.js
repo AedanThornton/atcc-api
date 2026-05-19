@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 
 // Load Card Data from JSON files
 let allCards = [];
-let primordials = []
+let primordials = [];
 const dataDirectory = path.join(__dirname, 'data/JSON');
 
 try {
@@ -30,7 +30,7 @@ try {
         const jsonData = fs.readFileSync(filePath, 'utf8');
         const cardsFromFile = JSON.parse(jsonData);
 
-        if (filename === "primordialData.json") primordials = cardsFromFile
+        if (filename === "BPData.json" || filename === "primordialAttackData.json" || filename === "dahakaData.json") primordials = [...primordials, ...cardsFromFile]
 
         // IMPORTANT: Ensure the file contained an array
         if (Array.isArray(cardsFromFile)) {
@@ -197,28 +197,43 @@ app.get('/api/decks', (req, res) => {
   let deckType = ""
   let deckName = ""
   let deckVariant = ""
-  let deckLevel = 0
 
   // --- Update Filters based on request ---
   if (req.query.type) deckType = req.query.type.toLowerCase()
   if (req.query.name) deckName = req.query.name.toLowerCase()
   if (req.query.variant) deckVariant = req.query.variant.toLowerCase()
-  if (req.query.level) deckLevel = req.query.level.toLowerCase()
 
   //Validate if Primordial
-  if (deckType === "primordial" && !primordials.some(p => p.name.toLowerCase() === deckName)) {
+  const primordialNames = [...new Set(primordials.sort((s, z) => s.cardIDs[0].slice(2) - z.cardIDs[0].slice(2)).map(primordialCard => primordialCard.usedFor))]
+  if (deckType === "primordial" && deckName && !primordialNames.some(p => p.toLowerCase() === deckName)) {
     console.log(`Primordial ${deckName} is invalid.`);
     res.status(404).json({ message: `Primordial ${deckName} is invalid.` });
     return
   }
 
-  const deckFilters = buildDeckFilters({deckType, deckName, deckVariant, deckLevel});
+  const deckFilters = buildDeckFilters({deckType, deckName, deckVariant});
 
-  const generatedDeck = deckFilters && filteredCards.filter(card => deckFilters(card))
+  let generatedDeck = []
+  let otherCardPools = []
+  if (deckFilters) {
+    const categoryDeck = filteredCards.filter(card => deckFilters.categoryFilter(card))
+    generatedDeck = categoryDeck.filter(card => deckFilters.deckFilter(card))
 
-  if (generatedDeck) {
+    deckFilters.cardPoolFilters.map(pool => {
+      otherCardPools.push({
+        "name": pool.name,
+        "cards": categoryDeck.filter(card => pool.poolFilter(card))
+      })
+    })
+  }
+
+  if (generatedDeck || !deckName) {
     console.log(`Returning deck: ${deckName}`);
-    res.json(generatedDeck);
+    res.json({
+      "primordialOptions": primordialNames,
+      "deck": generatedDeck || [],
+      "otherCardPools": otherCardPools || []
+    });
   } else {
     console.log(`Deck ${deckName} not found.`);
     res.status(404).json({ message: `Deck with name ${deckName} not found.` });
