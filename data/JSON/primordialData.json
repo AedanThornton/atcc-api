@@ -746,7 +746,23 @@
           },
           {
             "type": "plainText",
-            "value": "should say \"When Temenos resolves Labyrinth X, for each Titan on a Labyrinth Terrain tile, if the Labyrinth tile from Labyrinth X could have been placed under that Titan were the tile it's on not there, that Titan draws an Obol\""
+            "value": "should say \"When resolving Labyrinth X, first treat the Board as if no other tiles were there to block its placement"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then, following normal Labyrinth X placement rules, for each Titan that would have been under the tile, if that Titan is actually on a Labyrinth tile, do not place the tile and have each such Titan draw an Obol"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If no such Titan is on a Labyrinth tile, place the tile normally\""
           }
         ]
       }
@@ -5231,7 +5247,23 @@
           },
           {
             "type": "plainText",
-            "value": "card grants the Precise keyword to the Titan that has it"
+            "value": "card grants the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Precise"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "keyword to the Titan that has it"
           }
         ]
       }

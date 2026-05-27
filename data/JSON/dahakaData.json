@@ -153,10 +153,8 @@
       "usedFor": "Dahaka",
       "level": "I",
       "defense": {
-        "type": "AT",
-        "value": "6",
-        "value2": "7",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "7/6"
       },
       "resources": [
         {
@@ -393,10 +391,8 @@
       "usedFor": "Dahaka",
       "level": "I",
       "defense": {
-        "type": "AT",
-        "value": "7",
-        "value2": "8",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "8/7"
       },
       "resources": [
         {
@@ -650,8 +646,8 @@
       "level": "I",
       "defense": {
         "type": "AT",
-        "value": "6",
-        "value2": "7",
+        "value": "7",
+        "value2": "6",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -927,10 +923,8 @@
       "usedFor": "Dahaka",
       "level": "I",
       "defense": {
-        "type": "AT",
-        "value": "7",
-        "value2": "8",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "8/7"
       },
       "resources": [
         {
@@ -1182,10 +1176,8 @@
       "usedFor": "Dahaka",
       "level": "I",
       "defense": {
-        "type": "AT",
-        "value": "6",
-        "value2": "7",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "7/6"
       },
       "resources": [
         {
@@ -1374,6 +1366,14 @@
       "attackType": [
         "Zone"
       ],
+      "attackDiagram": [
+        "WWWWWWWWWWWWWWWWWWWWWWWWW",
+        "BBBBBBBBBBBBBBBBBBBBBBBBB",
+        "BBBBBBBBBPPWWWWWWBBBBBBBB",
+        "BBBBBBBBBPPWWWWWWBBBBBBBB",
+        "BBBBBBBBBBBBBBBBBBBBBBBBB",
+        "WWWWWWWWWWWWWWWWWWWWWWWWW"
+      ],
       "dice": "5",
       "difficulty": "10",
       "consequences": [
@@ -1470,9 +1470,9 @@
       "usedFor": "Dahaka",
       "level": "I",
       "defense": {
-        "type": "AT",
-        "value": "6",
-        "value2": "7",
+        "type": "AT-Q",
+        "value": "7",
+        "value2": "6",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -1698,9 +1698,9 @@
       "usedFor": "Dahaka",
       "level": "II",
       "defense": {
-        "type": "AT",
-        "value": "10",
-        "value2": "12",
+        "type": "AT-Q",
+        "value": "12",
+        "value2": "10",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -1944,8 +1944,8 @@
       "level": "II",
       "defense": {
         "type": "AT",
-        "value": "11",
-        "value2": "13",
+        "value": "13",
+        "value2": "11",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -2120,10 +2120,8 @@
       "usedFor": "Dahaka",
       "level": "II",
       "defense": {
-        "type": "AT",
-        "value": "11",
-        "value2": "13",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "13/11"
       },
       "resources": [
         {
@@ -2372,10 +2370,8 @@
       "usedFor": "Dahaka",
       "level": "II",
       "defense": {
-        "type": "AT",
-        "value": "9",
-        "value2": "11",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "11/9"
       },
       "resources": [
         {
@@ -2645,10 +2641,8 @@
       "usedFor": "Dahaka",
       "level": "II",
       "defense": {
-        "type": "AT",
-        "value": "10",
-        "value2": "12",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "12/10"
       },
       "resources": [
         {
@@ -2882,10 +2876,8 @@
       "usedFor": "Dahaka",
       "level": "II",
       "defense": {
-        "type": "AT",
-        "value": "9",
-        "value2": "11",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "11/9"
       },
       "resources": [
         {
@@ -3173,9 +3165,9 @@
       "usedFor": "Dahaka",
       "level": "III",
       "defense": {
-        "type": "AT",
-        "value": "13",
-        "value2": "16",
+        "type": "AT-Q",
+        "value": "16",
+        "value2": "13",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -3399,8 +3391,8 @@
       "level": "III",
       "defense": {
         "type": "AT",
-        "value": "14",
-        "value2": "17",
+        "value": "17",
+        "value2": "14",
         "comboType": "Interrupt"
       },
       "resources": [
@@ -3693,10 +3685,8 @@
       "usedFor": "Dahaka",
       "level": "III",
       "defense": {
-        "type": "AT",
-        "value": "12",
-        "value2": "15",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "15/12"
       },
       "resources": [
         {
@@ -3811,10 +3801,8 @@
       "usedFor": "Dahaka",
       "level": "III",
       "defense": {
-        "type": "AT",
-        "value": "14",
-        "value2": "17",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "17/14"
       },
       "resources": [
         {
@@ -4149,10 +4137,8 @@
       "usedFor": "Dahaka",
       "level": "III",
       "defense": {
-        "type": "AT",
-        "value": "12",
-        "value2": "15",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "15/12"
       },
       "resources": [
         {
@@ -4349,10 +4335,8 @@
       "usedFor": "Dahaka",
       "level": "III",
       "defense": {
-        "type": "AT",
-        "value": "12",
-        "value2": "15",
-        "comboType": "Interrupt"
+        "type": "",
+        "value": "15/12"
       },
       "resources": [
         {

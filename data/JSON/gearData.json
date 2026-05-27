@@ -332,7 +332,7 @@
     "errata": {},
     "acquisition": "Crafting, Story",
     "flavor": "Broken shells make sharp teeth",
-    "slot": "1 Hand",
+    "slot": "2 Hands",
     "transformsInto": null,
     "traits": [
       "Shell",
@@ -1777,7 +1777,15 @@
             "abilityText": [
               {
                 "type": "keyword",
-                "value": "Reinforce 1"
+                "value": "Reinforce 2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
               }
             ]
           }
@@ -4335,6 +4343,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "10",
     "acquisition": "Crit Loot",
     "flavor": "The patterns on this arm seem to change when you're not looking",
     "slot": "2 Hands",
@@ -4456,6 +4465,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "11",
     "acquisition": "Story",
     "flavor": "In the kingdom of Argyros the Sun does not rise",
     "slot": "2 Hands",
@@ -4595,6 +4605,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "12",
     "acquisition": "Crit Loot",
     "flavor": "Made from a motor mechanism of the Labyrinthauros",
     "slot": "2 Hands",
@@ -4680,6 +4691,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "13",
     "acquisition": "Crit Loot",
     "flavor": "The shroud of the Bull was said to be knitted with Ariadne's thread",
     "slot": "Armor",
@@ -5111,6 +5123,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "14",
     "acquisition": "Story",
     "flavor": "A Knife So Sharp...",
     "slot": "1 Hand",
@@ -5220,6 +5233,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "15",
     "acquisition": "Story",
     "flavor": "Those engravings, are those tears you see?",
     "slot": "Support",
@@ -5315,6 +5329,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "16",
     "acquisition": "Story",
     "flavor": "Even the witch of the West must bow to the curse of the East",
     "slot": "1 Hand",
@@ -5494,6 +5509,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "17",
     "acquisition": "Crit Loot",
     "flavor": "These nails, long and ever sharp, evolved for killing, not for hunting",
     "slot": "2 Hands",
@@ -5624,6 +5640,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "20",
     "acquisition": "Story",
     "flavor": "All will be transformed",
     "slot": "Support",
@@ -5941,6 +5958,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "18",
     "acquisition": "Crit Loot",
     "flavor": "Why a vulture?",
     "slot": "Support",
@@ -6046,6 +6064,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "19",
     "acquisition": "Treasure",
     "flavor": "Repurposed destruction",
     "slot": "1 Hand",
@@ -6137,6 +6156,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "21",
     "acquisition": "Story",
     "flavor": "To find the way in all the dark places",
     "slot": "Support",
@@ -6198,6 +6218,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "22",
     "acquisition": "Story",
     "flavor": "A Godzilla among pugs",
     "slot": "Attachment",
@@ -6319,6 +6340,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "23",
     "acquisition": "Story",
     "flavor": "Burden hardest to birth",
     "slot": "Attachment",
@@ -8103,6 +8125,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "46",
     "acquisition": "Crit Loot, Other",
     "flavor": "After each night, dawnbreak. At the end of every tunnel, light",
     "slot": "2 Hands",
@@ -8293,6 +8316,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "174",
     "acquisition": "Other",
     "flavor": "From fear, bravery. From despair, hope everlasting",
     "slot": "3 Hands",
@@ -13610,6 +13634,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "173",
     "acquisition": "Other",
     "flavor": "Cadmus, Perseus, and Bellerophon, the great monster slayers. Surpass them",
     "slot": "2 Hands",
@@ -13821,6 +13846,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "47",
     "acquisition": "Crit Loot",
     "flavor": "A Cyclonus's severed hand. Crude, but packs a punch",
     "slot": "1 Hand",
@@ -13936,6 +13962,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "48",
     "acquisition": "Crit Loot",
     "flavor": "A Cyclonus's severed hand. Crude, but packs a punch",
     "slot": "1 Hand",
@@ -14051,6 +14078,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "49",
     "acquisition": "Crit Loot",
     "flavor": "From before the times of Herakles, the Exile became the Slayer",
     "slot": "2 Hands",
@@ -14246,6 +14274,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "50",
     "acquisition": "Crit Loot",
     "flavor": "This sinister virus seems to feed off black ambrosia",
     "slot": "Attachment",
@@ -14350,6 +14379,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "51",
     "acquisition": "Crit Loot",
     "flavor": "Choke on this",
     "slot": "Support",
@@ -14950,6 +14980,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "176",
     "acquisition": "Crit Loot",
     "flavor": "Nietzschean's flesh has a life of its own and bonds with any glutton for punishment",
     "slot": "Armor",
@@ -15121,6 +15152,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "53",
     "acquisition": "Crit Loot",
     "flavor": "The mantle of the king of ashes",
     "slot": "Support",
@@ -15309,6 +15341,7 @@
         }
       ]
     },
+    "secretCardNumber": "54",
     "acquisition": "Other",
     "flavor": "For all his wisdom, Great King Lelex failed to learn the truest lesson of them all: in the end, every swordsman dies by their own sword",
     "slot": "* Hands",
@@ -15524,6 +15557,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "55",
     "acquisition": "Story",
     "flavor": "The triumph of Lacedaemon was paid in the god's currency: blood",
     "slot": "1 Hand",
@@ -15787,6 +15821,7 @@
       }
     ],
     "errata": {},
+    "secretCardNumber": "56",
     "acquisition": "Story",
     "flavor": "Is for kings",
     "slot": "2 Hands",
@@ -16016,6 +16051,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "57",
     "acquisition": "Story",
     "flavor": "As heavy as the Leleges' sins through inexorable aeons",
     "slot": "3 Hands",
@@ -16231,6 +16267,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "59",
     "acquisition": "Story",
     "flavor": "The Maws of Byzantion are blind and voracious",
     "slot": "2 Hands",
@@ -17106,6 +17143,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "60",
     "acquisition": "Story, Crit Loot",
     "flavor": "One day",
     "slot": "* Hands",
@@ -17356,6 +17394,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "61",
     "acquisition": "Story",
     "flavor": "This day",
     "slot": "* Hands",
@@ -17746,6 +17785,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "179",
     "acquisition": "Tree of Knowledge",
     "flavor": "Kill them with kindness!",
     "slot": "2 Hands",
@@ -17885,6 +17925,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "180",
     "acquisition": "Tree of Knowledge",
     "flavor": "Crafted by Nyx herself",
     "slot": "Support",
@@ -20341,7 +20382,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Sprial 1"
+            "value": "Spiral 1"
           }
         ]
       },
@@ -25162,6 +25203,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "84",
     "acquisition": "Crit Loot",
     "flavor": "And for a moment you saw your Enemy, ever so radiant",
     "slot": "Support",
@@ -25270,6 +25312,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "85",
     "acquisition": "Crit Loot",
     "flavor": "Dare to dream the impossible dream",
     "slot": "1 Hand",
@@ -26887,6 +26930,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "88",
     "acquisition": "Crit Loot",
     "flavor": "It is not the Fall that defines us, but the Rise",
     "slot": "Support",
@@ -26962,6 +27006,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "89",
     "acquisition": "Crit Loot",
     "flavor": "Destined to fall, not by Moirai verdict, but by his Father's obsession",
     "slot": "3 Hands",
@@ -27166,6 +27211,7 @@
         }
       ]
     },
+    "secretCardNumber": "90",
     "acquisition": "Story",
     "flavor": "Who made this? When?",
     "slot": "Attachment",
@@ -27319,6 +27365,7 @@
       }
     ],
     "errata": {},
+    "secretCardNumber": "91",
     "acquisition": "Other, Story",
     "flavor": "The blade shimmers",
     "slot": "Attachment",
@@ -27423,6 +27470,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "92",
     "acquisition": "Story",
     "flavor": "Was it Promethea taht forged it, or did she simply find it?",
     "slot": "1 Hand",
@@ -27563,6 +27611,7 @@
       }
     ],
     "errata": {},
+    "secretCardNumber": "93",
     "acquisition": "Story",
     "flavor": "To see the reflection of your future mistakes",
     "slot": "Attachment",
@@ -27653,6 +27702,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "94",
     "acquisition": "Story",
     "flavor": "Solved",
     "slot": "Armor",
@@ -27750,6 +27800,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "95",
     "acquisition": "Story",
     "flavor": "For the Spiral Secret will be revealed one day",
     "slot": "1 Hand",
@@ -29235,6 +29286,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "96",
     "acquisition": "Story",
     "flavor": "It was there at their birth, it saw their demise",
     "slot": "* Hands",
@@ -29411,6 +29463,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "162",
     "acquisition": "Tree of Knowledge",
     "flavor": "And Hermes said: you stop, you die",
     "slot": "Support",
@@ -29552,6 +29605,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "147",
     "acquisition": "Tree of Knowledge",
     "flavor": "The Sum was greater than its parts",
     "slot": "3 Hands",
@@ -29780,6 +29834,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "148",
     "acquisition": "Tree of Knowledge",
     "flavor": "If not in this life, then in the next",
     "slot": "1 Hand",
@@ -30020,6 +30075,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "150",
     "acquisition": "Tree of Knowledge, Story",
     "flavor": "In the darkest depths of Atlantis, you will fulfill our promise",
     "slot": "2 Hands",
@@ -30240,6 +30296,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "165",
     "acquisition": "Tree of Knowledge",
     "flavor": "You are either the hunter or the prey",
     "slot": "2 Hands",
@@ -30410,6 +30467,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "171",
     "acquisition": "Tree of Knowledge",
     "flavor": "Ancient at the dawn of the Bronze Age. First Blade, first murder",
     "slot": "* Hands",
@@ -30569,6 +30627,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "154",
     "acquisition": "Tree of Knowledge",
     "flavor": "And so the Old King said: enough of this madness. And it was enough",
     "slot": "1 Hand",
@@ -30778,6 +30837,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "163",
     "acquisition": "Tree of Knowledge",
     "flavor": "Where Knowledge dares, the Divine finds no haven",
     "slot": "1 Hand",
@@ -30945,6 +31005,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "167",
     "acquisition": "Tree of Knowledge",
     "flavor": "Fire was not the First Invention",
     "slot": "2 Hands",
@@ -31183,6 +31244,7 @@
         }
       ]
     },
+    "secretCardNumber": "151",
     "acquisition": "Tree of Knowledge",
     "flavor": "The Great Alkahest of the Atlantean nation was to be their undoing",
     "slot": "2 Hands",
@@ -31477,6 +31539,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "170",
     "acquisition": "Tree of Knowledge",
     "flavor": "In his defeat, King Sisyphus sowed the seeds of victory",
     "slot": "Support",
@@ -31712,6 +31775,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "158",
     "acquisition": "Tree of Knowledge",
     "flavor": "Indiscernible is the arc of the spear not yet thrown -Alexandria",
     "slot": "2 Hands",
@@ -31971,6 +32035,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "149",
     "acquisition": "Tree of Knowledge",
     "flavor": "A Weapon for a more Civilized time",
     "slot": "1 Hand",
@@ -32192,6 +32257,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "172",
     "acquisition": "Tree of Knowledge",
     "flavor": "Harvests come in Cycles",
     "slot": "3 Hands",
@@ -32507,6 +32573,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "157",
     "acquisition": "Tree of Knowledge",
     "flavor": "For our fortress is the Argo",
     "slot": "1 Hand",
@@ -32699,6 +32766,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "152",
     "acquisition": "Tree of Knowledge",
     "flavor": "Even a God must abdicate when confronted with unassailable arguments",
     "slot": "3 Hands",
@@ -32930,6 +32998,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "153",
     "acquisition": "Tree of Knowledge",
     "flavor": "A true ontological weapon. Would that he had said yes",
     "slot": "2 Hands",
@@ -33125,6 +33194,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "164",
     "acquisition": "Tree of Knowledge",
     "flavor": "Black depths bleed black thoughts and blacker deeds",
     "slot": "2 Hands",
@@ -33340,6 +33410,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "160",
     "acquisition": "Tree of Knowledge",
     "flavor": "The Children of the Earth shall one day rise up against the Sky",
     "slot": "1 Hand, 2 Hands",
@@ -33566,6 +33637,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "156",
     "acquisition": "Tree of Knowledge",
     "flavor": "Greed is good. Absolute greed leads to the end of all things",
     "slot": "1 Hand",
@@ -33749,6 +33821,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "159",
     "acquisition": "Tree of Knowledge",
     "flavor": "Follow in the footsteps of the Savior Thief, for nothing is holy",
     "slot": "1 Hand, 2 Hands, 3 Hands",
@@ -34030,6 +34103,7 @@
         }
       ]
     },
+    "secretCardNumber": "155",
     "acquisition": "Tree of Knowledge",
     "flavor": "Let those buried under the uncaring Aeons be heard at last",
     "slot": "1 Hand",
@@ -34216,6 +34290,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "166",
     "acquisition": "Tree of Knowledge",
     "flavor": "The nurturing Mother shades you from the cruel Sun",
     "slot": "1 Hand",
@@ -34456,6 +34531,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "168",
     "acquisition": "Tree of Knowledge",
     "flavor": "To sow discord and chaos among the peoples of Hellas",
     "slot": "2 Hands",
@@ -34681,6 +34757,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "161",
     "acquisition": "Tree of Knowledge",
     "flavor": "May he rot in Darkness",
     "slot": "1 Hand",
@@ -44291,6 +44368,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "186",
     "acquisition": "Story",
     "flavor": "It tastes of an ancient shore",
     "slot": "1 Hand",
@@ -44437,6 +44515,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "187",
     "acquisition": "Story",
     "flavor": "Supposedly a part of the Tower itself",
     "slot": "2 Hands",
@@ -44652,6 +44731,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "188",
     "acquisition": "Story",
     "flavor": "It is old and powerful and hungry for the stars",
     "slot": "2 Hands",
@@ -44817,6 +44897,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "189",
     "acquisition": "Crit Loot",
     "flavor": "Now you see me. See me",
     "slot": "Armor",
@@ -44915,6 +44996,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "190",
     "acquisition": "Crit Loot",
     "flavor": "Listen to the sweetest song: the song of the booming market",
     "slot": "Support",
@@ -45003,6 +45085,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "191",
     "acquisition": "Crit Loot",
     "flavor": "Only in extinction did the Persians find the manticore's value",
     "slot": "2 Hands",
@@ -45190,6 +45273,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "192",
     "acquisition": "Crit Loot",
     "flavor": "It is everything you've wished for, until it isn't",
     "slot": "1 Hand",
@@ -45364,6 +45448,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "193",
     "acquisition": "Crit Loot",
     "flavor": "Dissevered Anemoi essence",
     "slot": "Armor",
@@ -45513,6 +45598,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "194",
     "acquisition": "Crit Loot",
     "flavor": "Go ahead, make my wish",
     "slot": "1 Hand",
@@ -45661,6 +45747,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "196",
     "acquisition": "Crit Loot",
     "flavor": "This piece reveals an ancient truth",
     "slot": "Support",
@@ -45794,6 +45881,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "197",
     "acquisition": "Crit Loot",
     "flavor": "Evanescent, yet unwieldy",
     "slot": "2 Hands",
@@ -45933,6 +46021,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "198",
     "acquisition": "Crit Loot",
     "flavor": "When it stiffens, it will immortalize you",
     "slot": "Armor",
@@ -46045,6 +46134,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "199",
     "acquisition": "Crit Loot",
     "flavor": "The First Tome contains these strange drawings of skeletons you wear",
     "slot": "Armor",
@@ -46169,6 +46259,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "200",
     "acquisition": "Crit Loot",
     "flavor": "The marrow fo the System is those willing to climb it",
     "slot": "2 Hands",
@@ -47906,6 +47997,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "201",
     "acquisition": "Story",
     "flavor": "It is too late now",
     "slot": "2 Hands",
@@ -48043,6 +48135,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "202",
     "acquisition": "Other",
     "flavor": "The less you are, the more you bear",
     "slot": "3 Hands",
@@ -48211,6 +48304,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "203",
     "acquisition": "Crit Loot",
     "flavor": "Creation and destruction, domains of the divine",
     "slot": "2 Hands",
@@ -48431,6 +48525,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "204",
     "acquisition": "Crit Loot",
     "flavor": "Like a miniature sun",
     "slot": "Support",
@@ -48517,6 +48612,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "205",
     "acquisition": "Crit Loot",
     "flavor": "Irresistible Ire",
     "slot": "Support",
@@ -48602,6 +48698,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "206",
     "acquisition": "Story",
     "flavor": "The gas filling Midascore sacs is highly toxic -- and compressed",
     "slot": "1 Hand",
@@ -48704,6 +48801,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "321",
     "acquisition": "Story",
     "flavor": "Moiler and aeolipilean engines merged into one. Good fortune the design cannot be replicated",
     "slot": "1 Hand",
@@ -48825,6 +48923,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "297",
     "acquisition": "Story",
     "flavor": "Those in supreme power always fear and hate their most promising heir",
     "slot": "Support",
@@ -48960,6 +49059,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "208",
     "acquisition": "Doomed Investment",
     "flavor": "Ancient at the dawn of the Bronze Age. First Blade, first murder",
     "slot": "* Hands",
@@ -49110,6 +49210,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "209",
     "acquisition": "Doomed Investment",
     "flavor": "The Great Alkahest of the Atlantean nation was to be their undoing",
     "slot": "2 Hands",
@@ -49362,6 +49463,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "210",
     "acquisition": "Doomed Investment",
     "flavor": "Greed is good. Absolute greed leads to the end of all things",
     "slot": "1 Hand",
@@ -49517,6 +49619,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "211",
     "acquisition": "Doomed Investment, Story",
     "flavor": "The nurturing Mother shades you from the cruel Sun",
     "slot": "1 Hand",
@@ -49751,6 +49854,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "212",
     "acquisition": "Doomed Investment",
     "flavor": "To sow discord and chaos among the peoples of Hellas",
     "slot": "2 Hands",
@@ -59804,6 +59908,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "278",
     "acquisition": "Story",
     "flavor": "As all zeal is",
     "slot": "1 Hand",
@@ -59969,6 +60074,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "279",
     "acquisition": "Story",
     "flavor": "In the Kingdom of the Argyros, the Sun does not set",
     "slot": "2 Hands",
@@ -60116,6 +60222,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "280",
     "acquisition": "Story",
     "flavor": "Twice broken",
     "slot": "3 Hands",
@@ -60256,6 +60363,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "281",
     "acquisition": "Story",
     "flavor": "Curiously shaped by a Cyclopes smith for an Inheritor",
     "slot": "1 Hand",
@@ -60415,6 +60523,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "282",
     "acquisition": "Crit Loot",
     "flavor": "The nerves of the Dragon remain active weeks after severing",
     "slot": "1 Hand",
@@ -60563,6 +60672,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "283",
     "acquisition": "Crit Loot",
     "flavor": "What is this light that is neither bright nor warm?",
     "slot": "1 Hand",
@@ -60694,6 +60804,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "284",
     "acquisition": "Crit Loot",
     "flavor": "To wear the face of your fear is to conquer it",
     "slot": "Attachment",
@@ -60810,6 +60921,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "285",
     "acquisition": "Crit Loot",
     "flavor": "Argo tekne turns heat into light",
     "slot": "Attachment",
@@ -60867,6 +60979,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "286",
     "acquisition": "Crit Loot",
     "flavor": "Wrap yourselves tight and brave the void, and never ask what it was made from",
     "slot": "Armor",
@@ -60973,6 +61086,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "287",
     "acquisition": "Crit Loot",
     "flavor": "Thick cancerous hide as good at resisting heat as retaining it",
     "slot": "1 Hand",
@@ -61082,6 +61196,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "288",
     "acquisition": "Crit Loot",
     "flavor": "Despite all efforts, the blade slowly solidifies after separation",
     "slot": "1 Hand",
@@ -61225,6 +61340,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "289",
     "acquisition": "Crit Loot",
     "flavor": "It slots neatly into the sockets in your Titan's body",
     "slot": "Armor",
@@ -61355,6 +61471,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "290",
     "acquisition": "Crit Loot",
     "flavor": "The purpose of the exhausts remains unknown",
     "slot": "Support",
@@ -61481,6 +61598,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "291",
     "acquisition": "Crit Loot",
     "flavor": "Ceramics spun by the Theatre from some unknown future",
     "slot": "Armor",
@@ -61568,6 +61686,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "292",
     "acquisition": "Crit Loot",
     "flavor": "What metal is this?",
     "slot": "1 Hand",
@@ -61687,6 +61806,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "293",
     "acquisition": "Crit Loot",
     "flavor": "It stuck to the helm like a barnacle and began to grow",
     "slot": "Support",
@@ -62231,7 +62351,7 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "It blooms",
-    "slot": "Attachment",
+    "slot": "Support",
     "transformsInto": null,
     "traits": [
       "Primordial",
@@ -63119,6 +63239,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "294",
     "acquisition": "Story",
     "flavor": "During the Golden Age, the gods used them to control swarms of the Typhon",
     "slot": "Attachment",
@@ -63325,6 +63446,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "295",
     "acquisition": "Story",
     "flavor": "Rebuilt from the Typhonic, where that one commands, this one serves with counsel",
     "slot": "Attachment",
@@ -63529,6 +63651,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "296",
     "acquisition": "Treasure",
     "flavor": "Made from an experimental deepsea warship",
     "slot": "2 Hands",
@@ -63656,6 +63779,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "298",
     "acquisition": "Story",
     "flavor": "Argonaut's best friend",
     "slot": "Attachment",
@@ -63777,6 +63901,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "299",
     "acquisition": "Truth Machine",
     "flavor": "You are either the hunter, or the prey",
     "slot": "2 Hands",
@@ -63947,6 +64072,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "300",
     "acquisition": "Truth Machine",
     "flavor": "In his defeat, King Sisyphus sowed the seeds of victory",
     "slot": "Support",
@@ -64187,6 +64313,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "302",
     "acquisition": "Truth Machine",
     "flavor": "Black depths bleed black thoughts and blacker deeds",
     "slot": "2 Hands",
@@ -64384,6 +64511,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "303",
     "acquisition": "Truth Machine",
     "flavor": "Follow in the footsteps of the Savior Thief, for nothing is Holy",
     "slot": "1 Hand, 2 Hands, 3 Hands",
@@ -64602,6 +64730,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "260",
     "acquisition": "Tree of Knowledge",
     "flavor": "Too late did the Djinn realize, the lamps were for them",
     "slot": "1 Hand",
@@ -64789,6 +64918,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "261",
     "acquisition": "Tree of Knowledge",
     "flavor": "Used by the original Gravedivers of Babylonia",
     "slot": "Support",
@@ -64911,6 +65041,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "262",
     "acquisition": "Tree of Knowledge",
     "flavor": "Hunted to extinction during the XVIII Expedition to tame the Great Forest",
     "slot": "3 1 Hands",
@@ -65164,6 +65295,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "263",
     "acquisition": "Tree of Knowledge",
     "flavor": "A bauble from a different age",
     "slot": "1 Hand",
@@ -65452,6 +65584,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "264",
     "acquisition": "Tree of Knowledge",
     "flavor": "In the last days of the Golden Age, their need for control reached unseen heights",
     "slot": "Support",
@@ -65633,6 +65766,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "265",
     "acquisition": "Tree of Knowledge",
     "flavor": "A vision of the future",
     "slot": "Attachment",
@@ -65760,6 +65894,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "266",
     "acquisition": "Tree of Knowledge",
     "flavor": "The most fearsome dragons have been made of fear and hate",
     "slot": "2 1 Hands",
@@ -66041,6 +66176,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "267",
     "acquisition": "Tree of Knowledge",
     "flavor": "What power turns the dreams of the divine dead into curses that haunt the living?",
     "slot": "1 Hand",
@@ -66254,6 +66390,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "268",
     "acquisition": "Tree of Knowledge",
     "flavor": "Whispers sweet nothings into the ears of His cattle, and shields Him from all scrutiny",
     "slot": "1 Hand",
@@ -66447,6 +66584,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "269",
     "acquisition": "Tree of Knowledge",
     "flavor": "In another life, in another world, they would have lived happily ever after",
     "slot": "2 Hands",
@@ -66676,6 +66814,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "270",
     "acquisition": "Tree of Knowledge",
     "flavor": "It reaches from the Abyss, from beyond death's veil, from beyond reality's edge",
     "slot": "2 Hands",
@@ -66919,6 +67058,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "271",
     "acquisition": "Tree of Knowledge",
     "flavor": "Therein-contained, they have walked the Abyss and the Void",
     "slot": "Armor",
@@ -67057,6 +67197,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "272",
     "acquisition": "Tree of Knowledge",
     "flavor": "Shaped from a starborne mirrorstone by the first trespasser",
     "slot": "1 Hand",
@@ -67263,6 +67404,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "273",
     "acquisition": "Tree of Knowledge",
     "flavor": "Feats of the past becomes sins of the future",
     "slot": "Support",
@@ -67378,6 +67520,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "274",
     "acquisition": "Tree of Knowledge",
     "flavor": "A gift from the last of the Golden People, or so the Colchians claimed",
     "slot": "2 Hands",
@@ -67564,6 +67707,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "275",
     "acquisition": "Tree of Knowledge",
     "flavor": "Woe to faraway Colchis. If the Fates had had their way, you would have been saved by the Nemeinauts",
     "slot": "Armor",
@@ -67789,6 +67933,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "276",
     "acquisition": "Tree of Knowledge",
     "flavor": "The flagship of the Luminous Atlantean Fleet that never was",
     "slot": "3 Hands",
@@ -67820,14 +67965,22 @@
     "defensiveStatistics": [],
     "asteriskEffect": null,
     "wished": false,
-    "unique": false,
+    "unique": true,
     "ascended": false,
     "abilities": [
       {
         "abilityText": [
           {
-            "type": "keyword",
-            "value": "Light 1"
+            "type": "plainText",
+            "value": "Mnestis"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
           }
         ]
       },
@@ -67835,7 +67988,190 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Ranged 1-4"
+            "value": "Auto-hope 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Closing 4"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Overbreak 6"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Hope 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Assist 4"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Clutch"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Succor"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Gain 1 Oxygen token"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Chance"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "All Titans move toward you up to their"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "value"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "As Promised:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "When you discard this card, immediately gain the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Promise Fulfilled",
+            "refID": ""
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card, with 2 positive Precision tokens and +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "MortalPowerDie"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "on it"
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When another Titan gains a Crit Chance, all other Titans (you included) may move toward that Titan up to their"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "value"
           }
         ]
       }
@@ -67899,6 +68235,7 @@
     "foundIn": "Secret Deck 17",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "277",
     "acquisition": "Tree of Knowledge",
     "flavor": "So this was the prize all along?",
     "slot": "Armor",
@@ -71943,7 +72280,30 @@
         "type": "Midas"
       }
     ],
-    "asteriskEffect": null,
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "X is equal to the number of aurified"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "icon",
+          "value": "Gear"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "among all Titans"
+        }
+      ]
+    },
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -72260,30 +72620,7 @@
         "type": "Laser"
       }
     ],
-    "asteriskEffect": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "X is equal to the number of aurified"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "icon",
-          "value": "Gear"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "among all Titans"
-        }
-      ]
-    },
+    "asteriskEffect": null,
     "wished": false,
     "unique": false,
     "ascended": false,
@@ -74091,7 +74428,7 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "",
-    "slot": "2 Hands",
+    "slot": "1 Hand",
     "transformsInto": "Boom Pole",
     "traits": [
       "Fire",
@@ -74203,7 +74540,7 @@
     "errata2": {},
     "acquisition2": "Crafting",
     "flavor2": "",
-    "slot2": "2 Hands",
+    "slot2": "1 Hand",
     "transformsInto2": "Boom Spear",
     "traits2": [
       "Fire",
@@ -74300,6 +74637,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "52",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "2 Hands",
@@ -74388,6 +74726,7 @@
     "foundIn2": "Secret Deck 05",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "52",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "2 Hands",
@@ -74508,6 +74847,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "175",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "Attachment",
@@ -74610,6 +74950,7 @@
     "foundIn2": "Secret Deck 05",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "175",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "Armor",
@@ -74725,6 +75066,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "177",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "Attachment",
@@ -74830,6 +75172,7 @@
     "foundIn2": "Secret Deck 05",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "177",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "Attachment",
@@ -74962,6 +75305,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "178",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "1 Hand",
@@ -75121,6 +75465,7 @@
     "foundIn2": "Secret Deck 05",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "178",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "1 Hand",
@@ -75294,6 +75639,7 @@
     "foundIn": "Secret Deck 05",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "58",
     "acquisition": "Story",
     "flavor": "",
     "slot": "1 Hand",
@@ -75412,6 +75758,7 @@
     "foundIn2": "Secret Deck 05",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "58",
     "acquisition2": "Story",
     "flavor2": "",
     "slot2": "1 Hand",
@@ -77019,6 +77366,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "86",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "2 Hands",
@@ -77145,6 +77493,7 @@
     "foundIn2": "Secret Deck 08",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "86",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "2 Hands",
@@ -77283,6 +77632,7 @@
     "foundIn": "Secret Deck 08",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "87",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "2 Hands",
@@ -77440,6 +77790,7 @@
         }
       ]
     },
+    "secretCardNumber2": "87",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "2 Hands",
@@ -77568,6 +77919,7 @@
     "foundIn": "Secret Deck 12",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "169",
     "acquisition": "Tree of Knowledge",
     "flavor": "",
     "slot": "2 Hands",
@@ -77760,6 +78112,7 @@
     "foundIn2": "Secret Deck 12",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "169",
     "acquisition2": "Tree of Knowledge",
     "flavor2": "",
     "slot2": "2 Hands",
@@ -78319,6 +78672,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "195",
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "2 Hands",
@@ -78482,6 +78836,7 @@
     "foundIn2": "Secret Deck 11",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "195",
     "acquisition2": "Crit Loot",
     "flavor2": "",
     "slot2": "2 Hands",
@@ -78658,6 +79013,7 @@
     "foundIn": "Secret Deck 11",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "207",
     "acquisition": "Story",
     "flavor": "",
     "slot": "1 Hand",
@@ -78830,6 +79186,7 @@
     "foundIn2": "Secret Deck 11",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "207",
     "acquisition2": "Story",
     "flavor2": "",
     "slot2": "1 Hand",
@@ -78944,6 +79301,7 @@
     "foundIn": "Secret Deck 18",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "301",
     "acquisition": "Truth Machine",
     "flavor": "",
     "slot": "2 Hands",
@@ -79128,6 +79486,7 @@
     "foundIn2": "Secret Deck 18",
     "faq2": [],
     "errata2": {},
+    "secretCardNumber2": "301",
     "acquisition2": "Truth Machine",
     "flavor2": "",
     "slot2": "2 Hands",

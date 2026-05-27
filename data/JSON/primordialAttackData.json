@@ -4159,14 +4159,22 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 6+ Perform Signature"
+                "value": "6+: Perform Signature"
               }
             ]
           }
@@ -4610,12 +4618,26 @@
                 "value": "Labyrinth 1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 5+ Labyrinth 2 instead"
+                "value": "5+: Labyrinth 2 instead"
               }
             ]
           }
@@ -4761,12 +4783,26 @@
                 "value": "Labyrinth 1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 6+ Labyrinth 2 instead"
+                "value": "6+: Labyrinth 2 instead"
               }
             ]
           }
@@ -5112,12 +5148,26 @@
                 "value": "Labyrinth 1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 5+ Labyrinth 2 instead"
+                "value": "5+: Labyrinth 2 instead"
               }
             ]
           }
@@ -5293,12 +5343,26 @@
                 "value": "Labyrinth 1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 5+ Labyrinth 2 instead"
+                "value": "5+: Labyrinth 2 instead"
               }
             ]
           }
@@ -12038,7 +12102,7 @@
               },
               {
                 "type": "plainText",
-                "value": "7+"
+                "value": "7+:"
               },
               {
                 "type": "whitespace",
@@ -36906,14 +36970,26 @@
                 "value": "K3-L4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
-            "gate": "Fate",
-            "value": "5+",
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Do not Glaciate"
+                "value": "5+: Do not Glaciate"
               }
             ]
           }
@@ -37092,14 +37168,26 @@
                 "value": "D12, J14, H16"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
-            "gate": "Fate",
-            "value": "7+",
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Do not Glaciate"
+                "value": "7+: Do not Glaciate"
               }
             ]
           }
@@ -37184,14 +37272,26 @@
                 "value": "C3-D4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "banner": true,
+        "WoO": false,
+        "effect": [
           {
-            "gate": "ArgoFate",
-            "value": "5+",
             "abilityText": [
               {
+                "type": "icon",
+                "value": "ArgoFate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Do not Glaciate"
+                "value": "5+: Do not Glaciate"
               }
             ]
           }
@@ -61477,8 +61577,9 @@
     "renderType": "Attack",
     "cardType": "Signature",
     "game": "Odyssey",
-    "cycle": "Promo",
+    "cycle": "Cycle V",
     "cardSize": "Standard",
+    "foundIn": "Promo",
     "faq": [],
     "errata": {},
     "usedFor": "Hermesian Pursuer",

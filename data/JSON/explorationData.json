@@ -280,7 +280,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain +1 Progress"
+            "value": "Gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Progress"
           }
         ]
       },
@@ -298,7 +306,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Chosen Argonauts gain +1 Danger"
+            "value": "Chosen Argonaut gains +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Danger"
           }
         ]
       },
@@ -324,7 +340,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Gain +2 Strangers"
+            "value": "Gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Strangers"
           }
         ]
       },
@@ -333,7 +357,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Lose -1 Crew"
+            "value": "Lose -1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Crew"
           }
         ]
       }
@@ -1988,7 +2020,23 @@
           },
           {
             "type": "plainText",
-            "value": "Map Tile: gain +2 Strangers instead)"
+            "value": "Map Tile: gain +2"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Strangers"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "instead)"
           }
         ]
       },
@@ -2053,18 +2101,12 @@
         ]
       },
       {
+        "gate": "ArgoFate",
+        "value": "7+",
         "abilityText": [
           {
-            "type": "icon",
-            "value": "ArgoFate"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
             "type": "plainText",
-            "value": "7+ Random Argonaut gains 1 Despair token"
+            "value": "Random Argonaut gains 1 Despair token"
           }
         ]
       }
@@ -5842,7 +5884,8 @@
     "errata": {},
     "effects": [
       {
-        "gate": "Argo Fate 8+",
+        "gate": "ArgoFate",
+        "value": "8+",
         "abilityText": [
           {
             "type": "plainText",
@@ -5947,7 +5990,7 @@
       }
     ],
     "stackType": "Continue Stack",
-    "removeEffect": "Remove from the deck permanently. %Argo Fate 7+% Remove until the next Timeline Battle",
+    "removeEffect": "Remove from the deck permanently. %ArgoFate 7+% Remove until the next Timeline Battle",
     "acclimation": "Other"
   },
   {
@@ -6017,7 +6060,7 @@
       }
     ],
     "stackType": "Continue Stack",
-    "removeEffect": "Remove from the deck permanently. %Argo Fate 5+% or %Paradox 5+% Remove until the next Timeline Battle",
+    "removeEffect": "Remove from the deck permanently. %ArgoFate 5+% or %Paradox 5+% Remove until the next Timeline Battle",
     "acclimation": "Other"
   },
   {
@@ -6095,7 +6138,7 @@
       }
     ],
     "stackType": "Continue Stack",
-    "removeEffect": "Remove from the deck permanently. %Argo Fate 6+% or %Paradox 4+% Remove until the next Timeline Battle",
+    "removeEffect": "Remove from the deck permanently. %ArgoFate 6+% or %Paradox 4+% Remove until the next Timeline Battle",
     "acclimation": "Other"
   },
   {
@@ -6165,7 +6208,7 @@
       }
     ],
     "stackType": "Continue Stack",
-    "removeEffect": "Remove from the deck permanently. %Argo Fate 7+% or %Paradox 7+% Remove until the next Timeline Battle",
+    "removeEffect": "Remove from the deck permanently. %ArgoFate 7+% or %Paradox 7+% Remove until the next Timeline Battle",
     "acclimation": "Other"
   },
   {
@@ -7921,7 +7964,8 @@
     ],
     "effects2": [
       {
-        "gate": "Argo Fate 7+",
+        "gate": "ArgoFate",
+        "value": "7+",
         "abilityText": [
           {
             "type": "plainText",
@@ -7983,7 +8027,8 @@
     ],
     "effects2": [
       {
-        "gate": "Argo Fate 8+",
+        "gate": "ArgoFate",
+        "value": "8+",
         "abilityText": [
           {
             "type": "plainText",
@@ -9883,7 +9928,8 @@
     "errata": {},
     "effects": [
       {
-        "gate": "Argo Fate 8+",
+        "gate": "ArgoFate",
+        "value": "8+",
         "abilityText": [
           {
             "type": "plainText",
@@ -14112,6 +14158,7 @@
     "foundIn": "Secret Deck 02",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "5",
     "effects": [
       {
         "abilityText": [

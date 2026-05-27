@@ -34,6 +34,8 @@ def default_row(row):
 
     if card_json["foundIn"] == "":
         card_json.pop("foundIn")
+    elif card_json["foundIn"].startswith("Secret Deck"):
+        card_json["secretCardNumber"] = row["Secret Card#"]
 
     return card_json
 

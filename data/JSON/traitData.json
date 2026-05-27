@@ -55,12 +55,34 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "Despair tokens apply the following stacking penalties (on top of their regular effects): 1+ token: You cannot use Mnemos cards"
+            "value": "Despair tokens apply the following stacking penalties (on top of their regular effects):"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "1+ token: You cannot use Mnemos cards"
           }
         ]
       },
       {
         "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
           {
             "type": "plainText",
             "value": "2+ tokens: You cannot use exhaustable"
@@ -77,6 +99,13 @@
       },
       {
         "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
           {
             "type": "plainText",
             "value": "3+ tokens: You cannot perform"
@@ -504,8 +533,16 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Additional Setup"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
-            "value": "Additional Setup: Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)"
+            "value": "Each Titan gains a Sisyphean Condtion card (randomly distributed the 4 Sisyphean Condition cards between them)"
           }
         ]
       }
@@ -2620,6 +2657,7 @@
     "foundIn": "Secret Deck 04",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "38",
     "effects": [
       {
         "abilityText": [
@@ -2701,6 +2739,7 @@
     "foundIn": "Secret Deck 04",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "37",
     "effects": [
       {
         "abilityText": [
@@ -2729,8 +2768,16 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "plainText",
-            "value": "End of Primordial Round: Titan with the lowest Danger gains X Danger"
+            "value": "Titan with the lowest Danger gains X Danger"
           }
         ]
       },
@@ -2758,6 +2805,7 @@
     "foundIn": "Secret Deck 15",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "309",
     "effects": [
       {
         "abilityText": [
@@ -2799,6 +2847,7 @@
     "foundIn": "Secret Deck 15",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "322",
     "effects": [
       {
         "abilityText": [
@@ -3067,6 +3116,7 @@
     "foundIn": "Secret Deck 15",
     "faq": [],
     "errata": {},
+    "secretCardNumber": "323",
     "effects": [
       {
         "abilityText": [
@@ -3297,7 +3347,7 @@
         "abilityText": [
           {
             "type": "timing",
-            "value": "Start of your tunr"
+            "value": "Start of your turn"
           },
           {
             "type": "whitespace",
@@ -3348,7 +3398,48 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "effects": []
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Argo-drift"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ": During the Mnestis Battle Setup, choose one archived Argonaut with a marked Katharsis"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain their card and the Mnemos they've completed until the end of Battle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If one of the Argonauts dies, discard their card, sheet, Mnemoses"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When using Skills, choose an Argonaut to use that Skill (Skills are not cumulative between Argonauts)"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -3363,7 +3454,62 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "effects": []
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Use this card as a reference if you have the Wise Providence Boon"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "The Battle begins with the Titan Round instead of the Primordial Round"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Diomedes's Challenge"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ": When you defeat a level IX Primordial, make a Diomedes's Challenge tally mark on your Mnestis Sheet (once per Primordial)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Before any Mnestis Battle, you may erase one tally mark  to gain the Wise Providence Boon for that Battle"
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
