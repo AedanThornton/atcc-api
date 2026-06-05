@@ -66,6 +66,18 @@ app.get('/', (req, res) => {
   res.send('Hello from the ATO Card API!');
 });
 
+app.get('/api/cards/all', (req, res) => {
+  console.log('Received request to /api/cards/all');
+
+  const sortedCards = sortCards([...allCards], "id:asc")
+
+  console.log(`Sending back ${sortedCards.length} cards.`);
+
+  res.json({
+    cards: sortedCards
+  })
+});
+
 // --- THE MAIN CARD ENDPOINT ---
 app.get('/api/cards', (req, res) => {
   console.log('Received request to /api/cards');
