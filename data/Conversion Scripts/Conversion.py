@@ -61,7 +61,6 @@ def csv_to_json(csv_file, json_file, row_type):
                     for key in flipside:
                         full_gear["{}2".format(key)] = flipside[key]
                     new_output.remove(gear)
-                    output.remove(gear)
                     new_output.remove(flipside)
                     output.remove(flipside)
 

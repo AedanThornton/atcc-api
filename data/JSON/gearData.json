@@ -3685,7 +3685,7 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "Come over here!",
-    "slot": "2 Hands",
+    "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
       "Bone",
@@ -4164,6 +4164,14 @@
       {
         "abilityText": [
           {
+            "type": "plainText",
+            "value": "Ignore Wound Responses"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
             "type": "timing",
             "value": "Crit Miss"
           },
@@ -4182,14 +4190,6 @@
           {
             "type": "icon",
             "value": "Danger"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Ignore Wound Responses"
           }
         ]
       },
@@ -13187,17 +13187,23 @@
             "value": "Elation 1"
           }
         ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Ambrosia +1 Precision"
-          }
-        ]
       }
     ],
     "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "1+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "+1 Precision"
+              }
+            ]
+          }
+        ]
+      },
       {
         "gate": "Ambrosia",
         "value": "3+",
@@ -20074,252 +20080,6 @@
   },
   {
     "cardIDs": [
-      "CJ1427",
-      "CJ1428"
-    ],
-    "name": "Sun Disc",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Mini American",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Sun Cutter",
-    "traits": [
-      "Discus",
-      "Argotech",
-      "Iron",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "4",
-      "precision": "+1",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "gate": {
-            "type": "Danger",
-            "value": "3+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Break 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reposition 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Ranged 2-5"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fail Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Ranged 2-6"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "instead"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "CJ1427",
-      "CJ1428"
-    ],
-    "name": "Sun Cutter",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Mini American",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "1 Hand",
-    "transformsInto": "Sun Disc",
-    "traits": [
-      "Blade",
-      "Argotech",
-      "Iron",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "+3",
-      "power": [
-        {
-          "type": [
-            "Red",
-            "Red",
-            "Black"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Overbreak 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Carving 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Deadly"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Clutch"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Trauma Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "5+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Pushback 1"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
       "CJ1429",
       "CJ1430"
     ],
@@ -25929,316 +25689,6 @@
   },
   {
     "cardIDs": [
-      "CJ1514",
-      "CJ1515"
-    ],
-    "name": "Descender",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Mini American",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "3 Hands",
-    "transformsInto": "Devolver",
-    "traits": [
-      "Slabsword",
-      "Axe",
-      "Argotech",
-      "Stone",
-      "Iron",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "4",
-      "precision": "+1",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "plus": true
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "gate": {
-            "type": "Danger",
-            "value": "6+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Clutch"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Deadly"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Pushback 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Trauma Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Fate",
-        "value": "6+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Quantum"
-              }
-            ],
-            "costs": [
-              "Fate"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "CJ1514",
-      "CJ1515"
-    ],
-    "name": "Devolver",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Mini American",
-    "faq": [],
-    "errata": {
-      "v1.1": [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Nerfed Range from 1-3 to 2-3"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "Removed"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Fate"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "keyword",
-              "value": "Quantum"
-            }
-          ]
-        }
-      ]
-    },
-    "acquisition": "Crafting",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Descender",
-    "traits": [
-      "Bow",
-      "Pistol",
-      "Argotech",
-      "Iron",
-      "Stone",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "+1",
-      "power": [
-        {
-          "type": [
-            "Red",
-            "Red",
-            "Black",
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "gate": {
-            "type": "Danger",
-            "value": "7+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Break 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Ranged 2-3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reposition 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Assist 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Wound Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If you can't wield"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "ThreeHanded"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Weapons,"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Commit"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
       "CJ1518"
     ],
     "name": "Sunreach",
@@ -29825,7 +29275,7 @@
     "cardIDs": [
       "ZJ1826"
     ],
-    "name": "Ariande's Reunion",
+    "name": "Ariadne's Reunion",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -29905,7 +29355,7 @@
         "abilityText": [
           {
             "type": "keyword",
-            "value": "Rewing"
+            "value": "Rewind"
           }
         ],
         "costs": [
@@ -56558,7 +56008,7 @@
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
-      "Wreath",
+      "Whip",
       "Aret\u00e9",
       "Moirai",
       "Metal"
@@ -68356,6 +67806,260 @@
   },
   {
     "cardIDs": [
+      "AJ9907",
+      "AJ9908",
+      "AJ9909",
+      "AJ9910"
+    ],
+    "name": "Gegenees Pygmachia",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "2 Hands, 3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Maze",
+      "Flesh",
+      "Technique",
+      "Fists"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": true,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ascended"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Argonaut Possession"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This item replaces one Titan's"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Fists",
+            "refID": "AJ0156"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If used as a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "ThreeHanded"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Weapon, gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "d10"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "AJ9911"
+    ],
+    "name": "Megases",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Club",
+      "Slabsword",
+      "Primordial",
+      "Labyrinth"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "5",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "-1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reposition 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 2"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
       "DJ9929"
     ],
     "name": "Boreas Mask",
@@ -68690,6 +68394,1063 @@
               {
                 "type": "icon",
                 "value": "BlackArmorDie"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ9940"
+    ],
+    "name": "Babelias",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Mace",
+      "Club",
+      "Stone",
+      "Bone",
+      "Primordial",
+      "Babelian"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "White"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Break 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Stuck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you trigger Stuck, gain"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Rocksteady"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "until the start of your turn"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Rush"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", but only in a straight line"
+          }
+        ],
+        "costs": [
+          "ComplicatedAction"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Break 3"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 3"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "EJ9941"
+    ],
+    "name": "Quicksilver Blades",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 1 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Kusarigama",
+      "Blade",
+      "Phos",
+      "Orichalcum",
+      "Atlantean"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1"
+          },
+          "plus": true
+        },
+        {
+          "type": [
+            "Red",
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "2"
+          },
+          "plus": true
+        },
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Red"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "3+"
+          },
+          "plus": true
+        },
+        {
+          "type": []
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you attack, you may gain +1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "to gain +2"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "icon",
+          "value": "d10"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "(up to 2 times)"
+        }
+      ]
+    },
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Liquid Edge"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Light 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Closing 1"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Aether",
+        "value": "2+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Deny"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ9942"
+    ],
+    "name": "Telemachus Fist",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand, DoubleAttachment",
+    "transformsInto": null,
+    "traits": [
+      "Ambrosia",
+      "Argotech",
+      "Flammable",
+      "Fist"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Titan Attachment"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This item replaces one Titan's"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Fists",
+            "refID": "AJ0156"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ9943"
+    ],
+    "name": "Hands of Midas",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "Greed is an infectious disease of the mind--but it spreads quickest through direct contact",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Cestus",
+      "Accursed",
+      "Gold",
+      "Metal"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+X",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Black"
+          ],
+          "gate": {
+            "type": "Full Hit"
+          }
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Midas"
+      }
+    ],
+    "asteriskEffect": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "X is equal to the number of aurified"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "icon",
+          "value": "Gear"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "among all Titans"
+        }
+      ]
+    },
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Unburden 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Pushback 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "During the second ability window, place BP LVL Midas tokens in the Kratos Pool"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Treat them as Black tokens"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When a Titan clears the Kratos Pool, they gain those Midas token"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Commit"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "("
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Midas"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Midas"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ")"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9944"
+    ],
+    "name": "Alchemic Incendiaries",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "Once, the artificeries of Persia could produce true wonders",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Fire",
+      "Ambrosia",
+      "Alchemy",
+      "Flammable"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "2",
+        "type": "Energy"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ranged 2-3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "("
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Energy"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ")"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Startup 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 3"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Midas",
+        "value": "2+",
+        "gate2": "Ambrosia",
+        "value2": "2+",
+        "comboGate": "OR",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Perform"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Unholy Alchemy"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Reverse Unholy Alchemy"
+              }
+            ],
+            "costs": [
+              "Energy",
+              "Fate",
+              "Exhaust"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9945"
+    ],
+    "name": "Prismshield",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "Sand to silica, such terrible power",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Shield",
+      "Glass",
+      "Irem"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "3",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Laser"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Sunbask 1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Hide"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Fate"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Wish Armor"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail or Crit Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Discard this card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "4+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Full Evade"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "If you evaded a Sun or Laser Attack, place 3 Fire tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9946"
+    ],
+    "name": "Tusk Lance",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "All that remains of the Great Woodland Mastodon",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Bone",
+      "Iron",
+      "Metal",
+      "Lance"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+2",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reach 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Black 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Hermes Move 1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", then, if you stopped adjacent to the Primordial, attack with +2 Precision and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Auto-break 2"
+          }
+        ],
+        "costs": [
+          "ComplicatedAction",
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Power"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "when on a VP"
               }
             ]
           }
@@ -69122,6 +69883,498 @@
         ]
       }
     ]
+  },
+  {
+    "cardIDs": [
+      "DJ9956"
+    ],
+    "name": "Endjinn Metastoma",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crit Loot",
+    "flavor": "This Persian club comes with a twist",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Primordial",
+      "Flesh",
+      "Djinn",
+      "Club"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "6",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Black 4"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Knockback 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "BP Suppress"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Each Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "timing",
+                "value": "Wound"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "AI Suppress"
+              }
+            ],
+            "costs": [
+              "Exhaust"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9957"
+    ],
+    "name": "Sword of the Unbranded",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crit Loot",
+    "flavor": "Made for the Baktrian campaigns",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Sword",
+      "Empire",
+      "Metal",
+      "Primordial",
+      "Djinn"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "type": [
+            "Power",
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Midas"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Titan Possession"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Midas Immune"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Unburden 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This cannot be exhausted or discarded in any way"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "You may discard a Mind Condition card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Rage",
+        "value": "6+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Immediately discard another"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "DJ9962"
+    ],
+    "name": "Nimbutrireme",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "The fastest trireme in the Four Winds",
+    "slot": "Support",
+    "transformsInto": null,
+    "traits": [
+      "Wood",
+      "Flesh",
+      "Primordial",
+      "Flammable",
+      "Windcurse",
+      "Trireme"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [
+      {
+        "amount": "1",
+        "type": "Energy"
+      }
+    ],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unqiue"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "+1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore Chasms"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot perform Hermes Moves"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you suffer Crash, discard this card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Rearm:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Equip any 1 Weapon"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card from the Armory"
+          }
+        ],
+        "costs": [
+          "Energy",
+          "Fate",
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": []
+  },
+  {
+    "cardIDs": [
+      "DJ9963"
+    ],
+    "name": "Cirrotrireme",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "Such beautiful sights, even if in desolation",
+    "slot": "1 Hand",
+    "transformsInto": null,
+    "traits": [
+      "Wood",
+      "Flesh",
+      "Primordial",
+      "Flammable",
+      "Windcurse",
+      "Trireme"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "-1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Speed"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Chasm"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "You cannot perform Hermes Moves"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Other Titans may treat your space as Elevated for the purposes of Hermes Movement (they cannot end their movement on your space)"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": []
   },
   {
     "cardIDs": [
@@ -72234,1153 +73487,6 @@
   },
   {
     "cardIDs": [
-      "DJ9943"
-    ],
-    "name": "Hands of Midas",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "Greed is an infectious disease of the mind--but it spreads quickest through direct contact",
-    "slot": "2 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Cestus",
-      "Accursed",
-      "Gold",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+X",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "Black"
-          ],
-          "gate": {
-            "type": "Full Hit"
-          }
-        }
-      ]
-    },
-    "defensiveStatistics": [
-      {
-        "amount": "2",
-        "type": "Midas"
-      }
-    ],
-    "asteriskEffect": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "X is equal to the number of aurified"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "icon",
-          "value": "Gear"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "among all Titans"
-        }
-      ]
-    },
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Unburden 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Pushback 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Wound"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "During the second ability window, place BP LVL Midas tokens in the Kratos Pool"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Treat them as Black tokens"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "When a Titan clears the Kratos Pool, they gain those Midas token"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "7+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Commit"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "("
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Midas"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Midas"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": ")"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DJ9944"
-    ],
-    "name": "Alchemic Incendiaries",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "Once, the artificeries of Persia could produce true wonders",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Fire",
-      "Ambrosia",
-      "Alchemy",
-      "Flammable"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+0",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Red"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [
-      {
-        "amount": "2",
-        "type": "Energy"
-      }
-    ],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Ranged 2-3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "("
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Energy"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ")"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Startup 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fire 3"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Midas",
-        "value": "2+",
-        "gate2": "Ambrosia",
-        "value2": "2+",
-        "comboGate": "OR",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Perform"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "keyword",
-                "value": "Unholy Alchemy"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "or"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "keyword",
-                "value": "Reverse Unholy Alchemy"
-              }
-            ],
-            "costs": [
-              "Energy",
-              "Fate",
-              "Exhaust"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DJ9945"
-    ],
-    "name": "Prismshield",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "Sand to silica, such terrible power",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Shield",
-      "Glass",
-      "Irem"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "3",
-      "precision": "+3",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [
-      {
-        "amount": "1",
-        "type": "Laser"
-      }
-    ],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fire 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Sunbask 1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Immediately"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Hide"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "or"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Fate"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Fate"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Wish Armor"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Crit Evade Fail or Crit Miss"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Discard this card"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "4+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "Full Evade"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "If you evaded a Sun or Laser Attack, place 3 Fire tokens in the Kratos Pool"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DJ9946"
-    ],
-    "name": "Tusk Lance",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "All that remains of the Great Woodland Mastodon",
-    "slot": "2 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Bone",
-      "Iron",
-      "Metal",
-      "Lance"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+2",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reach 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Black 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Hermes Move 1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", then, if you stopped adjacent to the Primordial, attack with +2 Precision and"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Auto-break 2"
-          }
-        ],
-        "costs": [
-          "ComplicatedAction",
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "5+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Gain +1"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Power"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "when on a VP"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DJ9957"
-    ],
-    "name": "Sword of the Unbranded",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crit Loot",
-    "flavor": "Made for the Baktrian campaigns",
-    "slot": "2 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Sword",
-      "Empire",
-      "Metal",
-      "Primordial",
-      "Djinn"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "1",
-      "precision": "",
-      "power": [
-        {
-          "type": [
-            "Black",
-            "White"
-          ]
-        },
-        {
-          "type": [
-            "Power",
-            "Power"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [
-      {
-        "amount": "1",
-        "type": "Midas"
-      }
-    ],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Titan Possession"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Midas Immune"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Unburden 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "This cannot be exhausted or discarded in any way"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Wound"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "You may discard a Mind Condition card"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Rage",
-        "value": "6+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Immediately discard another"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Gear"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DJ9962"
-    ],
-    "name": "Nimbutrireme",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "The fastest trireme in the Four Winds",
-    "slot": "Support",
-    "transformsInto": null,
-    "traits": [
-      "Wood",
-      "Flesh",
-      "Primordial",
-      "Flammable",
-      "Windcurse",
-      "Trireme"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": [
-      {
-        "amount": "1",
-        "type": "Energy"
-      }
-    ],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unqiue"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "+1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Speed"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Ignore Chasms"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You cannot perform Hermes Moves"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "When you suffer Crash, discard this card"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "bold",
-            "value": "Rearm:"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Equip any 1 Weapon"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Gear"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "card from the Armory"
-          }
-        ],
-        "costs": [
-          "Energy",
-          "Fate",
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "DJ9963"
-    ],
-    "name": "Cirrotrireme",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "Such beautiful sights, even if in desolation",
-    "slot": "1 Hand",
-    "transformsInto": null,
-    "traits": [
-      "Wood",
-      "Flesh",
-      "Primordial",
-      "Flammable",
-      "Windcurse",
-      "Trireme"
-    ],
-    "offensiveStatistics": {},
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "-1"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Speed"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Ignore"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Chasm"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "You cannot perform Hermes Moves"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Other Titans may treat your space as Elevated for the purposes of Hermes Movement (they cannot end their movement on your space)"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": []
-  },
-  {
-    "cardIDs": [
-      "DJ9956"
-    ],
-    "name": "Endjinn Metastoma",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Mini American",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crit Loot",
-    "flavor": "This Persian club comes with a twist",
-    "slot": "2 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Primordial",
-      "Flesh",
-      "Djinn",
-      "Club"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "6",
-      "precision": "+0",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Black 4"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Knockback 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Full Hit"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "BP Suppress"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Each Miss"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Opening 1"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "5+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "timing",
-                "value": "Wound"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "keyword",
-                "value": "AI Suppress"
-              }
-            ],
-            "costs": [
-              "Exhaust"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
       "BJ0829",
       "BJ0830"
     ],
@@ -75296,7 +75402,7 @@
     "cardIDs": [
       "BJ0958"
     ],
-    "name": "Fumeblade (Hidden)",
+    "name": "Fumeblade (Barred)",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -75309,15 +75415,187 @@
     "acquisition": "Crit Loot",
     "flavor": "",
     "slot": "1 Hand",
-    "transformsInto": "Fumeblade (Barred)",
+    "transformsInto": "Fumeblade (Hidden)",
     "traits": [
+      "Abyss",
+      "Primordial",
+      "Ambrosia",
+      "Sword",
+      "Leleges"
+    ],
+    "offensiveStatistics": {},
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Must start Battle this side up"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Hide"
+          }
+        ],
+        "costs": [
+          "Ambrosia",
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When you use this ability: Immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "While in the Blindspot, you have"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Armor-piercing"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Crit Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Gain 2 Ambrosia tokens"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Immediately"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Hide"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Transform"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "(once per Battle)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "BJ0958"
+    ],
+    "name2": "Fumeblade (Hidden)",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle II",
+    "cardSize2": "Mini American",
+    "foundIn2": "Secret Deck 05",
+    "faq2": [],
+    "errata2": {},
+    "secretCardNumber2": "178",
+    "acquisition2": "Crit Loot",
+    "flavor2": "",
+    "slot2": "1 Hand",
+    "transformsInto2": "Fumeblade (Barred)",
+    "traits2": [
       "Sword",
       "Abyss",
       "Primordial",
       "Ambrosia",
       "Leleges"
     ],
-    "offensiveStatistics": {
+    "offensiveStatistics2": {
       "attackDice": "1",
       "precision": "+0",
       "power": [
@@ -75330,12 +75608,12 @@
         }
       ]
     },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": true,
+    "ascended2": false,
+    "abilities2": [
       {
         "abilityText": [
           {
@@ -75433,7 +75711,7 @@
         ]
       }
     ],
-    "gatedAbilities": [
+    "gatedAbilities2": [
       {
         "gate": "Danger",
         "value": "7+",
@@ -75448,178 +75726,6 @@
             "costs": [
               "Ambrosia",
               "Fate"
-            ]
-          }
-        ]
-      }
-    ],
-    "cardIDs2": [
-      "BJ0958"
-    ],
-    "name2": "Fumeblade (Barred)",
-    "renderType2": "Gear",
-    "cardType2": "Gear",
-    "game2": "Odyssey",
-    "cycle2": "Cycle II",
-    "cardSize2": "Mini American",
-    "foundIn2": "Secret Deck 05",
-    "faq2": [],
-    "errata2": {},
-    "secretCardNumber2": "178",
-    "acquisition2": "Crit Loot",
-    "flavor2": "",
-    "slot2": "1 Hand",
-    "transformsInto2": "Fumeblade (Hidden)",
-    "traits2": [
-      "Abyss",
-      "Primordial",
-      "Ambrosia",
-      "Sword",
-      "Leleges"
-    ],
-    "offensiveStatistics2": {},
-    "defensiveStatistics2": [],
-    "asteriskEffect2": null,
-    "wished2": false,
-    "unique2": true,
-    "ascended2": false,
-    "abilities2": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fire 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "bold",
-            "value": "Must start Battle this side up"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Hide"
-          }
-        ],
-        "costs": [
-          "Ambrosia",
-          "Fate"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "When you use this ability: Immediately"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "While in the Blindspot, you have"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Armor-piercing"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Crit Miss"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Gain 2 Ambrosia tokens"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities2": [
-      {
-        "gate": "Danger",
-        "value": "7+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Immediately"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "keyword",
-                "value": "Hide"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "and"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "keyword",
-                "value": "Transform"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "(once per Battle)"
-              }
             ]
           }
         ]
@@ -76120,7 +76226,7 @@
       "CJ1425",
       "CJ1426"
     ],
-    "name": "Sun Axe",
+    "name": "Sun Spear",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -76131,106 +76237,14 @@
     "acquisition": "Crafting",
     "flavor": "",
     "slot": "2 Hands",
-    "transformsInto": "Sun Spear",
+    "transformsInto": "Sun Axe",
     "traits": [
-      "Axe",
-      "Argotech",
-      "Iron",
-      "Metal"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+0",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Red"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Wound Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Heartseeker"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "7+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Deadly"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "cardIDs2": [
-      "CJ1425",
-      "CJ1426"
-    ],
-    "name2": "Sun Spear",
-    "renderType2": "Gear",
-    "cardType2": "Gear",
-    "game2": "Odyssey",
-    "cycle2": "Cycle III",
-    "cardSize2": "Mini American",
-    "faq2": [],
-    "errata2": {},
-    "acquisition2": "Crafting",
-    "flavor2": "",
-    "slot2": "2 Hands",
-    "transformsInto2": "Sun Axe",
-    "traits2": [
       "Spear",
       "Argotech",
       "Iron",
       "Metal"
     ],
-    "offensiveStatistics2": {
+    "offensiveStatistics": {
       "attackDice": "1",
       "precision": "+2",
       "power": [
@@ -76248,12 +76262,12 @@
         }
       ]
     },
-    "defensiveStatistics2": [],
-    "asteriskEffect2": null,
-    "wished2": false,
-    "unique2": false,
-    "ascended2": false,
-    "abilities2": [
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
       {
         "abilityText": [
           {
@@ -76306,7 +76320,7 @@
         ]
       }
     ],
-    "gatedAbilities2": [
+    "gatedAbilities": [
       {
         "gate": "Danger",
         "value": "6+",
@@ -76316,6 +76330,342 @@
               {
                 "type": "keyword",
                 "value": "Opening 1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "CJ1425",
+      "CJ1426"
+    ],
+    "name2": "Sun Axe",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "faq2": [],
+    "errata2": {},
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Sun Spear",
+    "traits2": [
+      "Axe",
+      "Argotech",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "2",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Wound Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Heartseeker"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Deadly"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "CJ1427",
+      "CJ1428"
+    ],
+    "name": "Sun Disc",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "1 Hand",
+    "transformsInto": "Sun Cutter",
+    "traits": [
+      "Discus",
+      "Argotech",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "4",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "3+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Break 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reposition 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ranged 2-5"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fail Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Ranged 2-6"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "CJ1427",
+      "CJ1428"
+    ],
+    "name2": "Sun Cutter",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "faq2": [],
+    "errata2": {},
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "1 Hand",
+    "transformsInto2": "Sun Disc",
+    "traits2": [
+      "Blade",
+      "Argotech",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "1",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Black"
+          ]
+        }
+      ]
+    },
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Overbreak 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Carving 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Deadly"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Clutch"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Trauma Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "5+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Pushback 1"
               }
             ]
           }
@@ -76558,7 +76908,7 @@
       "CJ1474",
       "CJ1475"
     ],
-    "name": "Barbed Blade",
+    "name": "Barbed Saw",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -76568,15 +76918,150 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Barbed Saw",
+    "slot": "1 Hand",
+    "transformsInto": "Barbed Blade",
     "traits": [
-      "Blade",
+      "Axe",
       "Argotech",
       "Iron",
       "Metal"
     ],
     "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+2",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Red"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Break 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Black 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Wound Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reposition 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Bleeding",
+        "value": "3+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Break 1"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Black 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Succor"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "CJ1474",
+      "CJ1475"
+    ],
+    "name2": "Barbed Blade",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "faq2": [],
+    "errata2": {},
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Barbed Saw",
+    "traits2": [
+      "Blade",
+      "Argotech",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics2": {
       "attackDice": "1",
       "precision": "+1",
       "power": [
@@ -76590,12 +77075,12 @@
         }
       ]
     },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
       {
         "abilityText": [
           {
@@ -76656,7 +77141,7 @@
         ]
       }
     ],
-    "gatedAbilities": [
+    "gatedAbilities2": [
       {
         "gate": "Danger",
         "value": "7+",
@@ -76666,141 +77151,6 @@
               {
                 "type": "keyword",
                 "value": "Rouse 1"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "cardIDs2": [
-      "CJ1474",
-      "CJ1475"
-    ],
-    "name2": "Barbed Saw",
-    "renderType2": "Gear",
-    "cardType2": "Gear",
-    "game2": "Odyssey",
-    "cycle2": "Cycle III",
-    "cardSize2": "Mini American",
-    "faq2": [],
-    "errata2": {},
-    "acquisition2": "Crafting",
-    "flavor2": "",
-    "slot2": "1 Hand",
-    "transformsInto2": "Barbed Blade",
-    "traits2": [
-      "Axe",
-      "Argotech",
-      "Iron",
-      "Metal"
-    ],
-    "offensiveStatistics2": {
-      "attackDice": "2",
-      "precision": "+2",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ]
-        },
-        {
-          "type": [
-            "Red"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics2": [],
-    "asteriskEffect2": null,
-    "wished2": false,
-    "unique2": false,
-    "ascended2": false,
-    "abilities2": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Break 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Black 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Wound Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reposition 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities2": [
-      {
-        "gate": "Bleeding",
-        "value": "3+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Break 1"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Black 1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Succor"
               }
             ]
           }
@@ -77100,7 +77450,7 @@
       "CJ1512",
       "CJ1513"
     ],
-    "name": "Spiral Spear",
+    "name": "Spiral Mace",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -77111,142 +77461,15 @@
     "acquisition": "Crafting",
     "flavor": "",
     "slot": "2 Hands",
-    "transformsInto": "Spiral Mace",
+    "transformsInto": "Spiral Spear",
     "traits": [
-      "Spear",
-      "Primordial",
-      "Atemporal",
-      "Alive",
-      "Paradox"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "3",
-      "precision": "+3",
-      "power": [
-        {
-          "type": [
-            "Red"
-          ]
-        },
-        {
-          "type": [
-            "Power",
-            "Power"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": false,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Spiral 3"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reach 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Reposition 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Succor"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Trauma Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Transform"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Danger",
-        "value": "6+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Precise"
-              }
-            ],
-            "costs": [
-              "Fate",
-              "Exhaust"
-            ]
-          }
-        ]
-      }
-    ],
-    "cardIDs2": [
-      "CJ1512",
-      "CJ1513"
-    ],
-    "name2": "Spiral Mace",
-    "renderType2": "Gear",
-    "cardType2": "Gear",
-    "game2": "Odyssey",
-    "cycle2": "Cycle III",
-    "cardSize2": "Mini American",
-    "faq2": [],
-    "errata2": {},
-    "acquisition2": "Crafting",
-    "flavor2": "",
-    "slot2": "2 Hands",
-    "transformsInto2": "Spiral Spear",
-    "traits2": [
       "Club",
       "Primordial",
       "Atemporal",
       "Alive",
       "Paradox"
     ],
-    "offensiveStatistics2": {
+    "offensiveStatistics": {
       "attackDice": "1",
       "precision": "+2",
       "power": [
@@ -77259,12 +77482,12 @@
         }
       ]
     },
-    "defensiveStatistics2": [],
-    "asteriskEffect2": null,
-    "wished2": false,
-    "unique2": false,
-    "ascended2": false,
-    "abilities2": [
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
       {
         "abilityText": [
           {
@@ -77333,7 +77556,7 @@
         ]
       }
     ],
-    "gatedAbilities2": [
+    "gatedAbilities": [
       {
         "gate": "Danger",
         "value": "5+",
@@ -77351,7 +77574,442 @@
           }
         ]
       }
+    ],
+    "cardIDs2": [
+      "CJ1512",
+      "CJ1513"
+    ],
+    "name2": "Spiral Spear",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "faq2": [],
+    "errata2": {},
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Spiral Mace",
+    "traits2": [
+      "Spear",
+      "Primordial",
+      "Atemporal",
+      "Alive",
+      "Paradox"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "3",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power",
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Spiral 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reach 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reposition 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Succor"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Trauma Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities2": [
+      {
+        "gate": "Danger",
+        "value": "6+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Precise"
+              }
+            ],
+            "costs": [
+              "Fate",
+              "Exhaust"
+            ]
+          }
+        ]
+      }
     ]
+  },
+  {
+    "cardIDs": [
+      "CJ1514",
+      "CJ1515"
+    ],
+    "name": "Descender",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Mini American",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "3 Hands",
+    "transformsInto": "Devolver",
+    "traits": [
+      "Slabsword",
+      "Axe",
+      "Argotech",
+      "Stone",
+      "Iron",
+      "Metal"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "4",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "6+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Clutch"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Deadly"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Pushback 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Trauma Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Fate",
+        "value": "6+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Quantum"
+              }
+            ],
+            "costs": [
+              "Fate"
+            ]
+          }
+        ]
+      }
+    ],
+    "cardIDs2": [
+      "CJ1514",
+      "CJ1515"
+    ],
+    "name2": "Devolver",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "faq2": [],
+    "errata2": {
+      "v1.1": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Nerfed Range from 1-3 to 2-3"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "Removed"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Fate"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "keyword",
+              "value": "Quantum"
+            }
+          ]
+        }
+      ]
+    },
+    "acquisition2": "Crafting",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Descender",
+    "traits2": [
+      "Bow",
+      "Pistol",
+      "Argotech",
+      "Iron",
+      "Stone",
+      "Metal"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "1",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "Red",
+            "Red",
+            "Black",
+            "Black"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Danger",
+            "value": "7+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": false,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Transform"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Break 3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Ranged 2-3"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Reposition 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Assist 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Wound Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you can't wield"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "ThreeHanded"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Weapons,"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Commit"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities2": []
   },
   {
     "cardIDs": [
@@ -77623,7 +78281,7 @@
     "cardIDs": [
       "CJ1517"
     ],
-    "name": "Searing Pillar",
+    "name": "Spherecast",
     "renderType": "Gear",
     "cardType": "Gear",
     "game": "Odyssey",
@@ -77631,126 +78289,7 @@
     "cardSize": "Mini American",
     "foundIn": "Secret Deck 08",
     "faq": [],
-    "errata": {},
-    "secretCardNumber": "87",
-    "acquisition": "Crit Loot",
-    "flavor": "",
-    "slot": "2 Hands",
-    "transformsInto": "Spherecast",
-    "traits": [
-      "Slabsword",
-      "Fire",
-      "Primordial"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "4",
-      "precision": "+1",
-      "power": [
-        {
-          "type": [
-            "White"
-          ],
-          "gate": {
-            "type": "Hits",
-            "value": "1+"
-          }
-        },
-        {
-          "type": [
-            "White"
-          ],
-          "gate": {
-            "type": "Hits",
-            "value": "4+"
-          },
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Pushback 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fire 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Inspire 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Fail Trick"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Full Miss"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Place 2 Fire tokens in the Kratos Pool"
-          }
-        ]
-      }
-    ],
-    "gatedAbilities": [],
-    "cardIDs2": [
-      "CJ1517"
-    ],
-    "name2": "Spherecast",
-    "renderType2": "Gear",
-    "cardType2": "Gear",
-    "game2": "Odyssey",
-    "cycle2": "Cycle III",
-    "cardSize2": "Mini American",
-    "foundIn2": "Secret Deck 08",
-    "faq2": [],
-    "errata2": {
+    "errata": {
       "v1.1": [
         {
           "abilityText": [
@@ -77790,17 +78329,17 @@
         }
       ]
     },
-    "secretCardNumber2": "87",
-    "acquisition2": "Crit Loot",
-    "flavor2": "",
-    "slot2": "2 Hands",
-    "transformsInto2": "Searing Pillar",
-    "traits2": [
+    "secretCardNumber": "87",
+    "acquisition": "Crit Loot",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": "Searing Pillar",
+    "traits": [
       "Discus",
       "Fire",
       "Primordial"
     ],
-    "offensiveStatistics2": {
+    "offensiveStatistics": {
       "attackDice": "1",
       "precision": "+1",
       "power": [
@@ -77814,12 +78353,12 @@
         }
       ]
     },
-    "defensiveStatistics2": [],
-    "asteriskEffect2": null,
-    "wished2": false,
-    "unique2": false,
-    "ascended2": false,
-    "abilities2": [
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
       {
         "abilityText": [
           {
@@ -77889,7 +78428,7 @@
         ]
       }
     ],
-    "gatedAbilities2": [
+    "gatedAbilities": [
       {
         "gate": "Rage",
         "value": "5+",
@@ -77904,7 +78443,126 @@
           }
         ]
       }
-    ]
+    ],
+    "cardIDs2": [
+      "CJ1517"
+    ],
+    "name2": "Searing Pillar",
+    "renderType2": "Gear",
+    "cardType2": "Gear",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Mini American",
+    "foundIn2": "Secret Deck 08",
+    "faq2": [],
+    "errata2": {},
+    "secretCardNumber2": "87",
+    "acquisition2": "Crit Loot",
+    "flavor2": "",
+    "slot2": "2 Hands",
+    "transformsInto2": "Spherecast",
+    "traits2": [
+      "Slabsword",
+      "Fire",
+      "Primordial"
+    ],
+    "offensiveStatistics2": {
+      "attackDice": "4",
+      "precision": "+1",
+      "power": [
+        {
+          "type": [
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1+"
+          }
+        },
+        {
+          "type": [
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "4+"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics2": [],
+    "asteriskEffect2": null,
+    "wished2": false,
+    "unique2": true,
+    "ascended2": false,
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Pushback 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fire 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Inspire 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Fail Trick"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Place 2 Fire tokens in the Kratos Pool"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities2": []
   },
   {
     "cardIDs": [
