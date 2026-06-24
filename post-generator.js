@@ -62,4 +62,4 @@ ${abilities || "* None"}
   });
 }
 
-createPost({ day: 51 })
+createPost({ day: 71 })

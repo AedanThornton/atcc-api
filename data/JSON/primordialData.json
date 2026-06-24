@@ -4460,6 +4460,62 @@
           "Refuse Credit"
         ]
       }
+    ],
+    "cardIDs2": [
+      "DU2394"
+    ],
+    "name2": "Nosoi Dragon",
+    "renderType2": "Primordial",
+    "cardType2": "Primordial",
+    "game2": "Odyssey",
+    "cycle2": "Cycle IV",
+    "cardSize2": "Half-Page",
+    "foundIn2": "Promo",
+    "faq2": [],
+    "errata2": {},
+    "figure_size2": "2x2",
+    "diagramEffects2": [
+      "Blindspot"
+    ],
+    "levels2": [
+      {
+        "level": "4",
+        "toHit": "11",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [
+          {
+            "count": "2",
+            "name": "Escalation"
+          },
+          {
+            "count": "1",
+            "name": "AT"
+          }
+        ],
+        "traitsChanges": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Leap",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Pollution Aura",
+          "Enriched Toxins"
+        ],
+        "traitsFullList": [
+          "Goldtaste",
+          "Shadow in the Skies",
+          "Imperial Leap",
+          "Incremental Painment",
+          "Amongst the Bleached Bones",
+          "Cities of Gold",
+          "Sunken Costs",
+          "Pollution Aura",
+          "Enriched Toxins"
+        ]
+      }
     ]
   },
   {
@@ -7123,64 +7179,6 @@
     "figure_size": "2x2",
     "diagramEffects": [],
     "levels": []
-  },
-  {
-    "cardIDs": [
-      "DU2394"
-    ],
-    "name": "Nosoi Dragon",
-    "renderType": "Primordial",
-    "cardType": "Primordial",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Half-Page",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "figure_size": "2x2",
-    "diagramEffects": [
-      "Blindspot"
-    ],
-    "levels": [
-      {
-        "level": "4",
-        "toHit": "11",
-        "speed": "Inf",
-        "wounds": "10",
-        "attributes": [
-          {
-            "count": "2",
-            "name": "Escalation"
-          },
-          {
-            "count": "1",
-            "name": "AT"
-          }
-        ],
-        "traitsChanges": [
-          "Goldtaste",
-          "Shadow in the Skies",
-          "Imperial Leap",
-          "Incremental Painment",
-          "Amongst the Bleached Bones",
-          "Cities of Gold",
-          "Sunken Costs",
-          "Pollution Aura",
-          "Enriched Toxins"
-        ],
-        "traitsFullList": [
-          "Goldtaste",
-          "Shadow in the Skies",
-          "Imperial Leap",
-          "Incremental Painment",
-          "Amongst the Bleached Bones",
-          "Cities of Gold",
-          "Sunken Costs",
-          "Pollution Aura",
-          "Enriched Toxins"
-        ]
-      }
-    ]
   },
   {
     "cardIDs": [

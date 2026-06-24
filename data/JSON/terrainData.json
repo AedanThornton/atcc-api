@@ -163,21 +163,18 @@
       "Labyrinth"
     ],
     "abilities": [],
-    "name2": "Maze Fissure"
-  },
-  {
-    "cardIDs": [
+    "cardIDs2": [
       "AI0364"
     ],
-    "name": "Maze Fissure",
-    "renderType": "Terrain",
-    "cardType": "Terrain",
-    "game": "Odyssey",
-    "cycle": "Cycle I",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
-    "tiles": [
+    "name2": "Maze Fissure",
+    "renderType2": "Terrain",
+    "cardType2": "Terrain",
+    "game2": "Odyssey",
+    "cycle2": "Cycle I",
+    "cardSize2": "Standard",
+    "faq2": [],
+    "errata2": {},
+    "tiles2": [
       {
         "count": "3",
         "type": "1x4"
@@ -195,11 +192,10 @@
         "type": "2x2"
       }
     ],
-    "keywords": [
+    "keywords2": [
       "Chasm"
     ],
-    "abilities": [],
-    "name2": "Labyrinth"
+    "abilities2": []
   },
   {
     "cardIDs": [
@@ -1048,15 +1044,8 @@
         ]
       },
       {
+        "gate": "Allied",
         "abilityText": [
-          {
-            "type": "timing",
-            "value": "Allied"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
           {
             "type": "plainText",
             "value": "Titans on this tile have +1 Precision and +1"
@@ -1928,34 +1917,30 @@
         ]
       }
     ],
-    "name2": "Trireme Graveyard"
-  },
-  {
-    "cardIDs": [
+    "cardIDs2": [
       "DI2029"
     ],
-    "name": "Trireme Graveyard",
-    "renderType": "Terrain",
-    "cardType": "Terrain",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
-    "tiles": [
+    "name2": "Trireme Graveyard",
+    "renderType2": "Terrain",
+    "cardType2": "Terrain",
+    "game2": "Odyssey",
+    "cycle2": "Cycle IV",
+    "cardSize2": "Standard",
+    "faq2": [],
+    "errata2": {},
+    "tiles2": [
       {
         "count": "1",
         "type": "2x2"
       }
     ],
-    "keywords": [
+    "keywords2": [
       "Destructible",
       "Obstacle",
       "Elevated",
       "Treasure"
     ],
-    "abilities": [],
-    "name2": "Windblighted Fleet"
+    "abilities2": []
   },
   {
     "cardIDs": [
@@ -1992,32 +1977,29 @@
         ]
       }
     ],
-    "name2": "School of Creatures"
-  },
-  {
-    "cardIDs": [
+    "cardIDs2": [
       "DI2030"
     ],
-    "name": "School of Creatures",
-    "renderType": "Terrain",
-    "cardType": "Terrain",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
-    "tiles": [
+    "name2": "School of Creatures",
+    "renderType2": "Terrain",
+    "cardType2": "Terrain",
+    "game2": "Odyssey",
+    "cycle2": "Cycle IV",
+    "cardSize2": "Standard",
+    "faq2": [],
+    "errata2": {},
+    "tiles2": [
       {
         "count": "1",
         "type": "2x2"
       }
     ],
-    "keywords": [
+    "keywords2": [
       "Obscuring",
       "Destructible",
       "Cover"
     ],
-    "abilities": [
+    "abilities2": [
       {
         "abilityText": [
           {
@@ -2106,8 +2088,7 @@
           }
         ]
       }
-    ],
-    "name2": "Wishstorm"
+    ]
   },
   {
     "cardIDs": [
@@ -2133,32 +2114,29 @@
       "Cloud"
     ],
     "abilities": [],
-    "name2": "Black Abyss"
-  },
-  {
-    "cardIDs": [
+    "cardIDs2": [
       "DI2031"
     ],
-    "name": "Black Abyss",
-    "renderType": "Terrain",
-    "cardType": "Terrain",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
-    "tiles": [
+    "name2": "Black Abyss",
+    "renderType2": "Terrain",
+    "cardType2": "Terrain",
+    "game2": "Odyssey",
+    "cycle2": "Cycle IV",
+    "cardSize2": "Standard",
+    "faq2": [],
+    "errata2": {},
+    "tiles2": [
       {
         "count": "5",
         "type": "3x3"
       }
     ],
-    "keywords": [
+    "keywords2": [
       "Obscuring",
       "Chasm",
       "Indestructible"
     ],
-    "abilities": [
+    "abilities2": [
       {
         "abilityText": [
           {
@@ -2183,8 +2161,7 @@
           }
         ]
       }
-    ],
-    "name2": "Ambrosia Cloud"
+    ]
   },
   {
     "cardIDs": [

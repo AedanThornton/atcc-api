@@ -543,7 +543,6 @@ def trait_row(row):
 def traitLike_row(row):
     card_json = {}
 
-    if row["Reverse Name"]: card_json["name2"] = row["Reverse Name"]
     if row["Flavor"]: card_json["flavor"] = row["Flavor"]
     card_json["effects"] = parse_abilities(row["Effect Text"])
     card_json["usedFor"] = row["Used For"]

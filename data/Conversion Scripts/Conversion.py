@@ -49,24 +49,43 @@ def csv_to_json(csv_file, json_file, row_type):
             type_json = card_types[row_type](row)
             output.append(default_json | type_json)
         
-        #adjust for transforming gear
-        if output[0]["cardType"] == "Gear":
-            new_output = output.copy()
-            for gear in output:
-                if gear["transformsInto"] != None:
+        #adjust for double-sided cards
+        new_output = []
+        processed = set()
 
-                    flipside = next((item for item in output if item.get("name") == gear["transformsInto"]), None)
+        for card in output:
+            if id(card) in processed:
+                continue
 
-                    full_gear = gear.copy()
-                    for key in flipside:
-                        full_gear["{}2".format(key)] = flipside[key]
-                    new_output.remove(gear)
-                    new_output.remove(flipside)
-                    output.remove(flipside)
+            card_ids = card.get("cardIDs")
 
-                    new_output.append(full_gear)
-            
-            output = new_output
+            if card_ids is not None:
+                flipside = next(
+                    (
+                        item
+                        for item in output
+                        if item is not card
+                        and item.get("cardIDs") == card_ids
+                    ),
+                    None,
+                )
+
+                if flipside:
+                    card_copy = card.copy()
+
+                    for key, value in flipside.items():
+                        card_copy[f"{key}2"] = value
+
+                    new_output.append(card_copy)
+
+                    processed.add(id(card))
+                    processed.add(id(flipside))
+                    continue
+
+            new_output.append(card)
+            processed.add(id(card))
+
+        output = new_output
 
 
     with open(json_file, "w", encoding="utf-8") as outfile:
