@@ -20,7 +20,10 @@ function createPost({ day }) {
       return;
     }
     const gearCards = JSON.parse(data);
-    const todaysCard = gearCards[day - 1]
+    const sortedGearCards = [...gearCards].sort((a, b) =>
+      parseInt(a.cardIDs[0].slice(2), 10) - parseInt(b.cardIDs[0].slice(2), 10)
+    );
+    const todaysCard = sortedGearCards[day - 1]
 
     const gearType = todaysCard.slot.includes("Hand") ? "Weapon" : todaysCard.slot
     const defStats = todaysCard.defensiveStatistics.map((stat) => `* ${stat.type} ${stat.amount}`).join("\n")
@@ -62,4 +65,4 @@ ${abilities || "* None"}
   });
 }
 
-createPost({ day: 71 })
+createPost({ day: 78 })
