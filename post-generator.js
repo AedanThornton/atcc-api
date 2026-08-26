@@ -161,5 +161,14 @@ ${getAbilities(todaysCard) || "* None"}
   });
 }
 
-// createPost({ day: 121 })
-createTitanPost({ day: 8 })
+const args = process.argv.slice(2);
+console.log(args); // ['hello', 'world']
+
+if (args[0] === "titan") {
+  createTitanPost({ day: args[1] })
+} else if (args[0] === "gear") {
+  createPost({ day: args[1] })
+} else {
+  console.log("Invalid type: \"", args[0], "\"")
+  return
+}
