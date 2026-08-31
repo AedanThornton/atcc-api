@@ -98,14 +98,18 @@ def parse_power(power_str):
     base_pattern = r"([\+\-]?)(\w+\s*\w+(?:,\s*\w+\s*\w+)*)"
     powers = []
     for part in power_str.split(". "):
-        gate_match = re.match(r"([\w\&]+ \d+[\+\-]\d?)\s*" + base_pattern, part)
+        gate_type = ""
+        gate_split = part.split(": ")
+        if len(gate_split) > 1:
+            gate_type = gate_split[0]
+            part = gate_split[1]
+
+        print(part)
         hits_match = re.match(r"(\d?[\+\-]?\d?)\s*(?:Full\s?)?Hit[s]?\s*" + base_pattern, part)
         match = re.match(base_pattern, part)
 
-        gate_type, plus, hits, dice_string = "", False, "", ""
-        if gate_match:
-            gate_type, plus, dice_string = gate_match.groups()
-        elif hits_match:
+        plus, hits, dice_string = False, "", ""
+        if hits_match:
             hits, plus, dice_string = hits_match.groups()
         elif match:
             plus, dice_string = match.groups()
@@ -122,11 +126,14 @@ def parse_power(power_str):
                         dice_list.append(die_type)
 
         power = {"type": dice_list}
-        if (gate_match):
+        if len(gate_split) > 1:
             gate = gate_type.split()[0]
             gateCheck = gate.split("&")
 
-            power["gate"] = {"type": gateCheck[0], "value": gate_type.split()[1]}
+            if len(gate_type.split()) > 1:
+                power["gate"] = {"type": gateCheck[0], "value": gate_type.split()[1]}
+            else:
+                power["gate"] = {"type": "Condition", "value": gate_type}
 
             if len(gateCheck) > 1:
                 power["gate"]["type2"] = gateCheck[1]

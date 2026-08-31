@@ -17130,7 +17130,7 @@
     "secretCardNumber2": "177",
     "acquisition2": "Crit Loot",
     "flavor2": "",
-    "slot2": "Attachment",
+    "slot2": "1 Hand",
     "transformsInto2": "Necrotic Virus",
     "traits2": [
       "Primordial",
@@ -75186,6 +75186,115 @@
                 "type": "icon",
                 "value": "BlackArmorDie"
               }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "EJ9939"
+    ],
+    "name": "Ichthyean Finsword",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Mini American",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "",
+    "slot": "2 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Khopesh",
+      "Flesh",
+      "Mythical"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "1",
+      "precision": "+3",
+      "power": [
+        {
+          "type": [
+            "Black",
+            "White"
+          ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "gate": {
+            "type": "Condition",
+            "value": "Bravery"
+          },
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": false,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "You may gain the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Terror",
+            "refID": "EL2596"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Condition card"
+          }
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Bravery",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Tilt"
+              }
+            ],
+            "costs": [
+              "Fate"
             ]
           }
         ]
