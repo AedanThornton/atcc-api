@@ -591,32 +591,20 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
-            "value": "Opening X"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", where X is the number of"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "d10"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "you hit with"
+            "value": "Opening 1"
           }
         ]
       }
@@ -7476,6 +7464,9 @@
                 "type": "keyword",
                 "value": "Spotlight"
               }
+            ],
+            "costs": [
+              "Fate"
             ]
           }
         ]
@@ -7796,7 +7787,7 @@
     "traits": [
       "Argotech",
       "Augment",
-      "@HeadGear"
+      "Headgear"
     ],
     "offensiveStatistics": {},
     "defensiveStatistics": [],
@@ -8963,7 +8954,7 @@
             "abilityText": [
               {
                 "type": "plainText",
-                "value": "If you would die from an Instant Death effect of a Judgemnt, draw an Obol instead"
+                "value": "If you would die from an Instant Death effect of a Judgement, draw an Obol instead"
               }
             ]
           }
@@ -9139,15 +9130,7 @@
             "abilityText": [
               {
                 "type": "keyword",
-                "value": "Break 2"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "instead"
+                "value": "Break 1"
               }
             ]
           }
@@ -9274,7 +9257,7 @@
     "faq": [],
     "errata": {},
     "acquisition": "Crafting",
-    "flavor": "A carefully carved Temenos scale has surprising aeordynamic capabilities",
+    "flavor": "A carefully carved Temenos scale has surprising aerodynamic capabilities",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -9491,167 +9474,6 @@
               {
                 "type": "plainText",
                 "value": "and move up to 2 spaces"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "BJ0900"
-    ],
-    "name": "Spartan War Axe",
-    "renderType": "Gear",
-    "cardType": "Gear",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Mini American",
-    "faq": [],
-    "errata": {},
-    "acquisition": "Crafting",
-    "flavor": "A Cyclopean tool of trade remade into a weapon of war",
-    "slot": "3 Hands",
-    "transformsInto": null,
-    "traits": [
-      "Iron",
-      "Metal",
-      "Axe"
-    ],
-    "offensiveStatistics": {
-      "attackDice": "2",
-      "precision": "+0",
-      "power": [
-        {
-          "type": [
-            "Black"
-          ],
-          "gate": {
-            "type": "Hits",
-            "value": "1"
-          }
-        },
-        {
-          "type": [
-            "Black",
-            "White"
-          ],
-          "gate": {
-            "type": "Hits",
-            "value": "2"
-          }
-        },
-        {
-          "type": [
-            "Power"
-          ],
-          "plus": true
-        }
-      ]
-    },
-    "defensiveStatistics": [],
-    "asteriskEffect": null,
-    "wished": false,
-    "unique": true,
-    "ascended": false,
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Unique"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Break 2"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Cumbersome"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Full Miss"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Place 2 Break tokens in the Kratos Pool"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Wound"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "BP Suppress"
-          }
-        ],
-        "costs": [
-          "Fate"
-        ]
-      }
-    ],
-    "gatedAbilities": [
-      {
-        "gate": "Ambrosia",
-        "value": "2+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Deadly"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "gate": "Danger",
-        "value": "7+",
-        "abilities": [
-          {
-            "abilityText": [
-              {
-                "type": "keyword",
-                "value": "Rouse 1"
               }
             ]
           }
@@ -9958,32 +9780,20 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
-            "value": "Opening X"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", where X is the number of"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "d10"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "you hit with"
+            "value": "Opening 1"
           }
         ]
       }
@@ -10483,7 +10293,7 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "",
-    "slot": "2 Hands",
+    "slot": "1 Hand",
     "transformsInto": "Metabow",
     "traits": [
       "Metal",
@@ -10563,7 +10373,7 @@
     "errata2": {},
     "acquisition2": "Crafting",
     "flavor2": "",
-    "slot2": "2 Hands",
+    "slot2": "1 Hand",
     "transformsInto2": "Metasword",
     "traits2": [
       "Wood",
@@ -10801,7 +10611,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you are about to suffer a Warriors effect, roll a Dice"
+            "value": "When you are about to suffer a Warriors effect, roll a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "d10"
           }
         ]
       },
@@ -10907,7 +10725,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you are about to suffer a Warriors effect, roll a Dice"
+            "value": "When you are about to suffer a Warriors effect, roll a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "d10"
           }
         ]
       },
@@ -11353,6 +11179,167 @@
             "costs": [
               "Fate",
               "Exhaust"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cardIDs": [
+      "BJ0900"
+    ],
+    "name": "Spartan War Axe",
+    "renderType": "Gear",
+    "cardType": "Gear",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Mini American",
+    "faq": [],
+    "errata": {},
+    "acquisition": "Crafting",
+    "flavor": "A Cyclopean tool of trade remade into a weapon of war",
+    "slot": "3 Hands",
+    "transformsInto": null,
+    "traits": [
+      "Iron",
+      "Metal",
+      "Axe"
+    ],
+    "offensiveStatistics": {
+      "attackDice": "2",
+      "precision": "+0",
+      "power": [
+        {
+          "type": [
+            "Black"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "1"
+          }
+        },
+        {
+          "type": [
+            "Black",
+            "White"
+          ],
+          "gate": {
+            "type": "Hits",
+            "value": "2"
+          }
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
+        }
+      ]
+    },
+    "defensiveStatistics": [],
+    "asteriskEffect": null,
+    "wished": false,
+    "unique": true,
+    "ascended": false,
+    "abilities": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Unique"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Break 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Cumbersome"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Commit"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Full Miss"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Place 2 Break tokens in the Kratos Pool"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Wound"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "BP Suppress"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      }
+    ],
+    "gatedAbilities": [
+      {
+        "gate": "Ambrosia",
+        "value": "2+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Deadly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Rouse 1"
+              }
             ]
           }
         ]
@@ -12066,27 +12053,12 @@
           {
             "abilityText": [
               {
-                "type": "plainText",
-                "value": "Fate"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
                 "type": "keyword",
                 "value": "Second Chance"
               }
             ],
             "costs": [
+              "Fate",
               "Discard"
             ]
           }
@@ -12456,6 +12428,12 @@
             "White",
             "Black"
           ]
+        },
+        {
+          "type": [
+            "Power"
+          ],
+          "plus": true
         }
       ]
     },
@@ -13395,7 +13373,7 @@
     "faq": [],
     "errata": {},
     "acquisition": "Crafting",
-    "flavor": "Obscure Last Tome design, deceloped for canal warfare",
+    "flavor": "Obscure Last Tome design, developed for canal warfare",
     "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
@@ -13431,36 +13409,51 @@
       {
         "abilityText": [
           {
-            "type": "timing",
-            "value": "Reaction"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
+            "type": "keyword",
+            "value": "Jump"
+          }
+        ],
+        "costs": [
+          "Fate"
+        ]
+      },
+      {
+        "abilityText": [
           {
             "type": "keyword",
-            "value": "Advanced Reflex"
+            "value": "Reach 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Opening 2"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Vault"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "bold",
+            "value": "Pole Vault"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ": When the Primordial moves adjacent to you during its movement, immediately perform a VP Climb test, adding +2 to the result"
           }
         ],
         "costs": [
@@ -13469,7 +13462,33 @@
         ]
       }
     ],
-    "gatedAbilities": []
+    "gatedAbilities": [
+      {
+        "gate": "Danger",
+        "value": "7+",
+        "abilities": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Advanced Jump"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ],
+            "costs": [
+              "Fate"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "cardIDs": [
@@ -14313,7 +14332,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you attack from a VP or while Absorbed, gain +1 Power"
+            "value": "When you attack from a VP or while Absorbed, gain +1"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Power"
           }
         ]
       }
@@ -14385,7 +14412,7 @@
     "errata": {},
     "acquisition": "Crafting",
     "flavor": "The academicians created the perfect environment to transplant the Muck Virus to",
-    "slot": "2 Hands",
+    "slot": "1 Hand",
     "transformsInto": null,
     "traits": [
       "Mud",
@@ -19545,7 +19572,15 @@
         "abilityText": [
           {
             "type": "plainText",
-            "value": "When you are about to suffer a Warriors effect, roll a d10"
+            "value": "When you are about to suffer a Warriors effect, roll a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "d10"
           }
         ]
       },
@@ -20854,32 +20889,20 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
-            "value": "Opening X"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", where X is the number of"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "d10"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "you hit with"
+            "value": "Opening 1"
           }
         ]
       },
@@ -28265,7 +28288,7 @@
           },
           {
             "type": "keyword",
-            "value": "break 1"
+            "value": "Break 1"
           },
           {
             "type": "whitespace",
@@ -28377,8 +28400,20 @@
       {
         "abilityText": [
           {
+            "type": "timing",
+            "value": "Each Hit"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
             "type": "keyword",
-            "value": "Opening X"
+            "value": "Opening 1"
           },
           {
             "type": "whitespace",
@@ -28394,39 +28429,7 @@
           },
           {
             "type": "keyword",
-            "value": "Reposition X"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", where X is the number of"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "d10"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "you hit with"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Commit"
+            "value": "Reposition 1"
           }
         ]
       }
@@ -49457,7 +49460,7 @@
           },
           {
             "type": "plainText",
-            "value": ") (to a minimum of 1)"
+            "value": ")"
           }
         ],
         "costs": [
@@ -58316,32 +58319,20 @@
       {
         "abilityText": [
           {
-            "type": "keyword",
-            "value": "Pushback X"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Opening X"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "X is the number of"
+            "type": "timing",
+            "value": "Each Hit"
           },
           {
             "type": "whitespace",
             "value": " "
           },
           {
-            "type": "icon",
-            "value": "d10"
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Pushback 1"
           },
           {
             "type": "whitespace",
@@ -58349,7 +58340,15 @@
           },
           {
             "type": "plainText",
-            "value": "you hit with"
+            "value": "and"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Opening 1"
           }
         ]
       }
@@ -76965,7 +76964,7 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "acquisition": "Crafting",
+    "acquisition": "Other",
     "flavor": "The fastest trireme in the Four Winds",
     "slot": "Support",
     "transformsInto": null,
@@ -77090,7 +77089,7 @@
     "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "acquisition": "Crafting",
+    "acquisition": "Other",
     "flavor": "Such beautiful sights, even if in desolation",
     "slot": "1 Hand",
     "transformsInto": null,

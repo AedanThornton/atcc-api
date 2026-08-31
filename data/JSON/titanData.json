@@ -910,16 +910,20 @@
     ],
     "traumaTable": [
       {
+        "type": "Obol",
+        "range": "1"
+      },
+      {
         "type": "Minor",
-        "range": "1-3"
+        "range": "2-4"
       },
       {
         "type": "Major",
-        "range": "4-6"
+        "range": "5-7"
       },
       {
         "type": "Grave",
-        "range": "7-9"
+        "range": "8-9"
       },
       {
         "type": "Obol",

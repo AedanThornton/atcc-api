@@ -529,78 +529,6 @@
     "cardSize": "Standard",
     "faq": [],
     "errata": {},
-    "flavor": "It's always you..",
-    "traits": [
-      "Fate",
-      "Tragedy",
-      "Family"
-    ],
-    "effect": {
-      "abilityText": [
-        {
-          "type": "timing",
-          "value": "Start of Battle"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "Gain the"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "cardRef",
-          "value": "Marked for Death",
-          "refID": "AM0323"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "plainText",
-          "value": "Major Trauma card"
-        }
-      ]
-    },
-    "growthName": "Decoy",
-    "growthAbility": {
-      "abilityText": [
-        {
-          "type": "plainText",
-          "value": "When you gain the Priority Target token, lose -1"
-        },
-        {
-          "type": "whitespace",
-          "value": " "
-        },
-        {
-          "type": "icon",
-          "value": "Fate"
-        }
-      ]
-    },
-    "stats": [
-      "Courage"
-    ]
-  },
-  {
-    "cardIDs": [
-      "BF0638"
-    ],
-    "name": "Coward",
-    "renderType": "Fated Mnemos",
-    "cardType": "Fated Mnemos",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
     "flavor": "They left you in the mountains, like they do with all the weaklings",
     "traits": [
       "Voyage",
@@ -638,9 +566,9 @@
   },
   {
     "cardIDs": [
-      "BF0639"
+      "BF0638"
     ],
-    "name": "Reluctant",
+    "name": "Coward",
     "renderType": "Fated Mnemos",
     "cardType": "Fated Mnemos",
     "game": "Odyssey",
@@ -685,9 +613,9 @@
   },
   {
     "cardIDs": [
-      "BF0640"
+      "BF0639"
     ],
-    "name": "Scapegoat",
+    "name": "Reluctant",
     "renderType": "Fated Mnemos",
     "cardType": "Fated Mnemos",
     "game": "Odyssey",
@@ -752,6 +680,78 @@
     },
     "stats": [
       "Wisdom"
+    ]
+  },
+  {
+    "cardIDs": [
+      "BF0640"
+    ],
+    "name": "Scapegoat",
+    "renderType": "Fated Mnemos",
+    "cardType": "Fated Mnemos",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "faq": [],
+    "errata": {},
+    "flavor": "It's always you..",
+    "traits": [
+      "Fate",
+      "Tragedy",
+      "Family"
+    ],
+    "effect": {
+      "abilityText": [
+        {
+          "type": "timing",
+          "value": "Start of Battle"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "Gain the"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "cardRef",
+          "value": "Marked for Death",
+          "refID": "AM0323"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "plainText",
+          "value": "Major Trauma card"
+        }
+      ]
+    },
+    "growthName": "Decoy",
+    "growthAbility": {
+      "abilityText": [
+        {
+          "type": "plainText",
+          "value": "When you gain the Priority Target token, lose -1"
+        },
+        {
+          "type": "whitespace",
+          "value": " "
+        },
+        {
+          "type": "icon",
+          "value": "Fate"
+        }
+      ]
+    },
+    "stats": [
+      "Courage"
     ]
   },
   {

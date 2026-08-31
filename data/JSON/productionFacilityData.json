@@ -1787,7 +1787,7 @@
     "facilityName": "Temenodium",
     "recipes": [
       {
-        "name": "Temenos Xiphos",
+        "name": "Temenos Xiphos/Temenos Whip",
         "refID": "BJ0839",
         "ingredients": [
           {
@@ -1977,7 +1977,7 @@
         ]
       },
       {
-        "name": "Psuedomidion",
+        "name": "Pseudomidion/Longinus",
         "refID": "BJ0860",
         "ingredients": [
           {
@@ -4672,6 +4672,27 @@
             "type": "resource"
           }
         ]
+      },
+      {
+        "name": "Sunset",
+        "refID": "CJ9949",
+        "ingredients": [
+          {
+            "count": 7,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 2,
+            "name": "Razorclaw",
+            "type": "resource"
+          },
+          {
+            "count": 2,
+            "name": "Icarian Feather",
+            "type": "resource"
+          }
+        ]
       }
     ]
   },
@@ -5330,6 +5351,22 @@
         ],
         "name": "Paradont",
         "refID": "CJ1504"
+      },
+      {
+        "name": "Black Ice Pick",
+        "refID": "CJ9950",
+        "ingredients": [
+          {
+            "count": 26,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 11,
+            "name": "Eyes Cluster",
+            "type": "resource"
+          }
+        ]
       }
     ]
   },
@@ -5566,6 +5603,58 @@
       {
         "name": "Spiral Mace/Spiral Spear",
         "refID": "CJ1512",
+        "ingredients": [
+          {
+            "count": 27,
+            "name": "Sirenshell",
+            "type": "resource"
+          },
+          {
+            "count": 31,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Razorclaw",
+            "type": "resource"
+          }
+        ]
+      },
+      {
+        "name": "Discobolus",
+        "refID": "CJ9947",
+        "ingredients": [
+          {
+            "count": 16,
+            "name": "Daedalus Makina",
+            "type": "resource"
+          },
+          {
+            "count": 14,
+            "name": "Hyperborean Alloy",
+            "type": "resource"
+          },
+          {
+            "count": 27,
+            "name": "Frozen Ambrosia",
+            "type": "resource"
+          },
+          {
+            "count": 9,
+            "name": "Razorclaw",
+            "type": "resource"
+          },
+          {
+            "count": 1,
+            "name": "Antedeluvian Sirenshell",
+            "type": "resource"
+          }
+        ]
+      },
+      {
+        "name": "Spiral Javelin",
+        "refID": "CJ9948",
         "ingredients": [
           {
             "count": 27,

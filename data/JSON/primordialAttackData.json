@@ -20520,14 +20520,22 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 3+ Exhaust your"
+                "value": "3+: Exhaust your"
               },
               {
                 "type": "whitespace",
@@ -21753,14 +21761,22 @@
     "afterFinal": false,
     "afterAttackEffects": [
       {
-        "banner": false,
+        "banner": true,
         "WoO": false,
         "effect": [
           {
             "abilityText": [
               {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
                 "type": "plainText",
-                "value": "Fate 6+ Exhaust all your"
+                "value": "6+: Exhaust all your"
               },
               {
                 "type": "whitespace",
@@ -55797,8 +55813,8 @@
           {
             "abilityText": [
               {
-                "type": "plainText",
-                "value": "Ur-Knockback 6)"
+                "type": "keyword",
+                "value": "Ur-Knockback 6"
               }
             ]
           },
