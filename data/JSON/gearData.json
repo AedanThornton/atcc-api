@@ -36958,7 +36958,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Death",
+        "gate": "Condition",
+        "value": "Death",
         "abilities": [
           {
             "abilityText": [
@@ -49004,7 +49005,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Wishkeen",
+        "gate": "Condition",
+        "value": "Wishkeen",
         "abilities": [
           {
             "abilityText": [
@@ -49159,7 +49161,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Greed-crazed",
+        "gate": "Condition",
+        "value": "Greed-crazed",
         "abilities": [
           {
             "abilityText": [
@@ -49352,7 +49355,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Wishagog",
+        "gate": "Condition",
+        "value": "Wishagog",
         "abilities": [
           {
             "abilityText": [
@@ -50840,7 +50844,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Wishkeen",
+        "gate": "Condition",
+        "value": "Wishkeen",
         "abilities": [
           {
             "abilityText": [
@@ -50997,7 +51002,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Wishagog",
+        "gate": "Condition",
+        "value": "Wishagog",
         "abilities": [
           {
             "abilityText": [
@@ -52680,7 +52686,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Wishkeen",
+        "gate": "Condition",
+        "value": "Wishkeen",
         "abilities": [
           {
             "abilityText": [
@@ -53052,7 +53059,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Any Condition",
+        "gate": "Condition",
+        "value": "Any Condition",
         "abilities": [
           {
             "abilityText": [
@@ -53734,7 +53742,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Moiros",
+        "gate": "Condition",
+        "value": "Moiros",
         "abilities": [
           {
             "abilityText": [
@@ -56368,7 +56377,8 @@
         ]
       },
       {
-        "gate": "Negative Condition",
+        "gate": "Condition",
+        "value": "Negative Condition",
         "abilities": [
           {
             "abilityText": [
@@ -57440,7 +57450,8 @@
         ]
       },
       {
-        "gate": "Any Condition",
+        "gate": "Condition",
+        "value": "Any Condition",
         "abilities": [
           {
             "abilityText": [
@@ -66403,7 +66414,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Bravery",
+        "gate": "Condition",
+        "value": "Bravery",
         "abilities": [
           {
             "abilityText": [
@@ -75284,7 +75296,8 @@
     ],
     "gatedAbilities": [
       {
-        "gate": "Bravery",
+        "gate": "Condition",
+        "value": "Bravery",
         "abilities": [
           {
             "abilityText": [

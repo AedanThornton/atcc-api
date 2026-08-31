@@ -104,7 +104,6 @@ def parse_power(power_str):
             gate_type = gate_split[0]
             part = gate_split[1]
 
-        print(part)
         hits_match = re.match(r"(\d?[\+\-]?\d?)\s*(?:Full\s?)?Hit[s]?\s*" + base_pattern, part)
         match = re.match(base_pattern, part)
 
@@ -243,7 +242,8 @@ def parse_gated_abilities(raw_data):
                 gateGroup["gate2"] = gateCheck[1]
                 gateGroup["comboGate"] = "&"
         else:
-            gateGroup["gate"] = gate
+            gateGroup["gate"] = "Condition"
+            gateGroup["value"] = gate
 
         if len(gates) > 1:
             gate_match2 = re.match(pattern, gates[1])
