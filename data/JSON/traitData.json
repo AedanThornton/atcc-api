@@ -1,5 +1,6 @@
 [
   {
+    "refID": "o.1.trait.1",
     "cardIDs": [
       "AX0446"
     ],
@@ -39,6 +40,7 @@
     ]
   },
   {
+    "refID": "o.1.trait.2",
     "cardIDs": [
       "AX0517"
     ],
@@ -124,6 +126,7 @@
     "usedFor": "Temenos"
   },
   {
+    "refID": "o.2.trait.1",
     "cardIDs": [
       "BX0715"
     ],
@@ -199,6 +202,7 @@
     "usedFor": "Cyclonus"
   },
   {
+    "refID": "o.2.trait.2",
     "cardIDs": [
       "BX0764"
     ],
@@ -248,6 +252,7 @@
     "usedFor": "Chimera Metastasios"
   },
   {
+    "refID": "o.2.trait.3",
     "cardIDs": [
       "BX0765"
     ],
@@ -358,6 +363,7 @@
     "usedFor": "Chimera Metastasios"
   },
   {
+    "refID": "o.2.trait.4",
     "cardIDs": [
       "BX0768"
     ],
@@ -443,6 +449,157 @@
     "usedFor": "Chimera Metastasios"
   },
   {
+    "refID": "o.2.trait.5",
+    "cardIDs": [
+      "BX1059"
+    ],
+    "name": "All For One",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 04",
+    "faq": [],
+    "errata": {},
+    "secretCardNumber": "38",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Danger Sense"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait when moving into the Weakspot space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Next time any Titan Attacks, it adds the Power you noted to its Total Power"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Nietzschean"
+  },
+  {
+    "refID": "o.2.trait.6",
+    "cardIDs": [
+      "BX1060"
+    ],
+    "name": "Ticking Clock",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle II",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 04",
+    "faq": [],
+    "errata": {},
+    "secretCardNumber": "37",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Disable the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Stay Your Hand"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Trait"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "End of Primordial Round"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Titan with the lowest Danger gains X Danger"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "X is the current position of the Time marker"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Nietzschean"
+  },
+  {
+    "refID": "o.2.trait.7",
     "cardIDs": [
       "BX1158"
     ],
@@ -550,6 +707,7 @@
     "usedFor": "The Burden"
   },
   {
+    "refID": "o.3.trait.1",
     "cardIDs": [
       "CT1326"
     ],
@@ -581,6 +739,7 @@
     ]
   },
   {
+    "refID": "o.3.trait.2",
     "cardIDs": [
       "CT1329"
     ],
@@ -740,6 +899,7 @@
     ]
   },
   {
+    "refID": "o.3.primordialext.1",
     "cardIDs": [
       "CX1679"
     ],
@@ -940,6 +1100,7 @@
     "usedFor": "Icarian Harpy"
   },
   {
+    "refID": "o.3.trait.3",
     "cardIDs": [
       "CX1681"
     ],
@@ -1107,6 +1268,150 @@
     "usedFor": "Icarian Harpy"
   },
   {
+    "refID": "",
+    "cardIDs": [
+      "CV1817"
+    ],
+    "name": "Pitiless Sun",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you start the Primordial Round or your Titan turn adjacent to the Pitiless, you are incinerated"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Pitiless"
+  },
+  {
+    "refID": "",
+    "cardIDs": [
+      "CV1818"
+    ],
+    "name": "God Among Men",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Pitiless performs his Round after 2 Titan turns"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the other 2 Titans go, then the Pitiless, then the players can re-arrange their playing order"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At the start of each Pitiless's Round, perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Merciless Sun",
+            "refID": "CV1804"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Pitiless"
+  },
+  {
+    "refID": "",
+    "cardIDs": [
+      "CV1819"
+    ],
+    "name": "Race the Sun",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If M11 is marked, see 0198"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If R7 is marked, see 0199"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "When the first Titan dies, see 0200"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After you deal the 3rd Wound, see 0201"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "After you deal the 6th Wound, see 0202"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If all Titans die, see 0205"
+          }
+        ]
+      }
+    ],
+    "usedFor": "The Pitiless"
+  },
+  {
+    "refID": "o.4.trait.1",
     "cardIDs": [
       "DX2387"
     ],
@@ -1177,6 +1482,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.2",
     "cardIDs": [
       "DX2388"
     ],
@@ -1200,6 +1506,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.3",
     "cardIDs": [
       "DX2389"
     ],
@@ -1256,6 +1563,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.4",
     "cardIDs": [
       "DX2390"
     ],
@@ -1287,6 +1595,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.5",
     "cardIDs": [
       "DX2391"
     ],
@@ -1310,6 +1619,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.6",
     "cardIDs": [
       "DX2392"
     ],
@@ -1357,6 +1667,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.7",
     "cardIDs": [
       "DX2393"
     ],
@@ -1396,6 +1707,160 @@
     ]
   },
   {
+    "refID": "o.4.trait.8",
+    "cardIDs": [
+      "DV2536"
+    ],
+    "name": "Pitiless Sun",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you start the Primordial Round or your Titan turn adjacent to the Old Haunt, you are incinerated"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Old Haunt"
+  },
+  {
+    "refID": "o.4.trait.9",
+    "cardIDs": [
+      "DV2537"
+    ],
+    "name": "God Among Men",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "The Old Haunt performs his Round after 2 Titan turns"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Then the other 2 Titans go, then the Old Haunt, then the players can re-arrange their playing order"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "At the start of each Old Haunt's Round, perform"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Merciless Sun",
+            "refID": "DV2569"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Old Haunt"
+  },
+  {
+    "refID": "o.4.trait.10",
+    "cardIDs": [
+      "DV2538"
+    ],
+    "name": "Glass It All",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you were on a Shaded space during any Sun Attack, destroy the Terrain tile that shaded that space, even if Indestructible"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Old Haunt"
+  },
+  {
+    "refID": "o.4.trait.11",
+    "cardIDs": [
+      "DV2539"
+    ],
+    "name": "Old Wounds",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Add the new cards to the AI and BP I and II decks"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Replace the AI and BP III Decks"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Ignore the \"do not escalate\" rules of BP cards"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If the text refers to the Pitiless, it applies to the Old Haunt"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Old Haunt"
+  },
+  {
+    "refID": "o.4.trait.12",
     "cardIDs": [
       "DX3221"
     ],
@@ -1435,6 +1900,7 @@
     ]
   },
   {
+    "refID": "o.4.trait.13",
     "cardIDs": [
       "DX3222"
     ],
@@ -1475,6 +1941,7 @@
     "usedFor": "Midascore"
   },
   {
+    "refID": "o.4.trait.14",
     "cardIDs": [
       "DX3223"
     ],
@@ -1507,6 +1974,7 @@
     "usedFor": "Demidjinn"
   },
   {
+    "refID": "o.4.trait.15",
     "cardIDs": [
       "DX3224"
     ],
@@ -1555,6 +2023,7 @@
     "usedFor": "Babelian Lunacy"
   },
   {
+    "refID": "o.4.trait.16",
     "cardIDs": [
       "DX3225"
     ],
@@ -1579,6 +2048,7 @@
     "usedFor": "Babelian Lunacy"
   },
   {
+    "refID": "o.4.trait.17",
     "cardIDs": [
       "DX3226"
     ],
@@ -1635,6 +2105,7 @@
     "usedFor": "Babelian Lunacy"
   },
   {
+    "refID": "o.5.trait.1",
     "cardIDs": [
       "EX3019"
     ],
@@ -1706,6 +2177,7 @@
     ]
   },
   {
+    "refID": "o.5.trait.2",
     "cardIDs": [
       "EX3020"
     ],
@@ -1753,6 +2225,188 @@
     ]
   },
   {
+    "refID": "o.5.trait.3",
+    "cardIDs": [
+      "EX3143"
+    ],
+    "name": "Blackbeak Traits",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Beta",
+    "faq": [],
+    "errata": {},
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Mimetic Darkness: Draw AI cards from the bottom of the AI deck"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "AT"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": ", after resolving the Attack, immediately"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Heal 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "even if Blackbeak was techincally killed (ignore the Mercy Rule)"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If there are no BP cards in the Escalation decks, you lose the Battle"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Goes For the Head:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "timing",
+            "value": "Crit Evade Fail"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Exhaust your Cryptex and gain a"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "or"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "MovementAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Fatigue token"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Blackbeak"
+  },
+  {
+    "refID": "o.5.trait.4",
+    "cardIDs": [
+      "EX3227"
+    ],
+    "name": "Argo's Parting Gift",
+    "renderType": "Trait",
+    "cardType": "Trait",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Secret Deck 15",
+    "faq": [],
+    "errata": {},
+    "secretCardNumber": "309",
+    "effects": [
+      {
+        "abilityText": [
+          {
+            "type": "timing",
+            "value": "Start of Battle"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Place this card in the Wound Stack"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "This card counts as X Wounds, where X is equal to 89 - Primordial level"
+          }
+        ]
+      }
+    ],
+    "usedFor": "Ur-Fleece"
+  },
+  {
+    "refID": "o.5.trait.5",
     "cardIDs": [
       "EX3211"
     ],
@@ -1862,6 +2516,7 @@
     "usedFor": "Dragon of Phobos"
   },
   {
+    "refID": "o.5.trait.6",
     "cardIDs": [
       "EX3212"
     ],
@@ -1894,6 +2549,7 @@
     "usedFor": "Dragon of Phobos"
   },
   {
+    "refID": "o.5.trait.7",
     "cardIDs": [
       "EX3213"
     ],
@@ -1916,6 +2572,7 @@
       }
     ],
     "usedFor": "Dragon of Phobos",
+    "refID2": "o.5.trait.8",
     "cardIDs2": [
       "EX3213"
     ],
@@ -1940,6 +2597,7 @@
     "usedFor2": "Meduketos"
   },
   {
+    "refID": "o.5.trait.9",
     "cardIDs": [
       "EX3214"
     ],
@@ -2013,6 +2671,7 @@
     "usedFor": "Dragon of Phobos"
   },
   {
+    "refID": "o.5.trait.10",
     "cardIDs": [
       "EX3215"
     ],
@@ -2132,6 +2791,7 @@
     "usedFor": "Meduketos"
   },
   {
+    "refID": "o.5.trait.11",
     "cardIDs": [
       "EX3216"
     ],
@@ -2180,6 +2840,7 @@
     "usedFor": "Meduketos"
   },
   {
+    "refID": "o.5.trait.12",
     "cardIDs": [
       "EX3217"
     ],
@@ -2452,6 +3113,7 @@
     "usedFor": "Meduketos"
   },
   {
+    "refID": "o.5.trait.13",
     "cardIDs": [
       "EX3218"
     ],
@@ -2531,6 +3193,7 @@
     "usedFor": "Ur-Fleece"
   },
   {
+    "refID": "o.5.trait.14",
     "cardIDs": [
       "EX3219"
     ],
@@ -2611,6 +3274,7 @@
     "usedFor": "Titan X"
   },
   {
+    "refID": "o.5.trait.15",
     "cardIDs": [
       "EX3244"
     ],
@@ -2643,196 +3307,7 @@
     "usedFor": "Ur-Fleece"
   },
   {
-    "cardIDs": [
-      "BX1059"
-    ],
-    "name": "All For One",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Standard",
-    "foundIn": "Secret Deck 04",
-    "faq": [],
-    "errata": {},
-    "secretCardNumber": "38",
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "There is a flaw in the Nietzschean's technique! Find it and exploit it! Ignore the"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Danger Sense"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Trait when moving into the Weakspot space"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "icon",
-            "value": "CombatAction"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "When you are on a Weakspot space, perform a normal Attack, but do not draw a BP card"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Perform the Power Roll, divide your Total Power by 2 (rounding up) and add +1 Power if you had a Crit Chance"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Note the resulting Power, then clear the Kratos Pool and continue to your second ability window (do not resolve any responses)"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Next time any Titan Attacks, it adds the Power you noted to its Total Power"
-          }
-        ]
-      }
-    ],
-    "usedFor": "The Nietzschean"
-  },
-  {
-    "cardIDs": [
-      "BX1060"
-    ],
-    "name": "Ticking Clock",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle II",
-    "cardSize": "Standard",
-    "foundIn": "Secret Deck 04",
-    "faq": [],
-    "errata": {},
-    "secretCardNumber": "37",
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Disable the"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Stay Your Hand"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Trait"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "End of Primordial Round"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Titan with the lowest Danger gains X Danger"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "X is the current position of the Time marker"
-          }
-        ]
-      }
-    ],
-    "usedFor": "The Nietzschean"
-  },
-  {
-    "cardIDs": [
-      "EX3227"
-    ],
-    "name": "Argo's Parting Gift",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle V",
-    "cardSize": "Standard",
-    "foundIn": "Secret Deck 15",
-    "faq": [],
-    "errata": {},
-    "secretCardNumber": "309",
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "timing",
-            "value": "Start of Battle"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Place this card in the Wound Stack"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "This card counts as X Wounds, where X is equal to 89 - Primordial level"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Ur-Fleece"
-  },
-  {
+    "refID": "o.5.trait.16",
     "cardIDs": [
       "EX3246"
     ],
@@ -3102,6 +3577,7 @@
     "usedFor": "Ur-Fleece"
   },
   {
+    "refID": "o.5.trait.17",
     "cardIDs": [
       "EX3247"
     ],
@@ -3213,6 +3689,7 @@
     "usedFor": "Titan X"
   },
   {
+    "refID": "o.p.trait.4",
     "cardIDs": [
       "AX9968"
     ],
@@ -3304,6 +3781,7 @@
     "usedFor": "Hermesian Pursuer"
   },
   {
+    "refID": "o.p.trait.3",
     "cardIDs": [
       "CR9994"
     ],
@@ -3384,6 +3862,7 @@
     ]
   },
   {
+    "refID": "o.p.trait.2",
     "cardIDs": [
       "ZX9998"
     ],
@@ -3440,6 +3919,7 @@
     ]
   },
   {
+    "refID": "o.p.trait.1",
     "cardIDs": [
       "ZX9999"
     ],
@@ -3508,431 +3988,5 @@
         ]
       }
     ]
-  },
-  {
-    "cardIDs": [
-      "CV1817"
-    ],
-    "name": "Pitiless Sun",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "foundIn": "Envelope S",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If you start the Primordial Round or your Titan turn adjacent to the Pitiless, you are incinerated"
-          }
-        ]
-      }
-    ],
-    "usedFor": "The Pitiless"
-  },
-  {
-    "cardIDs": [
-      "CV1818"
-    ],
-    "name": "God Among Men",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "foundIn": "Envelope S",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "The Pitiless performs his Round after 2 Titan turns"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Then the other 2 Titans go, then the Pitiless, then the players can re-arrange their playing order"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "At the start of each Pitiless's Round, perform"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "cardRef",
-            "value": "Merciless Sun",
-            "refID": "CV1804"
-          }
-        ]
-      }
-    ],
-    "usedFor": "The Pitiless"
-  },
-  {
-    "cardIDs": [
-      "CV1819"
-    ],
-    "name": "Race the Sun",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "foundIn": "Envelope S",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If M11 is marked, see 0198"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If R7 is marked, see 0199"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "When the first Titan dies, see 0200"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "After you deal the 3rd Wound, see 0201"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "After you deal the 6th Wound, see 0202"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If all Titans die, see 0205"
-          }
-        ]
-      }
-    ],
-    "usedFor": "The Pitiless"
-  },
-  {
-    "cardIDs": [
-      "DV2536"
-    ],
-    "name": "Pitiless Sun",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If you start the Primordial Round or your Titan turn adjacent to the Old Haunt, you are incinerated"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Old Haunt"
-  },
-  {
-    "cardIDs": [
-      "DV2537"
-    ],
-    "name": "God Among Men",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "The Old Haunt performs his Round after 2 Titan turns"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Then the other 2 Titans go, then the Old Haunt, then the players can re-arrange their playing order"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "At the start of each Old Haunt's Round, perform"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "cardRef",
-            "value": "Merciless Sun",
-            "refID": "DV2569"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Old Haunt"
-  },
-  {
-    "cardIDs": [
-      "DV2538"
-    ],
-    "name": "Glass It All",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If you were on a Shaded space during any Sun Attack, destroy the Terrain tile that shaded that space, even if Indestructible"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Old Haunt"
-  },
-  {
-    "cardIDs": [
-      "DV2539"
-    ],
-    "name": "Old Wounds",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Add the new cards to the AI and BP I and II decks"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Replace the AI and BP III Decks"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Ignore the \"do not escalate\" rules of BP cards"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If the text refers to the Pitiless, it applies to the Old Haunt"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Old Haunt"
-  },
-  {
-    "cardIDs": [
-      "EX3143"
-    ],
-    "name": "Blackbeak Traits",
-    "renderType": "Trait",
-    "cardType": "Trait",
-    "game": "Odyssey",
-    "cycle": "Cycle V",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Beta",
-    "faq": [],
-    "errata": {},
-    "effects": [
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Mimetic Darkness: Draw AI cards from the bottom of the AI deck"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Bloody Dalliance: If you Wound Blackbeak, but your total Power isn't twice or more than"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "AT"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": ", after resolving the Attack, immediately"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Heal 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "This undoes Crit response gains, like Loot and Cores, and triggers"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "bold",
-            "value": "even if Blackbeak was techincally killed (ignore the Mercy Rule)"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If there are no BP cards in the Escalation decks, you lose the Battle"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Goes For the Head:"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "timing",
-            "value": "Crit Evade Fail"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Exhaust your Cryptex and gain a"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "CombatAction"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "or"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "MovementAction"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Fatigue token"
-          }
-        ]
-      }
-    ],
-    "usedFor": "Blackbeak"
   }
 ]

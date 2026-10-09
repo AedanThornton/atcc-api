@@ -12,6 +12,7 @@ card_types = {name.split("_row")[0]: globals()[name] for name in func_names if n
 
 def default_row(row):
     card_json = {
+        "refID": row["Ref ID"],
         "cardIDs": row["Card ID"].split(", "),
         "name": row["Name"],
         "renderType": row["Render Type"],

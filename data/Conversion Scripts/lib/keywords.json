@@ -1,0 +1,534 @@
+{
+  "Abysswalk": {
+    "timing": "When the Primordial moves away from you because of a Response"
+  },
+  "Acrobatics": {
+    "timing": "When you would receive Knockdown while adjacent to the Primordial"
+  },
+  "Airburst X": {
+    "timing": "free",
+    "xvalue": true
+  },
+  "Ambrosia Limit X/+X": {
+    "timing": "passive",
+    "xvalue": true
+  },
+  "Armor-Piercing": {
+    "timing": "Power Roll"
+  },
+  "Armor Reroll X": {
+    "timing": "Armor Roll",
+    "xvalue": true
+  },
+  "Ascended": {
+    "timing": "passive"
+  },
+  "Assist X": {
+    "timing": "Another Titan’s Power Roll",
+    "xvalue": true
+  },
+  "Attack Reroll X": {
+    "timing": "Attack Roll",
+    "xvalue": true
+  },
+  "Auto-inspire": {
+    "timing": "passive"
+  },
+  "Awakening Lock": {
+    "timing": "passive"
+  },
+  "Black X": {
+    "timing": "SAW",
+    "effect": "place X Black tokens in the Kratos Pool"
+  },
+  "Bleeding X": {
+    "timing": "free",
+    "xvalue": true
+  },
+  "Bleeding Limit X/+X": {
+    "timing": "passive",
+    "xvalue": true
+  },
+  "Block X": {
+    "timing": "After counting hits from an Evasion Roll",
+    "xvalue": true
+  },
+  "Break X": {
+    "timing": "SAW",
+    "xvalue": true
+  },
+  "Burden X": {
+    "timing": "FAW/SAW",
+    "xvalue": true
+  },
+  "Burn": {
+    "timing": "free"
+  },
+  "Bypass": {
+    "timing": "passive"
+  },
+  "Primordial Bypass": {
+    "timing": "passive"
+  },
+  "Carving X": {
+    "timing": "Wound",
+    "xvalue": true
+  },
+  "Closing X": {
+    "timing": "SAW",
+    "xvalue": true
+  },
+  "Clutch": {
+    "timing": "Power Roll"
+  },
+  "Combo-Breaker: X spaces": {
+    "timing": "When you would break a Combo"
+  },
+  "Self Combo-Breaker: X spaces": {
+    "timing": "When you would break a Combo"
+  },
+  "Commit (X)": {
+    "timing": "Attack Declaration",
+    "modifiers": true
+  },
+  "Consume": {
+    "timing": "free"
+  },
+  "Crash": {
+    "timing": "free"
+  },
+  "Cryptex Loathing": {
+    "timing": "passive"
+  },
+  "Cumbersome": {
+    "timing": "SAW"
+  },
+  "Cursed": {
+    "timing": "passive"
+  },
+  "Dare": {
+    "timing": "When you are about to draw an Obol"
+  },
+  "Daze": {
+    "timing": "FAW/SAW"
+  },
+  "Deadly": {
+    "timing": "Attack Roll"
+  },
+  "Death X": {
+    "timing": "free",
+    "xvalue": true
+  },
+  "Defy X": {
+    "timing": "After counting hits from a Skill test caused by a Judgement",
+    "xvalue": true
+  },
+  "Deny": {
+    "timing": "When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range"
+  },
+  "Displace": {
+    "timing": "free"
+  },
+  "Diversion": {
+    "timing": "SAW"
+  },
+  "Dodge": {
+    "timing": "Evasion Roll"
+  },
+  "Doomed": {
+    "timing": "passive"
+  },
+  "Double Commit": {
+    "timing": "Attack Declaration"
+  },
+  "Elation X": {
+    "timing": "SAW",
+    "xvalue": true
+  },
+  "Escalate X": {
+    "timing": "free",
+    "xvalue": true
+  },
+  "Evasion Spiral X": {
+    "timing": "Evasion Roll",
+    "xvalue": true
+  },
+  "Evolving": {
+    "timing": "free"
+  },
+  "Fate Armor": {
+    "timing": "passive"
+  },
+  "Fearless": {
+    "timing": "passive"
+  },
+  "Fire X": {
+    "timing": "SAW"
+  },
+  "Float": {
+    "timing": "free"
+  },
+  "Frontlines": {
+    "timing": "End of Battle"
+  },
+  "Glaciate": {
+    "timing": "free"
+  },
+  "Giant Glaciate": {
+    "timing": "free"
+  },
+  "Greater Pass X": {
+    "timing": "Clear the Kratos Pool step",
+    "xvalue": true
+  },
+  "Hardened": {
+    "timing": "free"
+  },
+  "Harpooned": {
+    "timing": "Titan Attack"
+  },
+  "Heal": {
+    "timing": "free"
+  },
+  "Heartseeker": {
+    "timing": "Draw BP card step"
+  },
+  "Hermes Move X": {
+    "timing": "free",
+    "xvalue": true
+  },
+  "Hermes Reflex": {
+    "timing": "free"
+  },
+  "Advanced Hermes Reflex": {
+    "timing": "free"
+  },
+  "Hermes Reposition X": {
+    "timing": "SAW",
+    "xvalue": true
+  },
+  "Hide": {
+    "timing": "End of your turn"
+  },
+  "Hope X": {
+    "timing": "SAW",
+    "xvalue": true
+  },
+  "Incinerated": {
+    "timing": "free"
+  },
+  "Inkblot": {
+    "timing": "free"
+  },
+  "Inspire X": {
+    "timing": "FAW",
+    "xvalue": true
+  },
+  "Jump": {
+    "timing": "At the start of movement"
+  },
+  "Advanced Jump": {
+    "timing": "At the start of movement"
+  },
+  "Knockback X": {
+    "timing": "FAW/SAW",
+    "xvalue": true
+  },
+  "Knockdown": {
+    "timing": "free"
+  },
+  "Laser Resistance X": {
+    "timing": "passive"
+  },
+  "Lifeline": {
+    "timing": "When you are about to die from a Chasm space"
+  },
+  "Light X": {
+    "timing": "passive"
+  },
+  "Lightbend": {
+    "timing": "free"
+  },
+  "Liquid Edge": {
+    "timing": "Attack Declaration"
+  },
+  "Lumbering": {
+    "timing": "free"
+  },
+  "Masterwork": {
+    "timing": "Attack Roll"
+  },
+  "Midas X": {
+    "timing": "free"
+  },
+  "Midas Immune": {
+    "timing": "passive"
+  },
+  "Motivate X": {
+    "timing": "SAW"
+  },
+  "Opening X": {
+    "timing": "SAW"
+  },
+  "Overbreak X": {
+    "timing": "SAW"
+  },
+  "Pain X": {
+    "timing": "free"
+  },
+  "Pass X": {
+    "timing": "Clear the Kratos Pool step"
+  },
+  "Perishable": {
+    "timing": "End of Titan Attack Sequence"
+  },
+  "Pole Position": {
+    "timing": "FAW/SAW"
+  },
+  "Power Reroll X": {
+    "timing": "Power Roll"
+  },
+  "Precise": {
+    "timing": "Draw a BP card step"
+  },
+  "Provoke": {
+    "timing": "FAW"
+  },
+  "Pull X": {
+    "timing": "FAW/SAW"
+  },
+  "Pursuit X": {
+    "timing": "When resolving an AI card"
+  },
+  "Pushback X": {
+    "timing": "FAW/SAW"
+  },
+  "Quantum": {
+    "timing": "passive"
+  },
+  "Ranged Y–X": {
+    "timing": "Attack Declaration"
+  },
+  "Reach X": {
+    "timing": "Attack Declaration"
+  },
+  "Reduction X": {
+    "timing": "passive"
+  },
+  "Wish Away Reduction X": {
+    "timing": "passive"
+  },
+  "Pushback Reduction X": {
+    "timing": "passive"
+  },
+  "Knockback Reduction X": {
+    "timing": "passive"
+  },
+  "Kickback Reduction X": {
+    "timing": "passive"
+  },
+  "Pull Reduction X": {
+    "timing": "passive"
+  },
+  "Reflex": {
+    "timing": "free"
+  },
+  "Advanced Reflex": {
+    "timing": "free"
+  },
+  "Superior Reflex": {
+    "timing": "free"
+  },
+  "Reinforce X": {
+    "timing": "Armor Roll"
+  },
+  "Advanced Reinforce X": {
+    "timing": "Armor Roll"
+  },
+  "Superior Reinforce X": {
+    "timing": "Armor Roll"
+  },
+  "Mortal Reinforce X": {
+    "timing": "Armor Roll"
+  },
+  "Remote Scan": {
+    "timing": "When you perform a Scan"
+  },
+  "Reposition X": {
+    "timing": "SAW"
+  },
+  "Rescan": {
+    "timing": "When you perform a Scan"
+  },
+  "Restricted (Trait)": {
+    "timing": "Loadout"
+  },
+  "Retreat X": {
+    "timing": "free"
+  },
+  "Rewind": {
+    "timing": "free"
+  },
+  "Rocksteady": {
+    "timing": "passive"
+  },
+  "Roll Out": {
+    "timing": "When you are about to suffer Knockdown while adjacent to the Primordial"
+  },
+  "Rouse X": {
+    "timing": "SAW"
+  },
+  "Rush": {
+    "timing": "free"
+  },
+  "Improved Rush": {
+    "timing": "free"
+  },
+  "Sacrifice": {
+    "timing": "FAW"
+  },
+  "Scale": {
+    "timing": "When you are about to perform a test to climb a Vantage Point or Elevated Terrain"
+  },
+  "Scale X": {
+    "timing": "When you are about to perform a test to climb a Vantage Point or Elevated Terrain/FAW/SAW"
+  },
+  "Second Chance": {
+    "timing": "After you draw a Trauma or Obol card"
+  },
+  "Shaded": {
+    "timing": "free"
+  },
+  "Skitter": {
+    "timing": "free"
+  },
+  "Solace": {
+    "timing": "free"
+  },
+  "Spiral X": {
+    "timing": "Attack Roll"
+  },
+  "Spotlight": {
+    "timing": "FAW"
+  },
+  "Stalwart": {
+    "timing": "passive"
+  },
+  "Startup X": {
+    "timing": "When you are about to Attack"
+  },
+  "Strikeback X": {
+    "timing": "When you fully evade a Primordial Attack"
+  },
+  "Stuck": {
+    "timing": "Attack Declaration"
+  },
+  "Succor": {
+    "timing": "During another Titan’s Power Roll"
+  },
+  "Super Smart Delivery": {
+    "timing": "free/Reaction"
+  },
+  "Superior Chance": {
+    "timing": "After you draw a Trauma or Obol card"
+  },
+  "Suppress": {
+    "timing": "Wound"
+  },
+  "BP Suppress": {
+    "timing": "Wound"
+  },
+  "AI Suppress": {
+    "timing": "Wound"
+  },
+  "Taint X": {
+    "timing": "FAW"
+  },
+  "Temporal Reflex": {
+    "timing": "When you are about to suffer Crash"
+  },
+  "Tilt": {
+    "timing": "Draw a BP card step"
+  },
+  "Time-Clocked": {
+    "timing": "free"
+  },
+  "Tireless": {
+    "timing": "passive"
+  },
+  "Titan Possession": {
+    "timing": "Loadout"
+  },
+  "Argonaut Possession": {
+    "timing": "Loadout"
+  },
+  "Transform": {
+    "timing": "free"
+  },
+  "Trick": {
+    "timing": "free"
+  },
+  "Trauma Trick": {
+    "timing": "When resolve a Trauma card"
+  },
+  "Wound Trick": {
+    "timing": "Wound"
+  },
+  "Fail Trick": {
+    "timing": "Fail"
+  },
+  "Truth X": {
+    "timing": "SAW"
+  },
+  "Tumble": {
+    "timing": "When you are about to suffer Crash"
+  },
+  "Unburden X": {
+    "timing": "FAW/SAW"
+  },
+  "Unholy Alchemy": {
+    "timing": "free"
+  },
+  "Reverse Unholy Alchemy": {
+    "timing": "free"
+  },
+  "Unwieldy": {
+    "timing": "Attack Declaration"
+  },
+  "Ur-Knockback X": {
+    "timing": "free"
+  },
+  "Ur-Pull X": {
+    "timing": "free"
+  },
+  "Vault": {
+    "timing": "FAW/SAW"
+  },
+  "Forced Vault": {
+    "timing": "free"
+  },
+  "Terrain Vault": {
+    "timing": "FAW/SAW"
+  },
+  "Voluntary Knockdown": {
+    "timing": "free"
+  },
+  "Wish Armor": {
+    "timing": "When you resolve a Wish Attack"
+  },
+  "Wish Away X": {
+    "timing": "free"
+  },
+  "Wishcursed": {
+    "timing": "When you trigger Wish Armor"
+  },
+  "Wish Dodge": {
+    "timing": "When you are about to resolve an Evasion Roll"
+  },
+  "Advanced Wish Dodge": {
+    "timing": "When you are about to resolve an Evasion Roll"
+  },
+  "Wishrod": {
+    "timing": "During Targeting, if the Attack is a Wish Attack"
+  }
+}

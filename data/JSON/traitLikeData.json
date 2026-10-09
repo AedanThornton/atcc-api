@@ -1,5 +1,6 @@
 [
   {
+    "refID": "o.1.routine.1",
     "cardIDs": [
       "AR0413"
     ],
@@ -32,6 +33,7 @@
     ],
     "usedFor": "Hekaton",
     "level": "X",
+    "refID2": "o.1.routine.2",
     "cardIDs2": [
       "AR0413"
     ],
@@ -105,6 +107,7 @@
     "level2": "X"
   },
   {
+    "refID": "o.1.routine.3",
     "cardIDs": [
       "AR0483"
     ],
@@ -139,6 +142,7 @@
     "level": "X"
   },
   {
+    "refID": "o.1.routine.5",
     "cardIDs": [
       "AR0541"
     ],
@@ -187,6 +191,7 @@
     ],
     "usedFor": "Alpha Temenos",
     "level": "X",
+    "refID2": "o.1.routine.6",
     "cardIDs2": [
       "AR0541"
     ],
@@ -245,6 +250,7 @@
     "level2": "X"
   },
   {
+    "refID": "o.1.routine.7",
     "cardIDs": [
       "AR0601"
     ],
@@ -303,6 +309,7 @@
     "level": "X"
   },
   {
+    "refID": "o.1.flare.1",
     "cardIDs": [
       "AR0602"
     ],
@@ -377,6 +384,7 @@
     "level": "F"
   },
   {
+    "refID": "o.1.flare.2",
     "cardIDs": [
       "AR0603"
     ],
@@ -451,6 +459,7 @@
     "level": "F"
   },
   {
+    "refID": "o.1.flare.3",
     "cardIDs": [
       "AR0604"
     ],
@@ -541,6 +550,7 @@
     "level": "F"
   },
   {
+    "refID": "o.1.flare.4",
     "cardIDs": [
       "AR0605"
     ],
@@ -599,6 +609,7 @@
     "level": "F"
   },
   {
+    "refID": "o.1.trap.1",
     "cardIDs": [
       "AS0503"
     ],
@@ -697,6 +708,7 @@
     "level": "III"
   },
   {
+    "refID": "o.2.routine.1",
     "cardIDs": [
       "BR0744"
     ],
@@ -776,6 +788,7 @@
     ],
     "usedFor": "Cyclonus",
     "level": "X",
+    "refID2": "o.2.routine.2",
     "cardIDs2": [
       "BR0744"
     ],
@@ -841,6 +854,7 @@
     "level2": "X"
   },
   {
+    "refID": "o.2.routine.3",
     "cardIDs": [
       "BR0800"
     ],
@@ -874,6 +888,7 @@
     "level": "X"
   },
   {
+    "refID": "o.2.routine.6",
     "cardIDs": [
       "BR1130"
     ],
@@ -993,6 +1008,7 @@
     "level": "X"
   },
   {
+    "refID": "o.2.status.1",
     "cardIDs": [
       "BS0822"
     ],
@@ -1182,6 +1198,7 @@
     "level": "X"
   },
   {
+    "refID": "o.3.attack.20",
     "cardIDs": [
       "CR1343"
     ],
@@ -1248,6 +1265,7 @@
     "level": "0"
   },
   {
+    "refID": "o.3.routine.1",
     "cardIDs": [
       "CR1364"
     ],
@@ -1297,6 +1315,7 @@
     "level": "X"
   },
   {
+    "refID": "o.3.status.1",
     "cardIDs": [
       "CR1365"
     ],
@@ -1391,6 +1410,7 @@
     "level": "X"
   },
   {
+    "refID": "o.3.routine.2",
     "cardIDs": [
       "CR1714"
     ],
@@ -1424,6 +1444,7 @@
     "level": "X"
   },
   {
+    "refID": "o.4.routine.1",
     "cardIDs": [
       "DR2414"
     ],
@@ -1465,6 +1486,7 @@
     "level": "X"
   },
   {
+    "refID": "o.4.status.1",
     "cardIDs": [
       "DR2415"
     ],
@@ -1645,6 +1667,7 @@
     "level": "X"
   },
   {
+    "refID": "o.4.attack.37",
     "cardIDs": [
       "DR2453"
     ],
@@ -1670,6 +1693,7 @@
     "level": "IV"
   },
   {
+    "refID": "o.4.routine.2",
     "cardIDs": [
       "DR2455"
     ],
@@ -1727,6 +1751,7 @@
     "level": "X"
   },
   {
+    "refID": "o.4.attack.38",
     "cardIDs": [
       "DR2456"
     ],
@@ -1789,6 +1814,7 @@
     "level": "0"
   },
   {
+    "refID": "o.4.routine.3",
     "cardIDs": [
       "DR2495"
     ],
@@ -1837,6 +1863,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.routine.1",
     "cardIDs": [
       "ER3042"
     ],
@@ -1886,6 +1913,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.routine.2",
     "cardIDs": [
       "ER3081"
     ],
@@ -1927,6 +1955,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.routine.3",
     "cardIDs": [
       "ER3121"
     ],
@@ -1966,6 +1995,7 @@
     ],
     "usedFor": "Ur-Fleece",
     "level": "X",
+    "refID2": "o.5.routine.3",
     "cardIDs2": [
       "ER3121"
     ],
@@ -2032,6 +2062,7 @@
     "level2": "X"
   },
   {
+    "refID": "o.5.flare.1",
     "cardIDs": [
       "ER3141"
     ],
@@ -2099,6 +2130,7 @@
     "level": "F"
   },
   {
+    "refID": "o.5.routine.4",
     "cardIDs": [
       "ER3165"
     ],
@@ -2164,6 +2196,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.1",
     "cardIDs": [
       "ER3166"
     ],
@@ -2197,6 +2230,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.2",
     "cardIDs": [
       "ER3167"
     ],
@@ -2247,6 +2281,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.3",
     "cardIDs": [
       "ER3168"
     ],
@@ -2297,6 +2332,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.4",
     "cardIDs": [
       "ER3169"
     ],
@@ -2338,6 +2374,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.5",
     "cardIDs": [
       "ER3170"
     ],
@@ -2391,6 +2428,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.6",
     "cardIDs": [
       "ER3171"
     ],
@@ -2416,6 +2454,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.7",
     "cardIDs": [
       "ER3172"
     ],
@@ -2457,6 +2496,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.8",
     "cardIDs": [
       "ER3173"
     ],
@@ -2505,6 +2545,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.9",
     "cardIDs": [
       "ER3174"
     ],
@@ -2554,6 +2595,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.feint.10",
     "cardIDs": [
       "ER3175"
     ],
@@ -2611,6 +2653,7 @@
     "level": "X"
   },
   {
+    "refID": "o.5.bp.73",
     "cardIDs": [
       "ES3194"
     ],
@@ -2660,6 +2703,7 @@
     "level": "I"
   },
   {
+    "refID": "o.5.bp.74",
     "cardIDs": [
       "ES3195"
     ],
@@ -2709,6 +2753,7 @@
     "level": "II"
   },
   {
+    "refID": "o.4.globalwish.1",
     "cardIDs": [
       "DZ2580"
     ],
@@ -2775,6 +2820,7 @@
     "level": "I"
   },
   {
+    "refID": "o.4.globalwish.2",
     "cardIDs": [
       "DZ2581"
     ],
@@ -2816,6 +2862,7 @@
     "level": "I"
   },
   {
+    "refID": "o.4.globalwish.3",
     "cardIDs": [
       "DZ2582"
     ],
@@ -2841,6 +2888,7 @@
     "level": "I"
   },
   {
+    "refID": "o.4.globalwish.4",
     "cardIDs": [
       "DZ2583"
     ],
@@ -2931,6 +2979,7 @@
     "level": "II"
   },
   {
+    "refID": "o.p.globalwish.1",
     "cardIDs": [
       "DZ9961"
     ],

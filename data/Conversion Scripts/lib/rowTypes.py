@@ -176,6 +176,11 @@ def gear_row(row):
             "power": parse_power(row["Power"])
         }
 
+    functional_abilities = []
+    for i in range(1, 17):
+        if (row["Ability " + str(i)]):
+            functional_abilities.append(parse_functional_abilities(row["Ability " + str(i)]))
+
     card_json = {
         "name": row["Name"].replace(" (Wished)", ""),
         "acquisition": row["Acquisition"],
@@ -191,6 +196,7 @@ def gear_row(row):
         "ascended": "Ascended. " in row["Abilities"],
         "abilities": parse_abilities(row["Abilities"]) ,
         "gatedAbilities": parse_gated_abilities(row["Gated Abilities"]) if row["Gated Abilities"] else [],
+        "functionalAbilities": functional_abilities
     }
 
     return card_json

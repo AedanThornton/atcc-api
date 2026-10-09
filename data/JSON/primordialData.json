@@ -1,5 +1,6 @@
 [
   {
+    "refID": "o.1.primordial.1",
     "cardIDs": [
       "AU0447"
     ],
@@ -330,6 +331,7 @@
     ]
   },
   {
+    "refID": "o.1.primordial.2",
     "cardIDs": [
       "AU0448"
     ],
@@ -724,6 +726,7 @@
     ]
   },
   {
+    "refID": "o.1.primordial.3",
     "cardIDs": [
       "AU0563"
     ],
@@ -1227,6 +1230,7 @@
     ]
   },
   {
+    "refID": "o.1.primordial.4",
     "cardIDs": [
       "AU0622"
     ],
@@ -1567,6 +1571,7 @@
     ]
   },
   {
+    "refID": "o.2.primordial.1",
     "cardIDs": [
       "BU0724"
     ],
@@ -1853,6 +1858,7 @@
     ]
   },
   {
+    "refID": "o.2.primordial.2",
     "cardIDs": [
       "BU0780"
     ],
@@ -2231,6 +2237,7 @@
     ]
   },
   {
+    "refID": "o.2.primordial.3",
     "cardIDs": [
       "BU1051"
     ],
@@ -2592,6 +2599,7 @@
     ]
   },
   {
+    "refID": "o.2.primordial.4",
     "cardIDs": [
       "BU1149"
     ],
@@ -2923,6 +2931,7 @@
     ]
   },
   {
+    "refID": "o.3.primordial.1",
     "cardIDs": [
       "CU1384"
     ],
@@ -3233,6 +3242,7 @@
     ]
   },
   {
+    "refID": "o.3.primordial.2",
     "cardIDs": [
       "CU1678"
     ],
@@ -3528,6 +3538,7 @@
     ]
   },
   {
+    "refID": "o.3.primordialext.1",
     "cardIDs": [
       "CX1679"
     ],
@@ -3596,6 +3607,7 @@
     "levels": []
   },
   {
+    "refID": "o.3.primordial.3",
     "cardIDs": [
       "CU1792"
     ],
@@ -3923,6 +3935,47 @@
     ]
   },
   {
+    "refID": "o.3.primordial.4",
+    "cardIDs": [
+      "CV1816"
+    ],
+    "name": "Pitiless",
+    "renderType": "Primordial",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle III",
+    "cardSize": "Standard",
+    "foundIn": "Envelope S",
+    "faq": [],
+    "errata": {},
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "10",
+        "attributes": [],
+        "traitsChanges": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Race the Sun",
+          "Gods Don't Look Back"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Race the Sun",
+          "Gods Don't Look Back"
+        ]
+      }
+    ]
+  },
+  {
+    "refID": "o.4.primordial.1",
     "cardIDs": [
       "DU2394"
     ],
@@ -4461,6 +4514,7 @@
         ]
       }
     ],
+    "refID2": "o.p.primordial.1",
     "cardIDs2": [
       "DU2394"
     ],
@@ -4519,6 +4573,7 @@
     ]
   },
   {
+    "refID": "o.4.primordial.2",
     "cardIDs": [
       "DU2434"
     ],
@@ -4860,6 +4915,7 @@
     ]
   },
   {
+    "refID": "o.4.primordial.3",
     "cardIDs": [
       "DU2475"
     ],
@@ -5272,6 +5328,7 @@
     ]
   },
   {
+    "refID": "o.4.primordial.4",
     "cardIDs": [
       "DU2514"
     ],
@@ -5650,6 +5707,115 @@
     ]
   },
   {
+    "refID": "o.4.primordial.5",
+    "cardIDs": [
+      "DV2535"
+    ],
+    "name": "Old Haunt",
+    "renderType": "Primordial",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "9",
+        "speed": "Inf",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ],
+        "traitsFullList": [
+          "Pitiless Sun",
+          "God Among Men",
+          "Glass it All",
+          "Gods Don't Look Back"
+        ]
+      }
+    ]
+  },
+  {
+    "refID": "o.4.primordialext.1",
+    "cardIDs": [
+      "DV2539"
+    ],
+    "name": "Eclipse Point",
+    "renderType": "VP",
+    "cardType": "VP",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Y",
+    "faq": [],
+    "errata": {},
+    "figure_size": "",
+    "diagramEffects": [],
+    "vp": {
+      "vpCount": "1",
+      "climbTest": {
+        "stat": "Fury",
+        "difficulty": "1"
+      },
+      "holdOn": {
+        "test": "",
+        "fail": "After you perform an Attack, or at the end of the Primordial Round, place your Titan on any empty space on the Board"
+      },
+      "effects": [
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "VP is always Shaded"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "While on the VP, gain +1"
+            },
+            {
+              "type": "whitespace",
+              "value": " "
+            },
+            {
+              "type": "icon",
+              "value": "Power"
+            }
+          ]
+        },
+        {
+          "abilityText": [
+            {
+              "type": "plainText",
+              "value": "You may perform Combined Attacks"
+            }
+          ]
+        }
+      ]
+    },
+    "levels": []
+  },
+  {
+    "refID": "o.5.primordial.1",
     "cardIDs": [
       "EU3022"
     ],
@@ -5990,6 +6156,7 @@
     ]
   },
   {
+    "refID": "o.5.primordial.2",
     "cardIDs": [
       "EU3061"
     ],
@@ -6421,6 +6588,7 @@
     ]
   },
   {
+    "refID": "o.5.primordial.3",
     "cardIDs": [
       "EU3100"
     ],
@@ -6788,6 +6956,69 @@
     ]
   },
   {
+    "refID": "o.5.primordial.4",
+    "cardIDs": [
+      "EX3142"
+    ],
+    "name": "Blackbeak",
+    "renderType": "Primordial",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle V",
+    "cardSize": "Standard",
+    "foundIn": "Envelope Beta",
+    "faq": [],
+    "errata": {},
+    "figure_size": "2x2",
+    "diagramEffects": [
+      "Blindspot"
+    ],
+    "vp": {
+      "vpCount": "",
+      "climbTest": {},
+      "holdOn": {
+        "test": "",
+        "fail": ""
+      },
+      "effects": []
+    },
+    "levels": [
+      {
+        "level": "1",
+        "toHit": "11",
+        "speed": "6*",
+        "wounds": "12",
+        "attributes": [
+          {
+            "count": "1",
+            "name": "Escalation"
+          }
+        ],
+        "traitsChanges": [
+          "By Any Other Name",
+          "Mimetic Darkness",
+          "Bloody Dalliance",
+          "Goes for the Head",
+          "Killjoy",
+          "Winged Doom",
+          "End of Hope",
+          "Flares"
+        ],
+        "traitsFullList": [
+          "By Any Other Name",
+          "Mimetic Darkness",
+          "Bloody Dalliance",
+          "Goes for the Head",
+          "Killjoy",
+          "Winged Doom",
+          "End of Hope",
+          "Flares"
+        ]
+      }
+    ]
+  },
+  {
+    "refID": "o.5.primordial.5",
     "cardIDs": [
       "EU3144"
     ],
@@ -7164,168 +7395,7 @@
     ]
   },
   {
-    "cardIDs": [
-      "DU9960"
-    ],
-    "name": "The Last Endjinn",
-    "renderType": "Primordial",
-    "cardType": "Primordial",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Half-Page",
-    "foundIn": "Promo",
-    "faq": [],
-    "errata": {},
-    "figure_size": "2x2",
-    "diagramEffects": [],
-    "levels": []
-  },
-  {
-    "cardIDs": [
-      "CV1816"
-    ],
-    "name": "Pitiless",
-    "renderType": "Primordial",
-    "cardType": "Primordial",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "foundIn": "Envelope S",
-    "faq": [],
-    "errata": {},
-    "figure_size": "2x2",
-    "diagramEffects": [
-      "Blindspot"
-    ],
-    "levels": [
-      {
-        "level": "1",
-        "toHit": "9",
-        "speed": "Inf",
-        "wounds": "10",
-        "attributes": [],
-        "traitsChanges": [
-          "Pitiless Sun",
-          "God Among Men",
-          "Race the Sun",
-          "Gods Don't Look Back"
-        ],
-        "traitsFullList": [
-          "Pitiless Sun",
-          "God Among Men",
-          "Race the Sun",
-          "Gods Don't Look Back"
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DV2535"
-    ],
-    "name": "Old Haunt",
-    "renderType": "Primordial",
-    "cardType": "Primordial",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "figure_size": "2x2",
-    "diagramEffects": [
-      "Blindspot"
-    ],
-    "levels": [
-      {
-        "level": "1",
-        "toHit": "9",
-        "speed": "Inf",
-        "wounds": "12",
-        "attributes": [
-          {
-            "count": "1",
-            "name": "Escalation"
-          }
-        ],
-        "traitsChanges": [
-          "Pitiless Sun",
-          "God Among Men",
-          "Glass it All",
-          "Gods Don't Look Back"
-        ],
-        "traitsFullList": [
-          "Pitiless Sun",
-          "God Among Men",
-          "Glass it All",
-          "Gods Don't Look Back"
-        ]
-      }
-    ]
-  },
-  {
-    "cardIDs": [
-      "DV2539"
-    ],
-    "name": "Eclipse Point",
-    "renderType": "VP",
-    "cardType": "VP",
-    "game": "Odyssey",
-    "cycle": "Cycle IV",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Y",
-    "faq": [],
-    "errata": {},
-    "figure_size": "",
-    "diagramEffects": [],
-    "vp": {
-      "vpCount": "1",
-      "climbTest": {
-        "stat": "Fury",
-        "difficulty": "1"
-      },
-      "holdOn": {
-        "test": "",
-        "fail": "After you perform an Attack, or at the end of the Primordial Round, place your Titan on any empty space on the Board"
-      },
-      "effects": [
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "VP is always Shaded"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "While on the VP, gain +1"
-            },
-            {
-              "type": "whitespace",
-              "value": " "
-            },
-            {
-              "type": "icon",
-              "value": "Power"
-            }
-          ]
-        },
-        {
-          "abilityText": [
-            {
-              "type": "plainText",
-              "value": "You may perform Combined Attacks"
-            }
-          ]
-        }
-      ]
-    },
-    "levels": []
-  },
-  {
+    "refID": "o.4.primordial.6",
     "cardIDs": [
       "DU3248"
     ],
@@ -7662,22 +7732,21 @@
     ]
   },
   {
+    "refID": "o.p.primordial.3",
     "cardIDs": [
-      "EX3142"
+      "AU9906"
     ],
-    "name": "Blackbeak",
+    "name": "Megaton",
     "renderType": "Primordial",
     "cardType": "Primordial",
     "game": "Odyssey",
-    "cycle": "Cycle V",
-    "cardSize": "Standard",
-    "foundIn": "Envelope Beta",
+    "cycle": "Cycle I",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
     "faq": [],
     "errata": {},
-    "figure_size": "2x2",
-    "diagramEffects": [
-      "Blindspot"
-    ],
+    "figure_size": "",
+    "diagramEffects": [],
     "vp": {
       "vpCount": "",
       "climbTest": {},
@@ -7687,39 +7756,24 @@
       },
       "effects": []
     },
-    "levels": [
-      {
-        "level": "1",
-        "toHit": "11",
-        "speed": "6*",
-        "wounds": "12",
-        "attributes": [
-          {
-            "count": "1",
-            "name": "Escalation"
-          }
-        ],
-        "traitsChanges": [
-          "By Any Other Name",
-          "Mimetic Darkness",
-          "Bloody Dalliance",
-          "Goes for the Head",
-          "Killjoy",
-          "Winged Doom",
-          "End of Hope",
-          "Flares"
-        ],
-        "traitsFullList": [
-          "By Any Other Name",
-          "Mimetic Darkness",
-          "Bloody Dalliance",
-          "Goes for the Head",
-          "Killjoy",
-          "Winged Doom",
-          "End of Hope",
-          "Flares"
-        ]
-      }
-    ]
+    "levels": []
+  },
+  {
+    "refID": "o.p.primordial.2",
+    "cardIDs": [
+      "DU9960"
+    ],
+    "name": "The Last Endjinn",
+    "renderType": "Primordial",
+    "cardType": "Primordial",
+    "game": "Odyssey",
+    "cycle": "Cycle IV",
+    "cardSize": "Half-Page",
+    "foundIn": "Promo",
+    "faq": [],
+    "errata": {},
+    "figure_size": "2x2",
+    "diagramEffects": [],
+    "levels": []
   }
 ]

@@ -36,7 +36,10 @@ copyRawCSV("data/Raw CSV/ATO Data - Trait-like Cards.csv", "data/CSV/traitLikeDa
 copyRawCSV("data/Raw CSV/ATO Data - U_Primordial.csv", "data/CSV/primordialData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - W_Pattern.csv", "data/CSV/patternData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - Y_Payload.csv", "data/CSV/payloadData.csv")
-copyRawCSV("data/Raw CSV/ATO Data - Z_Other.csv", "data/CSV/otherData.csv")
+copyRawCSV("data/Raw CSV/ATO Data - Z_Status.csv", "data/CSV/statusData.csv")
+copyRawCSV("data/Raw CSV/ATO Data - Z_Small Primordial.csv", "data/CSV/beastData.csv")
+copyRawCSV("data/Raw CSV/ATO Data - Z_Divider.csv", "data/CSV/dividerData.csv")
+copyRawCSV("data/Raw CSV/ATO Data - Card Backs.csv", "data/CSV/cardBackData.csv")
 
 copyRawCSV("data/Raw CSV/ATO Data - Primordial Traits.csv", "data/CSV/primordialAbilityData.csv")
 copyRawCSV("data/Raw CSV/ATO Data - Titan Abilities.csv", "data/CSV/titanAbilityData.csv")

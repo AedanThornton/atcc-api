@@ -1,5 +1,6 @@
 [
   {
+    "refID": "o.1.godform.1",
     "cardIDs": [
       "AQ0386"
     ],
@@ -166,6 +167,7 @@
     ]
   },
   {
+    "refID": "o.1.godform.2",
     "cardIDs": [
       "AQ0387"
     ],
@@ -237,6 +239,7 @@
     ]
   },
   {
+    "refID": "o.1.godform.3",
     "cardIDs": [
       "AQ0388"
     ],
@@ -300,6 +303,207 @@
     ]
   },
   {
+    "refID": "o.1.godform.4",
+    "cardIDs": [
+      "AQ0627"
+    ],
+    "name": "Hades",
+    "renderType": "Godform",
+    "cardType": "Godform",
+    "game": "Odyssey",
+    "cycle": "Cycle I",
+    "cardSize": "Tarot",
+    "foundIn": "Envelope H",
+    "faq": [],
+    "errata": {},
+    "power": "Black",
+    "speed": "+0",
+    "stats": "",
+    "keywords": [
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
+            "value": "Auto-break 1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "All Things End",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you deal a Wound, you may lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Trespass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to place 1 negative"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "AT"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "token in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inverted Death",
+        "effects": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you would gain any"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", you lose the same amount of"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead (if it was dealt, you still resolve a Trauma Draw)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Once you reach 0"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", you begin to gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "as normal (including the remaining"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "from the effect that lowered your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "value to 0)"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When it happens, place a generic token on this ability as a reminder"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "refID": "o.2.godform.1",
     "cardIDs": [
       "BQ0702"
     ],
@@ -406,6 +610,7 @@
     ]
   },
   {
+    "refID": "o.2.godform.2",
     "cardIDs": [
       "BQ0703"
     ],
@@ -510,6 +715,7 @@
     ]
   },
   {
+    "refID": "o.2.godform.3",
     "cardIDs": [
       "BQ0704"
     ],
@@ -629,6 +835,7 @@
     ]
   },
   {
+    "refID": "o.3.godform.1",
     "cardIDs": [
       "CQ1319"
     ],
@@ -743,6 +950,7 @@
     ]
   },
   {
+    "refID": "o.3.godform.2",
     "cardIDs": [
       "CQ1320"
     ],
@@ -806,6 +1014,7 @@
     ]
   },
   {
+    "refID": "o.4.godform.1",
     "cardIDs": [
       "DQ2048"
     ],
@@ -1113,6 +1322,7 @@
     ]
   },
   {
+    "refID": "o.4.godform.2",
     "cardIDs": [
       "DQ2049"
     ],
@@ -1226,6 +1436,7 @@
     ]
   },
   {
+    "refID": "o.4.godform.3",
     "cardIDs": [
       "DQ2050"
     ],
@@ -1397,6 +1608,7 @@
     ]
   },
   {
+    "refID": "o.5.godform.1",
     "cardIDs": [
       "EQ2635"
     ],
@@ -1525,6 +1737,7 @@
     ]
   },
   {
+    "refID": "o.5.godform.2",
     "cardIDs": [
       "EQ2636"
     ],
@@ -1616,6 +1829,7 @@
     ]
   },
   {
+    "refID": "o.5.godform.3",
     "cardIDs": [
       "EQ2637"
     ],
@@ -1804,205 +2018,7 @@
     ]
   },
   {
-    "cardIDs": [
-      "AQ0627"
-    ],
-    "name": "Hades",
-    "renderType": "Godform",
-    "cardType": "Godform",
-    "game": "Odyssey",
-    "cycle": "Cycle I",
-    "cardSize": "Tarot",
-    "foundIn": "Envelope H",
-    "faq": [],
-    "errata": {},
-    "power": "Black",
-    "speed": "+0",
-    "stats": "",
-    "keywords": [
-      {
-        "abilityText": [
-          {
-            "type": "keyword",
-            "value": "Auto-break 1"
-          }
-        ]
-      }
-    ],
-    "abilities": [
-      {
-        "name": "All Things End",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you deal a Wound, you may lose -1"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Trespass"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "to place 1 negative"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "AT"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "token in the Kratos Pool"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Inverted Death",
-        "effects": [
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When you would gain any"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": ", you lose the same amount of"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "instead (if it was dealt, you still resolve a Trauma Draw)"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "Once you reach 0"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": ", you begin to gain"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "as normal (including the remaining"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "from the effect that lowered your"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "icon",
-                "value": "Danger"
-              },
-              {
-                "type": "whitespace",
-                "value": " "
-              },
-              {
-                "type": "plainText",
-                "value": "value to 0)"
-              }
-            ]
-          },
-          {
-            "abilityText": [
-              {
-                "type": "plainText",
-                "value": "When it happens, place a generic token on this ability as a reminder"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
+    "refID": "o.p.godform.1",
     "cardIDs": [
       "EQ9933"
     ],

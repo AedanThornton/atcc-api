@@ -613,3 +613,16 @@ def parse_attack_diagram(raw_data):
     if len(rows) < 5 and rows[-1] != ("W" * len(rows[-1])): new_rows.append("W" * 25)
 
     return new_rows if len(new_rows) > 1 else None
+
+def parse_functional_abilities(ability_def):
+    new_ability = {}
+
+    for part in ability_def.split("\n"):
+        ability_parts = part.split("=")
+
+        if ability_parts[0] == "effect" and not "keyword" in new_ability:
+            new_ability["effect"] = parse_abilities(ability_parts[1])
+        else:
+            new_ability[ability_parts[0]] = ability_parts[1] if len(ability_parts) > 1 else True
+
+    return new_ability

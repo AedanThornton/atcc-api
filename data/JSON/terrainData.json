@@ -1,5 +1,6 @@
 [
   {
+    "refID": "o.1.terrain.1",
     "cardIDs": [
       "AI0361"
     ],
@@ -26,6 +27,7 @@
     "abilities": []
   },
   {
+    "refID": "o.1.terrain.2",
     "cardIDs": [
       "AI0362"
     ],
@@ -129,6 +131,7 @@
     ]
   },
   {
+    "refID": "o.1.terrain.3",
     "cardIDs": [
       "AI0364"
     ],
@@ -163,6 +166,7 @@
       "Labyrinth"
     ],
     "abilities": [],
+    "refID2": "o.1.terrain.4",
     "cardIDs2": [
       "AI0364"
     ],
@@ -198,6 +202,7 @@
     "abilities2": []
   },
   {
+    "refID": "o.1.terrain.5",
     "cardIDs": [
       "AI0366"
     ],
@@ -224,6 +229,7 @@
     "abilities": []
   },
   {
+    "refID": "o.1.terrain.6",
     "cardIDs": [
       "AI0367"
     ],
@@ -246,9 +252,208 @@
       "Trap",
       "Treasure"
     ],
-    "abilities": []
+    "abilities": [],
+    "refID2": "o.3.terrain.9",
+    "cardIDs2": [
+      "AI0367"
+    ],
+    "name2": "Hyperborean Ruins",
+    "renderType2": "Terrain",
+    "cardType2": "Terrain",
+    "game2": "Odyssey",
+    "cycle2": "Cycle III",
+    "cardSize2": "Standard",
+    "faq2": [],
+    "errata2": {},
+    "tiles2": [
+      {
+        "count": "1",
+        "type": "3x3"
+      }
+    ],
+    "keywords2": [
+      "Obstacle",
+      "Obscuring",
+      "Indestructible"
+    ],
+    "abilities2": [
+      {
+        "abilityText": [
+          {
+            "type": "icon",
+            "value": "CombatAction"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "bold",
+            "value": "Treasure:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "Once per Battle, when adjacent, search the Hyperborean Ruins"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Roll a d10:"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "1: You devle too deep and get lost in time and space"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Suffer Time-clocked"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "2-5: Unknown dangers still lurk in the ruins"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Suffer"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "keyword",
+            "value": "Bleeding 1"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "6-9: An artifact of ancient origin"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain 1 Antediluvian Sirenshell Rare resource"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "newline"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "10: Among the rubble, you find a forgotten treasure"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "Gain the"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "cardRef",
+            "value": "Exiles Garb",
+            "refID": "CJ1490"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "icon",
+            "value": "Gear"
+          },
+          {
+            "type": "whitespace",
+            "value": " "
+          },
+          {
+            "type": "plainText",
+            "value": "card"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "plainText",
+            "value": "If you already have it, gain +1 Pygmalion Stone instead"
+          }
+        ]
+      }
+    ]
   },
   {
+    "refID": "o.1.terrain.7",
     "cardIDs": [
       "AI0368"
     ],
@@ -275,6 +480,7 @@
     "abilities": []
   },
   {
+    "refID": "o.1.terrain.8",
     "cardIDs": [
       "AI0369"
     ],
@@ -301,6 +507,7 @@
     "abilities": []
   },
   {
+    "refID": "o.1.terrain.9",
     "cardIDs": [
       "AI0370"
     ],
@@ -362,6 +569,7 @@
     ]
   },
   {
+    "refID": "o.1.terrain.10",
     "cardIDs": [
       "AI0371"
     ],
@@ -385,6 +593,7 @@
     "abilities": []
   },
   {
+    "refID": "o.2.terrain.1",
     "cardIDs": [
       "BI0691"
     ],
@@ -423,6 +632,7 @@
     "abilities": []
   },
   {
+    "refID": "o.2.terrain.2",
     "cardIDs": [
       "BI0693"
     ],
@@ -446,6 +656,7 @@
     "abilities": []
   },
   {
+    "refID": "o.2.terrain.3",
     "cardIDs": [
       "BI0694"
     ],
@@ -528,6 +739,7 @@
     ]
   },
   {
+    "refID": "o.2.terrain.4",
     "cardIDs": [
       "BI0695"
     ],
@@ -638,6 +850,7 @@
     ]
   },
   {
+    "refID": "o.2.terrain.5",
     "cardIDs": [
       "BI0696"
     ],
@@ -664,6 +877,7 @@
     "abilities": []
   },
   {
+    "refID": "o.2.terrain.6",
     "cardIDs": [
       "BI0697"
     ],
@@ -744,6 +958,7 @@
     ]
   },
   {
+    "refID": "o.2.terrain.7",
     "cardIDs": [
       "BI0699"
     ],
@@ -1010,6 +1225,7 @@
     ]
   },
   {
+    "refID": "o.2.terrain.8",
     "cardIDs": [
       "BI0700"
     ],
@@ -1079,6 +1295,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.1",
     "cardIDs": [
       "CI1310"
     ],
@@ -1125,6 +1342,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.2",
     "cardIDs": [
       "CI1311"
     ],
@@ -1200,6 +1418,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.3",
     "cardIDs": [
       "CI1312"
     ],
@@ -1265,6 +1484,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.4",
     "cardIDs": [
       "CI1313"
     ],
@@ -1348,6 +1568,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.5",
     "cardIDs": [
       "CI1314"
     ],
@@ -1431,6 +1652,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.6",
     "cardIDs": [
       "CI1315"
     ],
@@ -1490,6 +1712,7 @@
     ]
   },
   {
+    "refID": "o.3.terrain.7",
     "cardIDs": [
       "CI1316"
     ],
@@ -1522,6 +1745,7 @@
     "abilities": []
   },
   {
+    "refID": "o.3.terrain.8",
     "cardIDs": [
       "CI1317"
     ],
@@ -1546,205 +1770,7 @@
     "abilities": []
   },
   {
-    "cardIDs": [
-      ""
-    ],
-    "name": "Hyperborean Ruins",
-    "renderType": "Terrain",
-    "cardType": "Terrain",
-    "game": "Odyssey",
-    "cycle": "Cycle III",
-    "cardSize": "Standard",
-    "faq": [],
-    "errata": {},
-    "tiles": [
-      {
-        "count": "1",
-        "type": "3x3"
-      }
-    ],
-    "keywords": [
-      "Obstacle",
-      "Obscuring",
-      "Indestructible"
-    ],
-    "abilities": [
-      {
-        "abilityText": [
-          {
-            "type": "icon",
-            "value": "CombatAction"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "bold",
-            "value": "Treasure:"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "Once per Battle, when adjacent, search the Hyperborean Ruins"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Roll a d10:"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "newline"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "1: You devle too deep and get lost in time and space"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Suffer Time-clocked"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "newline"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "2-5: Unknown dangers still lurk in the ruins"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Suffer"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "keyword",
-            "value": "Bleeding 1"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "newline"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "6-9: An artifact of ancient origin"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Gain 1 Antediluvian Sirenshell Rare resource"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "newline"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "10: Among the rubble, you find a forgotten treasure"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "Gain the"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "cardRef",
-            "value": "Exiles Garb",
-            "refID": "CJ1490"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "icon",
-            "value": "Gear"
-          },
-          {
-            "type": "whitespace",
-            "value": " "
-          },
-          {
-            "type": "plainText",
-            "value": "card"
-          }
-        ]
-      },
-      {
-        "abilityText": [
-          {
-            "type": "plainText",
-            "value": "If you already have it, gain +1 Pygmalion Stone instead"
-          }
-        ]
-      }
-    ]
-  },
-  {
+    "refID": "o.4.terrain.1",
     "cardIDs": [
       "DI2027"
     ],
@@ -1780,6 +1806,7 @@
     ]
   },
   {
+    "refID": "o.4.terrain.2",
     "cardIDs": [
       "DI2028"
     ],
@@ -1815,6 +1842,7 @@
     ]
   },
   {
+    "refID": "o.4.terrain.3",
     "cardIDs": [
       "DI2029"
     ],
@@ -1917,6 +1945,7 @@
         ]
       }
     ],
+    "refID2": "o.4.terrain.4",
     "cardIDs2": [
       "DI2029"
     ],
@@ -1943,6 +1972,7 @@
     "abilities2": []
   },
   {
+    "refID": "o.4.terrain.5",
     "cardIDs": [
       "DI2030"
     ],
@@ -1977,6 +2007,7 @@
         ]
       }
     ],
+    "refID2": "o.4.terrain.6",
     "cardIDs2": [
       "DI2030"
     ],
@@ -2091,6 +2122,7 @@
     ]
   },
   {
+    "refID": "o.4.terrain.7",
     "cardIDs": [
       "DI2031"
     ],
@@ -2114,6 +2146,7 @@
       "Cloud"
     ],
     "abilities": [],
+    "refID2": "o.4.terrain.8",
     "cardIDs2": [
       "DI2031"
     ],
@@ -2164,6 +2197,7 @@
     ]
   },
   {
+    "refID": "o.4.terrain.9",
     "cardIDs": [
       "DI2032"
     ],
@@ -2224,6 +2258,7 @@
     ]
   },
   {
+    "refID": "o.5.terrain.1",
     "cardIDs": [
       "EI2604"
     ],
@@ -2376,6 +2411,7 @@
     ]
   },
   {
+    "refID": "o.5.terrain.2",
     "cardIDs": [
       "EI2605"
     ],
@@ -2401,6 +2437,7 @@
     "abilities": []
   },
   {
+    "refID": "o.5.terrain.3",
     "cardIDs": [
       "EI2606"
     ],
@@ -2427,6 +2464,7 @@
     "abilities": []
   },
   {
+    "refID": "o.5.terrain.4",
     "cardIDs": [
       "EI2607"
     ],
@@ -2460,6 +2498,7 @@
     "abilities": []
   },
   {
+    "refID": "o.5.terrain.5",
     "cardIDs": [
       "EI2608"
     ],
