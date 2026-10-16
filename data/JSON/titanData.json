@@ -121,6 +121,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -244,6 +253,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -369,6 +387,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -492,6 +519,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -618,6 +654,13 @@
             "value": "Six-Armed"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "When you Attack",
+        "keyword": true,
+        "effect": "Cold Open"
       }
     ]
   },
@@ -765,6 +808,20 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Maze Awareness"
+      },
+      {
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Improved Rush"
       }
     ]
   },
@@ -968,6 +1025,26 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-break X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "When you survive an Obol",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Logicbreak"
+      },
+      {
+        "timing": "During voluntary movement",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Theseus Logic"
+      }
     ]
   },
   {
@@ -1126,6 +1203,24 @@
             "value": "Ruse"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Reaction",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Advanced Reflex"
+      },
+      {
+        "timing": "Crit Miss",
+        "keyword": true,
+        "effect": "Disturbance in Fate"
+      },
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Ruse"
       }
     ]
   },
@@ -1287,6 +1382,18 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Rage Summit"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Spartan-Bred"
+      }
     ]
   },
   {
@@ -1434,6 +1541,34 @@
             "value": "Spartan-Bred"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Power Roll",
+        "keyword": true,
+        "effect": "Power Re-roll X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Stout"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Stubborn"
+      },
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Stubborn"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Spartan-Bred"
       }
     ]
   },
@@ -1679,6 +1814,58 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-black X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ambrosia Limit -X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Dual-wielding"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "One for All"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Fearless"
+      },
+      {
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot gain Despair tokens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "timing": "Start of your turn",
+        "keyword": true,
+        "effect": "Abyss-tainted"
+      },
+      {
+        "timing": "After surviving any Trauma other than Obol",
+        "keyword": true,
+        "effect": "The Abyss Calls"
+      }
     ]
   },
   {
@@ -1799,6 +1986,8 @@
         ]
       },
       {
+        "gate": "Rage",
+        "value": "5+",
         "abilityText": [
           {
             "type": "keyword",
@@ -1821,6 +2010,35 @@
             "value": "Ascend!"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-break X",
+        "xvalue": "1"
+      },
+      {
+        "gate": "Rage 5+",
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Surpass!"
+      },
+      {
+        "timing": "When you would die from an Instant Death effect",
+        "keyword": true,
+        "effect": "Survive!"
+      },
+      {
+        "timing": "When you survive a Trauma Draw",
+        "keyword": true,
+        "effect": "Ascend!"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ascend!"
       }
     ]
   },
@@ -1995,6 +2213,9 @@
             "type": "keyword",
             "value": "The Return"
           }
+        ],
+        "costs": [
+          "Fate"
         ]
       },
       {
@@ -2020,6 +2241,39 @@
             "value": "Fickle Fate"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Free",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "The Return"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Kreios Strain"
+      },
+      {
+        "timing": "When you are about to draw an Obol",
+        "keyword": true,
+        "effect": "Cheat Fate"
+      },
+      {
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Fickle Fate"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Fickle Fate"
+      },
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Fickle Fate"
       }
     ]
   },
@@ -2228,6 +2482,37 @@
         "costs": [
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "At the start of movement",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Advanced Jump"
+      },
+      {
+        "timing": "When you are about to perform a Climb Test",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Scale"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "In Light and Shade"
+      },
+      {
+        "timing": "When you fail the Hold On test",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Fall and Soar"
+      },
+      {
+        "timing": "When you are about to die from a Chasm space",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Lifeline"
       }
     ]
   },
@@ -2444,6 +2729,46 @@
             "value": "Disturbance in Fate"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ambrosia Limit X",
+        "xvalue": "5"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Bleeding Limit X",
+        "xvalue": "5"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Despair Limit X",
+        "xvalue": "5"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Last Titan Standing"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "The Truth"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Elder Might"
+      },
+      {
+        "timing": "Crit Miss",
+        "keyword": true,
+        "effect": "Disturbance in Fate"
       }
     ]
   },
@@ -2819,6 +3144,43 @@
           "Exhaust"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Kreios Strain"
+      },
+      {
+        "timing": "Voluntary Movement",
+        "cost": "Fate Danger Exhaust",
+        "keyword": true,
+        "effect": "Fly"
+      },
+      {
+        "timing": "When you are about to perform a Climb Test",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Scale"
+      },
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Seer Sense"
+      },
+      {
+        "timing": "When you fail the Hold On test",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Fall and Soar"
+      },
+      {
+        "gate": "Danger 8+",
+        "timing": "When you are about to die from a Chasm space",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Lifeline"
+      }
     ]
   },
   {
@@ -3005,6 +3367,35 @@
           "Fate",
           "Exhaust"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-break X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Arabian Nights"
+      },
+      {
+        "timing": "Before the Attack Roll",
+        "keyword": true,
+        "effect": "Spinning Tales"
+      },
+      {
+        "timing": "After surviving a Major, Grave, or Obol Trauma",
+        "keyword": true,
+        "effect": "Tall Tales"
+      },
+      {
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Persian Deal"
       }
     ]
   },
@@ -3204,6 +3595,18 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "After you resolve a Primordial Attack against you",
+        "keyword": true,
+        "effect": "Shadowdance"
+      },
+      {
+        "timing": "When you are about to draw an Obol",
+        "keyword": true,
+        "effect": "Dance of Fate"
+      }
     ]
   },
   {
@@ -3400,6 +3803,36 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "During voluntary movement",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Levitate"
+      },
+      {
+        "timing": "When you fail the Hold On test",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Fall and Soar"
+      },
+      {
+        "timing": "When you are about to die from a Chasm space",
+        "cost": "Fate Knockdown",
+        "keyword": true,
+        "effect": "Lifeline"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Carry the Weight"
+      },
+      {
+        "timing": "Free",
+        "keyword": true,
+        "effect": "Carry the Weight"
+      }
     ]
   },
   {
@@ -3572,6 +4005,28 @@
             "value": "Wish Engine"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Wish Shield"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Djinnslayer"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Wish Engine"
+      },
+      {
+        "timing": "Free",
+        "keyword": true,
+        "effect": "Wish Engine"
       }
     ]
   },
@@ -3790,6 +4245,36 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-hope X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Selenian Strain"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "One Small Step"
+      },
+      {
+        "timing": "Free",
+        "cost": "Fate",
+        "keyword": true,
+        "effect": "Grey Alchemy"
+      },
+      {
+        "timing": "After Attack",
+        "cost": "Despair Despair Despair",
+        "keyword": true,
+        "effect": "Forgotten Curse"
+      }
     ]
   },
   {
@@ -4003,6 +4488,57 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-black X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ambrosia Limit X",
+        "xvalue": "6"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Bleeding Limit X",
+        "xvalue": "6"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Despair Limit X",
+        "xvalue": "5"
+      },
+      {
+        "timing": "When you are about to resolve an Evasion Roll",
+        "keyword": true,
+        "effect": "Wish Dodge"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Last Titan Standing"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "The Truth"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Elder Might"
+      },
+      {
+        "timing": "Crit Miss",
+        "keyword": true,
+        "effect": "Fate Follows"
+      }
     ]
   },
   {
@@ -4176,6 +4712,28 @@
             "value": "Wish Engine"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Wish Shield"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Djinnslayer"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Wish Engine"
+      },
+      {
+        "timing": "Free",
+        "keyword": true,
+        "effect": "Wish Engine"
       }
     ]
   },
@@ -4351,6 +4909,23 @@
             "value": "Fear is the Mind Killer"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Born in the Dark"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ur-Tainted"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Fear is the Mind Killer"
       }
     ]
   },
@@ -4555,6 +5130,35 @@
             "value": "Electromagnetic Shield"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-black X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ambrosia Limit X",
+        "xvalue": "6"
+      },
+      {
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Silver Strain"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Aether Lamp"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Electromagnetic Shield"
       }
     ]
   },
@@ -4764,6 +5368,14 @@
         "abilityText": [
           {
             "type": "keyword",
+            "value": "Nimble Hands"
+          }
+        ]
+      },
+      {
+        "abilityText": [
+          {
+            "type": "keyword",
             "value": "Silver Strain"
           }
         ]
@@ -4783,6 +5395,47 @@
             "value": "To Dark We Will at Last Return"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "FAW",
+        "keyword": true,
+        "effect": "Auto-hope X",
+        "xvalue": "1"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Ambrosia Limit X",
+        "xvalue": "5"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Despair Resilience X",
+        "xvalue": "1"
+      },
+      {
+        "gate": "Rage 8+",
+        "timing": "When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon\u2019s effective range",
+        "keyword": true,
+        "effect": "Deny"
+      },
+      {
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Silver Strain"
+      },
+      {
+        "timing": "Start of your turn",
+        "keyword": true,
+        "effect": "Abyss-tainted"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "To Dark We Will at Last Return"
       }
     ]
   },
@@ -4981,6 +5634,29 @@
           }
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Crit Miss",
+        "keyword": true,
+        "effect": "Final Countdown"
+      },
+      {
+        "timing": "Start of your turn",
+        "keyword": true,
+        "effect": "Internalize Pain"
+      },
+      {
+        "timing": "When attacking a BP card with a Death Blow Crit effect",
+        "cost": "Oxygen Fate",
+        "keyword": true,
+        "effect": "Finish Him"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Pain Engine"
+      }
     ]
   },
   {
@@ -5137,6 +5813,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -5295,6 +5980,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -5451,6 +6145,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -5609,6 +6312,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -5759,6 +6471,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -5911,6 +6632,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -6061,6 +6791,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -6213,6 +6952,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -6355,6 +7103,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -6499,6 +7256,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -6641,6 +7407,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -6785,6 +7560,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -6927,6 +7711,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -7071,6 +7864,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -7214,6 +8016,15 @@
           "Fate"
         ]
       }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
+      }
     ]
   },
   {
@@ -7356,6 +8167,15 @@
           "ComplicatedAction",
           "Fate"
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "ComplicatedAction Fate",
+        "keyword": true,
+        "effect": "Rush"
       }
     ]
   },
@@ -7606,6 +8426,28 @@
             "value": "Final Countdown"
           }
         ]
+      }
+    ],
+    "functionalAbilities": [
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Dual-wielding"
+      },
+      {
+        "timing": "Start of your turn",
+        "keyword": true,
+        "effect": "Internalize Despair"
+      },
+      {
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Kreios Strain"
+      },
+      {
+        "timing": "Crit Miss",
+        "keyword": true,
+        "effect": "Final Countdown"
       }
     ]
   }

@@ -115,6 +115,98 @@
     "stats": [
       "Courage",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard a Condition token"
+              }
+            ]
+          }
+        ],
+        "choice": "A"
+      },
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard a Condition card"
+              }
+            ]
+          }
+        ],
+        "choice": "A"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard a Condition token from another Titan"
+              }
+            ]
+          }
+        ],
+        "choice": "A"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard a Condition card from another Titan"
+              }
+            ]
+          }
+        ],
+        "choice": "A"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 3+",
+        "timing": "When you are about to gain a Condition card or token",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Roll a d10"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "On a 6+, ignore this gain"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -197,6 +289,62 @@
     "stats": [
       "Cunning",
       "Endurance"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Stand up"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Another Titan may"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Stand up"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 4+",
+        "timing": "When you are about to suffer Knockdown",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Roll a d10"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "On a 6+, ignore this Knockdown"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -264,6 +412,54 @@
     "stats": [
       "Wisdom",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Titans adjacent to you have +1 Precision"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Another Titan may move 1 space"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 8+",
+        "timing": "When you attack",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Use another Titan's Kratos Table for this Attack"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -334,6 +530,56 @@
     "stats": [
       "Courage",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "keyword": true,
+        "effect": "Opening X",
+        "xvalue": "1",
+        "choice": "A"
+      },
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "keyword": true,
+        "effect": "Break X",
+        "xvalue": "1",
+        "choice": "A"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Kratos Pool is empty, place up to 2 Opening and/or Break tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Kratos Pool is empty, place up to 3 Opening and/or Break tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -398,6 +644,44 @@
     "stats": [
       "Endurance",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Knockback Reduction X",
+        "xvalue": "2"
+      },
+      {
+        "mlevel": "2",
+        "timing": "Passive",
+        "keyword": true,
+        "effect": "Pushback Reduction X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "3",
+        "timing": "When you suffer Knockback",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -461,7 +745,8 @@
     "stats": [
       "Wisdom",
       "Will"
-    ]
+    ],
+    "functionalAbilities": []
   },
   {
     "refID": "o.1.mnemos.7",
@@ -537,6 +822,68 @@
     "stats": [
       "Cunning",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are on a Rear space, you gain +1 Precision"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are on a Rear space, you gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Power Re-roll 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When you are on a Rear space, you gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Auto-break 1"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -637,6 +984,52 @@
     "stats": [
       "Courage",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Unexhaust a Gear card"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Another Titan may unexhaust a Gear card"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "When you are about to exhaust a card",
+        "cost": "Fate Fate",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore this exhaust"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -754,6 +1147,103 @@
     "stats": [
       "Endurance",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Power Roll",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Add 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "RedPowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to your Power Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Power Roll",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Add 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "BlackPowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to your Power Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 8+",
+        "timing": "Power Roll",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Add 2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Power"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to this Roll"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -967,6 +1457,151 @@
     "stats": [
       "Wisdom",
       "Courage"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "During @MovementAction",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "for this movement"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "During @MovementAction",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Bypass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "for this movement"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 4+",
+        "timing": "During @MovementAction",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +3"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Bypass"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "for this movement and gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Vault"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "until the end of your turn"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1147,6 +1782,92 @@
     "stats": [
       "Fury",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "After you raise your @Rage for any reason",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If your Rage is equal to current"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target's Rage , you may gain the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are the PriorityTarget Priority Target, you gain +1 Precision"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are the PriorityTarget Priority Target, you gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Auto-break 1"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1221,6 +1942,56 @@
     "stats": [
       "Endurance",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Turn the Primordial in your direction"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "When another Titan is about to gain a Condition card or Condition token",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain it instead"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "While resolving an AI card",
+        "cost": "Fate Danger Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "When the Primordial moves adjacent to you, become the Target of this AI card"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1276,7 +2047,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "WHen another Titan is about to gain"
+              "value": "When another Titan is about to gain"
             },
             {
               "type": "whitespace",
@@ -1329,6 +2100,78 @@
     "stats": [
       "Endurance",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Attack Roll",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Re-roll all 1s on non-Crit dice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 6+",
+        "timing": "Awakening Roll",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Re-roll an Awakening Roll"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "When another Titan is about to gain Danger",
+        "cost": "Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You gain it instead"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If this"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "was dealt by an Attack, resolve a Trauma Draw"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1422,6 +2265,63 @@
     "stats": [
       "Cunning",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Change 1 negative modifier token into a positive one"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 1 temporary positive Evasion token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain or lose up to 2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1493,6 +2393,63 @@
     "stats": [
       "Will",
       "Courage"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you break a Combo",
+        "keyword": true,
+        "effect": "Break X",
+        "xvalue": "1",
+        "choice": "A"
+      },
+      {
+        "mlevel": "1",
+        "timing": "When you break a Combo",
+        "keyword": true,
+        "effect": "Opening X",
+        "xvalue": "1",
+        "choice": "A"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 2+",
+        "timing": "When you break a Combo",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may lose -1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "When you break a Combo",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Perform a Bonus Attack!"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1587,6 +2544,84 @@
     "stats": [
       "Endurance",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you survive an Obol",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Lose up to -3"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and -2"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "When you are about to die from an Instant Death effect",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Draw an Obol instead"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "BlackPowerDie"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1659,6 +2694,61 @@
     "stats": [
       "Will",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you are about to gain at least 1 Ambrosia token",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Test (8+) for each of these tokens"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For each success, lower Ambrosia gain by 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard up to 2 Ambrosia tokens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "When you are about to draw a Trauma card",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain Ambrosia tokens instead: 1 for Minor, 2 for Major, 3 for Grave, and 4 for an Obol"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1761,6 +2851,87 @@
     "stats": [
       "Cunning",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Before Power Roll",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "equal to the BP level to immediately fail this Attack instead, ignoring the Fail Responses"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you do, do not place any tokens in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "When you fail to Wound",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place the BP card back on top of the BP deck instead of discarding it"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 5+",
+        "timing": "When you are about to become the Target of an Attack",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Swap places with an adjacent Titan"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "That Titan becomes the Target instead"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1884,6 +3055,113 @@
     "stats": [
       "Endurance",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you are about to resolve a Trauma Draw,",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Treat your"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Danger"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "as 1 lower"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "When you are knocked down",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Unexhaust this card"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "When you stand up",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", +1 Precision, and"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Auto-break 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "until the end of your turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "When you are about to die from a Trauma Draw or Instant Death effect",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may perform a Bonus Attack! (You still die afterwards)"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -1972,6 +3250,60 @@
     "stats": [
       "Courage",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Start of Battle",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may move 1 space towards the Primordial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "Start of Battle",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You may gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Opening X",
+        "xvalue": "3",
+        "option": "A"
+      },
+      {
+        "mlevel": "3",
+        "timing": "Start of Battle",
+        "keyword": true,
+        "effect": "Break X",
+        "xvalue": "2",
+        "option": "A"
+      }
     ]
   },
   {
@@ -2041,6 +3373,31 @@
     "stats": [
       "Courage",
       "Endurance"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "FAW",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Daze"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "SAW",
+        "keyword": true,
+        "effect": "Inspire X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 3+",
+        "timing": "SAW",
+        "keyword": true,
+        "effect": "Rouse X",
+        "xvalue": "1"
+      }
     ]
   },
   {
@@ -2139,6 +3496,31 @@
     "stats": [
       "Will",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "At the start of movement",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Jump"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Reaction",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Reflex"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 5+",
+        "timing": "Free",
+        "cost": "ComplicatedAction",
+        "keyword": true,
+        "effect": "Run"
+      }
     ]
   },
   {
@@ -2208,6 +3590,55 @@
     "stats": [
       "Cunning",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you are about to suffer Knockdown",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Suffer"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Time-clocked"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "instead"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 7+",
+        "timing": "After you draw a Trauma or Obol card",
+        "cost": "Discard",
+        "keyword": true,
+        "effect": "Second Chance"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "Power Roll",
+        "cost": "Discard",
+        "keyword": true,
+        "effect": "Clutch"
+      }
     ]
   },
   {
@@ -2285,6 +3716,47 @@
     "stats": [
       "Cunning",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Another Titan's Power Roll",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Assist X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 7+",
+        "timing": "Power Roll",
+        "cost": "Fate Discard",
+        "keyword": true,
+        "effect": "Clutch"
+      },
+      {
+        "mlevel": "3",
+        "timing": "Another Titan's Power Roll",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Succor"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", then, immediately after current Attack ends, draw an Obol"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2371,6 +3843,55 @@
     "stats": [
       "Courage",
       "Endurance"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard 1 Bleeding token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "When you are about to suffer Bleeding X or gain Bleeding tokens",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore that effect"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 5+",
+        "timing": "When you are about to Discard a positive Trauma card due to the Bleeding Condition card",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Return it to the top instead"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2419,7 +3940,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision"
+              "value": "While your Time Anchor is adjacent to that of another Titan's, you have +1 Precision"
             }
           ]
         }
@@ -2443,6 +3964,68 @@
     "stats": [
       "Will",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Reestablish your Time Anchor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "1",
+        "timing": "End of your Turn",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Reestablish your Time Anchor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "While your Time Anchor is adjacent to that of another Titan's, you have +1 Precision"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 5+",
+        "timing": "When you are about to return to a Time Anchor",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Treat another Titan's Time Anchor as your own"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2539,6 +4122,85 @@
     "stats": [
       "Courage",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Arrive from Time-clocked"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Another Titan may arrive from Time-clocked"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "timing": "When you arrive from Time-clocked",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Speed"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "and"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Auto-black 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "until the end of your turn"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2609,6 +4271,80 @@
     "stats": [
       "Fury",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Fire X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Kratos Pool is empty,"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Fire 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ","
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Black 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If the Kratos Pool is empty,"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Hope 3"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2708,6 +4444,86 @@
     "stats": [
       "Endurance",
       "Courage"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "PriorityTarget"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Priority Target token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "SAW",
+        "cost": "Fate",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are the Priority Target, gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Rouse 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "SAW",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are the Priority Target, gain"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "keyword",
+                "value": "Hope 1"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2789,6 +4605,59 @@
     "stats": [
       "Fury",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Start of your turn",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "1",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are on a Time Anchor, you have +1 Precision"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Rewind"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "When you die",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Return from death to your Time Anchor"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2870,6 +4739,64 @@
     "stats": [
       "Courage",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "When you attack",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Treat the Kratos Pool as Sunstarved or Sunbask 2 for the purposes of triggering abilities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "During the Clear the Kratos Pool step",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Leave half of the unused tokens there"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 3+",
+        "timing": "When you attack",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Move half of the tokens from the Kratos Pool to this card"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "During the Second Ability Window, move them to the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3012,6 +4939,108 @@
     "stats": [
       "Cunning",
       "Endurance"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 1+",
+        "timing": "When you resolve a Wish Attack",
+        "cost": "Fate Fate Exhaust",
+        "keyword": true,
+        "effect": "Wish Armor"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "During Targeting, if the Attack is a Wish Attack",
+        "cost": "Fate Fate",
+        "keyword": true,
+        "effect": "Wishrod"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Wishkeen",
+                "refID": "DL2011"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Wishagog",
+                "refID": "DL2011"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card and gained the"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Enriched",
+                "refID": "DL2015"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Lander",
+                "refID": "DL2019"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3081,6 +5110,55 @@
     "stats": [
       "Wisdom",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard 1 Midas token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "When you are about to gain Midas tokens",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore that gain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "When you attack",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard all Midas tokens and gain that much Precision for this Attack"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3170,6 +5248,33 @@
     "stats": [
       "Courage",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Hermes Move X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 3+",
+        "timing": "Reaction",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Hermes Reflex"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "Free",
+        "cost": "Discard",
+        "keyword": true,
+        "effect": "Hermes Move X",
+        "xvalue": "3"
+      }
     ]
   },
   {
@@ -3250,6 +5355,57 @@
     "stats": [
       "Wisdom",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "When you attack",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Startup X",
+        "xvalue": "2"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard 1 Midas token and place 1 Black token in the Kratos Pool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Unholy Alchemy"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3327,6 +5483,47 @@
     "stats": [
       "Courage",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "keyword": true,
+        "effect": "Deflate"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "When you are about to suffer Airburst during a Primordial Attack",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore it"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "When a Curse Attack is about to affect you",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore it"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3454,6 +5651,96 @@
     "stats": [
       "Cunning",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "Evasion Roll",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain +X"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Fate"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Evasion"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": ", where X is the sum of Evasion bonuses you have (including this one)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 7+",
+        "timing": "After you draw a Trauma or Obol card",
+        "cost": "Discard",
+        "keyword": true,
+        "effect": "Second Chance"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "When you are about to die",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Postpone the death until the end of your next turn"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "You cannot prevent that death in any way"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Then, at the End of Battle: Gain a random Curse Affliction"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3540,6 +5827,72 @@
     "stats": [
       "Endurance",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "Free",
+        "cost": "Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Move an Irem Tower Terrain tile one space"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Move an Irem Tower Terrain tile up to 3 spaces"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 8+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Place an"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Irem Tower",
+                "refID": "DI2028"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Terrain tile anywhere on the Battle Board"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3630,6 +5983,50 @@
     "stats": [
       "Courage",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "FAW/SAW",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Pull X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "FAW/SAW",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Pushback X",
+        "xvalue": "2"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 6+",
+        "timing": "FAW/SAW",
+        "cost": "Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "keyword",
+                "value": "Pull 3"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For the purposes of this Pull, ignore Lumbering"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3702,6 +6099,61 @@
     "stats": [
       "Cunning",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "When you are about to gain at least 1 Pain token",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Test (8+) for each of these tokens"
+              }
+            ]
+          },
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "For each success, lower Pain gain by 1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard up to 2 Pain tokens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 7+",
+        "timing": "When you are about to draw a Trauma card",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Gain 5 Pain tokens instead"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3776,6 +6228,62 @@
     "stats": [
       "Wisdom",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Ambrosia 1+",
+        "timing": "When another Titan dies",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Immediately perform"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "MovementAction"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Ambrosia 2+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are adjacent to another Titan, you both ignore Burn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Ambrosia 3+",
+        "timing": "Passive",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "If you are adjacent to another Titan, you both ignore Crash"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3850,6 +6358,56 @@
     "stats": [
       "Fury",
       "Cunning"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "When you are about to suffer Burn",
+        "cost": "Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore that Burn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 5+",
+        "timing": "Free",
+        "cost": "Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore the effects of Despair tokens until the end of your turn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 8+",
+        "timing": "Free",
+        "cost": "Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore Ambrosia tokens placed on your Gear with the Light X keyword until the end of this round"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -3937,6 +6495,52 @@
     "stats": [
       "Endurance",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "timing": "During a Light Check",
+        "cost": "Fate Exhaust",
+        "keyword": true,
+        "effect": "Light X",
+        "xvalue": "1"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 5+",
+        "timing": "When you attack",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore all negative Precision modifiers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "After counting hits from an Evasion Roll",
+        "cost": "Fate Discard",
+        "keyword": true,
+        "effect": "Block X",
+        "xvalue": "1",
+        "option": "A"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "While performing a Skill test caused by a Judgement",
+        "cost": "Fate Discard",
+        "keyword": true,
+        "effect": "Defy X",
+        "xvalue": "1",
+        "option": "A"
+      }
     ]
   },
   {
@@ -4086,6 +6690,132 @@
     "stats": [
       "Courage",
       "Will"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 2+",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Take a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Fear",
+                "refID": "AL0299"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Dread",
+                "refID": "AL0299"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card of an adjacent Titan and gain +1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Rage"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 4+",
+        "timing": "Free",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Take a"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "or"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "cardRef",
+                "value": "Holy Terror",
+                "refID": "EL2596"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "Condition card of an adjacent Titan and gain 1 Aether token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Discard all Condition cards"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -4193,6 +6923,88 @@
     "stats": [
       "Endurance",
       "Fury"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Danger 3+",
+        "timing": "Free",
+        "cost": "Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Flip 1 Aether token"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "2",
+        "gate": "Danger 7+",
+        "timing": "When you are about to pay an ability cost on a Gear card",
+        "cost": "Fate Exhaust",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Ignore an Aether or Oxygen"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "Gear"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "cost"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "mlevel": "3",
+        "gate": "Danger 9+",
+        "timing": "Power Roll",
+        "cost": "Oxygen Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Add 1"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "WhitePowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "to your Power Pool"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -4254,7 +7066,7 @@
           "abilityText": [
             {
               "type": "plainText",
-              "value": "You Titan's Power die becomes"
+              "value": "Your Titan's Power die becomes"
             },
             {
               "type": "whitespace",
@@ -4284,6 +7096,56 @@
     "stats": [
       "Courage",
       "Wisdom"
+    ],
+    "functionalAbilities": [
+      {
+        "mlevel": "1",
+        "gate": "Despair 2+",
+        "timing": "When you are about to draw an Obol",
+        "cost": "Fate Discard",
+        "keyword": true,
+        "effect": "Dare"
+      },
+      {
+        "mlevel": "2",
+        "gate": "Despair 3+",
+        "timing": "When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon\u2019s effective range",
+        "cost": "Aether Discard",
+        "keyword": true,
+        "effect": "Deny"
+      },
+      {
+        "mlevel": "3",
+        "gate": "Despair 4+",
+        "timing": "Free",
+        "cost": "Oxygen Fate Discard",
+        "effect": [
+          {
+            "abilityText": [
+              {
+                "type": "plainText",
+                "value": "Your Titan's Power die becomes"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "icon",
+                "value": "MortalPowerDie"
+              },
+              {
+                "type": "whitespace",
+                "value": " "
+              },
+              {
+                "type": "plainText",
+                "value": "for the duration of this Battle"
+              }
+            ]
+          }
+        ]
+      }
     ]
   }
 ]

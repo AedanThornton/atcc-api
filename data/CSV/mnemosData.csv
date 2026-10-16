@@ -1,47 +1,602 @@
-Ref ID,Card ID,Name,Game,Render Type,Cycle,Card Size,Flavor,Traits,Story Paragraphs,Ability 1,Ability 2,Ability 3,Stat,FAQ,V 1.1 Updates
-o.1.mnemos.1,AG0134,Siren Survivor,Odyssey,Mnemos,Cycle I,Standard,"Against all odds, you've survived. Why?","Voyage, Supernatural, Deed","3, 13, 23",$Exhaust Discard a Condition token or @Discard instead to discard a Condition card,%Danger 3+% $Exhaust Discard a Condition token from another Titan or @Discard instead to discard a Condition card from another Titan,"%Danger 4+% $Exhaust When you are about to gain a Condition card or token, roll a d10. On a 6+, ignore this gain","Courage, Will","Remember Ambrosia and Despair are not condition tokens, and that knockdown disallows you from using active abilities.",
-o.1.mnemos.2,AG0135,Someone Waiting,Odyssey,Mnemos,Cycle I,Standard,"You can't quite put a finger on it, but there's a soft pull on your soul's strings each time you look to the north","Voyage, Family, Gods","5, 15, 25",$Exhaust {Stand up},%Danger 3+% $Exhaust Another Titan may {Stand up},"%Danger 4+% When you are about to suffer Knockdown, you may roll a d10. On a 6+, ignore this Knockdown","Cunning, Endurance",,
-o.1.mnemos.3,AG0136,A Dream You Hold,Odyssey,Mnemos,Cycle I,Standard,"You are not some castaway on life's tumultuous ocean. Come hell or high water, you will fulfill your dream","Dream, Voyage, Fate","1, 11, 21",Titans adjacent to you have +1 Precision,%Danger 3+% $Exhaust Another Titan may move 1 space,"%Danger 8+% $Fate $Exhaust When you attack, use another Titan's Kratos Table for this Attack","Wisdom, Will",,
-o.1.mnemos.4,AG0137,Family Feud,Odyssey,Mnemos,Cycle I,Standard,Some things should never be spoken. Some bridges can never be rebuilt. There is a wound on your heart that may never heal,"Family, Tragedy, Crime","8, 18, 28",$Exhaust Place 1 Opening or Break token in the Kratos Pool,"%Danger 4+% $Exhaust If the Kratos Pool is empty, place up to 2 Opening and/or Break tokens in the Kratos Pool","%Danger 6+% $Fate $Exhaust If the Kratos Pool is empty, place up to 3 Opening and/or Break tokens in the Kratos Pool","Courage, Cunning",,
-o.1.mnemos.5,AG0138,Imprisonment,Odyssey,Mnemos,Cycle I,Standard,"Who can tell how long it's been? Dark and damp, and cramped and lonely, the cell gave no quarters. Just a tiny crack in the wall","Curse, Dream, Crime","2, 12, 22",{Knockback Reduction 2},{Pushback Reduction 1},"When you suffer Knockback, you may lose -1 @Danger","Endurance, Wisdom",,
-o.1.mnemos.6,AG0139,Haunted,Odyssey,Mnemos,Cycle I,Standard,You past lingers like a waft of cold air. Something happened to you. Something... unspeakable,"Fate, Supernatural, Curse","9, 19, 29","Once per adventure, you may re-roll any d10 roll","$Fate When you are about to roll a d10 during an adventure, add +3 to this roll (once per adventure)","$Fate $Fate When you are about to perform an Argonaut Test during an adventure, automatically pass this test instead (once per adventure)","Wisdom, Will",,
-o.1.mnemos.7,AG0140,A Broken Promise,Odyssey,Mnemos,Cycle I,Standard,"A word's no shield, it's easily broken. You probably had a reason, oathbreaker. They all do","Deed, Tragedy, Family","6, 16, 26","When you are on a Rear space, you gain +1 Precision","%Danger 4+% When you are on a Rear space, you gain {Power Re-roll 1}","%Danger 6+% When you are on a Rear space, you gain {Auto-break 1}","Cunning, Fury",,
-o.1.mnemos.8,AG0141,A Night To Remember,Odyssey,Mnemos,Cycle I,Standard,Warm air and cold wine and fabulous colors on the night sky. A love realized or an age attained. A joyous celebration,"Deed, Heritage, Dream","10, 20, 30",$Exhaust Unexhaust a @Gear card,%Danger 4+% $Exhaust Another Titan may unexhaust a @Gear card,"$Fate $Fate When you are about to exhaust a card, ignore this exhaust","Courage, Fury",,
-o.1.mnemos.9,AG0142,Death Follows,Odyssey,Mnemos,Cycle I,Standard,"Most people brush with death, but when he brushed with you, Tanatos paused. You have been trying to outrun him ever since","Gods, Heritage, Fate","31, 41, 37","$Discard When you are about to perform a Power Roll, add 1 @RedPowerDie to your Power Pool","%Danger 4+% $Discard When you are about to perform a Power Roll, add 1 @BlackPowerDie to your Power Pool","%Danger 8+% $Discard When you are about to perform a Power Roll, add 2 @Power for this Roll","Endurance, Fury",,
-o.1.mnemos.10,AG0143,Minoan Heritage,Odyssey,Mnemos,Cycle I,Standard,"Everywhere you look, familiarity. Your roots are buried under the Shattered Island. Or the Shattered Island is burying into you","Voyage, Heritage, Fate","4, 14, 24","$Exhaust During @MovementAction, gain +1 @Speed for this movement","%Danger 3+% $Exhaust During @MovementAction, gain +2 @Speed and {Bypass} for this movement","%Danger 4+% $Exhaust During @MovementAction, gain +3 @Speed and {Bypass} for this movement and gain {Vault} until the end of your turn","Wisdom, Courage",,
-o.1.mnemos.11,AG0144,Blood On Your Hands,Odyssey,Mnemos,Cycle I,Standard,A look. A word. A misunderstanding and a mistake. You can't wash it off,"Deed, Crime, Tragedy","7, 17, 27","After you raise you @Rage for any reason, if your @Rage is equal to current @PriorityTarget Priority Target's @Rage, you may gain the @PriorityTarget Priority Target token","%Danger 4+% If you are the @PriorityTarget Priority Target, you gain +1 Precision","%Danger 7+% If you are the @PriorityTarget Priority Target, you gain {Auto-break 1}","Fury, Cunning",,
-o.1.mnemos.12,AG0145,A Familiar Curse,Odyssey,Mnemos,Cycle I,Standard,"Restless days in sweat and shade, sleepless nights under dim stars","Fate, Gods, Curse","32, 43, 34",%Danger 3+% $Fate $Exhaust Turn the Primordial in your direction,"%Danger 4+% $Exhaust When another Titan is about to gain a Condition card or Condition token, gain it instead","%Danger 7+% $Fate $Danger $Exhaust While resolving an AI card, when the Primordial moves adjacent to you, become the Target of this AI card","Endurance, Wisdom",,
-o.1.mnemos.13,AG0146,Curse Of The Gods,Odyssey,Mnemos,Cycle I,Standard,Even in death their words have weight - and consequences,"Heritage, Fate, Voyage","33, 36, 38","$Exhaust During an Attack Roll, re-roll all 1s on non-Crit dice",%Danger 6+% $Discard Re-roll an Awakening roll,"$Fate $Discard WHen another Titan is about to gain @Danger, you gain it instead. If this @Danger was dealt by an Attack, resolve a Trauma Draw","Endurance, Will",,
-o.2.mnemos.1,BG0645,Runt Of The Litter,Odyssey,Mnemos,Cycle II,Standard,You were the weakest of the lot. Were they mistaken?,"Curse, Heritage, Fate","7, 17, 27",$Exhaust Change 1 negative modifier token into a positive one,%Danger 4+% $Exhaust Gain 1 temporary positive @Evasion token,%Danger 7+% $Discard Gain or lose up to 2 @Rage,"Cunning, Wisdom",,
-o.2.mnemos.2,BG0646,Mésalliance,Odyssey,Mnemos,Cycle II,Standard,Tyrannous customs branded you a bastard,"Deed, Family, Dream","2, 12, 22","When you break a Combo, place 1 Opening or Break token in the Kratos Pool","%Danger 2+% When you break a Combo, you may lose -1 @Fate","%Danger 6+% $Discard When you break a Combo, perform a Bonus Attack!","Will, Courage",,
-o.2.mnemos.3,BG0647,Left For Dead,Odyssey,Mnemos,Cycle II,Standard,"They've all written you off, yet your story is still unwritten","Deed, Tragedy, Crime","8, 18, 28","$Discard When you survive an Obol, lose up to -3 @Danger and up to -2 @Fate","$Discard When you are about to die from an Instant Death effect, draw an Obol instead","If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes @BlackPowerDie","Endurance, Fury",,
-o.2.mnemos.4,BG0648,Spewed By The Abyss,Odyssey,Mnemos,Cycle II,Standard,Even darkness did not want you,"Supernatural, Fate, Gods","4, 14, 24","When you are about to gain at least 1 Ambrosia token, test (8+) for each of these tokens. For each success, lower Ambrosia gain by 1",$Discard Discard up to 2 Ambrosia tokens,"%Danger 7+% $Discard When you are about to draw a Trauma card, gain Ambrosia tokens instead: 1 for Minor, 2 for Major, 3 for Grave, and 4 for an Obol","Will, Fury",,
-o.2.mnemos.5,BG0649,Coward's Way,Odyssey,Mnemos,Cycle II,Standard,You owe your cowardice your life. But what kind of life is it?,"Deed, Voyage, Crime","3, 13, 23","$Exhaust Before performing a Power Roll, gain @Fate equal to the BP level to immediately fail this Attack instead, ignoring the Fail Responses. If you do, do not place any tokens in the Kratos Pool","%Danger 3+% $Fate $Exhaust When you fail to Wound, place the BP card back on top of the BP deck instead of discarding it","%Danger 5+% $Discard When you are about to become the Target of an Attack, swap places with an adjacent Titan. That Titan becomes the Target instead","Cunning, Wisdom",,
-o.2.mnemos.6,BG0650,Castoff,Odyssey,Mnemos,Cycle II,Standard,"Deemed not worthy, cast from the cliffs, you inexplicably survived","Family, Heritage, Gods","9, 19, 29","$Exhaust When you are about to resolve a Trauma Draw, treat your @Danger as 1 lower","When you are knocked down, unexhaust this card. When you stand up, gain +1 @Speed, +1 Precision and {Auto-break 1} until the end of your turn","When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards.)","Endurance, Wisdom",,
-o.2.mnemos.7,BG0651,Death Precedes,Odyssey,Mnemos,Cycle II,Standard,Death is your Harbinger,"Tragedy, Supernatural, Curse","5, 15, 25",<Start of Battle> You may move 1 space towards the Primordial,<Start of Battle> You may gain +1 @Rage,"<Start of Battle> Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool","Courage, Fury",,
-o.2.mnemos.8,BG0652,Forbidden Love,Odyssey,Mnemos,Cycle II,Standard,"You longed for the fobidden things, desired what was denied to you","Deed, Dream, Curse","1, 11, 21",$Exhaust {Daze},%Danger 4+% $Exhaust {Inspire 1},%Danger 3+% $Exhaust {Rouse 1},"Courage, Endurance",,
-o.2.mnemos.9,BG0653,Scorned Champion,Odyssey,Mnemos,Cycle II,Standard,When you reached the top you realized the only way forward was down,"Fate, Voyage, Gods","6, 16, 26",$Exhaust {Jump},%Danger 3+% <Reaction> $Fate $Exhaust {Reflex},%Danger 5+% $ComplicatedAction {Run},"Will, Fury",,
-o.3.mnemos.1,CG1270,A Fall From Eden,Odyssey,Mnemos,Cycle III,Standard,Your parent failed. Will you?,"Dream, Voyage, Fate","7, 17, 27","$Exhaust When you are about to suffer Knockdown, suffer Time-clocked instead",%Danger 7+% $Discard {Second Chance},%Danger 9+% $Discard {Clutch},"Cunning, Wisdom",,
-o.3.mnemos.2,CG1271,Unearned Life,Odyssey,Mnemos,Cycle III,Standard,"They were destined for great things. You should have died, not them","Family, Tragedy, Crime","2, 12, 22",$Fate $Exhaust {Assist 1},%Danger 7+% $Fate $Discard {Clutch},"$Discard {Succor}, then, immediately after current Attack ends, draw an Obol","Cunning, Will",,
-o.3.mnemos.3,CG1272,Life Of Regret,Odyssey,Mnemos,Cycle III,Standard,Every decision you made was the wrong one. Now all you're left with is regret,"Deed, Crime, Tragedy","8, 18, 28",$Exhaust Discard 1 Bleeding token,"%Danger 3+% $Exhaust When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect","%Danger 5+% $Discard When you are about to Discard a positive Trauma card due to the [Bleeding|CL1283] Condition card, return it to the top of the deck instead","Courage, Endurance",,
-o.3.mnemos.4,CG1273,Time-Crossed Lovers,Odyssey,Mnemos,Cycle III,Standard,Even time itself will not keep you apart,"Voyage, Family, Gods","4, 14, 24",$Exhaust Reestablish your Time Anchor. You may use this ability as a free action or at the end of your turn,"If your Time Anchor is adjacent to that of another Titan's, you have +1 Precision","%Danger 5+% $Discard When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own","Will, Fury",,
-o.3.mnemos.5,CG1274,Timekeeper's Child,Odyssey,Mnemos,Cycle III,Standard,Time and its passage is all you know. One day you will simply stop,"Supernatural, Tragedy, Family","3, 13, 23",$Exhaust Arrive from Time-clocked,%Danger 3+% $Exhaust Another Titan may arrive from Time-clocked,"When you arrive from Time-clocked, gain +1 @Speed and {Auto-black 1} until the end of your turn","Courage, Wisdom",,
-o.3.mnemos.6,CG1275,Disgraceful Parent,Odyssey,Mnemos,Cycle III,Standard,A lifetime of never being good enough,"Deed, Heritage, Supernatural","5, 15, 25",$Exhaust Place 1 Fire token in the Kratos Pool,"%Danger 4+% $Exhaust If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool","%Danger 6+% $Fate $Exhaust If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool","Fury, Wisdom",,
-o.3.mnemos.7,CG1276,Hero By Mistake,Odyssey,Mnemos,Cycle III,Standard,This was not your responsibility. You did not ask for this,"Fate, Voyage, Gods","1, 11, 21",$Fate $Exhaust Gain the @PriorityTarget Priority Target token,"%Danger 4+% $Fate If you are the Priority Target, gain {Rouse 1}","%Danger 7+% If you are the Priority Target, gain {Hope 1}","Endurance, Courage",,
-o.3.mnemos.8,CG1277,The Returned,Odyssey,Mnemos,Cycle III,Standard,You failed once. Now you need to go back and fix it,"Curse, Heritage, Fate","6, 16, 26","<Start of your turn> Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play). If you are on a Time Anchor, you have +1 Precision",$Fate $Exhaust {Rewind},"%Danger 7+% $Discard When you die, return from death to your Time Anchor","Fury, Cunning",,
-o.4.mnemos.1,DG2054,Seed of Paradise,Odyssey,Mnemos,Cycle IV,Standard,"The more you divide it, the more you have","Voyage, Family, Gods","8, 18, 28","%Danger 2+% $Exhaust When you attack, treat the Kratos Pool as Sunstarved or Sunbask 2 for the purposes of triggering abilities","%Danger 4+% $Fate $Exhaust During the Clear the Kratos Pool step, leave half of the unused tokens there","%Danger 3+% $Fate $Exhaust When you attack, move half of the tokens from the Kratos Pool to this card. During the Second Ability Window, move them to the Kratos Pool","Courage, Fury",,
-o.4.mnemos.2,DG2055,The Third Wish,Odyssey,Mnemos,Cycle IV,Standard,You saved the best for last,"Family, Tragedy, Crime","3, 13, 23",%Danger 1+% $Fate $Fate $Exhaust {Wish Armor},%Danger 4+% $Fate $Fate {Wishrod},%Danger 6+% $Discard Discard a [Wishkeen|DL2011] or [Wishagog|DL2011] Condition card and gained the [Enriched|DL2015] or [Lander|DL2019] Condition card,"Cunning, Endurance",,
-o.4.mnemos.3,DG2056,The Beggar and the Prince,Odyssey,Mnemos,Cycle IV,Standard,A windfall or a sudden fall?,"Deed, Crime, Tragedy","2, 12, 22",$Exhaust Discard 1 Midas token,"%Danger 3+% $Exhaust When you are about to gain Midas tokens, ignore that gain","%Danger 9+% $Discard When you attack, discard all Midas tokens and gain that much Precision for this Attack","Wisdom, Will",,
-o.4.mnemos.4,DG2057,Updraft,Odyssey,Mnemos,Cycle IV,Standard,Carries only those determined enough,"Supernatural, Tragedy, Family","4, 14, 24",$Exhaust {Hermes Move 1},%Danger 3+% <Reaction> $Exhaust {Hermes Reflex},%Danger 7+% $Discard {Hermes Move 3},"Courage, Cunning",,
-o.4.mnemos.5,DG2058,Peddler of Misery,Odyssey,Mnemos,Cycle IV,Standard,When greed becomes the end in itself,"Fate, Voyage, Gods","5, 15, 25",%Danger 2+% $Exhaust {Startup 2},%Danger 2+% $Fate $Exhaust Discard 1 Midas token and place 1 Black token in the Kratos Pool,"%Danger 3+% $Discard {Unholy Alchemy}. Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned","Wisdom, Will",,
-o.4.mnemos.6,DG2059,Too Big to Fail,Odyssey,Mnemos,Cycle IV,Standard,They all said it,"Dream, Voyage, Fate","1, 11, 21",$Exhaust Deflate. You may use this ability while floating,"%Danger 4+% $Exhaust When you are about to suffer Airburst during a Primordial Attack, ignore it","%Danger 7+% $Discard When a Curse Attack is about to affect you, ignore it (other Targets remain affected)","Courage, Will",,
-o.4.mnemos.7,DG2060,The Thousandth Night,Odyssey,Mnemos,Cycle IV,Standard,You can stave off inevitability only for so long,"Curse, Heritage, Fate","7, 17, 27","%Danger 2+% $Exhaust Gain +X @Fate to gain +1 @Evasion, where X is the sum of Evasion bonuses you have (including this one)",%Danger 7+% $Discard {Second Chance},"%Danger 9+% $Discard When you are about to die, postpone the death until the end of your next turn. You cannot prevent that death in any way. <End of Battle> Gain a random Curse Affliction","Cunning, Fury",,
-o.4.mnemos.8,DG2061,The Mule,Odyssey,Mnemos,Cycle IV,Standard,What grows in a barren wasteland?,"Deed, Heritage, Supernatural","6, 16, 26",$Exhaust Move an Irem Tower Terrain tile one space,%Danger 2+% $Discard Move an Irem Tower Terrain tile up to 3 spaces,%Danger 8+% $Discard Place an [Irem Tower|DI2028] Terrain tile anywhere on the Battle Board,"Endurance, Wisdom",,
-o.5.mnemos.1,EG2640,Vanishing Point,Odyssey,Mnemos,Cycle V,Standard,It was meant to be,"Curse, Heritage, Fate","5, 15, 25",%Danger 2+% $Fate $Exhaust {Pull 1},%Danger 4+% $Fate $Exhaust {Pushback 2},"%Danger 6+% $Fate $Discard {Pull 3} For the purposes of this Pull, ignore {Lumbering}","Courage, Will",,
-o.5.mnemos.2,EG2641,In Your Image,Odyssey,Mnemos,Cycle V,Standard,What else is there?,"Deed, Family, Dream","6, 16, 26","When you are about to gain at least 1 Pain token, test (8+) for each of these tokens. For each success, lower Pain gain by 1",$Discard Discard up to 2 Pain tokens,"%Danger 7+% $Discard When you are about to draw a Trauma card, gain 5 Pain tokens instead","Cunning, Will",,
-o.5.mnemos.3,EG2642,Shelter,Odyssey,Mnemos,Cycle V,Standard,How could you let it happen?,"Deed, Tragedy, Crime","3, 13, 23","%Ambrosia 1+% $Fate $Exhaust When another Titan dies, immediately perform @MovementAction","%Ambrosia 2+% If you are adjacent to another Titan, you both ignore Burn","%Ambrosia 3+% If you are adjacent to another Titan, you both gain Tumble and automatically succeed at the Tumble test","Wisdom, Cunning",,
-o.5.mnemos.4,EG2643,Dogma,Odyssey,Mnemos,Cycle V,Standard,You were in the right,"Fate, Supernatural, Gods","4, 14, 24","%Danger 2+% $Fate $Discard When you are about to suffer Burn, ignore that Burn",%Danger 5+% $Fate $Discard Ignore the effects of Despair tokens until the end of your turn,%Danger 8+% $Fate $Discard Ignore Ambrosia tokens placed on your Gear with the Light X keyword until the end of this round,"Fury, Cunning",,
-o.5.mnemos.5,EG2644,Last Crusader,Odyssey,Mnemos,Cycle V,Standard,There are monsters in this world,"Deed, Voyage, Crime","2, 12, 22","$Fate $Exhaust During a Light Check, gain Light 1","%Danger 5+% $Discard When you attack, ignore all negative Precision modifiers",%Danger 9+% $Fate $Discard {Block 1} or {Defy 1},"Endurance, Wisdom",,
-o.5.mnemos.6,EG2645,Words and Deeds,Odyssey,Mnemos,Cycle V,Standard,Do as I say,"Family, Heritage, Gods","1, 11, 21",%Danger 2+% $Fate $Exhaust Take a [Fear|AL0299] or [Dread|AL0299] Condition card of an adjacent Titan and gain +1 @Rage,%Danger 4+% $Fate $Exhaust Take a [Terror|EL2596] or [Holy Terror|EL2596] Condition card of an adjacent Titan and gain 1 Aether token,%Danger 9+% $Discard Discard all Condition cards,"Courage, Will",,
-o.5.mnemos.7,EG2646,Twilight,Odyssey,Mnemos,Cycle V,Standard,This is the end,"Supernatural, Tragedy, Curse","7, 17, 27",%Danger 3+% $Fate $Discard Flip 1 Aether token,%Danger 7+% $Fate $Exhaust Ignore an Aether or Oxygen @Gear cost,"%Danger 9+% $Oxygen $Fate $Discard When you are about to perform a Power Roll, add 1 @WhitePowerDie to your Power Pool","Endurance, Fury",,
-o.5.mnemos.8,EG2647,He Spoke the Truth,Odyssey,Mnemos,Cycle V,Standard,You have been chosen,"Deed, Curse, Voyage","8, 18, 28",%Despair 2+% $Fate $Discard {Dare},%Despair 3+% $Aether $Discard {Deny},%Despair 4+% $Oxygen $Fate $Discard You Titan's Power die becomes @MortalPowerDie for the duration of this Battle,"Courage, Wisdom",,
+Ref ID,Card ID,Name,Game,Render Type,Cycle,Card Size,Flavor,Traits,Story Paragraphs,Ability 1,Ability 2,Ability 3,FAbility 1,FAbility 2,FAbility 3,FAbility 4,FAbility 5,FAbility 6,FAbility 7,Stat,FAQ,V 1.1 Updates
+o.1.mnemos.1,AG0134,Siren Survivor,Odyssey,Mnemos,Cycle I,Standard,"Against all odds, you've survived. Why?","Voyage, Supernatural, Deed","3, 13, 23",$Exhaust Discard a Condition token or @Discard instead to discard a Condition card,%Danger 3+% $Exhaust Discard a Condition token from another Titan or @Discard instead to discard a Condition card from another Titan,"%Danger 4+% $Exhaust When you are about to gain a Condition card or token, roll a d10. On a 6+, ignore this gain","mlevel=1
+timing=Free
+cost=Exhaust
+effect=Discard a Condition token
+choice=A","mlevel=1
+timing=Free
+cost=Discard
+effect=Discard a Condition card
+choice=A","mlevel=2
+gate=Danger 3+
+timing=Free
+cost=Exhaust
+effect=Discard a Condition token from another Titan
+choice=A","mlevel=2
+gate=Danger 3+
+timing=Free
+cost=Discard
+effect=Discard a Condition card from another Titan
+choice=A","mlevel=3
+gate=Danger 3+
+timing=When you are about to gain a Condition card or token
+cost=Exhaust
+effect=Roll a d10. On a 6+, ignore this gain",,,"Courage, Will","Remember Ambrosia and Despair are not condition tokens, and that knockdown disallows you from using active abilities.",
+o.1.mnemos.2,AG0135,Someone Waiting,Odyssey,Mnemos,Cycle I,Standard,"You can't quite put a finger on it, but there's a soft pull on your soul's strings each time you look to the north","Voyage, Family, Gods","5, 15, 25",$Exhaust {Stand up},%Danger 3+% $Exhaust Another Titan may {Stand up},"%Danger 4+% When you are about to suffer Knockdown, you may roll a d10. On a 6+, ignore this Knockdown","mlevel=1
+timing=Free
+cost=Exhaust
+keyword
+effect=Stand up",,"mlevel=2
+gate=Danger 3+
+timing=Free
+cost=Exhaust
+effect=Another Titan may {Stand up}",,"mlevel=3
+gate=Danger 4+
+timing=When you are about to suffer Knockdown
+effect=Roll a d10. On a 6+, ignore this Knockdown",,,"Cunning, Endurance",,
+o.1.mnemos.3,AG0136,A Dream You Hold,Odyssey,Mnemos,Cycle I,Standard,"You are not some castaway on life's tumultuous ocean. Come hell or high water, you will fulfill your dream","Dream, Voyage, Fate","1, 11, 21",Titans adjacent to you have +1 Precision,%Danger 3+% $Exhaust Another Titan may move 1 space,"%Danger 8+% $Fate $Exhaust When you attack, use another Titan's Kratos Table for this Attack","mlevel=1
+timing=Passive
+effect=Titans adjacent to you have +1 Precision",,"mlevel=2
+gate=Danger 3+
+timing=Free
+cost=Exhaust
+effect=Another Titan may move 1 space",,"mlevel=3
+gate=Danger 8+
+timing=When you attack
+cost=Fate Exhaust
+effect=Use another Titan's Kratos Table for this Attack",,,"Wisdom, Will",,
+o.1.mnemos.4,AG0137,Family Feud,Odyssey,Mnemos,Cycle I,Standard,Some things should never be spoken. Some bridges can never be rebuilt. There is a wound on your heart that may never heal,"Family, Tragedy, Crime","8, 18, 28",$Exhaust Place 1 Opening or Break token in the Kratos Pool,"%Danger 4+% $Exhaust If the Kratos Pool is empty, place up to 2 Opening and/or Break tokens in the Kratos Pool","%Danger 6+% $Fate $Exhaust If the Kratos Pool is empty, place up to 3 Opening and/or Break tokens in the Kratos Pool","mlevel=1
+timing=Free
+keyword
+effect=Opening X
+xvalue=1
+choice=A","mlevel=1
+timing=Free
+keyword
+effect=Break X
+xvalue=1
+choice=A","mlevel=2
+gate=Danger 4+
+timing=Free
+cost=Exhaust
+effect=If the Kratos Pool is empty, place up to 2 Opening and/or Break tokens in the Kratos Pool",,"mlevel=3
+gate=Danger 6+
+timing=Free
+cost=Exhaust
+effect=If the Kratos Pool is empty, place up to 3 Opening and/or Break tokens in the Kratos Pool",,,"Courage, Cunning",,
+o.1.mnemos.5,AG0138,Imprisonment,Odyssey,Mnemos,Cycle I,Standard,"Who can tell how long it's been? Dark and damp, and cramped and lonely, the cell gave no quarters. Just a tiny crack in the wall","Curse, Dream, Crime","2, 12, 22",{Knockback Reduction 2},{Pushback Reduction 1},"When you suffer Knockback, you may lose -1 @Danger","mlevel=1
+timing=Passive
+keyword
+effect=Knockback Reduction X
+xvalue=2",,"mlevel=2
+timing=Passive
+keyword
+effect=Pushback Reduction X
+xvalue=1",,"mlevel=3
+timing=When you suffer Knockback
+effect=You may lose -1 @Danger",,,"Endurance, Wisdom",,
+o.1.mnemos.6,AG0139,Haunted,Odyssey,Mnemos,Cycle I,Standard,You past lingers like a waft of cold air. Something happened to you. Something... unspeakable,"Fate, Supernatural, Curse","9, 19, 29","Once per adventure, you may re-roll any d10 roll","$Fate When you are about to roll a d10 during an adventure, add +3 to this roll (once per adventure)","$Fate $Fate When you are about to perform an Argonaut Test during an adventure, automatically pass this test instead (once per adventure)",,,,,,,,"Wisdom, Will",,
+o.1.mnemos.7,AG0140,A Broken Promise,Odyssey,Mnemos,Cycle I,Standard,"A word's no shield, it's easily broken. You probably had a reason, oathbreaker. They all do","Deed, Tragedy, Family","6, 16, 26","When you are on a Rear space, you gain +1 Precision","%Danger 4+% When you are on a Rear space, you gain {Power Re-roll 1}","%Danger 6+% When you are on a Rear space, you gain {Auto-break 1}","mlevel=1
+timing=Passive
+effect=When you are on a Rear space, you gain +1 Precision",,"mlevel=2
+gate=Danger 4+
+timing=Passive
+effect=When you are on a Rear space, you gain {Power Re-roll 1}",,"mlevel=3
+gate=Danger 6+
+timing=Passive
+effect=When you are on a Rear space, you gain {Auto-break 1}",,,"Cunning, Fury",,
+o.1.mnemos.8,AG0141,A Night To Remember,Odyssey,Mnemos,Cycle I,Standard,Warm air and cold wine and fabulous colors on the night sky. A love realized or an age attained. A joyous celebration,"Deed, Heritage, Dream","10, 20, 30",$Exhaust Unexhaust a @Gear card,%Danger 4+% $Exhaust Another Titan may unexhaust a @Gear card,"$Fate $Fate When you are about to exhaust a card, ignore this exhaust","mlevel=1
+timing=Free
+effect=Unexhaust a Gear card",,"mlevel=2
+gate=Danger 4+
+cost=Exhaust
+effect=Another Titan may unexhaust a Gear card",,"mlevel=3
+timing=When you are about to exhaust a card
+cost=Fate Fate
+effect=Ignore this exhaust",,,"Courage, Fury",,
+o.1.mnemos.9,AG0142,Death Follows,Odyssey,Mnemos,Cycle I,Standard,"Most people brush with death, but when he brushed with you, Tanatos paused. You have been trying to outrun him ever since","Gods, Heritage, Fate","31, 41, 37","$Discard When you are about to perform a Power Roll, add 1 @RedPowerDie to your Power Pool","%Danger 4+% $Discard When you are about to perform a Power Roll, add 1 @BlackPowerDie to your Power Pool","%Danger 8+% $Discard When you are about to perform a Power Roll, add 2 @Power for this Roll","mlevel=1
+timing=Power Roll
+cost=Discard
+effect=Add 1 @RedPowerDie to your Power Pool",,"mlevel=2
+gate=Danger 4+
+timing=Power Roll
+cost=Discard
+effect=Add 1 @BlackPowerDie to your Power Pool",,"mlevel=3
+gate=Danger 8+
+timing=Power Roll
+cost=Discard
+effect=Add 2 @Power to this Roll",,,"Endurance, Fury",,
+o.1.mnemos.10,AG0143,Minoan Heritage,Odyssey,Mnemos,Cycle I,Standard,"Everywhere you look, familiarity. Your roots are buried under the Shattered Island. Or the Shattered Island is burying into you","Voyage, Heritage, Fate","4, 14, 24","$Exhaust During @MovementAction, gain +1 @Speed for this movement","%Danger 3+% $Exhaust During @MovementAction, gain +2 @Speed and {Bypass} for this movement","%Danger 4+% $Exhaust During @MovementAction, gain +3 @Speed and {Bypass} for this movement and gain {Vault} until the end of your turn","mlevel=1
+timing=During @MovementAction
+cost=Exhaust
+effect=Gain +1 @Speed for this movement",,"mlevel=2
+gate=Danger 3+
+timing=During @MovementAction
+cost=Exhaust
+effect=Gain +2 @Speed and {Bypass} for this movement",,"mlevel=3
+gate=Danger 4+
+timing=During @MovementAction
+cost=Exhaust
+effect=Gain +3 @Speed and {Bypass} for this movement and gain {Vault} until the end of your turn",,,"Wisdom, Courage",,
+o.1.mnemos.11,AG0144,Blood On Your Hands,Odyssey,Mnemos,Cycle I,Standard,A look. A word. A misunderstanding and a mistake. You can't wash it off,"Deed, Crime, Tragedy","7, 17, 27","After you raise you @Rage for any reason, if your @Rage is equal to current @PriorityTarget Priority Target's @Rage, you may gain the @PriorityTarget Priority Target token","%Danger 4+% If you are the @PriorityTarget Priority Target, you gain +1 Precision","%Danger 7+% If you are the @PriorityTarget Priority Target, you gain {Auto-break 1}","mlevel=1
+timing=After you raise your @Rage for any reason
+effect=If your Rage is equal to current @PriorityTarget Priority Target's Rage , you may gain the @PriorityTarget Priority Target token",,"mlevel=2
+gate=Danger 4+
+timing=Passive
+effect=If you are the PriorityTarget Priority Target, you gain +1 Precision",,"mlevel=3
+gate=Danger 7+
+timing=Passive
+effect=If you are the PriorityTarget Priority Target, you gain {Auto-break 1}",,,"Fury, Cunning",,
+o.1.mnemos.12,AG0145,A Familiar Curse,Odyssey,Mnemos,Cycle I,Standard,"Restless days in sweat and shade, sleepless nights under dim stars","Fate, Gods, Curse","32, 43, 34",%Danger 3+% $Fate $Exhaust Turn the Primordial in your direction,"%Danger 4+% $Exhaust When another Titan is about to gain a Condition card or Condition token, gain it instead","%Danger 7+% $Fate $Danger $Exhaust While resolving an AI card, when the Primordial moves adjacent to you, become the Target of this AI card","mlevel=1
+gate=Danger 3+
+timing=Free
+cost=Fate Exhaust
+effect=Turn the Primordial in your direction",,"mlevel=2
+gate=Danger 4+
+timing=When another Titan is about to gain a Condition card or Condition token
+cost=Exhaust
+effect=Gain it instead",,"mlevel=3
+gate=Danger 7+
+timing=While resolving an AI card
+cost=Fate Danger Exhaust
+effect=When the Primordial moves adjacent to you, become the Target of this AI card",,,"Endurance, Wisdom",,
+o.1.mnemos.13,AG0146,Curse Of The Gods,Odyssey,Mnemos,Cycle I,Standard,Even in death their words have weight - and consequences,"Heritage, Fate, Voyage","33, 36, 38","$Exhaust During an Attack Roll, re-roll all 1s on non-Crit dice",%Danger 6+% $Discard Re-roll an Awakening roll,"$Fate $Discard When another Titan is about to gain @Danger, you gain it instead. If this @Danger was dealt by an Attack, resolve a Trauma Draw","mlevel=1
+timing=Attack Roll
+cost=Exhaust
+effect=Re-roll all 1s on non-Crit dice",,"mlevel=2
+gate=Danger 6+
+timing=Awakening Roll
+cost=Discard
+effect=Re-roll an Awakening Roll",,"mlevel=3
+timing=When another Titan is about to gain Danger
+cost=Fate Discard
+effect=You gain it instead. If this @Danger was dealt by an Attack, resolve a Trauma Draw",,,"Endurance, Will",,
+o.2.mnemos.1,BG0645,Runt Of The Litter,Odyssey,Mnemos,Cycle II,Standard,You were the weakest of the lot. Were they mistaken?,"Curse, Heritage, Fate","7, 17, 27",$Exhaust Change 1 negative modifier token into a positive one,%Danger 4+% $Exhaust Gain 1 temporary positive @Evasion token,%Danger 7+% $Discard Gain or lose up to 2 @Rage,"mlevel=1
+timing=Free
+cost=Exhaust
+effect=Change 1 negative modifier token into a positive one",,"mlevel=2
+gate=Danger 4+
+timing=Free
+cost=Exhaust
+effect=Gain 1 temporary positive Evasion token",,"mlevel=3
+gate=Danger 7+
+timing=Free
+cost=Discard
+effect=Gain or lose up to 2 @Rage",,,"Cunning, Wisdom",,
+o.2.mnemos.2,BG0646,Mésalliance,Odyssey,Mnemos,Cycle II,Standard,Tyrannous customs branded you a bastard,"Deed, Family, Dream","2, 12, 22","When you break a Combo, place 1 Opening or Break token in the Kratos Pool","%Danger 2+% When you break a Combo, you may lose -1 @Fate","%Danger 6+% $Discard When you break a Combo, perform a Bonus Attack!","mlevel=1
+timing=When you break a Combo
+keyword
+effect=Break X
+xvalue=1
+choice=A","mlevel=1
+timing=When you break a Combo
+keyword
+effect=Opening X
+xvalue=1
+choice=A","mlevel=2
+gate=Danger 2+
+timing=When you break a Combo
+effect=You may lose -1 @Fate",,"mlevel=3
+gate=Danger 6+
+timing=When you break a Combo
+cost=Discard
+effect=Perform a Bonus Attack!",,,"Will, Courage",,
+o.2.mnemos.3,BG0647,Left For Dead,Odyssey,Mnemos,Cycle II,Standard,"They've all written you off, yet your story is still unwritten","Deed, Tragedy, Crime","8, 18, 28","$Discard When you survive an Obol, lose up to -3 @Danger and up to -2 @Fate","$Discard When you are about to die from an Instant Death effect, draw an Obol instead","If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes @BlackPowerDie","mlevel=1
+timing=When you survive an Obol
+cost=Discard
+effect=Lose up to -3 @Danger and -2 @Fate",,"mlevel=2
+timing=When you are about to die from an Instant Death effect
+cost=Discard
+effect=Draw an Obol instead",,"mlevel=3
+timing=Passive
+effect=If you are the last Titan alive, you cannot suffer Knockdown and your Titan's Power Die becomes @BlackPowerDie",,,"Endurance, Fury",,
+o.2.mnemos.4,BG0648,Spewed By The Abyss,Odyssey,Mnemos,Cycle II,Standard,Even darkness did not want you,"Supernatural, Fate, Gods","4, 14, 24","When you are about to gain at least 1 Ambrosia token, test (8+) for each of these tokens. For each success, lower Ambrosia gain by 1",$Discard Discard up to 2 Ambrosia tokens,"%Danger 7+% $Discard When you are about to draw a Trauma card, gain Ambrosia tokens instead: 1 for Minor, 2 for Major, 3 for Grave, and 4 for an Obol","mlevel=1
+timing=When you are about to gain at least 1 Ambrosia token
+effect=Test (8+) for each of these tokens. For each success, lower Ambrosia gain by 1",,"mlevel=2
+timing=Free
+cost=Discard
+effect=Discard up to 2 Ambrosia tokens",,"mlevel=3
+gate=Danger 7+
+timing=When you are about to draw a Trauma card
+cost=Discard
+effect=Gain Ambrosia tokens instead: 1 for Minor, 2 for Major, 3 for Grave, and 4 for an Obol",,,"Will, Fury",,
+o.2.mnemos.5,BG0649,Coward's Way,Odyssey,Mnemos,Cycle II,Standard,You owe your cowardice your life. But what kind of life is it?,"Deed, Voyage, Crime","3, 13, 23","$Exhaust Before performing a Power Roll, gain @Fate equal to the BP level to immediately fail this Attack instead, ignoring the Fail Responses. If you do, do not place any tokens in the Kratos Pool","%Danger 3+% $Fate $Exhaust When you fail to Wound, place the BP card back on top of the BP deck instead of discarding it","%Danger 5+% $Discard When you are about to become the Target of an Attack, swap places with an adjacent Titan. That Titan becomes the Target instead","mlevel=1
+timing=Before Power Roll
+cost=Exhaust
+effect=Gain @Fate equal to the BP level to immediately fail this Attack instead, ignoring the Fail Responses. If you do, do not place any tokens in the Kratos Pool",,"mlevel=2
+gate=Danger 3+
+timing=When you fail to Wound
+cost=Fate Exhaust
+effect=Place the BP card back on top of the BP deck instead of discarding it",,"mlevel=3
+gate=Danger 5+
+timing=When you are about to become the Target of an Attack
+cost=Discard
+effect=Swap places with an adjacent Titan. That Titan becomes the Target instead",,,"Cunning, Wisdom",,
+o.2.mnemos.6,BG0650,Castoff,Odyssey,Mnemos,Cycle II,Standard,"Deemed not worthy, cast from the cliffs, you inexplicably survived","Family, Heritage, Gods","9, 19, 29","$Exhaust When you are about to resolve a Trauma Draw, treat your @Danger as 1 lower","When you are knocked down, unexhaust this card. When you stand up, gain +1 @Speed, +1 Precision and {Auto-break 1} until the end of your turn","When you are about to die from a Trauma Draw, Obol Draw, or an Instant Death effect, you may perform a Bonus Attack! (You still die afterwards.)","mlevel=1
+timing=When you are about to resolve a Trauma Draw,
+cost=Exhaust
+effect=Treat your @Danger as 1 lower",,"mlevel=2
+timing=When you are knocked down
+effect=Unexhaust this card","mlevel=2
+timing=When you stand up
+effect=Gain +1 @Speed, +1 Precision, and {Auto-break 1} until the end of your turn","mlevel=3
+timing=When you are about to die from a Trauma Draw or Instant Death effect
+effect=You may perform a Bonus Attack! (You still die afterwards)",,,"Endurance, Wisdom",,
+o.2.mnemos.7,BG0651,Death Precedes,Odyssey,Mnemos,Cycle II,Standard,Death is your Harbinger,"Tragedy, Supernatural, Curse","5, 15, 25",<Start of Battle> You may move 1 space towards the Primordial,<Start of Battle> You may gain +1 @Rage,"<Start of Battle> Place 3 Opening tokens, 2 Break tokens, or 1 Rouse token in the Kratos Pool","mlevel=1
+timing=Start of Battle
+effect=You may move 1 space towards the Primordial",,"mlevel=2
+timing=Start of Battle
+effect=You may gain +1 @Rage",,"mlevel=3
+timing=Start of Battle
+keyword
+effect=Opening X
+xvalue=3
+option=A","mlevel=3
+timing=Start of Battle
+keyword
+effect=Break X
+xvalue=2
+option=A","mlevel=3
+timing=Start of Battle
+keyword
+effect=Rouse X
+xvalue=1
+option=A","Courage, Fury",,
+o.2.mnemos.8,BG0652,Forbidden Love,Odyssey,Mnemos,Cycle II,Standard,"You longed for the fobidden things, desired what was denied to you","Deed, Dream, Curse","1, 11, 21",$Exhaust {Daze},%Danger 4+% $Exhaust {Inspire 1},%Danger 3+% $Exhaust {Rouse 1},"mlevel=1
+timing=FAW
+cost=Exhaust
+keyword
+effect=Daze",,"mlevel=2
+gate=Danger 4+
+timing=SAW
+keyword
+effect=Inspire X
+xvalue=1",,"mlevel=3
+gate=Danger 3+
+timing=SAW
+keyword
+effect=Rouse X
+xvalue=1",,,"Courage, Endurance",,
+o.2.mnemos.9,BG0653,Scorned Champion,Odyssey,Mnemos,Cycle II,Standard,When you reached the top you realized the only way forward was down,"Fate, Voyage, Gods","6, 16, 26",$Exhaust {Jump},%Danger 3+% <Reaction> $Fate $Exhaust {Reflex},%Danger 5+% $ComplicatedAction {Run},"mlevel=1
+timing=At the start of movement
+cost=Exhaust
+keyword
+effect=Jump",,"mlevel=2
+gate=Danger 3+
+timing=Reaction
+cost=Fate Exhaust
+keyword
+effect=Reflex",,"mlevel=3
+gate=Danger 5+
+timing=Free
+cost=ComplicatedAction
+keyword
+effect=Run",,,"Will, Fury",,
+o.3.mnemos.1,CG1270,A Fall From Eden,Odyssey,Mnemos,Cycle III,Standard,Your parent failed. Will you?,"Dream, Voyage, Fate","7, 17, 27","$Exhaust When you are about to suffer Knockdown, suffer Time-clocked instead",%Danger 7+% $Discard {Second Chance},%Danger 9+% $Discard {Clutch},"mlevel=1
+timing=When you are about to suffer Knockdown
+cost=Exhaust
+effect=Suffer {Time-clocked} instead",,"mlevel=2
+gate=Danger 7+
+timing=After you draw a Trauma or Obol card
+cost=Discard
+keyword
+effect=Second Chance",,"mlevel=3
+gate=Danger 9+
+timing=Power Roll
+cost=Discard
+keyword
+effect=Clutch",,,"Cunning, Wisdom",,
+o.3.mnemos.2,CG1271,Unearned Life,Odyssey,Mnemos,Cycle III,Standard,"They were destined for great things. You should have died, not them","Family, Tragedy, Crime","2, 12, 22",$Fate $Exhaust {Assist 1},%Danger 7+% $Fate $Discard {Clutch},"$Discard {Succor}, then, immediately after current Attack ends, draw an Obol","mlevel=1
+timing=Another Titan's Power Roll
+cost=Fate Exhaust
+keyword
+effect=Assist X
+xvalue=1",,"mlevel=2
+gate=Danger 7+
+timing=Power Roll
+cost=Fate Discard
+keyword
+effect=Clutch",,"mlevel=3
+timing=Another Titan's Power Roll
+cost=Discard
+effect={Succor}, then, immediately after current Attack ends, draw an Obol",,,"Cunning, Will",,
+o.3.mnemos.3,CG1272,Life Of Regret,Odyssey,Mnemos,Cycle III,Standard,Every decision you made was the wrong one. Now all you're left with is regret,"Deed, Crime, Tragedy","8, 18, 28",$Exhaust Discard 1 Bleeding token,"%Danger 3+% $Exhaust When you are about to suffer Bleeding X or gain Bleeding tokens, ignore that effect","%Danger 5+% $Discard When you are about to Discard a positive Trauma card due to the [Bleeding|CL1283] Condition card, return it to the top of the deck instead","mlevel=1
+timing=Free
+cost=Exhaust
+effect=Discard 1 Bleeding token",,"mlevel=2
+gate=Danger 3+
+timing=When you are about to suffer Bleeding X or gain Bleeding tokens
+cost=Exhaust
+effect=Ignore that effect",,"mlevel=3
+gate=Danger 5+
+timing=When you are about to Discard a positive Trauma card due to the Bleeding Condition card
+cost=Discard
+effect=Return it to the top instead",,,"Courage, Endurance",,
+o.3.mnemos.4,CG1273,Time-Crossed Lovers,Odyssey,Mnemos,Cycle III,Standard,Even time itself will not keep you apart,"Voyage, Family, Gods","4, 14, 24",$Exhaust Reestablish your Time Anchor. You may use this ability as a free action or at the end of your turn,"While your Time Anchor is adjacent to that of another Titan's, you have +1 Precision","%Danger 5+% $Discard When you are about to return to a Time Anchor, treat another Titan's Time Anchor as your own","mlevel=1
+timing=Free
+cost=Exhaust
+effect=Reestablish your Time Anchor","mlevel=1
+timing=End of your Turn
+cost=Exhaust
+effect=Reestablish your Time Anchor","mlevel=2
+timing=Passive
+effect=While your Time Anchor is adjacent to that of another Titan's, you have +1 Precision",,"mlevel=3
+gate=Danger 5+
+timing=When you are about to return to a Time Anchor
+cost=Discard
+effect=Treat another Titan's Time Anchor as your own",,,"Will, Fury",,
+o.3.mnemos.5,CG1274,Timekeeper's Child,Odyssey,Mnemos,Cycle III,Standard,Time and its passage is all you know. One day you will simply stop,"Supernatural, Tragedy, Family","3, 13, 23",$Exhaust Arrive from Time-clocked,%Danger 3+% $Exhaust Another Titan may arrive from Time-clocked,"When you arrive from Time-clocked, gain +1 @Speed and {Auto-black 1} until the end of your turn","mlevel=1
+timing=Free
+cost=Exhaust
+effect=Arrive from Time-clocked",,"mlevel=2
+gate=Danger 3+
+timing=Free
+cost=Exhaust
+effect=Another Titan may arrive from Time-clocked",,"mlevel=3
+timing=When you arrive from Time-clocked
+effect=Gain +1 @Speed and {Auto-black 1} until the end of your turn",,,"Courage, Wisdom",,
+o.3.mnemos.6,CG1275,Disgraceful Parent,Odyssey,Mnemos,Cycle III,Standard,A lifetime of never being good enough,"Deed, Heritage, Supernatural","5, 15, 25",$Exhaust Place 1 Fire token in the Kratos Pool,"%Danger 4+% $Exhaust If the Kratos Pool is empty, place 1 Fire token and 1 Black token in the Kratos Pool","%Danger 6+% $Fate $Exhaust If the Kratos Pool is empty, place 3 Hope tokens in the Kratos Pool","mlevel=1
+timing=Free
+cost=Exhaust
+keyword
+effect=Fire X
+xvalue=1",,"mlevel=2
+gate=Danger 4+
+timing=Free
+cost=Exhaust
+effect=If the Kratos Pool is empty, {Fire 1}, {Black 1}",,"mlevel=3
+gate=Danger 6+
+timing=Free
+cost=Fate Exhaust
+effect=If the Kratos Pool is empty, {Hope 3}",,,"Fury, Wisdom",,
+o.3.mnemos.7,CG1276,Hero By Mistake,Odyssey,Mnemos,Cycle III,Standard,This was not your responsibility. You did not ask for this,"Fate, Voyage, Gods","1, 11, 21",$Fate $Exhaust Gain the @PriorityTarget Priority Target token,"%Danger 4+% $Fate If you are the Priority Target, gain {Rouse 1}","%Danger 7+% If you are the Priority Target, gain {Hope 1}","mlevel=1
+timing=Free
+cost=Fate Exhaust
+effect=Gain the @PriorityTarget Priority Target token",,"mlevel=2
+gate=Danger 4+
+timing=SAW
+cost=Fate
+effect=If you are the Priority Target, gain {Rouse 1}",,"mlevel=3
+gate=Danger 7+
+timing=SAW
+effect=If you are the Priority Target, gain {Hope 1}",,,"Endurance, Courage",,
+o.3.mnemos.8,CG1277,The Returned,Odyssey,Mnemos,Cycle III,Standard,You failed once. Now you need to go back and fix it,"Curse, Heritage, Fate","6, 16, 26","<Start of your turn> Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play). If you are on a Time Anchor, you have +1 Precision",$Fate $Exhaust {Rewind},"%Danger 7+% $Discard When you die, return from death to your Time Anchor","mlevel=1
+timing=Start of your turn
+effect=Reestablish your Time Anchor (even if the Backwards Momentum Trait is not in play)","mlevel=1
+timing=Passive
+effect=If you are on a Time Anchor, you have +1 Precision","mlevel=2
+timing=Free
+cost=Fate Exhaust
+keyword
+effect=Rewind",,"mlevel=3
+gate=Danger 7+
+timing=When you die
+cost=Discard
+effect=Return from death to your Time Anchor",,,"Fury, Cunning",,
+o.4.mnemos.1,DG2054,Seed of Paradise,Odyssey,Mnemos,Cycle IV,Standard,"The more you divide it, the more you have","Voyage, Family, Gods","8, 18, 28","%Danger 2+% $Exhaust When you attack, treat the Kratos Pool as Sunstarved or Sunbask 2 for the purposes of triggering abilities","%Danger 4+% $Fate $Exhaust During the Clear the Kratos Pool step, leave half of the unused tokens there","%Danger 3+% $Fate $Exhaust When you attack, move half of the tokens from the Kratos Pool to this card. During the Second Ability Window, move them to the Kratos Pool","mlevel=1
+gate=Danger 2+
+timing=When you attack
+cost=Exhaust
+effect=Treat the Kratos Pool as Sunstarved or Sunbask 2 for the purposes of triggering abilities",,"mlevel=2
+gate=Danger 4+
+timing=During the Clear the Kratos Pool step
+cost=Fate Exhaust
+effect=Leave half of the unused tokens there",,"mlevel=3
+gate=Danger 3+
+timing=When you attack
+cost=Fate Exhaust
+effect=Move half of the tokens from the Kratos Pool to this card. During the Second Ability Window, move them to the Kratos Pool",,,"Courage, Fury",,
+o.4.mnemos.2,DG2055,The Third Wish,Odyssey,Mnemos,Cycle IV,Standard,You saved the best for last,"Family, Tragedy, Crime","3, 13, 23",%Danger 1+% $Fate $Fate $Exhaust {Wish Armor},%Danger 4+% $Fate $Fate {Wishrod},%Danger 6+% $Discard Discard a [Wishkeen|DL2011] or [Wishagog|DL2011] Condition card and gained the [Enriched|DL2015] or [Lander|DL2019] Condition card,"mlevel=1
+gate=Danger 1+
+timing=When you resolve a Wish Attack
+cost=Fate Fate Exhaust
+keyword
+effect=Wish Armor",,"mlevel=2
+gate=Danger 4+
+timing=During Targeting, if the Attack is a Wish Attack
+cost=Fate Fate
+keyword
+effect=Wishrod",,"mlevel=3
+gate=Danger 6+
+timing=Free
+cost=Discard
+effect=Discard a [Wishkeen|DL2011] or [Wishagog|DL2011] Condition card and gained the [Enriched|DL2015] or [Lander|DL2019] Condition card",,,"Cunning, Endurance",,
+o.4.mnemos.3,DG2056,The Beggar and the Prince,Odyssey,Mnemos,Cycle IV,Standard,A windfall or a sudden fall?,"Deed, Crime, Tragedy","2, 12, 22",$Exhaust Discard 1 Midas token,"%Danger 3+% $Exhaust When you are about to gain Midas tokens, ignore that gain","%Danger 9+% $Discard When you attack, discard all Midas tokens and gain that much Precision for this Attack","mlevel=1
+timing=Free
+cost=Exhaust
+effect=Discard 1 Midas token",,"mlevel=2
+gate=Danger 3+
+timing=When you are about to gain Midas tokens
+cost=Exhaust
+effect=Ignore that gain",,"mlevel=3
+gate=Danger 9+
+timing=When you attack
+cost=Discard
+effect=Discard all Midas tokens and gain that much Precision for this Attack",,,"Wisdom, Will",,
+o.4.mnemos.4,DG2057,Updraft,Odyssey,Mnemos,Cycle IV,Standard,Carries only those determined enough,"Supernatural, Tragedy, Family","4, 14, 24",$Exhaust {Hermes Move 1},%Danger 3+% <Reaction> $Exhaust {Hermes Reflex},%Danger 7+% $Discard {Hermes Move 3},"mlevel=1
+timing=Free
+cost=Exhaust
+keyword
+effect=Hermes Move X
+xvalue=1",,"mlevel=2
+gate=Danger 3+
+timing=Reaction
+cost=Exhaust
+keyword
+effect=Hermes Reflex",,"mlevel=3
+gate=Danger 7+
+timing=Free
+cost=Discard
+keyword
+effect=Hermes Move X
+xvalue=3",,,"Courage, Cunning",,
+o.4.mnemos.5,DG2058,Peddler of Misery,Odyssey,Mnemos,Cycle IV,Standard,When greed becomes the end in itself,"Fate, Voyage, Gods","5, 15, 25",%Danger 2+% $Exhaust {Startup 2},%Danger 2+% $Fate $Exhaust Discard 1 Midas token and place 1 Black token in the Kratos Pool,"%Danger 3+% $Discard {Unholy Alchemy}. Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned","mlevel=1
+gate=Danger 2+
+timing=When you attack
+cost=Exhaust
+keyword
+effect=Startup X
+xvalue=2",,"mlevel=2
+gate=Danger 2+
+timing=Free
+cost=Fate Exhaust
+effect=Discard 1 Midas token and place 1 Black token in the Kratos Pool",,"mlevel=3
+gate=Danger 3+
+timing=Free
+cost=Discard
+effect={Unholy Alchemy}. Place X Closing tokens in the Kratos Pool, where X is the number of tokens turned",,,"Wisdom, Will",,
+o.4.mnemos.6,DG2059,Too Big to Fail,Odyssey,Mnemos,Cycle IV,Standard,They all said it,"Dream, Voyage, Fate","1, 11, 21",$Exhaust Deflate. You may use this ability while floating,"%Danger 4+% $Exhaust When you are about to suffer Airburst during a Primordial Attack, ignore it","%Danger 7+% $Discard When a Curse Attack is about to affect you, ignore it (other Targets remain affected)","mlevel=1
+timing=Free
+cost=Exhaust
+keyword
+effect=Deflate",,"mlevel=2
+gate=Danger 4+
+timing=When you are about to suffer Airburst during a Primordial Attack
+cost=Exhaust
+effect=Ignore it",,"mlevel=3
+gate=Danger 7+
+timing=When a Curse Attack is about to affect you
+cost=Discard
+effect=Ignore it",,,"Courage, Will",,
+o.4.mnemos.7,DG2060,The Thousandth Night,Odyssey,Mnemos,Cycle IV,Standard,You can stave off inevitability only for so long,"Curse, Heritage, Fate","7, 17, 27","%Danger 2+% $Exhaust Gain +X @Fate to gain +1 @Evasion, where X is the sum of Evasion bonuses you have (including this one)",%Danger 7+% $Discard {Second Chance},"%Danger 9+% $Discard When you are about to die, postpone the death until the end of your next turn. You cannot prevent that death in any way. <End of Battle> Gain a random Curse Affliction","mlevel=1
+gate=Danger 2+
+timing=Evasion Roll
+cost=Exhaust
+effect=Gain +X @Fate to gain +1 @Evasion , where X is the sum of Evasion bonuses you have (including this one)",,"mlevel=2
+gate=Danger 7+
+timing=After you draw a Trauma or Obol card
+cost=Discard
+keyword
+effect=Second Chance",,"mlevel=3
+gate=Danger 9+
+timing=When you are about to die
+cost=Discard
+effect=Postpone the death until the end of your next turn. You cannot prevent that death in any way. Then, at the End of Battle: Gain a random Curse Affliction",,,"Cunning, Fury",,
+o.4.mnemos.8,DG2061,The Mule,Odyssey,Mnemos,Cycle IV,Standard,What grows in a barren wasteland?,"Deed, Heritage, Supernatural","6, 16, 26",$Exhaust Move an Irem Tower Terrain tile one space,%Danger 2+% $Discard Move an Irem Tower Terrain tile up to 3 spaces,%Danger 8+% $Discard Place an [Irem Tower|DI2028] Terrain tile anywhere on the Battle Board,"mlevel=1
+timing=Free
+cost=Exhaust
+effect=Move an Irem Tower Terrain tile one space",,"mlevel=2
+gate=Danger 2+
+timing=Free
+cost=Discard
+effect=Move an Irem Tower Terrain tile up to 3 spaces",,"mlevel=3
+gate=Danger 8+
+timing=Free
+cost=Discard
+effect=Place an [Irem Tower|DI2028] Terrain tile anywhere on the Battle Board",,,"Endurance, Wisdom",,
+o.5.mnemos.1,EG2640,Vanishing Point,Odyssey,Mnemos,Cycle V,Standard,It was meant to be,"Curse, Heritage, Fate","5, 15, 25",%Danger 2+% $Fate $Exhaust {Pull 1},%Danger 4+% $Fate $Exhaust {Pushback 2},"%Danger 6+% $Fate $Discard {Pull 3} For the purposes of this Pull, ignore {Lumbering}","mlevel=1
+gate=Danger 2+
+timing=FAW/SAW
+cost=Fate Exhaust
+keyword
+effect=Pull X
+xvalue=1",,"mlevel=2
+gate=Danger 4+
+timing=FAW/SAW
+cost=Fate Exhaust
+keyword
+effect=Pushback X
+xvalue=2",,"mlevel=3
+gate=Danger 6+
+timing=FAW/SAW
+cost=Fate Discard
+effect={Pull 3}. For the purposes of this Pull, ignore Lumbering",,,"Courage, Will",,
+o.5.mnemos.2,EG2641,In Your Image,Odyssey,Mnemos,Cycle V,Standard,What else is there?,"Deed, Family, Dream","6, 16, 26","When you are about to gain at least 1 Pain token, test (8+) for each of these tokens. For each success, lower Pain gain by 1",$Discard Discard up to 2 Pain tokens,"%Danger 7+% $Discard When you are about to draw a Trauma card, gain 5 Pain tokens instead","mlevel=1
+timing=When you are about to gain at least 1 Pain token
+effect=Test (8+) for each of these tokens. For each success, lower Pain gain by 1",,"mlevel=2
+timing=Free
+cost=Discard
+effect=Discard up to 2 Pain tokens",,"mlevel=3
+gate=Danger 7+
+timing=When you are about to draw a Trauma card
+cost=Discard
+effect=Gain 5 Pain tokens instead",,,"Cunning, Will",,
+o.5.mnemos.3,EG2642,Shelter,Odyssey,Mnemos,Cycle V,Standard,How could you let it happen?,"Deed, Tragedy, Crime","3, 13, 23","%Ambrosia 1+% $Fate $Exhaust When another Titan dies, immediately perform @MovementAction","%Ambrosia 2+% If you are adjacent to another Titan, you both ignore Burn","%Ambrosia 3+% If you are adjacent to another Titan, you both gain Tumble and automatically succeed at the Tumble test","mlevel=1
+gate=Ambrosia 1+
+timing=When another Titan dies
+cost=Fate Exhaust
+effect=Immediately perform @MovementAction",,"mlevel=2
+gate=Ambrosia 2+
+timing=Passive
+effect=If you are adjacent to another Titan, you both ignore Burn",,"mlevel=3
+gate=Ambrosia 3+
+timing=Passive
+effect=If you are adjacent to another Titan, you both ignore Crash",,,"Wisdom, Cunning",,
+o.5.mnemos.4,EG2643,Dogma,Odyssey,Mnemos,Cycle V,Standard,You were in the right,"Fate, Supernatural, Gods","4, 14, 24","%Danger 2+% $Fate $Discard When you are about to suffer Burn, ignore that Burn",%Danger 5+% $Fate $Discard Ignore the effects of Despair tokens until the end of your turn,%Danger 8+% $Fate $Discard Ignore Ambrosia tokens placed on your Gear with the Light X keyword until the end of this round,"mlevel=1
+gate=Danger 2+
+timing=When you are about to suffer Burn
+cost=Fate Discard
+effect=Ignore that Burn",,"mlevel=2
+gate=Danger 5+
+timing=Free
+cost=Fate Discard
+effect=Ignore the effects of Despair tokens until the end of your turn",,"mlevel=3
+gate=Danger 8+
+timing=Free
+cost=Fate Discard
+effect=Ignore Ambrosia tokens placed on your Gear with the Light X keyword until the end of this round",,,"Fury, Cunning",,
+o.5.mnemos.5,EG2644,Last Crusader,Odyssey,Mnemos,Cycle V,Standard,There are monsters in this world,"Deed, Voyage, Crime","2, 12, 22","$Fate $Exhaust During a Light Check, gain Light 1","%Danger 5+% $Discard When you attack, ignore all negative Precision modifiers",%Danger 9+% $Fate $Discard {Block 1} or {Defy 1},"mlevel=1
+timing=During a Light Check
+cost=Fate Exhaust
+keyword
+effect=Light X
+xvalue=1",,"mlevel=2
+gate=Danger 5+
+timing=When you attack
+cost=Discard
+effect=Ignore all negative Precision modifiers",,"mlevel=3
+gate=Danger 9+
+timing=After counting hits from an Evasion Roll
+cost=Fate Discard
+keyword
+effect=Block X
+xvalue=1
+option=A","mlevel=3
+gate=Danger 9+
+timing=While performing a Skill test caused by a Judgement
+cost=Fate Discard
+keyword
+effect=Defy X
+xvalue=1
+option=A",,"Endurance, Wisdom",,
+o.5.mnemos.6,EG2645,Words and Deeds,Odyssey,Mnemos,Cycle V,Standard,Do as I say,"Family, Heritage, Gods","1, 11, 21",%Danger 2+% $Fate $Exhaust Take a [Fear|AL0299] or [Dread|AL0299] Condition card of an adjacent Titan and gain +1 @Rage,%Danger 4+% $Fate $Exhaust Take a [Terror|EL2596] or [Holy Terror|EL2596] Condition card of an adjacent Titan and gain 1 Aether token,%Danger 9+% $Discard Discard all Condition cards,"mlevel=1
+gate=Danger 2+
+timing=Free
+cost=Fate Exhaust
+effect=Take a [Fear|AL0299] or [Dread|AL0299] Condition card of an adjacent Titan and gain +1 @Rage",,"mlevel=2
+gate=Danger 4+
+timing=Free
+cost=Fate Exhaust
+effect=Take a [Terror|EL2596] or [Holy Terror|EL2596] Condition card of an adjacent Titan and gain 1 Aether token",,"mlevel=3
+gate=Danger 9+
+timing=Free
+cost=Discard
+effect=Discard all Condition cards",,,"Courage, Will",,
+o.5.mnemos.7,EG2646,Twilight,Odyssey,Mnemos,Cycle V,Standard,This is the end,"Supernatural, Tragedy, Curse","7, 17, 27",%Danger 3+% $Fate $Discard Flip 1 Aether token,%Danger 7+% $Fate $Exhaust Ignore an Aether or Oxygen @Gear cost,"%Danger 9+% $Oxygen $Fate $Discard When you are about to perform a Power Roll, add 1 @WhitePowerDie to your Power Pool","mlevel=1
+gate=Danger 3+
+timing=Free
+cost=Discard
+effect=Flip 1 Aether token",,"mlevel=2
+gate=Danger 7+
+timing=When you are about to pay an ability cost on a Gear card
+cost=Fate Exhaust
+effect=Ignore an Aether or Oxygen @Gear cost",,"mlevel=3
+gate=Danger 9+
+timing=Power Roll
+cost=Oxygen Fate Discard
+effect=Add 1 @WhitePowerDie to your Power Pool",,,"Endurance, Fury",,
+o.5.mnemos.8,EG2647,He Spoke the Truth,Odyssey,Mnemos,Cycle V,Standard,You have been chosen,"Deed, Curse, Voyage","8, 18, 28",%Despair 2+% $Fate $Discard {Dare},%Despair 3+% $Aether $Discard {Deny},%Despair 4+% $Oxygen $Fate $Discard Your Titan's Power die becomes @MortalPowerDie for the duration of this Battle,"mlevel=1
+gate=Despair 2+
+timing=When you are about to draw an Obol
+cost=Fate Discard
+keyword
+effect=Dare",,"mlevel=2
+gate=Despair 3+
+timing=When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range
+cost=Aether Discard
+keyword
+effect=Deny",,"mlevel=3
+gate=Despair 4+
+timing=Free
+cost=Oxygen Fate Discard
+effect=Your Titan's Power die becomes @MortalPowerDie for the duration of this Battle",,,"Courage, Wisdom",,

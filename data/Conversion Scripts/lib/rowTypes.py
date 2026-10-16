@@ -243,11 +243,17 @@ def mnemos_row(row):
     ability2 = parse_abilities(row["Ability 2"])
     ability3 = parse_abilities(row["Ability 3"])
 
+    functional_abilities = []
+    for i in range(1, 7):
+        if (row["FAbility " + str(i)]):
+            functional_abilities.append(parse_functional_abilities(row["FAbility " + str(i)]))
+
     card_json = {
         "flavor": row["Flavor"],
         "traits": row["Traits"].split(", "),
         "abilities": [ability1, ability2, ability3],
         "stats": row["Stat"].split(", "),
+        "functionalAbilities": functional_abilities,
     }
 
     return card_json
@@ -525,6 +531,11 @@ def titan_row(row):
     trauma_table = parse_trauma(row["Trauma Table"])
     
     abilities = parse_abilities(row["Abilities"])
+
+    functional_abilities = []
+    for i in range(1, 10):
+        if (row["Ability " + str(i)]):
+            functional_abilities.append(parse_functional_abilities(row["Ability " + str(i)]))
     
     card_json = {
         "subtitle": row["Subtitle"] or None,
@@ -533,6 +544,7 @@ def titan_row(row):
         "kratosTable": kratos_table,
         "traumaTable": trauma_table,
         "abilities": abilities,
+        "functionalAbilities": functional_abilities,
     }
 
     return card_json

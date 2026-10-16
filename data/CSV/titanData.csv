@@ -1,45 +1,387 @@
-Ref ID,Card ID,Name,Subtitle,Game,Render Type,Cycle,Found In,Card Size,Titan Power,Speed,Abilities,Kratos Table,Trauma Table,Trauma Ability,FAQ,V 1.1 Updates,V 1.2 Updates
-o.1.titan.1,AK0291,Herodotus,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.1.titan.2,AK0292,Ulyssea,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.1.titan.3,AK0293,Philoctera,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.1.titan.4,AK0294,Solon,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.1.titan.5,AK0295,Earthshaker,,Odyssey,Titan,Cycle I,,Half-Page,Red,5,{Cold Open}. {Six-Armed},1-Reroll 1. 2-Break 1 and Opening 1. 3-Provoke or Reroll 1. 4-Break 1 and Opening 1. 5-Red. 6-Diversion. 7-Opening 1 and Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.1.titan.6,AK0296,Mazerunner,,Odyssey,Titan,Cycle I,,Half-Page,Red,6,{Maze Awareness}. %Danger 3+% $ComplicatedAction $Fate {Improved Rush},1-Opening 1 and Reposition 1. 2-Break 1 and Vault. 3-Reroll 1 and Motivate 1. 4-Opening 1 and Reposition 1. 5-Break 1 and Motivate 1 or Reroll 1. 6-Red. 7-Opening 1 or Break 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,,,
-o.1.titan.7,AK0297,Logicbreaker,,Odyssey,Titan,Cycle I,,Half-Page,Red,5,{Auto-break 1}. $Fate {Logicbreak}. $Fate {Theseus Logic},1-Overbreak 1 and Reroll 1. 2-Opening 1 or Overbreak 1. 3-Overbreak 1 and Reroll 1. 4-Elation 1 or Tireless. 5-Red. 6-Overbreak 1 and Reroll 1. 7-Elation 1 or Overbreak 1,"O 1, Mi 2-4, Ma 5-7, G 8-9, O 10+",,"*Logicbreak's* @CombatAction must be spent immediately, can be used for anything a @CombatAction can normally be used for, and first Chain Breaks if used to perform a Titan Attack",,
-o.1.titan.8,AK0298,Gamechanger,,Odyssey,Titan,Cycle I,,Half-Page,Black,5,$Fate $Exhaust {Advanced Reflex}. {Unknown Might}. {Disturbance in Fate}. {Ruse},1-Break 1 and Opening 1 or Reroll 1. 2-Elation 1. 3-Break 1 or Opening 1 and Reroll 1. 4-Red. 5-Break 1 or Reroll 2. 6-Precise. 7-Break 1 and Reroll 1,"Mi 1-4, Ma 5-8, G 9, O 10+",,,,
-o.2.titan.1,BK0654,Warkeeper,,Odyssey,Titan,Cycle II,,Half-Page,Red,5,{Rage Summit}. {Cyclopean Might}. {Spartan-Bred},1-Break 2 or Pushback 1. 2-Opening 1 or Reroll 1. 3-Reroll 1 or Pushback 1. 4-Red. 5-Pushback 1 or Opening 1. 6-Tireless or Break 1. 7-Pushback 1 or Break 1. 8-RedtoBlack,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.2.titan.2,BK0655,Firestarter,,Odyssey,Titan,Cycle II,,Half-Page,Red,4,{Power Re-roll 1}. {Stout}. {Stubborn}. {Spartan-Bred},1-Opening 1 and Fire 1. 2-Fire 1 or Opening 1. 3-Opening 1 or Reroll 1. 4-Fire 1. 5-Red. 6-Opening 1 or Reroll 1. 7-Fire 1,"Mi 1-4, Ma 5-7, G 8-9, O 10+",,,,
-o.2.titan.3,BK0656,Abysswatcher,,Odyssey,Titan,Cycle II,,Half-Page,Red,5,{Auto-black 1}. {Ambrosia Limit -1}. {Dual-Wielding}. {One for All}. {Fearless}. {Abyss-tainted}. {The Abyss Calls},1-Fire 1 and Reroll 1 or Opening 1 and Reroll 1. 2-Black 1. 3-Fire 1 or Opening 1. 4-Black 1 and Vault or Reroll 1 and Vault. 5-Red. 6-Fire 1 and Reroll 1 or Black 1 and Reroll 1. 7-Opening 1. 8-Heartseeker,"Mi 1-9, O 10+",,"*Dual-wielding* can only copy keywords, not any related variable text. For example, a gear with ""Break X. X is the number of dice you hit with"". *Dual-wielding* can only copy the ""Break X"" and not the second sentence, so you would be copying ""Break 0"" in this case",,
-o.3.titan.1,CK1278,Ascender,,Odyssey,Titan,Cycle III,,Half-Page,Red,5,{Auto-break 1}. {Surpass!}. {Survive!}. {Ascend!},1-Black 1 and Elation 1. 2-Reroll 2. 3-Break 1 and Opening 1. 4-Red. 5-Black 1 and Elation 1 or Reroll 1. 6-Tireless. 7-Rouse 1,"Mi 1-4, Ma 5-7, G 8-10, O 11+",,,,
-o.3.titan.2,CK1279,Returner,,Odyssey,Titan,Cycle III,,Half-Page,Red,6,{The Return}. {Kreios Strain}. {Cheat Fate}. {Fickle Fate},1-Pass 1 or Reroll 1. 2-Motivate 1 and Black 1. 3-Pass 1 and Inspire 1 or Reroll 1. 4-Motivate 2 and Pass 1 or Pass 2. 5-GreaterPass 1 and Reroll 1. 6-Red. 7-Motivate 1 and Inspire 1 or Reroll 1. 8-GreaterPass 1 and Black 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,*Cheat Fate* is unaffected by modifications to the Obol Deck during the Battle,,
-o.3.titan.3,CK1280,Dawnburner,,Odyssey,Titan,Cycle III,,Half-Page,Black,5,$Fate $Exhaust {Advanced Jump}. $Fate {Scale}. {Cyclopean Might}. {In Light and Shade}. $Fate {Fall and Soar}. $Fate {Lifeline},1-Hope 1 or Opening 1. 2-Vault and Reroll 1 or Fire 1. 3-Tireless and Reposition 2. 4-Fire 1 and Opening 1 or Hope 1. 5-Red. 6-BPSuppress or Fire 1. 7-Hope 1 and Opening 1. 8-Rouse 1. 9-Power 1,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,,,
-o.3.titan.4,CK1281,Truthbearer,,Odyssey,Titan,Cycle III,,Half-Page,Black,5,{Ambrosia Limit 5}. {Bleeding Limit 5}. {Despair Limit 5}. {Last Titan Standing}. {The Truth}. {Elder Might}. {Disturbance in Fate},1-Break 1 and Opening 1. 2-Reroll 1 and Burden 1. 3-Break 1 and Hope 1 or Break 1 and Black 1. 4-Red and Elation 1. 5-Opening 1 and Hope 1 or Opening 1 and Black 1. 6-Reroll 1 and Burden 1. 7-Hope 1 and Reroll 1. 8-Succor,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,,Updated Burden X keyword definition on back of sheet,
-o.3.titan.5,CK1282,Skyseer,,Odyssey,Titan,Cycle III,,Half-Page,Red,5,{Kreios Strain}. $Fate $Danger $Exhaust {Fly}. $Fate $Exhaust {Scale}. {Seer Sense}. $Fate {Fall and Soar}. %Danger 8+% $Fate $Exhaust {Lifeline},1-Opening 1 and Reposition 2. 2-Black 1 and Vault or Reroll 1. 3-Opening 1 and Motivate 1. 4-Black 1 and Reposition 1 or Reroll 1. 5-Opening 1 and Reposition 1. 6-Red and Reroll 1. 7-Hope 1. 8-Hope 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,,"Updated Seer Sense text: ""Wound"" to ""Trauma""",Removed {Auto-break 1}. Nerfed @Speed from 7 to 5. Nerfed Fly ability by adding additional @Danger to cost. Nerfed Lifeline ability by adding %Danger 8+% gate and @Exhaust cost. Removed {Opening 1} from Kratos table @Rage 8 and @Rage 9
-o.4.titan.1,DK1999,Talespinner,,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,{Auto-break 1}. {Arabian Nights}. {Spinning Tales}. {Tall Tales}. $Fate $Exhaust {Persian Deal},1-Overbreak 1 or Opening 1. 2-Reroll 1 and Reposition 1. 3-Overbreak 1 or Opening 1. 4-Reroll 1 and Reposition 1. 5-Overbreak 1 or Opening 1. 6-Red and Reposition 1. 7-Overbreak 1 and Reroll 1. 8-Overbreak 1 or Opening 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,,,
-o.4.titan.2,DK2001,Shadowdancer,,Odyssey,Titan,Cycle IV,,Half-Page,Black,5,{Nimble Feet}. {Shadowdance}. {Dance of Fate},1-Closing 1 and Reposition 2. 2-Break 1 and Reroll 1. 3-Closing 1 and PolePosition. 4-Break 1 and Reroll 1 or Scale 1. 5-Break 1 and Reroll 1 and Scale 1. 6-Red and Closing 1. 7-Diversion. 8-Heartseeker,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,"*Shadowdance* can only be used after _fully_ resolving a Primordial Attack. If the Attack does not fully resolve for any reason, you cannot use this ability",,
-o.4.titan.3,DK2002,Cloudsoarer,,Odyssey,Titan,Cycle IV,,Half-Page,Red + Power,6,{Lightweight Curse}. $Fate {Levitate}. $Fate {Fall and Soar}. $Fate and Knockdown to {Lifeline}. {Carry the Weight},1-Opening 2 or Reroll 1. 2-Break 1 and Reroll 1 or Scale 1. 3-Opening 1 and Reposition 1 or Closing 1. 4-Break 1 and Reroll 1 or Scale 1. 5-Red. 6-Closing 1 and PolePosition. 7-Break 1 or Scale 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.4.titan.4,DK2003,Wishender,,Odyssey,Titan,Cycle IV,,Half-Page,Black,4,{Four-Armed Centimanes}. {Wish Shield}. {Djinnslayer}. {Wish Engine},1-Break 1 and Reroll 1 or Opening 2 and Reroll 1. 2-Closing 1 or Break 2. 3-Reroll 1 and Motivate 1. 4-Closing 1 or Opening 2. 5-Red and Reroll 1. 6-Hope 1 and Scale 1 or Closing 2 and Scale 1. 7-Succor,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.4.titan.5,DK2004,Lunarlander,,Odyssey,Titan,Cycle IV,,Half-Page,Red,5,{Auto-hope 1}. {Selenian Strain}. {One Small Step}. $Fate {Grey Alchemy}. {Forgotten Curse},1-Break 1 or Opening 1 and Scale 1. 2-Pass 1 and Reroll 1. 3-Unburden 1 and Scale 1 or Elation 1. 4-GreaterPass 1 or Pass 2. 5-Red and Scale 1. 6-GreaterPass 1 or Pass 1 and Reroll 1. 7-Unburden 1 or Elation 1. 8-GreaterPass 1 and Reroll 1 or GreaterPass 2. 9-Pass 1 and Scale 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.4.titan.6,DK2005,Immortal Truthbearer,,Odyssey,Titan,Cycle IV,,Half-Page,Black,5,{Auto-black 1}. {Ambrosia Limit 6}. {Bleeding Limit 6}. {Despair Limit 5}. {Wish Dodge}. {Fate Follows}. {Last Titan Standing}. {Elder Might}. {The Truth},1-Break 1 and Closing 1. 2-Reroll 1 and Burden 1. 3-Break 1 and Hope 1 or Black 1. 4-Red and Elation 1. 5-Closing 1 and Hope 1 or Black 1. 6-Reroll 1 and Burden 1. 7-Hope 1 and Reroll 1. 8-Succor,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,,,
-o.4.titan.7,DK9916,Daredevil Wishender,,Odyssey,Titan,Cycle IV,Promo,Half-Page,Black,4,{Four-Armed Centimanes}. {Wish Shield}. {Djinnslayer}. {Wish Engine},1-Break 1 and Reroll 1 or Opening 2 and Reroll 1. 2-Closing 1 or Break 2. 3-Reroll 1 and Motivate 1. 4-Closing 1 or Opening 2. 5-Red and Reroll 1. 6-Hope 1 and Scale 1 or Closing 2 and Scale 1. 7-Succor,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.5.titan.1,EK2592,Feareater,,Odyssey,Titan,Cycle V,,Half-Page,Red + Power,5,{Born in the Dark}. {Ur-Tainted}. {Fear is the Mind Killer},1-Pull 1 or Opening 1 and Motivate 1. 2-Closing 1 or Reroll 1 and Break 1. 3-Pull 1 and Motivate 1. 4-Closing 1 or PolePosition and Break 1. 5-Black 1 and Motivate 1. 6-Red and Pull 1. 7-Reroll 1 and Black 1. 8-Closing 1 and Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.5.titan.2,EK2593,Helldiver,,Odyssey,Titan,Cycle V,,Half-Page,Black,4,{Auto-black 1}. {Ambrosia Limit 6}. {Cyclopean Might}. {Silver Strain}. {Aether Lamp}. {Electromagnetic Shield},1-Opening 1 or Overbreak 1. 2-Overbreak 1 and Taint 1. 3-Overbreak 1 and Taint 1 or Diversion and Opening 1. 4-Red and Taint 1. 5-Overbreak 1 and Opening 1. 6-Overbreak 1 and Taint 1 or Rouse 1. 7-Elation 1 or AISuppress. 8-Overbreak 1. 9-Elation 1,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,,,
-o.5.titan.3,EK2594,Trespasser,,Odyssey,Titan,Cycle V,,Half-Page,Black,5,{Auto-Hope 1}. {Ambrosia Limit 5}. {Despair Resilience 1}. %Rage 8+% {Deny}. {Silver Strain}. {Abyss-Tainted}. {To Dark We Will at Last Return},1-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 2-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 3-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 4-PolePosition and Break 1 or Opening 1 and Reroll 1. 5-Red and Hope 1. 6-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 7-Heartseeker and Hope 1,"Mi 1-5, Ma 6-9, G 10-12, O 13+",,,,
-o.5.titan.4,EK2595,Executioner,,Odyssey,Titan,Cycle V,,Half-Page,Black,5,{Final Countdown}. {Internalize Pain}. $Oxygen $Fate {Finish Him}. {Cyclopean Might}. {Pain Engine},1-Truth 2 or Hope 1 and Pushback 1. 2-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 3-Truth 2. 4-Red. 5-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 6-Truth 2. 7-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 8-Precise,"Mi 1-4, Ma 5-7, G 8-10, O 11+",,,,
-o.2.titan.17,EK9912,Solon,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.16,EK9913,Philoctera,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.15,EK9914,Ulyssea,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.14,EK9915,Herodotus,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.13,DK9917,Herodotus,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.12,DK9918,Ulyssea,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.11,DK9919,Philoctera,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.10,DK9920,Solon,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},,,
-o.2.titan.9,CK9921,Herodotus,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},,,
-o.2.titan.8,CK9922,Ulyssea,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},,,
-o.2.titan.7,CK9923,Philoctera,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},,,
-o.2.titan.6,CK9924,Solon,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},,,
-o.2.titan.5,BK9928,Solon,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.2.titan.4,BK9929,Philoctera,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.2.titan.3,BK9930,Ulyssea,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.2.titan.2,BK9931,Herodotus,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,,,
-o.2.titan.1,EK9931,Strider,,Odyssey,Titan,Cycle V,Promo,Half-Page,Mortal,4,{Dual-Wielding}. {Internalize Despair}. {Cyclopean Might}. {Kreios Strain}. {Final Countdown},1-Opening 1 and Motivate 1 or Hope 2. 2-Opening 1 and Reroll 1 or Hope 1 and Inspire 1. 3-Opening 1 and Hope 1. 4-Red. 5-Opening 1 and Reroll 1 or Hope 1 and Motivate 1. 6-Hope 2. 7-Opening 1 and Reroll 1 or Hope 1 and Motivate 1. 8-Heartseeker. 9-Clutch,"Ma 1-5, G 6-10, O 11+",,"*Dual-wielding* can only copy keywords, not any related variable text. For example, a gear with ""Break X. X is the number of dice you hit with"". *Dual-wielding* can only copy the ""Break X"" and not the second sentence, so you would be copying ""Break 0"" in this case",,
+Ref ID,Card ID,Name,Subtitle,Game,Render Type,Cycle,Found In,Card Size,Titan Power,Speed,Abilities,Kratos Table,Trauma Table,Trauma Ability,Hand Slot Count,Hand Slot Options,Ability 1,Ability 2,Ability 3,Ability 4,Ability 5,Ability 6,Ability 7,Ability 8,Ability 9,Ability 10,FAQ,V 1.1 Updates,V 1.2 Updates
+o.1.titan.1,AK0291,Herodotus,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.1.titan.2,AK0292,Ulyssea,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.1.titan.3,AK0293,Philoctera,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.1.titan.4,AK0294,Solon,Dreamwalker,Odyssey,Titan,Cycle I,,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.1.titan.5,AK0295,Earthshaker,,Odyssey,Titan,Cycle I,,Half-Page,Red,5,{Cold Open}. {Six-Armed},1-Reroll 1. 2-Break 1 and Opening 1. 3-Provoke or Reroll 1. 4-Break 1 and Opening 1. 5-Red. 6-Diversion. 7-Opening 1 and Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,3,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands, 3 1 Hands","timing=When you Attack
+keyword
+effect=Cold Open",,,,,,,,,,,,
+o.1.titan.6,AK0296,Mazerunner,,Odyssey,Titan,Cycle I,,Half-Page,Red,6,{Maze Awareness}. %Danger 3+% $ComplicatedAction $Fate {Improved Rush},1-Opening 1 and Reposition 1. 2-Break 1 and Vault. 3-Reroll 1 and Motivate 1. 4-Opening 1 and Reposition 1. 5-Break 1 and Motivate 1 or Reroll 1. 6-Red. 7-Opening 1 or Break 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Maze Awareness","gate=Danger 3+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Improved Rush",,,,,,,,,,,
+o.1.titan.7,AK0297,Logicbreaker,,Odyssey,Titan,Cycle I,,Half-Page,Red,5,{Auto-break 1}. $Fate {Logicbreak}. $Fate {Theseus Logic},1-Overbreak 1 and Reroll 1. 2-Opening 1 or Overbreak 1. 3-Overbreak 1 and Reroll 1. 4-Elation 1 or Tireless. 5-Red. 6-Overbreak 1 and Reroll 1. 7-Elation 1 or Overbreak 1,"O 1, Mi 2-4, Ma 5-7, G 8-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=FAW
+keyword
+effect=Auto-break X
+xvalue=1","timing=When you survive an Obol
+cost=Fate
+keyword
+effect=Logicbreak","timing=During voluntary movement
+cost=Fate
+keyword
+effect=Theseus Logic",,,,,,,,"*Logicbreak's* @CombatAction must be spent immediately, can be used for anything a @CombatAction can normally be used for, and first Chain Breaks if used to perform a Titan Attack",,
+o.1.titan.8,AK0298,Gamechanger,,Odyssey,Titan,Cycle I,,Half-Page,Black,5,$Fate $Exhaust {Advanced Reflex}. {Unknown Might}. {Disturbance in Fate}. {Ruse},1-Break 1 and Opening 1 or Reroll 1. 2-Elation 1. 3-Break 1 or Opening 1 and Reroll 1. 4-Red. 5-Break 1 or Reroll 2. 6-Precise. 7-Break 1 and Reroll 1,"Mi 1-4, Ma 5-8, G 9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=Reaction
+cost=Fate Exhaust
+keyword
+effect=Advanced Reflex","timing=Crit Miss
+keyword
+effect=Disturbance in Fate","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Ruse",,,,,,,,,,
+o.2.titan.1,BK0654,Warkeeper,,Odyssey,Titan,Cycle II,,Half-Page,Red,5,{Rage Summit}. {Cyclopean Might}. {Spartan-Bred},1-Break 2 or Pushback 1. 2-Opening 1 or Reroll 1. 3-Reroll 1 or Pushback 1. 4-Red. 5-Pushback 1 or Opening 1. 6-Tireless or Break 1. 7-Pushback 1 or Break 1. 8-RedtoBlack,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Rage Summit","timing=Passive
+keyword
+effect=Spartan-Bred",,,,,,,,,,,
+o.2.titan.2,BK0655,Firestarter,,Odyssey,Titan,Cycle II,,Half-Page,Red,4,{Power Re-roll 1}. {Stout}. {Stubborn}. {Spartan-Bred},1-Opening 1 and Fire 1. 2-Fire 1 or Opening 1. 3-Opening 1 or Reroll 1. 4-Fire 1. 5-Red. 6-Opening 1 or Reroll 1. 7-Fire 1,"Mi 1-4, Ma 5-7, G 8-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=Power Roll
+keyword
+effect=Power Re-roll X
+xvalue=1","timing=Passive
+keyword
+effect=Stout","timing=Passive
+keyword
+effect=Stubborn","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Stubborn","timing=Passive
+keyword
+effect=Spartan-Bred",,,,,,,,
+o.2.titan.3,BK0656,Abysswatcher,,Odyssey,Titan,Cycle II,,Half-Page,Red,5,{Auto-black 1}. {Ambrosia Limit -1}. {Dual-Wielding}. {One for All}. {Fearless}. {Abyss-tainted}. {The Abyss Calls},1-Fire 1 and Reroll 1 or Opening 1 and Reroll 1. 2-Black 1. 3-Fire 1 or Opening 1. 4-Black 1 and Vault or Reroll 1 and Vault. 5-Red. 6-Fire 1 and Reroll 1 or Black 1 and Reroll 1. 7-Opening 1. 8-Heartseeker,"Mi 1-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=FAW
+keyword
+effect=Auto-black X
+xvalue=1","timing=Passive
+keyword
+effect=Ambrosia Limit -X
+xvalue=1","timing=Passive
+keyword
+effect=Dual-wielding","timing=Passive
+keyword
+effect=One for All","timing=Passive
+keyword
+effect=Fearless","timing=Passive
+effect=You cannot gain Despair tokens","timing=Start of your turn
+keyword
+effect=Abyss-tainted","timing=After surviving any Trauma other than Obol
+keyword
+effect=The Abyss Calls",,,"*Dual-wielding* can only copy keywords, not any related variable text. For example, a gear with ""Break X. X is the number of dice you hit with"". *Dual-wielding* can only copy the ""Break X"" and not the second sentence, so you would be copying ""Break 0"" in this case",,
+o.3.titan.1,CK1278,Ascender,,Odyssey,Titan,Cycle III,,Half-Page,Red,5,{Auto-break 1}. %Rage 5+% {Surpass!}. {Survive!}. {Ascend!},1-Black 1 and Elation 1. 2-Reroll 2. 3-Break 1 and Opening 1. 4-Red. 5-Black 1 and Elation 1 or Reroll 1. 6-Tireless. 7-Rouse 1,"Mi 1-4, Ma 5-7, G 8-10, O 11+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=FAW
+keyword
+effect=Auto-break X
+xvalue=1","gate=Rage 5+
+timing=Passive
+keyword
+effect=Surpass!","timing=When you would die from an Instant Death effect
+keyword
+effect=Survive!","timing=When you survive a Trauma Draw
+keyword
+effect=Ascend!","timing=Passive
+keyword
+effect=Ascend!",,,,,,,,
+o.3.titan.2,CK1279,Returner,,Odyssey,Titan,Cycle III,,Half-Page,Red,6,$Fate {The Return}. {Kreios Strain}. {Cheat Fate}. {Fickle Fate},1-Pass 1 or Reroll 1. 2-Motivate 1 and Black 1. 3-Pass 1 and Inspire 1 or Reroll 1. 4-Motivate 2 and Pass 1 or Pass 2. 5-GreaterPass 1 and Reroll 1. 6-Red. 7-Motivate 1 and Inspire 1 or Reroll 1. 8-GreaterPass 1 and Black 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=Free
+cost=Fate
+keyword
+effect=The Return","timing=Passive
+keyword
+effect=Kreios Strain","timing=When you are about to draw an Obol
+keyword
+effect=Cheat Fate","timing=Start of Battle
+keyword
+effect=Fickle Fate","timing=Passive
+keyword
+effect=Fickle Fate","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Fickle Fate",,,,,*Cheat Fate* is unaffected by modifications to the Obol Deck during the Battle,,
+o.3.titan.3,CK1280,Dawnburner,,Odyssey,Titan,Cycle III,,Half-Page,Black,5,$Fate $Exhaust {Advanced Jump}. $Fate {Scale}. {Cyclopean Might}. {In Light and Shade}. $Fate {Fall and Soar}. $Fate {Lifeline},1-Hope 1 or Opening 1. 2-Vault and Reroll 1 or Fire 1. 3-Tireless and Reposition 2. 4-Fire 1 and Opening 1 or Hope 1. 5-Red. 6-BPSuppress or Fire 1. 7-Hope 1 and Opening 1. 8-Rouse 1. 9-Power 1,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=At the start of movement
+cost=Fate Exhaust
+keyword
+effect=Advanced Jump","timing=When you are about to perform a Climb Test
+cost=Fate
+keyword
+effect=Scale","timing=Passive
+keyword
+effect=In Light and Shade","timing=When you fail the Hold On test
+cost=Fate
+keyword
+effect=Fall and Soar","timing=When you are about to die from a Chasm space
+cost=Fate
+keyword
+effect=Lifeline",,,,,,,,
+o.3.titan.4,CK1281,Truthbearer,,Odyssey,Titan,Cycle III,,Half-Page,Black,5,{Ambrosia Limit 5}. {Bleeding Limit 5}. {Despair Limit 5}. {Last Titan Standing}. {The Truth}. {Elder Might}. {Disturbance in Fate},1-Break 1 and Opening 1. 2-Reroll 1 and Burden 1. 3-Break 1 and Hope 1 or Break 1 and Black 1. 4-Red and Elation 1. 5-Opening 1 and Hope 1 or Opening 1 and Black 1. 6-Reroll 1 and Burden 1. 7-Hope 1 and Reroll 1. 8-Succor,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=Passive
+keyword
+effect=Ambrosia Limit X
+xvalue=5","timing=Passive
+keyword
+effect=Bleeding Limit X
+xvalue=5","timing=Passive
+keyword
+effect=Despair Limit X
+xvalue=5","timing=Passive
+keyword
+effect=Last Titan Standing","timing=Passive
+keyword
+effect=The Truth","timing=Passive
+keyword
+effect=Elder Might","timing=Crit Miss
+keyword
+effect=Disturbance in Fate",,,,,Updated Burden X keyword definition on back of sheet,
+o.3.titan.5,CK1282,Skyseer,,Odyssey,Titan,Cycle III,,Half-Page,Red,5,{Kreios Strain}. $Fate $Danger $Exhaust {Fly}. $Fate $Exhaust {Scale}. {Seer Sense}. $Fate {Fall and Soar}. %Danger 8+% $Fate $Exhaust {Lifeline},1-Opening 1 and Reposition 2. 2-Black 1 and Vault or Reroll 1. 3-Opening 1 and Motivate 1. 4-Black 1 and Reposition 1 or Reroll 1. 5-Opening 1 and Reposition 1. 6-Red and Reroll 1. 7-Hope 1. 8-Hope 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=Passive
+keyword
+effect=Kreios Strain","timing=Voluntary Movement
+cost=Fate Danger Exhaust
+keyword
+effect=Fly","timing=When you are about to perform a Climb Test
+cost=Fate Exhaust
+keyword
+effect=Scale","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Seer Sense","timing=When you fail the Hold On test
+cost=Fate
+keyword
+effect=Fall and Soar","gate=Danger 8+
+timing=When you are about to die from a Chasm space
+cost=Fate Exhaust
+keyword
+effect=Lifeline",,,,,,"Updated Seer Sense text: ""Wound"" to ""Trauma""",Removed {Auto-break 1}. Nerfed @Speed from 7 to 5. Nerfed Fly ability by adding additional @Danger to cost. Nerfed Lifeline ability by adding %Danger 8+% gate and @Exhaust cost. Removed {Opening 1} from Kratos table @Rage 8 and @Rage 9
+o.4.titan.1,DK1999,Talespinner,,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,{Auto-break 1}. {Arabian Nights}. {Spinning Tales}. {Tall Tales}. $Fate $Exhaust {Persian Deal},1-Overbreak 1 or Opening 1. 2-Reroll 1 and Reposition 1. 3-Overbreak 1 or Opening 1. 4-Reroll 1 and Reposition 1. 5-Overbreak 1 or Opening 1. 6-Red and Reposition 1. 7-Overbreak 1 and Reroll 1. 8-Overbreak 1 or Opening 1,"Mi 1-2, Ma 3-5, G 6-8, O 9+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=FAW
+keyword
+effect=Auto-break X
+xvalue=1","timing=Passive
+keyword
+effect=Arabian Nights","timing=Before the Attack Roll
+keyword
+effect=Spinning Tales","timing=After surviving a Major, Grave, or Obol Trauma
+keyword
+effect=Tall Tales","timing=Free
+cost=Fate Exhaust
+keyword
+effect=Persian Deal",,,,,,,,
+o.4.titan.2,DK2001,Shadowdancer,,Odyssey,Titan,Cycle IV,,Half-Page,Black,5,{Nimble Feet}. {Shadowdance}. {Dance of Fate},1-Closing 1 and Reposition 2. 2-Break 1 and Reroll 1. 3-Closing 1 and PolePosition. 4-Break 1 and Reroll 1 or Scale 1. 5-Break 1 and Reroll 1 and Scale 1. 6-Red and Closing 1. 7-Diversion. 8-Heartseeker,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,3,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 1 Hands","timing=After you resolve a Primordial Attack against you
+keyword
+effect=Shadowdance","timing=When you are about to draw an Obol
+keyword
+effect=Dance of Fate",,,,,,,,,"*Shadowdance* can only be used after _fully_ resolving a Primordial Attack. If the Attack does not fully resolve for any reason, you cannot use this ability",,
+o.4.titan.3,DK2002,Cloudsoarer,,Odyssey,Titan,Cycle IV,,Half-Page,Red + Power,6,{Lightweight Curse}. $Fate {Levitate}. $Fate {Fall and Soar}. $Fate and Knockdown to {Lifeline}. {Carry the Weight},1-Opening 2 or Reroll 1. 2-Break 1 and Reroll 1 or Scale 1. 3-Opening 1 and Reposition 1 or Closing 1. 4-Break 1 and Reroll 1 or Scale 1. 5-Red. 6-Closing 1 and PolePosition. 7-Break 1 or Scale 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"2 Hands, * Hands, 3 Hands","timing=During voluntary movement
+cost=Fate
+keyword
+effect=Levitate","timing=When you fail the Hold On test
+cost=Fate
+keyword
+effect=Fall and Soar","timing=When you are about to die from a Chasm space
+cost=Fate Knockdown
+keyword
+effect=Lifeline","timing=Passive
+keyword
+effect=Carry the Weight","timing=Free
+keyword
+effect=Carry the Weight",,,,,,,,
+o.4.titan.4,DK2003,Wishender,,Odyssey,Titan,Cycle IV,,Half-Page,Black,4,{Four-Armed Centimanes}. {Wish Shield}. {Djinnslayer}. {Wish Engine},1-Break 1 and Reroll 1 or Opening 2 and Reroll 1. 2-Closing 1 or Break 2. 3-Reroll 1 and Motivate 1. 4-Closing 1 or Opening 2. 5-Red and Reroll 1. 6-Hope 1 and Scale 1 or Closing 2 and Scale 1. 7-Succor,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,4,"1 Hand, 2 1 Hands, * Hands, 3 1 Hands","timing=Passive
+keyword
+effect=Wish Shield","timing=Passive
+keyword
+effect=Djinnslayer","timing=Passive
+keyword
+effect=Wish Engine","timing=Free
+keyword
+effect=Wish Engine",,,,,,,,,
+o.4.titan.5,DK2004,Lunarlander,,Odyssey,Titan,Cycle IV,,Half-Page,Red,5,{Auto-hope 1}. {Selenian Strain}. {One Small Step}. $Fate {Grey Alchemy}. {Forgotten Curse},1-Break 1 or Opening 1 and Scale 1. 2-Pass 1 and Reroll 1. 3-Unburden 1 and Scale 1 or Elation 1. 4-GreaterPass 1 or Pass 2. 5-Red and Scale 1. 6-GreaterPass 1 or Pass 1 and Reroll 1. 7-Unburden 1 or Elation 1. 8-GreaterPass 1 and Reroll 1 or GreaterPass 2. 9-Pass 1 and Scale 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=FAW
+keyword
+effect=Auto-hope X
+xvalue=1","timing=Start of Battle
+keyword
+effect=Selenian Strain","timing=Passive
+keyword
+effect=One Small Step","timing=Free
+cost=Fate
+keyword
+effect=Grey Alchemy","timing=After Attack
+cost=Despair Despair Despair
+keyword
+effect=Forgotten Curse",,,,,,,,
+o.4.titan.6,DK2005,Immortal Truthbearer,,Odyssey,Titan,Cycle IV,,Half-Page,Black,5,{Auto-black 1}. {Ambrosia Limit 6}. {Bleeding Limit 6}. {Despair Limit 5}. {Wish Dodge}. {Fate Follows}. {Last Titan Standing}. {Elder Might}. {The Truth},1-Break 1 and Closing 1. 2-Reroll 1 and Burden 1. 3-Break 1 and Hope 1 or Black 1. 4-Red and Elation 1. 5-Closing 1 and Hope 1 or Black 1. 6-Reroll 1 and Burden 1. 7-Hope 1 and Reroll 1. 8-Succor,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=FAW
+keyword
+effect=Auto-black X
+xvalue=1","timing=Passive
+keyword
+effect=Ambrosia Limit X
+xvalue=6","timing=Passive
+keyword
+effect=Bleeding Limit X
+xvalue=6","timing=Passive
+keyword
+effect=Despair Limit X
+xvalue=5","timing=When you are about to resolve an Evasion Roll
+keyword
+effect=Wish Dodge","timing=Passive
+keyword
+effect=Last Titan Standing","timing=Passive
+keyword
+effect=The Truth","timing=Passive
+keyword
+effect=Elder Might","timing=Crit Miss
+keyword
+effect=Fate Follows",,,,
+o.4.titan.7,DK9916,Daredevil Wishender,,Odyssey,Titan,Cycle IV,Promo,Half-Page,Black,4,{Four-Armed Centimanes}. {Wish Shield}. {Djinnslayer}. {Wish Engine},1-Break 1 and Reroll 1 or Opening 2 and Reroll 1. 2-Closing 1 or Break 2. 3-Reroll 1 and Motivate 1. 4-Closing 1 or Opening 2. 5-Red and Reroll 1. 6-Hope 1 and Scale 1 or Closing 2 and Scale 1. 7-Succor,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,4,"1 Hand, 2 1 Hands, * Hands, 3 1 Hands","timing=Passive
+keyword
+effect=Wish Shield","timing=Passive
+keyword
+effect=Djinnslayer","timing=Passive
+keyword
+effect=Wish Engine","timing=Free
+keyword
+effect=Wish Engine",,,,,,,,,
+o.5.titan.1,EK2592,Feareater,,Odyssey,Titan,Cycle V,,Half-Page,Red + Power,5,{Born in the Dark}. {Ur-Tainted}. {Fear is the Mind Killer},1-Pull 1 or Opening 1 and Motivate 1. 2-Closing 1 or Reroll 1 and Break 1. 3-Pull 1 and Motivate 1. 4-Closing 1 or PolePosition and Break 1. 5-Black 1 and Motivate 1. 6-Red and Pull 1. 7-Reroll 1 and Black 1. 8-Closing 1 and Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","timing=Passive
+keyword
+effect=Born in the Dark","timing=Passive
+keyword
+effect=Ur-Tainted","timing=Passive
+keyword
+effect=Fear is the Mind Killer",,,,,,,,,,
+o.5.titan.2,EK2593,Helldiver,,Odyssey,Titan,Cycle V,,Half-Page,Black,4,{Auto-black 1}. {Ambrosia Limit 6}. {Cyclopean Might}. {Silver Strain}. {Aether Lamp}. {Electromagnetic Shield},1-Opening 1 or Overbreak 1. 2-Overbreak 1 and Taint 1. 3-Overbreak 1 and Taint 1 or Diversion and Opening 1. 4-Red and Taint 1. 5-Overbreak 1 and Opening 1. 6-Overbreak 1 and Taint 1 or Rouse 1. 7-Elation 1 or AISuppress. 8-Overbreak 1. 9-Elation 1,"Mi 1-4, Ma 5-8, G 9-11, O 12+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=FAW
+keyword
+effect=Auto-black X
+xvalue=1","timing=Passive
+keyword
+effect=Ambrosia Limit X
+xvalue=6","timing=Start of Battle
+keyword
+effect=Silver Strain","timing=Passive
+keyword
+effect=Aether Lamp","timing=Passive
+keyword
+effect=Electromagnetic Shield",,,,,,,,
+o.5.titan.3,EK2594,Trespasser,,Odyssey,Titan,Cycle V,,Half-Page,Black,5,{Auto-Hope 1}. {Ambrosia Limit 5}. {Despair Resilience 1}. %Rage 8+% {Deny}. {Nimble Hands}. {Silver Strain}. {Abyss-Tainted}. {To Dark We Will at Last Return},1-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 2-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 3-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 4-PolePosition and Break 1 or Opening 1 and Reroll 1. 5-Red and Hope 1. 6-Reposition 1 and Break 1 or Opening 1 and Reroll 1. 7-Heartseeker and Hope 1,"Mi 1-5, Ma 6-9, G 10-12, O 13+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 1 Hands","timing=FAW
+keyword
+effect=Auto-hope X
+xvalue=1","timing=Passive
+keyword
+effect=Ambrosia Limit X
+xvalue=5","timing=Passive
+keyword
+effect=Despair Resilience X
+xvalue=1","gate=Rage 8+
+timing=When the Primordial is about to Vanish, Lightbend, or Flicker while within your Weapon’s effective range
+keyword
+effect=Deny","timing=Start of Battle
+keyword
+effect=Silver Strain","timing=Start of your turn
+keyword
+effect=Abyss-tainted","timing=Passive
+keyword
+effect=To Dark We Will at Last Return",,,,,,
+o.5.titan.4,EK2595,Executioner,,Odyssey,Titan,Cycle V,,Half-Page,Black,5,{Final Countdown}. {Internalize Pain}. $Oxygen $Fate {Finish Him}. {Cyclopean Might}. {Pain Engine},1-Truth 2 or Hope 1 and Pushback 1. 2-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 3-Truth 2. 4-Red. 5-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 6-Truth 2. 7-Truth 1 and Reroll 1 or Hope 1 and Pushback 1. 8-Precise,"Mi 1-4, Ma 5-7, G 8-10, O 11+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=Crit Miss
+keyword
+effect=Final Countdown","timing=Start of your turn
+keyword
+effect=Internalize Pain","timing=When attacking a BP card with a Death Blow Crit effect
+cost=Oxygen Fate
+keyword
+effect=Finish Him","timing=Passive
+keyword
+effect=Pain Engine",,,,,,,,,
+o.2.titan.17,EK9912,Solon,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.16,EK9913,Philoctera,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.15,EK9914,Ulyssea,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.14,EK9915,Herodotus,Cycladean Dreamwalker,Odyssey,Titan,Cycle V,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Opening 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Break 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1 or Break 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.13,DK9917,Herodotus,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.12,DK9918,Ulyssea,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.11,DK9919,Philoctera,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.10,DK9920,Solon,Persian Dreamwalker,Odyssey,Titan,Cycle IV,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1. 7-Opening 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.9,CK9921,Herodotus,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.8,CK9922,Ulyssea,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.7,CK9923,Philoctera,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.6,CK9924,Solon,Delphian Dreamwalker,Odyssey,Titan,Cycle III,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",<Reaction> $Fate $Fate $Exhaust {Reflex},2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.5,BK9928,Solon,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.4,BK9929,Philoctera,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.3,BK9930,Ulyssea,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.2,BK9931,Herodotus,Spartan Dreamwalker,Odyssey,Titan,Cycle II,Promo,Half-Page,Red,5,%Danger 2+% $ComplicatedAction $Fate {Rush},1-Break 1 or Opening 1. 2-Break 1 or Reroll 1. 3-Break 1 or Opening 1. 4-Pushback 1 or Opening 1 or Reroll 1. 5-Red. 6-Break 1 or Opening 1 or Reroll 1,"Mi 1-3, Ma 4-6, G 7-9, O 10+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands","gate=Danger 2+
+timing=Free
+cost=ComplicatedAction Fate
+keyword
+effect=Rush",,,,,,,,,,,,
+o.2.titan.1,EK9931,Strider,,Odyssey,Titan,Cycle V,Promo,Half-Page,Mortal,4,{Dual-Wielding}. {Internalize Despair}. {Cyclopean Might}. {Kreios Strain}. {Final Countdown},1-Opening 1 and Motivate 1 or Hope 2. 2-Opening 1 and Reroll 1 or Hope 1 and Inspire 1. 3-Opening 1 and Hope 1. 4-Red. 5-Opening 1 and Reroll 1 or Hope 1 and Motivate 1. 6-Hope 2. 7-Opening 1 and Reroll 1 or Hope 1 and Motivate 1. 8-Heartseeker. 9-Clutch,"Ma 1-5, G 6-10, O 11+",,2,"1 Hand, 2 Hands, 2 1 Hands, * Hands, 3 Hands","timing=Passive
+keyword
+effect=Dual-wielding","timing=Start of your turn
+keyword
+effect=Internalize Despair","timing=Passive
+keyword
+effect=Kreios Strain","timing=Crit Miss
+keyword
+effect=Final Countdown",,,,,,,"*Dual-wielding* can only copy keywords, not any related variable text. For example, a gear with ""Break X. X is the number of dice you hit with"". *Dual-wielding* can only copy the ""Break X"" and not the second sentence, so you would be copying ""Break 0"" in this case",,
